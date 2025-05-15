@@ -8,7 +8,7 @@ from collections import Counter
 # 🌟 Module-level setup (runs once on import)
 
 # Load the pre-trained spaCy model
-print("Loading spaCy model: en_core_web_trf - English transformer pipeline (roberta-base)...")
+print("Loading SpaCy model: en_core_web_trf - English transformer pipeline (roberta-base)...")
 nlp = spacy.load("en_core_web_trf", disable=['tagger', 'parser', 'lemmatizer'])
 
 # Check if the model is on the GPU
