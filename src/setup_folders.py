@@ -127,12 +127,15 @@ def cleanup_subfolders(parent_folder):
             shutil.rmtree(item)
             print(f"Deleted subfolder: {item}")
             
-
-def main():
+def run_all():
+    print("Running all steps with default parameters...\n")
+    
     # Folders to create
+    print("Creating folders...")
     folders = ["../data", "../docs", "../samples",]
     create_folders(folders)
 
+    print("Extracting archives...")
     # List of archives and corresponding extraction folders
     archives = [
         "../artifacts/UsageExtractionDocuments.zip" ,
@@ -152,6 +155,7 @@ def main():
 
     # Move files, paths relative to script location
     # UsageExtractionDocuments
+    print("Moving sample files...")
     move_files("../artifacts/UsageExtractionDocuments/", "../samples/raw_samples", "*.pdf")
     move_files("../artifacts/UsageExtractionDocuments/", "../docs/", "*.docx")
     move_files("../artifacts/UsageExtractionDocuments/", "../schema", "*.xlsx")
@@ -167,6 +171,12 @@ def main():
     
     # Cleanup 
     cleanup_subfolders("../artifacts")
+    
+    print("Setup complete.")
+            
+
+def main():
+    run_all()
     
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--check-tools":
