@@ -115,6 +115,17 @@ def move_files(source_folder, destination_folder, pattern="*"):
 def move_all(source_folder, destination_folder):
     """Move everything (files and folders) using move_files with '*' pattern."""
     move_files(source_folder, destination_folder, pattern="*")
+    
+def cleanup_subfolders(parent_folder):
+    parent_path = resolve_relative_path(parent_folder)
+    if not parent_path.exists() or not parent_path.is_dir():
+        print(f"Parent folder does not exist: {parent_path}")
+        return
+
+    for item in parent_path.iterdir():
+        if item.is_dir():
+            shutil.rmtree(item)
+            print(f"Deleted subfolder: {item}")
             
 
 def main():
@@ -154,6 +165,8 @@ def main():
     # mist_outputs (move all files/folders)
     move_all("../artifacts/mist_outputs", "../data/ocr_results_outputs")
     
+    # Cleanup 
+    cleanup_subfolders("../artifacts")
     
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--check-tools":
