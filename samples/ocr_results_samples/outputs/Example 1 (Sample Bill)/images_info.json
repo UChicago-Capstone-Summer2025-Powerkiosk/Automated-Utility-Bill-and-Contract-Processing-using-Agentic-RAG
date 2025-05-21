@@ -1,0 +1,38 @@
+{
+    "1_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 1,
+        "filename": "1_1.png",
+        "caption": "Monthly Data Analysis",
+        "description": "This image is a bar graph representing data over a year, with each bar corresponding to a month. The x-axis lists the months from January (D) to December (D), and the y-axis measures the data values. \n\nThe data points for each month are as follows:\n- January (D): Medium height\n- February (J): Slightly taller than January\n- March (F): Tallest bar\n- April (M): Slightly shorter than March\n- May (A): Same height as April\n- June (M): Same height as May\n- July (J): Shorter than June\n- August (A): Slightly shorter than July\n- September (S): Same height as August\n- October (O): Taller than September\n- November (N): Slightly shorter than October\n- December (D): Taller than November, marked in a different color (blue)\n\nThe graph shows variations in data with March having the highest value and the lowest values appearing in August and September. The bar for December is distinctively colored in blue.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.22181186079978943, height=0.06811158359050751, left=0.061770547181367874, top=0.24830490350723267), polygon=[TPoint(x=0.06182399019598961, y=0.24830490350723267), TPoint(x=0.2835824191570282, y=0.24865664541721344), TPoint(x=0.2835354506969452, y=0.31641650199890137), TPoint(x=0.061770547181367874, y=0.3160601556301117)])"
+    },
+    "2_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 2,
+        "filename": "2_1.png",
+        "caption": "Elderly Couple Using Tablet",
+        "description": "The image is a photo showing an elderly couple in a cozy setting. The man, with white hair and a beard, is wearing glasses and holding a tablet. The woman, who has short brown hair, is embracing him from behind, resting her chin on his shoulder, and smiling. They appear to be in a room with a bookshelf filled with books in the background, suggesting a home environment. The scene conveys a sense of warmth and companionship as they engage with the tablet together.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.24593941867351532, height=0.23985376954078674, left=0.0309106707572937, top=0.6809331178665161), polygon=[TPoint(x=0.0309106707572937, y=0.6811203956604004), TPoint(x=0.2766644358634949, y=0.6809331178665161), TPoint(x=0.2768501043319702, y=0.92062908411026), TPoint(x=0.03105311468243599, y=0.9207869172096252)])"
+    },
+    "3_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 3,
+        "filename": "3_1.png",
+        "caption": "Person Using a Tablet in an Office",
+        "description": "The image is a photo of a person sitting on a desk in an office setting. They are looking at a tablet device, which they hold with both hands. The person is wearing a light denim shirt over a white top and dark pants. There are no visible text or values on the tablet. The office environment includes a modern chair, a wooden desk, and a stack of folders or books. The lighting is bright, suggesting it might be daytime, with large windows in the background.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.2551628649234772, height=0.2961687743663788, left=0.029877958819270134, top=0.6823216080665588), polygon=[TPoint(x=0.029877958819270134, y=0.6823652386665344), TPoint(x=0.2847649157047272, y=0.6823216080665588), TPoint(x=0.28504082560539246, y=0.978446900844574), TPoint(x=0.03016313724219799, y=0.97849041223526)])"
+    },
+    "4_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 4,
+        "filename": "4_1.png",
+        "caption": "Auto Pay Enrollment Form",
+        "description": "The image is a form for enrolling in Auto Pay with Xcel Energy. It includes fields for the customer to fill out, such as the 'Authorized Signature,' 'Xcel Energy Account Number,' and 'Date.' There is text instructing the customer to cut off the form and include it with their check and bill stub in the remittance envelope. The form emphasizes that money orders do not qualify and provides additional instructions for enrolling online or contacting the Business Solutions Center.",
+        "geometry": "None"
+    }
+}

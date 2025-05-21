@@ -1,0 +1,65 @@
+{
+    "1_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 1,
+        "filename": "1_1.png",
+        "caption": "Eversource Logo",
+        "description": "The image is a logo for \"EVERSOURCE.\" The text \"EVERSOURCE\" is written in bold, black uppercase letters. The letter \"O\" is stylized with a circle design containing three horizontal bars: the top bar is blue, the middle is white, and the bottom is green. This design element represents a conceptual graphic within the logo, adding a visual emphasis to the brand name.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.3227740228176117, height=0.03190348297357559, left=0.044333260506391525, top=0.02605012245476246), polygon=[TPoint(x=0.044333260506391525, y=0.026078717783093452), TPoint(x=0.36708998680114746, y=0.02605012245476246), TPoint(x=0.3671073019504547, y=0.05792569741606712), TPoint(x=0.04434647783637047, y=0.0579536072909832)])"
+    },
+    "1_2.png": {
+        "image": "<figure image>",
+        "id": "2",
+        "page_num": 1,
+        "filename": "1_2.png",
+        "caption": "Energy Usage vs. Temperature Graph",
+        "description": "This image is a bar graph illustrating the relationship between energy usage (kWh/Day) and average temperature (\u00b0F) across different months. \n\n- The x-axis represents the months, starting from November through October, with corresponding average temperatures listed below each month. \n- The y-axis shows the energy usage in kWh/Day, ranging from 0 to 1000.\n\nData Points:\n- Nov (49\u00b0F): ~200 kWh/Day\n- Dec (37\u00b0F): ~400 kWh/Day\n- Jan (33\u00b0F): ~700 kWh/Day\n- Feb (32\u00b0F): ~900 kWh/Day\n- Mar (42\u00b0F): ~800 kWh/Day\n- Apr (51\u00b0F): ~500 kWh/Day\n- May (60\u00b0F): ~200 kWh/Day\n- Jun (71\u00b0F): ~300 kWh/Day\n- Jul (75\u00b0F): ~400 kWh/Day\n- Aug (76\u00b0F): ~600 kWh/Day\n- Sep (69\u00b0F): ~700 kWh/Day\n- Oct (61\u00b0F): ~400 kWh/Day\n- Nov (0\u00b0F): ~250 kWh/Day (marked in green)\n\nKey Observations:\n- Energy usage peaks in February, with an average temperature of 32\u00b0F.\n- The lowest energy usage occurs in May, corresponding to an average temperature of 60\u00b0F.\n- The bar for the second November (marked in green) represents a forecast or different dataset with an average temperature of 0\u00b0F.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.36711862683296204, height=0.2175760716199875, left=0.05069536343216896, top=0.2164783626794815), polygon=[TPoint(x=0.05069536343216896, y=0.2165062129497528), TPoint(x=0.41769152879714966, y=0.2164783626794815), TPoint(x=0.4178139865398407, y=0.4340319335460663), TPoint(x=0.05078611522912979, y=0.434054434299469)])"
+    },
+    "1_3.png": {
+        "image": "<figure image>",
+        "id": "3",
+        "page_num": 1,
+        "filename": "1_3.png",
+        "caption": "Electricity Cost Breakdown",
+        "description": "This is a cost comparison chart showing the breakdown of electricity expenses into supply and delivery components. The chart is structured into two main sections:\n\n1. **Supply**:\n   - Label: \"Supply\"\n   - Cost: $451.23\n   - Description: \"Cost of electricity from NEXTERA ENERGY SERVICES CONN\"\n   - Color: Blue\n\n2. **Delivery**:\n   - Label: \"Delivery\"\n   - Cost: $553.84\n   - Description: \"Cost to deliver electricity from Eversource\"\n   - Color: Green\n\nThe chart includes a horizontal bar graph at the bottom representing the total cost range from $0 to $1,015. The bar is divided into two colored sections:\n- The blue section represents the supply cost, extending from $0 to $451.23.\n- The green section represents the delivery cost, extending from $451.23 to $1,015.\n\nThe values on the x-axis are marked at intervals: $0, $203, $406, $609, $812, and $1,015.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.4386594593524933, height=0.1689053624868393, left=0.47185781598091125, top=0.2147739976644516), polygon=[TPoint(x=0.47185781598091125, y=0.21480731666088104), TPoint(x=0.9103891849517822, y=0.2147739976644516), TPoint(x=0.9105172753334045, y=0.3836509585380554), TPoint(x=0.4719564914703369, y=0.3836793601512909)])"
+    },
+    "2_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 2,
+        "filename": "2_1.png",
+        "caption": "Eversource Logo",
+        "description": "The image is a logo for Eversource. It features the word \"EVERSOURCE\" in bold, black capital letters. The letter \"O\" is stylized with a circular design that includes three horizontal bands: a blue band on top, a white band in the middle, and a green band on the bottom. This design gives the logo a modern and clean look.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.3220643401145935, height=0.03157515078783035, left=0.04404380917549133, top=0.026170970872044563), polygon=[TPoint(x=0.04405374452471733, y=0.026170970872044563), TPoint(x=0.36610814929008484, y=0.02629375271499157), TPoint(x=0.36610147356987, y=0.057746123522520065), TPoint(x=0.04404380917549133, y=0.05762171000242233)])"
+    },
+    "3_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 3,
+        "filename": "3_1.png",
+        "caption": "Eversource Logo",
+        "description": "The image is a logo for Eversource. It features the word \"EVERSOURCE\" in bold, black letters. The letter \"O\" is stylized with a circular design that incorporates blue, white, and green horizontal stripes, likely symbolizing energy or environmental themes.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.32225993275642395, height=0.0317695178091526, left=0.044189658015966415, top=0.02585970237851143), polygon=[TPoint(x=0.04420270025730133, y=0.025933485478162766), TPoint(x=0.36644959449768066, y=0.02585970237851143), TPoint(x=0.3664414584636688, y=0.05755392834544182), TPoint(x=0.044189658015966415, y=0.05762922018766403)])"
+    },
+    "3_2.png": {
+        "image": "<figure image>",
+        "id": "2",
+        "page_num": 3,
+        "filename": "3_2.png",
+        "caption": "Bar Chart Showing Monthly Data",
+        "description": "The image is a bar chart depicting data across different months. The horizontal axis represents the months of the year, starting from November and looping back to November again. The vertical axis is labeled from 0 to 0.1, and measures the values corresponding to each month.\n\n- Each month from November to October has a grey bar with a value of approximately 0.09.\n- The final bar for November is colored green and also has a value of approximately 0.09.\n\nThis chart shows consistent data across all months with a slight visual distinction for the last November.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.37089234590530396, height=0.1457575261592865, left=0.05334821715950966, top=0.22196438908576965), polygon=[TPoint(x=0.053407516330480576, y=0.22206000983715057), TPoint(x=0.4242405593395233, y=0.22196438908576965), TPoint(x=0.4242072105407715, y=0.36761829257011414), TPoint(x=0.05334821715950966, y=0.36772191524505615)])"
+    },
+    "3_3.png": {
+        "image": "<figure image>",
+        "id": "3",
+        "page_num": 3,
+        "filename": "3_3.png",
+        "caption": "Monthly Data Bar Chart",
+        "description": "The image is a bar chart showing monthly data. The x-axis represents months from November to November, while the y-axis measures values from 0 to 100.\n\nKey data points are as follows:\n\n- November: 40\n- December: 70\n- January: 80\n- February: 60\n- March: 100\n- April: 60\n- May: 50\n- June: 70\n- July: 60\n- August: 50\n- September: 50\n- October: 30\n- November: 20 (in green)\n\nThe highest value occurs in March (100) and the lowest is in the last November (20), which is highlighted in green.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.3754613399505615, height=0.1457347273826599, left=0.051323141902685165, top=0.42372584342956543), polygon=[TPoint(x=0.05138256028294563, y=0.42383381724357605), TPoint(x=0.426784485578537, y=0.42372584342956543), TPoint(x=0.4267513155937195, y=0.5693445205688477), TPoint(x=0.051323141902685165, y=0.5694605708122253)])"
+    }
+}

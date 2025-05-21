@@ -1,0 +1,20 @@
+{
+    "5_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 5,
+        "filename": "5_1.png",
+        "caption": "Direct Energy Logo",
+        "description": "The logo features the text 'Direct Energy Business Marketing, LLC d/b/a Direct Energy Business' with an accompanying image. The image consists of an orange square with a stylized white arrow or energy symbol inside it, positioned to the left of the text. The company's contact information is also included: '194 Wood Avenue South, Second Floor, Iselin, NJ 08830 1.888.925.9115 www.directenergy.com'.",
+        "geometry": "None"
+    },
+    "7_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 7,
+        "filename": "7_1.png",
+        "caption": "Direct Energy Logo",
+        "description": "The image displays the logo of Direct Energy Business. It is positioned at the top left corner of the document. The logo consists of an orange square with a white star-like shape in the center, followed by the text 'Direct Energy' in orange, and 'Business' in gray. This logo is part of the letterhead of Direct Energy Business Marketing, LLC, which is located at 194 Wood Avenue South, Second Floor, Iselin, NJ 08830, with a contact number 1.888.925.9115 and website www.directenergy.com.",
+        "geometry": "None"
+    }
+}
