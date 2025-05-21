@@ -1,0 +1,29 @@
+{
+    "1_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 1,
+        "filename": "1_1.png",
+        "caption": "Bar Chart Showing Monthly Data from August 2022 to August 2023",
+        "description": "This image is a bar chart displaying monthly data values from August 2022 to August 2023. Each bar represents a month, with the height indicating the corresponding data value.\n\n- The x-axis lists the months from August 2022 to August 2023.\n- The y-axis represents the numerical values, though specific values aren't labeled on the axis.\n\nData points extracted from the chart:\n- Aug 2022: 760\n- Sep 2022: 804\n- Oct 2022: 798\n- Nov 2022: 1,051\n- Dec 2022: 1,509\n- Jan 2023: 2,588\n- Feb 2023: 2,565\n- Mar 2023: 2,149\n- Apr 2023: 1,781\n- May 2023: 1,539\n- Jun 2023: 1,717\n- Jul 2023: 1,768\n- Aug 2023: 1,624\n\nThe chart uses a light gray color for the bars, except for August 2023, which is highlighted in blue. The chart visually suggests a general increase from August 2022 to January 2023, followed by fluctuations and a slight decrease towards August 2023.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.4542180597782135, height=0.12011589854955673, left=0.5216398239135742, top=0.2689516246318817), polygon=[TPoint(x=0.5216398239135742, y=0.2689516246318817), TPoint(x=0.9757209420204163, y=0.26926350593566895), TPoint(x=0.9758579134941101, y=0.38906753063201904), TPoint(x=0.5217609405517578, y=0.3887382447719574)])"
+    },
+    "1_2.png": {
+        "image": "<figure image>",
+        "id": "2",
+        "page_num": 1,
+        "filename": "1_2.png",
+        "caption": "Electricity Charges Breakdown",
+        "description": "The image is a pie chart depicting a breakdown of electricity charges. The chart shows the total current charges amounting to $312.75 for the usage of 1,624 kWh. The charges are divided into two main components:\n\n1. Delivery Charge: This is represented by a maroon segment, which accounts for $182.99 of the total charges.\n2. Supplier Charges: This segment is in blue, representing $129.76 of the total charges.\n\nThe center of the chart prominently displays the total current charges and the kWh usage in a black circle with white text, stating:\n- kWh: 1,624\n- Current Charges: $312.75",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.41874006390571594, height=0.22921164333820343, left=0.040540095418691635, top=0.36470189690589905), polygon=[TPoint(x=0.040540095418691635, y=0.36470189690589905), TPoint(x=0.4590528607368469, y=0.36500221490859985), TPoint(x=0.4592801630496979, y=0.5939135551452637), TPoint(x=0.040739502757787704, y=0.5935825705528259)])"
+    },
+    "3_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 3,
+        "filename": "3_1.png",
+        "caption": "Comparison of Energy Usage, Cost, and Temperature",
+        "description": "This image consists of three bar graphs comparing energy usage, average daily cost, and average temperature across three time periods: August 2022, July 2023, and August 2023.\n\n1. **Usage:**\n   - Title: \"Usage: \u2193 144 kWh\"\n   - Data Points:\n     - Aug'22: 760 kWh\n     - Jul'23: 1768 kWh\n     - Aug'23: 1624 kWh\n   - The graph indicates a decrease in usage from July 2023 to August 2023.\n\n2. **Avg. Daily Cost:**\n   - Title: \"Avg. Daily Cost: \u2191 $0.06\"\n   - Data Points:\n     - Aug'22: $5.11\n     - Jul'23: $6.25\n     - Aug'23: $6.31\n   - The graph shows a slight increase in average daily cost from July 2023 to August 2023.\n\n3. **Avg. Temperature:**\n   - Title: \"Avg. Temperature: \u2191 6 \u00b0F\"\n   - Data Points:\n     - Aug'22: 75\u00b0F\n     - Jul'23: 69\u00b0F\n     - Aug'23: 75\u00b0F\n   - The graph depicts an increase in average temperature from July 2023 to August 2023, returning to the level of August 2022.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.4291696846485138, height=0.13280069828033447, left=0.03899185359477997, top=0.7414746880531311), polygon=[TPoint(x=0.03899185359477997, y=0.7415181994438171), TPoint(x=0.46807533502578735, y=0.7414746880531311), TPoint(x=0.46816155314445496, y=0.874244213104248), TPoint(x=0.03905078023672104, y=0.8742753863334656)])"
+    }
+}

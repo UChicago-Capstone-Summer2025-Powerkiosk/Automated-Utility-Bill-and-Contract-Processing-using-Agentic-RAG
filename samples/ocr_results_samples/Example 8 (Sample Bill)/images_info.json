@@ -1,0 +1,20 @@
+{
+    "1_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 1,
+        "filename": "1_1.png",
+        "caption": "Electric Bill Breakdown",
+        "description": "This image is a pie chart illustrating the breakdown of an electric bill totaling $69.76. The chart is divided into three sections:\n\n1. PECO ELECTRIC DELIVERY: Represented by the darkest green section, indicating the portion of the bill attributed to delivery services.\n2. ELECTRIC SUPPLY: Shown in a lighter green, representing the cost associated with the electric supply.\n3. TAXES & FEES: Depicted by a dark grey segment, indicating the portion of the bill that covers taxes and fees.\n\nTo the right of the pie chart, there is textual information providing contact details for PECO (the electric supplier):\n- Address: 2301 Market Street, Philadelphia, PA 19103\n- Phone: 800-494-4000",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.3800973892211914, height=0.14263056218624115, left=0.06479542702436447, top=0.1901039332151413), polygon=[TPoint(x=0.06479542702436447, y=0.19011372327804565), TPoint(x=0.4447958469390869, y=0.1901039332151413), TPoint(x=0.4448928236961365, y=0.33269965648651123), TPoint(x=0.0649016872048378, y=0.33273449540138245)])"
+    },
+    "2_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 2,
+        "filename": "2_1.png",
+        "caption": "Annual Electric Usage Chart",
+        "description": "The image is a bar graph titled \"Your Usage Profile\" that displays \"ANNUAL ELECTRIC USAGE\" from June 2022 to June 2023. The vertical axis represents electric usage in unspecified units, with markers at 0, 123, 246, 369, 492, and 616. The horizontal axis lists the months from June 2022 to June 2023.\n\nData points for each month are as follows:\n- JUN 2022: No bar displayed\n- JUL 2022: No bar displayed\n- AUG 2022: No bar displayed\n- SEP 2022: No bar displayed\n- OCT 2022: No bar displayed\n- NOV 2022: No bar displayed\n- DEC 2022: No bar displayed\n- JAN 2023: No bar displayed\n- FEB 2023: No bar displayed\n- MAR 2023: Approximately 615\n- APR 2023: Approximately 430\n- MAY 2023: Approximately 310\n- JUN 2023: Approximately 245\n\nThere is a note at the bottom indicating that MAR is a \"Non-regular billing period.\" The top right corner contains a URL \"peco.com/smartideas\" with the phrase \"Save energy and money.\" The bars representing 2023 are shown in green for June and gray for previous months.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.4577454626560211, height=0.14829419553279877, left=0.12939484417438507, top=0.48137468099594116), polygon=[TPoint(x=0.1294216513633728, y=0.48137468099594116), TPoint(x=0.5871403217315674, y=0.4814974367618561), TPoint(x=0.587132453918457, y=0.6296688914299011), TPoint(x=0.12939484417438507, y=0.6295311450958252)])"
+    }
+}

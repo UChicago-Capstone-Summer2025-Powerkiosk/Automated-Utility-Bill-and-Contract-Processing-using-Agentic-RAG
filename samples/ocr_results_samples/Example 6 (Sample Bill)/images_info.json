@@ -1,0 +1,11 @@
+{
+    "3_1.png": {
+        "image": "<figure image>",
+        "id": "1",
+        "page_num": 3,
+        "filename": "3_1.png",
+        "caption": "Energy Usage and Demand Chart",
+        "description": "The image is a bar and line graph illustrating energy usage and demand from August 2023 to August 2024. The primary components include:\n\n- **Y-Axis (Left):** Represents energy consumption in kilowatt-hours (kWh), ranging from 0 to 25,000.\n- **Y-Axis (Right):** Represents the highest measured demand each month in kilowatts (kW), ranging from 0 to 40.\n- **X-Axis:** Displays months from August 2023 to August 2024.\n\n**Key Elements:**\n- **Orange Bars:** Indicate the total energy used each month. The values for each month are as follows:\n  - August 2023: ~18,750 kWh\n  - September 2023: ~20,000 kWh\n  - October 2023: ~18,750 kWh\n  - November 2023: ~21,250 kWh\n  - December 2023: ~20,000 kWh\n  - January 2024: ~21,250 kWh\n  - February 2024: ~21,250 kWh\n  - March 2024: ~18,750 kWh\n  - April 2024: ~20,000 kWh\n  - May 2024: ~21,250 kWh\n  - June 2024: ~18,750 kWh\n  - July 2024: ~18,750 kWh\n  - August 2024: ~20,000 kWh\n\n- **Gray Line:** Represents the highest measured demand each month, consistently hovering around 30 kW.\n\n- **Legend:**\n  - *Total energy used* is represented by the orange bars.\n  - *Highest Measured Demand each month* is shown by the gray line.\n  - *E Estimated reading* is mentioned but not visually represented in the chart.\n\nOverall, the chart provides a visual comparison of monthly energy usage with the peak demand, indicating a relatively consistent demand throughout the year.",
+        "geometry": "TGeometry(bounding_box=TBoundingBox(width=0.5153260231018066, height=0.1658782958984375, left=0.08918838202953339, top=0.6094198822975159), polygon=[TPoint(x=0.08918838202953339, y=0.6097627878189087), TPoint(x=0.6043890714645386, y=0.6094198822975159), TPoint(x=0.6045143604278564, y=0.7749516367912292), TPoint(x=0.08926711231470108, y=0.7752981781959534)])"
+    }
+}
