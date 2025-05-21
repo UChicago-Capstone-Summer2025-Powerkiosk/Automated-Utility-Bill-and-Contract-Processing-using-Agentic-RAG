@@ -113,24 +113,9 @@ def move_files(source_folder, destination_folder, pattern="*"):
     print(f"Moved files from {source_path} to {destination_path}")
 
 def move_all(source_folder, destination_folder):
-    source = Path(source_folder).resolve()
-    dest = Path(destination_folder).resolve()
-    if not source.is_dir():
-        print(f"Source folder {source} does not exist!")
-        return
-    dest.mkdir(parents=True, exist_ok=True)
-
-    items = list(source.iterdir())
-    if not items:
-        print(f"No items found in {source}")
-        return
-
-    for item in items:
-        try:
-            shutil.move(str(item), str(dest))
-        except Exception as e:
-            print(f"Failed to move {item}: {e}")
-    print(f"Moved files/folders from {source} to {dest}")
+    """Move everything (files and folders) using move_files with '*' pattern."""
+    move_files(source_folder, destination_folder, pattern="*")
+            
 
 def main():
     # Folders to create
@@ -168,6 +153,7 @@ def main():
 
     # mist_outputs (move all files/folders)
     move_all("../artifacts/mist_outputs", "../data/ocr_results_outputs")
+    
     
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--check-tools":
