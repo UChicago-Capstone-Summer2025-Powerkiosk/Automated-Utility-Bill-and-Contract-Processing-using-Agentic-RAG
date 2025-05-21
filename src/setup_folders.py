@@ -29,8 +29,12 @@ def check_tools():
     print("✅ All required tools are available.")
 
 def create_folders(folders):
+    # Allow single folder (Path or str) or list of them
+    if not isinstance(folders, (list, tuple)):
+        folders = [folders]
+
     for folder in folders:
-        folder = folder.resolve()
+        folder = Path(folder).resolve()
         if not folder.exists():
             folder.mkdir(parents=True)
             print(f"Created folder: {folder}")
@@ -38,9 +42,19 @@ def create_folders(folders):
             print(f"Folder already exists: {folder}")
 
 def extract_archives(archives, dest_dirs):
+    # Allow single archive or list
+    if not isinstance(archives, (list, tuple)):
+        archives = [archives]
+    if not isinstance(dest_dirs, (list, tuple)):
+        dest_dirs = [dest_dirs]
+
+    # If only one dest_dir but multiple archives, replicate dest_dir
+    if len(dest_dirs) == 1 and len(archives) > 1:
+        dest_dirs = dest_dirs * len(archives)
+
     for archive, dest in zip(archives, dest_dirs):
-        archive = archive.resolve()
-        dest = dest.resolve()
+        archive = Path(archive).resolve()
+        dest = Path(dest).resolve()
 
         if not archive.exists():
             print(f"❌ Archive not found: {archive}")
@@ -66,8 +80,8 @@ def extract_archives(archives, dest_dirs):
             print(f"Unsupported archive format: {archive}")
 
 def move_files(source_folder, destination_folder, pattern="*"):
-    source = source_folder.resolve()
-    dest = destination_folder.resolve()
+    source = Path(source_folder).resolve()
+    dest = Path(destination_folder).resolve()
     if not source.is_dir():
         print(f"Source folder {source} does not exist!")
         return
@@ -86,8 +100,8 @@ def move_files(source_folder, destination_folder, pattern="*"):
     print(f"Moved files from {source} to {dest}")
 
 def move_all(source_folder, destination_folder):
-    source = source_folder.resolve()
-    dest = destination_folder.resolve()
+    source = Path(source_folder).resolve()
+    dest = Path(destination_folder).resolve()
     if not source.is_dir():
         print(f"Source folder {source} does not exist!")
         return
