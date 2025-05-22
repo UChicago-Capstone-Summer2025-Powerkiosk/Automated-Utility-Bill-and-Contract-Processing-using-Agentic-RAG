@@ -79,11 +79,12 @@ def main():
                            help="Destination folder")
 
     cl_parser = subparsers.add_parser("cleanup_subfolders", help="Remove folders")
-    cl_parser.add_argument("--folders", 
-                           nargs="+", 
+    cl_parser.add_argument("--folder", 
+                           nargs=1, 
+                           type=str,
                            required=False, 
                            default="../artifacts",
-                           help="List of folders to remove")
+                           help="Specify folder which contain empty subfolders to remove")
     
     # Set a default command when none is specified
     parser.set_defaults(command='run_all', help="Run all steps with default parameters")  # default sub-command
@@ -122,7 +123,7 @@ def main():
         move_all(source, dest)
 
     if args.command == "cleanup_subfolders":
-        cleanup_subfolders(args.folders)
+        cleanup_subfolders(args.folder)
         
 
 if __name__ == "__main__":
