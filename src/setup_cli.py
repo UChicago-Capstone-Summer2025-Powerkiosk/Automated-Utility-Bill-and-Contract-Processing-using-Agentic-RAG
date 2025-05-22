@@ -91,7 +91,8 @@ def main():
 
     action_taken = False
 
-    if args.run_all:
+    if args.command == "run_all" or len(sys.argv) == 1:
+        print("No arguments passed — running default action...")
         run_all()
         action_taken = True
         return
