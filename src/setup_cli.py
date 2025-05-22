@@ -22,6 +22,8 @@ def setup_logging(verbose: bool):
 def main():
     parser = argparse.ArgumentParser(description="Setup utility script with optional commands.")
     parser.add_argument("-v", "--verbose", action="store_true", help="Enable verbose logging")
+    parser.add_argument('--helpme', action='store_true', help='Show help message')  # custom help trigger
+    
     
     subparsers = parser.add_subparsers(dest="command", required=False)
     
@@ -89,12 +91,13 @@ def main():
     args = parser.parse_args()
     setup_logging(args.verbose)
 
-    action_taken = False
+    if args.helpme:
+        parser.print_help()
+        sys.exit(0)
 
     if args.command == "run_all" or len(sys.argv) == 1:
         print("No arguments passed — running default action...")
         run_all()
-        action_taken = True
         return
 
     if args.command == "create_folders":
@@ -102,7 +105,6 @@ def main():
             create_folders(["data", "docs", "samples"])
         else:
             create_folders(args.folders)
-        action_taken = True
 
     if args.command == "extract_archives":
         archives, dest_dirs = arg.archives, arg.dest_dirs
@@ -110,25 +112,18 @@ def main():
             print("Error: --dest_dirs must be same length as --archives")
             sys.exit(1)
         extract_archives(archives, dest_dirs)
-        action_taken = True
 
     if args.command == "move_files":
         source, dest, pattern = args.source, args.dest, args.pattern
         move_files(source, dest, pattern)
-        action_taken = True
 
     if args.command == "move_all":
         source, dest = args.source, args.dest
         move_all(source, dest)
-        action_taken = True
 
     if args.command == "cleanup_subfolders":
         cleanup_subfolders(args.folders)
-        action_taken = True
         
-    # If no actions were triggered, show help
-    if not action_taken:
-        parser.print_help()
 
 if __name__ == "__main__":
     # Check tools first
