@@ -1,0 +1,8 @@
+{{table_data: table-0.csv}}
+
+Please make your check payable to:
+SCG
+Please Indicate Amount Paid
+
+Please mail payment to:
+$\boldsymbol{\mu} \mid \mathrm{l}_{\mathrm{l}} / \mid \mathrm{l} \mid \mathrm{l}_{\mathrm{l}} / \mathrm{l} \mid \mathrm{l} / \mathrm{l} / \mathrm{l}_{\mathrm{l}} \mathrm{l}_{\mathrm{l}} / \mathrm{l} \mid \mathrm{l} / \mathrm{l}_{\mathrm{l}} / \mathrm{l}_{\mathrm{l}} / \mathrm{l} \mid \mathrm{l} / \mathrm{l} \mid \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} / \mathrm{l} /

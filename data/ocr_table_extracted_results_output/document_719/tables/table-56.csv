@@ -1,0 +1,16 @@
+Holdover Market Costs,Quantity,Contract/Market Rate,,Amount,
+Market Energy Purchases,"48,401.14",kWh at 0.0314690,$\$ / \mathrm{kWh}$,"\$1,523.14",
+Subtotal Holdover Market Costs,,,,,"\$1,523.14"
+Transaction Line Losses,Quantity,Contract/Market Rate,,Amount,
+Line Losses on Market Purchases,"3,252.56",kWh at 0.0314690,$\$ / \mathrm{kWh}$,\$102.35,
+Subtotal Transaction Line Losses,,,,,\$102.35
+Contract Charges,Quantity,Contract/Market Rate,,Amount,
+Retail Service Charge,"48,401.14",kWh at 0.0052500,$\$ / \mathrm{kWh}$,\$254.11,
+Subtotal Contract Charges,,,,,\$254.11
+Holdover Costs,Quantity,Contract/Market Rate,,Amount,
+Capacity Charge $\$ / \mathrm{kW}$ Day 06/28/2017 - 07/31/2017 (PLC 100.335 kW x 33.583 Days ) x (Capacity Price $0.0015+$ ZDB 0$)$,"3,369.58",kWh at 0.0015000,$\$ / \mathrm{kWh}$,\$5.05,
+Renewable Portfolio Standards Cost Charge 06/28/2017 - 06/30/2017,"4,071.01",kWh at 0.0001400,$\$ / \mathrm{kWh}$,\$0.57,
+Renewable Portfolio Standards Cost Charge 07/01/2017 - 07/31/2017,"44,330.13",kWh at 0.0001398,$\$ / \mathrm{kWh}$,\$6.20,
+Reliability Must Run Charge 06/28/2017 - 06/30/2017,"4,071.01",kWh at 0.0000000,$\$ / \mathrm{kWh}$,\$0.00,
+Reliability Must Run Charge 07/01/2017 - 07/31/2017,"44,330.13",kWh at 0.0000000,$\$ / \mathrm{kWh}$,\$0.00,
+Ancillary Services Charge 06/28/2017 - 06/30/2017,"4,071.01",kWh at 0.0072989,$\$ / \mathrm{kWh}$,\$29.71,

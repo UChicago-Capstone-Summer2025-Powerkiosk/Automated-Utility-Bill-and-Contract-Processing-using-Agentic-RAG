@@ -1,0 +1,18 @@
+Meter information,,,,,,,,
+Read Dates,Meter Number,Load <br> Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier,Usage
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230321181,General Service,Total kWh,Actual,Actual,,,17
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230321181,General Service,On Pk kW,Actual,Actual,,,0.02
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230322838,General Service,Total kWh,Actual,Actual,,,33114
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230322838,General Service,On Pk kW,Actual,Actual,,,48.84
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230322839,General Service,Total kWh,Actual,Actual,,,0
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230322839,General Service,On Pk kW,Actual,Actual,,,0.00
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323030,General Service,Total kWh,Actual,Actual,,,401556
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323030,General Service,On Pk kW,Actual,Actual,,,858.00
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323076,General Service,Total kWh,Actual,Actual,,,24615
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323076,General Service,On Pk kW,Actual,Actual,,,39.60
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323077,General Service,Total kWh,Actual,Actual,,,58678
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323077,General Service,On Pk kW,Actual,Actual,,,110.10
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323086,General Service,Total kWh,Actual,Actual,,,0
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230323086,General Service,On Pk kW,Actual,Actual,,,0.00
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230345691,General Service,Total kWh,Actual,Actual,,,17
+$\begin{aligned} & 9 / 27 . \\ & 10 / 26 \end{aligned}$,230345691,General Service,On Pk kW,Actual,Actual,,,0.03

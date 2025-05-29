@@ -1,0 +1,14 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,\$35.80
+DS-2 Small General Delivery,Meter Charge,"53,280.00 kWh",,\$ 0.04080000,"\$2,173.82"
+Service,Distribution Delivery Charge Summer,,,Electric Delivery,"\$2,217.41"
+Electric Supply,Purchased Electric Summer,"53,280.00 kWh",,\$ 0.05208000,"\$2,774.82"
+Ameren Illinois,Purchased Electricity Adjustment,"53,280.00 kWh",,\$ 0.00331124,\$ -176.42
+BGS-2 Basic Generation,Supply Cost Adjustment,"53,280.00 kWh",,\$ 0.00074000,\$39.42
+Service,Transmission Service Charge,"53,280.00 kWh",,\$ 0.00899000 Electric Supply,\$478.99
+Taxes and Other Fees,Clean Energy Assistance Charge,"53,280.00 kWh",,\$ 0.00178000,\$94.84
+,Renewable Energy Adjustment,"53,280.00 kWh",,\$ 0.00196000,\$104.43
+,EDT Cost Recovery,"53,280.00 kWh",,\$ 0.00125610,\$66.93
+,Electric Environmental Adjustment,"53,280.00 kWh",,\$ 0.00184030,\$98.05
+,Illinois State Electricity Excise Tax,,,,\$169.66
+,,Total Tax Related Fees,,\$533.91,

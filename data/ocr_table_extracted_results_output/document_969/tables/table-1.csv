@@ -1,0 +1,18 @@
+Peak,11200 kWh,,,44635
+Intermed,7226 kWh,,,kWh used
+Off Peak,26209 kWh,,,
+ELECTRIC SUPPLY,,,,"\$3,489.05"
+"WGL Energy Services, Inc",,,,"3,489.05"
+BGE ELECTRIC DELIVERY,,,,"\$1,375.36"
+Customer Charge,,,,88.00
+EmPower MD Chg,44635 kWh,$x$,.00279,124.53
+Distribution Chg,44635 kWh,$x$,.01631,728.00
+Delivery Svc Demand,116 kW,$x$,3.66,424.56
+ERI Initiative Chg,44635 kWh,$x$,.00023,10.27
+TAXES \& FEES,,,,\$411.43
+MD Universal Svc Prog,,,,53.12
+Envir Srcng,44635 kWh,$x$,.00015,6.70
+Franchise Tax,44635 kWh,$x$,.00062,27.67
+Local Tax,44635 kWh,$x$,.0053,236.57
+State Tax,,,6\%,87.37
+TOTAL,,,,"\$5,275.84"

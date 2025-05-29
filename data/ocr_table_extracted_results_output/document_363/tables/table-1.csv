@@ -1,0 +1,11 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / <br> Trans- <br> mission <br> Tags,*Estimated <br> Meter Read <br> Start Date <br> (MM/OD/YYYY),Purchase <br> Price <br> (cents / kWh),Annual <br> Historical <br> Usage <br> (kWh)
+3803107006,1249 Cedar Road \#109 <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 28.5 \\ 15.5 \end{gathered}$,100402019,7.257,"102,166"
+0481978732,15801 WC Main Street <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 51.9 \\ 41.4 \end{gathered}$,10/01/2019,7.257,"330,865"
+2276809817,101 Seminole Ct <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 61.2 \\ 45.1 \end{gathered}$,100802019,7.257,"308,642"
+8760050792,704 Mariners Row Ste <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 56.3 \\ 70.1 \end{gathered}$,100402019,7.257,"376,471"
+9045096766,11500 Busy Street \#N <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 49.0 \\ 52.4 \end{gathered}$,10/03/2019,7.257,"145,799"
+0863444030,6623 W Broad St <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 71.2 \\ 44.3 \end{gathered}$,10/11/2019,7.257,"331,832"
+0382633733,5922 George <br> Washington Hwy <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 43.5 \\ 34.5 \end{gathered}$,10/10/2019,7.257,"275,029"
+2090177151,1608 Village Blvd SE <br> \#125 <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 48.2 \\ 48.7 \end{gathered}$,10/17/2019,7.257,"247,625"
+9683702402,5209 Providence Road <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 59.0 \\ 50.1 \end{gathered}$,10/19/2019,7.257,"322,295"
+5943090778,4292 Holland Rd \# <br> New <br> (Plaza Azteca Inc),Dominion <br> Virginia <br> Power,GS-2-GS-2U,DOM,$\begin{gathered} 84.4 \\ 72.8 \end{gathered}$,10/23/2019,7.257,"411,853"

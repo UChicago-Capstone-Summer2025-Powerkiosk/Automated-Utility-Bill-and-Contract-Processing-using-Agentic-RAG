@@ -1,0 +1,7 @@
+Meter \#680103509,,,,,
+Previous,Type,Current,Type,Metered,Usage
+10543,Actual,10922,Actual,379,"15,160 kWh"
+-,-,0.949,Actual,0.949,37.96 kW
+4202,Actual,4325,Actual,123,"4,920 kVARh"
+Service Period 11/30 - 01/03,,,,,Multiplier 40
+Next scheduled read date should be between Jan 31 and Feb 3.,,,,,

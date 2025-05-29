@@ -1,0 +1,4 @@
+DESCRIPTION,CURRENT READING,PREVIOUS READING,$\begin{gathered} \text { MEASURED } \\ \text { USAGE } \end{gathered}$,$\begin{gathered} \text { BILLED } \\ \text { USAGE } \end{gathered}$
+Total Energy,6518 Actual,6427 Actual,91,3640 kWh
+Demand,Actual,,,7.96 kW
+Billable Demand,,,,8 kW

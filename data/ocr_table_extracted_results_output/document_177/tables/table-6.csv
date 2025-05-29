@@ -1,0 +1,4 @@
+METER DETAIL,,,,,,,,,
+Utility Acct Meter,Service Period,Days,Price Reading,Current Readings,Reading Type,ComSed,Usage,Usage Type,Usage Per Day
+141757569,08/11/2015 - 09/10/2015,30,6.15,6.15,Actual,1,6.15,kW,N/A
+141757569,08/11/2015 - 09/10/2015,30,21.375,"22,234",Actual,1,858.00,kWh Total,28.60

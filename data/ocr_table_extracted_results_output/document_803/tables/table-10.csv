@@ -1,0 +1,8 @@
+,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+Gas Delivery,Customer Charge,,,,\$327.64
+Ameren Illinois,Distribution Delivery Charge,"3,184.29",Therms,8,0.23786000,\$757.42
+GDS-3 Intermediate Gas,Qualifying Infrastructure Plant Surchg,"\$1,129.25",,8.230000\%,\$70.35
+Delivery Space Heat,Invested Capital Tax Adjustment,"\$1,129.25",,1.080000\%,\$12.20
+,,,,Gas Delivery,"\$1,167.61"
+Gas Supply <br> Ameren Illinois,Purchased Gas Adjustment Charge,"3,184.29",Therms,8,0.69538512,"\$2,214.30"
+,,,,Gas Supply,"\$2,214.30"

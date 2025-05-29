@@ -1,0 +1,6 @@
+Material Gas Service,,,,,,,,,
+Meter <br> Number,Service Period <br> From To,Number <br> of Days,Meter Readings <br> Beginning,,CCF Used,Therm <br> Conversion,Pressure <br> Factor,Gas <br> Rate,Therms Used <br> This Period
+S5028292,06/05/23 07/06/23,31,89129A,90613A,1484,1.043800,1.000000,COM 120,1548.999
+Multiplier : 1,,,,,,,,,
+Distribution and Service Charges,,,\$515.48,,Tax Exempt,,,,\$0.00
+Gas Cost Charge,,,\$725.16,,Total Gas Charges,,,,"\$1,240.64"

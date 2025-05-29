@@ -1,0 +1,16 @@
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Present,Difference,Multiplier,Usage
+9/13-10/14,230102940,General Service,Off Pk kW,Actual,Actual,,,0.00
+9/13-10/14,230102940,General Service,On Pk kW,Actual,Actual,,,0.00
+9/13-10/14,230102940,General Service,Total kWh,Estimate,Actual,,,0
+9/13-10/14,230120559,General Service,Off Pk kW,Actual,Actual,,,0.02
+9/13-10/14,230120559,General Service,On Pk kW,Actual,Actual,,,0.02
+9/13-10/14,230120559,General Service,Total kWh,Estimate,Actual,,,18
+9/13-10/14,230120560,General Service,Off Pk kW,Actual,Actual,,,0.00
+9/13-10/14,230120560,General Service,On Pk kW,Actual,Actual,,,0.00
+9/13-10/14,230120560,General Service,Total kWh,Estimate,Actual,,,0
+9/13-10/14,230181906,General Service,Off Pk kW,Actual,Actual,,,15.06
+9/13-10/14,230181906,General Service,On Pk kW,Actual,Actual,,,15.66
+9/13-10/14,230181906,General Service,Total kWh,Estimate,Actual,,,10832
+9/13-10/14,230183892,General Service,Off Pk kW,Actual,Actual,,,321.00
+9/13-10/14,230183892,General Service,On Pk kW,Actual,Actual,,,312.53
+9/13-10/14,230183892,General Service,Total kWh,Actual,Actual,,,116335

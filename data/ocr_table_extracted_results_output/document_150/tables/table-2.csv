@@ -1,0 +1,16 @@
+"Service Period: Jan 24, 2020 to Feb 24, 2020",,,,,,,
+Description,,Consumption,,Rate,Charge,Tax,Total
+Kilowatt Hours (kWh),,"1,843",0.0429000,79.06,6.52,85.58
+Meter,Start**,End**,Reading,Multiplier,,,
+110797448LG,"65,666","67,509","1,843",1.000000,,,
+PUC Assessment,,,.40,1.0000000,0.40,0.03,0.43
+Gross Receipts Reimb.,,,4.83,1.0000000,4.83,0.40,5.23
+*Meter Charge,,,1,30.8200000,30.82,2.54,33.36
+*Energy Efficiency Cost Recovery Factor,,,"1,843",0.0004140,0.76,0.06,0.82
+*Nuclear Decommissioning Fee,,,34,0.0530000,1.80,0.00,1.80
+TDU Surcharges,,,,,,,
+*Distribution Cost Recovery Factor,,,34,0.0995930,3.39,0.28,3.67
+*TDSP Customer Charge,,,1,9.2500000,9.25,0.76,10.01
+*Distribution System Charge,,,13,5.2271740,67.95,5.61,73.56
+*Transmission Cost Recovery Factor,,,13,3.8605990,50.19,4.14,54.33
+Total,,,,,\$248.45,\$20.34,\$268.79

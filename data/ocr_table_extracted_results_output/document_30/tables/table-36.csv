@@ -1,0 +1,14 @@
+,Readings,Multiplier,Usage,Amount,Total
+GAS,6/20/21,$5 / 21 / 21$,,,
+G-10 Commercial Gas \#440306,3700369,3676900,1,23369,"7,918.80"
+includes Purchased Gas Adjustment of -0.1510000/ccf.,,,,,
+G-10 Demand \#440306,897,991,1,897,0.00
+Demand: Actual: 897.00,Billed: 3209.00,,,,"7,918.80"
+ELECTRIC,6/22/21,$5 / 21 / 21$,,,
+E-2 Commercial Electric \#106468,5227,4918,1500,463500,"65,356.44"
+Includes TVA Fuel Cost Adjustment of 0.0196500/keh,,,,,
+E-2 Demand \#106468,1504,1400,1,1504,"20,985.36"
+Demand: Actual: 1504.00,Billed: 1504.00,,,,
+E-2 Commercial Electric \#106469,10081,9775,1500,459000,0.00
+OTHER MLGW,,,,,
+Facilities Rental Charge,,,0,"3,180.00","3,180.00"

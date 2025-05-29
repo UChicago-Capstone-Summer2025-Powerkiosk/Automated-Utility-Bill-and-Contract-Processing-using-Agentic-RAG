@@ -1,0 +1,9 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+,Customer Charge,,,,\$125.96
+,Meter Charge,,,,\$7.03
+DS-2 Small General Delivery Service,Distribution Delivery Charge Non-Summer,"2,000.00 kWh",@ \$ 0.02768000,\$55.36,
+,Distribution Delivery Charge Non-Summer,"22,185.00 kWh",@ \$ 0.01418000,\$314.58,
+,,,Electric Delivery,\$502.93,
+Electric Supply,Total Energy Charge (\$/kWh),"24,185.00 kWh",@ \$ 0.07850000,"\$1,898.52",
+Ambit Energy,,,,,
+Ambit Rate,,,Electric Supply,"\$1,898.52",

@@ -1,0 +1,23 @@
+Invoice Date: 09/07/16,,Invoice Period - 08/04/16 thru 09/05/16,,,,,
+Province Balance,,New C,charges,Payments/Adj.,,Due Amount,Due Date
+"\$15,252.49",,"\$18,082.55",,"- $\$ 15,252.49$",,"\$18,082.55",09/27/16
+As Motor,1200,,,6071.42,384,"251,962.57","179,777.05"
+771408,"1,401",09/04 - 09/05,6727.61,6071.42,384,"251,962.57","179,777.05"
+Previous Balance,,,,,,,"\$15,252.49"
+Payments and Adjustments,,,,,,,
+Payment on 08/25/16,,,,,,,"- $\$ 15,252.49$"
+Total Payments/Adjustments,,,,,,,"- $\$ 15,252.49$"
+Current Charges,,,,Qty,Rate,Amount,
+Electric Service,,,,,,,
+Electric Energy Charges.,,,,"251,962.37",0.04590,"\$11,565.07",
+TDU Delivery Charges.,,,,,,"\$3,648.12",
+Transmission Distribution Charges.,,,,,,"\$1,586.81",
+Applicable Taxes,,,,,,,
+City Tax.,,,,,,\$152.39,
+Special Tax.,,,,,,\$152.39,
+PUC Assessment.,,,,,,\$25.36,
+State Tax.,,,,,,\$952.41,
+Total Current Charges.,,,,,,"\$18,082.55",
+Total Amount Due.,,,,,,"\$18,082.55",
+Agreement Details,,,,,,,
+08/04/16 - 09/05/16 Fixed Rate,,,,"251,962.37",0.04590,"\$11,565.07",

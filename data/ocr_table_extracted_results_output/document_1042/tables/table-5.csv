@@ -1,0 +1,18 @@
+,,,,NEW YORK POWER AUTHORITY Billing and Adjustment Statement,
+,,,,"API Heat Transfer, Inc.",
+,Contract Account:,200006422,Billing Period:,August 2022,
+,Invoice Number:,6100107725,Hours in this period:,744,
+,Service Tariff:,RNY1,Transmission Operator:,NGRID,
+,Allocation:,70,NYISO Zone:,A,
+,Description,,Quantity,Rate,Amount
+,Demand (KW),,,,
+,RNY-Hydro,,70,$7.80000,$546.00
+,Subtotal,,,,$546.00
+,Energy (KWH),,,,
+,RNY-Hydro,,"29,298",$0.02566,$751.79
+,RNY ECA - Hydro,,"29,298",$0.00304,$89.07
+,Subtotal,,,,$840.86
+,Clean Energy Standard (CES),,,,
+,ZECS Amount,,"29,298",$0.00405,$118.71
+,Subtotal,,,,$118.71
+,TOTAL CURRENT CHARGES,,,,"$1,505.57"

@@ -1,0 +1,23 @@
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Present,Difference,Multiplier,Usage
+5/3-6/4,230230425,General Service,Off Pk kW,Actual,Actual,,,105.60
+5/3-6/4,230230425,General Service,On Pk kW,Actual,Actual,,,101.80
+5/3-6/4,230230425,General Service,Total kWh,Actual,Actual,,,36210
+CHARGE DETAILS,,,,Municipal Tax,,,,\$153.51
+Retail Delivery Service - 100 kW to 400 kW 5/3/24 - 6/4/24,,,,Service Period Total,,,,"\$5,830.07"
+SUPPLY - FREEPOINT ENERGY SOLUTIONS,,"\$3,366.33",,MISCELLANEOUS,,,,\$0.00
+ENERGY CHAR: 36210@.0899 PER KWH,,,"\$3,253.47",Charges/Credits from previous bill,,,,"\$4,648.52"
+TRANSMISSION CHARGE,,,\$112.86,"Thank You for Your Payment of \$4,648.52 on May 21, 2024",,,,
+DELIVERY - ComEd,,,"\$1,307.37",Total Amount Due,,,,"\$5,830.07"
+Customer Charge,,,\$28.90,UPDATES,,,,
+Standard Metering Charge,,,\$11.31,,,,,
+Distribution Facility Charge,,101.80 kW X 12.01000,"\$1,222.62",,,,,
+IL Electricity Distribution Charge,,"36,210 kWh X 0.00123",\$44.54,,,,,
+TAXES \& FEES,,,"\$1,156.37",,,,,
+Environmental Cost Recovery Adj,,"36,210 kWh X 0.00033",\$11.95,,,,,
+Renewable Portfolio Standard,,"36,210 kWh X 0.00502",\$181.77,,,,,
+Zero Emission Standard,,"36,210 kWh X 0.00195",\$70.61,,,,,
+Carbon-Free Energy Resource Adj,,"36,210 kWh X 0.00880",\$318.65,,,,,
+Energy Efficiency Programs,,"36,210 kWh X 0.00691",\$250.21,,,,,
+Energy Transition Assistance,,"36,210 kWh X 0.00072",\$26.07,,,,,
+Franchise Cost,,"\$1,284.55 X 2.17000\%",\$27.87,,,,,
+State Tax,,,\$115.73,,,,,

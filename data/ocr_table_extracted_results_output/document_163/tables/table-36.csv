@@ -1,0 +1,5 @@
+Charge description,Rate description,Start,End,Energy consumed,Price,VAY rate,Net total
+Electricity consumption @ GSP,DAV,01/11/2021,30/11/2021,"128,973.7 <br> kWh",5.97500 <br> p/kWh,870,"57,706.18"
+,Night,01/11/2021,30/11/2021,"38,985.9 kWh",4.16000 <br> p/kWh,870,"61,612.77"
+Flexible purchasing,,,,,,,
+Flexible purchasing reconstitution,,01/11/2021,30/11/2021,,,870,10.00

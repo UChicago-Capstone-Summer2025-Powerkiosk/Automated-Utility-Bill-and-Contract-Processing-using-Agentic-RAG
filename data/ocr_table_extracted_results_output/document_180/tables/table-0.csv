@@ -1,0 +1,10 @@
+ERCOT,Value
+Energy,Included
+Ancillaries,Included
+Congestion Revenue Rights,Included
+Losses,Included
+Nodal Congestion,Included
+RPS,Included
+Default Securitization Charges,Pass Through
+Uplift Securitization Charges,Pass Through
+Applicable Taxes,Pass Through

@@ -1,0 +1,8 @@
+,,,Contract Quantity:,,Contract Price - USD,,,
+Delivery <br> Period,Delivery <br> Point,,Pipeline,Tier,Volume UOM,Fixed Price,Index,Index Prem / <br> (Disc)
+05/01/25 - 05/31/25,New Hope Sales - AEMS,,TGP,,"6,019 MMBTU/ <br> Month",,NYMEX,NYMEX,100.00,0.0000
+06/01/25 - 06/30/25,New Hope Sales - AEMS,,TGP,,"5,127 MMBTU/ <br> Month",,NYMEX,NYMEX,100.00,0.0000
+FEE DETAILS,,,,,,,,,,
+Start / <br> End Date,Pay / <br> Rec,Pay Frequency,Description,Fee - USD,,,Type,,,
+07/01/23 - 06/30/25,,Monthly,Transport Cost,0.5500,,Per Unit,,,,
+07/01/23 - 06/30/25,,Monthly,Transport Fuel,See Specials,,Per Unit,,,,

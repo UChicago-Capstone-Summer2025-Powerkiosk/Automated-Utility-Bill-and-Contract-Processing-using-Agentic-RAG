@@ -1,0 +1,15 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,\$65.32
+DS-3 General Delivery,,,,\$10.52
+Service $<400 \mathrm{~kW}$,Distribution Delivery kW Charge,121.70 kW,@ \$ 6.79500000,\$826.95
+,Transformation Charge,207.80 kW,@ \$ 0.59000000,\$122.60
+,Electric Environmental Adjustment,"58,390.00 kWh",@ \$ 0.00008060,\$4.71
+,Energy Efficiency Demand Response,"58,390.00 kWh",@ \$ 0.00176000,\$102.77
+,,,Electric Delivery,"\$1,123.45"
+Electric Supply,SUPPLIER ENERGY CHARGES,"58,389.00 kWh",@ \$ 0.05080000,"\$2,954.52"
+AEP Energy,,,,
+,,,Electric Supply,"\$2,954.52"
+Taxes and Other Foes,Alton Municipal Tax,,,\$25.28
+,Illinois State Electricity Excise Tax,,,\$185.14
+,EDT Cost Recovery,,,\$83.16
+,,,Total Tax Related Foes,\$293.90

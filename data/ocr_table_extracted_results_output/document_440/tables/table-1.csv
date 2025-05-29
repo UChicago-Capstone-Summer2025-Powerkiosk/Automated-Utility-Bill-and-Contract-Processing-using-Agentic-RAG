@@ -1,0 +1,4 @@
+Year,Number,Current <br> Read,Prior <br> Read,Multiplier,Total kWh,Read Type,Demand kW
+011235384,Peak,011892,011728,200,"32,800",Actual,245.8
+011235384,Shoulder,008028,007910,200,"23,600",Actual,229.6
+011235384,Off Peak,012726,012558,200,"33,600",Actual,200.6

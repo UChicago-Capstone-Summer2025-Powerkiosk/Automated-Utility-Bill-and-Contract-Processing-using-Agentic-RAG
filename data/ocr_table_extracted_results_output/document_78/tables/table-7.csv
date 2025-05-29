@@ -1,0 +1,5 @@
+Meter information,,,,,,,
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier <br> $X$,Usage
+7:30- <br> 8:30,271661621,General Service,Total kWh,67553 Actual,68637 Actual,1084,1,1084
+$\begin{aligned} & 7: 30- \\ & 8: 30 \end{aligned}$,271661621,General Service,On Pk kW,0.00 Actual,3.09 Actual,3.09,1,3.09
+$\begin{aligned} & 7: 30- \\ & 8: 30 \end{aligned}$,271661621,General Service,Off Pk kW,0.00 Actual,2.54 Actual,2.54,1,2.54

@@ -1,0 +1,4 @@
+Meter Information,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier <br> $X$,Usage
+$\begin{aligned} & \text { TR- } \\ & \text { B3 } \end{aligned}$,230170200,General Service,Total kWh,Actual,Actual,,,98348
+$\begin{aligned} & \text { TR- } \\ & \text { B3 } \end{aligned}$,230170200,General Service,On Pk kW,Actual,Actual,,,183.60

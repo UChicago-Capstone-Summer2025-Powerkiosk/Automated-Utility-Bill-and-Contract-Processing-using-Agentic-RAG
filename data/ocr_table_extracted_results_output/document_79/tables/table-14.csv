@@ -1,0 +1,3 @@
+UDC,UDC Account Number,Service Address,Start <br> Date,End <br> Date,Retail <br> Service <br> Price <br> (\$kWh)
+COMED,0402016120,"233 E Wacker Dr Shop, Chicago, IL <br> 60654",$12 / 01 / 23$,$11 / 30 / 27$,$\$ 0.02337$
+COMED,1299208004,"233 E Wacker Dr, Chicago, IL <br> 60601",$12 / 01 / 23$,$11 / 30 / 27$,$\$ 0.02337$

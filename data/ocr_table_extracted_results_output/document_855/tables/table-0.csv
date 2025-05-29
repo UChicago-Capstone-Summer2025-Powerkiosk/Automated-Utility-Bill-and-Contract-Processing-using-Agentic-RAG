@@ -1,0 +1,4 @@
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Present,Difference,Multiplier,Usage
+4/29-5/29,230171328,General Service,Off Pk kW,Actual,Actual,,,138.17
+4/29-5/29,230171328,General Service,On Pk kW,Actual,Actual,,,122.40
+4/29-5/29,230171328,General Service,Total kWh,Actual,Actual,,,35637

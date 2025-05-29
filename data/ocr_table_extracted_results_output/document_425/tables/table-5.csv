@@ -1,0 +1,24 @@
+Invoice Date: 09/15/16,Invoice Period - 08/09/16 thru 09/08/16,,,,,
+Previous Balance,New Charges,,Payments/Adj.,,Due Amount,
+"\$27,871.05","\$26,875.29",,"\$27,871.05",,"\$26,875.29",10/17/16
+84 Motor,1 V4V,209/09,"2 V4V, Btr.","2 V4V, Btr.","2 V4V, Btr.","2 V4V, Btr."
+012397,AC1 (05/09 - 09/08),38.945,9448.48,578,"340,155.07","229,710.24"
+Previous Balance,,,,,,"\$27,871.05"
+Payments and Adjustments,,,,,,
+Payment on 09/14/16,,,,,,"- $\$ 27,871.05$"
+Total Payments/Adjustments,,,,,,"- $\$ 27,871.05$"
+Current Charges,,,Qty,Rate,,Amount
+Electric Service,,,,,,
+Electric Energy Charges,,,"340,155.07",0.04760,,"\$16,191.38"
+TDU Delivery Charges.,,,,,,"\$6,118.82"
+Transmission Distribution Charges.,,,,,,"\$2,201.95"
+Applicable Taxes,,,,,,
+City Tax.,,,,,,\$227.93
+Gross Receipts Reimb.,,,,,,\$445.53
+Special Tax.,,,,,,\$227.93
+PUC Assessment.,,,,,,\$37.19
+State Tax.,,,,,,"\$1,424.56"
+Total Current Charges.,,,,,,"\$26,875.29"
+Total Amount Due.,,,,,,"\$26,875.29"
+Agreement Details,,Usage kWh,,Avg Rate,,Amount
+08/09/16 - 09/08/16 Fixed Rate,,"340,155.07",,0.04760,,"\$16,191.38"

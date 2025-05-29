@@ -1,0 +1,14 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,\$124.58
+DS-3 General Delivery,Meter Charge,193.00 kW,\$ 12.52509999,\$1.44.5
+Service < 400 kW,Distribution Delivery kW Charge,,,
+,,Electric Delivery,"\$1,607.20",
+Electric Supply,HSS Supplier Charge,"2,184.50 PLC Bay",\$ 0.23006030,\$502.57
+Ameren Illinois,HSS Energy Charge,,,"\$3,315.23"
+HSS-3 Hourly Supply Service,HSS Supply Cost Procurement,"36,544.00 kWh",\$ 0.00016090,\$5.85
+,HSS Supply Cost Working Capital,"\$3,823.85",\$ 0.541000\%,\$29.65
+,HSS Supply Cost Uncollectible,"\$3,844.34",\$ 1.134000\%,\$40.58
+,HSS Supply Cost Adjustment,"36,544.00 kWh",\$ 4.0.00014090,\$1.15.
+,Supply Balancing Adjustment,"36,544.00 kWh",\$ 0.00036300,\$1.15.27
+,Transmission Service Charge,410.80 kW-day,\$ 0.22714600,\$93.31
+,,Electric Supply,"\$3,951.89",

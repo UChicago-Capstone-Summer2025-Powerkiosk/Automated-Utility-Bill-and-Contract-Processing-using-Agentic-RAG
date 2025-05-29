@@ -1,0 +1,4 @@
+METER DETAIL,,,,,,,,,
+Utility-Aust Meter,Service Period,Days,Prior Reading,Current Reading,Reading Type,Constant,Usage,Usage Type,Usage Per Day
+141823678,08/11/2015 - 09/10/2015,30,26.07,26.26,Actual,1,25.26,kW,N/A
+141823678,08/11/2015 - 09/10/2015,30,32.027,40.187,Actual,1,"8,160.00",kWh Total,272.00

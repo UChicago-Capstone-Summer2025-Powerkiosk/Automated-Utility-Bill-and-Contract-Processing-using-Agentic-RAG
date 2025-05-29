@@ -1,0 +1,8 @@
+Customer Charge,,,10.00
+Dist Chg First 2000 KWH,0.04633,$\times$,2000 kWh
+Dist Chg Next 876 KWH,0.06405,$\times$,876 kWh
+Transition Charge,$-0.00042$,$\times$,2876 kWh
+Transmission Charge,0.02401,$\times$,2876 kWh
+Energy Efficiency Chg,0.00987,$\times$,2876 kWh
+Renewable Energy Chg,0.0005,$\times$,2876 kWh
+Total Delivery Services,,,\$ 256.43

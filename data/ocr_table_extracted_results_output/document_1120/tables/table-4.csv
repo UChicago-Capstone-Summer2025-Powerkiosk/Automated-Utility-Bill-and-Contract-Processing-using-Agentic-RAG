@@ -1,0 +1,9 @@
+Customer Charge,,200.00
+Dist Chg On Peak,$0.01347 \times 105000 \mathrm{kWh}$,"$1,414.35$"
+Dist Chg Off Peak,$0.00594 \times 182000 \mathrm{kWh}$,"$1,081.08$"
+Transition Charge,$-0.00157 \times 287000 \mathrm{kWh}$,$-450.59$
+Transmission Charge,$0.0204 \times 287000 \mathrm{kWh}$,"$5,854.80$"
+Distribution Demand Chg,$3.92 \times 620 \mathrm{~kW} / \mathrm{kVA}$,"$2,430.40$"
+Energy Efficiency Chg,$0.00987 \times 287000 \mathrm{kWh}$,"$2,832.69$"
+Renewable Energy Chg,$0.0005 \times 287000 \mathrm{kWh}$,143.50
+,Total Delivery Services,"\$ 13,506.23"

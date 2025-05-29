@@ -1,0 +1,171 @@
+Contact Us
+Phone
+Customer Service
+1-888-689-8665
+7 A.M. - 4 P.M. CT Mon. - Fri.
+Emergency Service 24/7
+1-800-634-3524
+For gas leaks or odor of gas
+1-888-689-8665
+Report electric lines down or power outage
+
+Pay by credit/debit card Call 1-855-763-6277 (Payments convenience fee will apply)
+
+For hearing-impaired TDD
+1-800-635-0952
+
+## Web
+
+Make payments and access your account at NIPSCO.com
+
+## Mail Payments
+
+NIPSCO
+P.O. BOX 13007
+
+Merrillville, IN 46411-3007
+
+## Authorized Payment Locations
+
+Find locations online at NIPSCO.com
+
+## Your Safety
+
+## Gas Safety
+
+In case of an emergency, such as odor of gas, carbon monoxide or fire:
+1. Leave the building or area immediately.
+2. Leave windows and doors in their positions and avoid doing anything that could cause a spark.
+3. From a safe place, away from the building or area, call 911 and NIPSCO at 1-800-6343524.
+
+Always Call 8-1-1 Before You Dig
+If you're planning a home or landscaping project, call Indiana 811 at least two business days before digging. A representative will mark the approximate location of underground utility lines for free.
+
+## MIIPACO
+
+Employee Identification
+All our employees and contractors carry photo identification. Ask to see it before allowing anyone who claims to be a utility representative into your home. Call the police if you see suspicious activity.
+
+## Account Profile
+
+Customer Name:
+Hmr Acquisition Company Inc
+IN: 1501 N Ironwood Dr South Bend IN 46635-1841 hmeton/chaclondafiesta.com
+
+## $X_{2,366.75}$
+
+- If paid after 05/01/2023, a late payment charge of $\$ 63.35$ will be applied and your new current amount due will be $\$ 2,160.96$.
+- For more information regarding these charges, see the Detail Charges section. If you are struggling to pay your bill we can help. Flexible payment plans are available to customers experiencing a financial hardship. Any customer who is having trouble paying his/her bill should visit www.NIPSCO.com or call 800-464-7726 to learn about payment arrangements and/or financial assistance programs.
+
+
+## Monthly Message Board
+
+Detecting a Gas Leak
+If you even THINK you smell gas inside your home or business, take action. STOP what you are doing. LEAVE the area immediately. CALL, 911 and NIPSCO at our emergency number 1-800-634-3524, 24 hours a day. NIPSCO will send someone to check the source of the odor FREE OF CHARGE, whether there is a leak or not. To learn more about leak detection and natural gas safety, visit NIPSCO.com/staysafe.
+
+## Delivery \& Supply Summary
+
+## NIPSCO
+
+Beginning Balance
+Current Delivery Charges
+Payments Received
+Ending Balance
+Archer Energy
+Beginning Balance
+Current Supply Charges
+Payments Received
+Ending Balance
+
+## $X 339.98$
+
+\$607.98
+\$1,826.77
++\$1,489.63
+$-$ Please fold on the perforation below, detach and return with your payment.
+![](images/img-0.jpeg)
+
+The image is a photo/illustration showing a section of a document with payment instructions. It includes the following text:
+
+"Make check payable to:
+NIPSCO
+P.O. BOX 13007
+MERRILLVILLE, IN 46411-3007"
+
+There is also a barcode and a QR code present on the right side of the text.
+
+HMR ACQUISITION COMPANY INC
+DBA HACIENDA MEXICAN RT INC ISID N IRONWOOD DR SOUTH BEND IN 46635-1841
+
+## Make check payable to:
+
+NIPSCO
+P.O. BOX 13007
+
+MORRILLVILLE, IN 46411-3007
+$\mu / 111_{1} / 11_{1} / 11_{1} / 1_{1} / 1_{1} / 1_{1} / 1 / 1_{1} / 1_{1} / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1
+
+## Helpful Definitions
+
+## Gas Service Definitions
+
+Gas Delivery Charges are the costs of delivering gas to retail customers. The charges for these services are regulated and these services must be purchased from the local distribution company.
+Therm (thm) is equal to 100,000 Btus and is the basic billing unit for gas.
+
+## Legal Notices
+
+Rate Schedule information is available upon request and at NIPSCO.com.
+
+## 13 Month Usage History
+
+![](images/img-1.jpeg)
+
+The image is a bar chart showing a **yearly usage breakdown (monthly-based)** for gas consumption in therms over a 13-month period. 
+
+- **Y-axis title:** Therms
+- **X-axis title:** Monthly Billing Days
+- **Data points:**
+  - Apr 2022 (29 days): 2656 therms
+  - May 2022 (32 days): 2127 therms
+  - Jun 2022 (30 days): 1514 therms
+  - Jul 2022 (32 days): 1564 therms
+  - Aug 2022 (29 days): 1390 therms
+  - Sep 2022 (31 days): 1512 therms
+  - Oct 2022 (28 days): 1376 therms
+  - Nov 2022 (28 days): 1746 therms
+  - Dec 2022 (33 days): 3068 therms
+  - Jan 2023 (34 days): 3917 therms
+  - Feb 2023 (29 days): 3413 therms
+  - Mar 2023 (30 days): 2849 therms
+  - Apr 2023 (32 days): 2966 therms
+
+The chart visually represents the fluctuation in gas usage over the months, with the highest usage in January 2023 and the lowest in August 2022.
+
+{{table_data: table-0.csv}}
+
+## Detail Charges
+
+Charges for Gen Serv Gas-Small Htg CHOICE - Rate 221
+NIPSCO
+Delivery Charges
+Total Charges for Gas Service This Period
+$+\$ 607.98$
+Charges for Fixed Price Per Therm - Rate 34300
+Archer Energy
+Gas Supply
+Interstate Transportation and Storage Charges
+Total Charges for Service This Period
+$+\$ 1,489.63$
+
+- This meter is Indiana sales tax exempt
+- Your gas supplier Archer Energy can be contacted at 1-844-795-7491.
+
+
+## Change Contact Information
+
+By providing NIPSCO a telephone number, it enables us to call you about your utility service, future service appointments and other important information pertaining to your account and you're agreeing to receive autodialed and prerecorded voice calls. Please notify us if you wish to opt out or if you no longer use this number. Thank you in advance.
+
+## Message Board
+
+- Take the seasonal highs and lows out by dividing your yearly energy use into 13 equal monthly payments - for budgeting that's a whole lot easier. Learn more at NIPSCO.com/BudgetPlan.
+- Never worry about missing a payment or writing a check again by enrolling in Automatic Payment today at NIPSCO.com.

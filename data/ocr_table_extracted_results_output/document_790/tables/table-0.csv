@@ -1,0 +1,3 @@
+Meter,Read Date,Type,Role,Demand (kW) ${ }^{(2)}$,Period,Previous <br> Measure,Current <br> Measure,Difference,,Multipiler ${ }^{(3)}$,Usage <br> (kWh),
+230171135,10/10,Delivery <br> Service,Additive,508.40,Total,0.00,0.00,0.00,$\times$,1,"53,466.40",Total
+,,,,,Off-Fear,N/A,N/A,N/A,$\times$,1,N/A,Off-Fear

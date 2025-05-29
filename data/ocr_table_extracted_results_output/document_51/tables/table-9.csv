@@ -1,0 +1,14 @@
+In Person Signer Events,Signature,Timestamp
+Editor Delivery Events,Status,Timestamp
+Agent Delivery Events,Status,Timestamp
+Intermediary Delivery Events,Status,Timestamp
+Certified Delivery Events,Status,Timestamp
+Carbon Copy Events,Status,Timestamp
+Witness Events,Signature,Timestamp
+Notary Events,Signature,Timestamp
+Envelope Summary Events,Status,Timestamps
+Envelope Sent,Hashed/Encrypted,$11 / 21 / 202311: 22: 08$ AM
+Certified Delivered,Security Checked,$11 / 21 / 20231: 50: 10$ PM
+Signing Complete,Security Checked,$11 / 21 / 20232: 44: 58$ PM
+Completed,Security Checked,$11 / 21 / 20232: 44: 58$ PM
+Payment Events,Status,Timestamps

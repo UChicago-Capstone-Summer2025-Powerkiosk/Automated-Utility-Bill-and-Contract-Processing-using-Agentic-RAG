@@ -1,0 +1,31 @@
+Meter Information,,,,,,,,
+Read Date,Meter <br> Number,Load Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier $\times$,Usage
+9/29,097181961,General Service,Off Pk kWh,Actual,Actual,,,3054
+9/29,097181961,General Service,Total kWh,Actual,Actual,,,4495
+9/29,097181961,General Service,On Pk kW,Actual,Actual,,,6.82
+9/29,140481940,General Service,Off Pk kWh,Actual,Actual,,,3705
+9/29,140481940,General Service,Total kWh,Actual,Actual,,,7812
+9/29,140481940,General Service,On Pk kW,Actual,Actual,,,49.10
+9/29,141387905,General Service,Off Pk kWh,Actual,Actual,,,5587
+9/29,141387905,General Service,Total kWh,Actual,Actual,,,8807
+9/29,141387905,General Service,On Pk kW,Actual,Actual,,,17.46
+9/29,141401653,General Service,Off Pk kWh,Actual,Actual,,,3357
+9/29,141401653,General Service,Total kWh,Actual,Actual,,,6832
+9/29,141401653,General Service,On Pk kW,Actual,Actual,,,38.56
+9/29,141401656,Space Heat,Off Pk kWh,Actual,Actual,,,18595
+9/29,141401656,Space Heat,Total kWh,Actual,Actual,,,36966
+9/29,141401656,Space Heat,On Pk kW,Actual,Actual,,,229.90
+9/29,141516240,Space Heat,Off Pk kWh,Actual,Actual,,,13891
+9/29,141516240,Space Heat,Total kWh,Actual,Actual,,,27373
+9/29,141516240,Space Heat,On Pk kW,Actual,Actual,,,178.13
+9/29,141602819,General Service,Off Pk kWh,Actual,Actual,,,820
+9/29,141602819,General Service,Total kWh,Actual,Actual,,,1745
+9/29,141602819,General Service,On Pk kW,Actual,Actual,,,12.68
+10/1,141602820,General Service,Off Pk kWh,Actual,Actual,,,13
+10/1,141602820,General Service,Total kWh,Actual,Actual,,,13
+10/1,141602820,General Service,On Pk kW,Actual,Actual,,,0.03
+10/1,141602821,General Service,Off Pk kWh,Actual,Actual,,,10
+10/1,141602821,General Service,Total kWh,Actual,Actual,,,15
+10/1,141602821,General Service,On Pk kW,Actual,Actual,,,0.03
+10/1,141682913,Space Heat,Off Pk kWh,Actual,Actual,,,19884
+10/1,141682913,Space Heat,Total kWh,Actual,Actual,,,44000

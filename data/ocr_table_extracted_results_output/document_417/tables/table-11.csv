@@ -1,0 +1,18 @@
+DESCRIPTION,USAGE UNITS,RATE,CHARGE
+Service \& Facility,,,\$34.70
+Secondary General,45300 kWh,\$0.004610,\$208.83
+Elec Commodity Adj,31241.38 kWh,\$0.027080,\$846.02
+Elec Commodity Adj,14058.62 kWh,\$0.026910,\$378.32
+GRSA E,45300 kWh,\$0.004200,\$190.26
+Distribution Demand,100 kW,\$5.630000,\$563.00
+Gen \& Transm Demand,100 kW,\$9.820000,\$982.00
+Trans Cost Adj,100 kW,\$0.110000,\$11.00
+Demand Side Mgmt Cost,100 kW,\$0.620000,\$62.00
+Purch Cap Cost Adj,100 kW,\$1.210000,\$121.00
+CACJA,100 kW,- \$0.030000,- \$3.00 CR
+Renew. Energy Std Adj,,,\$69.95
+GRSA,,,\$103.02
+Subtotal,,,"\$3,567.10"
+Franchise Fee,,$3.00 \%$,\$107.01
+Sales Tax,,,\$305.33
+Total,,,"\$3,979.44"

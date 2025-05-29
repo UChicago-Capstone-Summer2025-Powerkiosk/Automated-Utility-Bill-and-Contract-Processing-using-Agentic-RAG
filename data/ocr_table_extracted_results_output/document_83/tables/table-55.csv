@@ -1,0 +1,12 @@
+Meter Information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier,Usage
+9/21- <br> 6/29,230041762,General Service,Total kWh,Actual,Actual,,,100250
+9/31- <br> 6/29,230041762,General Service,On Pk kW,Actual,Actual,,,239.62
+9/31- <br> 6/29,230045894,General Service,Total kWh,Actual,Actual,,,33
+9/31- <br> 6/29,230045894,General Service,On Pk kW,Actual,Actual,,,0.00
+9/31- <br> 6/29,230058449,General Service,Total kWh,Actual,Actual,,,10
+9/31- <br> 6/29,230058449,General Service,On Pk kW,Actual,Actual,,,0.02
+9/31- <br> 6/29,230069071,General Service,Total kWh,Actual,Actual,,,461
+9/31- <br> 6/29,230069071,General Service,On Pk kW,Actual,Actual,,,1.84
+9/31- <br> 6/29,230062686,General Service,Total kWh,Actual,Actual,,,68638
+9/31- <br> 6/29,230062686,General Service,On Pk kW,Actual,Actual,,,104.81

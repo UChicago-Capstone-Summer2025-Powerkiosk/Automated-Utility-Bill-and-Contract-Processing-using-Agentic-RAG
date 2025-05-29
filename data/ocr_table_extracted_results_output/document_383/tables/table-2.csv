@@ -1,0 +1,18 @@
+Meter information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $X$,Usage
+1005- <br> 1104,230321181,General Service,Total kWh,Actual,Actual,,,
+1005- <br> 1104,230321181,General Service,On Pk kW,Actual,Actual,,,f
+1005- <br> 1104,230322838,General Service,Total kWh,Actual,Actual,,,33
+1005- <br> 1104,230322838,General Service,On Pk kW,Actual,Actual,,,4:
+1005- <br> 1104,230322839,General Service,Total kWh,Actual,Actual,,,
+1005- <br> 1104,230322839,General Service,On Pk kW,Actual,Actual,,,1
+1005- <br> 1104,230323030,General Service,Total kWh,Actual,Actual,,,282
+1005- <br> 1104,230323030,General Service,On Pk kW,Actual,Actual,,,48:
+1005- <br> 1104,230323076,General Service,Total kWh,Actual,Actual,,,26
+1005- <br> 1104,230323076,General Service,On Pk kW,Actual,Actual,,,41
+1005- <br> 1104,230323077,General Service,Total kWh,Actual,Actual,,,55
+1005- <br> 1104,230323077,General Service,On Pk kW,Actual,Actual,,,101
+1005- <br> 1104,230323086,General Service,Total kWh,Actual,Actual,,,
+1005- <br> 1104,230323086,General Service,On Pk kW,Actual,Actual,,,1
+1005- <br> 1104,230345691,General Service,Total kWh,Actual,Actual,,,
+1005- <br> 1104,230345691,General Service,On Pk kW,Actual,Actual,,,1

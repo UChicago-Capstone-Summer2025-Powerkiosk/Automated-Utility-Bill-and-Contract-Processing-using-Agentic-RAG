@@ -1,0 +1,14 @@
+Type of Service,Current Reading,Previous Reading,Difference,$\begin{aligned} & \text { a } \\ & \text { a } \end{aligned}$,Mater <br> Multiplier,$=$,Total Usage
+Energy,33363,Actual,33076,Actual,287,1000,287000 kWh
+Peak,13486,Actual,13381,Actual,105,1000,105000 kWh
+Off Peak,19877,Actual,19695,Actual,182,1000,182000 kWh
+,,,,,,Total Energy,287000 kWh
+Demand-kW,,,,,,,
+Peak,,,,,,1000,620.0 kW
+Off Peak,,,,,,1000,800.0 kW
+Demand-kVA,,,,,,,
+Peak,,,,,,1000,620.0 kVA
+Off Peak,,,,,,1000,810.0 kVA
+METER NUMBER 04735535,,,NEXT SCHEDULED READ DATE ON ON ABOUT,,,,
+SERVICE PERIOD Jan 20 - Feb 18,,,NURBEN OF DAYS IN PERIOD,,,,29
+RATE,Time-of-Use G-3,,,,,,

@@ -1,0 +1,8 @@
+MPAN,"2000027400703, 2000027400493",
+Type,Description (all times are in UK Clock),Rate
+Offered Rates,Consumption - Day,$256369 \mathrm{p} / \mathrm{kWh}$
+,Consumption - Night,228813 p/kWh
+,Standing Charge,368056 £/mth
+,Availability,1.98 £/kVA/mth
+Passed Through Charges:,"Reactive Power, Climate Change Levy, Excess Capacity",Prevaling Rate
+Est Reconciled PT Charges,,

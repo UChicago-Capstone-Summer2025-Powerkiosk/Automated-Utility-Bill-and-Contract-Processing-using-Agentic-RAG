@@ -1,0 +1,14 @@
+Meter and Usage,Usage History,,
+Current Billing Days: 30,,$\begin{aligned} & \text { Mo } \\ & \text { Sep } \\ & \text { Oct } \\ & 1440 \end{aligned}$,$\begin{aligned} & \text { Yr } \\ & 18 \\ & 18 \\ & 18 \\ & 19 \end{aligned}$
+Billable Usage,08/05-09/04,,
+Schedule GS-1,,,
+Total kWh,1440,Dec,18
+,,Jan,19
+Measured Usage,,Feb,19
+Meter: 0200061154,08/05-09/04,Mar,19
+Current Reading,121,Apr,19
+Previous Reading,106,May,19
+Total kWh,1440,Jun,19
+Current Reading,11,Jul,19
+Demand,10.56,Aug,19
+Multiplier: 95,,Sep,19

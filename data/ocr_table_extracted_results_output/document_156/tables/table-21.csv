@@ -1,0 +1,4 @@
+Meter Information,,,,,,,
+Read <br> Dates,Meter <br> Number,$\begin{gathered} \text { Load } \\ \text { Type } \end{gathered}$,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $X$,Usage
+505- <br> 6/24,141822064,General Service,Total kWh,3726 Actual,3892 Actual,166,1,166
+505- <br> 6/24,141822064,General Service,kW,35.97 Actual,39.77 Actual,3.80,1,3.80

@@ -1,0 +1,4 @@
+METER DETAIL,,,,,,,,
+Utility Acct Meter,Service Period,Days,Price Reading,Current Reading,Reading Type,Constant,Usage,Usage Type,Uvape Per Day
+141605864,08/11/2015 - 09/10/2015,30,22.02,22.14,Actual,1,22.14,kW,N/A
+141605864,08/11/2015 - 09/10/2015,30,"12,905","18,804",Actual,1,"5,899.00",kWh Total,196.63

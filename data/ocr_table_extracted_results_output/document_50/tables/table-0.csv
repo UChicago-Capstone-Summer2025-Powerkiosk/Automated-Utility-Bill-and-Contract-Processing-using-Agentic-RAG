@@ -1,0 +1,5 @@
+RATE PLAN,DESCRIPTION
+"Fixed Rate ${ }^{1,2}$",The natural gas supply price will remain fixed for the Initial Term.
+Index Rate ${ }^{2}$,Buyer's natural gas supply price will be the Index Price plus an adder per therm.
+"Guaranteed Savings/Fixed Winter Rate ${ }^{1,2}$","The natural gas supply price is fixed November through April. During the months of May through October the natural gas supply price shall be $\$ 0.025$ per therm less than the Utility's Gas Cost rate. If Buyer participates in the budget billing service, amounts with respect to the budget billing service will be due regardless of the Guaranteed Savings."
+NYMEX Rate ${ }^{2}$,Buyer's natural gas supply price will be the NYMEX Price plus an adder per therm.

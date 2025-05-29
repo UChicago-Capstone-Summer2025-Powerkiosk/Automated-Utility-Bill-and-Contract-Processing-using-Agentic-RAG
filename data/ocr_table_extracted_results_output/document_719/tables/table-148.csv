@@ -1,0 +1,10 @@
+,CHARGE DESCRIPTION,,,,
+Electric Delivery,Customer Charge,,,,
+Ameren Illinois,Meter Charge,,,,
+DS-2 Small General Delivery,Distribution Delivery Charge Summer,"59,040.00 kWh",@ \$ 0.04080000,,"\$2,408.83"
+Service,,,Electric Delivery,,"\$2,452.42"
+Electric Supply,Purchased Electric Summer,"59,040.00 kWh",,\$ 0.05208000,"\$3,074.80"
+Ameren Illinois,Purchased Electricity Adjustment,"59,040.00 kWh",,\$ 0.00426600,\$ 251.86
+BGS-2 Basic Generation,Supply Cost Adjustment,"59,040.00 kWh",,\$ 0.00074000,\$43.69
+Service,Transmission Service Charge,"59,040.00 kWh",,\$ 0.00899000 Electric Supply,\$530.77
+,,,Electric Supply,,"\$3,397.40"

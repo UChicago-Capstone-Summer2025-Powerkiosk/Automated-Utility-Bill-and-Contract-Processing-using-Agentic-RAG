@@ -1,0 +1,5 @@
+Charge description,Rate description,Start,End,Energy consumed,Price,VAT rate,Net total
+Electricity consumption @ GSP,Gay,01/11/2021,30/11/2021,"29,140.4 kWh","5,97500 <br> 6/kWh",STD,"£1,741.14"
+,Night,01/11/2021,30/11/2021,"8,701.3 kWh","4,14000 <br> 6/kWh",STD,£360.23
+Flexible purchasing,,,,,,,
+Flexible purchasing,,01/11/2021,30/11/2021,,,STD,60.00

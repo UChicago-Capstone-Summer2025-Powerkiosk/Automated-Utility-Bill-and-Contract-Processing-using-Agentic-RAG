@@ -1,0 +1,9 @@
+PJM FP AI VA,,,,,,,
+Account <br> Number,Service <br> Location,Utility,Utility Rate Class,Zone,Capacity / Transmission Tags,"""Estimated <br> Meter Read <br> Start Date <br> (MM/DD/YYYY",Purchase Price (cents/KWh),Annual Historical Usage (kWh)
+000499147296,319 Factory St <br> Whse \#182 Cold <br> Storage <br> (BIRDSONG <br> CORPORATION <br> - Customer - 319 <br> Factory St Whse \#182 Cold <br> Storage),DOM,VN-GS2,DOM,$78.4 / 79.3$,01/07/2024,11.642,"515,179"
+001123635003,600 Madison Ave \#1 No 1 Sampler/ <br> (BIRDSONG CORPORATION <br> - Customer - 600 Madison Ave \#1 No 1 Sampler),DOM,VN-GS1,DOM,$14.6 / 14.1$,01/07/2024,11.642,"72,519"
+001133622504,118 Factory St FS-Warehouse 14 (BIRDSONG CORPORATION <br> - Customer - 118 Factory St FS- <br> Warehouse 14),DOM,VN-GS1,DOM,$0.9 / 1.5$,01/09/2024,11.642,"1,310"
+002043775002,Adams St Truck Scale Office (BIRDSONG CORPORATION - Customer - Adams St Truck Scale Office),DOM,VN-GS1,DOM,$1.6 / 1.6$,01/09/2024,11.642,"6,453"
+003744109442,31380 General <br> Thomas Hwy <br> (BIRDSONG <br> CORPORATION <br> - Customer - <br> 31380 General <br> Thomas Hwy),DOM,110,DOM,$3.9 / 4.1$,01/05/2024,11.642,"19,348"
+004183069972,31380 General <br> Thomas Hwy <br> Rear <br> Warehouse/Plant <br> (BIRDSONG <br> CORPORATION <br> - Customer - <br> 31380 General <br> Thomas Hwy <br> Rear <br> Warehouse/Plant,DOM,227,DOM,$8.5 / 48.4$,12/30/2023,11.642,"420,507"
+005485709546,31380 General <br> Thomas Hwy <br> \#New <br> (BIRDSONG <br> CORPORATION,DOM,227,DOM,$46.6 / 49.3$,01/03/2024,11.642,"354,566"

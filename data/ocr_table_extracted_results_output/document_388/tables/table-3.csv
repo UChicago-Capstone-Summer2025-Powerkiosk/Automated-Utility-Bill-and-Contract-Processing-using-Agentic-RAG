@@ -1,0 +1,36 @@
+Meter Number,Service <br> Period,Days,Prio,Current,Const,Total kWh,On-Pk kWh,Off-Pk kWh,Peak kW,Coincident Peak kW
+230345691,11/26 - 12/29,,NA,NA,,18.833,,,0.03 at 12/07 20:00,0.03
+230323086,11/26 - 12/29,,NA,NA,,48.888,,,31.58 at 12/15 08:00,31.58
+230323077,11/26 - 12/29,,NA,NA,,"64,025.58",,,137.97 at 12/12 23:00,137.97
+230323076,11/26 - 12/29,,NA,NA,,"35,195.952",,,73.67 at 12/05 06:00,73.67
+230323030,11/26 - 12/29,,NA,NA,,"352,119.03",,,485.85 at 12/04 19:00,485.85
+230322839,11/26 - 12/29,,NA,NA,,0,,,0 at 12/18 01:00,0.00
+230322838,11/26 - 12/29,,NA,NA,,"39,699.144",,,55.08 at 12/06 12:00,55.08
+230321181,11/26 - 12/29,,NA,NA,,18.765,,,0.03 at 12/20 05:00,0.03
+Total,,34,,,,"491,126.192",,,,
+Coincident Peak,,,,,,,,,,
+KW,,,,,,,,,706.00 at 12/12 19:00,
+CHARGE DETAIL,,,,,,,,,,
+Description,,,,,Quantity,Units,Rate,Charge,Totals
+ENERGY SUPPLY CHARGES,,,,,,,,,
+Energy Charge,,,,,"491,126.192",KWH,\$0.07118000,"\$34,958.36",
+TOTAL ENERGY SUPPLY CHARGES,,,,,,,,,"\$34,958.36"
+DELIVERY SERVICE CHARGES,,,,,,,,,
+Retail Delivery Service - 0 to 100 kW,,,,,,,,,
+Customer Charge,,,,,EA,,,"\$1,005.53",
+Distribution Facility Charge,,,,,693.160,KW,\$13.49000000,"\$9,350.73",
+IL Electricity Distribution Charge,,,,,"491,126.000",KWH,\$0.00124000,\$609.00,
+Meter Lease,,,,,EA,,,\$67.46,
+Single Bill Option Credit,,,,,EA,,,- $\$ 0.69$,
+Standard Metering Charge,,,,,EA,,,\$14.10,
+Carbon-Free Energy Resource Adj,,,,,"491,126.000",KWH,\$0.00377000,"\$1,851.55",
+Energy Efficiency Programs,,,,,"491,126.000",KWH,\$0.00444000,"\$2,180.60",
+Zero Emission Standard,,,,,"491,126.000",KWH,\$0.00195000,\$957.70,
+Renewable Portfolio Standard,,,,,"491,126.000",KWH,\$0.00502000,"\$2,465.45",
+Energy Transition Assistance,,,,,"491,126.000",KWH,\$0.00072000,\$353.61,
+Environmental Cost Recovery Adj,,,,,"491,126.000",KWH,\$0.00002000,\$9.82,
+Municipal Tax,,,,,EA,,,"\$1,807.78",
+Franchise Cost,,,,,EA,,,"\$1,526.53",
+State Tax,,,,,EA,,,"\$1,472.86",
+Charges/Credits from previous bill,,,,,EA,,,"\$21,781.58",
+TOTAL DELIVERY SERVICE CHARGES,,,,,,,,,"\$23,672.03"

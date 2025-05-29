@@ -1,0 +1,5 @@
+Charge description,Rate description,Start,End,Energy consumed,Price,VAT rate,Net total
+Electricity consumption (2) GSP,Day,01/11/2021,30/11/2021,"116,557.4 kWh","5,97400 p/kWh",STD,"E6,843.66"
+,Night,01/11/2021,30/11/2021,"34,643.3 kWh","4,34800 <br> p/kWh",STD,"E1,434.23"
+Flexible purchasing,,,,,,,
+Flexible purchasing <br> reconciliation,,01/11/2021,30/11/2021,,,STD,E0.00

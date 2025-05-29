@@ -1,0 +1,12 @@
+Service Period,No. of days,Current <br> Reading,Previous <br> Reading,Measured <br> OOF,$\times$,Therm <br> Factor,$n$,Thems Used
+Jan 22 - Feb 20,29,88828,Astual,84361,Astual,2267,1.03233,2340
+METER NUMBER,01154859,NOST SCHEDULES READ DATE ON OR ABOUT,,,,,,
+RATE,Rate 257,Gas Non Resid General,Use Delivery,,,,,
+Basic Service Charge (including first 2.9 therms),,,,,,,,36.40
+Next 84.1 Therms,,,1.7282,$\times$,84.1 therms,,,145.34
+Over/Last 2253 Therms,,,0.3553,$\times$,2253 therms,,,800.49
+System Benefits Charge,,,0.00677,$\times$,2340 therms,,,15.84
+Delivery Rate Adj,,,$-0.02849$,$\times$,2340 therms,,,$-66.66$
+Transp Adj Chg,,,$-0.004778$,$\times$,2340 therms,,,$-11.19$
+NY State and Local Surcharges,,,,,,,,1.22
+,,,Total Delivery Services,,,,\$ 921.44,

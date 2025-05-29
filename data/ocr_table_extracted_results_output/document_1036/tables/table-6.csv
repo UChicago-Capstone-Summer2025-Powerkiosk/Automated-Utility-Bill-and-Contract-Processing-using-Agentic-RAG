@@ -1,0 +1,29 @@
+Description,WNY Program NYISO Charges,Customer Portion NYISO Charges,Customer Previous Version Charges,Net
+Account\#: 0852518104,,,,
+NYISO October 2021 Version 3,"\$772,302.28",\$455.67,\$457.01,$-1.34$
+SCHEDULE 1,,,,
+"Scheduling, System Control Dis","\$269,588.23",\$159.06,\$159.76,$-0.70$
+Local Reliability Related Upli,\$0.00,\$0.00,\$0.00,\$0.00
+NYISO Wide Uplift,"$-6,897.94$",$-4.07$,$-4.07$,\$0.00
+Rochester Station 80 Capacitor,\$517.23,\$0.31,\$0.31,\$0.00
+Ramapo Phase Angle Regulator,"\$7,947.09",\$4.69,\$4.70,$-0.01$
+Residual Adjustments,"$-208,318.32$",$-122.91$,$-123.16$,\$0.25
+Transco Projects,"\$49,547.87",\$29.23,\$29.29,$-0.06$
+SCHEDULE 2,,,,
+Voltage Support Service,"\$117,759.96",\$69.48,\$69.62,$-0.14$
+SCHEDULE 3,,,,
+Regulation and Frequency Respo,"\$40,267.64",\$23.76,\$23.81,$-0.05$
+SCHEDULE 5,,,,
+Operating Reserve Service Char,"\$201,915.31",\$119.13,\$119.38,$-0.25$
+SCHEDULE 6,,,,
+Black StartService Charge,"\$4,178.95",\$2.47,\$2.47,\$0.00
+NTAC,"\$463,360.17",\$273.38,\$273.93,$-0.55$
+NTAC Charge,"\$463,360.17",\$273.38,\$273.93,$-0.55$
+TUC,"$-167,563.91$",$-98.86$,$-99.03$,\$0.17
+Forward Congestion Charge,"\$648,590.80",\$382.67,\$383.32,$-0.65$
+Forward Loss Charge,"\$462,527.31",\$272.89,\$273.35,$-0.46$
+HFPTCC Rents,"$-1,278,682.02$",$-754.42$,$-755.70$,\$1.28
+NYPA ADJUSTMENTS,"\$18,938.05",\$11.17,\$11.20,$-0.03$
+TUC Adj - Sell,"$-26,689.94$",$-15.75$,$-15.77$,\$0.02
+TUC Adj - Buy,"\$45,627.99",\$26.92,\$26.97,$-0.05$
+TOTAL NYISO CHARGES,"\$791,240.33",\$466.84,\$468.21,$-1.37$

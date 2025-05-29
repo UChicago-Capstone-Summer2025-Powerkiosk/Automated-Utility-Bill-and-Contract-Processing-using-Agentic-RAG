@@ -1,0 +1,16 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+,Customer Charge,,,,\$13.92
+,Distribution Delivery Charge,83.00 kWh,ㅇ,\$ 0.01336000,\$1.11
+Non-Residential Lighting,,,,Electric Delivery,\$15.03
+Electric Supply,Total Energy Charge (\$/kWh),83.00 kWh,ㅇ,\$ 0.04500000,\$3.74
+Ambit Energy,,,,,
+Ambit Rate,,,Electric Supply,,\$3.74
+State and Local Taxes and Other Mandated Charges,Clean Energy Assistance Charge,83.00 kWh,ㅇ,\$ 0.00181000,\$0.15
+,Renewable Energy Adjustment*,83.00 kWh,ㅇ,\$ 0.00458000,\$0.38
+,EDT Cost Recovery,83.00 kWh,ㅇ,\$ 0.00124840,\$0.10
+,Electric Environmental Adjustment,83.00 kWh,ㅇ,\$ 0.00358930,\$0.30
+,Energy Efficiency Programs Charge,83.00 kWh,ㅇ,\$ 0.00360000,\$0.30
+,Energy Transition Assistance Charge*,83.00 kWh,ㅇ,\$ 0.00072000,\$0.06
+,Galesburg Municipal Tax,,,,\$0.52
+,Illinois State Electricity Excise Tax,,,,\$0.27
+,,Total Taxes and Other Charges,,\$2.08,

@@ -1,0 +1,4 @@
+Rate Name,Units,Measurement,Unit Rate,Total
+Day (07:00- <br> 00:00),87418.4,kWh,"$13.449 \mathrm{p} / \mathrm{kWh} \cdot £ 11,756.90$",
+Night (00:00- <br> 07:00),29636.2,kWh,$9.96 \mathrm{p} / \mathrm{kWh} \quad £ 2.951 .77$,
+Total,117054.6,-,"- $£ 14,708.67$",

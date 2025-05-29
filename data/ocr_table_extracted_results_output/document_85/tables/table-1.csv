@@ -1,0 +1,17 @@
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $\times$,Usage
+7/30- <br> 8/30,230131502,General Service,Total kWh,Actual,Actual,,,9291
+7/30- <br> 8/30,230131502,General Service,On Pk kW,Actual,Actual,,,17.42
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,230131504,General Service,Total kWh,Actual,Actual,,,9355
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,230131504,General Service,On Pk kW,Actual,Actual,,,12.74
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,230148155,General Service,Total kWh,Actual,Actual,,,19
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,230148155,General Service,On Pk kW,Actual,Actual,,,0.03
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245548,General Service,Total kWh,Actual,Actual,,,3301
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245548,General Service,On Pk kW,Actual,Actual,,,5.39
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245550,General Service,Total kWh,Actual,Actual,,,2159
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245550,General Service,On Pk kW,Actual,Actual,,,2.55
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245551,General Service,Total kWh,Actual,Actual,,,2832
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245551,General Service,On Pk kW,Actual,Actual,,,3.64
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245596,General Service,Total kWh,Actual,Actual,,,2632
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,271245596,General Service,On Pk kW,Actual,Actual,,,3.51
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,272148424,General Service,Total kWh,Actual,Actual,,,2157
+$\begin{aligned} & 7/30- \\ & 8 / 30 \end{aligned}$,272148424,General Service,On Pk kW,Actual,Actual,,,14.96

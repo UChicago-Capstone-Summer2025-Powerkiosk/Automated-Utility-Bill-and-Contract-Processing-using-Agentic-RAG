@@ -1,0 +1,7 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / <br> Trans- <br> mission <br> Tags,"""Estimated <br> Meter <br> Read Start <br> Date <br> (MMIDD/YYYY)",Purchase <br> Price <br> (cents / kWh),Annual <br> Historical <br> Usage <br> (kWh)
+0499147296,319 Factory St Whse 182 Cold Storage (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 83.1 / \\ 60.3 \end{gathered}$,01/06/2020,6.724,"527,788"
+4183069972,31380 General Thomas Hwy Rear Warehouse/Part (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 49.0 / \\ 52.4 \end{gathered}$,01/05/2020,6.724,"289,164"
+3744109442,31380 General Thomas Hwy (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,110,DOM,$4.4 / 4.5$,01/05/2020,6.724,"22,736"
+7713555006,118 Factory St Whse45/Parker Coldator (BIRDSONG CORPORATION Customer 1),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 49.0 / \\ 41.8 \end{gathered}$,01/06/2020,6.724,"306,014"
+1133622504,118 Factory St F5/Nienhouse 14 (BIRDSONG CORPORATION Customer 1),Dominion Virginia Power,110,DOM,$1.7 / 0.8$,01/08/2020,6.724,"4,520"
+1123635003,600 Madison Ave 1 No 1 Sampler (BIRDSONG CORPORATION Customer 6),Dominion Virginia Power,110,DOM,$\begin{gathered} 18.9 / \\ 15.2 \end{gathered}$,01/08/2020,6.724,"85,440"

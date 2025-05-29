@@ -1,0 +1,6 @@
+Component Category,Is the Charge for the <br> Component Included in <br> Price or Excluded from <br> Price?,"If Included in the Price, is the <br> Charge subject to provisions <br> below regarding Bilateral <br> Component Adjustments?","If Excluded from the Price, how is <br> the component category charged to <br> Customer?"
+Capacity,Included,Yes,"A charge for capacity based on each <br> Account's peak load contribution, the <br> reserve requirement, the spot market <br> auction price, and the number of days <br> in the period."
+Line Losses (as defined in the TOS) and <br> any UFE,Included,No,Increase in Energy Usage to reflect <br> estimated line losses.
+Ancillary Services (includes ISO charges <br> not included in the other components),Included,No,
+RMR - Day RMR Avoidable and Variable <br> Cost Allocations,Included,No,RPS Charge (as defined in the TOS).
+NYRECs and ZECs,Included,Yes,

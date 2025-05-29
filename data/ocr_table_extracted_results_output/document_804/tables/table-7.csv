@@ -1,0 +1,14 @@
+,CHARGE DESCRIPTION,,USAGE,UNIT,,RATE,CHARGE
+Gas Delivery,Customer Charge,,,,,,\$327.64
+Ameren Illinois,Distribution Delivery Charge,,188.09,Therms,@,\$ 0.23786000,\$44.74
+GDS-3 Intermediate Gas,Qualifying Infrastructure Plant Surchg,,\$369.21,,@,6.230000\%,\$23.00
+Delivery Space Heat,Invested Capital Tax Adjustment,,\$369.21,,@,1.080000\%,\$3.99
+,,,,,Gas Delivery,\$399.37,
+Gas Supply <br> Ameren Illinois,Purchased Gas Adjustment Charge,,188.09,Therms,@,\$ 0.69538512,\$130.79
+,,,,,Gas Supply,\$130.79,
+State and Local Taxes and Other Mandated Charges,Energy Efficiency Programs Charge,,188.09,Therms,@,$\$ 0.01413000$,\$-2.66
+,Gas Environmental Adjustment,,188.09,Therms,@,\$ 0.02148750,\$4.04
+,Illinois State Gas Revenue Tax,,,,,,\$4.51
+,Illinois State Commerce Commission Tax,,,,,,\$0.53
+,Galesburg Municipal Gross Revenue,,,,,,\$27.37
+,,,Total Taxes and Other Charges,,,,\$33.79

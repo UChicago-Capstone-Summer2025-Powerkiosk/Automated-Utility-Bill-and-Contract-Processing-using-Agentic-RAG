@@ -1,0 +1,5 @@
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Capacity Market (CM),,,,,,
+Estimated annual capacity volume (EACV),,,"323,740,00 kWh",,,
+Obligation Levy Forecast Pessthrough for period,01/11/2021,30/11/2021,"$\begin{aligned} & 10170,332 \\ & \text { kWh } \end{aligned}$","$\begin{aligned} & 5,3660000 \\ & \text { p/kWh } \end{aligned}$",STD,ES68.7k
+Operational charge Forecast Pessthrough invoiced @ NBP,01/11/2021,30/11/2021,"$\begin{aligned} & 149,788.5 \\ & \text { kWh } \end{aligned}$","0,00265 <br> p/kWh",STD,ES. 97

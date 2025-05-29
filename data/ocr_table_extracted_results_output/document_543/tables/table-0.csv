@@ -1,0 +1,3 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity <br> / Trans- <br> mission <br> Tags,"""Estimated <br> Meter <br> Read Start <br> Date <br> (MMEDD/YYYY)",Purchase <br> Price <br> (conts / kWh),Annual <br> Historical <br> Usage <br> (kWh)
+393021702500050,1300 Viele Ave (Dairyland HP LLC ),Consolidated Edison,EL9,J,$\begin{gathered} 882.0 / \\ \mathrm{N} / \mathrm{A} \end{gathered}$,02/04/2020,7.993,"$4,748,982$"
+,,,,,,,Total Annual Usage:,"$4,748,982$"

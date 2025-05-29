@@ -1,0 +1,9 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / <br> Transmission <br> Tags,*Estimated Meter Read <br> Start Date <br> (MM/DD/YYYY),Purchase Price <br> (cents/KWh),Annual <br> Historical <br> Usage (kWh)
+252707047400010,4125 102nd St,CONED,EL9,J,$113.2 / \mathrm{N} / \mathrm{A}$,09/11/2022,12.487,"607,006"
+252710974800012,3902 103rd St,CONED,EL9,J,$21.1 / \mathrm{N} / \mathrm{A}$,09/11/2022,12.487,"82,356"
+313265136700003,59 E 167 ST <br> STO,CONED,EL9,J,$89.3 / \mathrm{N} / \mathrm{A}$,09/20/2022,12.487,"476,499"
+461023006710002,37 LENOX <br> AVE 7STO,CONED,EL9,J,$99.7 / \mathrm{N} / \mathrm{A}$,09/14/2022,12.487,"597,609"
+462225010506016,130 LENOX <br> AVE STOB,CONED,EL9,J,$175.6 / \mathrm{N} / \mathrm{A}$,09/15/2022,12.487,"969,355"
+462225010520017,130 LENOX <br> AVE STOL,CONED,EL9,J,$9.4 / \mathrm{N} / \mathrm{A}$,09/15/2022,12.487,"99,629"
+463021102700032,29278 <br> Avenue,CONED,EL9,J,$102.2 / \mathrm{N} / \mathrm{A}$,09/28/2022,12.487,"494,982"
+677032123000015,2901 <br> MERMAID <br> AVE ENT,CONED,EL9,J,$164.6 / \mathrm{N} / \mathrm{A}$,09/28/2022,12.487,"968,038"

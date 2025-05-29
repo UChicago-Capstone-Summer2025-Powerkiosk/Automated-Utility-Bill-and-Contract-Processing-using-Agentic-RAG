@@ -1,0 +1,5 @@
+Charge description,Rate description,Start,End,Energy consumed,Price,VAT rate,Net total
+Electricity consumption @ GSP,Gas,01/11/2021,30/11/2021,"79,800.3 kWh","$5,97900$ <br> B/kWh",STD,"$54,757.27$"
+,Night,01/11/2021,30/11/2021,"18,866.8 kWh","$8,16000$ <br> B/kWh",STD,"$58,15.46$"
+Flexible purchasing,,,,,,,
+-,,01/11/2021,30/11/2021,,,STD,$10.00$

@@ -1,0 +1,8 @@
+Meter Information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $X$,Usage
+$\begin{aligned} & 80- \\ & 91- \\ & 91 \end{aligned}$,230159463,General Service,Total kWh,Actual,Actual,,,2550
+,230159463,General Service,On Pk kW,Actual,Actual,,,4.15
+$\begin{aligned} & 80- \\ & 91- \\ & 91 \end{aligned}$,230162248,General Service,Total kWh,Actual,Actual,,,22
+,230162248,General Service,On Pk kW,Actual,Actual,,,0.03
+$\begin{aligned} & 80- \\ & 91- \\ & 91 \end{aligned}$,230181800,General Service,Total kWh,Actual,Actual,,,48449
+,230181800,General Service,On Pk kW,Actual,Actual,,,174.96

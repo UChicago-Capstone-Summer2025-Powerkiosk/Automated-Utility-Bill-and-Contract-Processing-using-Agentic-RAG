@@ -1,0 +1,11 @@
+Customer Charge,,,,223.00
+Dist Chg On Peak,0.01020963,x 127621 kWh,,"1,302.97"
+Dist Chg Off Peak,0.00833,x 110820 kWh,,923.13
+Transition Charge,$-0.00085$,x 238441 kWh,,$-202.68$
+Transmission Charge,0.02713,x 238441 kWh,,"6,468.90"
+Distribution Demand Chg,8.59607054,x 813.6 kW/kVA,,"6,993.76"
+Energy Efficiency Chg,0.01366,x 238441 kWh,,"3,257.10"
+Renewable Energy Chg,0.0005,x 238441 kWh,,119.22
+Distributed Solar Charge,0.00155,x 238441 kWh,,369.58
+Electric Vehicle Charge,0.00025,x 238441 kWh,,59.61
+,Total Delivery,Services,,"\$ 19,514.59"

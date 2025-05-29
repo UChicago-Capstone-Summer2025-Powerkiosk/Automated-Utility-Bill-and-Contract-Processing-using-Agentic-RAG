@@ -1,0 +1,10 @@
+,Meter number,New reading,Reading type,Prior reading,Reading type,Reading difference,Meter multiplier,Total usage kWh/kW,Usage Distribution,
+E,,22915,Actual,22718,Actual,197,800,157600,75018,82582
+E,L,008008257,45308,Actual,45034,Actual,274,800,219200,104340,114860
+Total,,,,,,,,,376800,"179,358","197,442"
+D,L,001008252,6.52,Actual,.00,Actual,6.52,48,312.96,,
+D,L,001008257,9.19,Actual,.00,Actual,9.19,48,441.12,,
+,,Meter number,,Reading type,Power <br> Factor(\%),,Actual kVar,Allowable kVar,Billable kVar,,
+R,L,001008252,,Actual,89.44,,156.48,104.32,52.16,,
+R,L,001008257,,Actual,96.39,,121.92,147.04,$-25.12$,,
+Total,,,,,,,,,27.04,,
