@@ -15,7 +15,12 @@ DB_DIR = "./vector_db"
 COLLECTION_NAME = "utility_docs"
 
 def load_and_split_documents(source_dir):
-    """Loads all JSON files and splits them into manageable chunks."""
+    """
+    Loads each JSON file as a SINGLE document, preserving its full content.
+    This maintains the context between keys and values.
+    """
+    from langchain_core.documents import Document
+
     all_docs = []
     print(f"Loading JSON files from: {source_dir}")
 
@@ -26,27 +31,32 @@ def load_and_split_documents(source_dir):
 
     for filename in json_files:
         file_path = os.path.join(source_dir, filename)
-        jq_schema = '.. | select(type == "string" or type == "number")'
-        loader = JSONLoader(file_path=file_path, jq_schema=jq_schema, text_content=False)
-        data = loader.load()
-        for doc in data:
-            doc.metadata['source'] = filename
-        all_docs.extend(data)
+        with open(file_path, 'r', encoding='utf-8') as f:
+            try:
+                # Load the entire JSON object
+                data = json.load(f)
+                content_string = json.dumps(data, indent=2)
 
-    print(f"Loaded {len(json_files)} files, created {len(all_docs)} initial document objects.")
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=100)
-    split_docs = text_splitter.split_documents(all_docs)
-    print(f"Split documents into {len(split_docs)} chunks.")
-    return split_docs
+                # Create a single LangChain Document object for the entire file
+                doc = Document(
+                    page_content=content_string,
+                    metadata={"source": filename}
+                )
+                all_docs.append(doc)
+
+            except json.JSONDecodeError:
+                print(f"  - Warning: Could not decode JSON from {filename}. Skipping.")
+
+    print(f"Loaded and created {len(all_docs)} document objects (one per file).")
+    return all_docs
 
 def create_and_populate_db(documents):
-    """Initializes the vector DB and populates it with the document chunks."""
+    """Initializes the vector DB and populates it with the document chunks in batches."""
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
         raise ValueError("OPENAI_API_KEY environment variable not set.")
 
     print("Initializing ChromaDB-native OpenAI Embedding Function...")
-    # Use the ChromaDB utility for compatibility
     embedding_function = OpenAIEmbeddingFunction(
         api_key=api_key,
         model_name="text-embedding-3-small"
@@ -61,34 +71,40 @@ def create_and_populate_db(documents):
         embedding_function=embedding_function
     )
     
-    print("Manually embedding document chunks for ChromaDB...")
+    # Initialize the LangChain embeddings object to use for batch processing
     langchain_embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
-    
-    # Check if there are documents to embed
+
     if not documents:
         print("No documents to embed. Exiting.")
         return
 
-    page_contents = [doc.page_content for doc in documents]
-    embedded_docs = langchain_embeddings.embed_documents(page_contents)
-
-    print(f"Populating database. This may take a few minutes for {len(documents)} chunks...")
+    print(f"Populating database in batches. Total documents: {len(documents)}")
     
-    batch_size = 100
+    # Define a batch size. A size of 100-200 is usually safe and efficient.
+    batch_size = 100 
     for i in range(0, len(documents), batch_size):
+        # 1. Get a small batch of documents
         batch_docs = documents[i:i + batch_size]
-        batch_embeddings = embedded_docs[i:i + batch_size]
+        print(f"  - Processing batch {i//batch_size + 1}/{(len(documents)//batch_size) + 1}...")
+
+        # 2. Get the text content for the current batch
+        page_contents = [doc.page_content for doc in batch_docs]
         
+        # 3. Embed ONLY this small batch
+        print("    - Embedding batch...")
+        batch_embeddings = langchain_embeddings.embed_documents(page_contents)
+
+        # 4. Add the batch to the vector store
+        print("    - Adding to ChromaDB...")
         vector_store.add(
             ids=[f"doc_{i+j}" for j in range(len(batch_docs))],
             embeddings=batch_embeddings,
             documents=[doc.page_content for doc in batch_docs],
             metadatas=[doc.metadata for doc in batch_docs]
         )
-        print(f"  - Added batch {i//batch_size + 1}/{(len(documents)//batch_size) + 1}")
 
     print("\n--- Database creation and population complete! ---")
-    print(f"Total chunks in DB: {vector_store.count()}")
+    print(f"Total documents in DB: {vector_store.count()}")
 
 if __name__ == "__main__":
     docs_to_ingest = load_and_split_documents(JSON_SOURCE_DIR)
