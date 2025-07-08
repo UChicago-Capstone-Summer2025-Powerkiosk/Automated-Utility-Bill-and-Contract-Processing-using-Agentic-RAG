@@ -1,0 +1,118 @@
+{
+  "documentType": "contract",
+  "documentId": "document_336",
+  "contractStart": "2024-12-01",
+  "contractEnd": "2027-12-01",
+  "usageHistory": {
+    "2024-12": 47023.83,
+    "2025-01": 526059.84,
+    "2025-02": 508744.02,
+    "2025-03": 529516.43,
+    "2025-04": 488127.68,
+    "2025-05": 569048.99,
+    "2025-06": 714053.42,
+    "2025-07": 886150.06,
+    "2025-08": 822045.91,
+    "2025-09": 638535.14,
+    "2025-10": 540289.54,
+    "2025-11": 504938.52,
+    "2025-12": 566366.96,
+    "2026-01": 563729.64,
+    "2026-02": 509140.46,
+    "2026-03": 533553.08,
+    "2026-04": 489318.48,
+    "2026-05": 564023.07,
+    "2026-06": 717106.06,
+    "2026-07": 890095.11,
+    "2026-08": 822144.21,
+    "2026-09": 639529.67,
+    "2026-10": 538212.11,
+    "2026-11": 505601.79,
+    "2026-12": 562783.95,
+    "2027-01": 562318.37,
+    "2027-02": 508872.17,
+    "2027-03": 541062.65,
+    "2027-04": 489208.52,
+    "2027-05": 562998.61,
+    "2027-06": 715931.34,
+    "2027-07": 887452.61,
+    "2027-08": 830367.58,
+    "2027-09": 644157.08,
+    "2027-10": 537214.28,
+    "2027-11": 508442.17,
+    "2027-12": 401339.19,
+    "2028-01": 17575.28
+  },
+  "locations": [
+    {
+      "serviceAddress": "AMERICAN BLVD, TURNERSVILLE, NJ 08012",
+      "accountNumber": "055031230125700 0540166",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "AMERICAN BLVD, TURNERSVILLE, NJ 08012",
+      "accountNumber": "055031230141700 0474272",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "FRIESMILL RD, TURNERSVILLE, NJ 08012",
+      "accountNumber": "055031230174700 0513357",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "FRIESMILL RD, TURNERSVILLE, NJ 08012",
+      "accountNumber": "055031230190700 0621929",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2399 RTE 1 SIGN, NORTH BRUNSWICK TWP, NJ 08902",
+      "accountNumber": "PE0000081143034 59103",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2465 S BROAD ST, HAMILTON TWP MER, NJ 08619",
+      "accountNumber": "PE0000082749417 38953",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2399 RTE 1 CINEMA, NORTH BRUNSWICK TWP, NJ 08902",
+      "accountNumber": "PE0000095718102 47736",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "250 BROMLEY BLVD, BURLINGTON TWP, NJ 08016",
+      "accountNumber": "PE0000103579637 47736",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "S LENOLA RD SIGN, MOORESTOWN TWP, NJ 08057",
+      "accountNumber": "PE0000107425936 79465",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 CORPORATE CT SIGN, SOUTH PLAINFIELD BORO, NJ 07080",
+      "accountNumber": "PE0000108416793 59145",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 W ROUTE 38 POLE, MOORESTOWN TWP, NJ 08057",
+      "accountNumber": "PE0000112317128 79465",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 CORPORATE CT, SOUTH PLAINFIELD BORO, NJ 07080",
+      "accountNumber": "PE0000113313803 44489",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "650 PLAZA DR, SECAUCUS TOWN, NJ 07094",
+      "accountNumber": "PE0000118811066 03476",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 W ROUTE 38 STE 1600, MOORESTOWN TWP, NJ 08057",
+      "accountNumber": "PE0000120219407 79465",
+      "meterNumber": null
+    }
+  ]
+}

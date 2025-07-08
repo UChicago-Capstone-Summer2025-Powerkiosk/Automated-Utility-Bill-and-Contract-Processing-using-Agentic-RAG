@@ -1,0 +1,22 @@
+Payment Details,,,,,
+Payment Received,"DATE <br> August 18, 2017",AMOUNT <br> \$529.77,,,
+Gas Service Non Residential Billing Detail - Rate Zone III,,,09/02/2017 - 09/30/2017 (28 days),,
+Gas Meter Read for 08/02/2017 - 08/30/2017 (28 days),,,,,
+READ TYPE <br> Total Therm,METER NUMBER <br> 00814906,CURRENT METER READ 15662.0000 Actual,PREVIOUS METER READ 15609.0000 Actual,READ DIFFERENCE 53.0000,$\begin{gathered} \text { MULTIPLIER } \\ 10.0000 \end{gathered}$,$\begin{gathered} \text { USAGE } \\ 530.0000 \end{gathered}$
+Usage Summary,,,,,
+Total Therms,530.0000,,,,
+Gas Delivery,CHARGE DESCRIPTION,,USAGE,UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,,\$77.23
+GDS-2 Small Gas Delivery,Volume Balancing Adjustment,530.00,Therms,,\$ 0.11688000,\$61.95
+Service Space Heat,Qualifying Infrastructure Plant Surchg,\$138.92,,,\$ 0.04500000,\$23.85
+,,,,,\$138.92,\$6.45
+,,,,,,\$169.48
+Gas Supply,Purchased Gas Adjustment Charge,530.00,Therms,,\$ 0.41461000,\$219.75
+Ameren Illinois,,,,,Gas Supply,\$219.75
+Taxes and Other Fees,Gas Energy Efficiency Cost Recovery,530.00,Therms,,\$ 0.00112000,\$-0.59
+,Gas Environmental Adjustment,530.00,Therms,,\$ 0.02631450,\$13.95
+,Illinois State Gas Revenue Tax,,,,,\$12.72
+,Illinois State Commerce Commission Tax,,,,,\$0.40
+,Edwardsville Municipal Gross Revenue,,,,,\$14.51
+,,,,Total Tax Related Fees,,\$40.99
+,,,,Total Gas Charges,,\$430.22

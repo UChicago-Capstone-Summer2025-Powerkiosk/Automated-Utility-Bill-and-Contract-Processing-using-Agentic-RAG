@@ -1,0 +1,29 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1065",
+  "contractStart": "2025-04-01",
+  "contractEnd": "2026-09-30",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "524 LANSING ST, CHARLOTTE, MI 48813",
+      "accountNumber": "0000004748023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2530 S STATE RD, IGNIA, MI 48846",
+      "accountNumber": "0000003831547",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6500 N NEWBURGH RD, WESTLAND, MI 48185",
+      "accountNumber": "0000003539314",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1600 W GREEN ST, HASTINGS, MI 49058",
+      "accountNumber": "0000004866302",
+      "meterNumber": null
+    }
+  ]
+}

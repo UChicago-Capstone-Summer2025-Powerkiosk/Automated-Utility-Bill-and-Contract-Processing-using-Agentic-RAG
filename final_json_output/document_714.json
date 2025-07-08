@@ -1,0 +1,24 @@
+{
+  "documentType": "contract",
+  "documentId": "document_714",
+  "contractStart": "2024-12-14",
+  "contractEnd": "2027-12-15",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "411 E CHESTNUT ST, LANCASTER, PA 176023016",
+      "accountNumber": "1552082006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "419 E CHESTNUT ST, LANCASTER, PA 17602",
+      "accountNumber": "2652082009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "230 N ANN ST, CONCURRENT SRV, LANCASTER, PA 17602",
+      "accountNumber": "8665252002",
+      "meterNumber": null
+    }
+  ]
+}

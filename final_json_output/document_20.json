@@ -1,0 +1,14 @@
+{
+  "documentType": "contract",
+  "documentId": "document_20",
+  "contractStart": "2018-04-01",
+  "contractEnd": "2019-03-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2651 Orange Ave, Apopka, FL 32703",
+      "accountNumber": "DRN 16255",
+      "meterNumber": null
+    }
+  ]
+}

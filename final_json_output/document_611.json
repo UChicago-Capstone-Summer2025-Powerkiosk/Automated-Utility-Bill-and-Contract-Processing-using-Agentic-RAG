@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_611",
+  "statementDate": "August 14, 2024",
+  "usageHistory": {
+    "2023-08": 250,
+    "2023-09": 150,
+    "2023-10": 300,
+    "2023-11": 500,
+    "2023-12": 950,
+    "2024-01": 600,
+    "2024-02": 550,
+    "2024-03": 500,
+    "2024-04": 450,
+    "2024-05": 200,
+    "2024-06": 100,
+    "2024-07": 150,
+    "2024-08": 250
+  },
+  "locations": [
+    {
+      "serviceAddress": "553 PAVONIA AVE SITE LTG JEREEY CITY NJ 07306-1803",
+      "accountNumber": "6731285218",
+      "meterNumber": "126681333"
+    }
+  ],
+  "totalUsage": 354
+}

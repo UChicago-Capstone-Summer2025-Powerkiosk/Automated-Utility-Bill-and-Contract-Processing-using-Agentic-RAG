@@ -1,0 +1,142 @@
+{
+  "documentType": "contract",
+  "documentId": "document_44",
+  "contractStart": "2022-11-01",
+  "contractEnd": "2024-10-31",
+  "usageHistory": {
+    "2022-11": 493,
+    "2022-12": 1250,
+    "2023-01": 1361,
+    "2023-02": 1207,
+    "2023-03": 1260,
+    "2023-04": 1239,
+    "2023-05": 1617,
+    "2023-06": 1746,
+    "2023-07": 1849,
+    "2023-08": 1980,
+    "2023-09": 1668,
+    "2023-10": 1352,
+    "2023-11": 1210,
+    "2023-12": 1246,
+    "2024-01": 1361,
+    "2024-02": 1248,
+    "2024-03": 1247,
+    "2024-04": 1260,
+    "2024-05": 1627,
+    "2024-06": 1743,
+    "2024-07": 1875,
+    "2024-08": 1972,
+    "2024-09": 1649,
+    "2024-10": 1346
+  },
+  "locations": [
+    {
+      "accountNumber": "0240218017",
+      "meterNumber": "0240218017",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "0240230013",
+      "meterNumber": "0240230013",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "0321997022",
+      "meterNumber": "0321997022",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "0377298032",
+      "meterNumber": "0377298032",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "1477211038",
+      "meterNumber": "1477211038",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "1534222039",
+      "meterNumber": "1534222039",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "1609121003",
+      "meterNumber": "1609121003",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "2795273033",
+      "meterNumber": "2795273033",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "3966866038",
+      "meterNumber": "3966866038",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "3967671015",
+      "meterNumber": "3967671015",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "3967723023",
+      "meterNumber": "3967723023",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "5213118038",
+      "meterNumber": "5213118038",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "5213953019",
+      "meterNumber": "5213953019",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "6459763034",
+      "meterNumber": "6459763034",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "7706026036",
+      "meterNumber": "7706026036",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "7706837020",
+      "meterNumber": "7706837020",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "7706892030",
+      "meterNumber": "7706892030",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    },
+    {
+      "accountNumber": "7834512030",
+      "meterNumber": "7834512030",
+      "serviceAddress": ", MA",
+      "utility": "MECO"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1099",
+  "statementDate": "2022-01-03",
+  "usageHistory": {
+    "2021-01": 35,
+    "2021-02": 50,
+    "2021-03": 75,
+    "2021-04": 60,
+    "2021-05": 30,
+    "2021-06": 35,
+    "2021-07": 40,
+    "2021-08": 35,
+    "2021-09": 30,
+    "2021-10": 30,
+    "2021-11": 25,
+    "2021-12": 40
+  },
+  "locations": [
+    {
+      "serviceAddress": "49 ROCK CREST DR, HENRYVILLE, PA 18332",
+      "accountNumber": "18271-32035",
+      "meterNumber": "300850135"
+    },
+    {
+      "serviceAddress": "3437 ROUTE 715, HENRYVILLE, PA 18332",
+      "accountNumber": "18271-32035",
+      "meterNumber": "300850135"
+    }
+  ],
+  "totalUsage": 1186
+}

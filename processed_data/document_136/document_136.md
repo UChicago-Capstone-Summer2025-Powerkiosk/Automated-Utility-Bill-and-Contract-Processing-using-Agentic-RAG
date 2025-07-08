@@ -1,0 +1,749 @@
+# CONSOLIDATED BILL 
+
+SERVICE ADDRESS:
+16769-1 25
+$\left.\mathrm{T}^{\mathrm{T}} \mathrm{H}\right|_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}_{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\mathrm{H}} \mathrm{H}}^{\mathrm{H}}^{\
+
+# PAS TECHNOLOGIES INC 
+
+PO BOX 12629
+KANSAS CITY, MO 64116-0629
+Account \#102-207-586-2-6
+
+## Line Item Charges:
+
+| Previous Charges |  |
+| :--: | :--: |
+| Total Amount Due At Last Billing | \$ 61,984.51 |
+| Payment 12/08/20 - Thank You | $-61,984.51$ |
+| Previous Balance Due | \$ .00 |
+| Current AEP Ohio Charges |  |
+| Electric Billing Summary | \$ 78,037.49* |
+| Total Balance Due <br> ${ }^{*}$ Charges make up the "Total Balance Due" <br> The Amount Will Be Deducted From Your Bank Account On January 8, 2021. |  |
+
+## Notes from AEP Ohio:
+
+In May 2018, our payment address changed! The new address is $\underline{\text { PQ }}$ Box 371496, Pittsburgh, PA 15250-7496. Please update your records and any bill-pay services to avoid fees or service interruptions. If you have updated your records no action is needed.
+The Company will reinstate late payment fees effective with the due date of this bill. In order to avoid a late payment fee, the account will need to be current or a payment arrangement must be executed prior to the due date of this bill. In order to set up a payment arrangement please call 1-888-710-4237.
+AEP now furnishes Commercial \& Industrial payment histories to credit reporting agencies.
+
+![](images/img-0.jpeg)
+
+The image is a photo of a document, specifically a billing statement. It contains structured tabular data related to energy consumption and billing details. Key elements include:
+
+- **Header Information:**
+  - "AMERICAN ELECTRIC POWER"
+  - "SUMMARY OF CONSOLIDATED BILLING"
+  - "DECEMBER 2020"
+  - "DATE PREPARED: 12/17/20"
+  - "TIME PREPARED: 20:14:05"
+  - "BILL DUE DATE: 01/08/21"
+  - "PAGE: 1 OF 1"
+
+- **Columns and Data:**
+  - "ACCOUNT NUMBER: 102 297 586 2"
+  - "SERVICE ADDRESS"
+  - "METERED KWH"
+  - "METERED KVAR"
+  - "BILL AMOUNT"
+  - "SERVICE PROVIDER: ENGIE RESOURCES LLC"
+  - "HILLSBORO, OH 45133-9647"
+  - "PAS TECHNOLOGIES INC"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 00406-021-0595-884-6"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 00406-021-077-484-1"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 00406-021-024-995-5"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 00406-021-074-544-7"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 00406-021-065-270-6"
+
+- **Data Entries:**
+  - Various numeric values under columns such as "PF CONS", "SERVICE CITY-STATE-ZIP", "BILLING KWH", "TAX AMT", "ADVANTAGE", "TOTAL", etc.
+  - Specific addresses like "214 HOBART DR" and "730 EAST ST".
+  - Multiple entries with numeric values and letters (e.g., "5.25 A", "50.50 D", "102.80 E").
+
+The document is oriented with text running vertically, making it appear rotated.
+
+![](images/img-1.jpeg)
+
+The image is a photo of a document, specifically an electricity bill. It contains structured tabular data with various columns and rows. Key elements include:
+
+- **Title and Header Information:**
+  - "AMERICAN ELECTRIC POWER"
+  - "SUMMARY CONSOLIDATED BILLING"
+  - "DECEMBER 2020"
+  - "DATE PREPARED: 12/17/20"
+  - "TIME PREPARED: 20:48:15"
+  - "PAGE: 1"
+  - "BILL DUE DATE: 01/08/21"
+
+- **Account and Service Details:**
+  - "ACCOUNT NO: 102 297 546 2"
+  - "SERVICE ADDRESS: 108 HOMESTEAD AVE"
+  - "SERVICE PROVIDER: ENGIE RESOURCES LLC"
+  - "HILLSBORO, OH 45133-7940"
+
+- **Billing Information:**
+  - Columns for "PREV READ," "CURR READ," "USAGE," "BILL AMT," "TAX AMT," "TOTAL AMT"
+  - Specific data points such as "PREV READ: 11.03," "CURR READ: 11.12," "USAGE: 0.00," "BILL AMT: 0.00," "TAX AMT: 0.00," "TOTAL AMT: 0.00"
+
+- **Additional Details:**
+  - "ENERGY SERVICE PROVIDER: ENGIE RESOURCES LLC"
+  - "SERVICE DELIVERY IDENTIFIER NUMBER: 0004-0624-0006-1955-5"
+
+The document is oriented sideways, with text running vertically. The layout is typical for utility bills, showing detailed consumption and billing information for multiple service addresses.
+
+![](images/img-2.jpeg)
+
+The image is a photo of a billing statement. It contains the following text:
+
+- DATE PREPARED: 12/17/20
+- TIME PREPARED: 20:48:05
+- PAGE: 3
+- BILL DUE DATE: 01/08/21
+- AMERICAN ELECTRIC POWER
+- SUMMARY OF CONSOLIDATED BILLING
+- DECEMBER 2020
+- NO: MCS92827
+- CR: 10390
+- 102 207 586 2
+- SERVICE NAME: PAS TECHNOLOGIES INC
+- SERVICE ADDRESS: 214 HOBART DR BLDG #2
+- CITY-STATE-ZIP: HILLSBORO, OH 45133-9467
+- ENERGY SERVICE PROVIDER: ENGIE RESOURCES LLC
+- SERVICE DELIVERY IDENTIFIER NUMBER: 0804-0621-0677-9124-0
+- METERED KWH: 720.000
+- CURRENT AMOUNT: 32,026.90
+- PREVIOUS ACCOUNT BALANCE: 32,026.90
+- CURRENT CHARGES: 46,010.59
+- ADJUSTMENTS: 0.00
+- TOTAL NEW CHARGES: 78,037.49
+- TOTAL DUE: 78,037.49
+- IF PAID AFTER 01/08/21, ADD: 1,601.35
+- PF CONS: A
+- CONTRACT: A
+- ADJ CONS: A
+- ADJ KWH: A
+- TRANSMISSION: A
+- TOTAL: A
+- 234,720 B
+- 453,804 C
+- 0.00 D
+- 19,541.91 E
+- 19,676.72 E
+- TOTAL: 78,037.49
+- ADJ/BESP: 46,010.59
+- TAX: 0.00
+- SUMMARY:
+- CUSTOMERS: 9
+- CONSOLIDATED TOTALS:
+- 861.05
+- 10,986.13
+- 2,996.33
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 0.00
+- 

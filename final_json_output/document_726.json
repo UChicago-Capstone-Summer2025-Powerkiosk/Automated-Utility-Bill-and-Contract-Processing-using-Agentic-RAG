@@ -1,0 +1,222 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_726",
+  "statementDate": "11/4/2015",
+  "usageHistory": {
+    "2014-11": 510000,
+    "2014-12": 433000,
+    "2015-01": 362000,
+    "2015-02": 287000,
+    "2015-03": 219000,
+    "2015-04": 147000,
+    "2015-05": 70000,
+    "2015-06": 0,
+    "2015-07": 0,
+    "2015-08": 0,
+    "2015-09": 0,
+    "2015-10": 0
+  },
+  "locations": [
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "097181961"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "140481940"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141367905"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141401653"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141401656"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141516240"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141602819"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141602820"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141602621"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141682913"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141682914"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141723511"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141723512"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "141723525"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230009724"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230009725"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012436"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012458"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012459"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012460"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012494"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012495"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012496"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230012497"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230013895"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230013896"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230014616"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230014617"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230016054"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230016639"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083578"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083579"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083610"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083611"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083612"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083613"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083654"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083655"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083656"
+    },
+    {
+      "serviceAddress": "UNIT 150 5200 OLD ORCHARD RD SKOKIE, IL 60077",
+      "accountNumber": "1572089056",
+      "meterNumber": "230083657"
+    }
+  ],
+  "totalUsage": 4495.46
+}

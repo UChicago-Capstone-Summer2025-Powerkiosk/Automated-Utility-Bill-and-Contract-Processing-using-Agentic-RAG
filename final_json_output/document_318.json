@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_318",
+  "statementDate": "12/13/23",
+  "usageHistory": {
+    "2023-12": 31200,
+    "2024-01": 36600,
+    "2024-02": 30300,
+    "2024-03": 28500,
+    "2024-04": 22500,
+    "2024-05": 17100,
+    "2024-06": 18600,
+    "2024-07": 34800,
+    "2024-08": 42600,
+    "2024-09": 45300,
+    "2024-10": 24600,
+    "2024-11": 27000
+  },
+  "locations": [
+    {
+      "serviceAddress": "133 HEATHER LN KENSIONS TON GT 06037",
+      "accountNumber": "51109123075",
+      "meterNumber": "081241691"
+    }
+  ],
+  "totalUsage": 29700
+}

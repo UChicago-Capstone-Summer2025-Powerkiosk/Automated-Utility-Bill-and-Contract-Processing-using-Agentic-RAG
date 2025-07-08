@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_418",
+  "statementDate": "04/14/2020",
+  "totalUsage": 195300,
+  "usageHistory": {
+    "2020-03": 195300
+  },
+  "locations": [
+    {
+      "serviceAddress": "1750 LITTLE RAVEN ST UNIT TEMP GAS DENVER, CO 80202",
+      "accountNumber": "53-0011450977-7",
+      "meterNumber": "10013348"
+    },
+    {
+      "serviceAddress": "1750 LITTLE RAVEN ST UNIT HSE DENVER, CO 80202",
+      "accountNumber": "53-0011450977-7",
+      "meterNumber": "RZ305210"
+    }
+  ]
+}

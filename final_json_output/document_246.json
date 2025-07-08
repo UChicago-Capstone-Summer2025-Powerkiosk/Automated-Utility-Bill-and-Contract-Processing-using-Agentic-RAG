@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_246",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2023-12": 54720,
+    "2024-01": 56880,
+    "2024-02": 51120,
+    "2024-03": 52560,
+    "2024-04": 53280,
+    "2024-05": 55440,
+    "2024-06": 68400,
+    "2024-07": 75600,
+    "2024-08": 72720,
+    "2024-09": 81360,
+    "2024-10": 67680,
+    "2024-11": 58320,
+    "2024-12": 54720
+  },
+  "locations": [
+    {
+      "serviceAddress": "139 PATTERSON WAY BLLIN HIBRISHOUL NERSINGTON CT 06037",
+      "accountNumber": "51592113005",
+      "meterNumber": "081241701"
+    }
+  ],
+  "totalUsage": 54720
+}

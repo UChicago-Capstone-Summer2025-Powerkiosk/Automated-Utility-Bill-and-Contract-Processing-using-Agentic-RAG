@@ -1,0 +1,29 @@
+{
+  "documentType": "contract",
+  "documentId": "document_181",
+  "contractStart": "2019-04-01",
+  "contractEnd": "2024-03-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "908 INDUSTRIAL BLVD STE 125, GRAPEVINE, TX 76051",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2888 W WALNUT HILL LN B/C, D/FW AIRPORT, TX",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "908 NOLEN DR, GRAPEVINE, TX 76051",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "900 NOLEN RD PUMP, GRAPEVINE, TX 76051",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

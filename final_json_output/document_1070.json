@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1070",
+  "statementDate": "2023-01-23",
+  "totalUsage": {
+    "electric": 15760,
+    "gas": 129.9
+  },
+  "usageHistory": {
+    "2023-01": {
+      "electric": 15760,
+      "gas": 129.9
+    },
+    "2022-01": {
+      "electric": 13920,
+      "gas": 137
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "524 LANSING ST, CHARLOTTE MI 48813-1116",
+      "accountNumber": "100088141112",
+      "meterNumber": "40062458"
+    }
+  ]
+}

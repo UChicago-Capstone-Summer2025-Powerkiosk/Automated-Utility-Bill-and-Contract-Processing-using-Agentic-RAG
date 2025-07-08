@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_276",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 322,
+    "2024-01": 329,
+    "2024-02": 355,
+    "2024-03": 329,
+    "2024-04": 382,
+    "2024-05": 306,
+    "2024-07": 271,
+    "2024-08": 287,
+    "2024-09": 289,
+    "2024-10": 460,
+    "2024-11": 274,
+    "2024-12": 340
+  },
+  "locations": [
+    {
+      "serviceAddress": "UROHARD RD",
+      "accountNumber": "51745023069",
+      "meterNumber": "892405732"
+    }
+  ],
+  "totalUsage": 340
+}

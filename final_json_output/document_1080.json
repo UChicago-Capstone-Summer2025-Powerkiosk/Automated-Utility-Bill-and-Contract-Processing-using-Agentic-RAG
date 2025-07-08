@@ -1,0 +1,99 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1080",
+  "contractStart": "2025-03-11",
+  "contractEnd": "2028-03-10",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "234 Rock Crest Dr, Henryville, PA 18332",
+      "accountNumber": "1807132020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "49 ROCK CREST DR, Henryville, PA 18332",
+      "accountNumber": "1827132035",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "237 ROCK CREST DR, Henryville, PA 18332",
+      "accountNumber": "1887132015",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "RR1 UNIT 36A, LAUNDRY BUILDING, Henryville, PA 18332",
+      "accountNumber": "2167136014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "RR1, Allerwood, PA 17810",
+      "accountNumber": "2358056007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "314 CHERRY LANE ROAD, Kitchen, East Stroudsburg, PA 18301",
+      "accountNumber": "2713377034",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "RR 1, BOX 52-E, Henryville, PA 18332",
+      "accountNumber": "3187026029",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "314 CHERRY LANE ROAD INN, East Stroudsburg, PA 18301",
+      "accountNumber": "4127131082",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 RR 1, Henryville, PA 18332",
+      "accountNumber": "4607131040",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3437 Route 715, Henryville, PA 18332",
+      "accountNumber": "4627131028",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0, Henryville, PA 18332",
+      "accountNumber": "4647131024",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "235 ROCK CREST DR, Henryville, PA 18332",
+      "accountNumber": "5257574043",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "314 CHERRY LANE ROAD, Cottages, East Stroudsburg, PA 18301",
+      "accountNumber": "6325507039",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5972 Susquehanna Tri, Turbotville, PA 17772",
+      "accountNumber": "6488053038",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5974 Susquehanna Tri, Turbotville, PA 17772",
+      "accountNumber": "6508053036",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "360 WHITE DEER RUN RD, ALLENWOOD, PA 17810-9268",
+      "accountNumber": "7638059003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "836 Marietta Ave Apt 1, Lancaster, PA 17603",
+      "accountNumber": "8135097137",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1620 Riverside Dr, Bethlehem, PA 18015",
+      "accountNumber": "9185988013",
+      "meterNumber": null
+    }
+  ]
+}

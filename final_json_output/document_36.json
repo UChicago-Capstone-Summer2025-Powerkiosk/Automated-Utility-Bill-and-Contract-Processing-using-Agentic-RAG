@@ -1,0 +1,19 @@
+{
+  "documentType": "contract",
+  "documentId": "document_36",
+  "contractStart": "2023-09-27",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "350 N. Humphreys Blvd., Memphis, TN 38120",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6019 Walnut Grove Rd, Memphis, TN 38120-2113",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

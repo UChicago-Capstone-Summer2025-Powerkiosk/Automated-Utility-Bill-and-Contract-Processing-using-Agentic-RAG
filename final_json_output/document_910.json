@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_910",
+  "statementDate": "Mar 11, 2019",
+  "usageHistory": {
+    "2018-02": 715,
+    "2018-03": 540,
+    "2018-04": 585,
+    "2018-05": 313,
+    "2018-06": 65,
+    "2018-07": 0,
+    "2018-08": 0,
+    "2018-09": 0,
+    "2018-10": 0,
+    "2018-11": 140,
+    "2018-12": 280,
+    "2019-01": 500,
+    "2019-02": 658
+  },
+  "locations": [
+    {
+      "serviceAddress": "1295 OLD NORTHERN BLVD ROSLYN NY 11576",
+      "accountNumber": "91814-54007",
+      "meterNumber": "05124571"
+    }
+  ],
+  "totalUsage": 658
+}

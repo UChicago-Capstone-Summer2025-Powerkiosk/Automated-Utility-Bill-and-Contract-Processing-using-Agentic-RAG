@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_257",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 7,
+    "2024-01": 7,
+    "2024-02": 6,
+    "2024-03": 6,
+    "2024-04": 24,
+    "2024-05": 370,
+    "2024-06": null,
+    "2024-07": 33,
+    "2024-08": 36,
+    "2024-09": 34,
+    "2024-10": 128,
+    "2024-11": 694,
+    "2024-12": 43
+  },
+  "locations": [
+    {
+      "serviceAddress": "15 TOWN FARM LN BERLIN CT 06037-2324",
+      "accountNumber": "51427434089",
+      "meterNumber": "891811802"
+    },
+    {
+      "serviceAddress": "1567 BERLIN 17KK BERLIN C: 06037",
+      "accountNumber": "51427434089",
+      "meterNumber": "891811802"
+    }
+  ],
+  "totalUsage": 43
+}

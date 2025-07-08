@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_708",
+  "statementDate": "2024-07-21",
+  "usageHistory": {
+    "2023-07": 600,
+    "2023-08": 600,
+    "2023-09": 600,
+    "2023-10": 600,
+    "2023-11": 600,
+    "2023-12": 600,
+    "2024-01": 600,
+    "2024-02": 600,
+    "2024-03": 600,
+    "2024-04": 600,
+    "2024-05": 600,
+    "2024-06": 600
+  },
+  "locations": [
+    {
+      "serviceAddress": null,
+      "accountNumber": "110 039 826 590",
+      "meterNumber": "94-1381-KYH"
+    }
+  ],
+  "totalUsage": 600
+}

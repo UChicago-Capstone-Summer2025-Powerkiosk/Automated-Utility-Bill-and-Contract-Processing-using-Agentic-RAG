@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_974",
+  "statementDate": "April 24, 2018",
+  "totalUsage": 61812,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "3400 Fort-Meade Rd, Laurel, MD 20724",
+      "accountNumber": "1728880000",
+      "meterNumber": "D116377834"
+    }
+  ]
+}

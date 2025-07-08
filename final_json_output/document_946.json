@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_946",
+  "statementDate": "2023-01-03",
+  "totalUsage": 157,
+  "usageHistory": {
+    "2021-12": 0,
+    "2022-01": 0,
+    "2022-02": 0,
+    "2022-03": 0,
+    "2022-04": 0,
+    "2022-05": 0,
+    "2022-06": 0,
+    "2022-07": 0,
+    "2022-08": 0,
+    "2022-09": 0,
+    "2022-10": 0,
+    "2022-11": 0,
+    "2022-12": 157
+  },
+  "locations": [
+    {
+      "serviceAddress": "2 CABOT AVE, SANTA CLARA, CA 95051",
+      "accountNumber": "7335705981-2",
+      "meterNumber": "61875580"
+    }
+  ]
+}

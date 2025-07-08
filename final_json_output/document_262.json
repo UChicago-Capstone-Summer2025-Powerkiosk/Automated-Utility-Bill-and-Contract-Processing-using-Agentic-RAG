@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_262",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2023-12": 1246,
+    "2024-01": 312,
+    "2024-02": 281,
+    "2024-03": 655,
+    "2024-04": 488,
+    "2024-05": 1683,
+    "2024-06": 5017,
+    "2024-07": 4662,
+    "2024-08": 5927,
+    "2024-09": 533,
+    "2024-10": 904,
+    "2024-11": 875
+  },
+  "locations": [
+    {
+      "serviceAddress": "SORTIONSTON ED, REASINGTON CT 06037",
+      "accountNumber": "51700513021",
+      "meterNumber": "895383962"
+    }
+  ],
+  "totalUsage": 875
+}

@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1106",
+  "statementDate": "12/13/21",
+  "usageHistory": {
+    "2021-01": 175,
+    "2021-02": 150,
+    "2021-03": 125,
+    "2021-04": 125,
+    "2021-05": 50,
+    "2021-06": 50,
+    "2021-07": 50,
+    "2021-08": 75,
+    "2021-09": 75,
+    "2021-10": 75,
+    "2021-11": 75,
+    "2021-12": 150
+  },
+  "locations": [
+    {
+      "serviceAddress": "314 CHERRY LANE ROAD, INN, EAST STROUDSBURG, PA 18301",
+      "accountNumber": "41271-31082",
+      "meterNumber": "300837482"
+    },
+    {
+      "serviceAddress": "3437 ROUTE 715, HENRYVILLE, PA 18332",
+      "accountNumber": "41271-31082",
+      "meterNumber": "300837482"
+    }
+  ],
+  "totalUsage": 4732
+}

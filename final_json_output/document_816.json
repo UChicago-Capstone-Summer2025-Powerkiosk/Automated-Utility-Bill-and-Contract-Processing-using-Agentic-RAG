@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_816",
+  "contractStart": "2022-02-25",
+  "contractEnd": "2023-01-31",
+  "usageHistory": {
+    "2022-02": 25920.0,
+    "2022-03": 25920.0,
+    "2022-04": 25920.0,
+    "2022-05": 25920.0,
+    "2022-06": 25920.0,
+    "2022-07": 25920.0,
+    "2022-08": 25920.0,
+    "2022-09": 25920.0,
+    "2022-10": 25920.0,
+    "2022-11": 25920.0,
+    "2022-12": 25920.0,
+    "2023-01": 25920.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "Airport Service Road, Portsmouth, Hampshire, PO3 5PJ",
+      "accountNumber": "60074388",
+      "meterNumber": "2000027400493"
+    },
+    {
+      "serviceAddress": "Airport Service Road, Portsmouth, Hampshire, PO3 5PJ",
+      "accountNumber": "60074388",
+      "meterNumber": "2000027400703"
+    }
+  ]
+}

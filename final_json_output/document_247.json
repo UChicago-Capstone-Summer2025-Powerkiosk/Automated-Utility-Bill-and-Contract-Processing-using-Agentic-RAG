@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_247",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 7,
+    "2024-01": 7,
+    "2024-02": 4,
+    "2024-03": 6,
+    "2024-04": 6,
+    "2024-05": 6,
+    "2024-06": 6,
+    "2024-07": 6,
+    "2024-08": 6,
+    "2024-09": 6,
+    "2024-10": 6,
+    "2024-11": 6,
+    "2024-12": 6
+  },
+  "locations": [
+    {
+      "serviceAddress": "392 BERLIN ST EAST BERLIN GT 06623",
+      "accountNumber": "51149023038",
+      "meterNumber": "882127222"
+    }
+  ],
+  "totalUsage": 6
+}

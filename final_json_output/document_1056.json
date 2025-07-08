@@ -1,0 +1,27 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1056",
+  "contractStart": "2019-04-01",
+  "contractEnd": "2019-10-31",
+  "usageHistory": {
+    "2019-04": 216380.5,
+    "2019-05": 216380.5,
+    "2019-06": 216380.5,
+    "2019-07": 216380.5,
+    "2019-08": 216380.5,
+    "2019-09": 216380.5,
+    "2019-10": 216380.5
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD, Westford, MA 01886",
+      "accountNumber": "6535848023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 LITTLETON RD POLE 92, Westford, MA 01886",
+      "accountNumber": "2797685013",
+      "meterNumber": null
+    }
+  ]
+}

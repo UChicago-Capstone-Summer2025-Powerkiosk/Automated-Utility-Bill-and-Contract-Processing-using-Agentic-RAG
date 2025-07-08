@@ -1,0 +1,133 @@
+{
+  "documentType": "contract",
+  "documentId": "document_994",
+  "contractStart": "2020-01-01",
+  "contractEnd": "2023-12-31",
+  "usageHistory": {
+    "2020-01": 150734,
+    "2020-02": 165563,
+    "2020-03": 224079,
+    "2020-04": 217100,
+    "2020-05": 210456,
+    "2020-06": 221167,
+    "2020-07": 253607,
+    "2020-08": 232791,
+    "2020-09": 291303,
+    "2020-10": 342291,
+    "2020-11": 179692,
+    "2020-12": 184436,
+    "2021-01": 179233,
+    "2021-02": 160267,
+    "2021-03": 225050,
+    "2021-04": 217100,
+    "2021-05": 210456,
+    "2021-06": 221167,
+    "2021-07": 252127,
+    "2021-08": 233917,
+    "2021-09": 291303,
+    "2021-10": 340517,
+    "2021-11": 179890,
+    "2021-12": 185686,
+    "2022-01": 180411,
+    "2022-02": 160267,
+    "2022-03": 225050,
+    "2022-04": 215975,
+    "2022-05": 211133,
+    "2022-06": 221167,
+    "2022-07": 251287,
+    "2022-08": 235044,
+    "2022-09": 291303,
+    "2022-10": 340517,
+    "2022-11": 179890,
+    "2022-12": 183186,
+    "2023-01": 180411,
+    "2023-02": 160267,
+    "2023-03": 225050,
+    "2023-04": 214650,
+    "2023-05": 211810,
+    "2023-06": 221167,
+    "2023-07": 251287,
+    "2023-08": 235044,
+    "2023-09": 290523,
+    "2023-10": 342291,
+    "2023-11": 179890,
+    "2023-12": 181937
+  },
+  "locations": [
+    {
+      "serviceAddress": "County St Warehouse 19 (BIRDSONG CORPORATION Customer C)",
+      "accountNumber": "4853647503",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomans Hey New (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "5485709546",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Warwick St Warehouse No 5 (BIRDSONG CORPORATION Customer W)",
+      "accountNumber": "5983730002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "612 Madison Ave (BIRDSONG CORPORATION Customer 6)",
+      "accountNumber": "7633632505",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hey (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "7299668926",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "301 Mill St Warehouse 2223 (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "7533717505",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Madison Ave Pond Cold Storage (BIRDSONG CORPORATION Customer M)",
+      "accountNumber": "7739176456",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Adams St Truck Scale Office (BIRDSONG CORPORATION Customer A)",
+      "accountNumber": "2043775002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "612 Madison Ave Whae Electrical Room (BIRDSONG CORPORATION Customer 6)",
+      "accountNumber": "7552867744",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "319 Factory St Whse 182 Cold Storage (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "0499147296",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy Rear Warehouse/Part (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "4183069972",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy (BIRDSONG CORPORATION Customer 3)",
+      "accountNumber": "3744109442",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "118 Factory St Whse45/Parker Coldator (BIRDSONG CORPORATION Customer 1)",
+      "accountNumber": "7713555006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "118 Factory St F5/Nienhouse 14 (BIRDSONG CORPORATION Customer 1)",
+      "accountNumber": "1133622504",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 Madison Ave 1 No 1 Sampler (BIRDSONG CORPORATION Customer 6)",
+      "accountNumber": "1123635003",
+      "meterNumber": null
+    }
+  ]
+}

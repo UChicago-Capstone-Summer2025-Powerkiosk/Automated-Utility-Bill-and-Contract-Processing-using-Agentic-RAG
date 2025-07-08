@@ -1,0 +1,29 @@
+Payment Details,,,,
+,DATE,AMOUNT,,
+Payment Received,"November 16, 2016","\$3,734.74",,
+Electric Service Non-Residential Silling Details Date Zone 1,,,,12/07/2016
+,,,,12/07/2016 (10 days)
+Electric Meter Read for 11/01/2016 - 12/01/2016 (30 days),,,,
+READ TYPE,METER NUMBER,CURRENT METER READ,PREVIOUS METER READ,READ DIFFERENCE,MULTIPLIER,USAGE
+Total kWh,72019540,1931.0000 Estimate,1749.0000 Actual,162.0000,192.0000,34944.0000
+Usage Summary,,,,
+Total kWh,,34944.0000,Non-Summer kWh,,,34944.0000
+Peak kW,,61.1000,,,,
+Electric Delivery,CHARGE DESCRIPTION,,USAGE UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,\$31.13
+DS-2 Small General Delivery,Mater Charge,,,,88.37
+Service,Distribution Delivery Charge Non-Summer,"2,000.00 kWh",@ \$ 0.02156000,\$43.12
+,Distribution Delivery Charge Non-Summer,"32,044.00 kWh",@ \$ 0.01107000,\$384.69
+,Electric Environmental Adjustment,"34,944.00 kWh",@ \$ 0.00014840,$\$ 6.19$
+,Energy Efficiency Demand Response,"34,944.00 kWh",@ \$ 0.00441000,\$164.10
+,,,Electric Delivery,\$586.22
+Electric Supply,SUPPLIER ENERGY CHARGES,"34,944.00 kWh",@ \$ 0.05199000,"\$1,816.74"
+AEP Energy,,,,
+,,,Electric Supply,"\$1,816.74"
+Taxes and Other Fees,Illinois State Electricity Excise Tax,,,\$111.69
+,EDT Cost Recovery,,,\$49.78
+,,,Total Tax Related Fees,\$181.47
+,,,Total Electric Charges,"\$2,574.43"
+(3),,,,
+(4),,,,
+(5),,,,

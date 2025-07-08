@@ -1,0 +1,153 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1088",
+  "contractStart": "2022-02",
+  "contractEnd": "2025-02",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "3437 Route 715",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332-7785",
+      "utility": "PPL",
+      "utilityAccountNumber": "4627131028"
+    },
+    {
+      "serviceAddress": "235 Rock Crest Dr",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "5257574043"
+    },
+    {
+      "serviceAddress": "234 Rock Crest Dr",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "1807132020"
+    },
+    {
+      "serviceAddress": "5974 Susquehanna Tri",
+      "city": "Turbotville",
+      "state": "Pennsylvania",
+      "zipCode": "17772",
+      "utility": "PPL",
+      "utilityAccountNumber": "6508053036"
+    },
+    {
+      "serviceAddress": "314 Cherry Lane Rd Kitchen",
+      "city": "East Stroudsburg",
+      "state": "Pennsylvania",
+      "zipCode": "18301",
+      "utility": "PPL",
+      "utilityAccountNumber": "2713377034"
+    },
+    {
+      "serviceAddress": "53 NW End Ave",
+      "city": "Lancaster",
+      "state": "Pennsylvania",
+      "zipCode": "17603",
+      "utility": "PPL",
+      "utilityAccountNumber": "9239115004"
+    },
+    {
+      "serviceAddress": "314 Cherry Lane Rd Inn",
+      "city": "East Stroudsburg",
+      "state": "Pennsylvania",
+      "zipCode": "18301",
+      "utility": "PPL",
+      "utilityAccountNumber": "4127131082"
+    },
+    {
+      "serviceAddress": "1620 Riverside Dr",
+      "city": "Bethlehem",
+      "state": "Pennsylvania",
+      "zipCode": "18015-1215",
+      "utility": "PPL",
+      "utilityAccountNumber": "9185988013"
+    },
+    {
+      "serviceAddress": "RR1 Unit 36A Laundry Building",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "2167136014"
+    },
+    {
+      "serviceAddress": "RR1 Box 52-E",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "3187026029"
+    },
+    {
+      "serviceAddress": "237 Rock Crest Dr",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "1887132015"
+    },
+    {
+      "serviceAddress": "237 Rock Crest Dr",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "4647131024"
+    },
+    {
+      "serviceAddress": "836 Marietta Ave Apt 1",
+      "city": "Lancaster",
+      "state": "Pennsylvania",
+      "zipCode": "17603",
+      "utility": "PPL",
+      "utilityAccountNumber": "8135097137"
+    },
+    {
+      "serviceAddress": "RR1",
+      "city": "Allenwood",
+      "state": "Pennsylvania",
+      "zipCode": "17810",
+      "utility": "PPL",
+      "utilityAccountNumber": "2358056007"
+    },
+    {
+      "serviceAddress": "49 Rock Crest Dr",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332",
+      "utility": "PPL",
+      "utilityAccountNumber": "1827132035"
+    },
+    {
+      "serviceAddress": "5972 SUSQUEHANNA TRL",
+      "city": "Turbotville",
+      "state": "Pennsylvania",
+      "zipCode": "17772",
+      "utility": "PPL",
+      "utilityAccountNumber": "6488053038"
+    },
+    {
+      "serviceAddress": "3437 Route 715 HWY Fire Pump",
+      "city": "Henryville",
+      "state": "Pennsylvania",
+      "zipCode": "18332-7785",
+      "utility": "PPL",
+      "utilityAccountNumber": "9337192005"
+    },
+    {
+      "serviceAddress": "360 White Deer Run Rd",
+      "city": "Allenwood",
+      "state": "Pennsylvania",
+      "zipCode": "17810",
+      "utility": "PPL",
+      "utilityAccountNumber": "7638059003"
+    }
+  ]
+}

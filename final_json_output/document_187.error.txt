@@ -1,0 +1,760 @@
+Error: Unterminated string starting at: line 1709 column 31 (char 59160)
+
+--- PROMPT SENT ---
+You are an expert data extraction agent. Your task is to convert a utility document (bill or contract) from Markdown format into a single, valid JSON object.
+
+You MUST strictly adhere to the JSON schema provided below. Do not add fields that are not in the schema. If a value for a non-required field is not found, omit it or use `null`. For required fields, make your best effort to find the value; if it's truly absent, use a placeholder like "NOT_FOUND".
+
+<schema>
+{
+// ... PASTE THE ENTIRE CONTENT of main_usage_schema.json HERE ...
+}
+</schema>
+
+Here are specific instructions based on the document type:
+
+1.  **Determine `documentType`**: First, identify if the document is a "sampleBill" or a "contract". Contracts usually have terms like "Agreement", "Confirmation", or "Seller/Buyer". Bills have "Billing Summary", "Amount Due", etc.
+2.  **`documentId`**: Use the document's original filename (e.g., "document_55").
+3.  **For Contracts (`documentType: "contract"`)**:
+    *   `contractStart` and `contractEnd`: Extract these from the delivery period or term.
+    *   `usageHistory`: This should be the **forecasted usage**. Look for tables titled "Forecasted Volume" or similar, often found in a CSV file. The keys must be in "YYYY-MM" format. If only one year of data is given for a multi-year contract, you MUST repeat the monthly values for all years of the contract. If only an annual total is given, divide by 12 and apply to each month.
+    *   `locations`: Extract all service addresses, account numbers, and meter numbers from the facility attachments or tables. The CSV data is the most likely source for this. Aggregate all of them into the `locations` array.
+4.  **For Bills (`documentType: "sampleBill"`)**:
+    *   `statementDate`: Find the bill date or statement date.
+    *   `usageHistory`: Look for a "Billing History" or "Usage Profile" chart/table showing past usage. Extract the monthly usage from this.
+    *   `locations`: A bill may have one or many service addresses. Extract all you can find.
+    *   `totalUsage`: Find the "Total kWh Used" or "Current Usage" for the billing period.
+
+Now, process the following document. The Markdown content is provided first, followed by the content of any referenced CSV files.
+
+**[Markdown Content]**
+--- START OF FILE document_187.md ---
+Constellation NewEnergy, Inc.
+Electricity Supply Agreement - Fixed Price Solutions
+
+# PANGEA VENTURES LLC ("Customer") AND Constellation NewEnergy, Inc. ("Seller") AGREE AS FOLLOWS: 
+
+Defined Terms. Capitalized terms have the meanings set out in this Electricity Supply Agreement, including the attached General Terms and Conditions ("Agreement"); generally the words "you" and "your" refer to the Customer listed above and the words "we" and "us" refer to Seller, unless the context clearly requires otherwise.
+
+Purchase and Sale of Electricity. You will purchase and receive, and we will sell and supply all of your electricity requirements at the prices set forth below for each account identified in the Account Schedule below ("Account"). By signing this Agreement, you authorize us to enroll each Account with your UDC so that we can supply those Account(s). You will take such actions as we request to allow us to enroll each Account in a timely manner. You agree that we may select such sources of energy as we deem appropriate to meet our obligations under the Agreement. We will enroll each Account with the applicable UDC as being supplied by us and will take such other actions with the applicable UDC and ISO necessary for us to meet our obligations under the Agreement.
+
+The specific prices for each Account are set forth in the Account Schedule, below. You are also responsible to pay (1) Taxes - which we will pass through to you on your bill or as part of the price of electricity, as may be required by law, rule or regulation and (2) UDC charges for delivery/distribution services if we provide you a single bill that includes UDC charges. Your prices are fixed for the existing term of this Agreement and only subject to change if there is a change in law, as described in Section 5 of the General Terms and Conditions below. The UDC charges (if any) and Taxes are charged to you as a "passthrough," which means they will change during the existing term of this Agreement if and as the related charges assessed or charged vary for any reason, including but not limited to the types of changes described above.
+
+Cost Components. For each of the items listed as "Fixed" below, this means the item is included in your contract prices as set forth in the Account Schedule. For each of the items listed as "Passed Through" below, this means that you will be charged the costs associated with the line item in accordance with the definitions of each item in Section 1 Definitions of the General Terms and Conditions.
+
+| Energy Costs | Fixed |
+| :-- | :-- |
+| Ancillary Services And Other ISO Costs | Fixed |
+| Auction Revenue Rights Credits | Fixed |
+| Capacity Costs | Fixed |
+| Transmission Costs | Fixed |
+| Transmission Loss Credits | Fixed |
+| Line Loss Costs | Fixed |
+| FERC Order 745 Costs | Fixed |
+
+The contract prices contained in the Account Schedule include credit costs and margin as well as Renewable Portfolio Standards Costs. Any applicable RMR Costs are also included in the contract prices. Except in the case of Transmission Costs, all other costs listed above as "Fixed" may be subject to change if there is a change in law, as described in Section 5 of the General Terms and Conditions below.
+
+Retail Trade Transactions. At any time during the term of this Agreement, you may request the purchase of renewable energy certificates in an amount equal to a prescribed percentage of your load volume by entering into one or more Retail Trade Transactions ("RTTs") between us. If we both agree to the pricing and terms of the renewable energy certificates purchase, a separate RTT Confirmation signed by both of us will document each such purchase and be incorporated herein.
+
+Term. This Agreement will become effective and binding after you have signed the Agreement and we have counter-signed. Subject to successful enrollment of your Account(s), this Agreement shall commence on or about the date set forth under "Start Date", and end on or about the date set forth under "End Date", unless extended on a holdover basis as described in this Agreement. The actual Start Date is dependent on the UDC successfully enrolling the Account(s) and furnishing us with all necessary information regarding the Account(s) meter read cycle and meter read date(s). The dates set forth in the Account Schedule
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved. Errors and omissions excepted. Std. Short Form y. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017 \quad 137634.6083 .2$
+
+below reflect UDC information available at that time or as otherwise estimated by us. The actual meter read dates may occur on or about the dates set forth herein. We will use commercially reasonable efforts to begin service to each Account(s) on the actual meter read date on or about the Start Date set forth herein. If we are unable to timely enroll an Account, the Start Date will commence on the next regularly scheduled UDC meter read cycle date following successful enrollment. The End Date will remain the same unless extended for a holdover term. We shall not be liable for any failure to enroll or drop an Account by the Start and End Date due to circumstances beyond our control. We will not be responsible for any gaps in service that may occur between the termination of your service from a prior supplier and the commencement of supply from us.
+
+Nothing in this Agreement shall be deemed to require or otherwise obligate us to offer to extend the term of this Agreement. If following termination or expiration of this Agreement (whether in whole or in part), for any reason, some or all of the Accounts remain designated by the UDC as being supplied by us, we may continue to serve such Account(s) on a month-to-month holdover basis. During such holdover term, we will calculate your invoice as follows: (Each Account's metered usage, as adjusted by the applicable line loss factor) times (the ISO-published Day Ahead Locational Based Marginal Price for the applicable residual zone ("LMP") $+\$ .005250 / \mathrm{kWh})+$ (apass through of all costs and charges incurred for the retail delivery of energy to you) + Taxes. This Agreement will continue to govern the service of such Accounts during such holdover term. Either party may terminate the holdover term at any time within its discretion at which time we will drop each Account as of the next possible meter read date to the then applicable tariff service, whether default service or otherwise.
+
+Your Invoice. Your invoice will contain all charges applicable to your electricity usage, including Taxes (which are passed through to you). If you have elected to receive a single bill from us for one or more of the Account(s) served hereunder, we will invoice you for all UDC Charges and related Taxes for those Account(s) ("Seller Consolidated Billing"). If you have elected to receive a single bill from the UDC for one or more of the Account(s) served hereunder, the UDC will invoice you for all of our charges and all UDC Charges and related Taxes for those Account(s) ("UDC Consolidated Billing"). Otherwise, we will invoice you for all our charges and the UDC will invoice you for all UDC Charges and related Taxes for those Account(s) which we refer to as "Dual Billing." Initially all your Account(s) will be billed as follows, which may change based on your Account(s) eligibility: Seller Consolidated Billing. All amounts charged are due in full within twenty (20) days of the invoice date, and we reserve the right to adjust amounts previously invoiced based upon supplemental or additional data we may receive from your UDC. Your invoices will be based on actual data provided by the UDC, provided that if we do not receive actual data in a timely manner, we will make a good faith estimate using your historical usage data and other information. Once we receive actual data we will reconcile the estimated charges and adjust them as needed in subsequent invoices. If you fail to make payment by the due date, interest will accrue daily on outstanding amounts from the due date until the bill is paid in full at a rate of $1.50 \%$ per month, or the highest rate permitted by law, whichever is less; and we may withhold any payments due to the UDC until we receive such payments.
+
+Certain Warranties. You warrant and represent that for Account(s) located in the State of Illinois, your aggregate consumption and usage during a ny 12 month period is greater than 15,000 kilowat-hours and that the electricity supplied under this Agreement is not for use at a residence.
+
+Notices. All notices will be in writing and delivered by hand, certified mail, return receipt requested, or by first class mail, or by express carrier to our respective business addresses. Our business address is 1221 Lamar St. Suite 750, Houston, TX 77010, Altn: Contracts Administration. Either of us can change our address by notice to the other pursuant to this paragraph.
+
+Customer Service. For questions about your invoice or our services, contact us at our Customer Service Department by calling bill-free 888-635-0827, or by e-mail at CustomerCare@Constellation.com. Your prior authorization of us to your UDC as recipient of your current and historical energy billing and usage data will remain in effect during the entire term of this Agreement, including any renewal, unless you rescind the authorization upon written notice to us or by calling us at 888-635-0827. We reserve the right to cancel this Agreement in the event you rescind the authorization.
+
+IN THE EVENT OF AN EMERGENCY, POWER OUTAGE OR WIRES AND EQUIPMENT SERVICE NEEDS, CONTACT YOUR APPLICABLE UDC AT:
+
+| UDC Name | UDC Abbreviation | Contact Numbers |
+| :-- | :-- | :-- |
+| Commonwealth Edison | COMED | $1-800-334-7661$ |
+
+[REMAINDER OF PAGE LEFT INTENTIONALLY BLANK.]
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Farris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+Each party has caused this Agreement to be executed by its authorized representative on the respective dates written below.
+
+Constellation NewEnergy, Inc.
+
+By:
+David T. Donat
+David T. Donat
+$2017-01-06$
+09:44-06:00
+Name: Vice President
+Title:
+Address: 1221 Lamar St. Suite 750 Houston, TX 77010
+Attn: Contracts Administration
+Fax: 888-829-8738
+Phone: 888-825-0627
+
+Customer: PANGEA VENTURES LLC
+By: $2 \frac{1}{2} / 4 \mathrm{~m}$
+
+Name: David Jaffee
+Title: DYECHY of operations Date: $12 / 17$
+Address: 00500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+## General Terms and Conditions
+
+## 1. Definitions.
+
+"Ancillary Services And Other ISO Costs" means for any billing period the applicable charges regarding ancillary services as set forth in the applicable ISO Open Access Transmission Tariff ("OATT") and for other ISO costs not otherwise included in any of the defined cost components in this Agreement. We will reasonably determine your Account's monthly Ancillary Services And Other ISO Costs based on the Account's $/kWh share of costs for Ancillary Services And Other ISO Costs or otherwise reasonable allocation method as we may determine from time to time based on how Ancillary Services And Other ISO Costs are assessed by the ISO.
+"Auction Revenue Rights Credits" means revenue credits resulting from the annual financial transmission rights auction conducted by the ISO that are applicable with respect to transmission peak load contribution. If Auction Revenue Rights Credits are "Passed Through", such credits shall be reasonably calculated by us as the monthly product of the (i) total Auction Revenue Rights Credits expressed in dollars per planning year for the applicable zone, as published by the ISO; divided by (ii) the total Network Service Peak Load for such zone, as published by the ISO; divided by (iii) the number of days in the applicable planning year; multiplied by (iv) by an Account's applicable Network Service Peak Load; multiplied by (v) the number of days in the billing period or such other reasonable calculation method applied by us.
+"Capacity Costs" means a charge for fulfilling the capacity requirements for the Account(s) imposed by the ISO or otherwise. Capacity Costs includes, but is not limited to, the cost for procuring Capacity Performance resources (as currently required and defined by the ISO) in accordance with the provisions of Federal Energy Regulatory Commission Order on Proposed Tariff Revisions (Docket No. ER15-623-000, et al, issued June 9, 2015).
+"Energy Costs" means a charge for the cost items included in the Locational Marginal Price for the ISO residual zone identified in the Account Schedule.
+"FERC Order 745 Costs" means any costs or charges imposed by the ISO in accordance with complying with the provisions of Federal Energy Regulatory Commission ("FERC") in Order No. 74518 CFR Part 35 (March 15, 2011). Any modifications or conditions to the treatment of FERC Order 745 Costs under the ISO tariff or otherwise shall be deemed a change in law pursuant to Section 5 of the General Terms and Conditions of this Agreement.
+"ISO" means the independent system operator or regional transmission organization responsible for the service territory governing an Account, or any successor or replacement entity.
+"Line Loss Costs" means the costs (to the extent not already captured in the applicable Energy Costs) applicable to each Account based on the kWh difference between the UDC metered usage and the ISO settlement volumes. If Line Loss Costs are "Fixed," the Line Loss Costs are included in the Energy Costs and will not be invoiced as a separate line item. If Line Loss Costs are "Passed Through," the Line Loss Costs will be invoiced as a separate line item and calculated based on the applicable fixed price or locational marginal price for the corresponding usage.
+"Non Time Of Use" or "NTOU" means all hours of each day.
+"Off Peak" means all hours other than Peak hours.
+"Peak" means the hours designated as peak from time to time by the UDC.
+"Renewable Portfolio Standards Costs" means the costs associated with meeting renewable portfolio standards costs at the levels required by currently applicable Law. If Renewable Portfolio Standards Costs are not included in the contract price, such costs for a particular month will be the product of (i)
+the Monthly RPS Price; and (ii) an Account's monthly kWh usage. The Monthly RPS Price is the price of renewable portfolio standards compliance for the Account, for a particular month, fixed by reference to the renewable portfolio standards forward price curve for the state where the Account is located.
+"RMR Costs" or "Reliability-Must-Run Costs" means the generation deactivation charges and other such charges, if any, imposed by the ISO on load served in a particular load zone to recover the cost for any generation units that plan to retire but are required by the ISO to run for reliability purposes beyond their intended retirement date, in accordance with the applicable ISO rules and OATT provisions.
+"Taxes" means all federal, state, municipal and local taxes, duties, fees, levies, premiums or other charges imposed by any governmental authority, directly or indirectly, on or with respect to the electricity and related products and services provided under this Agreement, including any taxes enacted after the date we entered into this Agreement.
+"Transmission Costs" means the charge for Network Transmission Service and Transmission Cost Enhancement Charges, each as identified in the applicable OATT Tariff for the provision of transmission service by the ISO within the UDC's service territory.
+"Transmission Loss Credits" means the credit amounts applicable to the Accounts under the ISO's marginal loss construct
+"UDC" means your local electric distribution utility owning and/or controlling and maintaining the distribution system required for delivery of electricity to the Accounts.
+"UDC Charges" means all UDC costs, charges, and fees, due under UDC's delivery services rates associated with your use of UDC's distribution network, all as defined by the UDC tariffs, and any similar or related charges the UDC may impose from time to time.
+2. Cash deposit and other security. At any time, we may require that you provide information to us so that we may evaluate your creditworthiness. We reserve the right to require that you make a cash deposit or provide other security acceptable to us if your financial obligations to us increase under this Agreement, or if, in our opinion, your credit, payment history, or ability to pay your bills as they come due becomes a concern. You will deliver any required cash deposit or other required security (or any increase therein) within three
+(3) business days of our request.
+3. Default under this Agreement. You will be in default under this Agreement if you fail to: pay your bills on time and in full; provide cash deposits or other security as required by Section 2 above; or perform all material obligations under this Agreement and you do not cure such default within 5 days of written notice from us; or if you declare or file for bankruptcy or otherwise become insolvent or unable to pay your debts as they come due. We will be in default under this Agreement if we fail to perform all material obligations under this Agreement and do not cure such default within 5 days written notice from you, or if we declare or file for bankruptcy or otherwise become insolvent or unable to pay our debts as they come due.
+4. Remedies upon default. If you are in default under this Agreement, in addition to any other remedies available to us, we may terminate this Agreement entirely, or solely with respect to those Accounts adversely affected by such default, and switch your Account(s) back to UDC service (consistent with applicable regulations and UDC practices); and/or require that
+
+you compensate us for all losses we sustain due to your default, including the following:
+
+- payment of all amounts you owe us for electricity provided to you;
+- when the Agreement is terminated early (entirely or as to certain Accounts), payment of an amount (that we will calculate using our reasonable judgment) equal to the positive difference between (A) the dollar amount you would have paid to us under this Agreement had it not been terminated early and (B) the dollar amount we could resell such electricity for to a third party under then-current market conditions; and
+- all costs (including attorneys' fees, expenses and court costs) we incur in collecting amounts you owe us under this Agreement.
+The parties agree that any early termination payment determined in accordance with this Section is a reasonable approximation of harm or loss, and is not a penalty or punitive in any respect, and that neither party will be required to enter into a replacement transaction in order to determine or be entitled to a termination payment.
+
+5. Changes in law. We may pass through or allocate, as the case may be, to you any increase or decrease in our costs related to the electricity and related products and services sold to you that results from the implementation of new, or changes (including changes to formula rate calculations) to existing, Laws, or other requirements or changes in administration or interpretation of Laws or other requirements. "Law" means any law, rule, regulation, ordinance, statute, judicial decision, administrative order, ISO business practices or protocol, UDC or ISO tariff, rule of any commission or agency with jurisdiction in the state in which the Accounts are located. Such additional amounts will be included in subsequent invoices to you. The changes described in this Section may change any or all of the charges described in this Agreement, whether described as "fixed," "variable," "pass-through" or otherwise. Your first bill reflecting increased costs will include a bill insert describing the increase in costs in reasonable detail.
+6. Events beyond either of our reasonable control. If something happens that is beyond either of our reasonable control that prevents either of us from performing our respective obligations under this Agreement, then whichever one of us cannot perform will be relieved from performance until the situation is resolved. Examples of such events include: acts of God, fire, food, hurricane, war, terrorism; declaration of emergency by a governmental entity, the ISO or the UDC; curtailment, disruption or interruption of electricity transmission, distribution or supply; regulatory, administrative, or legislative action, or action or restraint by court order or other governmental entity; actions taken by third parties not under your or our control, such as the ISO or a UDC. Such events shall not excuse failure to make payments due in a timely manner for electricity supplied to you prior to such event. Further, if such an event prevents or makes it impossible or impracticable for the claiming party to carry out any obligation under this Agreement due to the events beyond either of our reasonable control for more than 30 days, then whichever one of us whose performance was not prevented by such events shall have the right to terminate the Agreement without penalty upon 30 days' written notice to the other.
+7. UDC or ISO obligations. We will have no liability or responsibility for matters within the control of the UDC or the ISO-controlled grid, which include maintenance of electric lines and systems, service interruptions, loss or termination of service, deterioration of electric services, or meter readings.
+8. Limitation on Liability. IN NO EVENT WILL EITHER PARTY OR ANY OF ITS RESPECTIVE AFFILIATED COMPANIES BE LIABLE FOR ANY CONSEQUENTIAL, EXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES, INCLUDING, WITHOUT LIMITATION, LOST OPPORTUNITIES OR LOST PROFITS. Each party's total liability related to this Agreement, whether arising under breach of contract, tort, strict liability or otherwise, will be limited to direct, actual damages. Direct, actual damages payable to us will reflect the early termination payment calculation in Section 4. Each party agrees to use commercially reasonable efforts to mitigate damages it may incur. NO WARRANTY, DUTY, OR REMEDY, WHETHER EXPRESSED, IMPLIED OR STATUTORY, ON OUR PART IS GIVEN OR INTENDED TO ARISE OUT OF THIS AGREEMENT, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE.
+9. DISPUTE RESOLUTION. THIS AGREEMENT WILL BE GOVERNED BY AND INTERPRETED IN ACCORDANCE WITH THE LAWS OF THE STATE IN WHICH ANY ACCOUNT IS LOCATED, WITHOUT GIVING EFFECT TO ANY CONFLICTS OF LAW PROVISIONS, AND ANY CONTROVERSY OR CLAIM ARISING FROM OR RELATING TO THIS AGREEMENT WILL BE SETTLED IN ACCORDANCE WITH THE EXPRESS TERMS OF THIS AGREEMENT BY A COURT LOCATED IN SUCH STATE. IF THE MATTER AT ISSUE INVOLVES ACCOUNTS OR MATTERS IN MORE THAN ONE STATE, THE GOVERNING JURISDICTION AND VENUE SHALL BE DEEMED TO BE NEW YORK. TO THE EXTENT ALLOWED BY APPLICABLE LAW, WE ALSO BOTH AGREE IRREVOCABLY AND UNCONDITIONALLY TO WAIVE ANY RIGHT TO A TRIAL BY JURY OR TO INITIATE OR BECOME A PARTY TO ANY CLASS ACTION CLAIMS WITH RESPECT TO ANY ACTION, SUIT OR PROCEEDING DIRECTLY OR INDIRECTLY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED BY THIS AGREEMENT.
+10. Relationship of Parties. We are an independent contractor, and nothing in this Agreement establishes a joint venture, fiduciary relationship, partnership or other joint undertaking. We are not acting as your consultant or advisor, and you will not rely on us in evaluating the advantages or disadvantages of any specific product or service, predictions about future energy prices, or any other matter. Your decision to enter into this Agreement and any other decisions or actions you may take is and will be based solely upon your own analysis (or that of your advisors) and not on information or statements from us.
+11. Confidentiality. Consistent with applicable regulatory requirements, we will hold in confidence all information obtained by us from you related to the provision of services under this Agreement and which concern your energy characteristics and use patterns, except that we may, consistent with applicable law and regulation, disclose such information to our affiliates and such affiliates' employees, agents, advisors, and independent contractors. Except as otherwise required by law, you will agree to keep confidential the terms of our Agreement, including price.
+12. Miscellaneous Provisions. If in any circumstance we do not provide notice of, or object to, any default on your part, such situation will not constitute a waiver of any future default of any kind. If any of this Agreement is held legally invalid, the remainder will not be affected and will be valid and enforced to the fullest extent permitted by law and equity, and there will be
+
+deemed substituted for the invalid provisions such provisions as will most nearly carry out our mutual intent as expressed in this Agreement. You may not assign or otherwise transfer any of your rights or obligations under this Agreement without our prior written consent. Any such attempted transfer will be void. We may assign our rights and obligations under this Agreement. This Agreement contains the entire agreement between both of us, supersedes any other agreements, discussions or understandings (whether written or oral) regarding the subject matter of this Agreement, and may not be contradicted by any prior or contemporaneous oral or written agreement. A facsimile or e-mailed copy with your signature will be considered an original for all purposes, and you will provide original signed copies upon request. Each party authorizes the other party to affix an ink or digital stamp of its signature to this Agreement, and agrees to be bound by a document executed in such a manner. The parties acknowledge that any document generated by the parties with respect to this Agreement, including this Agreement, may be imaged and stored electronically and such imaged documents may be introduced as evidence in any proceeding as if such were original business records and neither party shall contest their admissibility as evidence in any proceeding. Except as otherwise explicitly provided in this Agreement, no amendment (including in form of a purchase order you send us) to this Agreement will be valid or given any effect unless signed by both of us. Applicable provisions of this Agreement will continue in effect after termination or expiration of this Agreement to the extent necessary, including those for billing adjustments and payments, indemnification, limitations of liability, and dispute resolution. This Agreement is a "forward contract" and we are a "forward contract merchant" under the U.S. Bankruptcy Code, as amended. Further, we are not providing advice regarding "commodity interests", including futures contracts and commodity options or any other matter, which would cause us to be a commodity trading advisor under the U.S. Commodity Exchange Act, as amended.
+
+# ACCOUNT SCHEDULE: 
+
+## For: PANGEA VENTURES LLC
+
+## The Pricing set forth below is only valid until 5:00 PM Central Prevailing Time on January 5, 2017
+
+We shall have no obligation to enroll or supply electricity to any account(s) that are not identified on the Account Schedule below. Please verify that your specific information is COMPLETE and ACCURATE.
+Your review and acceptance of this information will help ensure accurate future invoices
+Notes: Accounts or Service Addresses listed in the Account(s) Schedule may be updated or replaced with a new account number issued by the UDC, ISO or other entity.
+
+No. of Service Accounts: 396
+
+{{table_data: table-2.csv}}
+
+FOR INTERNAL USE ONLY
+\$2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form; v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFarris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-3.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC AlI rights reserved.
+Errors and omissions excepted. Std. Short Form_v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-4.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-5.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-6.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form_v. 2010 Rev Mar-01-2016 ()
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-7.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-8.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Condelliation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-9.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-10.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016 ().
+Sales Rep: Bryan Farria
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-11.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017$
+
+{{table_data: table-12.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017$
+
+{{table_data: table-13.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC Alrights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016 ().
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-14.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-15.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Condelliation Energy Resources, LLC AlI rights reserved. Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFurns
+
+{{table_data: table-16.csv}}
+
+TO ACCEPT THE PRICING ABOVE, PLEASE FAX A SIGNED COPY OF THIS AGREEMENT TO US AT 888-829-8738.
+
+FOR INTERNAL USE ONLY
+\$2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFarris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+FOR INTERNAL USE ONLY
+
+--- END OF FILE document_187.md ---
+
+**[CSV Data]**
+--- START OF FILE table-16.csv ---
+COMED,9525831037,"7358 S BLACKSTONE AVELINT H, CHICAGO, IL 606192154",02/17/17,02/14/18,$\$ 0.04969$
+COMED,9528022067,"7801 S YATES BLVD\# 11, CHICAGO, IL 606495107",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9528178037,"7701 S YATES BLVD\#H, <br> CHICAGO, IL 606494140",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9528640010,"7549 S YATES BLVD\#59, <br> CHICAGO, IL 606493317",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9532032035,"7915 S HERMITAGE AVELINT BD, CHICAGO, IL 606204589",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9532143060,"7944 S PAULINA ST \# BD, <br> CHICAGO, IL 606204526",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9532236060,"8004 S PAULINA ST \# 12, <br> CHICAGO, IL 606204532",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9532798056,"7914 S HERMITAGE AVE, CHICAGO, IL 606204513",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9607664058,"7057 S PRINCETON AVE\# 59, CHICAGO, IL 606213631",02/16/17,02/13/18,$\$ 0.04969$
+COMED,9612555066,"2207 E 75TH ST, CHICAGO, IL 606493204",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9616013069,"7948 S HERMITAGE AVELINT BD, CHICAGO, IL 606206400",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9616110036,"1735 W 79TH ST \# BD, CHICAGO, IL 606204412",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9616111140,"1735 W 79TH ST, CHICAGO, IL 606204412",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9616521039,"7651 S WOLCOTT AVELINT BD, CHICAGO, IL 606205228",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9684016036,"603335 S VERNON, BLDG, CHICAGO, IL 60637",02/13/17,02/08/18,$\$ 0.04969$
+COMED,9696155075,"2041 E 75TH ST \# 43, CHICAGO, IL 606493631",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9696166087,"2045 E 75TH ST \# 47, CHICAGO, IL 606493631",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9696167119,"2045 E 75TH ST, CHICAGO, IL 606493631",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9696177053,"2051 E 75TH ST \# 59, CHICAGO, IL 606493639",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9709759043,"10201-5 ST LAWRENCE, <br> CHICAGO, IL 60628",02/27/17,02/25/18,$\$ 0.04969$
+COMED,9768429017,"6224 S KIND DR \# 34, CHICAGO, IL 606372386",02/13/17,02/08/18,$\$ 0.04969$
+COMED,9780007015,"7800 S JEFFERY BLVD, CHICAGO, IL 606495058",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9780646021,"7850 S CONSTANCE AVE, CHICAGO, IL 606494686",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9799253025,"13256 S PRAWIE AVE, CHICAGO, IL 608271251",03/02/17,02/28/18,$\$ 0.04969$
+COMED,9858470040,"10 W 137TH ST, RVERDALE, IL 608272037",02/16/17,02/13/18,$\$ 0.04969$
+COMED,9874331039,"9100 S DALPHIN AVEBLDG 4, CHICAGO, IL 606197611",02/24/17,02/22/18,$\$ 0.04969$
+
+--- END OF FILE table-16.csv ---
+
+--- START OF FILE table-14.csv ---
+COMED,9196608053,"1307 W 81ST ST \# 11, CHICAGO, IL 606203844",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9268112044,"2435 W 63RD ST, CHICAGO, IL 606291255",02/14/17,02/11/18,$\$ 0.04969$
+COMED,9268276016,"6401 S MAFLEWOOD AVE, CHICAGO, IL 606291723",02/15/17,02/12/18,$\$ 0.04969$
+COMED,9271461056,"7056 S EBERHART AVE\# 58, CHICAGO, IL 606374612",02/16/17,02/13/18,$\$ 0.04969$
+COMED,9271773088,"6829 S KING DR \# 49, CHICAGO, IL 606374006",02/16/17,02/13/18,$\$ 0.04969$
+COMED,9273006035,"1931 E 71ST ST \# BD, CHICAGO, IL 606492005",02/17/17,02/14/18,$\$ 0.04969$
+COMED,9276788016,"780111 KINGSTON, BLDG, CHICAGO, IL 60649",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9280254050,"7957 S BISHOP ST \# 59, CHICAGO, IL 606203819",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9280366028,"1415 W 80TH ST \# BD, CHICAGO, IL 606204003",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9280535041,"8256 S LOOMS BLVD \# 58, CHICAGO, IL 606203931",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9280663031,"1448 W 83RD ST \# BD, CHICAGO, IL 606203911",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9280733065,"1444 W 81ST ST \# BD, CHICAGO, IL 606203849",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9316016028,"157 E 133RD ST, CHICAGO, IL 606271204",03/02/17,02/28/18,$\$ 0.04969$
+COMED,9352083016,"6400 S ROOKWELL ST \# 2, CHICAGO, IL 606291730",02/15/17,02/12/18,$\$ 0.04969$
+COMED,9352685038,"2714 W 65TH ST \# BD, CHICAGO, IL 606291704",02/15/17,02/12/18,$\$ 0.04969$
+COMED,9355403047,"6954 S CALUMIET AVE\# 56, CHICAGO, IL 606374645",02/16/17,02/13/18,$\$ 0.04969$
+COMED,9357612062,"1734 E 72ND ST, CHICAGO, IL 606492341",02/17/17,02/14/18,$\$ 0.04969$
+COMED,9357652011,"1742 E 72ND ST \# BD, CHICAGO, IL 606493118",02/17/17,02/14/18,$\$ 0.04969$
+COMED,9357785042,"7109 S RIDGELAND AVE, BLDG, CHICAGO, IL 606499508",02/17/17,02/14/18,$\$ 0.04969$
+COMED,9360083020,"7801 13 ESSEX, BD, CHICAGO, IL 60649",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9360207011,"7800 S KINGSTON AVE\# BD, CHICAGO, IL 606495116",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9360398044,"7700 S KINGSTON AVE\# 8, CHICAGO, IL 606494772",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9360647042,"7612 S KINGSTON AVE\# 18, CHICAGO, IL 606494257",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9360677068,"7624 S KINGSTON AVE\# 28, CHICAGO, IL 606494181",02/20/17,02/15/18,$\$ 0.04969$
+COMED,9364310028,"8101 S JUSTINE ST, CHICAGO, IL 606204302",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9364480061,"8109 S ASHLAND AVE\# 17, CHICAGO, IL 606204390",02/22/17,02/20/18,$\$ 0.04969$
+COMED,9364481031,"8109 S ASHLAND AVEUNIT STO, CHICAGO, IL 606204390",02/22/17,02/20/18,$\$ 0.04969$
+
+--- END OF FILE table-14.csv ---
+
+--- START OF FILE table-3.csv ---
+COMED,1036087038,"14023 S TRACY AVE, RIVERDALE, IL 608273233",02/15/17,02/12/18,\$0.04969
+COMED,1036187033,"14119 S TRACY AVE, RIVERDALE, IL 608273334",02/15/17,02/12/18,\$0.04969
+COMED,1036217036,"14123 S TRACY AVE, RIVERDALE, IL 608273338",02/15/17,02/12/18,\$0.04969
+COMED,1263055171,"2207 E 75TH ST, CHICAGO, IL 606493204",02/20/17,02/15/18,\$0.04969
+COMED,1293689032,"464 GORDON AVE, CALLIMET CITY, IL 604092621",02/17/17,02/14/18,\$0.04969
+COMED,1293705031,"470 GORDON AVE, CALLIMET CITY, IL 604092636",02/17/17,02/14/18,\$0.04969
+COMED,1299688048,"753 E 79TH ST, CHICAGO, IL 606193143",02/22/17,02/20/18,\$0.04969
+COMED,1377061063,"SEILEY BLVD, APT 634, CALLIMET CITY, IL 60409",02/17/17,02/14/18,\$0.04969
+COMED,1422149023,"14:20 S CRANDON AVE, CHICAGO, IL 60617",02/23/17,02/21/18,\$0.04969
+COMED,1452581057,"21837 JEFFREY AVE\# BD, SAUK VILLAGE, IL 604114964",02/13/17,02/08/18,\$0.04969
+COMED,1452590083,"21843 JEFFREY AVE, SAUK VILLAGE, IL 604114963",02/13/17,02/08/18,\$0.04969
+COMED,1468499033,"136 E 155TH ST, HARVEY, IL 604263625",02/22/17,02/20/18,\$0.04969
+COMED,1529076016,"325 FOREST BLVD, PARK FOREST, IL 604662101",02/08/17,02/05/18,\$0.04969
+COMED,1624621040,"14101 S ATLANTIC AVE, RIVERDALE, IL 608273364",02/15/17,02/12/18,\$0.04969
+COMED,1624794075,"14020 S SCHOOL ST, <br> RIVERDALE, IL 608272114",02/15/17,02/12/18,\$0.04969
+COMED,1693088051,"50 HEMLOCK ST, PARK FOREST, IL 604662154",02/08/17,02/05/18,\$0.04969
+COMED,1708001031,"14026 S SCHOOL ST, <br> RIVERDALE, IL 608272116",02/15/17,02/12/18,\$0.04969
+COMED,1708034021,"14031 S SCHOOL ST, <br> RIVERDALE, IL 608272118",02/15/17,02/12/18,\$0.04969
+COMED,1708215026,"14122 S SCHOOL ST, <br> RIVERDALE, IL 608273305",02/15/17,02/12/18,\$0.04969
+COMED,1708237148,"14127 S SCHOOL ST\# BD, <br> RIVERDALE, IL 608273304",02/15/17,02/12/18,\$0.04969
+COMED,1708275040,"14133 S SCHOOL ST, <br> RIVERDALE, IL 608273307",02/15/17,02/12/18,\$0.04969
+COMED,1708290065,"14138 S SCHOOL ST\# BD, <br> RIVERDALE, IL 608273301",02/15/17,02/12/18,\$0.04969
+COMED,1740108017,"1249 S CALFORNA AVE\# 51, CHICAGO, IL 606081023",02/03/17,01/31/18,\$0.04969
+COMED,1803059057,"6100 S CAMPBELL AVE\# 4, CHICAGO, IL 606291223",02/14/17,02/11/18,\$0.04969
+COMED,1843160084,"211 E 71ST ST \# 17, CHICAGO, IL 606191120",02/20/17,02/15/18,\$0.04969
+COMED,1983038143,"17 S AUSTIN BLVD UNIT STO, CHICAGO, IL 606443710",02/17/17,02/14/18,\$0.04969
+COMED,2213033037,"148 INDIAMWOOD BLVD, BLDG, PARK FOREST, IL 604662143",02/08/17,02/05/18,\$0.04969
+
+--- END OF FILE table-3.csv ---
+
+--- START OF FILE table-2.csv ---
+UDC,UDC Account Number,Service Address,Start Date,End Date,Energy Price Non TOU (\$/kWh)
+COMED,0031211088,"13907 S CLARK ST, RIVERDALE, IL 608272081",02/16/17,02/13/18,$\$ 0.04969$
+COMED,0031664052,"204 W 138TH ST, RIVERDALE, IL 608271600",02/16/17,02/13/18,$\$ 0.04969$
+COMED,0034354035,"7400 S RHODES AVE APT 2, CHICAGO, IL 606191833",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0048012086,"7823 S EUCLID AVE, CHICAGO, IL 606494625",02/20/17,02/15/18,$\$ 0.04969$
+COMED,0099016216,"379 FOREST BLVD, PARK FOREST, IL 604662101",02/08/17,02/05/18,$\$ 0.04969$
+COMED,0211155127,"22 HEMLOCK ST, PARK FOREST, IL 604662154",02/08/17,02/05/18,$\$ 0.04969$
+COMED,0292531081,"308 E 147TH ST, HARVEY, IL 604261933",02/22/17,02/20/18,$\$ 0.04969$
+COMED,0471054127,"1224 S TROY ST, BLDG, CHICAGO, IL 606231837",02/03/17,01/31/18,$\$ 0.04969$
+COMED,0615057264,"32024 E 48TH ST, BROADVIEW, IL 60155",02/08/17,02/05/18,$\$ 0.04969$
+COMED,0705369044,"1575 S STATE ST, CHICAGO, IL 606052804",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0705415069,"1677 STATE ST \# BD, CALLIMET CITY, IL 604091856",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0705431090,"1683 STATE ST, CALLIMET CITY, IL 604091857",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0705445058,"1685 STATE ST \# PB, CALLIMET CITY, IL 604091858",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0789323020,"1501 STATE ST, CALLIMET CITY, IL 604091846",02/17/17,02/14/18,$\$ 0.04969$
+COMED,0823132065,"97 HEMLOCK ST, PARK FOREST, IL 604662115",02/08/17,02/05/18,$\$ 0.04969$
+COMED,0878128075,"410 E 107TH ST, CHICAGO, IL 606283730",02/28/17,02/26/18,$\$ 0.04969$
+COMED,0941492093,"365 FOREST BLVD, PARK FOREST, IL 604662101",02/08/17,02/05/18,$\$ 0.04969$
+COMED,1003033217,"708 S KARLOV AVE, CHICAGO, IL 606243570",02/03/17,01/31/18,$\$ 0.04969$
+COMED,1023045231,"29 LENNS RD, PARK FOREST, IL 604662120",02/08/17,02/05/18,$\$ 0.04969$
+
+--- END OF FILE table-2.csv ---
+
+--- START OF FILE table-15.csv ---
+COMED,9364484069,"8111 S ASHLAND AVEUNIT SHOP, CHICAGO, IL 606204363",02/22/17,02/20/18,\$0.04969
+COMED,9364658032,"7956 S JUSTINE ST, CHICAGO, IL 606204333",02/22/17,02/20/18,\$0.04969
+COMED,9364776026,"1616 W 80TH ST \# BD, CHICAGO, IL 606204307",02/22/17,02/20/18,\$0.04969
+COMED,9367828027,"8552-54S LAFLIN BD, CHICAGO, IL 60620",02/23/17,02/21/18,\$0.04969
+COMED,9432669067,"6101 S LANGLEY AVEUNIT BD, CHICAGO, IL 606372515",02/13/17,02/08/18,\$0.04969
+COMED,9436253074,"6401 S CALIFORNIA AVE, BLDG, CHICAGO, IL 606292835",02/15/17,02/12/18,\$0.04969
+COMED,9436322029,"6456 S FAIRFIELD AVE \# 58, CHICAGO, IL 606291732",02/15/17,02/12/18,\$0.04969
+COMED,9436454099,"6304 S FAIRFIELD AVE \# 10, CHICAGO, IL 606292339",02/15/17,02/12/18,\$0.04969
+COMED,9439079052,"6923 S INDIANA AVE\# 25, CHICAGO, IL 606374524",02/16/17,02/13/18,\$0.04969
+COMED,9439089021,"6933 S INDIANA AVE\# 35, CHICAGO, IL 606374524",02/16/17,02/13/18,\$0.04969
+COMED,9439169051,"212 E 69TH PL \# 26, CHICAGO, IL 606374523",02/16/17,02/13/18,\$0.04969
+COMED,9439715035,"119 E MARQUETTE RD \# 35, BD, CHICAGO, IL 606373918",02/16/17,02/13/18,\$0.04969
+COMED,9441016029,"1748 W 71ST ST \# 66, CHICAGO, IL 606363838",02/17/17,02/14/18,\$0.04969
+COMED,9441172077,"7110 S RIDGELAND AVE\# 20, CHICAGO, IL 606492321",02/17/17,02/14/18,\$0.04969
+COMED,9441850085,"7120 S E END AVE \# 28, CHICAGO, IL 606492319",02/17/17,02/14/18,\$0.04969
+COMED,9444569018,"7802 S ESSEX AVE UNIT BD, CHICAGO, IL 606495151",02/20/17,02/15/18,\$0.04969
+COMED,9448010034,"8001 S MARSHFIELD AVE\# BD, CHICAGO, IL 606204328",02/22/17,02/20/18,\$0.04969
+COMED,9448056085,"8057 S MARSHFIELD AVE, BLDG, CHICAGO, IL 606204328",02/22/17,02/20/18,\$0.04969
+COMED,9448416081,"8100 S MARSHFIELD AVE\# BD, CHICAGO, IL 606204329",02/22/17,02/20/18,\$0.04969
+COMED,9454770050,"9244 S SAGINAW AVEBLD 50, CHICAGO, IL 606174136",02/24/17,02/22/18,\$0.04969
+COMED,9513433030,"5854 S MICHIGAN AVEUNIT H, CHICAGO, IL 606371194",02/10/17,02/07/18,\$0.04969
+COMED,9513608064,"5758 S WABASHAVE\# 60, CHICAGO, IL 606371191",02/10/17,02/07/18,\$0.04969
+COMED,9513713042,"21 E GARFIELD BLVD \# 43, CHICAGO, IL 606371052",02/10/17,02/07/18,\$0.04969
+COMED,9513735057,"29 E GARFIELD BLVD, CHICAGO, IL 606371049",02/10/17,02/07/18,\$0.04969
+COMED,9520373012,"6356 S FRANCISCO AVE, BLDG, CHICAGO, IL 606292306",02/15/17,02/12/18,\$0.04969
+COMED,9525227033,"7358 S BLACKSTONE AVE, CHICAGO, IL 606192154",02/17/17,02/14/18,\$0.04969
+COMED,9525357027,"7249 S BLACKSTONE AVE\# 53, CHICAGO, IL 606191538",02/17/17,02/14/18,\$0.04969
+
+--- END OF FILE table-15.csv ---
+
+--- START OF FILE table-11.csv ---
+COMED,8272107069,"7920 S EVANS AVE\# 26, CHICAGO, £. 606193982",02/22/17,02/20/18,$\$ 0.04969$
+COMED,8333069040,"4901 S DREXEL BLVD, CHICAGO, £. 606152746",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8342637083,"6238 S WESTERN AVE\# 44, CHICAGO, £. 606362024",02/14/17,02/11/18,$\$ 0.04969$
+COMED,8342728061,"6230 S ARTESIAN AVE\# 34, CHICAGO, £. 606291245",02/14/17,02/11/18,$\$ 0.04969$
+COMED,8342745053,"6236 S ARTESIAN AVE\# 40, CHICAGO, £. 606291243",02/14/17,02/11/18,$\$ 0.04969$
+COMED,8344048084,"6618 S WABASHAVEUNIT H, CHICAGO, £. 606373024",02/15/17,02/12/18,$\$ 0.04969$
+COMED,8344057029,"6618 S WABASHAVE, CHICAGO, £. 606373024",02/15/17,02/12/18,$\$ 0.04969$
+COMED,8347362045,"6832 S CRANDON AVE, CHICAGO, £. 606491265",02/16/17,02/13/18,$\$ 0.04969$
+COMED,8417394059,"4720 S DREXEL BLVD\# 28, CHICAGO, £. 606151715",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8426016040,"6100 S ARTESIAN AVE\# 4, CHICAGO, £. 606291208",02/14/17,02/11/18,$\$ 0.04969$
+COMED,8431603028,"6901 S MERRILL AVE\# 11, CHICAGO, £. 606491724",02/16/17,02/13/18,$\$ 0.04969$
+COMED,8436029095,"7103 S ARTESIAN AVEUNIT STO02, CHICAGO, £. 606291425",02/20/17,02/15/18,$\$ 0.04969$
+COMED,8436078052,"2419 W 71ST ST \# BD, CHICAGO, £. 606291433",02/20/17,02/15/18,$\$ 0.04969$
+COMED,8440371057,"448 E BOTH ST \# BD, CHICAGO, £. 606193726",02/22/17,02/20/18,$\$ 0.04969$
+COMED,8501347037,"5015 S CHAMPLAN AVE, CHICAGO, £. 606152510",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8501703017,"5046 S CHAMPLAN AVE, CHICAGO, £. 606152534",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8501762052,"5051 S FORRESTVILLE AVE, CHICAGO, £. 606152428",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8510204036,"6200 S ROCKWELL ST\# 4, CHICAGO, £. 606291630",02/14/17,02/11/18,$\$ 0.04969$
+COMED,8524521031,"7924 S VERNON AVE\# 26, CHICAGO, £. 606193763",02/22/17,02/20/18,$\$ 0.04969$
+COMED,8524614040,"7955 S CALUMET AVE\# 59, CHICAGO, £. 606193603",02/22/17,02/20/18,$\$ 0.04969$
+COMED,8530288047,"8751 S COTTAGE GROVE AVE, CHICAGO, £. 606196986",02/24/17,02/22/18,$\$ 0.04969$
+COMED,8530584035,"8806 S COTTAGE GROVE AVE UNIT H, CHICAGO, £. 606196981",02/24/17,02/22/18,$\$ 0.04969$
+COMED,8585109019,"5019 S ST LAWRENCE AVE, CHICAGO, £. 606152440",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8585120018,"5019 S ST LAWRENCE AVE, CHICAGO, £. 606152440",02/08/17,02/05/18,$\$ 0.04969$
+COMED,8599255060,"702836 CLYDE BD, CHICAGO, £. 60649",02/16/17,02/13/18,$\$ 0.04969$
+COMED,8601237074,"7263 S COLES AVE, CHICAGO, £. 606492614",02/17/17,02/14/18,$\$ 0.04969$
+COMED,8683233032,"6751 S JEFFERY BLVD, CHICAGO, £. 606491290",02/16/17,02/13/18,$\$ 0.04969$
+
+--- END OF FILE table-11.csv ---
+
+--- START OF FILE table-6.csv ---
+COMED,5897534061,"701 NLOTUS AVE\# 3, CHICAGO, IL 606441110",02/09/17,02/06/18,$\$ 0.04969$
+COMED,5905045048,"33 HEMLOCK ST, PARK FOREST, IL 604662115",02/08/17,02/05/18,$\$ 0.04969$
+COMED,5967307030,"193135 S HOMAN, CHICAGO, IL 60623",02/02/17,01/30/18,$\$ 0.04969$
+COMED,5981194053,"423 N CENTRAL AVE UNIT BD, CHICAGO, IL 606441976",02/09/17,02/06/18,$\$ 0.04969$
+COMED,5981208025,"427 N CENTRAL AVE UNIT EMG, <br> CHICAGO, IL 606441968",02/09/17,02/06/18,$\$ 0.04969$
+COMED,5981495082,"5501 W HURON ST \# 9, CHICAGO, IL 606441145",02/09/17,02/06/18,$\$ 0.04969$
+COMED,5981584048,"723 N CENTRAL AVE, CHICAGO, IL 606441167",02/09/17,02/06/18,$\$ 0.04969$
+COMED,5981615057,"729 N CENTRAL AVE, BLDG, <br> CHICAGO, IL 606441133",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6051034074,"1807 S ST LOUIS AVE, CHICAGO, IL 606232546",02/02/17,01/30/18,$\$ 0.04969$
+COMED,6080762078,"404 S 4TH AVE\# BD, MAYWOOD, IL 601535216",02/17/17,02/14/18,$\$ 0.04969$
+COMED,6135440010,"3650 W 18TH ST \# 56, BLDG, CHICAGO, IL 606232547",02/02/17,01/30/18,$\$ 0.04969$
+COMED,6149143024,"647 N MAYFIELD AVE\# H57, CHICAGO, IL 606441418",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6149316036,"5870 W LAKE ST, CHICAGO, IL 606441835",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6149318021,"5870 W LAKE ST, CHICAGO, IL 606441835",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6149486060,"5959 W MIDWAY PARK \# 69, CHICAGO, IL 606441850",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6191148040,"90 HEMLOCK ST, PARK FOREST, IL 604662154",02/08/17,02/05/18,$\$ 0.04969$
+COMED,6233026041,"703 N AUSTIN BLVDUNIT H, CHICAGO, IL 606441002",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6233134039,"737 N AUSTIN BLVDUNIT H, CHICAGO, IL 606441004",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6233219037,"6948 W SLIFERIOR ST, BLDG, CHICAGO, IL 60644",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6233220030,"5952 W SLIFERIOR ST \# 58, CHICAGO, IL 606441049",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6303695021,"1860 S KOMENSKY AVE \# 66, CHICAGO, IL 606232850",02/02/17,01/30/18,$\$ 0.04969$
+COMED,6310092049,"1245 S CALFORNA AVE\# 47, CHICAGO, IL 606081011",02/03/17,01/31/18,$\$ 0.04969$
+COMED,6310282043,"1249 S FAIRFIELD AVE, CHICAGO, IL 606081027",02/03/17,01/31/18,$\$ 0.04969$
+COMED,6323164036,"3318 WESTERN AVE, LITE, PARK FOREST, IL 604661806",02/08/17,02/05/18,$\$ 0.04969$
+COMED,6332195049,"1400 BATAANDR, BROADVIEW, IL 601553023",02/17/17,02/14/18,$\$ 0.04969$
+COMED,6480696068,"3501 W ADAMS ST \# 9, BLDG, CHICAGO, IL 606242927",02/06/17,02/01/18,$\$ 0.04969$
+COMED,6674776022,"7801 S CORNELL AVE, CHICAGO, IL 606494944",02/21/17,02/19/18,$\$ 0.04969$
+
+--- END OF FILE table-6.csv ---
+
+--- START OF FILE table-7.csv ---
+COMED,6739773030,"4815 W CORTEZ ST, CHICAGO, IL 606513237",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6758249013,"7752 S CORNELL AVE, CHICAGO, IL 606494510",02/21/17,02/19/18,$\$ 0.04969$
+COMED,6836419040,"1012 S 2ND AVE\# BD, MAYWOOD, IL 601535211",02/17/17,02/14/18,$\$ 0.04969$
+COMED,6907019038,"11117 N LAWLER AVE, CHICAGO, IL 60844",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6907035050,"1123 N LAWLER AVE, CHICAGO, IL 606513024",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6907645038,"1101 N LECLAIRE AVE\# 5, CHICAGO, IL 606513030",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6907696062,"1145 N LECLAIRE AVE\# 49, CHICAGO, IL 606513035",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6909447058,"125056 N KILDARE AVE, BLDG, CHICAGO, IL 60624",02/13/17,02/08/18,$\$ 0.04969$
+COMED,6920283063,"2109 S 5TH AVE, BLDG, MAYWOOD, IL 601533381",02/17/17,02/14/18,$\$ 0.04969$
+COMED,6982231065,"125759 S KILDARE AVE, BLDG, CHICAGO, IL 60624",02/03/17,01/31/18,$\$ 0.04969$
+COMED,6991452036,"1042 N LEAMINGTON AVE, CHICAGO, IL 606512989",02/09/17,02/06/18,$\$ 0.04969$
+COMED,6991461035,"1046 N LEAMINGTON AVE\# H, CHICAGO, IL 606512971",02/09/17,02/06/18,$\$ 0.04969$
+COMED,7159074037,"832 N LONG AVELNIT H, CHICAGO, IL 606512827",02/09/17,02/06/18,$\$ 0.04969$
+COMED,7227154035,"13300 S INDIANA AVE, CHICAGO, IL 608271213",03/02/17,02/28/18,$\$ 0.04969$
+COMED,7245707052,"5401 W LE MOYNE ST, MAYWOOD, IL 60153",02/13/17,02/08/18,$\$ 0.04969$
+COMED,7262622030,"7802 S MICHIGAN AVE\# 4, CHICAGO, IL 606192306",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7320166039,"5007 W JACKSON BLVD, CHICAGO, IL 606444649",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320175038,"5015 W JACKSON BLVD\# 19, CHICAGO, IL 606444642",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320305027,"5012 W JACKSON BLVD, CHICAGO, IL 606444328",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320314035,"5018 W JACKSON BLVD, CHICAGO, IL 606444330",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320389069,"5001 W ADAMS ST \# 3, CHICAGO, IL 606444343",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320486072,"5024 W QUINCY ST \# 28, CHICAGO, IL 606444352",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7320586040,"100 S LEAMINGTON AVE\# 10, CHICAGO, IL 606444303",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7332770034,"1606 N MONITOR AVE, BLDG, CHICAGO, IL 606394039",02/14/17,02/11/18,$\$ 0.04969$
+COMED,7332813052,"5832 W N AVE, CHICAGO, IL 606394008",02/14/17,02/11/18,$\$ 0.04969$
+COMED,7346507094,"7643 S STEWART AVE\# 57, CHICAGO, IL 606201649",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7346565078,"770107 S STEWART AVE, BLDG, CHICAGO, IL 60620",02/21/17,02/19/18,$\$ 0.04969$
+
+--- END OF FILE table-7.csv ---
+
+--- START OF FILE table-10.csv ---
+COMED,7936138098,"903 E 82ND ST \# 9, CHICAGO, IL 606195250",02/22/17,02/20/18,\$0.04969
+COMED,7936165040,"907 E 81ST ST, CHICAGO, IL 606195201",02/22/17,02/20/18,\$0.04969
+COMED,7936307075,"8148 S INGLESIDE AVE\# 56, CHICAGO, IL 606195258",02/22/17,02/20/18,\$0.04969
+COMED,7936597060,"7917 S DREXEL AVE\# 29, CHICAGO, IL 606194197",02/22/17,02/20/18,\$0.04969
+COMED,7936740043,"7930 S INGLESIDE AVELNDT H, CHICAGO, IL 606194241",02/22/17,02/20/18,\$0.04969
+COMED,8011789083,"674365 BL OGLESBY, CHICAGO, IL 60649",02/16/17,02/13/18,\$0.04969
+COMED,8018252052,"7756 S MARSHFIELD AVE, CHICAGO, IL 606204239",02/21/17,02/19/18,\$0.04969
+COMED,8018380015,"7654 S MARSHFIELD AVE, CHICAGO, IL 606204257",02/21/17,02/19/18,\$0.04969
+COMED,8018522059,"7656 S PAULINA ST, BLDG, CHICAGO, IL 606204453",02/21/17,02/19/18,\$0.04969
+COMED,8018569043,"7707 S HERMTAGE AVE, BLDG, CHICAGO, IL 606204481",02/21/17,02/19/18,\$0.04969
+COMED,8020031072,"7916 S DREXEL AVE, CHICAGO, IL 606194176",02/22/17,02/20/18,\$0.04969
+COMED,8020193031,"8000 S DREXEL AVE\# 4, BLDG, CHICAGO, IL 606194171",02/22/17,02/20/18,\$0.04969
+COMED,8020272055,"8056 S DREXEL AVE\# 58, CHICAGO, IL 606194170",02/22/17,02/20/18,\$0.04969
+COMED,8020424040,"8100 S DREXEL AVE, CHICAGO, IL 606194158",02/22/17,02/20/18,\$0.04969
+COMED,8020701042,"8208 S DREXEL AVE\# 10, CHICAGO, IL 606195486",02/22/17,02/20/18,\$0.04969
+COMED,8029721031,"9400 S LAPLIN ST \#4, CHICAGO, IL 606205160",02/27/17,02/25/18,\$0.04969
+COMED,8102042060,"7656 S HERMTAGE AVE\#H, CHICAGO, IL 606204455",02/21/17,02/19/18,\$0.04969
+COMED,8102238039,"1816-23 W 77TH ST, BD, CHICAGO, IL 60620",02/21/17,02/19/18,\$0.04969
+COMED,8104079056,"8255 S MARYLAND AVE\# 59, BD, CHICAGO, IL 606195342",02/22/17,02/20/18,\$0.04969
+COMED,8104199035,"8236 S MARYLAND AVE\# 44, BD, CHICAGO, IL 606195333",02/22/17,02/20/18,\$0.04969
+COMED,8104408057,"8000 S MARYLAND AVE\# 12, CHICAGO, IL 606193938",02/22/17,02/20/18,\$0.04969
+COMED,8104656062,"737 E 79TH ST, CHICAGO, IL 606193141",02/22/17,02/20/18,\$0.04969
+COMED,8104681056,"741 E 79TH ST \# 59, CHICAGO, IL 606193117",02/22/17,02/20/18,\$0.04969
+COMED,8104686024,"749 E 79TH ST \#IR, CHICAGO, IL 606193117",02/22/17,02/20/18,\$0.04969
+COMED,8104688055,"753 E 79TH ST STE 101, STORAGE UNIT, CHICAGO, IL 606193160",02/22/17,02/20/18,\$0.04969
+COMED,8110068069,"2225 E 87TH ST \# BO, CHICAGO, IL 606173021",02/24/17,02/22/18,\$0.04969
+COMED,8188713080,"714 E 82ND ST \# 20, CHICAGO, IL 606195068",02/22/17,02/20/18,\$0.04969
+
+--- END OF FILE table-10.csv ---
+
+--- START OF FILE table-12.csv ---
+COMED,8690055039,"3102 E 83RD ST \# BD, CHICAGO, IL 606172141",02/21/17,02/19/18,\$0.04969
+COMED,8692515038,"7929 S STATE ST \# 31, BD, CHICAGO, IL 606193563",02/22/17,02/20/18,\$0.04969
+COMED,8692649011,"7934 S WABASHAVE\# 42S, CHICAGO, IL 606193580",02/22/17,02/20/18,\$0.04969
+COMED,8695606027,"8640 S INGLESIDE AVELINT BD, CHICAGO, IL 606196330",02/23/17,02/21/18,\$0.04969
+COMED,8707274091,"11932 S STEWART AVE\# 36, CHICAGO, IL 606286029",03/02/17,02/28/18,\$0.04969
+COMED,8753673057,"4853 S PRAIRIE AVE\# 59, BLDG, CHICAGO, IL 606151254",02/08/17,02/05/18,\$0.04969
+COMED,8779023020,"8349 S DREXEL AVE\# H, CHICAGO, IL 606195952",02/23/17,02/21/18,\$0.04969
+COMED,8779042034,"8308 S INGLESIDE AVE\# H, CHICAGO, IL 606195924",02/23/17,02/21/18,\$0.04969
+COMED,8779051033,"8312 S INGLESIDE AVE\# H, CHICAGO, IL 606195925",02/23/17,02/21/18,\$0.04969
+COMED,8837591043,"4714 S MICHIGAN AVE\# 20, CHICAGO, IL 606151037",02/08/17,02/05/18,\$0.04969
+COMED,8853354059,"7417 S PHILLIPS AVE\# 25, CHICAGO, IL 606493721",02/17/17,02/14/18,\$0.04969
+COMED,8853478036,"7440 S PHILLIPS AVE\# 44, CHICAGO, IL 606493796",02/17/17,02/14/18,\$0.04969
+COMED,8853505010,"7409 S YATES BLVD, CHICAGO, IL, 606493315",02/17/17,02/14/18,\$0.04969
+COMED,8858129038,"7956 S BURNHAM AVE\# 58, CHICAGO, IL 606171322",02/21/17,02/19/18,\$0.04969
+COMED,8858628045,"7941 S MARQUETTE AVE\# 47, CHICAGO, IL 606171342",02/21/17,02/19/18,\$0.04969
+COMED,8937173047,"7241 S PHILLIPS AVE\# 49, CHICAGO, IL 606492596",02/17/17,02/14/18,\$0.04969
+COMED,8937276070,"7231 S YATES BLVD \# 33, CHICAGO, IL 606492544",02/17/17,02/14/18,\$0.04969
+COMED,8937346022,"7131 45 S YATES, APT \# BD, CHICAGO, IL 60649",02/17/17,02/14/18,\$0.04969
+COMED,8937549078,"7236 S YATES BLVD \# 38, CHICAGO, IL 606492532",02/17/17,02/14/18,\$0.04969
+COMED,8937556019,"7240 S YATES BLVD \# 42, CHICAGO, IL 606492532",02/17/17,02/14/18,\$0.04969
+COMED,8937705030,"7400 02 S YATES BLVD, BLDG, CHICAGO, IL 60649",02/17/17,02/14/18,\$0.04969
+COMED,8940027045,"782030 COLES, BD, CHICAGO, IL 60649",02/20/17,02/15/18,\$0.04969
+COMED,8940124058,"2826 E 76TH PL, CHICAGO, IL 606494341",02/20/17,02/15/18,\$0.04969
+COMED,8940148076,"7601 S COLES AVE\# 7, CHICAGO, IL 606494319",02/20/17,02/15/18,\$0.04969
+COMED,8940159060,"7609 S COLES AVELINT BD, CHICAGO, IL 606494388",02/20/17,02/15/18,\$0.04969
+COMED,8940184054,"7615-19 COLES, BD, CHICAGO, IL 60649",02/20/17,02/15/18,\$0.04969
+COMED,8940682064,"7715 S SHORE BD, CHICAGO, IL 60649",02/20/17,02/15/18,\$0.04969
+
+--- END OF FILE table-12.csv ---
+
+--- START OF FILE table-5.csv ---
+COMED,4128145035,"13260 S INDIANA AVEBLDG X, CHICAGO, IL 608271212",03/02/17,02/28/18,\$0.04969
+COMED,4167004091,"7757 S PEORIA ST \# 59, CHICAGO, IL 606202825",02/21/17,02/19/18,\$0.04969
+COMED,4175009000,"2845 E 77TH ST, CHICAGO, IL 606494848",02/20/17,02/15/18,\$0.04969
+COMED,4480152032,"13300 S INDIANA AVE, CHICAGO, IL 608271213",03/02/17,02/28/18,\$0.04969
+COMED,4533027024,"116 LESTER RD, PARK FOREST, IL 604662012",02/08/17,02/05/18,\$0.04969
+COMED,4557471033,"1521 N SEDGWICK ST, CHICAGO, IL 606101222",02/10/17,02/07/18,\$0.04969
+COMED,4665024077,"7909 S EVANS AVE, CHICAGO, IL 606193906",02/22/17,02/20/18,\$0.04969
+COMED,4798312020,"1200 W LEXINGTON ST UNT BD, CHICAGO, IL 606074111",02/03/17,01/31/18,\$0.04969
+COMED,4848170038,"1613 N AUSTIN AVE, CHICAGO, IL 606394001",02/15/17,02/12/18,\$0.04969
+COMED,4887073041,"4114 W WASHINGTON BLVD, CHICAGO, IL 606242349",02/14/17,02/11/18,\$0.04969
+COMED,4926657010,"111 W GARFIELD ST, BLDG, OAK PARK, IL 60304",03/02/17,02/28/18,\$0.04969
+COMED,4986403056,"102 S 17TH AVE, BLDG, MAYWOOD, IL 601531296",02/16/17,02/13/18,\$0.04969
+COMED,5055803047,"14850 N LACROSSE H, CHICAGO, IL 60644",02/17/17,02/14/18,\$0.04969
+COMED,5285150026,"7356 S DORCHESTER AVE\# 58, CHICAGO, IL 606192120",02/17/17,02/14/18,\$0.04969
+COMED,5307812143,"5314 W WASHINGTON BLVD, CHICAGO, IL 606443564",02/07/17,02/04/18,\$0.04969
+COMED,5475238044,"5501 W WASHINGTON BLVD \# 5, CHICAGO, IL 606443196",02/15/17,02/12/18,\$0.04969
+COMED,5477054108,"3600 W FRANKLIN BLVD \# 12, CHICAGO, IL 606241291",02/09/17,02/06/18,\$0.04969
+COMED,5575152014,"345 FOREST BLVD, PARK FOREST, IL 604662101",02/08/17,02/05/18,\$0.04969
+COMED,5643309054,"5732 W WASHINGTON BLVD \# 4, CHICAGO, IL 606442974",02/08/17,02/05/18,\$0.04969
+COMED,5643464078,"5840 W MADISON ST, CHICAGO, IL 606443839",02/17/17,02/14/18,\$0.04969
+COMED,5722557016,"819 S INDEPENDENCE BLVD\# 21, BLDG, CHICAGO, IL 606244390",02/03/17,01/31/18,\$0.04969
+COMED,5800020049,"430 N WALLER AVE, CHICAGO, IL 606442060",02/09/17,02/06/18,\$0.04969
+COMED,5811133066,"320 N MASON AVE, CHICAGO, IL 606442131",02/17/17,02/14/18,\$0.04969
+COMED,5814170061,"3324 WESTERN AVE, PARK FOREST, IL 604661806",02/08/17,02/05/18,\$0.04969
+COMED,5890239027,"4061 W 5TH AVEUNIT BD, CHICAGO, IL 606243546",02/03/17,01/31/18,\$0.04969
+COMED,5890500067,"4056 W GRENSHAW ST \# BD, CHICAGO, IL 606243965",02/03/17,01/31/18,\$0.04969
+COMED,5897288037,"600 N LOREL AVE\# 2, CHICAGO, IL 606441651",02/09/17,02/06/18,\$0.04969
+
+--- END OF FILE table-5.csv ---
+
+--- START OF FILE table-4.csv ---
+COMED,2323025078,"543 W 74TH ST \# 45, CHICAGO, IL 606212387",02/20/17,02/15/18,\$0.04969
+COMED,2529063065,"805 E DREXEL SQ, CHICAGO, IL 606153781",02/09/17,02/06/18,\$0.04969
+COMED,2586026040,"9040 S BISHOP ST, CHICAGO, IL 606205009",02/24/17,02/22/18,\$0.04969
+COMED,2759111023,"187 LESTER RD, PARK FOREST, IL 604662011",02/08/17,02/05/18,\$0.04969
+COMED,2775097144,"15 S AUSTIN BLVD UNIT STO, CHICAGO, IL 606443710",02/17/17,02/14/18,\$0.04969
+COMED,2845046033,"126 INDIAMWOOD BLVD, PARK FOREST, IL 604662143",02/08/17,02/05/18,\$0.04969
+COMED,2903000020,"8008 S PAULINA ST, CHICAGO, IL 606204534",02/22/17,02/20/18,\$0.04969
+COMED,2971083120,"391 FOREST BLVD, PARK FOREST, IL 604662101",02/08/17,02/05/18,\$0.04969
+COMED,2980009098,"3324 WESTERN AVE, PARK FOREST, IL 604661806",02/08/17,02/05/18,\$0.04969
+COMED,3034100021,"9047 S MJSKEGON AVE\# 57, CHICAGO, IL 606174234",02/24/17,02/22/18,\$0.04969
+COMED,3219167051,"3248 WESTERN AVE, PARK FOREST, IL 604661805",02/08/17,02/05/18,\$0.04969
+COMED,3297161046,"6800 W IOWA ST, UNIT H, CHICAGO, IL 60651",02/13/17,02/08/18,\$0.04969
+COMED,3395024088,"310 N MENARD AVE, BLDG, CHICAGO, IL 606442133",02/08/17,02/05/18,\$0.04969
+COMED,3422020043,"1501 E 68TH ST, CHICAGO, IL 606374801",02/16/17,02/13/18,\$0.04969
+COMED,3603018143,"3330 WESTERN AVE, PARK FOREST, IL 604661806",02/08/17,02/05/18,\$0.04969
+COMED,3721056054,"8200 S CLYDE AVE \# 2, CHICAGO, IL 606171838",02/22/17,02/20/18,\$0.04969
+COMED,3753077041,"5956 W NAVE, CHICAGO, IL 606394052",02/15/17,02/12/18,\$0.04969
+COMED,3806458027,"5956 W NAVE UNIT STO, CHICAGO, IL 606394052",02/15/17,02/12/18,\$0.04969
+COMED,3811555024,"2610 NLARAME AVE UNIT BN, CHICAGO, IL 606391661",02/17/17,02/14/18,\$0.04969
+COMED,3811575053,"2616 NLARAME AVE\#BD, CHICAGO, IL 606391626",02/17/17,02/14/18,\$0.04969
+COMED,3811586065,"2618 NLARAME AVE, CHICAGO, IL 606391662",02/17/17,02/14/18,\$0.04969
+COMED,3811587044,"2618 NLARAME AVE, CHICAGO, IL 606391662",02/17/17,02/14/18,\$0.04969
+COMED,3881078078,"10901 S VERNON AVE, CHICAGO, IL 606284404",03/01/17,02/27/18,\$0.04969
+COMED,4031084012,"INDIAMWID BLVD BLDG 66, PARK FOREST, IL 60466",02/08/17,02/05/18,\$0.04969
+COMED,4067055087,"7031 S CHAPPEL AVE\# 33, BLDG, CHICAGO, IL 606492136",02/16/17,02/13/18,\$0.04969
+COMED,4068151051,"6155-57 S MARYLAND AVE, CHICAGO, IL 60619",02/22/17,02/20/18,\$0.04969
+COMED,4072023033,"23 LEIMS RD, PARK FOREST, IL 604662120",02/08/17,02/05/18,\$0.04969
+
+--- END OF FILE table-4.csv ---
+
+--- START OF FILE table-13.csv ---
+COMED,8970126006,"13300 S INDIANA AVE, CHICAGO, IL 608271213",03/02/17,02/28/18,\$0.04969
+COMED,9007078032,"801 E DREVEL SQ, CHICAGO, IL 606153780",02/09/17,02/06/18,\$0.04969
+COMED,9007326015,"5130 S KING DR \# 36, CHICAGO, IL 606153525",02/09/17,02/05/18,\$0.04969
+COMED,9019446040,"7003 S HARPER AVE\#BD, <br> CHICAGO, IL 606374824",02/16/17,02/13/18,\$0.04969
+COMED,9021146046,"2235 E 71ST ST, CHICAGO, IL 606492539",02/17/17,02/14/18,\$0.04969
+COMED,9021548059,"7102 S LUELLA AVE\# BD, <br> CHICAGO, IL 606492547",02/17/17,02/14/18,\$0.04969
+COMED,9026029077,"7914 S KINGSTON AVE UNIT BD, <br> CHICAGO, IL 606171284",02/21/17,02/19/18,\$0.04969
+COMED,9026179036,"7925 S PHILLIFS AVE, CHICAGO, IL 606171247",02/21/17,02/19/18,\$0.04969
+COMED,9028546017,"8001 S CARPENTER ST UNIT BD, CHICAGO, IL 606203057",02/22/17,02/20/18,\$0.04969
+COMED,9031607029,"8456 S WABASHAVE\# 58, <br> CHICAGO, IL 606195632",02/23/17,02/21/18,\$0.04969
+COMED,9034507044,"8951 S ADA ST \# 59, CHICAGO, IL 606203402",02/24/17,02/22/18,\$0.04969
+COMED,9041001039,"11111 S VERNON AVE\# BD, CHICAGO, IL 606284511",03/01/17,02/27/18,\$0.04969
+COMED,9041139047,"11145 S KING DR, CHICAGO, IL 606284532",03/01/17,02/27/18,\$0.04969
+COMED,9103214043,"7358 S BLACKSTONE AVE, CHICAGO, IL 606192154",02/16/17,02/13/18,\$0.04969
+COMED,9103347047,"6715 S DORCHESTER AVE, CHICAGO, IL 606374712",02/16/17,02/13/18,\$0.04969
+COMED,9105540046,"731725 CHAPPEL, CHICAGO, IL 60649",02/17/17,02/14/18,\$0.04969
+COMED,9112138029,"7956 S ABERDEEN ST UNIT H, CHICAGO, IL 606203048",02/22/17,02/20/18,\$0.04969
+COMED,9112224057,"8001 S MAY ST \# 35, CHICAGO, IL 606203005",02/22/17,02/20/18,\$0.04969
+COMED,9115809034,"8515 S GREEN ST UNIT BD, CHICAGO, IL 606203271",02/23/17,02/21/18,\$0.04969
+COMED,9118152078,"9000 S BISHOP ST \# 2, CHICAGO, IL 606205005",02/24/17,02/22/18,\$0.04969
+COMED,9118207078,"9040 S BISHOP ST \# 42, CHICAGO, IL 606205009",02/24/17,02/22/18,\$0.04969
+COMED,9125596053,"11250 S INDIANA AVE\# 56, CHICAGO, IL 606284904",03/01/17,02/27/18,\$0.04969
+COMED,9175130032,"5300 S MICHIGAN AVE, CHICAGO, IL 606154623",02/09/17,02/06/18,\$0.04969
+COMED,9189179056,"1962 E 73RD PL \# BD, CHICAGO, IL 606493945",02/17/17,02/14/18,\$0.04969
+COMED,9192390023,"7801 S SAGINAW AVEAPT 3, CHICAGO, IL 606495258",02/20/17,02/15/18,\$0.04969
+COMED,9192620053,"7706 S SAGINAW AVEAPT H, CHICAGO, IL 606494734",02/20/17,02/15/18,\$0.04969
+COMED,9196067061,"1216 W 83RD ST \# 22, CHICAGO, IL 606203903",02/22/17,02/20/18,\$0.04969
+
+--- END OF FILE table-13.csv ---
+
+--- START OF FILE table-9.csv ---
+COMED,7740219011,"9 S AUSTIN BLVD, CHICAGO, IL 606443710",02/17/17,02/14/18,$\$ 0.04969$
+COMED,7740292047,"13 S AUSTIN BLVD\# BD, CHICAGO, IL 606443710",02/17/17,02/14/18,$\$ 0.04969$
+COMED,7766145114,"7701 S MAY ST\# 3, CHICAGO, IL 606202938",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7768011022,"7939 S DOBSON AVE\# 41, CHICAGO, IL 606194453",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7768039093,"7953 S DOBSON AVE\# 59, CHICAGO, IL 606194409",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7768374042,"8235 S ELLIS AVEUNIT H, CHICAGO, IL 606195501",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7768412056,"8251 S ELLIS AVE, CHICAGO, IL 606195553",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7768497040,"8127 S ELLIS AVE\# 37, CHICAGO, IL 606194381",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7768607073,"8001 S ELLIS AVE, CHICAGO, IL 606198125",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7774494019,"3009 E 90TH ST, CHICAGO, IL 606173219",02/24/17,02/22/18,$\$ 0.04969$
+COMED,7850610022,"7751 S LOOMIS BLVD, CHICAGO, IL 606203751",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7852010039,"7949 S5 S ELLIS AVE, BLDG, CHICAGO, IL 60619",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7852183073,"8000 S ELLIS AVE, CHICAGO, IL 606194323",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7852350056,"8051 S INGLESIDE AVE\# 55, BD, CHICAGO, IL 606194230",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7852592045,"8157 S INGLESIDE AVEUNIT BD, CHICAGO, IL 606195232",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7852662079,"8238 S ELLIS AVE\# 46, CHICAGO, IL 606195510",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7852747086,"8253 S INGLESIDE AVEUNIT BD, CHICAGO, IL 606195651",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7858377015,"8954 S COMMERCIAL AVE, CHICAGO, IL 606173233",02/24/17,02/22/18,$\$ 0.04969$
+COMED,7858534010,"9043 S ESCANABA AVE\# BD, CHICAGO, IL 606174219",02/24/17,02/22/18,$\$ 0.04969$
+COMED,7911681016,"1030 E 47TH ST, CHICAGO, IL 606534567",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7934079032,"7754 S LOOMIS BLVD, CHICAGO, IL 606203750",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7934571068,"7701 S ASHLAND AVE, CHICAGO, IL 606204250",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7934675052,"1514 W 77TH ST\# BD, CHICAGO, IL 606204225",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7934807045,"1615 W 77TH ST\# 21, CHICAGO, IL 606204202",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7936036053,"8200 S INGLESIDE AVE\# 4, BD, CHICAGO, IL 606195427",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7936084059,"8222 S INGLESIDE AVE\# 26, CHICAGO, IL 606195474",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7936101028,"8228 S INGLESIDE AVE\# 32, CHICAGO, IL 606195402",02/22/17,02/20/18,$\$ 0.04969$
+
+--- END OF FILE table-9.csv ---
+
+--- START OF FILE table-8.csv ---
+COMED,7348210076,"7905 S LUELLA AVE, CHICAGO, IL 606171169",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7348548048,"7901 S PAXTON AVE, CHICAGO, IL 606171122",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7404742040,"5230 W HARRSON ST \# 40, <br> CHICAGO, IL 606445103",02/03/17,01/31/18,$\$ 0.04969$
+COMED,7428340020,"7348 S KING DR \# 66, CHICAGO, IL 606191728",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7428727045,"7151 S INDIANA AVELINT BD, CHICAGO, IL 606191027",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7428775032,"211 E 21ST ST STO, CHICAGO, IL 60619",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7428776048,"213 E 71ST ST, CHICAGO, IL 606191120",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7428777081,"215 E 71ST ST, CHICAGO, IL 606191173",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7430383035,"7741 S NORMAL AVE \# 43, CHICAGO, IL 606201845",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7451085007,"13300 S INDIANA AVE, CHICAGO, IL 606271213",03/02/17,02/28/18,$\$ 0.04969$
+COMED,7483044021,"215 E 68TH ST, CHICAGO, IL 606375153",02/16/17,02/13/18,$\$ 0.04969$
+COMED,7488616054,"5448 W ADAMS ST, CHICAGO, IL 606444064",02/07/17,02/04/18,$\$ 0.04969$
+COMED,7502240036,"6000 S PAARIE AVE \# BD, CHICAGO, IL 606374085",02/14/17,02/11/18,$\$ 0.04969$
+COMED,7514314050,"7825 S EMINALD AVE \# 31, CHICAGO, IL 606202433",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7514654040,"7542 S HALSTED ST \# 52, CHICAGO, IL 606202436",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7529190026,"10933 S VERNON AVE, CHICAGO, IL 606284404",03/01/17,02/27/18,$\$ 0.04969$
+COMED,7586327038,"5901 S MICHIGAN AVE, CHICAGO, IL 606372107",02/14/17,02/11/18,$\$ 0.04969$
+COMED,7586563043,"6125 S WABASHAVE, CHICAGO, IL 606372143",02/14/17,02/11/18,$\$ 0.04969$
+COMED,7596075032,"7120 S WABASHAVE\# 32, CHICAGO, IL 606191020",02/20/17,02/15/18,$\$ 0.04969$
+COMED,7598457023,"7655 S SANGAMON ST \# 59, CHICAGO, IL 606202834",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7598545037,"7755 S SANGAMON ST, CHICAGO, IL 606202811",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7613172032,"234 E 109TH ST \# BD, CHICAGO, IL 606283660",03/01/17,02/27/18,$\$ 0.04969$
+COMED,7613255036,"222 W 109TH ST \# 34, CHICAGO, IL 606283308",03/01/17,02/27/18,$\$ 0.04969$
+COMED,7682035031,"7657 S MORSAN ST BLDG \& BLDG \& 948-50 W 77TH, CHICAGO, IL 606202832",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7682434070,"7800 S MORGAN ST \# 6, CHICAGO, IL 606202808",02/21/17,02/19/18,$\$ 0.04969$
+COMED,7684555054,"1108 E 82ND ST \# 18, CHICAGO, IL 606194529",02/22/17,02/20/18,$\$ 0.04969$
+COMED,7684792057,"7901 S DOBSON AVE\# 11, CHICAGO, IL 606194409",02/22/17,02/20/18,$\$ 0.04969$
+
+--- END OF FILE table-8.csv ---
+
+
+--- END OF CSV Data ---
+
+Output only the raw JSON object and nothing else.

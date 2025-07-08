@@ -1,0 +1,42 @@
+{
+  "documentType": "contract",
+  "documentId": "document_157",
+  "contractStart": "2017-01-01",
+  "contractEnd": "2017-12-31",
+  "usageHistory": {
+    "2017-01": 1292298.08,
+    "2017-02": 1292298.08,
+    "2017-03": 1292298.08,
+    "2017-04": 1292298.08,
+    "2017-05": 1292298.08,
+    "2017-06": 1292298.08,
+    "2017-07": 1292298.08,
+    "2017-08": 1292298.08,
+    "2017-09": 1292298.08,
+    "2017-10": 1292298.08,
+    "2017-11": 1292298.08,
+    "2017-12": 1292298.08
+  },
+  "locations": [
+    {
+      "serviceAddress": "1840 International Parkway (Champion Packaging)",
+      "accountNumber": "4658029017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "637 Forestwood Dr., Unit A (Champion Packaging)",
+      "accountNumber": "0535033213",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "637 Forestwood Dr., Unit B (Champion Packaging)",
+      "accountNumber": "1956083141",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1533 W. Davey Rd (Champion Packaging)",
+      "accountNumber": "7926158033",
+      "meterNumber": null
+    }
+  ]
+}

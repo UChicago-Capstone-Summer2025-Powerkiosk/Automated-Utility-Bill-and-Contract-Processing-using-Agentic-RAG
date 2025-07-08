@@ -1,0 +1,29 @@
+{
+  "documentType": "contract",
+  "documentId": "document_728",
+  "contractStart": "2015-11-25",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2016-01": 264.51,
+    "2016-02": 203.9,
+    "2016-03": 258.19,
+    "2016-04": 258.19,
+    "2016-05": 258.19,
+    "2016-06": 258.19,
+    "2016-07": 258.23,
+    "2016-08": 231.67,
+    "2016-09": 192.41,
+    "2016-10": 192.41,
+    "2016-11": 43.89
+  },
+  "locations": [
+    {
+      "serviceAddress": "5202 OLD ORCHARD ROAD",
+      "city": "SKOKIE",
+      "state": "IL",
+      "zip": "60077-0077",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": "NOT_FOUND"
+    }
+  ]
+}

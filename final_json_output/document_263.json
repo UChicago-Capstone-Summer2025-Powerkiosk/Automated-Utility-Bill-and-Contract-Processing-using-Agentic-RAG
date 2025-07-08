@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_263",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 929,
+    "2024-01": 1321,
+    "2024-02": 1195,
+    "2024-03": 1128,
+    "2024-04": 917,
+    "2024-05": 455,
+    "2024-06": 187,
+    "2024-07": 127,
+    "2024-08": 136,
+    "2024-09": 126,
+    "2024-10": 147,
+    "2024-11": 426,
+    "2024-12": 879
+  },
+  "locations": [
+    {
+      "serviceAddress": "0 ROWLEY ST BERLIN BT 06037",
+      "accountNumber": "51469328009",
+      "meterNumber": "894673132"
+    }
+  ],
+  "totalUsage": 879
+}

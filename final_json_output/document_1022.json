@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1022",
+  "statementDate": "Dec 21",
+  "usageHistory": {
+    "2019-12": 30000,
+    "2020-01": 36000,
+    "2020-02": 24000,
+    "2020-03": 24000,
+    "2020-04": 24000,
+    "2020-05": 24000,
+    "2020-06": 24000,
+    "2020-07": 24000,
+    "2020-08": 24000,
+    "2020-09": 24000,
+    "2020-10": 24000,
+    "2020-11": 24000
+  },
+  "locations": [
+    {
+      "serviceAddress": "PO Box 1090, Charlotte, NC 28201-1090",
+      "accountNumber": "9170-2230-07-7",
+      "meterNumber": "108030785"
+    },
+    {
+      "serviceAddress": "PO Box 1326, Charlotte, NC 28201-1326",
+      "accountNumber": "9170-2230-07-7",
+      "meterNumber": "000577202"
+    }
+  ],
+  "totalUsage": 24464
+}

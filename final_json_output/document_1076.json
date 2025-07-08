@@ -1,0 +1,70 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1076",
+  "statementDate": "2022-08-01",
+  "totalUsage": 5470,
+  "usageHistory": {
+    "2022-06": 32,
+    "2022-07": 5470,
+    "2022-08": 16691,
+    "2022-09": 1390,
+    "2022-10": 548
+  },
+  "locations": [
+    {
+      "serviceAddress": "1234 Sample Address, Houston, TX 77001-4328",
+      "accountNumber": "14 866 143 - 9",
+      "meterNumber": "167879146"
+    },
+    {
+      "serviceAddress": "4172 GREEN LEAF LN MIDCITY, TX 79756-4457",
+      "accountNumber": "13 369 782 - 1",
+      "meterNumber": "164573144"
+    },
+    {
+      "serviceAddress": "2500 COUNTY ROAD 43 MIDKIFF TX 79755",
+      "accountNumber": "17 747 091 - 1",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3123 Santa Anita Rd, Midkiff, TX 79755-4457",
+      "accountNumber": "13 369 185 - 6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8265 County Road 259, Midkiff, TX 79755",
+      "accountNumber": "8 000 109 753 - 6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "28526 FM 1488 RD, MIDWAY, TX 75852",
+      "accountNumber": null,
+      "meterNumber": "177278812"
+    },
+    {
+      "serviceAddress": "4567 W 8th St, Anytown, CA 98765",
+      "accountNumber": null,
+      "meterNumber": "187776221"
+    },
+    {
+      "serviceAddress": "4718 W & S Rains SHSP MIDFORT TX 74736",
+      "accountNumber": "1043172002634853",
+      "meterNumber": "146798315"
+    },
+    {
+      "serviceAddress": "2 Jump St, MIDLAND, TX 79701",
+      "accountNumber": null,
+      "meterNumber": "1257"
+    },
+    {
+      "serviceAddress": "2000 LA 2954, MIDKIFF, TX 79755",
+      "accountNumber": null,
+      "meterNumber": "15666771L6"
+    },
+    {
+      "serviceAddress": "5400 E COUNTY RD 1600 N MIDWEST, TX 79706-1610",
+      "accountNumber": null,
+      "meterNumber": "144671477"
+    }
+  ]
+}

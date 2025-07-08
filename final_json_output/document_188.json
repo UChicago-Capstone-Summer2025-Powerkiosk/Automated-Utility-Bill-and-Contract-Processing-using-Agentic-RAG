@@ -1,0 +1,29 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_188",
+  "statementDate": "04/29/2020",
+  "usageHistory": {
+    "2020-04": 184900
+  },
+  "locations": [
+    {
+      "serviceAddress": "2801 OLD GLENVIEW RD / WILMETTE, IL 60091",
+      "accountNumber": "0261535004",
+      "meterNumbers": [
+        "230047290",
+        "230128331",
+        "230147955",
+        "230238282"
+      ]
+    },
+    {
+      "serviceAddress": "7134 W HIGGINS AVE / CHICAGO, IL 60656",
+      "accountNumber": "2867030020",
+      "meterNumbers": [
+        "230242262",
+        "230242264"
+      ]
+    }
+  ],
+  "totalUsage": 184900
+}

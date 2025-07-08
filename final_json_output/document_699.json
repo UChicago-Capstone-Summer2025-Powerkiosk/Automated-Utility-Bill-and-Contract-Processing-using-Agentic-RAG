@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_699",
+  "statementDate": "2019-07-08",
+  "totalUsage": 161.0,
+  "usageHistory": {
+    "2019-06": 161.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "816 S CHESTER ST, BASEBALL FIELD, SPARTA, IL 62286",
+      "accountNumber": "1524010079",
+      "meterNumber": "72032000"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1118",
+  "statementDate": "May 19, 2016",
+  "usageHistory": {
+    "2015-05": 146000,
+    "2015-06": 167000,
+    "2015-07": 214000,
+    "2015-08": 204000,
+    "2015-09": 186000,
+    "2015-10": 166000,
+    "2015-11": 171000,
+    "2015-12": 196000,
+    "2016-01": 264000,
+    "2016-02": 287000,
+    "2016-03": 226000,
+    "2016-04": 178000,
+    "2016-05": 151000
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD POLE D24068 WESTFORD MA 01886",
+      "accountNumber": "65358-48023",
+      "meterNumber": "04735535"
+    },
+    {
+      "serviceAddress": "219 LITTLETON RD POLE 92 WESTFORD MA 01886",
+      "accountNumber": "27976-85013",
+      "meterNumber": "98641913"
+    }
+  ],
+  "totalUsage": 178000
+}

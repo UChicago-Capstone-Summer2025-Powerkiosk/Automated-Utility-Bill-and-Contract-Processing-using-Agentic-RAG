@@ -1,0 +1,87 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1034",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2019-02": 1160,
+    "2019-03": 1160,
+    "2019-04": 1160,
+    "2019-05": 1160,
+    "2019-06": 1160,
+    "2019-07": 1160,
+    "2019-08": 1160,
+    "2019-09": 1160,
+    "2019-10": 1160,
+    "2019-11": 1160,
+    "2019-12": 1160,
+    "2020-01": 1260
+  },
+  "locations": [
+    {
+      "serviceAddress": "1401 MORNING STAR DR, BLDG EAST, SAINT LOUIS, IL 62026",
+      "accountNumber": "475570213840",
+      "meterNumber": "47557 02113"
+    },
+    {
+      "serviceAddress": "1820 JEROME LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "500 Rome Dr, D/D East Saint Louis IL 62206",
+      "accountNumber": "637110117",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1236 BROOME LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": "652171125",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1827 Jerome Ln East Saint Louis IL 62206",
+      "accountNumber": null,
+      "meterNumber": "75617 1115"
+    },
+    {
+      "serviceAddress": "1010 Jerome Ln, Lights East Saint Louis IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "800 N RANGELINE AREA EAST SAINT LOUIS IL 62206",
+      "accountNumber": "931109511",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1012 JEROME LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": null,
+      "meterNumber": "9555 700 111"
+    },
+    {
+      "serviceAddress": "600 ROMEINE LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1014 REROME LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1200 FORBES LN EAST SAINT LOUIS IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3431 MISSISSIPPI AVE, SAINT LOUIS IL 62201",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 Jerome Ln Rear East Saint Louis IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

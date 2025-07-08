@@ -1,0 +1,85 @@
+{
+  "documentType": "contract",
+  "documentId": "document_180",
+  "contractStart": "2024-03-27",
+  "contractEnd": "2027-06-27",
+  "usageHistory": {
+    "2024-03": 88862,
+    "2024-04": 727858,
+    "2024-05": 607995,
+    "2024-06": 511210,
+    "2024-07": 973846,
+    "2024-08": 959174,
+    "2024-09": 798779,
+    "2024-10": 805367,
+    "2024-11": 700927,
+    "2024-12": 687933,
+    "2025-01": 693745,
+    "2025-02": 622606,
+    "2025-03": 714832,
+    "2025-04": 734108,
+    "2025-05": 797944,
+    "2025-06": 921758,
+    "2025-07": 973846,
+    "2025-08": 949445,
+    "2025-09": 805901,
+    "2025-10": 805267,
+    "2025-11": 688764,
+    "2025-12": 695358,
+    "2026-01": 693745,
+    "2026-02": 622626,
+    "2026-03": 714832,
+    "2026-04": 734108,
+    "2026-05": 797944,
+    "2026-06": 921758,
+    "2026-07": 973846,
+    "2026-08": 949445,
+    "2026-09": 805901,
+    "2026-10": 805267,
+    "2026-11": 688764,
+    "2026-12": 695358,
+    "2027-01": 671624,
+    "2027-02": 622626,
+    "2027-03": 735144,
+    "2027-04": 734108,
+    "2027-05": 797893,
+    "2027-06": 813029
+  },
+  "locations": [
+    {
+      "serviceAddress": "2988 West Walnut Hill Lane",
+      "accountNumber": "10443720000604316",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2988 W WALNUT HILL LN",
+      "accountNumber": "10443720009504347",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2988 West Walnut Hill Lane BB",
+      "accountNumber": "10443720000871412",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2988 West Walnut Hill Lane BC",
+      "accountNumber": "10443720000871443",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "900 Nolen Drive",
+      "accountNumber": "10443720007994681",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "900 Nolen Drive, Jump",
+      "accountNumber": "10443720007994723",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "800 Industrial Blvd STE 125",
+      "accountNumber": "10443720008557996",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+,,,NEW YORK POWER AUTHORITY Billing and Adjustment Statement,
+,,,"API Heat Transfer, Inc.",
+Contract Account:,200007132,Billing Period:,October 2022,
+Invoice Number:,1000062518,Hours in this period:,744,
+Service Tariff:,WNY2,Transmission Operator:,NGRID,
+NYISO Zone:,A,,,
+Description,,Quantity,Rate,Amount
+Account Number :0852518104,,,,
+Demand (KW),,,,
+Replacement Power - LFS,,330,$7.45000,"$2,458.50"
+Subtotal,,,,"$2,458.50"
+Demand Distribution Losses (KW),,,,
+Replacement Power - LFS,,20,$7.45000,$149.00
+Subtotal,,,,$149.00
+Energy (KWH),,,,
+Replacement Power - LFS,,"133,784",$0.01275,"$1,705.75"
+Subtotal,,,,"$1,705.75"
+Energy Distribution Losses (KWH),,,,
+Replacement Power - LFS,,"8,161",$0.01275,$104.05
+Subtotal,,,,$104.05
+NY Independent System Operator,,,,
+Historic TCC Charges,,,,$135.05
+September 2022 Version 1,,,,$732.61
+April 2022 Version 2,,,,$-56.01
+December 2021 Version 3,,,,$2.82
+Subtotal,,,,$814.47
+Clean Energy Standard (CES),,,,
+ZECS Amount - LFS,,"141,945",$0.00405,$575.14
+Subtotal,,,,$575.14
+TOTAL CURRENT CHARGES,,,,"$5,806.91"

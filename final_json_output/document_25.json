@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_25",
+  "statementDate": "08/03/2023",
+  "usageHistory": {
+    "2022-09": 225000,
+    "2022-10": 225000,
+    "2022-11": 225000,
+    "2022-12": 225000,
+    "2023-01": 225000,
+    "2023-02": 225000,
+    "2023-03": 225000,
+    "2023-04": 225000,
+    "2023-05": 225000,
+    "2023-06": 225000,
+    "2023-07": 225000,
+    "2023-08": 225000
+  },
+  "locations": [
+    {
+      "serviceAddress": "720 Fairmont Avenue, PASADENA, CA 91105",
+      "accountNumber": "767679 - 937317",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 24500
+}

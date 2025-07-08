@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_154",
+  "statementDate": "August 31, 2016",
+  "usageHistory": {
+    "2015-09": 35881,
+    "2015-10": 34668,
+    "2015-11": 32342,
+    "2015-12": 33217,
+    "2016-01": 34405,
+    "2016-02": 35186,
+    "2016-03": 32325,
+    "2016-04": 31649,
+    "2016-05": 32781,
+    "2016-06": 34173,
+    "2016-07": 37625,
+    "2016-08": 38986,
+    "2016-09": 38810
+  },
+  "locations": [
+    {
+      "serviceAddress": "1533 W DAVEY RD WOODRIDGE",
+      "accountNumber": "7926158033",
+      "meterNumber": "230024039"
+    },
+    {
+      "serviceAddress": "1533 W DAVEY RD WOODRIDGE",
+      "accountNumber": "7926158033",
+      "meterNumber": "230083026"
+    }
+  ],
+  "totalUsage": 38810
+}

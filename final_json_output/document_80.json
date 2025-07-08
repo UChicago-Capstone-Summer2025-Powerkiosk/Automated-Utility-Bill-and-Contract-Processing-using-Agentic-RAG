@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_80",
+  "statementDate": "2022-08-16",
+  "usageHistory": {
+    "2021-08": 39673,
+    "2021-09": 74386,
+    "2021-10": 69525,
+    "2021-11": 31391,
+    "2021-12": 27045,
+    "2022-01": 30909,
+    "2022-02": 41454,
+    "2022-03": 56893,
+    "2022-04": 73994,
+    "2022-05": 73220,
+    "2022-06": 107863,
+    "2022-07": 128835,
+    "2022-08": 164482
+  },
+  "locations": [
+    {
+      "serviceAddress": "350 W HUBBARD ST CHICAGO, IL 60654-6939",
+      "accountNumber": "1347119314",
+      "meterNumber": "230258474"
+    },
+    {
+      "serviceAddress": "350 W HUBBARD ST CHICAGO, IL 60654-6939",
+      "accountNumber": "1347119314",
+      "meterNumber": "230318770"
+    },
+    {
+      "serviceAddress": "350 W HUBBARD ST CHICAGO, IL 60654-6939",
+      "accountNumber": "1347119314",
+      "meterNumber": "230340612"
+    }
+  ],
+  "totalUsage": 164482
+}

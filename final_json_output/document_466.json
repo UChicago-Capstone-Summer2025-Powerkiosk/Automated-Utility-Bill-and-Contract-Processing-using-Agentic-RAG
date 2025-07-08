@@ -1,0 +1,99 @@
+{
+  "documentType": "contract",
+  "documentId": "document_466",
+  "contractStart": "2023-10-14",
+  "contractEnd": "2028-10-12",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "100 CONGRESS ST, SPRINGFIELD, MA 01104-3461",
+      "accountNumber": "54067486068746153006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "158 SILVER ST, AGAWAM, MA 01001-2430",
+      "accountNumber": "54130702004958741005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "694 PAGE BLVD, SPRINGFIELD, MA 01104-3023",
+      "accountNumber": "54148271075018721006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "705 Liberty St, Springfield, MA 01104",
+      "accountNumber": "54169959020841024006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "312 COLLEGE ST, AMHERST, MA 01002-2331",
+      "accountNumber": "54280702077174741008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "350 Cottage St, Ludlow, MA 010562370",
+      "accountNumber": "54392502050991741001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "389 MAIN ST, AGAWAM, MA 01001-1849",
+      "accountNumber": "54414207019342653001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1060 wilbraham road, Springfield, MA 01109",
+      "accountNumber": "54426708053191183009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "38 N WESTFIELD ST, AGAWAM, MA 01030-1606",
+      "accountNumber": "54456397041270673008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "350 COTTAGE ST, SPRINGFIELD, MA 01104-3297",
+      "accountNumber": "54462602046284741007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3065 Main St., Springfield, MA 01108",
+      "accountNumber": "54513008078223341003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "350 COTTAGE ST, SPRINGFIELD, MA 01104-3297",
+      "accountNumber": "54536602071200741002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "805 MAIN ST, SPRINGFIELD, MA 01105-2317",
+      "accountNumber": "54548402072844641003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "568 BELMONT AVE, SPRINGFIELD, MA 01108-2442",
+      "accountNumber": "54598896017792553003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1250 Saint James Ave, Springfield, MA 01104",
+      "accountNumber": "54660788043148104009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1218 STATE ST, SPRINGFIELD, MA 01109-2729",
+      "accountNumber": "54710302050120541002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1218 STATE ST, SPRINGFIELD, MA 01109-2729",
+      "accountNumber": "54710302050847541001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1761 ALLEN ST, SPRINGFIELD, MA 01118-1805",
+      "accountNumber": "54724046065114833004",
+      "meterNumber": null
+    }
+  ]
+}

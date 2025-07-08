@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_744",
+  "statementDate": "07/28/2023",
+  "totalUsage": 899,
+  "usageHistory": {
+    "2023-06": 899
+  },
+  "locations": [
+    {
+      "serviceAddress": "1420 8TH ST BLDG EAST",
+      "accountNumber": "53-0010582211-0",
+      "premisesNumber": "304362424"
+    },
+    {
+      "serviceAddress": "1440 8TH ST BLDG WEST",
+      "accountNumber": "53-0010582211-0",
+      "premisesNumber": "304362425"
+    }
+  ]
+}

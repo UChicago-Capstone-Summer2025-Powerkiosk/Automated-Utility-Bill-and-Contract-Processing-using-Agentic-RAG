@@ -1,0 +1,31 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_743",
+  "statementDate": "12/20/2023",
+  "usageHistory": {
+    "2023-11": {
+      "electricity": 75200,
+      "naturalGas": 3141
+    },
+    "2023-12": {
+      "electricity": 75200,
+      "naturalGas": 3141
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "16580 S GOLDEN RD, GOLDEN, CO 80401-2884",
+      "accountNumber": "53-0014652696-8",
+      "meterNumber": "35035027N"
+    },
+    {
+      "serviceAddress": "16500 S GOLDEN RD, GOLDEN, CO 80401-2884",
+      "accountNumber": "53-0014652696-8",
+      "meterNumber": "10023023"
+    }
+  ],
+  "totalUsage": {
+    "electricity": 75200,
+    "naturalGas": 3141
+  }
+}

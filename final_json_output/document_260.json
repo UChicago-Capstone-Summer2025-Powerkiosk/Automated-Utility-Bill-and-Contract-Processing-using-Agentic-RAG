@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_260",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 5,
+    "2024-01": 5,
+    "2024-02": 4,
+    "2024-03": 4,
+    "2024-04": 5,
+    "2024-05": 4,
+    "2024-06": null,
+    "2024-07": 4,
+    "2024-08": 5,
+    "2024-09": 4,
+    "2024-10": 5,
+    "2024-11": 4,
+    "2024-12": 5
+  },
+  "locations": [
+    {
+      "serviceAddress": "1256 MILL ST EAST BERLIN CT 06023",
+      "accountNumber": "51432123008",
+      "meterNumber": "036361542"
+    }
+  ],
+  "totalUsage": 5
+}

@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_803",
+  "statementDate": "2022-05-24",
+  "totalUsage": 37749.0,
+  "usageHistory": {
+    "2021-05": 35365,
+    "2021-06": 30381,
+    "2021-07": 34223,
+    "2021-08": 34172,
+    "2021-09": 31666,
+    "2021-10": 35890,
+    "2021-11": 40692,
+    "2021-12": 39117,
+    "2022-01": 47366,
+    "2022-02": 42456,
+    "2022-03": 40047,
+    "2022-04": 39462,
+    "2022-05": 37742
+  },
+  "locations": [
+    {
+      "serviceAddress": "1100 W 4TH ST, GALESBURG, IL 61401",
+      "accountNumber": "0577066008",
+      "meterNumber": "25635749"
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "0577066008"
+    }
+  ]
+}

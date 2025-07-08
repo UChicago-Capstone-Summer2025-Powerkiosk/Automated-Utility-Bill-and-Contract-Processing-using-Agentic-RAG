@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_793",
+  "statementDate": "03/29/2019",
+  "usageHistory": {
+    "2019-02": 82503228,
+    "2019-03": 151920072
+  },
+  "locations": [
+    {
+      "serviceAddress": "909 TOWER RD",
+      "accountNumber": "1033781011",
+      "meterNumber": "230138721"
+    }
+  ],
+  "totalUsage": 151920072
+}

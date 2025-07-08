@@ -1,0 +1,114 @@
+{
+  "documentType": "contract",
+  "documentId": "document_447",
+  "contractStart": "2016-11-04",
+  "contractEnd": "2017-03-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "4433 South Greenwood Avenue, CHICAGO, IL",
+      "accountNumber": "8500043649542",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6924 South Clyde Avenue, CHICAGO, IL",
+      "accountNumber": "3500043649765",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "825 West Sunnyside Avenue, CHICAGO, IL",
+      "accountNumber": "0500038138614",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4500 South Drexel Boulevard, CHICAGO, IL",
+      "accountNumber": "8500044104705",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4437 South Greenwood Avenue, CHICAGO, IL",
+      "accountNumber": "8500043683244",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "829 West Sunnyside Avenue, CHICAGO, IL",
+      "accountNumber": "0500038470401",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "813 East 46th Street, CHICAGO, IL",
+      "accountNumber": "5500019004501",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7914 South Wabash Avenue, CHICAGO, IL",
+      "accountNumber": "0500055958655",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1236 East 46th Street, CHICAGO, IL",
+      "accountNumber": "8500044104457",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6138 South Woodlawn Avenue, CHICAGO, IL",
+      "accountNumber": "0500030175009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1312 East 62nd Street, CHICAGO, IL",
+      "accountNumber": "9500019464984",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5637 South Lake Park Avenue, CHICAGO, IL",
+      "accountNumber": "7500074975631",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4655 South Lake Park Avenue, CHICAGO, IL",
+      "accountNumber": "8500044104602",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "845 West Sunnyside Avenue, CHICAGO, IL",
+      "accountNumber": "0500038138578",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "820 West Agatite Avenue, CHICAGO, IL",
+      "accountNumber": "0500038138474",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4631 South Lake Park Avenue, CHICAGO, IL",
+      "accountNumber": "6500044501734",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4121 South Ellis Avenue, CHICAGO, IL",
+      "accountNumber": "1500048850977",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6311 North Glenwood Avenue, CHICAGO, IL",
+      "accountNumber": "0500057298761",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "811 East 46th Street, CHICAGO, IL",
+      "accountNumber": "8500043050350",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6711 North Maplewood Avenue, CHICAGO, IL",
+      "accountNumber": "9500059449100",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4011 South Ellis Avenue, CHICAGO, IL",
+      "accountNumber": "8500043050543",
+      "meterNumber": null
+    }
+  ]
+}

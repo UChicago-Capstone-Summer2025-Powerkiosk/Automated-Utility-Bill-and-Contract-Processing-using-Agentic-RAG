@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_996",
+  "statementDate": "Aug 08, 2019",
+  "totalUsage": 747403,
+  "usageHistory": {
+    "2018-08": 352825,
+    "2018-09": 0,
+    "2018-10": 0,
+    "2018-11": 0,
+    "2018-12": 0,
+    "2019-01": 0,
+    "2019-02": 0,
+    "2019-03": 0,
+    "2019-04": 0,
+    "2019-05": 0,
+    "2019-06": 0,
+    "2019-07": 747403
+  },
+  "locations": [
+    {
+      "serviceAddress": "311 FACTORY ST, SUFFOLK, VA 23434",
+      "accountNumber": "8396220009",
+      "meterNumber": "0004700031"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "documentType": "contract",
+  "documentId": "document_7",
+  "contractStart": "2019-08-01",
+  "contractEnd": "2020-07-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "6236 S ARTESIAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60636",
+      "utilityAccountNumber": "0600079352-00003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8251 S ELLIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utilityAccountNumber": "0610877223-02598",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7003 S HARPER AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utilityAccountNumber": "0610877223-02635",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5500 W VAN BUREN ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utilityAccountNumber": "0610877223-01773",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5948 W SUPERIOR ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utilityAccountNumber": "0610877223-02631",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "13244 S INDIANA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60827",
+      "utilityAccountNumber": "0610877223-02787",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "729 N CENTRAL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utilityAccountNumber": "0610877223-02601",
+      "meterNumber": null
+    }
+  ]
+}

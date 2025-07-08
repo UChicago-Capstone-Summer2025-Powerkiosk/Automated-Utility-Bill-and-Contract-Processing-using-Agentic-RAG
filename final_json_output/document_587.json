@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_587",
+  "statementDate": "01/29/18",
+  "usageHistory": {
+    "2017-12": 340,
+    "2018-01": 1200
+  },
+  "locations": [
+    {
+      "serviceAddress": "4243 166th St Oak Forest",
+      "accountNumber": "28-34-30-36860",
+      "meterNumber": "4858293"
+    }
+  ],
+  "totalUsage": 1200
+}

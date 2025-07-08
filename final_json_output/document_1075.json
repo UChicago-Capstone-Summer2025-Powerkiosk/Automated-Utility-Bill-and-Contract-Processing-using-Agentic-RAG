@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1075",
+  "contractStart": "2019-11-01",
+  "contractEnd": "2020-10-31",
+  "usageHistory": {
+    "2019-11": 93719,
+    "2019-12": 253056,
+    "2020-01": 279531,
+    "2020-02": 251202,
+    "2020-03": 250934,
+    "2020-04": 181049,
+    "2020-05": 167222,
+    "2020-06": 188051,
+    "2020-07": 221061,
+    "2020-08": 224848,
+    "2020-09": 183250,
+    "2020-10": 182309
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD (Empire South Hospitality)",
+      "accountNumber": "6535848023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 LITTLETON RD POLE 92 (EMPIRE REGENCY HOSPITALITY, LLC)",
+      "accountNumber": "2797685013",
+      "meterNumber": null
+    }
+  ]
+}

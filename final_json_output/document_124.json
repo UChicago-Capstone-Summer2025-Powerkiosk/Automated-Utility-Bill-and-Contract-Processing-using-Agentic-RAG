@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_124",
+  "statementDate": "12/17/20",
+  "totalUsage": "78,037.49",
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "cityStateZip": "HILLSBORO, OH 45133-9649",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": "0040-621-0595-884-4"
+    },
+    {
+      "serviceAddress": "730 E EAST ST",
+      "cityStateZip": "HILLSBORO, OH 45133-7940",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0904-0621-0677-9124-0"
+    },
+    {
+      "serviceAddress": "1036 HOMESTEAD AVE",
+      "cityStateZip": "HILLSBORO, OH 45133-7940",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

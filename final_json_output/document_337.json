@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_337",
+  "statementDate": "10/02/14",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "REGAL CINEMAS INC, 1245 RT 22, PHILLIPSBURG, NJ 08865",
+      "accountNumber": "100155402996",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 155.4
+}

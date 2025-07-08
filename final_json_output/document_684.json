@@ -1,0 +1,66 @@
+{
+  "documentType": "contract",
+  "documentId": "document_684",
+  "contractStart": "2021-11-01",
+  "contractEnd": "2024-10-31",
+  "usageHistory": {
+    "2021-11": 253481,
+    "2021-12": 337003,
+    "2022-01": 328388,
+    "2022-02": 292466,
+    "2022-03": 288313,
+    "2022-04": 235331,
+    "2022-05": 243463,
+    "2022-06": 303922,
+    "2022-07": 404395,
+    "2022-08": 386742,
+    "2022-09": 319700,
+    "2022-10": 254476,
+    "2022-11": 271587,
+    "2022-12": 336911,
+    "2023-01": 328388,
+    "2023-02": 292466,
+    "2023-03": 288313,
+    "2023-04": 234714,
+    "2023-05": 243925,
+    "2023-06": 303922,
+    "2023-07": 404395,
+    "2023-08": 386742,
+    "2023-09": 319825,
+    "2023-10": 254117,
+    "2023-11": 271587,
+    "2023-12": 336735,
+    "2024-01": 328632,
+    "2024-02": 302680,
+    "2024-03": 287098,
+    "2024-04": 235947,
+    "2024-05": 243925,
+    "2024-06": 304189,
+    "2024-07": 406494,
+    "2024-08": 365999,
+    "2024-09": 319825,
+    "2024-10": 253759
+  },
+  "locations": [
+    {
+      "serviceAddress": "9 Avenue at Port Imperial Boulevard South 1",
+      "accountNumber": "PE000012218916065833",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9 Avenue at Port Imperial Boulevard South 2",
+      "accountNumber": "PE000012218919465833",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9 Avenue at Port Imperial Boulevard North 1",
+      "accountNumber": "PE000012218920265833",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9 Avenue at Port Imperial Boulevard North 2",
+      "accountNumber": "PE000012218932765833",
+      "meterNumber": null
+    }
+  ]
+}

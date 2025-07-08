@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1032",
+  "statementDate": "2018-12-20",
+  "totalUsage": 178500,
+  "usageHistory": {
+    "2018-11": 178500,
+    "2018-10": 100
+  },
+  "locations": [
+    {
+      "serviceAddress": "1400 HI LINE DR, DALLAS TX 75207",
+      "accountNumber": "12648974 - 9",
+      "meterNumber": "115183671LG",
+      "esiId": "10443720004000589"
+    },
+    {
+      "serviceAddress": "1400 HI LINE DR PUMP, DALLAS TX 75207",
+      "accountNumber": "8000125358 - 4",
+      "meterNumber": "103210536LG",
+      "esiId": "10443720008940326"
+    }
+  ]
+}

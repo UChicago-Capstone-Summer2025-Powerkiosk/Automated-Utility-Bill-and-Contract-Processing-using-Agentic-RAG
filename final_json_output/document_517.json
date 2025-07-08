@@ -1,0 +1,87 @@
+{
+  "documentType": "contract",
+  "documentId": "document_517",
+  "contractStart": "2022-09-01",
+  "contractEnd": "2025-08-31",
+  "usageHistory": {
+    "2022-09": 135399,
+    "2022-10": 363297,
+    "2022-11": 331121,
+    "2022-12": 327654,
+    "2023-01": 324666,
+    "2023-02": 294470,
+    "2023-03": 338965,
+    "2023-04": 327179,
+    "2023-05": 356145,
+    "2023-06": 396328,
+    "2023-07": 430103,
+    "2023-08": 418011,
+    "2023-09": 381253,
+    "2023-10": 365264,
+    "2023-11": 331121,
+    "2023-12": 326176,
+    "2024-01": 326176,
+    "2024-02": 305361,
+    "2024-03": 335634,
+    "2024-04": 330618,
+    "2024-05": 356145,
+    "2024-06": 390800,
+    "2024-07": 435848,
+    "2024-08": 415562,
+    "2024-09": 381253,
+    "2024-10": 367211,
+    "2024-11": 329425,
+    "2024-12": 327654,
+    "2025-01": 326176,
+    "2025-02": 294470,
+    "2025-03": 335634,
+    "2025-04": 330618,
+    "2025-05": 354226,
+    "2025-06": 393414,
+    "2025-07": 435948,
+    "2025-08": 413114,
+    "2025-09": 258734
+  },
+  "locations": [
+    {
+      "serviceAddress": "4125 102nd St",
+      "accountNumber": "252707047400010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3902 103rd St",
+      "accountNumber": "252710974800012",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "59 E 167 ST STO",
+      "accountNumber": "313265136700003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "37 LENOX AVE 7STO",
+      "accountNumber": "461023006710002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "130 LENOX AVE STOB",
+      "accountNumber": "462225010506016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "130 LENOX AVE STOL",
+      "accountNumber": "462225010520017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "29278 Avenue",
+      "accountNumber": "463021102700032",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2901 MERMAID AVE ENT",
+      "accountNumber": "677032123000015",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "documentType": "contract",
+  "documentId": "document_434",
+  "contractStart": "2024-11",
+  "contractEnd": "2026-10",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "50 Corporate Dr Trumbull, CT 06611",
+      "billingAddress": "75 Corporate Drive Trumbull, CT 06611",
+      "accountNumber": "3000000043480",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "95 Corporate Dr Trumbull, CT 06611",
+      "billingAddress": "75 Corporate Drive Trumbull, CT 06611",
+      "accountNumber": "2411004229003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "75 Corporate Dr Trumbull, CT 06611",
+      "billingAddress": "75 Corporate Drive Trumbull, CT 06611",
+      "accountNumber": "3000000022808",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "50 Corporate Dr Fire Pump Trumbull, CT 06611",
+      "billingAddress": "75 Corporate Drive Trumbull, CT 06611",
+      "accountNumber": "3000000043500",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "75 Corporate Drive Fire Pump Trumbull, CT 06611",
+      "billingAddress": "75 Corporate Drive Trumbull, CT 06611",
+      "accountNumber": "3000000022809",
+      "meterNumber": null
+    }
+  ]
+}

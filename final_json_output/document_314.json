@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_314",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-10": 68,
+    "2023-11": 248,
+    "2023-12": 247
+  },
+  "locations": [
+    {
+      "serviceAddress": "634 DEMING RO, LOT TEMP SVC, BERLIN OT 06037",
+      "accountNumber": "51362210122",
+      "meterNumber": "037199042"
+    }
+  ],
+  "totalUsage": 247
+}

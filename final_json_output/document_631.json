@@ -1,0 +1,65 @@
+{
+  "documentType": "contract",
+  "documentId": "document_631",
+  "contractStart": "2020-11-01",
+  "contractEnd": "2022-11-30",
+  "usageHistory": {
+    "2020-11": 0,
+    "2020-12": 0,
+    "2021-01": 0,
+    "2021-02": 0,
+    "2021-03": 0,
+    "2021-04": 0,
+    "2021-05": 0,
+    "2021-06": 0,
+    "2021-07": 0,
+    "2021-08": 0,
+    "2021-09": 0,
+    "2021-10": 0,
+    "2021-11": 0,
+    "2021-12": 0,
+    "2022-01": 0,
+    "2022-02": 0,
+    "2022-03": 0,
+    "2022-04": 0,
+    "2022-05": 0,
+    "2022-06": 0,
+    "2022-07": 0,
+    "2022-08": 0,
+    "2022-09": 0,
+    "2022-10": 0,
+    "2022-11": 0
+  },
+  "locations": [
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "4851071208",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "8847043085",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "1331059049",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "2503125078",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "7538185098",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard Street",
+      "accountNumber": "3883142059",
+      "meterNumber": null
+    }
+  ]
+}

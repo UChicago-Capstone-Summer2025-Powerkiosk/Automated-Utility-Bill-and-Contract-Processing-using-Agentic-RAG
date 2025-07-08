@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_291",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2022-12": 138,
+    "2023-01": 165,
+    "2023-02": 114,
+    "2023-03": 108,
+    "2023-04": 118,
+    "2023-05": 82,
+    "2023-06": 98,
+    "2023-07": 90,
+    "2023-08": 105,
+    "2023-09": 93,
+    "2023-10": 110,
+    "2023-11": 127,
+    "2023-12": 132
+  },
+  "locations": [
+    {
+      "serviceAddress": "1041 FARMINGTON AVE UNIT PEBESTAL BERLIN DT 06937",
+      "accountNumber": "51915255046",
+      "meterNumber": "035503982"
+    }
+  ],
+  "totalUsage": 132
+}

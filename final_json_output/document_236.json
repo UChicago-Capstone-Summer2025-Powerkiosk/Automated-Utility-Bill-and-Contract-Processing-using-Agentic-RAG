@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_236",
+  "statementDate": "12/28/23",
+  "usageHistory": {
+    "2023-12": 137,
+    "2024-01": 135,
+    "2024-02": 114,
+    "2024-03": 113,
+    "2024-04": 96,
+    "2024-05": 87,
+    "2024-06": 78,
+    "2024-07": 84,
+    "2024-08": 94,
+    "2024-09": 104,
+    "2024-10": 121,
+    "2024-11": 128,
+    "2024-12": 137
+  },
+  "locations": [
+    {
+      "serviceAddress": "798 WORTHINGTON RIG, BERLIN OT 06037",
+      "accountNumber": "51448513010",
+      "meterNumber": "27500 LURIEN HP 5084UM"
+    }
+  ],
+  "totalUsage": 138
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_307",
+  "statementDate": "12/29/23",
+  "usageHistory": {
+    "2023-12": 44,
+    "2024-01": 0,
+    "2024-02": 0,
+    "2024-03": 36,
+    "2024-04": 31,
+    "2024-05": 28,
+    "2024-06": 25,
+    "2024-07": 0,
+    "2024-08": 30,
+    "2024-09": 0,
+    "2024-10": 39,
+    "2024-11": 41,
+    "2024-12": 44
+  },
+  "locations": [
+    {
+      "serviceAddress": "PERCWAL AVE, KENSINGTON ST 06937",
+      "accountNumber": "51452313034",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 44
+}

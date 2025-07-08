@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1095",
+  "statementDate": "NOT_FOUND",
+  "totalUsage": 3242,
+  "usageHistory": {
+    "2021-01": 180,
+    "2021-02": 225,
+    "2021-03": 225,
+    "2021-04": 180,
+    "2021-05": 135,
+    "2021-06": 45,
+    "2021-07": 0,
+    "2021-08": 0,
+    "2021-09": 45,
+    "2021-10": 45,
+    "2021-11": 90,
+    "2021-12": 135
+  },
+  "locations": [
+    {
+      "serviceAddress": "314 CHERRY LANE RD, COTTAGES, EAST STROUDSBURG, PA 18301",
+      "accountNumber": "63255-07039",
+      "meterNumber": "300837920"
+    },
+    {
+      "serviceAddress": "3437 ROUTE 715, HENRYVILLE, PA 18332",
+      "accountNumber": "63255-07039",
+      "meterNumber": null
+    }
+  ]
+}

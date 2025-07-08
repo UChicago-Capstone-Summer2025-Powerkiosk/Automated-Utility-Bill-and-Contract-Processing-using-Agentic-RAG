@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_596",
+  "statementDate": "01/22/18",
+  "usageHistory": {
+    "2017-01": 638,
+    "2017-02": 638,
+    "2017-03": 1276,
+    "2017-04": 1276,
+    "2017-05": 638,
+    "2017-06": 0,
+    "2017-07": 0,
+    "2017-08": 0,
+    "2017-09": 0,
+    "2017-10": 638,
+    "2017-11": 1276,
+    "2017-12": 1914,
+    "2018-01": 3190
+  },
+  "locations": [
+    {
+      "serviceAddress": "Ns 149th St 1e Crawford Midlothian",
+      "accountNumber": "33-23-01-9418 6",
+      "meterNumber": "3026543"
+    }
+  ],
+  "totalUsage": 2848.23
+}

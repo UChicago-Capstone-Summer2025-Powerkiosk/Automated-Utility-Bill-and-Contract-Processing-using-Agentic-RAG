@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_368",
+  "statementDate": "2019-05-14",
+  "totalUsage": 33040,
+  "usageHistory": {
+    "2018-05": 28480,
+    "2018-06": 30560,
+    "2018-07": 37040,
+    "2018-08": 38720,
+    "2018-09": 35200,
+    "2018-11": 53520,
+    "2018-12": 20880,
+    "2019-01": 21920,
+    "2019-02": 22480,
+    "2019-03": 19760,
+    "2019-04": 21360,
+    "2019-05": 33040
+  },
+  "locations": [
+    {
+      "serviceAddress": "1430 HIGH ST #901, WILLIAMSBURG, VA 23185",
+      "accountNumber": "1561983220",
+      "meterNumber": null
+    }
+  ]
+}

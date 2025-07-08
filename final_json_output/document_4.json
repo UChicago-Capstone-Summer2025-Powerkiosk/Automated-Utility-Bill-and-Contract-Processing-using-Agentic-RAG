@@ -1,0 +1,1159 @@
+{
+  "documentType": "contract",
+  "documentId": "document_4",
+  "contractStart": "2019-08-01",
+  "contractEnd": "2020-07-31",
+  "usageHistory": {
+    "2019-01": 500000,
+    "2019-02": 450000,
+    "2019-03": 300000,
+    "2019-04": 200000,
+    "2019-05": 100000,
+    "2019-06": 65000,
+    "2019-07": 35000,
+    "2019-08": 35000,
+    "2019-09": 55000,
+    "2019-10": 75000,
+    "2019-11": 250000,
+    "2019-12": 400000,
+    "2020-01": 500000,
+    "2020-02": 450000,
+    "2020-03": 300000,
+    "2020-04": 200000,
+    "2020-05": 100000,
+    "2020-06": 65000,
+    "2020-07": 35000
+  },
+  "locations": [
+    {
+      "serviceAddress": "8200 S CLYDE AVENUE BLDG",
+      "accountNumber": "060435S805-00006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5556 W JACISON BLVD BLDG",
+      "accountNumber": "0609142657-00051",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5958 W SUPIRIOR BLDG",
+      "accountNumber": "0606649634-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7643 S STEWART AVE BLDG",
+      "accountNumber": "0610877223-02980",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "12000 S EGGLESTON BLDG",
+      "accountNumber": "0610877223-01347",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "77545 LOOMS BLVD BLDG",
+      "accountNumber": "0610877223-01077",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5402 W RICEST BLDG",
+      "accountNumber": "0610877223-00533",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5314 W WASHINGTON BLVD BLDG",
+      "accountNumber": "0610877223-02971",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7825 S EMERALD AVE BLDG",
+      "accountNumber": "0610877223-00526",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5046 S CHAMPLAIN AVE BLDG",
+      "accountNumber": "0610877223-02172",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8143 S KINGSTON BLDG",
+      "accountNumber": "0608299543-00019",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "610 E S0TH BLDG",
+      "accountNumber": "0610877223-02230",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6921 S CORNELL AVE BLDG",
+      "accountNumber": "0609142657-00901",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7823 S EUCLD BLDG",
+      "accountNumber": "0610877223-02055",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5023 S CHAMPLAIN AVE BLDG",
+      "accountNumber": "0610877223-02217",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1448 E 74TH BLDG",
+      "accountNumber": "0608299543-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "808 W 76TH ST BLDG",
+      "accountNumber": "0608299543-00003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7701 S ASLAND AVE BLDG",
+      "accountNumber": "0613390967-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7949 S WINCHESTER AVE BLDG",
+      "accountNumber": "0601355462-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5011 W MA YPOLE AVE BLDG",
+      "accountNumber": "0600667672-00017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5149 W WEST END AVE BLDG",
+      "accountNumber": "0609142657-00774",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "11932 S STEWART AVE BLDG",
+      "accountNumber": "0610877223-00298",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8210 S. DREXEL AVE BLDG",
+      "accountNumber": "0610877223-04332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1117 N LAWLER BLDG",
+      "accountNumber": "0610877223-02888",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1145 N LECLAIRE AVE BLDG",
+      "accountNumber": "0610877223-02597",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "614 E 51ST ST BLDG",
+      "accountNumber": "0610877223-02180",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1448 W B3RUST BLDG",
+      "accountNumber": "0610877223-02620",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7917 S DREXEL AVE BLDG",
+      "accountNumber": "0610877223-02583",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7756 S MARSHFIELD AVE BLDG",
+      "accountNumber": "0608299543-00025",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5952 W SUPIRIOR ST BLDG",
+      "accountNumber": "0610877223-02617",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1115 S KARLOV BLDG",
+      "accountNumber": "0610877223-00460",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5236 W HARRISON ST BLDG",
+      "accountNumber": "0610877223-02964",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7354 S KINGDR BLDG",
+      "accountNumber": "0608299543-00023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "500 S LARAME BLDG",
+      "accountNumber": "0600667632-00093",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7956 S BURNHAM AVE BLDG",
+      "accountNumber": "0610877223-02983",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8040 S VERNON AVE BLDG",
+      "accountNumber": "0610877223-02259",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7715 SOUTHSHORE DRIVE BLDG",
+      "accountNumber": "0610877223-02558",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7151 S INDIANA BLDG",
+      "accountNumber": "0608299543-00014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6228 S KINGDR BLDG",
+      "accountNumber": "0612059452-00004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6626 S WABASH AVE BLDG",
+      "accountNumber": "0610877223-02678",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7102 S LUELIA AVE BLDG",
+      "accountNumber": "0610877223-02621",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1931 S HOMAN BLDG",
+      "accountNumber": "0610877223-02657",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "148 LA CROSSE AVE BLDG",
+      "accountNumber": "0610877223-02995",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8055 S MARSHFIELD BLDG",
+      "accountNumber": "0606647085-00004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "543 W 74TH ST BLDG",
+      "accountNumber": "0608299543-00015",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7925 S PHILLIPS AVE BLDG",
+      "accountNumber": "0610877223-01472",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1236 S LAWNDALE BLDG",
+      "accountNumber": "0610877223-00167",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7136 S EXCHANGE AVE BLDG",
+      "accountNumber": "0610877223-04435",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7941 S MARQUITTE AVE BLDG",
+      "accountNumber": "0600667672-00022",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7800 S KINGSTON AVE BLDG",
+      "accountNumber": "0610877223-02625",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8256 S LOOMIS BLVD BLDG",
+      "accountNumber": "0610877223-00540",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7110 S RIDGILAND AVE BLDG",
+      "accountNumber": "0610877223-02580",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7241 S PHILLIPS BLDG",
+      "accountNumber": "0610877223-02615",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7135 S YATES BLVD BSMT",
+      "accountNumber": "0610877223-02820",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "448 E 80TH ST BLDG",
+      "accountNumber": "0610877223-02951",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1456 W 83RD ST BLDG",
+      "accountNumber": "0610877223-02618",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8349 S DREXIL AVE APT 3B BLDG",
+      "accountNumber": "0610877223-00016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7846 S SAGINAW AVE BLDG BLDG",
+      "accountNumber": "0600667672-00034",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6923 S INDIANA BLDG",
+      "accountNumber": "0610877223-02963",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1415 W 80TH ST BLDG",
+      "accountNumber": "0610877223-02652",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5749 W CHICAGO STR",
+      "accountNumber": "0609142657-00260",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7801 ESSEX AVE BSMT",
+      "accountNumber": "0600667672-00010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5007 W JACKSON BLVD BLDG",
+      "accountNumber": "0610877223-02754",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4714 S MICHIGAN AVE BLDG",
+      "accountNumber": "0610877223-01343",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8236 S MARILAND AVE BLDG",
+      "accountNumber": "0608299543-00016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "636 E 51ST ST BLDG",
+      "accountNumber": "0610877223-02174",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "602 E 50TH PL BLDG",
+      "accountNumber": "0610877223-02373",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2616 N LARAMIE AVE BLDG",
+      "accountNumber": "0613015738-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9100 S DAUPHIN AVE BLDG",
+      "accountNumber": "0610877223-02706",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2433 W 58TH ST BSMT",
+      "accountNumber": "0610877223-02725",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5024 W QUINCY BLDG",
+      "accountNumber": "0610877223-02961",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6455 S FAIRFIELD AVE",
+      "accountNumber": "0610877223-02582",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8851 S COTTAGE AVE BLDG",
+      "accountNumber": "0600667632-00297",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7159 S WABASH AVE BLDG",
+      "accountNumber": "0610877223-01112",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7800 S MORGAN ST BLDG",
+      "accountNumber": "0610877223-01664",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8009 S MARILAND AVE BLDG",
+      "accountNumber": "0610877223-02553",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7317 S CHAPPEL AV BLDG",
+      "accountNumber": "0610877223-02634",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1030 E 47TH ST BLDG",
+      "accountNumber": "0610877223-00334",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4 S LEAMINGTON AVE BLDG",
+      "accountNumber": "0612728512-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1035 W 77TH ST BLDG",
+      "accountNumber": "0610877223-00723",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8148 S INGLISIDE AVE BLDG",
+      "accountNumber": "0607736393-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8238 S ELLIS AVE BLDG",
+      "accountNumber": "0610877223-02584",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1630 S SAWIER BLDG",
+      "accountNumber": "0609142657-00266",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6401 S CALIFORNIA AVE BLDG",
+      "accountNumber": "0606647085-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6400 S ROCKWELL ST BLDG",
+      "accountNumber": "0610877223-02578",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6230 S KINGDR BLDG",
+      "accountNumber": "0612059452-00015",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5600 S WOLCOTT AVE BLDG",
+      "accountNumber": "0610877223-02557",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "119 E MARQUETTE RD BLDG",
+      "accountNumber": "0600691934-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "13258 S INDIANA AVE BLDG",
+      "accountNumber": "0610877223-02906",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "654 N PINE AVE BLDG",
+      "accountNumber": "0600667672-00020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5501 W WASHINGTON BLVD BLDG",
+      "accountNumber": "0610877223-00867",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "332 N PINE AVE BLDG",
+      "accountNumber": "0609142657-00899",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8656 S HERMTAGE AVE FL 1",
+      "accountNumber": "0610877223-02591",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7655 S STEWART AVE BLDG",
+      "accountNumber": "0610877223-02952",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5334 W HARRISON ST BLDG",
+      "accountNumber": "0610877223-02235",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7752 S CORNELL AVE BLDG",
+      "accountNumber": "0610877223-00601",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5504 S WABASH AVE BLDG",
+      "accountNumber": "0610877223-00524",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7020 S MERRILL AVE BLDG",
+      "accountNumber": "0610877223-02556",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7801 S CORNELL BLDG",
+      "accountNumber": "0610877223-03393",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1704 W 77TH ST BLDG",
+      "accountNumber": "0600667672-00018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "634 E 50TH PLACE BLDG",
+      "accountNumber": "0610877223-02119",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8901 S COTTAGE GROVE AVE BLDG",
+      "accountNumber": "0600667632-00269",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2517 E 77THBSMT",
+      "accountNumber": "0610877223-02821",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5011 1/2 W MAYPOLE AVE BSMNT",
+      "accountNumber": "0600079352-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6401 S MAPLEWOOD AVE BLDG",
+      "accountNumber": "0610877223-02572",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4301 W POTOMAC AVE BSMT",
+      "accountNumber": "0600667632-00277",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7757 S PEORIA STREET BLDG",
+      "accountNumber": "0610877223-00547",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5966 W HURON ST BLDG",
+      "accountNumber": "0600667672-00021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7055 S SAINT LAWRENCE BLDG",
+      "accountNumber": "0610877223-02984",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9043 E ESCANABA BLDG",
+      "accountNumber": "0610877223-02978",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3600 W FRAWKLIN BLVD BSMT",
+      "accountNumber": "0610877223-02813",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1450 W 81ST BLDG",
+      "accountNumber": "0610877223-02650",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1257 S CHRISTIANA AVE BLDG",
+      "accountNumber": "0610877223-00078",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "13256 S PRAIRIE AVE BLDG",
+      "accountNumber": "0610877223-00932",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 E 51ST BLDG",
+      "accountNumber": "0610877223-01108",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "11250 S INDIANA AVE BLDG",
+      "accountNumber": "0610877223-02592",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5019 S SAINT LAWRENCE AVE BLDG",
+      "accountNumber": "0610877223-01109",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8204 S COTTAGE GROVE BLDG",
+      "accountNumber": "0613515782-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7055 S PRINCETON AVE BLDG",
+      "accountNumber": "0610877223-02985",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7914 S KINGSTON AVE BLDG",
+      "accountNumber": "0608299543-00021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2419 W 71STST BLDG",
+      "accountNumber": "0610877223-02927",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5048 W THOMAS ST BLDG BLDG",
+      "accountNumber": "0610877223-00437",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8935 S DAUPHIN AVE BLDG",
+      "accountNumber": "0602241843-00055",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7056 S EBERHART AVE BLDG",
+      "accountNumber": "0610877223-02992",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "555 E 50TH PL BLDG",
+      "accountNumber": "0610877223-01104",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6101 S LANGLEY AVE BLDG",
+      "accountNumber": "0610877223-02575",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5040 W QUINCY ST BLDG",
+      "accountNumber": "0609142657-00041",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10935 S VERNON AVE BLDG",
+      "accountNumber": "0610877223-02401",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8056 S DREKEL BLDG",
+      "accountNumber": "0603094930-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1145 N AUSTIN BLVD BLDG",
+      "accountNumber": "0601520426-00013",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7906 S HERMTAGE BLDG",
+      "accountNumber": "0600667672-00016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7948 S HERMTAGE BLDG",
+      "accountNumber": "0610877223-02955",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8101 S DREXEL AVE BLDG",
+      "accountNumber": "0601520426-00006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1860 S KOMENSKY BLDG",
+      "accountNumber": "0610877223-00514",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9040 S BISHOP BLDG",
+      "accountNumber": "0610877223-02721",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "212 E 69TH ST BLDG",
+      "accountNumber": "0610877223-02571",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7601 S COLES AVE BLDG",
+      "accountNumber": "0610877223-02602",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "608 E 51ST ST BLDG",
+      "accountNumber": "0610877223-02215",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "751 N MENARD AVE BLDG",
+      "accountNumber": "0610877223-03124",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1101 N LAWIER AVE BLDG",
+      "accountNumber": "0610877223-02941",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7145 S INDIANA AVE BLDG",
+      "accountNumber": "0608299543-00009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10908 S VERNON AVE BLDG",
+      "accountNumber": "0610877223-02616",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1415 W 80TH ST BLDG",
+      "accountNumber": "0610877223-02969",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "817 E 80TH ST BSMT",
+      "accountNumber": "0610877223-02655",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1515 E 70TH ST BLDG",
+      "accountNumber": "0608299543-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8107 S DREXEL AVE BSMT",
+      "accountNumber": "0610877223-00096",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6829 S KING DR BLDG",
+      "accountNumber": "0611977520-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5340 W OHIO ST BLDG",
+      "accountNumber": "0600667672-00013",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7655 S MAY ST BLDG",
+      "accountNumber": "0610877223-02577",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5758 S WABASH AVE BLDG",
+      "accountNumber": "0601520426-00010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1501 E 68TH ST BLDG",
+      "accountNumber": "0610877223-01128",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8951 S ADA BLDG",
+      "accountNumber": "0610877223-00178",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "9000 S BISHOP ST BSMT",
+      "accountNumber": "0610877223-02736",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7103 S ARTEIAN AVE BLDG",
+      "accountNumber": "0610877223-02928",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "708 S KARLOV AVE BLDG",
+      "accountNumber": "0610877223-00041",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6230 S ARTEIAN AVE BLDG",
+      "accountNumber": "0604355805-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3100 E 83RD BLDG",
+      "accountNumber": "0610877223-02587",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7210 S YATES BLDG",
+      "accountNumber": "0610877223-00315",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8806 S COTTAGE AVE BLDG",
+      "accountNumber": "0610877223-02946",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1500 E 73RD BSMT",
+      "accountNumber": "0610877223-01080",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7800 S ASHLAND AVE STR1",
+      "accountNumber": "0610877223-01960",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8117 S ASHLAND AVE BLDG",
+      "accountNumber": "0600667672-00004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "320 N MASON AVE BLDG",
+      "accountNumber": "0610877223-01705",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "704 N WALLER AVE BLDG",
+      "accountNumber": "0610877223-02284",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8308 S INGESIDE BLDG",
+      "accountNumber": "0610877223-02975",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7400 S RHODES AVE BLDG",
+      "accountNumber": "0610877223-02979",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3501 W ADAMS ST BLDG",
+      "accountNumber": "0610877223-02847",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2207 E. 75THSTREET BLDG BD AT 2207",
+      "accountNumber": "0610877223-04528",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2435 W 63RD BLDG",
+      "accountNumber": "0610877223-02766",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1860 S KOMENSKY AVE BLDG",
+      "accountNumber": "0600691934-00004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7955 S DOBSON BSMT",
+      "accountNumber": "0600667672-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "119 S LOTUSAVE BLDG",
+      "accountNumber": "0610877223-02966",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "546 E 51ST ST BLDG",
+      "accountNumber": "0610877223-01111",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2047 E 75THST BLDG",
+      "accountNumber": "0600079352-00004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "52 N LARAME AVE BLDG",
+      "accountNumber": "0609142657-00668",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7240 S YATES BLDG",
+      "accountNumber": "0610877223-02734",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6104 S CAMPBELL BLDG",
+      "accountNumber": "0608299543-00037",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5018 W JACKSON BLVD BLDG",
+      "accountNumber": "0610877223-02707",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "714 E 82ND ST BSMT",
+      "accountNumber": "0610178902-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4820 S MICHIGAN BLDG",
+      "accountNumber": "0610877223-00515",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6456 S FAIRFIELD AVE BLDG",
+      "accountNumber": "0610877223-02574",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6240 WESTERN AVE BLDG",
+      "accountNumber": "0610877223-02967",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7916 S KINGSTON AVE FL 2 EAST",
+      "accountNumber": "0610877223-02535",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7956 S ABERDEEN ST BLDG",
+      "accountNumber": "0610877223-00459",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "903 E 82ND ST BLDG",
+      "accountNumber": "0601520426-00008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7120 S EASTIND BLDG",
+      "accountNumber": "0608299543-00027",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1717 W 77THST BLDG",
+      "accountNumber": "0600667672-00023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2507 W 61STST BLDG",
+      "accountNumber": "0600079352-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7624 S KINGSTON AVE BLDG",
+      "accountNumber": "0610877223-02589",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5027 S SAINT LAWRENCE AVE BLDG",
+      "accountNumber": "0610877223-01110",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "638 E 50TH PL BLDG",
+      "accountNumber": "0610877223-02231",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "722 S RACINE AVE BLDG",
+      "accountNumber": "0610877223-02627",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "410 E 107TH STREET BLDG",
+      "accountNumber": "0610877223-02349",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7031 S CHAPPEL AVE BLDG",
+      "accountNumber": "0610877223-02624",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "753 E 79TH ST BSMT",
+      "accountNumber": "0608299543-00022",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1249 S FAIRFIELD AVE BLDG",
+      "accountNumber": "0610877223-02986",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "720 E 82ND ST BSMT",
+      "accountNumber": "0610877223-02859",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7109 S RIDGELAND AVE BLDG",
+      "accountNumber": "0608299543-00018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5019 W JACISON BLVD BLDG",
+      "accountNumber": "0610877223-02716",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "13260 S INDIANA AVE BLDG",
+      "accountNumber": "0610877223-02917",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5036 W QUINCY ST BLDG",
+      "accountNumber": "0609142657-00775",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10849 S PRAIRIE AVE BSMT",
+      "accountNumber": "0610877223-02936",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5100 W MADISON AVE BLDG",
+      "accountNumber": "0609142657-00008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8253 S INGLISIDE BLDG",
+      "accountNumber": "0610877223-02962",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5101 W MONROE BLDG",
+      "accountNumber": "0610877223-02977",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7911 S EVANS AVE BLDG",
+      "accountNumber": "0608299543-00017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5047 S CHAMPLAIN AVE BLDG",
+      "accountNumber": "0610877223-01106",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7930 S INGLISIDE BLDG",
+      "accountNumber": "0610877223-02957",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4818 W MONROE BLDG",
+      "accountNumber": "0609142657-00040",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "552 E 51ST ST BLDG",
+      "accountNumber": "0610877223-02173",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5870 W LAKE BLDG",
+      "accountNumber": "0610877223-01785",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8001 S ELLIS AVE BLDG",
+      "accountNumber": "0610877223-02950",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1632 W 77TH ST BLDG",
+      "accountNumber": "0610877223-00855",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7801 S YATES BSMT",
+      "accountNumber": "0610877223-02972",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8014 S MARYLAND AVE BLDG",
+      "accountNumber": "0610877223-02988",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8751 S COTTAGE GROVE AVE BLDG",
+      "accountNumber": "0610877223-00649",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4653 W JACISON BLDG",
+      "accountNumber": "0609142657-00050",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1515 W 81ST BLDG",
+      "accountNumber": "0610877223-01052",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "211 E 71ST ST STR",
+      "accountNumber": "0610877223-02641",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 S PRAIRIE AVE BLDG",
+      "accountNumber": "0903318331-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1108 E 82ND ST BLDG",
+      "accountNumber": "0610877223-02560",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "423 N CENTRAL AVE BLDG",
+      "accountNumber": "0610877223-01454",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8954 S COMMERCIAL AVE BLDG",
+      "accountNumber": "0610877223-00810",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6832 S CRANDON AVE BLDG",
+      "accountNumber": "0610877223-00439",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3075 E CHELTENHAM PL BLDG",
+      "accountNumber": "0610877223-02170",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7417 S PHILLIPS AVE BLDG",
+      "accountNumber": "0610877223-02638",
+      "meterNumber": null
+    }
+  ]
+}

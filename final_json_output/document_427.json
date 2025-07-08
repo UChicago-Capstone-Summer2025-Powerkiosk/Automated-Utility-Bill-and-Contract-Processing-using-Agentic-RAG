@@ -1,0 +1,48 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_427",
+  "statementDate": "2024-10-14",
+  "usageHistory": {
+    "2023-10": 127184,
+    "2023-11": null,
+    "2023-12": null,
+    "2024-01": null,
+    "2024-02": null,
+    "2024-03": null,
+    "2024-04": null,
+    "2024-05": null,
+    "2024-06": null,
+    "2024-07": null,
+    "2024-08": null,
+    "2024-09": null,
+    "2024-10": 127184
+  },
+  "locations": [
+    {
+      "serviceAddress": "2600 N Western Ave Bldg Chicago, IL 60647",
+      "accountNumber": "9306612376",
+      "meterNumber": "230102940"
+    },
+    {
+      "serviceAddress": "2600 N Western Ave Bldg Chicago, IL 60647",
+      "accountNumber": "9306612376",
+      "meterNumber": "230120559"
+    },
+    {
+      "serviceAddress": "2600 N Western Ave Bldg Chicago, IL 60647",
+      "accountNumber": "9306612376",
+      "meterNumber": "230120560"
+    },
+    {
+      "serviceAddress": "2600 N Western Ave Bldg Chicago, IL 60647",
+      "accountNumber": "9306612376",
+      "meterNumber": "230181906"
+    },
+    {
+      "serviceAddress": "2600 N Western Ave Bldg Chicago, IL 60647",
+      "accountNumber": "9306612376",
+      "meterNumber": "230183892"
+    }
+  ],
+  "totalUsage": 127184
+}

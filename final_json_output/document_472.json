@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_472",
+  "statementDate": "04/28/23",
+  "usageHistory": {
+    "2022-04": 400,
+    "2022-05": 450,
+    "2022-06": 450,
+    "2022-07": 450,
+    "2022-08": 450,
+    "2022-09": 400,
+    "2022-10": 350,
+    "2022-11": 300,
+    "2022-12": 250,
+    "2023-01": 250,
+    "2023-02": 250,
+    "2023-03": 300,
+    "2023-04": 400
+  },
+  "locations": [
+    {
+      "serviceAddress": "312 COLLEGE ST AMHERST MA 01002",
+      "accountNumber": "54280702077",
+      "meterNumber": "686069692"
+    }
+  ],
+  "totalUsage": 12383
+}

@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_788",
+  "statementDate": "2023-08-10",
+  "usageHistory": {
+    "2022-08": 1713,
+    "2022-09": 2117,
+    "2022-10": 2153,
+    "2022-11": 2405,
+    "2022-12": 2974,
+    "2023-01": 2974,
+    "2023-02": 2723,
+    "2023-03": 2316,
+    "2023-04": 2072,
+    "2023-05": 1846,
+    "2023-06": 1805,
+    "2023-07": 1672,
+    "2023-08": 1731
+  },
+  "locations": [
+    {
+      "serviceAddress": "1 OAKBROOK, OAKBROOK",
+      "accountNumber": "0927087063",
+      "meterNumber": "230075602"
+    },
+    {
+      "serviceAddress": "1 OAKBROOK, OAKBROOK",
+      "accountNumber": "0927087063",
+      "meterNumber": "230314750"
+    }
+  ],
+  "totalUsage": 1731
+}

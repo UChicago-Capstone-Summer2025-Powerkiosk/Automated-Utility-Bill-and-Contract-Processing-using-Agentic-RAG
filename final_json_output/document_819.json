@@ -1,0 +1,39 @@
+{
+  "documentType": "contract",
+  "documentId": "document_819",
+  "contractStart": "NOT_FOUND",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "314 Heath St, Brooks\u0303ine, MA, 02445",
+      "accountNumber": "5168910000",
+      "meterNumber": "001206101"
+    },
+    {
+      "serviceAddress": "400 Heath St, Brooks\u0303ine, MA, 02445",
+      "accountNumber": "5168913690",
+      "meterNumber": "089000440"
+    },
+    {
+      "serviceAddress": "70 Woodland Rd, Brooks\u0303ine, MA, 02467",
+      "accountNumber": "5168910030",
+      "meterNumber": "00P937141"
+    },
+    {
+      "serviceAddress": "400 Heath St, Brooks\u0303ine, MA, 02445",
+      "accountNumber": "5168913720",
+      "meterNumber": "009906103"
+    },
+    {
+      "serviceAddress": "400 Heath St, Brooks\u0303ine, MA, 02445",
+      "accountNumber": "5168913750",
+      "meterNumber": "009903239"
+    },
+    {
+      "serviceAddress": "308 Heath St, Brooks\u0303ine, MA, 02445",
+      "accountNumber": "5168910060",
+      "meterNumber": "009813487"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_892",
+  "statementDate": "NOT_FOUND",
+  "totalUsage": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "NOT_FOUND",
+      "accountNumber": "050-0010042-0178",
+      "meterNumber": null
+    }
+  ]
+}

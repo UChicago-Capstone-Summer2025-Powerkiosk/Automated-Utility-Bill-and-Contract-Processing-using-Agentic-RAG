@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_467",
+  "statementDate": "04/11/23",
+  "usageHistory": {
+    "2022-04": 350,
+    "2022-05": 400,
+    "2022-06": 450,
+    "2022-07": 500,
+    "2022-08": 550,
+    "2022-09": 450,
+    "2022-10": 350,
+    "2022-11": 300,
+    "2022-12": 250,
+    "2023-01": 250,
+    "2023-02": 250,
+    "2023-03": 300,
+    "2023-04": 350
+  },
+  "locations": [
+    {
+      "serviceAddress": "1333 WESTFIELD ST, WEST SPRINGFIELD MA 01089",
+      "accountNumber": "54938366010",
+      "meterNumber": "892590032"
+    }
+  ],
+  "totalUsage": 11691
+}

@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_959",
+  "statementDate": "August 26, 2015",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "602 CHESTNUT ST, EVANSVILLE IL",
+      "accountNumber": "1301331",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "100 N 24TH ST BELLEVILLE IL",
+      "accountNumber": "101031",
+      "meterNumber": "3137312"
+    },
+    {
+      "serviceAddress": "100 N 24TH ST BELLEVILLE IL",
+      "accountNumber": "101031",
+      "meterNumber": "3137313"
+    }
+  ],
+  "totalUsage": "279,990.036 kWh"
+}

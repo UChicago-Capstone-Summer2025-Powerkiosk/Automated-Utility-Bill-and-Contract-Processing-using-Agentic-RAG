@@ -1,0 +1,104 @@
+{
+  "documentType": "contract",
+  "documentId": "document_630",
+  "contractStart": "2024-06",
+  "contractEnd": "2025-07",
+  "usageHistory": {
+    "2024-01": 243787,
+    "2024-02": 219183,
+    "2024-03": 265041,
+    "2024-04": 282152,
+    "2024-05": 322518,
+    "2024-06": 345161,
+    "2024-07": 381845,
+    "2024-08": 375178,
+    "2024-09": 324144,
+    "2024-10": 288756,
+    "2024-11": 250829,
+    "2024-12": 248728,
+    "2025-01": 243787,
+    "2025-02": 219183,
+    "2025-03": 265041,
+    "2025-04": 282152,
+    "2025-05": 322518,
+    "2025-06": 345161,
+    "2025-07": 381845
+  },
+  "locations": [
+    {
+      "serviceAddress": "2601 BRICE RD, REYNOLDSBURG, OH USA 43068",
+      "accountNumber": "00040621000956",
+      "meterNumber": "821"
+    },
+    {
+      "serviceAddress": "711 BETHEL RD, Columbus, OH USA 43214-1901",
+      "accountNumber": "00040621001297",
+      "meterNumber": "854"
+    },
+    {
+      "serviceAddress": "688 E 5TH AVE, Columbus, OH USA 43201-2965",
+      "accountNumber": "00040621006501",
+      "meterNumber": "020"
+    },
+    {
+      "serviceAddress": "1970 STRINGTOWN RD, GROVE CITY, OH USA 43123-3925",
+      "accountNumber": "00040621011804",
+      "meterNumber": "053"
+    },
+    {
+      "serviceAddress": "3142 CLEVELAND AVE, COLUMBUS, OH USA 43224",
+      "accountNumber": "00040621015791",
+      "meterNumber": "653"
+    },
+    {
+      "serviceAddress": "5900 E BROAD ST, Columbus, OH USA 43213-1517",
+      "accountNumber": "00040621024359",
+      "meterNumber": "863"
+    },
+    {
+      "serviceAddress": "3414 SULLIVANT AVE, Columbus, OH USA 43204-1104",
+      "accountNumber": "00040621031244",
+      "meterNumber": "951"
+    },
+    {
+      "serviceAddress": "5611 SAWMILL RD, DUBLIN, OH USA 43017-2067",
+      "accountNumber": "00040621031424",
+      "meterNumber": "712"
+    },
+    {
+      "serviceAddress": "1414 HARRISBURG PIKE, Columbus, OH USA 43223",
+      "accountNumber": "00040621046048",
+      "meterNumber": "074"
+    },
+    {
+      "serviceAddress": "3663 S HIGH ST, Columbus, OH USA 43207-4009",
+      "accountNumber": "00040621048463",
+      "meterNumber": "650"
+    },
+    {
+      "serviceAddress": "1532 GEORGESVILLE RD, Columbus, OH USA 43228-7700",
+      "accountNumber": "00040621062808",
+      "meterNumber": "722"
+    },
+    {
+      "serviceAddress": "4828 W Broad St, Columbus, OH USA 43228-1602",
+      "accountNumber": "00040621063817",
+      "meterNumber": "341"
+    },
+    {
+      "serviceAddress": "4449 E MAIN ST WHITEHALL, Columbus, OH USA 43213",
+      "accountNumber": "00040621065037",
+      "meterNumber": "532"
+    },
+    {
+      "serviceAddress": "1785 HILLIARD ROME RD, HILLIARD, OH USA 43026-9469",
+      "accountNumber": "00040621082077",
+      "meterNumber": "452"
+    },
+    {
+      "serviceAddress": "1671 E DUBLIN GRANVILLE RD, Columbus, OH USA",
+      "accountNumber": "00040621088082",
+      "meterNumber": "681"
+    }
+  ]
+}

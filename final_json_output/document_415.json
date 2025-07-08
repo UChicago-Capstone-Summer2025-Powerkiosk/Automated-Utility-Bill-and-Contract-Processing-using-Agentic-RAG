@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_415",
+  "statementDate": "04/08/2020",
+  "usageHistory": {
+    "2020-03": 195.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "775 E. 19th Ave, Unit HSE Gas 2, Denver, CO 80203-5501",
+      "accountNumber": "04502-16",
+      "meterNumber": "10002241"
+    }
+  ],
+  "totalUsage": 195.0
+}

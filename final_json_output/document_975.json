@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_975",
+  "statementDate": "April 26, 2018",
+  "usageHistory": {
+    "2017-04": 0,
+    "2017-05": 0,
+    "2017-06": 0,
+    "2017-07": 0,
+    "2017-08": 0,
+    "2017-09": 0,
+    "2017-10": 0,
+    "2017-11": 0,
+    "2017-12": 0,
+    "2018-01": 0,
+    "2018-02": 0,
+    "2018-03": 0,
+    "2018-04": 52540
+  },
+  "locations": [
+    {
+      "serviceAddress": "S 1709 Edgewood Rd, Edgewood, MD 21040",
+      "accountNumber": "8430703164",
+      "meterNumber": "D117384299"
+    }
+  ],
+  "totalUsage": 52540
+}

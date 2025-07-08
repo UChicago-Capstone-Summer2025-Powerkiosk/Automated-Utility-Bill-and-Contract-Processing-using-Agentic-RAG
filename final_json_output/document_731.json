@@ -1,0 +1,34 @@
+{
+  "documentType": "contract",
+  "documentId": "document_731",
+  "contractStart": "2025-06-19",
+  "contractEnd": "2026-06-26",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2 Forbes St, East Hartford, CT 06108",
+      "accountNumber": "51272702010510083006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2 FORBES ST, EAST HARTFORD, CT 06108-3727",
+      "accountNumber": "51878842046109171007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2 Forbes St, East Hartford, CT 06108",
+      "accountNumber": "51892702010014704004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2 Forbes St, East Hartford, CT 06108",
+      "accountNumber": "51892702010289034003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2 Forbes St, East Hartford, CT 06108",
+      "accountNumber": "51892702010616034006",
+      "meterNumber": null
+    }
+  ]
+}

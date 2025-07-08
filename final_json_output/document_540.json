@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_540",
+  "statementDate": "2023-01-03",
+  "usageHistory": {
+    "2022-01": 18280,
+    "2022-12": 15960,
+    "2023-01": 15160
+  },
+  "locations": [
+    {
+      "serviceAddress": "1970 STRINGTOWN RD, GROVE CITY, OH 43123-3925",
+      "accountNumber": "102-288-142-2-3",
+      "meterNumber": "680103509"
+    }
+  ],
+  "totalUsage": 15160
+}

@@ -1,0 +1,24 @@
+Supply:,,
+Supply Charge,"48,840 kWh x \$0,131900","\$6,442.00"
+Subtotal Supply,,"\$6,442.88"
+Transmission:,,
+Transmission Peak,"17,160 kWh x \$0,000000",\$0.00
+Transmission Off-Peak,"31,680 kWh x \$0,000000",\$0.00
+Transmission Peak,135.7 kW x \$9.480000,"\$1,286.44"
+Transmission Off-Peak,"0.0 kW x \$0,000000",\$0.00
+Subtotal Transmission,,"\$1,286.44"
+Local Delivery:,,
+Fixed Monthly Charge,,\$83.53
+Distribution Peak,135.7 kW x \$4.770000,\$647.29
+Distribution Off-Peak,0.0 kW x \$4.770000,\$0.00
+Distribution Peak,"17,160 kWh x \$0,025840",\$443.41
+Distribution Off-Peak,"31,680 kWh x \$0,025840",\$818.61
+Revenue Decoupling,"48,840 kWh x \$0,000405",\$19.78
+Subtotal Local Delivery,,"\$2,012.62"
+Public Benefits:,,
+Energy Assistance Costs,"48,840 kWh x \$0,009221",\$450.35
+Energy Efficiency Programs,"48,840 kWh x \$0,006000",\$293.04
+Renewable Energy Investment,"48,840 kWh x \$0,001000",\$48.84
+New England Grid Operator Cost Peak,"17,160 kWh x \$0,000000",\$0.00
+New England Grid Operator Cost Off-Peak,"31,680 kWh x \$0,000000",\$0.00
+New England Grid Operator Cost Peak,"135.7 kW x \$0,060000-",\$8.14 cr

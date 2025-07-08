@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_19",
+  "statementDate": "2018-01-05",
+  "totalUsage": 278732.81,
+  "locations": [
+    {
+      "serviceAddress": "705 Main St, Aubumdale, FL 33823",
+      "accountNumber": "1100206473",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

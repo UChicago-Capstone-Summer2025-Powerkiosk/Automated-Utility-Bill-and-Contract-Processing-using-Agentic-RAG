@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_270",
+  "statementDate": "Dec 19 2023",
+  "usageHistory": {
+    "2023-11": 11389
+  },
+  "locations": [
+    {
+      "serviceAddress": "BERLIN EMMA WILLARD SCHOOL, 1088 NORTON RD, BERLIN CT 06037",
+      "accountNumber": "51418123048",
+      "meterNumber": "081035801"
+    }
+  ],
+  "totalUsage": 11389
+}

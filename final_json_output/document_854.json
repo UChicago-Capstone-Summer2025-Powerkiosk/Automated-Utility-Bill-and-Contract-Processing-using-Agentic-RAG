@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_854",
+  "statementDate": "2024-06-14",
+  "usageHistory": {
+    "2023-01": 34461,
+    "2023-02": 44816,
+    "2023-03": 53915,
+    "2023-04": 49962,
+    "2023-05": 42123,
+    "2023-06": 36483,
+    "2023-07": 24604,
+    "2023-08": 28435,
+    "2023-09": 32519,
+    "2023-10": 36429,
+    "2023-11": 29147,
+    "2023-12": 32728,
+    "2024-01": 35637
+  },
+  "locations": [
+    {
+      "serviceAddress": "100 W Higgins Rd *Ste C-2 South Barrington, IL 60010",
+      "accountNumber": "5417082000",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 1187.9
+}

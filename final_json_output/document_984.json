@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_984",
+  "statementDate": "2019-08-12",
+  "totalUsage": "3330.4 Therms",
+  "locations": [
+    {
+      "serviceAddress": "750 N DEARBORN ST BLDG CHICAGO IL 60610-3854",
+      "accountNumber": "0611901510-00001",
+      "meterNumber": "9960154"
+    },
+    {
+      "serviceAddress": "10755 GAS TRANSPORTATION CONTRACT CHICAGO IL 60601-6207",
+      "accountNumber": "0611901510-00002",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

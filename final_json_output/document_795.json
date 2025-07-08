@@ -1,0 +1,16 @@
+{
+  "documentType": "contract",
+  "documentId": "document_795",
+  "contractStart": "1999-01-04",
+  "contractEnd": "2019-01-04",
+  "locations": [
+    {
+      "name": "PINE MANOR COLLEGE",
+      "address": "400 HEATH STREET",
+      "city": "CHESTNUT HILL",
+      "state": "MA",
+      "zip": "02467",
+      "exemptionNumber": "042-321-292"
+    }
+  ]
+}

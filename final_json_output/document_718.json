@@ -1,0 +1,45 @@
+{
+  "documentType": "contract",
+  "documentId": "document_718",
+  "contractStart": "2021-06",
+  "contractEnd": "2023-06",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1000 Airport Rd, Godfrey, IL 62035",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "0285087021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "21200 E. Harris Ave, Greenville, IL 62246",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "1783065020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2225 N Morton Ave, Jacksonville, IL 62650",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "1992056073",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1207 Vandalia, Collinsville, IL 62234",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "2740125018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1827 E.McCord st., Centralia, IL 62801",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "4896868044",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3450 Village Ln, Pontoon Beach, IL 62040",
+      "billingAddress": "300 Hunter Suite 200, St Louis, MO 63124",
+      "accountNumber": "5676310007",
+      "meterNumber": null
+    }
+  ]
+}

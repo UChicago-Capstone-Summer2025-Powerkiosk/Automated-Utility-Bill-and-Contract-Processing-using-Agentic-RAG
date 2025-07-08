@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_924",
+  "statementDate": "12/18/2022",
+  "usageHistory": {
+    "2022-12": 636
+  },
+  "locations": [
+    {
+      "serviceAddress": "455 BRAHMS WY @ HSEMTR, SUNNYVALE, CA 94087",
+      "accountNumber": "8459875403-8",
+      "meterNumber": "61972477"
+    }
+  ],
+  "totalUsage": 636
+}

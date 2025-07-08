@@ -1,0 +1,31 @@
+|   |  |  |  |  | Account Number: | 51272702010  |
+| --- | --- | --- | --- | --- | --- | --- |
+|   |  |  |  | Statement Date: |  | Jan 27 2025  |
+|   |  |  |  | Billing Cycle: |  | 14  |
+|   |  |  |  | Service Address: |  | DUNN PAPER-EAST HARTFORD, L  |
+|   |  |  |  |  |  | 2 FORBES ST  |
+|   |  |  |  |  |  | EAST HARTFORD CT 06108  |
+|  Supply Rate 057 |  |  |  |  |  |   |
+|  Supply Peak |  | 117,234 KWH X $0.097340 |  |  |  | $11,411.557560  |
+|  Supply Off-Peak |  | 458,226 KWH X $0.097340 |  |  |  | $44,603.718840  |
+|  Total Supplier Services |  |  |  |  |  | $56,015.28  |
+|  Delivery Services Detail |  |  |  |  |  |   |
+|  Local Delivery Rate 057 |  |  |  |  |  |   |
+|  Transmission: |  |  |  |  |  |   |
+|  Demand Charge |  | 2065.0 KW | X $10.85 |  |  | $22,405.250000  |
+|  Local Delivery Charges: |  |  |  |  |  |   |
+|  Fixed Monthly Charge |  |  |  |  |  | $2,200.000000  |
+|  Local Delivery Demand Charge |  | 2211.8 KW | X $6.68 |  |  | $14,774.824000  |
+|  Revenue Decoupling Peak |  | 117,234 KWH X $0.001950 |  |  |  | $228.606300  |
+|  Revenue Decoupling Off-Peak |  | 458,226 KWH X $0.001950 |  |  |  | $893.540700  |
+|  FMCC Charge |  |  |  |  |  |   |
+|  KWH Charge On Peak |  | 117,234 KWH X $0.088330 |  |  |  | $10,355.279220  |
+|  KWH Charge Off Peak |  | 458,226 KWH X $0.019020 |  |  |  | $8,715.458520  |
+|  Competitive Transition Assessment * |  |  |  |  |  |   |
+|  Demand Charge |  | 2065.0 KW | X $0.15 |  |  | $309.750000  |
+|  Combined Public Benefits Charge Peak |  | 117,234 KWH X $0.018390 |  |  |  | $2,155.933260  |
+|  Combined Public Benefits Charge Off-Peak |  | 458,226 KWH X $0.018390 |  |  |  | $8,426.776140  |
+|  Local Delivery Improvements |  | 2211.8 KW | X $1.80 |  |  | $3,981.240000  |
+|  CT Mfqr’s GET Credit |  | $55,375.92 | X 8.50% CR |  |  | $4,706.953234 CR  |
+|  Total Delivery Services |  |  |  |  |  | $69,739.70  |
+

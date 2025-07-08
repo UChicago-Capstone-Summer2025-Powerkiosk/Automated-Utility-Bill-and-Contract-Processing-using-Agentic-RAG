@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_367",
+  "statementDate": "2019-05-21",
+  "usageHistory": {
+    "2018-05": 19675,
+    "2018-06": null,
+    "2018-07": null,
+    "2018-08": null,
+    "2018-09": null,
+    "2018-10": null,
+    "2018-11": null,
+    "2018-12": null,
+    "2019-01": null,
+    "2019-02": null,
+    "2019-04": null,
+    "2019-05": 23082
+  },
+  "locations": [
+    {
+      "serviceAddress": "1608 VILLAGE BLVD SE # 125 LEESBURG, VA 20175",
+      "accountNumber": "2090177151",
+      "meterNumber": "0200057729"
+    }
+  ],
+  "totalUsage": 23082
+}

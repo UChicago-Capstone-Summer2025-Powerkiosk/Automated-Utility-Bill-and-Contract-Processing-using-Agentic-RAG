@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_688",
+  "statementDate": "August 09, 2021",
+  "totalUsage": 58883,
+  "usageHistory": {
+    "2020-08": 0,
+    "2020-09": 0,
+    "2020-10": 0,
+    "2020-11": 0,
+    "2020-12": 0,
+    "2021-01": 0,
+    "2021-02": 0,
+    "2021-03": 0,
+    "2021-04": 0,
+    "2021-05": 0,
+    "2021-06": 0,
+    "2021-07": 0,
+    "2021-08": 58883
+  },
+  "locations": [
+    {
+      "serviceAddress": "9 AVERaIE AT PORT IMPERIAL BLVD SOUTH 1 WEST NEW YORK TOWN NJ 07093",
+      "accountNumber": "4250500209",
+      "meterNumber": "9209542"
+    }
+  ]
+}

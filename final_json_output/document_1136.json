@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1136",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-05": 529.8,
+    "2023-04": 693.5,
+    "2023-05": 574.1
+  },
+  "locations": [
+    {
+      "serviceAddress": "186 Easy Shopping PI, Elehart IN 465/6-3535",
+      "meterNumber": "0850136"
+    }
+  ],
+  "totalUsage": 574.1
+}

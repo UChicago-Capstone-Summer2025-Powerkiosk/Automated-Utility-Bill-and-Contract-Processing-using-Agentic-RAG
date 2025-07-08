@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1142",
+  "statementDate": "04/28/2023",
+  "totalUsage": "2278",
+  "usageHistory": {
+    "2023-04": 2094.0,
+    "2023-03": 2498.4,
+    "2022-04": 3339.7
+  },
+  "locations": [
+    {
+      "serviceAddress": "4650 Mami Rd, South Bend IN 46604",
+      "accountNumber": "611-374-009-1",
+      "meterNumber": "9997658"
+    }
+  ]
+}

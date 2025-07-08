@@ -1,0 +1,64 @@
+{
+  "documentType": "contract",
+  "documentId": "document_586",
+  "contractStart": "2021-07-01",
+  "contractEnd": "2022-06-30",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "4746 S Ingleside Ave Unit Bldg Bldg, Chicago, IL, 60615",
+      "accountNumber": "0623765771-00005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6600 S Ingleside Ave Unit Bldg Bldg, Chicago, IL, 60637",
+      "accountNumber": "0623765771-00040",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4500 S Drexel Blvd Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "813 E 46th St Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4011 S Ellis Ave Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00022",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1949 E 73rd PI BLDG BLDG Bldg Bldg, Chicago, IL, 60649",
+      "accountNumber": "0623765771-00037",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4433 S Greenwood Ave Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4437 S Greenwood Ave Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7131 S Bennett Ave Unit Bldg Bldg, Chicago, IL, 60649",
+      "accountNumber": "0623765771-00039",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "811 E 46th St Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4737 S Ingleside Ave Unit Bldg Bldg, Chicago, IL, 60653",
+      "accountNumber": "0623765771-00003",
+      "meterNumber": null
+    }
+  ]
+}

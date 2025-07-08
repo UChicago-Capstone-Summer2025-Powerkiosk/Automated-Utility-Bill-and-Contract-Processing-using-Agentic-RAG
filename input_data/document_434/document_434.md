@@ -1,0 +1,360 @@
+# BUSINESS ELECTRICITY AUTHORIZATION CONNECTICUT COMMERCIAL SALES 
+
+## License: 07-05-37
+
+## Customer Information:
+
+Customer Name ("Customer"): Cooper Surgical Inc
+DUNS \#:
+Federal Tax ID \#:
+Tax Exemption: If Customer is a non-renewing customer, a completed tax exemption certificate must accompany this Agreement. If no certificate is attached, Company will assume that sales to Customer are subject to Taxes and will bill Customer accordingly.
+
+## Customer's Contact Information:
+
+| Energy Management and Additional <br> Transactions under this Agreement | Billing and Payables | Notices and Contract Documents |
+| :--: | :--: | :--: |
+| Name: Colin Steklenski <br> Title: Representative <br> Address: 75 Corporate Drive, <br> Trumbull, CT 06611 <br> Email: <br> colin.steklenski@coopersurgical.com <br> Phone: (203) 601-5200 <br> Mobile: | Name: Colin Steklenski <br> Title: Representative <br> Address: 75 Corporate Drive, <br> Trumbull, CT 06611 <br> Email: <br> colin.steklenski@coopersurgical.com <br> Phone: (203) 601-5200 <br> Mobile: | Name: Colin Steklenski <br> Title: Representative <br> Address: 75 Corporate Drive, <br> Trumbull, CT 06611 <br> US <br> Email: <br> colin.steklenski@coopersurgical.com <br> Phone: (203) 601-5200 <br> Mobile: |
+
+## Key Contract Terms:
+
+Start Month/Year: November / 2024
+Initial Term: 23 Months
+See attached Addendum A for Account information
+See attached Addendum B for Energy Price or Retail Adder
+Pay Terms for Company Bills: Net 16 Days
+
+## NextEra Energy Services' Contact Information:
+
+| Commercial Sales and Additional <br> Transactions under this Agreement | Commercial Sales Support <br> (Billing and Change Management) | Notices and Contract Documents |
+| :-- | :-- | :-- |
+| NextEra Energy Services <br> Attn: Uki Nunez, Commercial Sales <br> 601 Travis Street - Suite 1400 <br> Houston, TX 77002 <br> Email: uki.nunez@nexteraenergy.com | NextEra Energy Services <br> Attn: Commercial Sales Support <br> 601 Travis Street - Suite 1400 <br> Houston, TX 77002 | NextEra Energy Services <br> Attn: Contract Administration <br> 601 Travis Street - Suite 1400 <br> Houston, TX 77002 |
+
+| Direct: <br> Cell: | Email: <br> channelsupport@nexteraenergyservices. <br> m | Email: <br> contracts@nexteraenergyservice <br> com |
+| :-- | :-- | :-- |
+| With copy to: | Telephone: (877) 528-2890 | Fax: (866) 620-4392 |
+| Email: | Fax: (866) 620-4392 |  |
+| contracts@nexteraenergyservices.com | Office Hours: 8:00 a.m. to 5:00 p.m., |  |
+|  | Central Standard Time |  |
+|  | Website: |  |
+|  | https://www.nexteraenergyservices.com/ |  |
+
+Agreement: This Business Electricity Authorization, including any addenda, exhibits and confirmations (collectively, the "BEA"), together with the Electric Supply Terms of Service ("TOS"), incorporated herein by reference, will form the electricity sales agreement (collectively, the "Agreement") between NextEra Energy Services Connecticut, LLC ("Company" or "NextEra Energy Services") and Customer. Any capitalized terms not defined in this BEA shall have the meanings set forth in the TOS. Any inconsistency between the BEA and the TOS shall be governed by the BEA. Any inconsistency between the BEA and a confirmation under this Agreement shall be governed by the confirmation.
+
+# Summary of Certain Terms: 
+
+Term. This Agreement shall become effective when the BEA is signed by both Parties (the "Effective Date") and shall continue for the Initial Term. After the Initial Term expires, this Agreement shall continue on a month-to-month basis at the Holdover Price unless and until either Party terminates this Agreement, and the Utility successfully switches Customer's Account(s) to another competitive electricity supplier or to the Utility's generation service.
+
+Termination. If Customer terminates this Agreement before the end of the Initial Term, Customer shall pay the Early Termination Fee or Company damages, whichever is higher.
+
+Billing and Payment. Customer will be billed monthly for the Company Electricity Charge. The Utility will bill for its charges, including Delivery Charges. If Customer's bill is not paid when due, Customer will be charged the Late Fee and other charges.
+
+Switching Fee. Company does not charge a fee to switch to its service.
+Assignment or Transfer of Contract: Customer agrees and consents that NextEra Energy Services may assign or transfer Customer's rights and obligations under this Agreement to another electric supplier. NextEra Energy Services will provide Customer with at least forty-five (45) days' (or within the timeframe required by current law, if such period is longer), prior notice of such assignment or transfer. Customer may not assign or transfer its rights and obligations under this Agreement to a third party without the prior written consent of NextEra Energy Services, which consent shall not be unreasonably withheld. NextEra Energy Services may deny such assignment or transfer based on the creditworthiness of the assignee. Any attempted assignment by Customer in violation of this section will be null and void.
+
+Authorization and Acknowledgement: Customer hereby authorizes Company, for the duration of this Agreement, to become its electricity supplier and to perform the necessary tasks to establish electricity supply from Company. By signing this BEA or by verbal authorization received over telephone (the "Verbal Authorization"), Customer hereby agrees, as of the Effective Date (or, if Verbal Authorization is used, upon receipt of this Agreement), whichever is later, that Customer has read the Agreement and agrees to the terms and conditions set forth herein. The undersigned
+
+below or the person providing the Verbal Authorization, as applicable, warrants and represents that he/she is legally authorized to enter into this Agreement on behalf of Customer. This Agreement is not valid or binding unless and until signed by both Parties (for written agreements, a facsimile will be accepted as if it were an original) or Customer has provided its Verbal Authorization. The undersigned below represents and warrants that he/she is legally authorized to enter into this Agreement on behalf of Customer. This Agreement is not valid or binding unless and until signed by both Parties.
+
+Cooper Surgical Inc
+![](images/img-0.jpeg)
+
+The image is a photo/illustration of a digital signature. It includes the following text:
+
+- "DocuSigned by:"
+- "Colin Steklenski" (in a stylized script font)
+- "Authorized Signature:"
+- "49BB586723AF4EC..." (appears to be a truncated identifier)
+- "Colin Steklenski" (repeated in a standard font)
+
+The stylized signature is enclosed in a blue outline, indicating it is digitally signed. The identifier is positioned below the signature.
+
+Note: $\qquad$
+$\qquad$
+
+Note: $\qquad$
+
+Note: $\qquad$
+
+Note: $\qquad$
+
+# Utility Delivery Charges 
+
+The Price above does not include Delivery Charges, which are paid by Customer in addition to the Price and, accordingly, the monthly Company Electricity Charge. The average rate charged to Customer by each LDU for certain transmission and distribution charges applicable to each general customer class is set forth below.
+
+## Required Notice of LDU Rates
+
+Conn. Gen. Stat. §16-2450(h)(3) requires disclosure of each LDU's charges for electricity delivery. The average rate charged by each LDU for certain transmission and distribution charges applicable to each general customer class is set forth below. The Price set forth in the price section of this Agreement does not include Delivery Charges (as defined in the TOS).
+
+| CL\&P dba Eversource Average Cents per kWh by Customer Class <br> Effective January 1, 2024 (Cents/kWh) |  |  |  |  |  |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+|  | Residenti al | Commerci al | Industria I | St. <br> Lighting | Railroad |
+| Distribution | 8.394 | 5.158 | 3.143 | 18.644 | 0.584 |
+| Conserv. Adj. Mech. | 0.600 | 0.600 | 0.600 | 0.600 | 0.600 |
+| Renewable Energy | 0.100 | 0.100 | 0.100 | 0.100 | 0.100 |
+| Transmission | 4.090 | 3.394 | 3.014 | 2.420 | 4.256 |
+| Systems Benefit Chgs | 0.791 | 0.044 | 0.032 | 0.070 | 0.030 |
+| Comp. Transition Assess. | $(0.045)$ | $(0.046)$ | $(0.046)$ | $(0.046)$ | $(0.046)$ |
+| Fed. Mandated Congestion Delivery | .0325 | 0.271 | 0.238 | 0.189 | 0.253) |
+| Total (Cents/kWh) | 14.255 | 9.521 | 7.081 | 21.977 | 5.777 |
+
+
+| UI - Average Rates for Distribution and Delivery <br> Effective July 1, 2024 (Cents/kWh) |  |  |  |  |  |
+| :-- | --: | --: | --: | --: | --: |
+|  | Residential | Commercial | Industrial | St. <br> Lighting |  |
+| Distribution | 11.520 | 4.746 | 4.343 | 41.728 |  |
+| Conserv. \& Load Mgmt | 0.600 | 0.600 | 0.600 | 0.600 |  |
+| Renewable Energy | 0.100 | 0.100 | 0.100 | 0.100 |  |
+| Transmission | 4.525 | 3.550 | 3.248 | 3.752 |  |
+
+| Systems Benefit Chgs | 2.742 | 2.760 | 2.525 | 2.792 |
+| :--: | :--: | :--: | :--: | :--: |
+| Comp. Transition Assess. | 0.000 | 0.000 | 0.000 | 0.000 |
+| Fed. Mandated Congestion | 2.5810 | 1.766 | 1.766 | 0.000 |
+| Total (Cents/kWh) | $\mathbf{2 2 . 0 6 8}$ | $\mathbf{1 3 . 5 2 2}$ | $\mathbf{1 2 . 5 8 2}$ | $\mathbf{4 8 . 9 7 2}$ |
+
+# INFORMATION AUTHORIZATION AND CONSENT 
+
+Customer Name: Cooper Surgical Inc
+Authorization: Customer named above authorizes NextEra Energy Services Connecticut, LLC ("NextEra Energy Services") to obtain from Customer's current and past electric utilities/distribution companies Customer's: (a) future, current and historical electric usage, billing and payment information for all Accounts (as defined below), interval or smart meter data for all Accounts, and (b) account information, including customer name, billing addresses, account numbers, service addresses, service type, service dates, expected energy usage, credit information and other stored data. Collectively, all such information and data is referred to as "Customer Data". To the extent that NextEra Energy Services has already obtained such Customer Data, Customer confirms that it has provided to NextEra Energy Services the authority to do so.
+
+Consent: Customer understands and consents to NextEra Energy Services disclosing any Customer Data and credit information (all service information plus credit history and/or credit scores) to one or more affiliates of NextEra Energy Services and any of their third party service providers as needed for its business purposes and/or for the purpose of potentially providing to Customer and any of Customer's affiliates information regarding other products or services. Addendum A, which is attached to Customer's Business Electricity Authorization with NextEra Energy Services, lists each of Customer's utility account numbers that are subject to the provisions set forth herein, as such numbers may be changed from time-to-time (the "Accounts").
+
+Consent to Disclose: Customer understands that Customer can refuse to allow NextEra Energy Services to disclose the information as described above. If Customer consents by signing below, either manually or electronically, Customer may, at any future time, withdraw such consent by providing to NextEra Energy Services via First Class, U.S. mail a written request to withdraw Customer's consent to any or all of the consent provided by this form to NextEra Energy Services, Attn: Contract Administration - Consent Withdrawal, 601 Travis St., Ste 1400, Houston, TX 77002.
+![](images/img-1.jpeg)
+
+The image is a photo of a document section with the following details:
+
+- **Header**: Cooper Surgical Inc
+- **Authorized Signature**: A digital signature labeled "DocuSigned by: Colin Steklenski" with a partial ID "49B586723E4EC..."
+- **Name**: Colin Steklenski
+- **Title**: Vice President, Supply Chain
+- **Date**: 9/26/2024
+
+The signature is positioned above the name and title, and the date is below the title.
+
+# Addendum A 
+
+Customer Name: Cooper Surgical Inc
+
+## Accounts included in Agreement:
+
+| Utility Account Number | Service Address City, State and Zip | Billing Address City, State and Zip | $\begin{gathered} \text { Accou } \\ \text { nt } \\ \text { Type } * \end{gathered}$ | Estimated Service Commenceme nt Date ** | Estimated End Date ** |
+| :--: | :--: | :--: | :--: | :--: | :--: |
+| 3000000043480 | 50 Corporate Dr Trumbull, CT 06611 | 75 Corporate Drive Trumbull, CT 06611 | N | 11/22/2024 | 10/21/2026 |
+| 2411004229003 | 95 Corporate Dr Trumbull, CT 06611 | 75 Corporate Drive Trumbull, CT 06611 | N | 11/22/2024 | 10/21/2026 |
+| 3000000022808 | 75 Corporate Dr Trumbull, CT 06611 | 75 Corporate Drive Trumbull, CT 06611 | N | 11/22/2024 | 10/21/2026 |
+| 3000000043500 | 50 Corporate Dr Fire Pump Trumbull, CT 06611 | 75 Corporate Drive Trumbull, CT 06611 | N | 11/22/2024 | 10/21/2026 |
+| 3000000022809 | 75 Corporate Drive Fire Pump Trumbull, CT 06611 | 75 Corporate Drive Trumbull, CT 06611 | N | 11/22/2024 | 10/21/2026 |
+
+* N = New Account, or E = Renewal/Existing Account
+** The estimated Service Commencement dates and estimated end dates in the table above are solely dependent on the Utility's provision of services. Utility meter read schedules are subject to change for any reason, including events of force majeure. The Utility may change any of these dates without notice to Customer or Company.
+
+# Addendum B 
+
+Customer Name: Cooper Surgical Inc
+
+## Pricing Details:
+
+Monthly Base Charge: None
+
+Energy Price: $\$ 0.09898$ per kWh
+The Energy Price includes the charges to Customer for electricity and any components indicated in the Component Table as "Included". The Energy Price may also include a Procurement Fee. The Energy Price excludes all Taxes and Pass-Through Charges. As part of the Company Electricity Charge, Customer pays Taxes and Pass-Through Charges, including each charge, if any, indicated in the Component Table as "Excluded", which charge may vary in amount.
+
+For each Settlement Interval during the Initial Term, Customer shall pay to Company the Fixed Energy Charge. The amount due to Company is calculated as the sum of the Fixed Energy Charges for the Settlement Intervals during each Billing Cycle of the Initial Term ("Customer's Energy Charge").
+
+Upon billing, Customer shall pay to Company the Company Electricity Charge. Depending on the bill format, certain Pass-Through Charges may appear on Customer's bill as a line item or Energy Price adjustment.
+
+Covered MC Percentage: 20\%.
+
+## Definitions:
+
+In addition to capitalized terms defined elsewhere in this Agreement, the following definitions apply:
+"Fixed Energy Charge" means a dollar amount equal to the Energy Price x all Energy Usage for the relevant period.
+"Settlement Interval" means the time period(s) for which electricity markets are settled, as determined by the applicable ISO.
+
+## Component Table
+
+Customer agrees to the provisions set forth in the table, and the "Adjustments" section, each appearing below:
+
+ISO-NE
+
+| Component Category | Is the Charge for the Component <br> Included in the Energy Price or <br> Excluded from the Energy Price? | If Excluded from the Energy Price, how <br> is the component category charged to <br> Customer as a Pass-Through Charge? |
+| :-- | :-- | :-- |
+| Capacity | Included | A charge for capacity based on each <br> Account's peak load contribution, the <br> reserve requirement, the net regional <br> clearing price for capacity in ISO, and the |
+
+| Component Category | Is the Charge for the Component Included in the Energy Price or Excluded from the Energy Price? | If Excluded from the Energy Price, how is the component category charged to Customer as a Pass-Through Charge? |
+| :--: | :--: | :--: |
+|  |  | number of days in the period, and, if unitized, the Customer's estimated usage. |
+| Line Losses (as defined) and any UFE | Included | Increase in Energy Usage to reflect estimated line losses. |
+| Ancillary Services (includes ISO charges such as Reliability Must Run (RMR) which are not included in the other components) | Included | A bulk charge is assessed to Company based on aggregate usage and demand for multiple customers. Company pays NEPOOL the bulk charge and allocates it to the Accounts using a load ratio share or another account allocation method. |
+| State Renewable Portfolio Standard | Included | RPS Charge (as defined). |
+| Inventoried Energy Program and Fuel Security Reliability Standard Associated with Mystic River | Included | A variable charge per kWh, as determined by Company, applied to Energy Usage (as adjusted). |
+
+Adjustments. All charges to Customer for components listed in the table above as "Included" in the Energy Price are subject to increase as described in the "Change in Law" provisions of the Agreement.
+
+Cooper Surgical Inc
+Authorized Signature:
+![](images/img-2.jpeg)
+
+The image is a photo or illustration of a signature section from a document. It includes the following text:
+
+- "DocuSigned by:"
+- A signature that reads "Colin Steklenski"
+- "49BB586723AF4EC..."
+- "Authorized Signature:"
+- "Colin Steklenski"
+- "Print Name:"
+
+This: $\qquad$ vice President, Supply Chain
+
+Date: $9 / 26 / 2024$
+
+NextEra Energy Services Connecticut, LLC
+
+Authorized
+Signature:
+
+Print
+
+Name:
+
+Title: $\qquad$
+
+Effective
+Date:
+
+## NEXTERA ENERGY SERVICES ELECTRIC SUPPLY TERMS OF SERVICE (COMMERCIAL)
+
+THE FOLLOWING SETS FORTH CUSTOMER'S ELECTRIC SUPPLY TERMS OF SERVICE ("TOS"):
+
+## 1. DEFINITIONS.
+
+As used in this Agreement, the following capitalized terms set forth below shall have the respective meanings ascribed to them below:
+"Account" means the Customer Account(s) identified in the BEA.
+"Additional Block(s)" is defined the in the Transaction Execution Procedures.
+"Agreement" is defined in the BEA and includes any amendments signed by the Parties.
+"Average Monthly Bill" means the sum of: (i) the amount that would be due to Company under this Agreement assuming the Customer's average monthly usage of each relevant Account; provided, that if an average monthly usage cannot be determined due to a limited term of supply by Company or any other circumstance, such average monthly usage as calculated by Company; and (ii) any Monthly Base Charge.
+"Billing Cycle" means, for each Account, the period between successive monthly meter read dates during the term of this Agreement.
+"BEA" means the binding Business Electricity Authorization associated with this TOS, including any addenda and exhibits.
+"Change in Law" means the adoption of a new or a change in law by a Governmental Authority. A "law", as used herein, includes a regulation, rule, ordinance, decision, order, decree, Utility tariffs (including rate class definitions and delivery voltage/service level requirements), market rules (including interpretations, manuals or protocols) of the applicable ISO, load profiles, resource or fuel adequacy plans, ISO's or the Utility's methodology for calculating electricity usage or
+ancillary services, nodal and zonal definitions, or ISO boundaries. A "change", as used herein, includes any amendment, modification, nullification, suspension, repeal, finding of unconstitutionality or unlawfulness, any change in construction or interpretation or administration of a law, or the implementation of an existing law by a Governmental Authority.
+"Claims" means all third party claims or actions, threatened or filed and, whether groundless, false, fraudulent or otherwise, that directly or indirectly relate to the electricity supply and/or any services performed pursuant to this Agreement, and the resulting or related losses, any type of damages (including all consequential, incidental, exemplary, or punitive damages), expenses, attorney's fees and court costs, whether incurred by settlement or otherwise, and whether such claims or actions are threatened or filed prior to or after the termination of this Agreement. "Company Electricity Charge" means the sum of: (i)(a) Customer's Energy Charge, or (b) or the product of Customer's Energy Usage during a Billing Cycle and the Holdover Price, whichever of (a) or (b) is applicable; (ii) the Monthly Base Charge, if any; (iii) Pass-Through Charges; and (iv) Taxes.
+"Costs" means (without duplication) any loss, cost or expense reasonably incurred by Company, including those related to terminating, liquidating or obtaining any arrangement pursuant to which it has hedged its obligations, in whole or in part as to any affected Accounts, or incurred in connection with enforcing its rights under this Agreement.
+"Covered MC Bandwidth" means a monthly aggregate electricity usage for the Accounts that is (i) not higher than the Expected Usage for MC Determination plus the Covered MC Usage and (ii) not lower than the Expected Usage for MC Determination minus the Covered MC Usage.
+"Covered MC Percentage" is set forth in Addendum B to this Agreement.
+"Covered MC Usage" means the product of Covered MC Percentage and Expected Usage for MC Determination.
+"Customer's Energy Charge" is defined in the BEA.
+
+"Delivery Charges" means those charges payable by Customer to the Utility for transmission and distribution services provided by the Utility, applicable ISO, or other third parties.
+"Delivery Point" means the point of interconnection between a third-party transmission or delivery system and the Utility transmission or delivery system.
+"Early Supply Switch" means the electric supply of any Account(s) is switched to a different supplier before the end of the Initial Term.
+"Early Termination Fee" means an amount equal to (i) for termination of the entire Agreement, two (2) Average Monthly Bills for each Account for each year or partial year of the remaining Initial Term, or (ii) for termination or deletion of an Account, two (2) Average Monthly Bills for such terminated or deleted Account for each year or partial year of the remaining Initial Term.
+"Effective Date" means the date the BEA is signed by both Parties, or the date of the telephonic third party verification of the Customer's verbal authorization, as applicable.
+"Energy Price" means a unit dollar amount, if any, set forth in Addendum B to this Agreement.
+"Energy Usage" for the relevant period means Customer's total metered energy usage for the Account(s) measured in kilowatt hours ("kWh"), subject to increases by Company for Line Losses and any UFE as set forth in this Agreement.
+"Event of Default" means that Customer has: (i) failed to make timely payment of all amounts due Company unless the outstanding balance is less than $\$ 100$ and has been delinquent for less than three (3) months; (ii) failed to post performance assurance as required under the provisions of the Credit and Deposit Requirements section of this TOS; (iii) breached any representation or warranty set forth in this Agreement; (iv) breached an obligation under this Agreement; (v) (a) makes an assignment for the benefit of creditors, (b) files a petition or otherwise authorizes the commencement of a proceeding under the U.S. Bankruptcy Code or similar law for protection of creditors, or has such petition filed against it, (c) otherwise becomes bankrupt or insolvent, or (d) is unable to pay its debts as they fall due; and/or (vi) enters into a merger with, or sells substantially all of its assets to, another entity that fails to assume Customer's obligations under this Agreement.
+"Expected Usage for MC Determination" means the average monthly aggregate electricity usage of the original Accounts listed as of the original Effective Date as forecasted by Company as of the original Effective Date of this Agreement.
+"Force Majeure" means any act, condition, event or occurrence that is beyond a Party's reasonable control, including an act of God or public enemy, storm, earthquake, or other natural forces, war, riot, public disturbance, criminal activity, labor action, pandemics, or the acts or omissions of anyone not a party to this Agreement, including the Utility; provided, that "Force Majeure" does not include: (i) Company's sale of, or Company's opportunity to sell, the electricity to be sold by Company under this Agreement to another person or entity at a higher price than that set forth in this Agreement; (ii) Customer's purchase of, or Customer's opportunity to purchase, the electricity to be purchased by Customer under this Agreement to another person or entity at a lower price than that set forth in this Agreement; or (iii) the inability of a Party to pay, or pay its bills in a timely manner.
+"Governmental Authority" means any federal, state, regional, county, town, city or municipal government, or any department, agency, bureau or other administrative, regulatory or judicial body of any such government, including any governmental or quasi-
+
+governmental entity, or ISO. For the avoidance of doubt, Governmental Authority includes the Utility and NERC.
+"Holdover Period" means the period of the Agreement between the expiration of the Initial Term and termination of this Agreement.
+"Holdover Price" means the price per unit for electricity delivered during the Holdover Period. The Holdover Price can change without advance notice to Customer unless advance notice is required by law. To receive current Holdover Price information, Customer must call Company toll free at 877-528-2890 during Company's normal business hours.
+"Initial Term" means the period commencing on the Effective Date and continuing to the meter read date of the billing month which occurs those number of months set forth for the Initial Term in the BEA after the Service Commencement Date; provided, that if the Service Commencement Date is delayed past the Start Month, the Initial Term shall still expire in the same billing month as if the Service Commencement Date not been delayed past the Start Month.
+"Insufficient Notice Fee" means fifty dollars (\$50).
+"ISO" means any independent system operator, regional transmission operator ("RTO"), "Transco," power pool or grid or control area operator established and providing services to the Account(s) or other similar entity providing the same basis services as such entities and any successor thereto, including PJM Interconnection, LLC ('PJM"), Midwest Independent Transmission System Operator ('MISO"), New England Independent System Operator ("ISO-NE"), and NYISO, as applicable.
+"Late Fee" means a fee of one and one-half percent (1.5\%) per month or the maximum rate permitted by law, whichever is lower, assessed on bills for the Company Electricity Charge that are not paid when due.
+"Line Losses" shall mean a loss factor provided by the Utility or, if one is not available, one determined by Company as applied to the Energy Usage.
+"MC Event" is defined in the Customer Information section of this TOS.
+"Monthly Base Charge" means (i) for the Initial Term, a fixed monthly charge per EDC Account number, if any, as set forth in the BEA, and (ii) for the Holdover Period, a monthly charge per Account number. To receive current Monthly Base Charge information for the Holdover Period, Customer must call Company toll free at 877-528-2890 during Company's normal business hours.
+"Party" means either Company or Customer, and "Parties" means both Company and Customer.
+"Pass-Through Charges" means (i) charges for any and all components indicated as Pass-Through Charges in this Agreement, including Addendum B, (ii) any losses, or new or increased charges, attributable to additions or deletions of Accounts outside the designated bandwidth, if applicable, (iii) any losses, or new or increased charges, attributable to one or more MC Events or Change in Law events, and/or (iv) new or increased costs or charges with respect to the purchase, sale, acquisition, delivery, transmission and/or distribution of electricity, all of which are passed-through to Customer by Company using the method, if any, set forth in the BEA.
+"Price" means the Energy Price or Retail Adder, as applicable.
+"Procurement Fee" means the fee that Company will pay, on behalf of Customer, to Customer's broker or aggregator, if applicable, for the services provided by such broker or aggregator to Customer in connection with this Agreement.
+"Retail Adder" means a unit dollar amount, if any, set forth in Addendum B to this Agreement.
+"RPS Charge" means, with respect to each Account, a variable monthly charge for all renewable energy credits (collectively "RECs") and any other obligations required for Company to meet energy portfolio standards ("RPS"), including clean energy standards and similar programs, as reasonably allocated to Customer.
+
+"Service Commencement Date" means the meter read date during or after the Start Month on which the Utility successfully switches each Account(s) to electric generation supply from Company; provided that, in the case of electric generation supply already being provided by Company to Customer, the Service Commencement Date means the meter read date during or after the Start Month.
+"Start Month" is the calendar month/year specified in the BEA.
+"Taxes" means all federal, state, municipal or other governmental taxes, duties, fees, levies, premiums, assessments, surcharges, withholdings, or any other charges of any kind relating to the sale, purchase or delivery of electricity and other products and services provided to Customer at the ten-current rates, together with all interest, penalties or other additional amounts imposed thereon, but excluding taxes on net income.
+"Transaction Execution Procedures" means the terms and conditions set forth in the Transaction Execution Procedures section of this TOS.
+"UFE" means unaccounted for energy, a separate loss factor adjustment, if any, provided by the Utility and applied to Energy Usage.
+"Utility" means a cooperative association or state regulated utility that owns and/or operates the transmission, transportation, delivery and/or distribution facilities that deliver the electricity to the facilities to which each Account pertains. Depending on the jurisdiction, the Utility may be referred to as an Electric Distribution Company ("EDC"), Electric Distribution Utility ("EDU"), Local Distribution Utility ("LDU"), Local Distribution Company ("LDC") or other similar term.
+2. ELECTRIC SUPPLY. During the Initial Term and any Holdover Period, Company shall supply Customer's full electricity requirements for the Account(s), and Customer shall obtain its full electricity requirements for such Account(s) exclusively from Company, all based on the terms and conditions specified in this Agreement. Subject to terms and conditions of this Agreement, Company shall cause electricity to be delivered to the Delivery Point(s) and Customer shall
+receive such electricity at the Delivery Point(s). Notwithstanding the foregoing, Company shall be under no obligation to supply any Accounts under a residential rate class and, if Company does supply such Accounts, Customer hereby represents and warrants to Company that such Accounts are used for commercial or governmental purposes.
+3. CUSTOMER INFORMATION. Customer hereby authorizes Company to obtain from the Utility Customer's current and historical electricity cost and usage data, payment and credit history, and other information as Company may reasonably require to provide electric supply and other applicable products and services pursuant to this Agreement. Customer agrees to provide additional documentation regarding such authorization as requested by Company. Customer agrees, upon request, to provide Company with facility descriptions, operating information, meter identification numbers and locations, and such other information available to Customer. Customer's expected energy usage for the Accounts may change for various reasons, including additional equipment going on-line, ramp-up in equipment use, equipment modifications, increasing operating hours, remodel of facilities, new construction, applications for new construction permits, participation in demand response programs, participation in special government electricity supply programs or on-site electric generation of any type or size. Customer shall provide Company at least thirty (30) days' advance notice whenever it believes that it will experience a "MC Event," as defined below, and shall provide good faith estimates of the associated usage change. As used herein, a "MC Event" is deemed to have occurred when the monthly aggregate usage of the Accounts, for three (3) or more consecutive months, falls outside of the Covered MC Bandwidth during such months. Irrespective of whether Customer has provided notice to Company, Customer shall pay Company, as PassThrough Charges, Company's losses, and/or new or increased charges, attributable to each MC Event.
+4. ENROLLMENT. Company shall use commercially reasonable efforts to timely enroll Customer's Account(s) with the Utility in accordance with the intended Service Commencement Date. Company's submission of market orders may be delayed due to events beyond its reasonable control, including
+
+submission of an incomplete, improperly completed, unclear, inaccurate or improper form of BEA by or on behalf of Customer, as reasonably determined by Company. Customer agrees to take steps to cooperate with Company's efforts to perform enrollment of Accounts for supply under this Agreement. Customer understands the Utility determines final enrollment and agrees that Company is not liable for any delay or failure in enrolling Customer's Account(s) if such delay or failure is due to incorrect Account information, invalid Account numbers, and/or any other cause beyond Company's control. Further, notwithstanding any provision in the Agreement to the contrary, it is possible that for various reasons such as the Account not existing, Account not active, Account is not the "first in" and/or a required permit for the Account is not valid with the Utility, some or all the Accounts cannot be enrolled. All such un-enrolled Accounts shall be automatically deleted from the list of Accounts under this Agreement without an amendment to this Agreement. Company has the right to treat one or more failures to enroll any Accounts as an early termination of this Agreement. If one or more Accounts fail to enroll on a timely basis based on inaccurate information from Customer and/or any other cause beyond Company's control, Customer may, at the option of Company, be required to pay Company the Early Termination Fee due with respect to such Accounts. Company is not required to serve any such un-enrolled Accounts.
+5. TERM OF AGREEMENT. This Agreement shall become effective on the Effective Date, with service commencing for each respective Account(s) on the Service Commencement Date, and shall continue for the Initial Term. After the Initial Term expires, this Agreement shall continue on a month-to-month basis at the Holdover Price unless and until either Party terminates this Agreement upon at least thirty (30) days written notice, in which event such termination shall be effective after the noticed termination date on the date on which the Utility successfully switches Customer's Account(s) to another competitive electricity supplier or to the Utility's generation service.
+6. PRICING AND PASS-THROUGH CHARGES. The Price for electric supply provided to Customer by Company during the Initial Term is set forth in the BEA
+and subject to any adjustments set forth in this Agreement.
+
+Customer pays all Pass-Through Charges, which are charges to Customer, not credits. For any loss or charge which Company has the right to bill to Customer under this Agreement, Company reserves the right not to impose such cost or charge during any given billing period (e.g., if the amount is de minimis or Company chooses not to incur the administrative costs of billing). Customer understands that Company's lack of billing of a cost or charge will not be a waiver of such billing right, and Company has the right, but not the obligation, to bill such cost or charge, or cost or charge category, at a later date if it chooses. Pass-Through Charges are generally passed-through directly to each Account unless the Company determines that another method is appropriate. These methods include using a loadsharing basis or other reasonable basis, as determined by Company. Depending on the bill format, certain Pass-Through Charges, including those arising from one or more [Insert if BCA: Change in Law events, may appear on the bill as a separate line item or an increase to the Price shown on the bill, at the option of Company.
+The unit price for electricity during the Holdover Period shall be the Holdover Price, not the Price. The Holdover Price is a variable price and determined by Company in its sole discretion. The Holdover Price can be based on a variety of factors, and is not solely driven by current and future market prices or risks. The Holdover Price can change without prior notice to Customer unless required by law. In some cases, the Holdover Price may vary significantly from the Price charged during the Initial Term of this Agreement. The following are some, but not all, of the material factors that can influence Company's determination of the initial Holdover Price and any subsequent changes to the Holdover Price: (i) the current and future expected prices for wholesale electric supply (including an analysis of the supply and demand factors affecting these prices, if desired) and Company desired risk premiums on any pricing; (ii) Company's supply position in the market and its comfort level with respect to those positions; (iii) Company's expected gross margin, target gross and profit margins, and desired revenues; (iv) Company's Customer counts and attrition; and/or (v) the prices charged by competitors and the Utility.
+
+The Parties understand and agree that the RPS Charge is based on a REC and obligation costing allocation mechanism based on periodic estimates that will likely not reflect the final actual cost of such RECs and obligations, and the Parties agree to accept such risk. Company will determine the monthly RPS Charge in its sole discretion based on its then-current estimate of the cost of such RECs and obligations, and the published energy portfolio obligations, but such charges will be ongoing, and it shall not be required to provide a credit if the actual cost to purchase RECs and obligations for a month is less than the RPS Charge for such month. Company will determine, in its sole discretion, its strategy for purchasing RECs and obligations, including the timing, frequency, volume, and actual price it pays for such RECs and obligations.
+7. BILLING AND FEES. Each month, Customer shall pay the Company Electricity Charge. Unless the Parties agree in writing to alternate payment arrangements, Customer consents to be billed monthly for supply and any services provided hereunder through one of the following billing options, as permitted by law, at Company's discretion: (i) Customer will receive one bill from the Utility that includes the Company Electricity Charge, the Delivery Charges and applicable Taxes, (the "Consolidated Billing Option"); or (ii) Customer will receive two bills, one from Company for the Company Electricity Charge and one from the Utility for the Delivery Charges, each with applicable Taxes (the "Dual Billing Option"). Under the Consolidated Billing Option, Customer will make payments directly to the Utility pursuant to the applicable Utility tariff. Under the Dual Billing Option, Customer shall pay each Company bill within the number of days after the date of each such bill, as such number is set forth in the BEA. If, under the Consolidated Billing Option or Dual Billing Option, any payment for the Company Electricity Charge made by Customer to Company or to the Utility is late under the applicable payment terms, Customer may be assessed the Late Fee and its delinquent balances may be reported to a credit agency. Further, in addition to any other rights of Company hereunder, if, during the Dual Billing Option, any payment for the Company Electricity Charge is late under the applicable payment terms, then Company shall have the right, without prior notice to the Customer, to convert all billing hereunder to the Consolidated Billing Option and convert the Price as
+necessary, on a commercial reasonable basis, to a fixed price sufficient to enable such Consolidated Billing.
+
+Company may apply any credit balance on a particular Account to a balance owed on any other Customer Account. Further, Company has the right to set off any amounts owed by Company to Customer under this Agreement against any amounts owed by Customer to Company or its affiliates. Company may assess a twenty five dollar (\$25) fee against any transaction not processed due to insufficient funds or credit availability for any method of payment, including checks, bank drafts or credit card. If the Utility fails to timely obtain or transmit a meter reading, Company will issue or cause to be issued a bill to Customer based on its estimated Energy Usage and charges during the Billing Cycle. Company will include or cause to be included in any subsequent bill from Company, adjustments related to previous billings, including estimates, previous billing errors, meter read errors, or other errors or omissions. If one or more Pass-Through Charges are involved in deferred billing, Company has the right to estimate the Pass-Through Charges on the bills in the interim and Customer shall pay Company such estimated Pass-Through Charges. Customer's Energy Usage is determined for the applicable Settlement Interval as follows: IDR meters (interval meter data) are billed using the interval meter data provided by the Utility, (ii) scalar meters (non-interval meter data) are billed using the applicable load profile provided by the Utility to convert the actual meter read usage per unit provided by the Utility into interval usage data, and/or (iii) AMS meters are billed using the applicable load profile provided by the Utility until such time as the AMS meter read data is incorporated into the Company's billing system.
+8. CREDIT AND DEPOSIT REQUIREMENTS. If Company determines, prior to offering service or at any time during the term of this Agreement, that Customer cannot demonstrate satisfactory creditworthiness, Customer has failed to timely pay all amounts due under this Agreement or there otherwise exists an Event of Default with respect to Customer under this Agreement, Company has the right to require Customer to either make advanced payments or provide to Company performance assurance to ensure prompt and timely payments of amounts due to Company under this Agreement. If, after Customer has
+
+been required to make advanced payments or provide performance assurance, Company determines that Customer's credit is unsatisfactory, Company has the right to require Customer to provide additional performance assurance. Customer shall post with Company any initial or additional performance assurance within three (3) days after the date on which Company made a demand for such performance assurance. The amount and form of initial or additional performance assurance will be determined by Company in a commercially reasonable manner. Cash deposits posted as performance assurance, if any, held by Company more than thirty (30) days will accrue interest from the date of receipt at the annual rate established by the applicable state's Public Utility Commission (or similarly named authority) and such accrued interest will be applied annually to Customer's account. After termination of this Agreement or disconnection of supply, Company will apply any cash deposit plus any unpaid accrued interest toward any outstanding balance on Customer's final bill and will refund any remaining deposit.
+9. TERMINATION OF AGREEMENT. If Customer commits or is otherwise subject to an Event of Default in whole or with respect to one or more Accounts then, in addition to, and not in lieu of, any other remedy Company may have in law or equity, Company has the right to terminate this Agreement. Company has the right to terminate this Agreement in whole, or in part as to any affected Account(s), as determined solely by the Company. If the Agreement is so terminated by Company, Customer shall pay Company for all amounts owed up to the date of such termination, including all electricity supplied, any other products and services provided to Customer through the date of such termination, and any applicable Late Fees. Further, Customer shall pay Company the sum of any Costs plus the greater of the Early Termination Fee or damages to Company. Such damages, if any, will be calculated based upon the value of the product of (i) the difference between the applicable Price(s) and the market price(s) for the same quantities of energy which would have been supplied hereunder for the remainder of the Initial Term, and (ii) the estimated Energy Usage by Customer, as determined by Company, during the remainder of the Initial Term. To determine "market prices," as used above, Company may consider, among other things, settlement prices of
+applicable NYMEX futures contracts, quotations from leading dealers in energy swap contracts and other bona fide offers from parties participating in the wholesale and/or retail electricity markets, which may include affiliates of Company. In addition, if an Early Supply Switch occurs without Company receiving at least thirty (30) days' advance notice from Customer, Customer shall pay Company the Insufficient Notice Fee. Company will not be required to enter into any replacement transaction in order to determine Costs, the Early Termination Fee, market prices or damages. The Parties agree that the amounts recoverable hereunder are a reasonable estimate of loss and not a penalty.
+
+If Company terminates the Agreement, the Company has the right, and Customer hereby authorizes Company, to enroll all Customer's Account(s) with the Utility which would provide supply pursuant to its rules.
+
+## 10. TITLE, RISK OF LOSS AND INDEMNIFICATION.
+
+Title and risk of loss to the electricity sold under this Agreement passes from Company to Customer when the electricity is delivered to the Delivery Point for each Account(s). Customer agrees that Company does not control the physical electricity sold under this Agreement, which electricity flows through the Utility transmission and/or delivery systems, and accordingly, Company shall not be responsible for any failure in the Utility transmission or delivery system. Customer shall indemnify and defend Company from all Claims arising from or out of any event, act or incident occurring when or after the title to the electricity passes to Customer.
+11. FORCE MAJEURE. Each Party shall be excused from performance of its obligations under this Agreement, in whole or in part, to the extent caused by or related to an event of Force Majeure; provided, that, except with regard to outages or failures of the transmission and distribution lines controlled by the Utility: (i) the claiming party shall provide notice of Force Majeure to the other Party within a reasonable time after the event; and (ii) the claiming Party shall have used commercially reasonable efforts to avoid the effects of such Force Majeure and shall resume performance under this Agreement as soon as commercially reasonable.
+
+12. CHANGE IN LAW. Notwithstanding any provision in this Agreement to the contrary, if there is one or more Change in Law events and such event, either independently or in conjunction with one or more other events (including an auction), results in Company incurring new or increased costs or charges related to providing retail electric supply or any other products or services under this Agreement, Customer shall pay Company such new or increased costs or charges as Pass-Through Charges. In calculating the cost or charge, if the increase is not reasonably evident from the Change in Law itself, or if the costs or charges subsequently increase based on another event, including a subsequent auction, Company may calculate the increase based on the charge or cost incurred after the Change in Law event as compared to Company's earlier estimates of the relevant cost(s) or charge(s).
+13. NON-DISCRIMINATION. Company does not discriminate against any Customer based wholly or partly on race, color, creed, national origin, or sex, of an applicant for service or for any arbitrary, capricious, or unfairly discriminatory reason.
+14. REPRESENTATIONS AND WARRANTIES. Each of the following representations and warranties are deemed to be continuing throughout the term of this Agreement, unless stated otherwise. Each Party represents and warrants to the other that: (i) it is duly organized, validly existing and in good standing under the laws of the jurisdiction of its formation; (ii) it is authorized and qualified to do business in the jurisdictions necessary to perform this Agreement; (iii) the execution, verbal authorization, delivery and performance of this Agreement is duly and validly authorized by all necessary corporate or other actions and do not violate its governing documents, any agreement to which it is a party or any laws applicable to it; (iv) if it is executing this Agreement in its capacity as an agent or representative, it has the authority to bind its principal to the Agreement; and (v) the Agreement, when delivered, will be valid and legally binding upon it and enforceable in accordance with its respective terms (subject to equitable defenses).
+
+Customer further represents and warrants to Company that: ( $x$ ) it has made its own independent decisions to enter into this Agreement and its decisions are based
+upon its own judgment and any advice from its own advisors as it has deemed necessary; (xi) it is purchasing the electricity for its own consumption and has not entered into the Agreement for speculative purposes; (xii) it has full power and authority over the provision of electricity to the facilities to which the Account(s) pertain; (xiii) for all purposes that may impact the electricity usage of the Accounts, it will operate the facilities to which the Account(s) pertain in the same or substantially the same manner as it has in the twelve (12) months preceding the Effective Date; and (xiv) it will not have generation that is synchronously connected to the Utility, or enter into net metering arrangements with the Utility, with respect to any of the Accounts.
+15. DISCLAIMER OF WARRANTY. EXCEPT AS EXPRESSLY STATED IN THE REPRESENTATIONS AND WARRANTIES SECTION OF THIS TOS, COMPANY EXPRESSLY DISCLAIMS AND NEGATES ALL REPRESENTATIONS AND WARRANTIES, EXPRESSED OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+16. LIMITATIONS OF LIABILITY. NOTWITHSTANDING ANY PROVISION IN THIS AGREEMENT TO THE CONTRARY, EXCEPT WITH RESPECT TO AMOUNTS DUE FOR COSTS, DAMAGES AUTHORIZED BY THIS AGREEMENT, OR THE EARLY TERMINATION FEE, OR IN CONNECTION WITH INDEMNIFICATION OF CLAIMS BY CUSTOMER, NEITHER PARTY WILL BE LIABLE TO THE OTHER PARTY FOR CONSEQUENTIAL, INCIDENTAL, SPECIAL, PUNITIVE, EXEMPLARY OR INDIRECT DAMAGES, INCLUDING LOST PROFITS (OTHER THAN COMPANY'S PROFIT EXPECTED UNDER THIS AGREEMENT) OR OTHER BUSINESS INTERRUPTION DAMAGES, WHETHER IN TORT OR CONTRACT, OR OTHERWISE IN CONNECTION WITH THIS AGREEMENT. THE LIMITATIONS IMPOSED ON REMEDIES AND DAMAGE MEASUREMENT WILL BE WITHOUT REGARD TO CAUSE, INCLUDING NEGLIGENCE OF ANY PARTY, WHETHER SOLE, JOINT, CONCURRENT, ACTIVE OR PASSIVE. COMPANY IS NOT LIABLE FOR FAILURE OF UTILITY OPERATIONS, INCLUDING TRANSMISSION OR DISTRIBUTION OUTAGES, PLANNED OR UNPLANNED. COMPANY IS NOT RESPONSIBLE FOR PHYSICALLY TRANSMITTING, DELIVERING OR DISTRIBUTING ELECTRICITY AND DOES NOT CONTROL THE UTILITY'S
+
+FACILITIES OR OPERATIONS. IF A UTILITY DENIES SERVICE TO CUSTOMER OR ANY ACCOUNTS, COMPANY IS UNDER NO OBLIGATION TO SUPPLY THE ACCOUNTS AND HAS NO LIABILITY FOR SUCH FAILURE TO SERVE.
+17. FORWARD CONTRACT. The Parties agree that this Agreement is a "forward contract", Company is a "forward contract merchant", and any payment related to this Agreement will constitute a "settlement payment", all as defined in the United States Bankruptcy Code.
+18. ATTORNEY'S FEES. If Company prevails, in whole or in part, in any lawsuit or legal proceeding related to this Agreement or refers Customer's outstanding balance to an attorney or collection agent for collection or collects Customer's outstanding balance through bankruptcy or other judicial proceedings, Customer shall pay Company's fees and expenses (including reasonable attorney's fees) incurred in connection therewith.
+19. ASSIGNMENT. Company may assign its rights and obligations under this Agreement to a third party. Customer may not assign its rights and obligations under this Agreement to a third party without Company's prior written consent. Company may deny such assignment based on the creditworthiness of the assignee. Any purported assignment in violation of this Section shall be null and void ab initio.
+20. GOVERNING LAW. This Agreement shall be governed by and construed, enforced and performed in accordance with the laws of the state in which the Customer's meter(s) (or a majority thereof) are located, without giving effect to such state's principles governing conflicts of law. Except with respect to provisions governing adequate assurance, the provisions of the Uniform Commercial Code ("UCC") shall apply to this Agreement and electricity shall be a "good" for the purposes of the UCC.
+21. CONFIDENTIALITY. The Parties agree to keep all terms and provisions of this Agreement confidential and not to disclose the terms of the same to any third parties without the prior written consent of the other Party; provided, however, each Party shall have the right to make any such disclosures to (i) a third party service provider who has a need to know such confidential
+information to provide services to the disclosing Party and is prohibited from disclosing to another party such Party's confidential information, (ii) governmental agencies and (iii) its own agents, attorneys, auditors, accountants and shareholders or members. If disclosure is sought through process of a court, or a state or federal regulatory agency, the Party from whom the disclosure is sought shall provide reasonable notice thereof to the other Party. Notwithstanding the preceding provisions of this Section, Customer authorizes Company to use and disclose to any of Company's affiliates and any of its or their third party service providers Customer information for the purpose of potentially providing to Customer and any of Customer's affiliates opportunities to purchase products or services, and general product development. Further, if Customer's purchase was enabled by a third party broker/consultant, Customer authorizes Company to disclose to such third party broker/consultant all Customer information until Customer provides written notice to discontinue.
+22. JURY/LEGAL WAIVER. TO THE EXTENT PERMITTED BY THE APPLICABLE LAW, EACH PARTY WAIVES ITS RIGHT TO A JURY TRIAL REGARDING ANY LITIGATION, LEGAL ACTION OR PROCEEDING ARISING FROM OR DIRECTLY OR INDIRECTLY RELATING TO THIS AGREEMENT. CUSTOMER HEREBY WAIVES ANY RIGHT IT MAY HAVE TO PARTICIPATE AS A PLAINTIFF IN A CLASS ACTION LAWSUIT AGAINST COMPANY AND AGREES NOT TO DO SO. THE PARTIES WANT THIS AGREEMENT TO CONTROL THEIR OBLIGATIONS. THUS, TO THE FULLEST EXTENT ALLOWED BY THE APPLICABLE LAW AND UNLESS OTHERWISE SPECIFICALLY SET FORTH HEREIN, CUSTOMER HEREBY WAIVES ANY CUSTOMER PROTECTION RIGHTS UNDER ALL LAWS, RULES, REGULATIONS AND ORDERS OF THE PUC OR UNDER OTHER APPLICABLE LAW, INCLUDING RIGHTS RELATED TO CONTRACT RESCISSION, CUSTOMER DISCLOSURES, DELIVERY OF CUSTOMER CONTRACTS TO CUSTOMERS, RECORDKEEPING, INTEREST PAID ON DEPOSITS AND CUSTOMER NOTICES.
+23. LIMITED AGENT. Company's responsibility as Customer's limited agent is limited to the tasks authorized for Company to provide the services under this Agreement and does not result in imposition on Company, and Customer hereby waives, any other
+
+duties of any kind or nature, including fiduciary duties which may otherwise arise by operation of law.
+24. SURVIVAL. The following provisions, and any other provision which by its nature should survive, shall survive expiration or any sooner termination of this Agreement: Pricing and Pass-Through Charges, Title, Risk of Loss and Indemnification, Disclaimer of Warranty, Limitation of Liability, Attorney's Fees, Governing Law, Jury/Legal Waiver, Waiver of Consumer Rights, Notices, Interpretation any Transaction Execution Procedures and any waivers of state-specific requirements. The Confidentiality Section shall survive any termination or expiration of this Agreement for a period of one (1) year.
+25. MISCELLANEOUS. This Agreement embodies the entire Agreement and understanding between the Parties, and supersedes all prior agreements and understandings between the Parties, whether written or oral, with respect to the subject matter hereof. Customer agrees that any electronic signature document delivered via Customer's domain name based on the email set forth above shall be considered signed or executed by Customer. Customer assumes all risks arising out of the use of electronic signature for all purposes, including the authorization or execution of the Agreement and misuse by third parties. Any electronic signature shall have the same legal validity and enforceability as a manually executed signature to the fullest extent permitted by applicable law. There are no third party beneficiaries to this Agreement and this Agreement is binding on each Party's successors or permitted assigns. This Agreement may not be amended except by a written amendment signed by both Customer and Company. If any provision of this Agreement is held to be void or unenforceable by a court of competent jurisdiction, the remaining provisions of this Agreement shall remain in full force and effect to the extent that the intended essential purposes of this Agreement are not materially altered. Headings are for the convenience of the parties and shall be ignored for purposes of interpreting this Agreement. This Agreement may be executed in any number of counterparts, each of which shall be deemed to be an original and all of which shall be deemed to be one and the same instrument. No waiver by any Party hereto of any one or more of such Party's rights under this Agreement, or waiver of a default by
+the other Party in the performance of any of the provisions of this Agreement shall be construed as a waiver of any such right, or any other default whether of a like kind or different nature. The rights and remedies of the Parties in this Agreement are cumulative and either Party may enforce any of its rights and remedies under this Agreement and any other rights and remedies available to it at law or in equity, unless expressly specified otherwise in this Agreement. The Parties shall not be deemed to be in a relationship of partners or joint ventures by virtue of this Agreement, nor shall any Party be an agent (except as expressly agreed to in this Agreement), representative, trustee or fiduciary of the other Party. This Agreement is intended to secure and provide for the services of Company as an independent contractor.
+26. NOTICES. Any contractual notice required to be given under this Agreement shall be delivered to the receiving Party in accordance with the appropriate information set forth in the Agreement. A Party may change its address or contact information by providing notice of same in accordance herewith. A Party shall provide any notice in writing by U.S. mail or courier service; provided, that Company has the right to communicate or inquire about operational decisions, including contract termination or expiration notices by telephone or electronic means in accordance with the contact information provided by Customer or otherwise known. Company's Contact Information for Notices and Contract Documents is set forth in the BEA. Customer's Contact Information for Notices is set forth in the BEA, or Company may, for notices, use the billing address in Addendum A. Customer's receipt of a notice delivered by mail will be deemed at the end of the fifth (5th) business day after the date of mailing, or upon actual receipt, if earlier. Customer's receipt of a notice delivered by courier will be deemed on the business day after it was sent or upon actual receipt, if earlier. Customer's receipt of a notice sent by facsimile, e-mail or other electronic means will be deemed at the close of the business day on which it was transmitted (or, if transmitted after the close of business, then on the next business day) or such earlier time as confirmed by Customer. Company may waive any notice requirements set forth herein.
+27. INTERPRETATION. Unless the context of this Agreement otherwise requires, (i) the terms "Section"
+
+or "subsection" each refer to the specified Section or subsection of this Agreement, (ii) the words "include" and "including" are not words of limitation and shall be deemed to be followed by the words "without limitation", (iii) the use of the word "or" to connect two or more phrases shall be construed as inclusive of such phrases (e.g., "A or B" means "A or B, or both"), and (iv) the words "herein", "hereof," "hereby," "hereto" and "hereunder" refer to the Agreement as a whole.
+28. TRANSACTION EXECUTION PROCEDURES. The provisions set forth below apply to any Hedge Adjustments made under this Agreement. Hedge Adjustments are intended to allow the Customer to make changes to the price structure of electricity purchased under this Agreement. Hedge Adjustments are only made pursuant to one or more confirmations under this Agreement and such confirmations require the mutual agreement of the Parties. Neither Party is under any obligation to transact any Hedge Adjustments. Customer authorizes Company to perform, on behalf of Customer, all Hedge Adjustments. Following each Hedge Adjustment, if any, Customer shall continue to pay Company the Company Electricity Charge and any other amounts due under this Agreement.
+(i) Requests. Customer may request a quote from Company for pricing associated with a potential Hedge Adjustment during the Initial Term. If the request is for the purchase of new or additional block quantities of electricity ("Additional Blocks"), the minimum block quantity available to purchase is 1 MW unless Company, in its sole discretion, agrees to a lesser amount. Customer may also request a quote for gas index prices pursuant to an addendum to this Agreement. To make any of these requests, Customer shall email Company at the two Company email addresses set forth below advising Company of the requested transaction. Company is under no obligation to agree to accept any order. Each indicative price quote is solely indicative of market conditions at the time provided and is subject to market movement at all times until a final price is later agreed to by the Parties under the procedures below. Each indicative price quote is solely indicative of market conditions at the time provided and is subject to market movement at all times until a final price is later agreed to by the Parties under the procedures below.
+(ii) Recorded Telephone Transactions. The following provisions shall apply with respect to transactions conducted over a telephone line:
+(a) Recordings. Hedge Adjustments under this Agreement may be conducted by the Parties on Company's recorded telephone line at (713) 401-5712 before 1:00 p.m., Houston, Texas time, on any day in which a quote has been issued by Company, NYMEX is trading Henry Hub Natural Gas Futures Contracts and Company's main business office is open. Each such transaction must be made through the participation of at least one authorized representative of each Party on the telephone line, and Customer's representative must be one of the persons authorized below. Subject to this section and market movement, upon receipt of an order from Customer and Company's agreement to such order, Company shall work to execute the requested transaction.
+(b) Confirmations of Recordings. After Company's execution of the transaction on behalf of Customer, Company shall send Customer a written confirmation via email indicating the executed transaction terms. Any dispute by Customer to the terms set forth in the written confirmation must be raised by Customer before the end of the business day following delivery of the confirmation. Customer shall initiate such dispute only by contacting the Company recorded line (telephone number is in the previous paragraph) before the expiration of such business day. If Customer fails to dispute the confirmation by the end of the business day following delivery of the confirmation, then the unsigned confirmation is, absent manifest error, the Parties' binding agreement with respect to the transaction.
+(c) Supporting Evidence. Each Party hereby consents to the creation of an electronic recording (including digital or tape) by Company or its representative of all telephone conversations regarding transactions under this Agreement and such recordings shall be conclusive evidence of the transactions. Each Party agrees not to contest any such election or determination in connection therewith based on the statute of frauds or any law requiring agreements to be in writing.
+
+(iii) Written Transactions. In lieu of using Recorded Telephone Transactions as set forth in the previous subsection, H edge Adjustments may be transacted by the Parties in writing on any day NYMEX is trading Henry Hub Natural Gas Futures Contracts and Company's main business office is open. To execute a written H edge Adjustment transaction, Customer shall email Company at the email addresses under the Company Contact Information for Commercial Sales and Additional Transactions set forth in the BEA advising Company of the requested transaction and attaching a signed hedge request. Company is under no obligation to agree to accept any order. Upon receipt of such signed hedge request, Company will work to execute the requested transaction at or near the requested terms. After Company's execution of the transaction on behalf of Customer, Company shall send Customer a written confirmation via email indicating the executed transaction terms. Any dispute by Customer to the terms set forth in the written confirmation must be raised by Customer before the end of the business day following delivery of the confirmation. Customer shall initiate such dispute only by email to the Company email addresses before the expiration of such business day. If Customer fails to dispute the confirmation by the end of the business day following delivery of the confirmation, then the unsigned confirmation is, absent manifest error, the Parties' binding agreement with respect to the transaction.
+(iv) Representatives. All communications with respect to orders and H edge Adjustment transactions, including emails requesting price quotes and sending H edge Adjustment confirmations, shall be sent to Company using the Company Contact Information for Commercial Sales and Additional Transactions set forth in the BEA.
+
+All communications for orders and H edge Adjustment transactions, including emails requesting price quotes and sending H edge Adjustment confirmations, shall be made between Company and the authorized representative of Customer whose name and contact information is set forth on the BEA. Customer authorizes such representative to enter into binding transactions pursuant to this Agreement. Customer shall provide to Company advance written notice indicating new or amended authorized representative information if Customer desires change such
+information. Otherwise, Company shall be entitled to rely on such representative, or any officer of Customer, as authorized agent of Customer for all transactions conducted under this Agreement.
+(v) Execution Limitations. Notwithstanding any provision in this Agreement to the contrary, the Parties agree that staff availability, delay, market conditions and other factors may make it difficult or impossible to execute transactions at or below desired prices or quantities. Further, there is no guarantee that Company will be able to execute a transaction on behalf of Customer at any price or in any quantity. Company is not liable for any failure to execute an order or transaction on behalf of Customer at the requested prices and/or quantities.
+(vi) H edge Limitations. Customer acknowledges and agrees any electricity transactions in connection with this Agreement will not be conducted for the purpose of speculative or proprietary trading. Such transactions will be intended, and designed solely for, the purpose of allowing Customer to manage its retail electricity pricing and quantity risk for each Account. Further, to the extent, if any, that it is determined that this Agreement or any of the transactions under this Agreement, are considered "trade options" by the Commodity Futures Trading Commission, Company and Customer each represent that it is either a "eligible contract participant" (as defined in Section 1(a) of the Commodity Exchange Act, as amended) or a producer, processor, commercial user of or a merchant handing the commodity or the products or by-products thereof, and each is offering or entering into a commodity option transaction solely for the purposes related to its business as such. Company and Customer confirm to each other that any transaction under this Agreement deemed to be a commodity option transaction is intended to be physically settled so that, if exercised, the option would result in the sale of an exempt commodity for immediate or deferred delivery.
+(vii) Customer Decisions. Customer represents and warrants that it will make its own independent decisions authorizing Company to enter into transactions for on behalf of Customer under this Agreement. CUSTOMER ASSUMES ANY AND ALL RISKS ARISING FROM ANY INDEX AND VARIABLE PRICING. Customer is acting for its own account in
+
+determining if any transaction is appropriate for Customer. Customer is making such determinations based upon its own judgment and advice (including any advice Customer may obtain from advisors), all as Customer deems appropriate. Customer agrees and acknowledges that it is not relying, and will not rely upon, communications, information, and/or explanations of any type from Company as investment/savings advice or an endorsement that a specific transaction will have an expected or actual result. No communication of any kind from Company shall be, or constitute any, assurance or guarantee of an expected or actual result. Customer understands and accepts all risks inherent in all transactions conducted under this Agreement. Company is not acting as a fiduciary to Customer with respect to this Agreement. Customer understands, agrees and acknowledges the foregoing representations, warranties and agreements are a material inducement for Company to enter into this Agreement.
+(viii) Suspension of Right to Request Hedge Adjustment. Notwithstanding any provision set forth in this Agreement and for the sake of clarity, Company has no obligation to quote or execute any new transactions under this Agreement if Customer is subject to an Event of Default.
+29. STATE-SPECIFIC DISCLOSURES. Dispute Resolution. If you feel your bill is incorrect, or you dispute any aspect of your service, please contact a Company Customer Care representative at (866) 4404392 (toll free). If Company is unable to resolve your dispute, you may contact the Connecticut Public Utilities Regulatory Authority at (800) 382-4586 (toll free) for assistance or information on consumer protection rights under this Agreement.
+

@@ -1,0 +1,134 @@
+{
+  "documentType": "contract",
+  "documentId": "document_55",
+  "contractStart": "2024-10-25",
+  "contractEnd": "2027-12-22",
+  "usageHistory": {
+    "2024-10": 346969.96,
+    "2024-11": 981126.71,
+    "2024-12": 974341.25,
+    "2025-01": 973024.95,
+    "2025-02": 877142.42,
+    "2025-03": 1005482.51,
+    "2025-04": 942046.47,
+    "2025-05": 987936.23,
+    "2025-06": 1284670.53,
+    "2025-07": 1436980.06,
+    "2025-08": 1389856.01,
+    "2025-09": 972638.86,
+    "2025-10": 981686.42,
+    "2025-11": 981864.0,
+    "2025-12": 973441.25,
+    "2026-01": 974970.44,
+    "2026-02": 877045.35,
+    "2026-03": 1003869.83,
+    "2026-04": 941948.06,
+    "2026-05": 990220.44,
+    "2026-06": 1282141.8,
+    "2026-07": 1438497.61,
+    "2026-08": 1387529.52,
+    "2026-09": 973219.75,
+    "2026-10": 984183.71,
+    "2026-11": 978708.26,
+    "2026-12": 972171.62,
+    "2027-01": 975460.9,
+    "2027-02": 877497.95,
+    "2027-03": 1001275.77,
+    "2027-04": 943652.94,
+    "2027-05": 987854.74,
+    "2027-06": 1282130.15,
+    "2027-07": 1445079.87,
+    "2027-08": 1383900.92,
+    "2027-09": 973386.49,
+    "2027-10": 986352.78,
+    "2027-11": 967340.13,
+    "2027-12": 296014.62
+  },
+  "locations": [
+    {
+      "serviceAddress": "3864 Easton Nazareth Hwy, Easton, PA 18045",
+      "accountNumber": "0800779547000 3109024",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2200 Lebanon Valley Mall, Lebanon, PA 17042",
+      "accountNumber": "0800779547000 6449354",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "455 TOWN CENTER DR, YORK, PA 17408",
+      "accountNumber": "0805234769000 7450175",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3720 MAIN ST MOVIE TH, PHILADELPHIA, PA 19127",
+      "accountNumber": "0421204790",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 County-Line Rd BLDG A, Warrington, PA 189876",
+      "accountNumber": "0477654753",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1619 GRANT AVE *SIGN 2, PHILADELPHIA, PA 19115",
+      "accountNumber": "3311372938",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1011 RIDGE PIKE THEATRE, CONSHOHOCKEN, PA 19428",
+      "accountNumber": "3997623840",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "232 MALL BLVD 3PH, KING OF PRUSSIA, PA 19406",
+      "accountNumber": "4313222798",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "232 MALL BLVD THEATRE ELEC, KING OF PRUSSIA, PA 19406",
+      "accountNumber": "4980436259",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1619 GRANT AVE MOVIES, PHILADELPHIA, PA 19115",
+      "accountNumber": "6506735564",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4777 W CHESTER PIKE, NEWTOWN SQUARE, PA 19073",
+      "accountNumber": "6927471195",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 QUARRY RD, DOWNINGTOWN, PA 19335",
+      "accountNumber": "6990450971",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3720 MAIN ST SITE LGT, PHILADELPHIA, PA 19127",
+      "accountNumber": "8132276290",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1246 MILLERSVILLE PIKESTE 754 CINEMA, LANCASTER, PA 17603",
+      "accountNumber": "0417237015",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "CAUGHY DR, HARRISBURG, PA 17110",
+      "accountNumber": "2753850012",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "LAUREL MALL RT 93, HAZLETON, PA 18201",
+      "accountNumber": "4818040009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3909 COMMERCE BLVD OUTLET 6, DICKSON CITY, PA 18519",
+      "accountNumber": "7995961028",
+      "meterNumber": null
+    }
+  ]
+}

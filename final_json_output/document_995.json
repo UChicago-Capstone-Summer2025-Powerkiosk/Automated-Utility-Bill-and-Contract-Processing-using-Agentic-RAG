@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_995",
+  "statementDate": "Sep 06, 2019",
+  "usageHistory": {
+    "2018-09": 1440,
+    "2018-10": 1440,
+    "2018-11": 1440,
+    "2018-12": 1440,
+    "2019-01": 1440,
+    "2019-02": 1440,
+    "2019-03": 1440,
+    "2019-04": 1440,
+    "2019-05": 1440,
+    "2019-06": 1440,
+    "2019-07": 1440,
+    "2019-08": 1440,
+    "2019-09": 1440
+  },
+  "locations": [
+    {
+      "serviceAddress": "COUNTY ST WAREHOUSE 19 SUFFOLK, VA 23434",
+      "accountNumber": "4853647503",
+      "meterNumber": "0200061154"
+    }
+  ],
+  "totalUsage": 1440
+}

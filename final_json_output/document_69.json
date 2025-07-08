@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_69",
+  "statementDate": "March 10, 2023",
+  "usageHistory": {
+    "2022-03": 1056,
+    "2022-04": 792,
+    "2022-05": 528,
+    "2022-06": 264,
+    "2022-07": 264,
+    "2022-08": 264,
+    "2022-09": 264,
+    "2022-10": 264,
+    "2022-11": 792,
+    "2022-12": 1584,
+    "2023-01": 2112,
+    "2023-02": 1848,
+    "2023-03": 1584
+  },
+  "locations": [
+    {
+      "serviceAddress": "160 FRONTAGE RD, NEWARK CITY NJ 07114-3721",
+      "accountNumber": "4214253000",
+      "meterNumber": "4019179"
+    },
+    {
+      "serviceAddress": "160 FRONTAGE RD, NEWARK CITY NJ 07114-3721",
+      "accountNumber": "4214253000",
+      "meterNumber": "2679388"
+    },
+    {
+      "serviceAddress": "160 FRONTAGE RD, NEWARK CITY NJ 07114-3721",
+      "accountNumber": "4214253000",
+      "meterNumber": "9214507"
+    }
+  ],
+  "totalUsage": 237731
+}

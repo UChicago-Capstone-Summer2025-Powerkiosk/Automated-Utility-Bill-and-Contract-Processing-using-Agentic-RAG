@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1127",
+  "contractStart": "2016-12",
+  "contractEnd": "2017-12",
+  "usageHistory": {
+    "2016-12": 4291.67,
+    "2017-01": 4291.67,
+    "2017-02": 4291.67,
+    "2017-03": 4291.67,
+    "2017-04": 4291.67,
+    "2017-05": 4291.67,
+    "2017-06": 4291.67,
+    "2017-07": 4291.67,
+    "2017-08": 4291.67,
+    "2017-09": 4291.67,
+    "2017-10": 4291.67,
+    "2017-11": 4291.67
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 Littleton Rd, Westford, MA 01886",
+      "accountNumber": "4691614111",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 Littleton Rd, Westford, MA 01886",
+      "accountNumber": "4691622181",
+      "meterNumber": null
+    }
+  ]
+}

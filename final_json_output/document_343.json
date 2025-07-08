@@ -1,0 +1,79 @@
+{
+  "documentType": "contract",
+  "documentId": "document_343",
+  "contractStart": "2024-05-01",
+  "contractEnd": "2025-11-01",
+  "usageHistory": {
+    "2024-05": 29738.8,
+    "2024-06": 625041.12,
+    "2024-07": 686312.62,
+    "2024-08": 674204.79,
+    "2024-09": 579011.21,
+    "2024-10": 569068.99,
+    "2024-11": 517898.5,
+    "2024-12": 492015.34,
+    "2025-01": 493490.39,
+    "2025-02": 453746.77,
+    "2025-03": 528315.57,
+    "2025-04": 539525.62,
+    "2025-05": 573753.76,
+    "2025-06": 627004.09,
+    "2025-07": 687828.71,
+    "2025-08": 670525.45,
+    "2025-09": 582388.55,
+    "2025-10": 567942.58,
+    "2025-11": 482969.33
+  },
+  "locations": [
+    {
+      "serviceAddress": "2031 RTE 130 STE E, SOUTH BRUNSWICK TWP, NJ 08831",
+      "accountNumber": "PE000008551545068332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2033 RTE 130 UNIT AB, SOUTH BRUNSWICK TWP, NJ 08512",
+      "accountNumber": "PE000009037885268332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 RTE 130 STE J, SOUTH BRUNSWICK TWP, NJ 08831",
+      "accountNumber": "PE000009037909068332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 RTE 130 STE B, SOUTH BRUNSWICK TWP, NJ 08831",
+      "accountNumber": "PE000009524904768332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 RTE 130 STE A, SOUTH BRUNSWICK TWP, NJ 08852",
+      "accountNumber": "PE000009767650688332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 RTE 130 STE H, SOUTH BRUNSWICK TWP, NJ 08831",
+      "accountNumber": "PE000010985046168332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 RTE 130 STE D, SOUTH BRUNSWICK TWP, NJ 08831",
+      "accountNumber": "PE000011230388868332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2033 RTE 130 BDG B E-F, SOUTH BRUNSWICK TWP, NJ 08528",
+      "accountNumber": "PE000011986567368332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2033 ROUTE 130 BLDG B A-G, SOUTH BRUNSWICK TWP, NJ 08852",
+      "accountNumber": "PE000012025094968332",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2031 ROUTE 130, SOUTH BRUNSWICK TWP, NJ 08852",
+      "accountNumber": "PE000012167689468332",
+      "meterNumber": null
+    }
+  ]
+}

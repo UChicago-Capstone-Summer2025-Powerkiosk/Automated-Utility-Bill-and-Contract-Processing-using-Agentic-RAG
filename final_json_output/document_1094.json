@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1094",
+  "statementDate": "2021-12-13",
+  "usageHistory": {
+    "2021-01": 12,
+    "2021-02": 12,
+    "2021-03": 12,
+    "2021-04": 5,
+    "2021-05": 5,
+    "2021-06": 5,
+    "2021-07": 10,
+    "2021-08": 15,
+    "2021-09": 15,
+    "2021-10": 15,
+    "2021-11": 15,
+    "2021-12": 15
+  },
+  "locations": [
+    {
+      "serviceAddress": "RR 1, BOX 52-E, HENRYVILLE, PA 18332",
+      "accountNumber": "31870-26029",
+      "meterNumber": "300850087"
+    }
+  ],
+  "totalUsage": 230
+}

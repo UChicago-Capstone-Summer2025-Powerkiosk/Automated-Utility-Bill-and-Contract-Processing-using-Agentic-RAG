@@ -1,0 +1,193 @@
+{
+  "documentType": "contract",
+  "documentId": "document_738",
+  "contractStart": "2024-04-30",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2024-01": 240,
+    "2024-02": 220,
+    "2024-03": 240,
+    "2024-04": 220,
+    "2024-05": 220,
+    "2024-06": 220,
+    "2024-07": 120,
+    "2024-08": 120,
+    "2024-09": 140,
+    "2024-10": 140,
+    "2024-11": 170,
+    "2024-12": 190
+  },
+  "locations": [
+    {
+      "accountNumber": "304877324",
+      "site": "Basecamp",
+      "meter": null,
+      "address": "16308 th St",
+      "city": "Golden",
+      "state": "CO",
+      "zip": "80401"
+    },
+    {
+      "accountNumber": "304362424",
+      "site": "West 8th",
+      "meter": null,
+      "address": "14108 th Street",
+      "city": "Golden",
+      "state": "CO",
+      "zip": "80401"
+    },
+    {
+      "accountNumber": "304362425",
+      "site": "West 8th",
+      "meter": null,
+      "address": "14108 th Street",
+      "city": "Golden",
+      "state": "CO",
+      "zip": "80401"
+    },
+    {
+      "accountNumber": "304725019",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304753892",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304729859",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304751703",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304730099",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304733616",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304741785",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304765018",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304753753",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304753979",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304740776",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304741419",
+      "site": null,
+      "meter": null,
+      "address": "5706 Taber St",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304735401",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304741821",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304734974",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms St Unit Clubhouse",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    },
+    {
+      "accountNumber": "304754042",
+      "site": null,
+      "meter": null,
+      "address": "5705 Simms Street",
+      "city": "Arvada",
+      "state": "CO",
+      "zip": "80002"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "documentType": "contract",
+  "documentId": "document_159",
+  "contractStart": "2017-01-01",
+  "contractEnd": "2017-12-31",
+  "usageHistory": {
+    "2017-01": 646148.08,
+    "2017-02": 646148.08,
+    "2017-03": 646148.08,
+    "2017-04": 646148.08,
+    "2017-05": 646148.08,
+    "2017-06": 646148.08,
+    "2017-07": 646148.08,
+    "2017-08": 646148.08,
+    "2017-09": 646148.08,
+    "2017-10": 646148.08,
+    "2017-11": 646148.08,
+    "2017-12": 646148.08
+  },
+  "locations": [
+    {
+      "serviceAddress": "1840 International Parkway, Woodridge, IL 605174944",
+      "accountNumber": "4658029017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "637 Forestwood Dr., Unit A, Woodridge, IL",
+      "accountNumber": "0535033213",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "637 Forestwood Dr., Unit B, Woodridge, IL",
+      "accountNumber": "1956083141",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1533 W. Davey Rd, Woodridge, IL",
+      "accountNumber": "7926158033",
+      "meterNumber": null
+    }
+  ]
+}

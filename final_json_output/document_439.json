@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_439",
+  "statementDate": "2024-05-23",
+  "totalUsage": 48840,
+  "usageHistory": {
+    "2023-05": 48840,
+    "2023-06": 48840,
+    "2023-07": 48840,
+    "2023-08": 48840,
+    "2023-09": 48840,
+    "2023-10": 48840,
+    "2023-11": 48840,
+    "2023-12": 48840,
+    "2024-01": 48840,
+    "2024-02": 48840,
+    "2024-03": 48840,
+    "2024-04": 48840,
+    "2024-05": 48840
+  },
+  "locations": [
+    {
+      "serviceAddress": "COOPER SURGICAL 50 CORPORATE DR TRUMBULL, CT 06611",
+      "accountNumber": "010-0001432-6119",
+      "meterNumber": "3000000043480"
+    }
+  ]
+}

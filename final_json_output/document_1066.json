@@ -1,0 +1,66 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1066",
+  "statementDate": "January 12, 2023",
+  "totalUsage": {
+    "electric": 21600,
+    "gas": 112.4
+  },
+  "usageHistory": {
+    "2022-02": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-03": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-04": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-05": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-06": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-07": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-08": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-09": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-10": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-11": {
+      "electric": null,
+      "gas": null
+    },
+    "2022-12": {
+      "electric": 20600,
+      "gas": 125
+    },
+    "2023-01": {
+      "electric": 21600,
+      "gas": 112.4
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "1600 W GREEN ST, HASTINGS MI 49058-9717",
+      "accountNumber": "100092731510",
+      "meterNumber": null
+    }
+  ]
+}

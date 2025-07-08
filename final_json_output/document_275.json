@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_275",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 170,
+    "2024-01": 88,
+    "2024-02": 59,
+    "2024-03": 75,
+    "2024-04": 180,
+    "2024-05": 262,
+    "2024-06": null,
+    "2024-07": 345,
+    "2024-08": 402,
+    "2024-09": 329,
+    "2024-10": 279,
+    "2024-11": 240,
+    "2024-12": 198
+  },
+  "locations": [
+    {
+      "serviceAddress": "960 NORTON RO BERLIN GT 06637",
+      "accountNumber": "51064223068",
+      "meterNumber": "035153622"
+    }
+  ],
+  "totalUsage": 198
+}

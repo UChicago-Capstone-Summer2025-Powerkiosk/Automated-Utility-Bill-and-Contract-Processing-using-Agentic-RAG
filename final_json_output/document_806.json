@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_806",
+  "statementDate": "2022-05-26",
+  "totalUsage": 11520,
+  "usageHistory": {
+    "2021-05": 10483,
+    "2021-06": 11443,
+    "2021-07": 12083,
+    "2021-08": 12883,
+    "2021-09": 12243,
+    "2021-10": 10963,
+    "2021-11": 13363,
+    "2021-12": 14803,
+    "2022-01": 12723,
+    "2022-02": 12723,
+    "2022-03": 12243,
+    "2022-04": 12723,
+    "2022-05": 11603
+  },
+  "locations": [
+    {
+      "serviceAddress": "750 W 3RD ST, SHOT BLASTING PLANT, GALESBURG, IL 61401",
+      "accountNumber": "9255819217",
+      "meterNumber": "72792508"
+    }
+  ]
+}

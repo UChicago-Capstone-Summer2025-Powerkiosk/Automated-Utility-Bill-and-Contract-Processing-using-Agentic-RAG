@@ -1,0 +1,336 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_690",
+  "locations": [
+    {
+      "accountNumber": "018565243034"
+    },
+    {
+      "accountNumber": "0185651137410"
+    },
+    {
+      "accountNumber": "018565243033"
+    },
+    {
+      "accountNumber": "0185651135534"
+    },
+    {
+      "accountNumber": "018565243032"
+    },
+    {
+      "accountNumber": "0185651135535"
+    },
+    {
+      "accountNumber": "018565243030"
+    },
+    {
+      "accountNumber": "018565243031"
+    },
+    {
+      "accountNumber": "018565243017"
+    },
+    {
+      "accountNumber": "018565243027"
+    },
+    {
+      "accountNumber": "018565243018"
+    },
+    {
+      "accountNumber": "018565243029"
+    },
+    {
+      "accountNumber": "018565243019"
+    },
+    {
+      "accountNumber": "018565243028"
+    },
+    {
+      "accountNumber": "018565243020"
+    },
+    {
+      "accountNumber": "018565243026"
+    },
+    {
+      "accountNumber": "018565243021"
+    },
+    {
+      "accountNumber": "018565243025"
+    },
+    {
+      "accountNumber": "018565243022"
+    },
+    {
+      "accountNumber": "018565243023"
+    },
+    {
+      "accountNumber": "018565243024"
+    },
+    {
+      "accountNumber": "018565243013"
+    },
+    {
+      "accountNumber": "018565243035"
+    },
+    {
+      "accountNumber": "018565305628"
+    },
+    {
+      "accountNumber": "018565305612"
+    },
+    {
+      "accountNumber": "018565305610"
+    },
+    {
+      "accountNumber": "018565305600"
+    },
+    {
+      "accountNumber": "018565169317"
+    },
+    {
+      "accountNumber": "018565439311"
+    },
+    {
+      "accountNumber": "0185651135125"
+    },
+    {
+      "accountNumber": "018565169316"
+    },
+    {
+      "accountNumber": "018565169315"
+    },
+    {
+      "accountNumber": "018565439310"
+    },
+    {
+      "accountNumber": "018565169313"
+    },
+    {
+      "accountNumber": "018565439308"
+    },
+    {
+      "accountNumber": "018565169314"
+    },
+    {
+      "accountNumber": "018565169318"
+    },
+    {
+      "accountNumber": "018565174985"
+    },
+    {
+      "accountNumber": "018565175022"
+    },
+    {
+      "accountNumber": "018565175074"
+    },
+    {
+      "accountNumber": "018565175111"
+    },
+    {
+      "accountNumber": "0185651137360"
+    },
+    {
+      "accountNumber": "0185651137364"
+    },
+    {
+      "accountNumber": "0185651137363"
+    },
+    {
+      "accountNumber": "0185651137361"
+    },
+    {
+      "accountNumber": "018565142019"
+    },
+    {
+      "accountNumber": "0185651137362"
+    },
+    {
+      "accountNumber": "018565142048"
+    },
+    {
+      "accountNumber": "018565142035"
+    },
+    {
+      "accountNumber": "018565142028"
+    },
+    {
+      "accountNumber": "018565142020"
+    },
+    {
+      "accountNumber": "018565142021"
+    },
+    {
+      "accountNumber": "018565142037"
+    },
+    {
+      "accountNumber": "018565142047"
+    },
+    {
+      "accountNumber": "018565142038"
+    },
+    {
+      "accountNumber": "018565142046"
+    },
+    {
+      "accountNumber": "018565142039"
+    },
+    {
+      "accountNumber": "018565142040"
+    },
+    {
+      "accountNumber": "018565142041"
+    },
+    {
+      "accountNumber": "018565142045"
+    },
+    {
+      "accountNumber": "018565142042"
+    },
+    {
+      "accountNumber": "018565142043"
+    },
+    {
+      "accountNumber": "018565142044"
+    },
+    {
+      "accountNumber": "018565142022"
+    },
+    {
+      "accountNumber": "018565142027"
+    },
+    {
+      "accountNumber": "018565142026"
+    },
+    {
+      "accountNumber": "018565142024"
+    },
+    {
+      "accountNumber": "018565142025"
+    },
+    {
+      "accountNumber": "018565295130"
+    },
+    {
+      "accountNumber": "018565439605"
+    },
+    {
+      "accountNumber": "018565295128"
+    },
+    {
+      "accountNumber": "018565439603"
+    },
+    {
+      "accountNumber": "018565295126"
+    },
+    {
+      "accountNumber": "018565295125"
+    },
+    {
+      "accountNumber": "018565262153"
+    },
+    {
+      "accountNumber": "018565262202"
+    },
+    {
+      "accountNumber": "018565266541"
+    },
+    {
+      "accountNumber": "018565266543"
+    },
+    {
+      "accountNumber": "018565266526"
+    },
+    {
+      "accountNumber": "018565198043"
+    },
+    {
+      "accountNumber": "018565198885"
+    },
+    {
+      "accountNumber": "0185651137358"
+    },
+    {
+      "accountNumber": "018565143383"
+    },
+    {
+      "accountNumber": "018565439174"
+    },
+    {
+      "accountNumber": "0185651137367"
+    },
+    {
+      "accountNumber": "018565143379"
+    },
+    {
+      "accountNumber": "018565155488"
+    },
+    {
+      "accountNumber": "018565143386"
+    },
+    {
+      "accountNumber": "018565439177"
+    },
+    {
+      "accountNumber": "018565143380"
+    },
+    {
+      "accountNumber": "018565439173"
+    },
+    {
+      "accountNumber": "018565143385"
+    },
+    {
+      "accountNumber": "018565439176"
+    },
+    {
+      "accountNumber": "018565143381"
+    },
+    {
+      "accountNumber": "018565143384"
+    },
+    {
+      "accountNumber": "018565439175"
+    },
+    {
+      "accountNumber": "018565143382"
+    },
+    {
+      "accountNumber": "0185651137384"
+    },
+    {
+      "accountNumber": "018565408826"
+    },
+    {
+      "accountNumber": "018565408836"
+    },
+    {
+      "accountNumber": "0185651137370"
+    },
+    {
+      "accountNumber": "0185651137371"
+    },
+    {
+      "accountNumber": "0185651137378"
+    },
+    {
+      "accountNumber": "0185651137379"
+    },
+    {
+      "accountNumber": "0185651137380"
+    },
+    {
+      "accountNumber": "018565409262"
+    },
+    {
+      "accountNumber": "0185651137381"
+    },
+    {
+      "accountNumber": "0185651137383"
+    },
+    {
+      "accountNumber": "0185651137382"
+    }
+  ],
+  "statementDate": "NOT_FOUND",
+  "usageHistory": null,
+  "totalUsage": null
+}

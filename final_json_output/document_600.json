@@ -1,0 +1,25 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_600",
+  "statementDate": "May 11, 2023",
+  "usageHistory": {
+    "2022-05": 126600,
+    "2022-06": 140320,
+    "2022-07": 188800,
+    "2022-08": 140000,
+    "2022-09": 137600,
+    "2022-10": 132320
+  },
+  "locations": [
+    {
+      "serviceAddress": "2418 E 98557 SAL 336 RD, CRESTON OH 44217",
+      "accountNumber": "110049457713",
+      "meterNumber": "686311544"
+    },
+    {
+      "serviceAddress": "6658 ZIGLER RD, STERLING OH 44276",
+      "accountNumber": "110068609749"
+    }
+  ],
+  "totalUsage": 159480
+}

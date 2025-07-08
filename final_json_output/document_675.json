@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_675",
+  "statementDate": "06/13/23",
+  "usageHistory": {
+    "2022-06": 40,
+    "2022-07": 42,
+    "2022-08": 42,
+    "2022-09": 42,
+    "2022-10": 42,
+    "2022-11": 50,
+    "2022-12": 55,
+    "2023-01": 58,
+    "2023-02": 58,
+    "2023-03": 50,
+    "2023-04": 45,
+    "2023-05": 42,
+    "2023-06": 50
+  },
+  "locations": [
+    {
+      "serviceAddress": "07A E-MAIN ST UNIT OWNERS WEHIDEN CT 06450",
+      "accountNumber": "51207835026",
+      "meterNumber": "091882652"
+    }
+  ],
+  "totalUsage": 1310
+}

@@ -1,0 +1,46 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_161",
+  "statementDate": "2021-12-04",
+  "totalUsage": 642492.6,
+  "usageHistory": {
+    "2021-11": 642492.6
+  },
+  "locations": [
+    {
+      "serviceAddress": "Fitness Centre Building, 1 Paneham Road, Gosport, Hampshire, PO13 OAH",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "NG12R00487"
+    },
+    {
+      "serviceAddress": "Building 100, Fleetlands, Fareham Road, Gosport, Hampshire, PO13 OAA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "N012600725"
+    },
+    {
+      "serviceAddress": "Machine Shop 2, Fareham Road, Gosport, Hampshire, PO13 6AA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "N012K08464"
+    },
+    {
+      "serviceAddress": "Ebu Building, Fleetlands, Fareham Road, Gosport, Hampshire, PO13 0AA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "N612600716"
+    },
+    {
+      "serviceAddress": "Building 120, Fleetlands, Fareham Road, Boeport, Hampshire, PO13 0AA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "NO12K00715"
+    },
+    {
+      "serviceAddress": "110 Fleetlands, Fareham Road, Gosport, Hampshire, PO13 OAA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "NO12/020408"
+    },
+    {
+      "serviceAddress": "Masu Building, Fleetlands, Farnham Road, Gosport, Hampshire, P013 0AA",
+      "accountNumber": "2N2R2229",
+      "meterNumber": "NG11600717"
+    }
+  ]
+}

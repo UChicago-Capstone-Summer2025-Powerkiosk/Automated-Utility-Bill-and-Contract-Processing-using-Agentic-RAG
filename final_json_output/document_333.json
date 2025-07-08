@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_333",
+  "statementDate": "09/15/16",
+  "usageHistory": {
+    "2015-09": 820,
+    "2015-10": 640,
+    "2015-11": 460,
+    "2015-12": 280,
+    "2016-01": 100,
+    "2016-02": 0,
+    "2016-03": 0,
+    "2016-04": 0,
+    "2016-05": 0,
+    "2016-06": 0,
+    "2016-07": 1600,
+    "2016-08": 1600,
+    "2016-09": 2000
+  },
+  "locations": [
+    {
+      "serviceAddress": "6281 Regio Ave, Buena Park, CA 90620",
+      "accountNumber": "80769155",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1005 Blalock Hd, Houston, TX 77055",
+      "accountNumber": "012397",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 203712
+}

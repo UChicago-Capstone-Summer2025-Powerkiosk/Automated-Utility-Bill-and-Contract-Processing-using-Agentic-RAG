@@ -1,0 +1,139 @@
+{
+  "documentType": "contract",
+  "documentId": "document_923",
+  "contractStart": "2023-02-01",
+  "contractEnd": "2025-02-01",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "455 Brahms Way, Sunnyvale, CA 94087",
+      "accountNumber": "8459875005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1540 Southwest Expy, San Jose, CA 95126",
+      "accountNumber": "1454215842",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "6661077074",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "9119024416",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "9187314671",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1590 Southwest Expy, San Jose, CA 95126",
+      "accountNumber": "7451834567",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "8659214727",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "660 King St, San Francisco, CA 94107",
+      "accountNumber": "9430023979",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2045 W EL CAMINO REAL, Los Altos, CA 94022",
+      "accountNumber": "8963017194",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3602 Flora Vista Ave, Santa Clara, CA 95051",
+      "accountNumber": "2615049427",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "660 King St, San Francisco, CA 94107",
+      "accountNumber": "0986909077",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "20631 Forge Way BLDG 12, Cupertino, CA 95014",
+      "accountNumber": "6959470010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2 Cabot Ave, Santa Clara, CA 95051",
+      "accountNumber": "7335705005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "833 W El Camino Real, Sunnyvale, CA 94087",
+      "accountNumber": "4582809467",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "650 4th St, San Francisco, CA 94107",
+      "accountNumber": "9338412805",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3440 El Camino Real, Santa Clara, CA 95051",
+      "accountNumber": "7544475005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1530 Southwest Expy, San Jose, CA 95126",
+      "accountNumber": "7436376068",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3614 Flora Vista Ave, Santa Clara, CA 95051",
+      "accountNumber": "0923425143",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1560 Southwest Expy, San Jose, CA 95126",
+      "accountNumber": "1160623300",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10100 Torre Ave, Cupertino, CA 95014",
+      "accountNumber": "6292411005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "30 Buckingham Dr, Santa Clara, CA 95051",
+      "accountNumber": "2787450572",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1520 Southwest Expy, San Jose, CA 95126",
+      "accountNumber": "8834933230",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "4134614900",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 E Remington Dr, Sunnyvale, CA 94087",
+      "accountNumber": "4070617455",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2043 W El Camino, Los Altos, CA 94022",
+      "accountNumber": "7942834010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2045 W EL CAMINO REAL, Los Altos, CA 94022",
+      "accountNumber": "7297096010",
+      "meterNumber": null
+    }
+  ]
+}

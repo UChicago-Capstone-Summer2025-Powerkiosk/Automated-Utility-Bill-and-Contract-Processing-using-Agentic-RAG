@@ -1,0 +1,722 @@
+{
+  "documentType": "contract",
+  "documentId": "document_501",
+  "contractStart": "2025-01-01",
+  "contractEnd": "2026-12-31",
+  "usageHistory": {
+    "2025-01": 4427,
+    "2025-02": 4215,
+    "2025-03": 4559,
+    "2025-04": 4003,
+    "2025-05": 3666,
+    "2025-06": 3150,
+    "2025-07": 2959,
+    "2025-08": 2726,
+    "2025-09": 2780,
+    "2025-10": 3230,
+    "2025-11": 3667,
+    "2025-12": 4074,
+    "2026-01": 4427,
+    "2026-02": 4215,
+    "2026-03": 4559,
+    "2026-04": 4003,
+    "2026-05": 3666,
+    "2026-06": 3150,
+    "2026-07": 2959,
+    "2026-08": 2726,
+    "2026-09": 2780,
+    "2026-10": 3230,
+    "2026-11": 3667,
+    "2026-12": 4074
+  },
+  "locations": [
+    {
+      "accountNumber": "3592118603",
+      "address": "4300 The Woods Dr Bldg 2",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3597043846",
+      "address": "4300 The Woods Dr Bldg 4",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3594921199",
+      "address": "4300 The Woods Dr Bldg 7",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3597615844",
+      "address": "4300 The Woods Dr Bldg 9",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3590696528",
+      "address": "4300 The Woods Dr Bldg 12",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3596104033",
+      "address": "4300 The Woods Dr Bldg 14",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3598845840",
+      "address": "4300 The Woods Dr Bldg 18",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3592914733",
+      "address": "4300 The Woods Dr Bldg 20",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3599776005",
+      "address": "4300 The Woods Dr Bldg 20",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3598232095",
+      "address": "4300 The Woods Dr Bldg 24",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "3598355484",
+      "address": "4300 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0397712112",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0134323915",
+      "address": "4500 The Woods Dr BLDG 21",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0396064841",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0395044940",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346155",
+      "address": "4951 Cherry Ave APT 9",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0392040465",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0397984424",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0137253869",
+      "address": "4500 The Woods Dr BLDG 4",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0136389215",
+      "address": "4500 The Woods Dr BLDG 8",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0398037926",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0391053586",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0397430295",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0135839446",
+      "address": "4500 The Woods Dr BLDG 31",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "4736522937",
+      "address": "4951 CHERRY AVE LAUNDRY & REC CENTER",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "4736522183",
+      "address": "4951 CHERRY AVE POOL BOILER-GYM",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0398902408",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346130",
+      "address": "4951 Cherry Ave APT 14",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0390666251",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131862709",
+      "address": "4500 The Woods Dr BLDG 24",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0132832461",
+      "address": "4500 The Woods Dr BLDG 28",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0138672461",
+      "address": "4500 The Woods Dr BLDG 19",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131976558",
+      "address": "4500 The Woods Dr BLDG 17",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "4736522626",
+      "address": "4951 CHERRY AVE LAUNDRY ROOM BLDG #23",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131507247",
+      "address": "4500 The Woods Dr BLDG 2",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "5436943720",
+      "address": "4500 The Woods Dr BLDG POOL",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0397037581",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346180",
+      "address": "4951 Cherry Ave APT 7",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0138902868",
+      "address": "4500 The Woods Dr BLDG 12",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131818898",
+      "address": "4500 The Woods Dr BLDG 18",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0138639562",
+      "address": "4500 The Woods Dr BLDG 29",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0136152382",
+      "address": "4500 The Woods Dr BLDG 26",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131961891",
+      "address": "4500 The Woods Dr BLDG 14",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0133770998",
+      "address": "4500 The Woods Dr BLDG 30",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "9398507638",
+      "address": "4950 Cherry Ave APT 6",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0134836747",
+      "address": "4500 The Woods Dr BLDG 22",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0390774630",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0392966154",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131183016",
+      "address": "4500 The Woods Dr BLDG 6",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0134700551",
+      "address": "4500 The Woods Dr BLDG 15",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0130968027",
+      "address": "4500 The Woods Dr BLDG 5",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0130813029",
+      "address": "4500 The Woods Dr BLDG 20",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074678080",
+      "address": "4950 Cherry Ave APT 10",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0139071378",
+      "address": "4500 The Woods Dr BLDG 23",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074678130",
+      "address": "4950 Cherry Ave APT 17 RM Rec",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346050",
+      "address": "4951 CHERRY AVE HSE MTR 24-18-4",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0136550944",
+      "address": "4500 The Woods Dr BLDG 10",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0137845298",
+      "address": "4500 The Woods Dr BLDG 11",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0396590621",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346025",
+      "address": "4951 CHERRY AVE HSE MTR 1-2-3-5",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0132239956",
+      "address": "4500 The Woods Dr BLDG 9",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074678025",
+      "address": "4950 Cherry Ave APT 3",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0398704463",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0134960181",
+      "address": "4500 The Woods Dr BLDG 34",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346165",
+      "address": "4951 Cherry Ave # 10-12",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0396447036",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "9398507450",
+      "address": "4950 Cherry Ave APT 13",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0138670941",
+      "address": "4500 The Woods Dr BLDG 1",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0134570396",
+      "address": "4500 The Woods Dr BLDG 32",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0138010078",
+      "address": "4500 The Woods Dr BLDG 27",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0397892705",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0390205525",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0133964702",
+      "address": "4500 The Woods Dr BLDG 13",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0393217957",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0396394316",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0139873501",
+      "address": "4500 The Woods Dr BLDG 16",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0133112685",
+      "address": "4500 The Woods Dr BLDG 25",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "0396866477",
+      "address": "4400 The Woods Dr",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074768095",
+      "address": "4950 CHERRY AVE HSE MTR 12-13-15",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0131818949",
+      "address": "4500 The Woods Dr BLDG 33",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074678055",
+      "address": "4950 Cherry Ave APT 7",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0136939333",
+      "address": "4500 The Woods Dr BLDG 3",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    },
+    {
+      "accountNumber": "8116346085",
+      "address": "4951 CHERRY AVE HSE MTR 16-17-19-20",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "8110623892",
+      "address": "4951 Cherry Ave",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "2074678150",
+      "address": "4950 CHERRY AVE REC RM BOIL 2-14-16",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95118",
+      "meter": null
+    },
+    {
+      "accountNumber": "0135233019",
+      "address": "4500 The Woods Dr BLDG 7",
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95136",
+      "meter": null
+    }
+  ]
+}

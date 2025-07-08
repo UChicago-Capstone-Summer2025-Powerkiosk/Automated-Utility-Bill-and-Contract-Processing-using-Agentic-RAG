@@ -1,0 +1,17 @@
+{
+  "documentType": "contract",
+  "documentId": "document_389",
+  "contractStart": "2025-05-01",
+  "contractEnd": "2027-10-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1210 S Indiana Ave",
+      "city": "Chicago",
+      "state": "IL",
+      "zip": "60605-0605",
+      "accountNumber": "7731277948",
+      "meterNumber": null
+    }
+  ]
+}

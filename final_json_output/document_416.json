@@ -1,0 +1,58 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_416",
+  "statementDate": "04/14/2020",
+  "usageHistory": {
+    "2020-03": 24160,
+    "2020-04": 7920,
+    "2020-05": 46880,
+    "2020-06": 3640,
+    "2020-07": 4560,
+    "2020-08": 3360,
+    "2020-09": 5400,
+    "2020-10": 11680
+  },
+  "locations": [
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG C HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "83507048"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG G HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "3388908"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG GARAGE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "68875726"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG D HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "72565631"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG E HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "74842713"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG B HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "74843685"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG F HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "73453252"
+    },
+    {
+      "serviceAddress": "801 S CHERRY ST BLDG A HSE GLENDALE, CO 80246",
+      "accountNumber": "53-0012513594-9",
+      "meterNumber": "45005336"
+    }
+  ],
+  "totalUsage": 126815
+}

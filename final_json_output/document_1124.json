@@ -1,0 +1,20 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1124",
+  "statementDate": "Jul 20, 2017",
+  "totalUsage": 242000,
+  "usageHistory": {
+    "2017-06": 262000,
+    "2017-05": 186000,
+    "2017-04": 132000,
+    "2017-03": 172000,
+    "2017-02": 191000
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD POLE D24068 WESTFORD MA 01886",
+      "accountNumber": "85358-48023",
+      "meterNumber": null
+    }
+  ]
+}

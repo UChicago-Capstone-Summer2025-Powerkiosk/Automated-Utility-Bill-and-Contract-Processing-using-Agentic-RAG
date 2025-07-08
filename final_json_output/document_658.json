@@ -1,0 +1,94 @@
+{
+  "documentType": "contract",
+  "documentId": "document_658",
+  "contractStart": "2023-11-01",
+  "contractEnd": "2026-10-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "5788 Coventry Ln, Fort Wayne, IN, 46804",
+      "accountNumber": "396787008",
+      "meterNumber": "0904597"
+    },
+    {
+      "serviceAddress": "4510 N Clinton St, Fort Wayne, IN, 46825",
+      "accountNumber": "376787006",
+      "meterNumber": "9384358"
+    },
+    {
+      "serviceAddress": "670 Morthland Dr, Valparaiso, IN, 46385",
+      "accountNumber": "394187002",
+      "meterNumber": "1437162"
+    },
+    {
+      "serviceAddress": "6615 N Main St, Granger, IN, 46530",
+      "accountNumber": "114787001",
+      "meterNumber": "G0066497"
+    },
+    {
+      "serviceAddress": "8425 Broadway, Merrillville, IN, 46410",
+      "accountNumber": "147887007",
+      "meterNumber": "G0149971"
+    },
+    {
+      "serviceAddress": "1807 Rieth Blvd, Goshen, IN, 46526",
+      "accountNumber": "545587000",
+      "meterNumber": "7992187"
+    },
+    {
+      "serviceAddress": "2621 E Center St, Warsaw, IN, 46580",
+      "accountNumber": "566787004",
+      "meterNumber": "G0149787"
+    },
+    {
+      "serviceAddress": "6525 Lima Rd, Fort Wayne, IN, 46818",
+      "accountNumber": "552587003",
+      "meterNumber": "8092496"
+    },
+    {
+      "serviceAddress": "2225 N Oak Dr, Plymouth, IN, 46563",
+      "accountNumber": "925587000",
+      "meterNumber": "7992171"
+    },
+    {
+      "serviceAddress": "6211 US Highway 6, Portage, IN, 46368",
+      "accountNumber": "572787009",
+      "meterNumber": "9440837"
+    },
+    {
+      "serviceAddress": "602 Fairview Blvd, Kendallville, IN, 46755",
+      "accountNumber": "375187002",
+      "meterNumber": "0001025"
+    },
+    {
+      "serviceAddress": "330 Ridge Rd, Munster, IN, 46321",
+      "accountNumber": "722787009",
+      "meterNumber": "0904556"
+    },
+    {
+      "serviceAddress": "5414 Meijer Dr, Fort Wayne, IN, 46835",
+      "accountNumber": "776787006",
+      "meterNumber": "9407993"
+    },
+    {
+      "serviceAddress": "202 E Wendell Jacob Ave, Angola, IN, 46703",
+      "accountNumber": "195787006",
+      "meterNumber": "G0125884"
+    },
+    {
+      "serviceAddress": "507 Ley Dr, Auburn, IN, 46706",
+      "accountNumber": "166787008",
+      "meterNumber": "0001040"
+    },
+    {
+      "serviceAddress": "1150 E Ireland Rd, South Bend, IN, 46614",
+      "accountNumber": "357887007",
+      "meterNumber": "9285173"
+    },
+    {
+      "serviceAddress": "1100 W Broadway St, Monticello, IN, 47960",
+      "accountNumber": "7628980014",
+      "meterNumber": "G0364884"
+    }
+  ]
+}

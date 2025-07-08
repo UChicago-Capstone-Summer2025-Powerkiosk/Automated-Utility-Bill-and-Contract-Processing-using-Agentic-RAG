@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_613",
+  "statementDate": "July 22, 2024",
+  "usageHistory": {
+    "2023-07": "Low usage",
+    "2023-08": "Low usage",
+    "2023-09": "Low usage",
+    "2023-10": "Low usage",
+    "2023-11": "Moderate usage (Estimated)",
+    "2023-12": "High usage",
+    "2024-01": "Highest usage (Estimated)",
+    "2024-02": "Moderate usage",
+    "2024-03": "High usage (Estimated)",
+    "2024-04": "Moderate usage (Estimated)",
+    "2024-05": "Low usage (Estimated)",
+    "2024-06": "Low usage",
+    "2024-07": "Low usage"
+  },
+  "locations": [
+    {
+      "serviceAddress": "198 OLD BERGEN RD, JERSEY CITY NJ 07305",
+      "accountNumber": "6886055003",
+      "meterNumber": "9205842"
+    }
+  ],
+  "totalUsage": 18944
+}

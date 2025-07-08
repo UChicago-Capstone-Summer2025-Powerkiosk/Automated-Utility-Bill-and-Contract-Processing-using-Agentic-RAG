@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_667",
+  "statementDate": "06/09/23",
+  "usageHistory": {
+    "2022-06": 400,
+    "2022-07": 450,
+    "2022-08": 480,
+    "2022-09": 450,
+    "2022-10": 400,
+    "2022-11": 350,
+    "2022-12": 300,
+    "2023-01": 300,
+    "2023-02": 300,
+    "2023-03": 320,
+    "2023-04": 350,
+    "2023-05": 380,
+    "2023-06": 220
+  },
+  "locations": [
+    {
+      "serviceAddress": "25 E HIGH ST UNIT 1 EAST HAMPTON CT 06-24",
+      "accountNumber": "51063816078",
+      "meterNumber": "689052652"
+    }
+  ],
+  "totalUsage": 6895
+}

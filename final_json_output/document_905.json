@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_905",
+  "statementDate": "12/25/2019",
+  "totalUsage": 293694,
+  "usageHistory": {
+    "2019-12": 293694,
+    "2020-01": 293694,
+    "2020-02": 293694
+  },
+  "locations": [
+    {
+      "serviceAddress": "3223-41 S MICHIGAN AVE, CHICAGO, IL 60616-3816",
+      "accountNumber": "7283666-1",
+      "meterNumber": "230133292"
+    }
+  ]
+}

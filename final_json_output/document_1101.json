@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1101",
+  "statementDate": "2021-11-30",
+  "totalUsage": 1021,
+  "usageHistory": {
+    "2020-12": 36,
+    "2021-01": 36,
+    "2021-02": 36,
+    "2021-03": 36,
+    "2021-04": 36,
+    "2021-05": 36,
+    "2021-06": 36,
+    "2021-07": 36,
+    "2021-08": 36,
+    "2021-09": 36,
+    "2021-10": 36,
+    "2021-11": 36
+  },
+  "locations": [
+    {
+      "serviceAddress": "RR 1, ALLENWOOD, PA 17810",
+      "accountNumber": "23580-56007",
+      "meterNumber": "301375442"
+    },
+    {
+      "serviceAddress": "360 WHITE DEER RUN RD, ALLENWOOD, PA 17810",
+      "accountNumber": "23580-56007",
+      "meterNumber": "301375442"
+    }
+  ]
+}

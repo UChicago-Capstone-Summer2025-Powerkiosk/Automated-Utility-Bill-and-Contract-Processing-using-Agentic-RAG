@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_292",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2022-12": 3440,
+    "2023-01": 3280,
+    "2023-02": 3040,
+    "2023-03": 2960,
+    "2023-04": 2720,
+    "2023-05": 2160,
+    "2023-06": 2320,
+    "2023-07": 4400,
+    "2023-08": 4880,
+    "2023-09": 3200,
+    "2023-10": 2800,
+    "2023-11": 2480,
+    "2023-12": 3200
+  },
+  "locations": [
+    {
+      "serviceAddress": "600 SPRUCE BRUCK 80, RENSINSTON ET 06037",
+      "accountNumber": "51514223023",
+      "meterNumber": "895364862"
+    }
+  ],
+  "totalUsage": 3200
+}

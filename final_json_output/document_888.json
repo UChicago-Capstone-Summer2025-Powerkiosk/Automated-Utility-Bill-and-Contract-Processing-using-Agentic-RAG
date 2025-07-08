@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_888",
+  "statementDate": "2023-10-24",
+  "usageHistory": {
+    "2023-09": 163.541
+  },
+  "locations": [
+    {
+      "serviceAddress": "39 COLEMAN ST, WEST HAVEN, CT 06516",
+      "accountNumber": "050-0011379-9758",
+      "meterNumber": "798363"
+    }
+  ],
+  "totalUsage": 163.541
+}

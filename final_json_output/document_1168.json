@@ -1,0 +1,27 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1168",
+  "contractStart": "2019-02-01",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2019-02": 2077,
+    "2019-03": 2026,
+    "2019-04": 1410,
+    "2019-05": 883,
+    "2019-06": 2182,
+    "2019-07": 3029,
+    "2019-08": 2758,
+    "2019-09": 2158,
+    "2019-10": 1261,
+    "2019-11": 2134,
+    "2019-12": 2839,
+    "2020-01": 2780
+  },
+  "locations": [
+    {
+      "serviceAddress": "150 W. Maple St. Bldg",
+      "accountNumber": "060479072700002",
+      "meterNumber": null
+    }
+  ]
+}

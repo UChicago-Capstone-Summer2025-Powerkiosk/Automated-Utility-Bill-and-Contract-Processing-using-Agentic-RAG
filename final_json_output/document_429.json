@@ -1,0 +1,20 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_429",
+  "statementDate": "2020-01-08",
+  "usageHistory": {
+    "2019-12": 376800
+  },
+  "locations": [
+    {
+      "serviceAddress": "160 REMSEN ST ENT",
+      "accountNumber": "69-6041-3010-0001-7",
+      "meterNumbers": [
+        "008008257",
+        "001008252",
+        "001008257"
+      ]
+    }
+  ],
+  "totalUsage": 376800
+}

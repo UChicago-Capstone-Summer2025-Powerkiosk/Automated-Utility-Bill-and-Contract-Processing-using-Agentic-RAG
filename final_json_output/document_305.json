@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_305",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 965,
+    "2024-01": 1058,
+    "2024-02": 1028,
+    "2024-03": 1051,
+    "2024-04": 1094,
+    "2024-05": 993,
+    "2024-06": null,
+    "2024-07": 857,
+    "2024-08": 991,
+    "2024-09": 890,
+    "2024-10": 1215,
+    "2024-11": 1075,
+    "2024-12": 1067
+  },
+  "locations": [
+    {
+      "serviceAddress": "427 TOLE GATE 8B, BERLIN ET 06037",
+      "accountNumber": "51143023026",
+      "meterNumber": "890535372"
+    }
+  ],
+  "totalUsage": 1067
+}

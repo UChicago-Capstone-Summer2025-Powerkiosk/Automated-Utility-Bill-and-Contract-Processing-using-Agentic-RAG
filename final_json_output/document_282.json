@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_282",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2023-12": 55,
+    "2024-01": 65,
+    "2024-02": 65,
+    "2024-03": 65,
+    "2024-04": 65,
+    "2024-05": 65,
+    "2024-06": 65,
+    "2024-07": 65,
+    "2024-08": 80,
+    "2024-09": 80,
+    "2024-10": 65,
+    "2024-11": 65,
+    "2024-12": 55
+  },
+  "locations": [
+    {
+      "serviceAddress": "330 Southington Bo- Kensington ET 06037",
+      "accountNumber": "51793413097",
+      "meterNumber": "037200872"
+    }
+  ],
+  "totalUsage": 1809
+}

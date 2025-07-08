@@ -1,0 +1,22 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1020",
+  "statementDate": "NOT_FOUND",
+  "totalUsage": 34360,
+  "usageHistory": {
+    "2019-11": 26960,
+    "2020-11": 34360
+  },
+  "locations": [
+    {
+      "serviceAddress": "STANDARD AERO, 11420 MOSTELLER RD, CINCINNATI OH 45241",
+      "accountNumber": null,
+      "meterNumber": "108124188"
+    },
+    {
+      "serviceAddress": "STANDARD AERO, 11550 MOSTERLLAR RD, SHARONVILLE, OH 45241",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

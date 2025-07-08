@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_963",
+  "contractStart": "2018-01-23",
+  "contractEnd": "2019-01-23",
+  "usageHistory": {
+    "2018-01": 269067,
+    "2018-02": 218035,
+    "2018-03": 261770,
+    "2018-04": 242001,
+    "2018-05": 243571,
+    "2018-06": 244030,
+    "2018-07": 259339,
+    "2018-08": 269228,
+    "2018-09": 247949,
+    "2018-10": 232604,
+    "2018-11": 261262,
+    "2018-12": 285259
+  },
+  "locations": [
+    {
+      "accountNumber": "6154647053",
+      "serviceAddress": "502 Chestnut",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "7049511850",
+      "serviceAddress": "100 N. 24th Street",
+      "meterNumber": null
+    }
+  ]
+}

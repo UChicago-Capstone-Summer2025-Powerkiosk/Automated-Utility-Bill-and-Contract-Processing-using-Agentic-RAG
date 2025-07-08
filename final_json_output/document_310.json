@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_310",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 1916,
+    "2023-11": 1270,
+    "2023-10": 456,
+    "2023-09": 926,
+    "2023-08": 7460,
+    "2023-07": 7084,
+    "2023-06": 4358,
+    "2023-05": 660,
+    "2023-04": 420,
+    "2023-03": 741,
+    "2023-02": 622,
+    "2023-01": 633
+  },
+  "locations": [
+    {
+      "serviceAddress": "FERDIVAL AVE, KENSINGTON CT 06037",
+      "accountNumber": "51649213063",
+      "meterNumber": "891340282"
+    },
+    {
+      "serviceAddress": "FERDIVAL AVE, KENSINGTON CT 06037",
+      "accountNumber": "51649213063",
+      "meterNumber": "890245242"
+    }
+  ],
+  "totalUsage": 1916
+}

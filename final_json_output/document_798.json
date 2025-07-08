@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_798",
+  "statementDate": "05/24/23",
+  "usageHistory": {
+    "2023-05": "NOT_FOUND",
+    "2023-06": "NOT_FOUND",
+    "2023-07": "NOT_FOUND",
+    "2023-08": "NOT_FOUND",
+    "2023-09": "NOT_FOUND",
+    "2023-10": "NOT_FOUND",
+    "2023-11": "NOT_FOUND",
+    "2023-12": "NOT_FOUND",
+    "2024-01": "NOT_FOUND",
+    "2024-02": "NOT_FOUND",
+    "2024-03": "NOT_FOUND",
+    "2024-04": "NOT_FOUND",
+    "2024-05": "NOT_FOUND"
+  },
+  "locations": [
+    {
+      "serviceAddress": "100 GREAT MEADOW ROAD ASSOCIAT 100 GREAT MEADOW RD WETHERSFIELD CT 06109-2355",
+      "accountNumber": "51998285001",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": "NOT_FOUND"
+}

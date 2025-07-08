@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1145",
+  "statementDate": "2023-07-31",
+  "totalUsage": 52800,
+  "usageHistory": {
+    "2023-06": 52800
+  },
+  "locations": [
+    {
+      "serviceAddress": "5440 PEARL DR, EVANSVILLE, IN 47712",
+      "accountNumber": "01-300206652-1229301 3",
+      "meterNumber": "50559669"
+    }
+  ]
+}

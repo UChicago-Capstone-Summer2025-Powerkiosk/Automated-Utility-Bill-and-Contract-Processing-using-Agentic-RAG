@@ -1,0 +1,81 @@
+{
+  "documentType": "contract",
+  "documentId": "document_968",
+  "contractStart": "2018-12-01",
+  "contractEnd": "2021-12-01",
+  "usageHistory": {
+    "2018-12": 20100,
+    "2019-01": 20100,
+    "2019-02": 20100,
+    "2019-03": 20100,
+    "2019-04": 20100,
+    "2019-05": 20100,
+    "2019-06": 20100,
+    "2019-07": 20100,
+    "2019-08": 20100,
+    "2019-09": 20100,
+    "2019-10": 20100,
+    "2019-11": 20100,
+    "2019-12": 20100,
+    "2020-01": 20100,
+    "2020-02": 20100,
+    "2020-03": 20100,
+    "2020-04": 20100,
+    "2020-05": 20100,
+    "2020-06": 20100,
+    "2020-07": 20100,
+    "2020-08": 20100,
+    "2020-09": 20100,
+    "2020-10": 20100,
+    "2020-11": 20100,
+    "2020-12": 20100,
+    "2021-01": 20100,
+    "2021-02": 20100,
+    "2021-03": 20100,
+    "2021-04": 20100,
+    "2021-05": 20100,
+    "2021-06": 20100,
+    "2021-07": 20100,
+    "2021-08": 20100,
+    "2021-09": 20100,
+    "2021-10": 20100,
+    "2021-11": 20100
+  },
+  "locations": [
+    {
+      "serviceAddress": "4358 Mountain Rd (Hospitality)",
+      "accountNumber": "5767669708",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "R 10710 Beaver-Dam Rd (Hospitality)",
+      "accountNumber": "7685823807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "F 10710 Beaver-Dam Rd (Hospitality)",
+      "accountNumber": "1264145530",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "S 3400 Fort-Meade Rd (Hospitality)",
+      "accountNumber": "4305036724",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3400 Fort-Meade Rd (Hospitality)",
+      "accountNumber": "1728832042",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "S 1709 Edgewood Rd (Hospitality)",
+      "accountNumber": "8430703024",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "R 1709 Edgewood Rd (Hospitality)",
+      "accountNumber": "0762144529",
+      "meterNumber": null
+    }
+  ]
+}

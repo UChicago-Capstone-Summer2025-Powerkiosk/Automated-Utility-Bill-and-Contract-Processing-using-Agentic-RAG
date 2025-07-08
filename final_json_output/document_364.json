@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_364",
+  "statementDate": "2019-06-10",
+  "usageHistory": {
+    "2018-06": 12500,
+    "2018-08": 16900,
+    "2018-09": 19800,
+    "2018-10": 14000,
+    "2018-11": 9300,
+    "2018-12": 7700,
+    "2019-01": 6400,
+    "2019-02": 6400,
+    "2019-03": 6200,
+    "2019-04": 6200,
+    "2019-05": 11300,
+    "2019-06": 12700
+  },
+  "locations": [
+    {
+      "serviceAddress": "12428 WARWICK BLVD, NEWPORT NEWS VA 23606-3042",
+      "accountNumber": "7858332658",
+      "meterNumber": "0001555486"
+    }
+  ],
+  "totalUsage": 12700
+}

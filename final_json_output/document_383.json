@@ -1,0 +1,63 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_383",
+  "statementDate": "November 29, 2021",
+  "usageHistory": {
+    "2020-12": 390850,
+    "2021-01": 467192,
+    "2021-02": 407620,
+    "2021-03": 445807,
+    "2021-04": 384481,
+    "2021-05": 395147,
+    "2021-06": 445383,
+    "2021-07": 570138,
+    "2021-08": 619956,
+    "2021-09": 634747,
+    "2021-10": 686746,
+    "2021-11": 517996,
+    "2021-12": 397302
+  },
+  "locations": [
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230321181"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230322838"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230322839"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230323030"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230323076"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230323077"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230323086"
+    },
+    {
+      "serviceAddress": "BLDG 1210 S INDIANA AVE CHICAGO",
+      "accountNumber": "3886057015",
+      "meterNumber": "230345691"
+    }
+  ],
+  "totalUsage": 397302
+}

@@ -1,0 +1,64 @@
+{
+  "documentType": "contract",
+  "documentId": "document_799",
+  "contractStart": "2022-08-22",
+  "contractEnd": "2028-08-24",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "0570226251",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "0577066008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "519 Mcclure St UNIT G, Galesburg, IL 61401",
+      "accountNumber": "1316242016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "988 W 4th St, Galesburg, IL 61401",
+      "accountNumber": "1487102050",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "519 Mcclure St UNIT E, Galesburg, IL 61401",
+      "accountNumber": "2361528016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "3676580976",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "3708154045",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "4264598578",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "519 Mcclure St UNIT F, Galesburg, IL 61401",
+      "accountNumber": "6044180013",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1361 Monmouth Blvd, Galesburg, IL 61401",
+      "accountNumber": "7038480020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GALESBURG, IL 61401-5829",
+      "accountNumber": "9255819217",
+      "meterNumber": null
+    }
+  ]
+}

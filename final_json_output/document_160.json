@@ -1,0 +1,14 @@
+{
+  "documentType": "contract",
+  "documentId": "document_160",
+  "contractStart": "2018-01-01",
+  "contractEnd": "2018-12-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1840 International Parkway Woodridge, IL 60517",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

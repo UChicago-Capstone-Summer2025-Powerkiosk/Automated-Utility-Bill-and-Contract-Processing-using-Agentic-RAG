@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1130",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-04": 2656,
+    "2022-05": 2127,
+    "2022-06": 1514,
+    "2022-07": 1564,
+    "2022-08": 1390,
+    "2022-09": 1512,
+    "2022-10": 1376,
+    "2022-11": 1746,
+    "2022-12": 3068,
+    "2023-01": 3917,
+    "2023-02": 3413,
+    "2023-03": 2849,
+    "2023-04": 2966
+  },
+  "locations": [
+    {
+      "serviceAddress": "706 W Lincoln Way, Mohawaka IN 46544-1804",
+      "accountNumber": null,
+      "meterNumber": "7992076"
+    }
+  ],
+  "totalUsage": 2966
+}

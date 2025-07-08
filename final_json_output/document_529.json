@@ -1,0 +1,93 @@
+{
+  "documentType": "contract",
+  "documentId": "document_529",
+  "contractStart": "2023-05-01",
+  "contractEnd": "2027-04-30",
+  "usageHistory": {
+    "2023-05": 2372,
+    "2023-06": 1819,
+    "2023-07": 1617,
+    "2023-08": 1755,
+    "2023-09": 1492,
+    "2023-10": 2201,
+    "2023-11": 3588,
+    "2023-12": 5248,
+    "2024-01": 6637,
+    "2024-02": 7196,
+    "2024-03": 4540,
+    "2024-04": 3734,
+    "2024-05": 2372,
+    "2024-06": 1819,
+    "2024-07": 1617,
+    "2024-08": 1755,
+    "2024-09": 1492,
+    "2024-10": 2201,
+    "2024-11": 3588,
+    "2024-12": 5248,
+    "2025-01": 6637,
+    "2025-02": 7196,
+    "2025-03": 4540,
+    "2025-04": 3734,
+    "2025-05": 2372,
+    "2025-06": 1819,
+    "2025-07": 1617,
+    "2025-08": 1755,
+    "2025-09": 1492,
+    "2025-10": 2201,
+    "2025-11": 3588,
+    "2025-12": 5248,
+    "2026-01": 6637,
+    "2026-02": 7196,
+    "2026-03": 4540,
+    "2026-04": 3734,
+    "2026-05": 2372,
+    "2026-06": 1819,
+    "2026-07": 1617,
+    "2026-08": 1755,
+    "2026-09": 1492,
+    "2026-10": 2201,
+    "2026-11": 3588,
+    "2026-12": 5248,
+    "2027-01": 6637,
+    "2027-02": 7196,
+    "2027-03": 4540,
+    "2027-04": 3734
+  },
+  "locations": [
+    {
+      "serviceAddress": "750 W 3rd St",
+      "utilityAccountNumber": "0503265021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1100 W 4th St",
+      "utilityAccountNumber": "0577066008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "998 W 4th St",
+      "utilityAccountNumber": "1487102050",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "961 Abingdon St",
+      "utilityAccountNumber": "4334047004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "519 Mcclure St",
+      "utilityAccountNumber": "6427236014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1360 Monmouth Blvd",
+      "utilityAccountNumber": "7038480020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "750 W 3rd St",
+      "utilityAccountNumber": "9262673003",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_850",
+  "statementDate": "2024-06-04",
+  "usageHistory": {
+    "2023-01": 33659,
+    "2023-02": 34709,
+    "2023-03": 41901,
+    "2023-04": 38299,
+    "2023-05": 32504,
+    "2023-06": 27211,
+    "2023-07": 27815,
+    "2023-08": 29194,
+    "2023-09": 24598,
+    "2023-10": 32520,
+    "2023-11": 26714,
+    "2023-12": 27755,
+    "2024-01": 36210
+  },
+  "locations": [
+    {
+      "serviceAddress": "4999 Oldorchard Unit C22, Skokie, IL 60077",
+      "accountNumber": "7676009000",
+      "meterNumber": "230230425"
+    },
+    {
+      "serviceAddress": "1017 North Hooker Street, Chicago, IL 60642-4305",
+      "accountNumber": "7676009000",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 36210
+}

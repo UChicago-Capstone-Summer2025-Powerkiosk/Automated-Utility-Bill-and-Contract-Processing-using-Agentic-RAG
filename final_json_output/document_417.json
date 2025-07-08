@@ -1,0 +1,51 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_417",
+  "statementDate": "04/17/2020",
+  "totalUsage": 45300,
+  "usageHistory": {
+    "2020-03": 45300
+  },
+  "locations": [
+    {
+      "serviceAddress": "2525 WEWATTA WAY",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "10012405"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT G-MDP",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "75496533"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT L-MDP",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "74842833"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT HP-2",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "74842742"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT HP-1",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "71418970"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT HP-3",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "71418990"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT HP-4",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "69852236"
+    },
+    {
+      "serviceAddress": "2525 WEWATTA WAY UNIT GAS MTR B",
+      "accountNumber": "53-0011936069-8",
+      "meterNumber": "10812422"
+    }
+  ]
+}

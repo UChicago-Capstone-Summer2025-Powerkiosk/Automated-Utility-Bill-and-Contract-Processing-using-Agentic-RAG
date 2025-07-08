@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_698",
+  "statementDate": "07/03/2019",
+  "totalUsage": 237.0,
+  "usageHistory": {
+    "2019-06": 237.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "119 LEGION DR, SIGN, SPARTA, IL 62286",
+      "accountNumber": "0993168111",
+      "meterNumber": "72262317"
+    }
+  ]
+}

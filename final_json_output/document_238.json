@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_238",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2023-12": 308,
+    "2023-01": 280,
+    "2023-02": 193,
+    "2023-03": 237,
+    "2023-04": 218,
+    "2023-05": 195,
+    "2023-06": 224,
+    "2023-07": 199,
+    "2023-08": 240,
+    "2023-09": 193,
+    "2023-10": 249,
+    "2023-11": 253
+  },
+  "locations": [
+    {
+      "serviceAddress": "STILLMEADOW LN LOT 9/22 KENSINGTON OT 06037",
+      "accountNumber": "51525123097",
+      "meterNumber": "883807602"
+    }
+  ],
+  "totalUsage": 308
+}

@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_42",
+  "statementDate": "Aug 14, 2020",
+  "totalUsage": null,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "45 E 12TH ST, OSWEGO NY 13126-1633",
+      "accountNumber": "62813-38150",
+      "meterNumber": null
+    }
+  ]
+}

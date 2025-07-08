@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_482",
+  "statementDate": "04/27/23",
+  "usageHistory": {
+    "2022-04": 250,
+    "2022-05": 300,
+    "2022-06": 350,
+    "2022-07": 450,
+    "2022-08": 450,
+    "2022-09": 400,
+    "2022-10": 350,
+    "2022-11": 300,
+    "2022-12": 250,
+    "2023-01": 250,
+    "2023-02": 250,
+    "2023-03": 250,
+    "2023-04": 375
+  },
+  "locations": [
+    {
+      "serviceAddress": "1060 WILBRAMAM RD, SPRINGEIELO MA 01109",
+      "accountNumber": "54426708053",
+      "meterNumber": "894514452"
+    }
+  ],
+  "totalUsage": 11609
+}

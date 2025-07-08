@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_296",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 459,
+    "2024-01": 513,
+    "2024-02": 350,
+    "2024-03": 408,
+    "2024-04": 362,
+    "2024-05": 303,
+    "2024-06": 308,
+    "2024-07": 148,
+    "2024-08": 292,
+    "2024-09": 277,
+    "2024-10": 344,
+    "2024-11": 388,
+    "2024-12": 422
+  },
+  "locations": [
+    {
+      "serviceAddress": "WILSON AVE, EAST BERLIN ET 06023",
+      "accountNumber": "51407123082",
+      "meterNumber": "803647172"
+    }
+  ],
+  "totalUsage": 422
+}

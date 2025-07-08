@@ -1,0 +1,63 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_272",
+  "statementDate": "01/02/24",
+  "totalUsage": 304,
+  "usageHistory": {
+    "2023-12": 304,
+    "2024-01": 298,
+    "2024-02": 251,
+    "2024-03": 250,
+    "2024-04": 214,
+    "2024-05": 193,
+    "2024-06": 173,
+    "2024-07": 185,
+    "2024-08": 207,
+    "2024-09": 230,
+    "2024-10": 267,
+    "2024-11": 284,
+    "2024-12": 304
+  },
+  "locations": [
+    {
+      "serviceAddress": "240 KENSINGTON RD STE 2, KENSINGTON CT 06037-2655",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "STREETLIGHTS, BERLIN CT 06037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 OLD FARM FL, BERLIN CT 06080",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "STREETLIGHTS BERLIN BY 06037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 CHOLESSUCH BERLIN BY 06000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 LOWEVER OF BERLIN ET 00000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 DIMMALS KENDRITOR: ET 00000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "SPRING VALLEY OR BERLIN GT 08037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    }
+  ]
+}

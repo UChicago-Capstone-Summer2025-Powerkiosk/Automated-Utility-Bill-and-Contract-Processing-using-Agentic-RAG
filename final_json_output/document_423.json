@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_423",
+  "statementDate": "2024-01-26",
+  "usageHistory": {
+    "2023-01": 532895,
+    "2023-02": 425000,
+    "2023-03": 425000,
+    "2023-04": 362500,
+    "2023-05": 362500,
+    "2023-06": 362500,
+    "2023-07": 487500,
+    "2023-08": 425000,
+    "2023-09": 425000,
+    "2023-10": 362500,
+    "2023-11": 425000,
+    "2023-12": 425000,
+    "2024-01": 532895
+  },
+  "locations": [
+    {
+      "serviceAddress": "12840 S PULASKI RD, ALSIP, IL 60803-1917",
+      "accountNumber": "0640166043",
+      "meterNumber": "230129022"
+    },
+    {
+      "serviceAddress": "12840 S PULASKI RD, ALSIP, IL 60803-1917",
+      "accountNumber": "0640166043",
+      "meterNumber": "230130460"
+    },
+    {
+      "serviceAddress": "12840 S PULASKI RD, ALSIP, IL 60803-1917",
+      "accountNumber": "0640166043",
+      "meterNumber": "272143126"
+    }
+  ],
+  "totalUsage": 532895
+}

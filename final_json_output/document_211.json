@@ -1,0 +1,42 @@
+{
+  "documentType": "contract",
+  "documentId": "document_211",
+  "contractStart": "5/2/2019",
+  "contractEnd": "5/2/2020",
+  "usageHistory": {
+    "2019-01": 1073162,
+    "2019-02": 1057784,
+    "2019-03": 1018758,
+    "2019-04": 923302,
+    "2019-05": 558706,
+    "2019-06": 433262,
+    "2019-07": 437982,
+    "2019-08": 436717,
+    "2019-09": 394774,
+    "2019-10": 496497,
+    "2019-11": 783813,
+    "2019-12": 1017327
+  },
+  "locations": [
+    {
+      "accountNumber": "7320522028",
+      "serviceAddress": "5040-42 W GLINCY ST",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "6310282043",
+      "serviceAddress": "1249 S FARFIELD",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "7332813202",
+      "serviceAddress": "1606 N KINHTOR AVIL BLDG",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "5722557016",
+      "serviceAddress": "819-21 S INDEPENDENCE BLV",
+      "meterNumber": null
+    }
+  ]
+}

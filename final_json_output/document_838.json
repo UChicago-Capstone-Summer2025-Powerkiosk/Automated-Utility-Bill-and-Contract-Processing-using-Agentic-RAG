@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_838",
+  "statementDate": "2024-06-10",
+  "usageHistory": {
+    "2023-06": 28761,
+    "2023-07": 32950,
+    "2023-08": 37496,
+    "2023-09": 40080,
+    "2023-10": 27665,
+    "2023-11": 22708,
+    "2023-12": 23551,
+    "2024-01": 24812,
+    "2024-02": 21711,
+    "2024-03": 28672,
+    "2024-04": 21336,
+    "2024-05": 15776,
+    "2024-06": 31904
+  },
+  "locations": [
+    {
+      "serviceAddress": "705 Village-Center Dr *Bldg Burr Ridge, IL 60527",
+      "accountNumber": "8589525111",
+      "meterNumber": "230214279"
+    },
+    {
+      "serviceAddress": "705 Village-Center Dr *Bldg Burr Ridge, IL 60527",
+      "accountNumber": "8589525111",
+      "meterNumber": "230223337"
+    }
+  ],
+  "totalUsage": 31904
+}

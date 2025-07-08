@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1028",
+  "statementDate": "2022-06-01",
+  "usageHistory": {
+    "2021-05": 21818,
+    "2021-06": 24935,
+    "2021-07": 28052,
+    "2021-08": 24935,
+    "2021-09": 21818,
+    "2021-10": 18702,
+    "2021-11": 15585,
+    "2021-12": 18702,
+    "2022-01": 21818,
+    "2022-02": 24935,
+    "2022-03": 21818,
+    "2022-04": 24935,
+    "2022-05": 21818
+  },
+  "locations": [
+    {
+      "serviceAddress": "11550 MOSTELLER RD, CINCINNATI OH 45241-1832",
+      "accountNumber": "910119000402",
+      "meterNumber": "108030785"
+    },
+    {
+      "serviceAddress": "11400 MOSTELLER RD, CINCINNATI OH 45241",
+      "accountNumber": "910119000402",
+      "meterNumber": "577202"
+    }
+  ],
+  "totalUsage": 21594.28
+}

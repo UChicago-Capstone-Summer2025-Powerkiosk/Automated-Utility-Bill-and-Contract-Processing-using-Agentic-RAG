@@ -1,0 +1,17 @@
+Peak,3344 kWh,,13594
+Intermed,2225 kWh,$=$,kWh used
+Off Peak,8025 kWh,,
+ELECTRIC SUPPLY,,,"\$1,128.66"
+"CONSTELLATION NEW ENERGY, INC",,,"1,128.66"
+BGE ELECTRIC DELIVERY,,,\$489.86
+Customer Charge,,,88.00
+EmPower MD Chg,13594 kWh,$x$,.00279
+Distribution Chg,13594 kWh,$x$,.01631
+Delivery Svc Demand,38 kW,$x$,3.66
+ERI Initiative Chg,13594 kWh,$x$,.00023
+TAXES \& FEES,,,
+MD Universal Svc Prog,,,
+Envir Srchg,13594 kWh,$x$,.00015
+Franchise Tax,13594 kWh,$x$,.00062
+State Tax,,,
+TOTAL,,,"\$1,677.66"

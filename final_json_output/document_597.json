@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_597",
+  "statementDate": "01/19/18",
+  "usageHistory": {
+    "2017-12": 1908,
+    "2018-01": 3816
+  },
+  "locations": [
+    {
+      "serviceAddress": "470 N Wildwood Ave Kankakee",
+      "accountNumber": "71-09-81-3753 3",
+      "meterNumber": "3561464"
+    }
+  ],
+  "totalUsage": 3816
+}

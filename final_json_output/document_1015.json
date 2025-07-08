@@ -1,0 +1,128 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1015",
+  "contractStart": "2023-12-30",
+  "contractEnd": "2027-12-30",
+  "usageHistory": {
+    "2024-01": 121634,
+    "2024-02": 151815,
+    "2024-03": 164736,
+    "2024-04": 193999,
+    "2024-05": 205873,
+    "2024-06": 128547,
+    "2024-07": 221066,
+    "2024-08": 220972,
+    "2024-09": 292485,
+    "2024-10": 516028,
+    "2024-11": 249070,
+    "2024-12": 177644,
+    "2025-01": 149193,
+    "2025-02": 146439,
+    "2025-03": 164736,
+    "2025-04": 193999,
+    "2025-05": 205152,
+    "2025-06": 128997,
+    "2025-07": 221066,
+    "2025-08": 218440,
+    "2025-09": 263915,
+    "2025-10": 516028,
+    "2025-11": 247805,
+    "2025-12": 178593,
+    "2026-01": 148640,
+    "2026-02": 146439,
+    "2026-03": 165354,
+    "2026-04": 193999,
+    "2026-05": 204431,
+    "2026-06": 129448,
+    "2026-07": 222104,
+    "2026-08": 218440,
+    "2026-09": 263915,
+    "2026-10": 512440,
+    "2026-11": 249070,
+    "2026-12": 178593,
+    "2027-01": 148087,
+    "2027-02": 146438,
+    "2027-03": 165973,
+    "2027-04": 193999,
+    "2027-05": 204431,
+    "2027-06": 129448,
+    "2027-07": 220027,
+    "2027-08": 220972,
+    "2027-09": 263915,
+    "2027-10": 508853,
+    "2027-11": 250334,
+    "2027-12": 178464
+  },
+  "locations": [
+    {
+      "serviceAddress": "319 Factory St Whse #182 Cold Storage",
+      "accountNumber": "000499147296",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 Madison Ave #1 No 1 Sampler",
+      "accountNumber": "001123635003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "118 Factory St FS-Warehouse 14",
+      "accountNumber": "001133622504",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Adams St Truck Scale Office",
+      "accountNumber": "002043775002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy",
+      "accountNumber": "003744109442",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy Rear Warehouse/Plant",
+      "accountNumber": "004183069972",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy #New",
+      "accountNumber": "005485709546",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Warwick St Warehouse No 5",
+      "accountNumber": "005983730002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31380 General Thomas Hwy",
+      "accountNumber": "007299668926",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "301 Mill St Warehouse 822/823",
+      "accountNumber": "007533717505",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "612 Madison Ave 8Whee Electrical Room",
+      "accountNumber": "007552867744",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "612 Madison Ave",
+      "accountNumber": "007633632505",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "118 Factory St Whse4-5/Parker Coldstor",
+      "accountNumber": "007713555006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Madison Ave Pond Cold Storage",
+      "accountNumber": "007739176456",
+      "meterNumber": null
+    }
+  ]
+}

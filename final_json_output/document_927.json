@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_927",
+  "statementDate": "12/06/2022",
+  "totalUsage": 1792.0,
+  "usageHistory": {
+    "2021-12": 0,
+    "2022-01": 0,
+    "2022-02": 0,
+    "2022-03": 0,
+    "2022-04": 0,
+    "2022-05": 0,
+    "2022-06": 0,
+    "2022-07": 0,
+    "2022-08": 0,
+    "2022-09": 0,
+    "2022-10": 0,
+    "2022-11": 0,
+    "2022-12": 1792.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "660 KING ST, SAN FRANCISCO, CA 94107",
+      "accountNumber": "9431943360-6",
+      "meterNumber": "54606937"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_626",
+  "statementDate": "12/14/22",
+  "usageHistory": {
+    "2022-11": 256805
+  },
+  "locations": [
+    {
+      "serviceAddress": "1555 UNIVERSITY BLVD, ROUND ROCK TX",
+      "accountNumber": "1591184",
+      "meterNumber": "134293723LG"
+    }
+  ],
+  "totalUsage": 256805
+}

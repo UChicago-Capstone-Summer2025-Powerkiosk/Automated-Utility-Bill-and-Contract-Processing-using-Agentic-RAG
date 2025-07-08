@@ -1,0 +1,54 @@
+{
+  "documentType": "contract",
+  "documentId": "document_497",
+  "contractStart": "2023-06-26",
+  "contractEnd": "2025-06-25",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1805 COLLINGWOOD BLVD, TOLEDO, OH 43604-5009",
+      "accountNumber": "08007426802080093496",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2445 MONROE ST, TOLEDO, OH 43620-1517",
+      "accountNumber": "08007426802240024064",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "701 W Grove PL, Toledo, OH 43620",
+      "accountNumber": "08007426802520093855",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1838 PARKWOOD AVE, TOLEDO, OH 43604-6059",
+      "accountNumber": "08007426802530093561",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "801 W Grove PI, Toledo, OH 99999",
+      "accountNumber": "08007426802790009415",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "521 W WOODRUFF AVE, TOLEDO, OH 43604-5028",
+      "accountNumber": "08007426802980093729",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2444 MONROE ST, TOLEDO, OH 43620-1516",
+      "accountNumber": "08007426805000143372",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2444 MONROE ST, TOLEDO, OH 43620-1516",
+      "accountNumber": "08007426805000143378",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2445 Monroe St Garden, Toledo, OH 43620",
+      "accountNumber": "08007426805001363684",
+      "meterNumber": null
+    }
+  ]
+}

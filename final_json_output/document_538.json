@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_538",
+  "statementDate": "2024-08-08",
+  "usageHistory": {
+    "2023-07": 401851,
+    "2023-08": 21177,
+    "2023-09": 42354,
+    "2023-10": 63531,
+    "2023-11": 84708,
+    "2023-12": 0,
+    "2024-01": 0,
+    "2024-02": 0,
+    "2024-03": 0,
+    "2024-04": 0,
+    "2024-05": 0,
+    "2024-06": 0,
+    "2024-07": 0
+  },
+  "locations": [
+    {
+      "serviceAddress": "3465 HAUCK RD, CINCINNATI OH 45241",
+      "accountNumber": "910117724619",
+      "meterNumber": "326438283"
+    }
+  ],
+  "totalUsage": 401851
+}

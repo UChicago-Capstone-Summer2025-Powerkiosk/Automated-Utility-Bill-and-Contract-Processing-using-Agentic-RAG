@@ -1,0 +1,24 @@
+{
+  "documentType": "contract",
+  "documentId": "document_797",
+  "contractStart": "2023-12-04",
+  "contractEnd": "2027-12-03",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "100 GREAT MEADOW RD, WETHERSFIELD, CT 06109-2355",
+      "accountNumber": "51827575028185761008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Great Meadow Rd, Weathersfield, CT 06109-2378",
+      "accountNumber": "51876285065710114007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "100 GREAT MEADOWRD, WETHERSFIELD, CT 061092355",
+      "accountNumber": "51998285001403861005",
+      "meterNumber": null
+    }
+  ]
+}

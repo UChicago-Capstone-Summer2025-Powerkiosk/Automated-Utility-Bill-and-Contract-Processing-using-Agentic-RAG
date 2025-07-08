@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_156",
+  "statementDate": "September 23, 2016",
+  "usageHistory": {
+    "2016-02": 2338,
+    "2016-03": 2546,
+    "2016-04": 3251,
+    "2016-05": 3337,
+    "2016-06": 2591,
+    "2016-07": 3279,
+    "2016-08": 3745,
+    "2016-09": 3025
+  },
+  "locations": [
+    {
+      "serviceAddress": "637 FORESTWOOD DR UNIT A ROMEOVILLE",
+      "accountNumber": "0535033213",
+      "meterNumber": "141791464"
+    },
+    {
+      "serviceAddress": "637 FORESTWOOD DR UNIT B ROMEOVILLE",
+      "accountNumber": "1956083141",
+      "meterNumber": "141822064"
+    }
+  ],
+  "totalUsage": 3025
+}

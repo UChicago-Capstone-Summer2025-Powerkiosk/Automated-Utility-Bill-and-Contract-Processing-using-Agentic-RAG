@@ -1,0 +1,21 @@
+{
+  "documentType": "contract",
+  "documentId": "document_164",
+  "contractStart": "2023-10-01",
+  "contractEnd": "2025-09-30",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "Fleetlands, Fareham Road, Gosport, Hampshire, PO13 0AA",
+      "accountNumber": "60126956",
+      "meterNumbers": [
+        "2000051623597",
+        "2000051624583",
+        "2000052849863",
+        "2000051623611",
+        "2000051623602",
+        "2000051623649"
+      ]
+    }
+  ]
+}

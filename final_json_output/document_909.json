@@ -1,0 +1,27 @@
+{
+  "documentType": "contract",
+  "documentId": "document_909",
+  "contractStart": "First Available",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2023-01": 181200,
+    "2023-02": 207600,
+    "2023-03": 209400,
+    "2023-04": 201000,
+    "2023-05": 280800,
+    "2023-06": 286200,
+    "2023-07": 312600,
+    "2023-08": 337200,
+    "2023-09": 261600,
+    "2023-10": 220200,
+    "2023-11": 229800,
+    "2023-12": 211800
+  },
+  "locations": [
+    {
+      "serviceAddress": "282 WARREN PIGWY STE 200, FRISCO, TX 75034",
+      "accountNumber": "104443720008945142",
+      "meterNumber": null
+    }
+  ]
+}

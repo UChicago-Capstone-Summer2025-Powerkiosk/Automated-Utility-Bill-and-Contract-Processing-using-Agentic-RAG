@@ -1,0 +1,141 @@
+{
+  "documentType": "contract",
+  "documentId": "document_141",
+  "contractStart": "2023-06",
+  "contractEnd": "2026-06",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1107 W ROSAMOND PKWY FIELD ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720000774024",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "00401 S SHIRLEY AVE ANNA, TX 754090000",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720001003966",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 E 7TH ST ANNA, TX 754093300",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720001003997",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "01008 S RIGGINS ODLT BLL ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720001432231",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1008 S RIGGINS UNIT SCBRD ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720001432262",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "00000 @FBALL FLD E-SIDE ANNA, TX 754090000",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720001432448",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 E 7TH ST GRDL ANNA, TX 754093300",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720004484499",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "GUARD LIGHTS GRDL ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720006006746",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1008 S RIGGINS BARN AG ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720006480178",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6011 S SHERLEY AVE GYM ANNA, TX 754093631",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720006547665",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "601 N SHERLEY AVE BLDG ANNA, TX 754093530",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720007349697",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "01430 COUNTY ROAD 371 ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720007975075",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "601 N SHERLEY AVE ROOM CAFET ANNA, TX 754093530",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720008268351",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1221 S FERGUSON PKWY ANNA, TX 75409-4514",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720008524612",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "01201 N POWELL PKWY STE A ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720008641699",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "01201 N POWELL PKWY STE B ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720008646225",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "912 S RIGGINS ST CONC ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720009255964",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1201 N POWELL PKWY HSMT FIELD ANNA, TX 754092580",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720009493812",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1201 N POWELL PKWY ANNA, TX 75409-2580",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720009534732",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "501 S SHERLEY AVE BARN BUS ANNA, TX 754093596",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720009790621",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1107 W ROSAMOND PKWY ANNA, TX 75409",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720009152331",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1107 W ROSAMOND PKWY BLDG B ANNA, TX 754095380",
+      "billingAddress": "501 S SHERLEY AVE ANNA, TX 75409",
+      "accountNumber": "10443720006741196",
+      "meterNumber": null
+    }
+  ]
+}

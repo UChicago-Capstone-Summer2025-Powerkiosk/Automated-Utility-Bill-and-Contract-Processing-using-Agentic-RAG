@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_271",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2022-12": 200,
+    "2023-01": 700,
+    "2023-02": 700,
+    "2023-03": 600,
+    "2023-04": 400,
+    "2023-05": 100,
+    "2023-06": 100,
+    "2023-07": 100,
+    "2023-08": 100,
+    "2023-09": 100,
+    "2023-10": 100,
+    "2023-11": 100,
+    "2023-12": 240
+  },
+  "locations": [
+    {
+      "serviceAddress": "500 SPRUCE BROOK RD, KENSINGTON, CT 06037",
+      "accountNumber": "51150168045",
+      "meterNumber": "890479502"
+    },
+    {
+      "serviceAddress": "300 SPRUGE BRUOK RD, RENSUNGTON GT 06037",
+      "accountNumber": "51150168045",
+      "meterNumber": "890479502"
+    }
+  ],
+  "totalUsage": 240
+}

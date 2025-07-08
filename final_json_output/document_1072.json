@@ -1,0 +1,39 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1072",
+  "statementDate": "2023-01-03",
+  "usageHistory": {
+    "2021-02": null,
+    "2021-03": null,
+    "2021-04": null,
+    "2021-05": null,
+    "2021-06": null,
+    "2021-07": null,
+    "2021-08": null,
+    "2021-09": null,
+    "2021-10": null,
+    "2021-11": null,
+    "2021-12": null,
+    "2022-01": 114,
+    "2022-02": null,
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": null,
+    "2023-01": 114
+  },
+  "locations": [
+    {
+      "serviceAddress": "6500 N NEWBURGH RD WESTLAND MI 48185-1993",
+      "accountNumber": "103046146314",
+      "meterNumber": "97395035"
+    }
+  ],
+  "totalUsage": 114
+}

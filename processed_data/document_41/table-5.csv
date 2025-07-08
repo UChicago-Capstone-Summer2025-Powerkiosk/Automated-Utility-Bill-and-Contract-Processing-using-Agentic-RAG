@@ -1,0 +1,16 @@
+,Energy,Demand
+Metered Usage,564276 kWh,828.9 kW
+Billed Usage,564276 kWh,828.9 kW
+METER NUMBER 11135719,NETT SCHEDULED READ DATE ON OR ABOUT Dec 1,
+SERVICE PERIOD Sep 26 - Oct 27,NUMBER OF DAYS IN PERIOD 32,METERING TYPE Secondary
+RATE Electric SC3,voltage delivery level,$0-2.2 \mathrm{kV}$
+TRANSFORMER OWNERSHIP,,
+Customer,,487.50
+Demand,11.819375,$\times 828.9 \mathrm{~kW}$
+SBC,0.005491,$\times 564276 \mathrm{kWh}$
+Legacy Transition Chrg,0.001636,$\times 564276 \mathrm{kWh}$
+Transmission Rev Adj,0.001,$\times 564276 \mathrm{kWh}$
+RDM,0.7,$\times 828.9 \mathrm{~kW}$
+Tariff Surcharge,1.0101\%,
+Sales Tax,8.0\%,"1,248.51"
+,Total Delivery Services,"\$ 16,855.26"

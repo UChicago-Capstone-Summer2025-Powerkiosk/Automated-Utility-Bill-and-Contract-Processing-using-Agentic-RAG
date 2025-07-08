@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_98",
+  "statementDate": "03/06/2023",
+  "usageHistory": {
+    "2022-03": 7350,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": null,
+    "2023-01": null,
+    "2023-02": null,
+    "2023-03": 7350
+  },
+  "locations": [
+    {
+      "serviceAddress": "40 JYTEK DR, LEOMINSTER MA 014535982",
+      "accountNumber": "99615",
+      "meterNumber": "2617064018"
+    }
+  ],
+  "totalUsage": 7350
+}

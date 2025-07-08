@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_672",
+  "statementDate": "05/23/23",
+  "usageHistory": {
+    "2022-05": 9155,
+    "2022-06": 10259,
+    "2022-07": 12000,
+    "2022-08": 11570,
+    "2022-09": 11495,
+    "2022-10": 9284,
+    "2022-11": 9061,
+    "2022-12": 9827,
+    "2023-01": 8211,
+    "2023-02": 8259,
+    "2023-03": 7877,
+    "2023-04": 10205,
+    "2023-05": 9151
+  },
+  "locations": [
+    {
+      "serviceAddress": "800 PORTLAND COBALT RD UNIT F, PORTLAND CT 06480",
+      "accountNumber": "51889806022",
+      "meterNumber": "890296462"
+    }
+  ],
+  "totalUsage": 9151
+}

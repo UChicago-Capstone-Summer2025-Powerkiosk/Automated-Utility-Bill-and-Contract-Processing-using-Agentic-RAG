@@ -1,0 +1,57 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_997",
+  "statementDate": "2019-09-09",
+  "usageHistory": {
+    "2018-09": 49800,
+    "2018-10": 58560,
+    "2018-11": 47760,
+    "2018-12": 35280,
+    "2019-01": 39440,
+    "2019-03": 32080,
+    "2019-04": 39120,
+    "2019-05": 42800,
+    "2019-06": 40560,
+    "2019-07": 60800,
+    "2019-08": 51280,
+    "2019-09": 47200
+  },
+  "locations": [
+    {
+      "serviceAddress": "319 FACTORY ST, SUFFOLK, VA 23434",
+      "accountNumber": "0499147296",
+      "meterNumber": "0004750903"
+    },
+    {
+      "serviceAddress": "600 MADISON AVE, SUFFOLK, VA 23434",
+      "accountNumber": "1123635003",
+      "meterNumber": "0200063717"
+    },
+    {
+      "serviceAddress": "118 FACTORY ST, SUFFOLK, VA 23434",
+      "accountNumber": "1133622504",
+      "meterNumber": "0004965747"
+    },
+    {
+      "serviceAddress": "118 FACTORY ST, SUFFOLK, VA 23434",
+      "accountNumber": "1143587507",
+      "meterNumber": "0119843483"
+    },
+    {
+      "serviceAddress": "ADAMS ST, SUFFOLK, VA 23434",
+      "accountNumber": "2043775002",
+      "meterNumber": "0165214163"
+    },
+    {
+      "serviceAddress": "615 MADISON AVE, SUFFOLK, VA 23434",
+      "accountNumber": "4664596956",
+      "meterNumber": "0084204649"
+    },
+    {
+      "serviceAddress": "COUNTY ST, SUFFOLK, VA 23434",
+      "accountNumber": "4843717507",
+      "meterNumber": "0165213791"
+    }
+  ],
+  "totalUsage": 47200
+}

@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_27",
+  "statementDate": "08/09/2022",
+  "totalUsage": "NOT_FOUND",
+  "usageHistory": {
+    "2021-09": "NOT_FOUND",
+    "2021-10": "NOT_FOUND",
+    "2021-11": "NOT_FOUND",
+    "2021-12": "NOT_FOUND",
+    "2022-01": "NOT_FOUND",
+    "2022-02": "NOT_FOUND",
+    "2022-03": "NOT_FOUND",
+    "2022-04": "NOT_FOUND",
+    "2022-05": "NOT_FOUND",
+    "2022-06": "NOT_FOUND",
+    "2022-07": "NOT_FOUND",
+    "2022-08": "NOT_FOUND"
+  },
+  "locations": [
+    {
+      "serviceAddress": "720 Fairmont Avenue Pasadena CA 91105",
+      "accountNumber": "18242092001503",
+      "meterNumber": null
+    }
+  ]
+}

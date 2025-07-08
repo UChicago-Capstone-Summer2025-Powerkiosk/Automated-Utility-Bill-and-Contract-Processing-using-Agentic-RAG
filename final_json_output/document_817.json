@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_817",
+  "statementDate": "06-01-22",
+  "usageHistory": {
+    "2021-12": 117054.6
+  },
+  "locations": [
+    {
+      "serviceAddress": "H & S Aviation Ltd, Robirson Way, Portsmouth, PO3 5TH",
+      "accountNumber": "A-0015743",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 117054.6
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_732",
+  "statementDate": "2025-01-24",
+  "usageHistory": {
+    "2024-01": 488,
+    "2024-02": 426,
+    "2024-03": 396,
+    "2024-04": 463,
+    "2024-05": 405,
+    "2024-06": 1708,
+    "2024-07": 2308,
+    "2024-08": 434,
+    "2024-09": 443,
+    "2024-10": 425,
+    "2024-11": 451,
+    "2024-12": 498,
+    "2025-01": 484
+  },
+  "locations": [
+    {
+      "serviceAddress": "2 EIRGIES ST, EAST HARTFORD CT 05108",
+      "accountNumber": "51878842046",
+      "meterNumber": "889990392"
+    }
+  ],
+  "totalUsage": 484
+}

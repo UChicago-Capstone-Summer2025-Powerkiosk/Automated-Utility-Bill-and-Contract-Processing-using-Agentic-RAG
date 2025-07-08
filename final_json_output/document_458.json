@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_458",
+  "statementDate": "2022-10-19",
+  "totalUsage": 3593,
+  "usageHistory": {
+    "2022-08": 3774,
+    "2022-09": 3593
+  },
+  "locations": [
+    {
+      "serviceAddress": "1624 East Carson Street, Carson, CA 90745-0000",
+      "accountNumber": "161-401-5100",
+      "meterNumber": null
+    }
+  ]
+}

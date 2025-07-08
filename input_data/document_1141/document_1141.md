@@ -1,0 +1,149 @@
+Contact Us
+Phone
+Customer Service
+1-888-689-8665
+7 A.M. - 4 P.M. CT Mon. - Fri
+Emergency Service 24/7
+1-800-634-3524
+For gas leaks or odor of gas
+1-888-689-8665
+Report electric lines down or power outage
+
+Pay by credit/debit card Call 1-855-763-6277 (Payments convenience fee will apply)
+
+For hearing-impaired TDD
+1-800-635-0952
+
+Web
+Make payments and access your account at NIPSCO.com
+
+## Mail Payments
+
+NIPSCO
+P.O. BOX 13007
+
+Merrillville, IN 46411-3007
+Authorized Payment Locations
+First locations online at NIPSCO.com
+
+## Your Safety
+
+## Report a Power Outage
+
+To report an electric power outage, call us or visit NIPSCO.com/OutageCenter.
+
+## Gas Safety
+
+In case of an emergency, such as odor of gas, carbon monoxide or fire:
+
+1. Leave the building or area immediately.
+2. Leave windows and doors in their positions and avoid doing anything that could cause a spark.
+3. From a safe place, away from the building or area, call 911 and NIPSCO at 1-800-6343324.
+
+Always Call 8-1-1 Before You Dig
+If you're planning a home or landscaping project, call Indiana 811 at least two business days before digging. A representative will mark the approximate location of underground utility lines for free.
+
+## 11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+
+Employee Identification
+All our employees and contractors carry photo identification. Ask to see it before allowing anyone who claims to be a utility representative into your home. Call the police if you see suspicious activity.
+
+## Helpful Definitions
+
+## Gas Service Definitions
+
+Gas Delivery Charges are the costs of delivering gas to retail customers. The charges for these services are regulated and these services must be purchased from the local distribution company.
+Therm (thm) is equal to 100,000 Btus and is the basic billing unit for gas.
+
+## Electric Service Definitions
+
+Customer Charges cover basic costs associated with providing service.
+Energy Use Charges are calculated based on your monthly usage. Fuel Charges incurred in the generation and acquisition of electricity are passed through to customers without markup.
+Kilowatt-Hour (kwh) is equal to 1,000 watts used for one hour and is the basic billing unit for electricity.
+DG Billing Credit - Dollar credit determined by multiplying the energy delivered by the Marginal DG Price.
+
+## Legal Notices
+
+Rate Schedule information is available upon request and at NIPSCO.com.
+
+## Change Contact Information
+
+By providing NIPSCO a telephone number, it enables us to call you about your utility service, future service appointments and other important information pertaining to your account and you're agreeing to receive autodialed and prerecorded voice calls. Please notify us if you wish to opt out or if you no longer use this number. Thank you in advance.
+
+## 13 Month Gas Usage History
+
+| 420 |  |  |  |  |  |  | Actual |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| 350 |  |  |  |  |  |  |  |
+| 350 W Lincoln Ave |  |  |  |  |  |  |  |
+| Goshen IN 46526-2416 |  |  |  |  |  |  |  |
+| Meter Readings - 31 Billing Days |  |  |  |  |  |  |  |
+| Actual Reading on 05/04 |  | 2,646 | 2,646 |  |  |  |  |
+| Actual Reading on 04/03 |  | 2,680 | 2,646 |  |  |  |  |
+| Difference |  | 1728 |  |  |  |  |  |
+| Convection Factor |  | 1,3270 |  |  |  |  |  |
+| Gas Used (Ccf) |  |  | 3,294 |  |  |  |  |
+| Conversion to Therms |  |  | 1,025 |  |  |  |  |
+| Total Gas Used (Thermo) |  | 2,380.5 |  |  |  |  |  |
+
+## 13 Month Electric Usage History
+
+| kwh | Actual |
+| :-- | :--: |
+| 52147 |  |
+| 2810 |  |
+| 26224 |  |
+| 13037 |  |
+| 0 |  |
+| May | July |
+| 33 | 20 |
+| 2022 | 20 |
+
+
+|  |  | Usage Comparison - kwh |  |  |  |  |  |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+|  |  | Month | kwh | Avg Temp | kwh Per Day |  |  |
+|  |  | May 22 | 31.440 | 48.6 | 1248.0 |  |  |
+|  |  | Apr 23 | 33,600 | 37.8 | 1,200.0 |  |  |
+|  |  | May 23 | 34,080 | 49.2 | 1,099.4 |  |  |
+|  |  | Your next scheduled meter reading date is between 06/05/2023 - 06/07/2023. |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |  |
+| Difference |  | 142 |  |  |  |  |  |
+| Constant |  | 240 |  |  |  |  |  |
+| Electric Used (kwh) |  | 34,080 |  |  |  |  |  |
+| Maximum Demand (kw) |  | 96.00 |  |  |  |  |  |
+| Total Billing Demand (kw) |  | 96.00 |  |  |  |  |  |
+
+## Message Board
+
+- Take the seasonal highs and lows out by dividing your yearly energy use into 12 equal monthly payments - for budgeting that's a whole lot easier. Learn more at NIPSCO.com/BudgetPlan.
+- Never worry about missing a payment or writing a check again by enrolling in Automatic Payment today at NIPSCO.com.
+
+Detail Charges
+Charges for Gen Serv Gas-Small Htg CHOICE - Rate 221
+NIPSCO
+Delivery Charges ..... $\$ 549.26$
+Total Charges for Gas Service This Period ..... $+\$ 549.26$
+Charges for Fixed Price Per Therm - Rate 34300
+Archer Energy
+Gas Supply ..... $\$ 1,705.71$
+Interstate Transportation and Storage Charges ..... $\$ 0.00$
+Total Charges for Service This Period ..... $+\$ 1,705.71$
+
+- This meter is Indiana sales tax exempt.
+- Your gas supplier Archer Energy can be contacted at 1-844-795-7491.
+Charges for General Service Elec Medium - Rate 823
+Energy Use Charges ..... $\$ 3,015.47$
+Demand Charge ..... $\$ 1,227.98$
+Cost of Fuel Adjustment ..... $\$ 152.58$
+Resource Adequacy Adjustment ..... $\$ 25.80$
+RTO Adjustment Charge ..... $\$ 112.87$
+Demand Side Management ..... $\$ 211.30$
+Federally Mandated Cost Adjustment ..... $\$ 0.00$
+TDSIC Ele Sys Improvement ..... $\$ 203.76$
+Indiana Sales Tax ..... $\$ 342.87$
+Total Charges for Electric Service This Period ..... $+\$ 5,241.03$
+Total Current Utility Charges ..... $\$ 7,496.00$
+

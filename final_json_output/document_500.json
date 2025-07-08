@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_500",
+  "statementDate": "February 09, 2023",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "248 MORRIS ST, TOLEDO OH 43630",
+      "accountNumber": "110018317575",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

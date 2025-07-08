@@ -1,0 +1,37 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1052",
+  "statementDate": "Sep 25, 2018",
+  "totalUsage": 198353,
+  "usageHistory": {
+    "2017-10": 85,
+    "2017-11": 70,
+    "2017-12": 80,
+    "2018-01": 90,
+    "2018-02": 85,
+    "2018-03": 80,
+    "2018-04": 60,
+    "2018-05": 55,
+    "2018-06": 70,
+    "2018-07": 90,
+    "2018-08": 100,
+    "2018-09": 100
+  },
+  "locations": [
+    {
+      "serviceAddress": "Various",
+      "accountNumber": "8200050244",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Empire South Prop LLC, 219 LITTLETON RD POLE D24068 WESTFORD, MA 01886",
+      "accountNumber": "8200050244",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Empire South Prop LLC, 219 LITTLETON RD POLE 92 WESTFORD, MA 01886",
+      "accountNumber": "8200050244",
+      "meterNumber": null
+    }
+  ]
+}

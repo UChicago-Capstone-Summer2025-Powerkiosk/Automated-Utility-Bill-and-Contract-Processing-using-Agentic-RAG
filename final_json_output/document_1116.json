@@ -1,0 +1,87 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1116",
+  "contractStart": "2018-06-01",
+  "contractEnd": "2019-05-31",
+  "usageHistory": {
+    "2018-01": 21227,
+    "2018-02": 21227,
+    "2018-03": 21227,
+    "2018-04": 21227,
+    "2018-05": 21227,
+    "2018-06": 21227,
+    "2018-07": 21227,
+    "2018-08": 21227,
+    "2018-09": 21227,
+    "2018-10": 21227,
+    "2018-11": 21227,
+    "2018-12": 21227,
+    "2019-01": 21227,
+    "2019-02": 21227,
+    "2019-03": 21227,
+    "2019-04": 21227,
+    "2019-05": 21227
+  },
+  "locations": [
+    {
+      "serviceAddress": "2 MIDDLENECK RD, ROSLYN, NY, 11576-1348",
+      "accountNumber": "2976025002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2014 NORTHERN BLVD, MANHASSET, NY, 11030-3540",
+      "accountNumber": "1938238004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2014 NORTHERN BLVD, MANHASSET, NY, 11030-3540",
+      "accountNumber": "0716045000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2110 NOTHERN BLVD STE 2, MANHASSET, NY, 11030",
+      "accountNumber": "5664109009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2110 NORTHERN BLVD UNIT C, MANHASSET, NY, 11030",
+      "accountNumber": "4419708002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1305 OLD NORTHERN BLVD, ROSLYN, NY, 11576-1624",
+      "accountNumber": "7934645009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1295 OLD NORTHERN BLVD, ROSLYN, NY, 11576-1624",
+      "accountNumber": "9181454007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 WHEATLEY PLZ STR 768, GREENVALE, NY, 11548",
+      "accountNumber": "5508556004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 WHEATLEY PLZ, GREENVALE, NY, 11548-1326",
+      "accountNumber": "6754291002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "272 E MEADOW AVE# 2, E MEADOW, NY, 11554-2437",
+      "accountNumber": "4373336008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "272 E MEADOW AVE# 1, E MEADOW, NY, 11554-2437",
+      "accountNumber": "3130277005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "284 E MEADOW AVE, E MEADOW, NY, 11554-2437",
+      "accountNumber": "6862953004",
+      "meterNumber": null
+    }
+  ]
+}

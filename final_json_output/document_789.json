@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_789",
+  "statementDate": "2023-08-10",
+  "usageHistory": {
+    "2022-08": 22324,
+    "2022-09": 23572,
+    "2022-10": 19969,
+    "2022-11": 19285,
+    "2022-12": 26865,
+    "2023-01": 27630,
+    "2023-02": 25362,
+    "2023-03": 24691,
+    "2023-04": 24038,
+    "2023-05": 21820,
+    "2023-06": 24684,
+    "2023-07": 23330,
+    "2023-08": 23228
+  },
+  "locations": [
+    {
+      "serviceAddress": "7600 W ROOSEVELT RD, LIGHTING FOREST PARK",
+      "accountNumber": "3451167019",
+      "meterNumber": "230217569"
+    },
+    {
+      "serviceAddress": "7600 W ROOSEVELT RD, LIGHTING FOREST PARK",
+      "accountNumber": "3451167019",
+      "meterNumber": "230253139"
+    },
+    {
+      "serviceAddress": "7600 W ROOSEVELT RD, LIGHTING FOREST PARK",
+      "accountNumber": "3451167019",
+      "meterNumber": "230275855"
+    }
+  ],
+  "totalUsage": 23228
+}

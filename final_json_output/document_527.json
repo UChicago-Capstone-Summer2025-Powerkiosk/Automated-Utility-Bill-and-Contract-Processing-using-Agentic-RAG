@@ -1,0 +1,19 @@
+{
+  "documentType": "contract",
+  "documentId": "document_527",
+  "contractStart": "2021-07",
+  "contractEnd": "2024-07",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "640 N LASALLE ST, CHICAGO, IL 60610",
+      "accountNumber": "1430286008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "640 N LASALLE ST,, CHICAGO, IL 60610",
+      "accountNumber": "1430287005",
+      "meterNumber": null
+    }
+  ]
+}

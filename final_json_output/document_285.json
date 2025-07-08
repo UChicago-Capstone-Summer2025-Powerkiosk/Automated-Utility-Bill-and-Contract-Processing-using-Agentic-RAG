@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_285",
+  "statementDate": "12/20/23",
+  "usageHistory": {
+    "2023-12": 43,
+    "2024-01": 0,
+    "2024-02": 38,
+    "2024-03": 0,
+    "2024-04": 33,
+    "2024-05": 29,
+    "2024-06": 26,
+    "2024-07": 0,
+    "2024-08": 29,
+    "2024-09": 0,
+    "2024-10": 37,
+    "2024-11": 40,
+    "2024-12": 43
+  },
+  "locations": [
+    {
+      "serviceAddress": "143 PERCIVAL AVE KENSIMPTON 0706037",
+      "accountNumber": "51562313031",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 43
+}

@@ -1,0 +1,24 @@
+Payment Details,,,,,
+Payment Received,DATE,,AMOUNT,,
+,"November 21, 2016",,\$765.29,,
+Electric Seizure Non-Residential Sillian Dataft Data Zone,,,,,11/08/2016 - 12/07/2016 (31 days)
+Electric Meter Road for 11/08/2016 - 12/07/2016 (31 days),,,,,
+READ TYPE,METER NUMBER,CURRENT METER READ,PREVIOUS METER READ,READ DIFFERENCE,MULTIPLIER,USAGE
+Total kWh,06610261,5374.0000 Actual,6313.0000 Actual,61.0000,160.0000,9760.0000
+Usage Summary,,,,,,
+Total kWh,,9760.0000,Non-Summer kWh,,,9760.0000
+Electric Delivery,CHARGE DESCRIPTION,,USAGE UNIT,,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,,\$31.13
+DS-2 Small General Delivery,Mater Charge,,,,,\$8.37
+Service,Distribution Delivery Charge Non-Summer,"2,000.00",kWh,@ \$ 0.02158000,,\$43.12
+,Distribution Delivery Charge Non-Summer,"7,760.00",kWh,@ \$ 0.01107000,,\$85.90
+,Electric Environmental Adjustment,"0,760.00",kWh,@ \$ 0.00014840,,$\$ - 1.45$
+,Energy Efficiency Demand Response,"0,760.00",kWh,@ \$ 0.00441000,,\$43.04
+,,,,Electric Delivery,,\$210.11
+Electric Supply,SUPPLIER ENERGY CHARGES,"9,760.00",kWh,@ \$ 0.05060000,,\$403.86
+AEP Energy,,,,Electric Supply,,\$403.86
+Taxes and Other Fees,Alten Municipal Tax,,,,,\$4.86
+,Illinois State Electricity Excise Tax,,,,,\$31.35
+,EDT Cost Recovery,,,,,\$13.90
+,,,,Total Tax Related Fees,,\$46.91
+,,,Total Electric Charges,,,\$753.88

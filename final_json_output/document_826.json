@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_826",
+  "statementDate": "2024-06-21",
+  "usageHistory": {
+    "2023-01": 41635,
+    "2023-02": 44799,
+    "2023-03": 57355,
+    "2023-04": 51820,
+    "2023-05": 48285,
+    "2023-06": 44693,
+    "2023-07": 39440,
+    "2023-08": 42166,
+    "2023-09": 36986,
+    "2023-10": 46719,
+    "2023-11": 37008,
+    "2023-12": 42823,
+    "2024-01": 40998
+  },
+  "locations": [
+    {
+      "serviceAddress": "164 E Grand Ave Bldg Chicago, IL 60611",
+      "accountNumber": null,
+      "meterNumber": "230204022"
+    }
+  ],
+  "totalUsage": 40998
+}

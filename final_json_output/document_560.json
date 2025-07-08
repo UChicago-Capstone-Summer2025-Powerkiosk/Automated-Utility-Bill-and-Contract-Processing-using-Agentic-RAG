@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_560",
+  "statementDate": "2020-07-07",
+  "usageHistory": {
+    "2020-07": 13560,
+    "2020-08": 18560,
+    "2020-09": 18880,
+    "2020-10": 18120,
+    "2020-11": 11520,
+    "2020-12": 12360,
+    "2021-01": 12800,
+    "2021-02": 14400,
+    "2021-03": 13440,
+    "2021-04": 9800,
+    "2021-05": 5760,
+    "2021-06": 6840,
+    "2021-07": 13560
+  },
+  "locations": [
+    {
+      "serviceAddress": "800 RANGE LN REAR, EAST SAINT LOUIS, IL 62206",
+      "accountNumber": "8311009511",
+      "meterNumber": "723901123"
+    },
+    {
+      "serviceAddress": "800 RANGE LN REAR, EAST SAINT LOUIS, IL 62206",
+      "accountNumber": "8311009511",
+      "meterNumber": "723901125"
+    }
+  ],
+  "totalUsage": 13560
+}

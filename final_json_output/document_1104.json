@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1104",
+  "statementDate": "12/8/21",
+  "totalUsage": 7620,
+  "usageHistory": {
+    "2020-12": 450,
+    "2021-01": 600,
+    "2021-02": 700,
+    "2021-03": 500,
+    "2021-04": 350,
+    "2021-05": 300,
+    "2021-06": 350,
+    "2021-07": 450,
+    "2021-08": 400,
+    "2021-09": 350,
+    "2021-10": 350,
+    "2021-11": 350
+  },
+  "locations": [
+    {
+      "serviceAddress": "53 NW END AVE, LANCASTER, PA 17603",
+      "accountNumber": "92391-15004",
+      "meterNumber": "300512990"
+    }
+  ]
+}

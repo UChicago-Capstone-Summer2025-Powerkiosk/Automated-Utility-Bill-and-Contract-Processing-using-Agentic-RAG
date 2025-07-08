@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_713",
+  "statementDate": "2022-01-07",
+  "usageHistory": {
+    "2021-12": 303653.9
+  },
+  "locations": [
+    {
+      "serviceAddress": "Almondbank, Perth, PH1 3NQ",
+      "accountNumber": "2N2R2222",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 303653.9
+}

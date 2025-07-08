@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_486",
+  "statementDate": "04/26/23",
+  "usageHistory": {
+    "2022-04": 320,
+    "2022-05": 370,
+    "2022-06": 400,
+    "2022-07": 450,
+    "2022-08": 440,
+    "2022-09": 400,
+    "2022-10": 350,
+    "2022-11": 320,
+    "2022-12": 320,
+    "2023-01": 320,
+    "2023-02": 310,
+    "2023-03": 310,
+    "2023-04": 350
+  },
+  "locations": [
+    {
+      "serviceAddress": "3065 MAIN ST, SPRINGFIELD MA 01107",
+      "accountNumber": "54513008078",
+      "meterNumber": "033319292"
+    }
+  ],
+  "totalUsage": 11610
+}

@@ -1,0 +1,373 @@
+{
+  "documentType": "contract",
+  "documentId": "document_432",
+  "contractStart": "2022-10-01",
+  "contractEnd": "2026-09-30",
+  "usageHistory": {
+    "2022-10": 3673,
+    "2022-11": 4411,
+    "2022-12": 5846,
+    "2023-01": 5974,
+    "2023-02": 5768,
+    "2023-03": 5792,
+    "2023-04": 4381,
+    "2023-05": 3171,
+    "2023-06": 2729,
+    "2023-07": 2281,
+    "2023-08": 2212,
+    "2023-09": 2087,
+    "2023-10": 3673,
+    "2023-11": 4411,
+    "2023-12": 5846,
+    "2024-01": 5974,
+    "2024-02": 5768,
+    "2024-03": 5792,
+    "2024-04": 4381,
+    "2024-05": 3171,
+    "2024-06": 2729,
+    "2024-07": 2281,
+    "2024-08": 2212,
+    "2024-09": 2087,
+    "2024-10": 3673,
+    "2024-11": 4411,
+    "2024-12": 5846,
+    "2025-01": 5974,
+    "2025-02": 5768,
+    "2025-03": 5792,
+    "2025-04": 4381,
+    "2025-05": 3171,
+    "2025-06": 2729,
+    "2025-07": 2281,
+    "2025-08": 2212,
+    "2025-09": 2087,
+    "2025-10": 3673,
+    "2025-11": 4411,
+    "2025-12": 5846,
+    "2026-01": 5974,
+    "2026-02": 5768,
+    "2026-03": 5792,
+    "2026-04": 4381,
+    "2026-05": 3171,
+    "2026-06": 2729,
+    "2026-07": 2281,
+    "2026-08": 2212,
+    "2026-09": 2087
+  },
+  "locations": [
+    {
+      "serviceAddress": "2981 yorkshop SQ HSE MTR",
+      "accountNumber": "PG000007937684484731",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1201 Yorkshop SQHSE",
+      "accountNumber": "PG000007937687781494",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "144 BROAD ST",
+      "accountNumber": "PG000008241225597135",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "351 6th AVE W",
+      "accountNumber": "PG000008289158127807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "97 MYRTLE AVE",
+      "accountNumber": "PG000008498742931824",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "354 Park Ave",
+      "accountNumber": "PG000008531642005809",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "50 BOSTWICK AVE",
+      "accountNumber": "PG000008741425631824",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "194 N 13th St",
+      "accountNumber": "PG000008774722681065",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "490 4th Ave HSE MTR",
+      "accountNumber": "PG000008864631083030",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1676 ALABAMA RD BLG10",
+      "accountNumber": "PG000008907399307153",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "312 N Day St",
+      "accountNumber": "PG000008994821063609",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "284 N Day St Unit hse",
+      "accountNumber": "PG000009237928863595",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "22N 9th st",
+      "accountNumber": "PG000009260961927807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "176 Avon Ave Unit Hse",
+      "accountNumber": "PG000009409635148032",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "138 BROAD ST",
+      "accountNumber": "PG000009456504197135",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "302-16 16TH AVE",
+      "accountNumber": "PG000009480719510455",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "105-111 N 9th ST",
+      "accountNumber": "PG000009504871627670",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "95 S ESSEX VE",
+      "accountNumber": "PG000009505545533759",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "113 N 13TH ST COM ROOM",
+      "accountNumber": "PG000009747611381028",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "85 S ESSEX AVE",
+      "accountNumber": "PG000009748642778892",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "520 MAIN ST EAST",
+      "accountNumber": "PG000009838154450703",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "140 BROAD ST HSE",
+      "accountNumber": "PG000009943043197135",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "250 Roseville Ave",
+      "accountNumber": "PG000009991257879685",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "651 Lincoln Ave",
+      "accountNumber": "PG000010235581566116",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "14-20 PROSPECT ST",
+      "accountNumber": "PG000010603093522998",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1507 INDPENDENCE RD BLG",
+      "accountNumber": "PG000010610959807153",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2950 Yorkshop SQ HSEmTR",
+      "accountNumber": "PG000010611381460529",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "268 S Center St",
+      "accountNumber": "PG000010930111922227",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "30 BOSTWICK AVE",
+      "accountNumber": "PG000010932243831824",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "307 Washington St",
+      "accountNumber": "PG000010942455662944",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "725 Park Ave",
+      "accountNumber": "PG000010942842591617",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "113 N 13TH ST",
+      "accountNumber": "PG000010965170381028",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "17 LINCOLN ST",
+      "accountNumber": "PG000011115583424544",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "136 BROAD ST",
+      "accountNumber": "PG000011161560597135",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "87 Wakeman Ave GRD HSE",
+      "accountNumber": "PG000011161823733643",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "661 Lincoln Ave",
+      "accountNumber": "PG000011211360066116",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1185 Yorkshop SQ HSE",
+      "accountNumber": "PG000011344409528519",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1610 INDEPENDENCE RD",
+      "accountNumber": "PG000011344439207153",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "560 Main St Unit House House",
+      "accountNumber": "PG000011544664328587",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "142 BROAD ST",
+      "accountNumber": "PG000011649288597135",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "66 -70 N 13th St",
+      "accountNumber": "PG000011697782827807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1250 collings RD HSE",
+      "accountNumber": "PG000011870924590393",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "301-307 Market ST",
+      "accountNumber": "PG000011873046490393",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "42 BERRY ST OWNER",
+      "accountNumber": "PG000011875040501619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "44 BERRY ST U 202",
+      "accountNumber": "PG000011875320101619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "44 BERRY ST U 202",
+      "accountNumber": "PG000011893977601619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "302 16TH AVE",
+      "accountNumber": "PG000011906976338729",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "563 Orange St HSE",
+      "accountNumber": "PG000011918205381079",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "563 ORANGE ST COMM CTR",
+      "accountNumber": "PG000011918560181079",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "368 Broad St Unit Hse Hse",
+      "accountNumber": "PG000011943249003959",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 S CENTER ST HSE",
+      "accountNumber": "PG000011946516981079",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "26 Parkside st Generator",
+      "accountNumber": "PG000011951567449126",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "254 Roseville Ave HSE",
+      "accountNumber": "PG000011958339127807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "50 COLUMBIA ST HSE",
+      "accountNumber": "PG000011975752497290",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "25 PARk Side ST House 2",
+      "accountNumber": "PG000011985105349126",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "124 S Essex AV e HSE",
+      "accountNumber": "PG000011988770121303",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "108 S BROAD ST AWH",
+      "accountNumber": "PG000012004150440199",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "108 S BROAD ST GEN",
+      "accountNumber": "PG000012011526640199",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "31315 TH Asve HSE",
+      "accountNumber": "PG000012023551070981",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "60 Nevada ST hse",
+      "accountNumber": "PG000012072134530057",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "32 LINCOLN AVE HSE",
+      "accountNumber": "PG000012089141126427",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "999 BROAD ST HSE",
+      "accountNumber": "PG000012141942830057",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 Broadway",
+      "accountNumber": "PG000012302185990946",
+      "meterNumber": null
+    }
+  ]
+}

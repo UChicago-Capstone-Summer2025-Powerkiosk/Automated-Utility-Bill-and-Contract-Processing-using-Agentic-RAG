@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_350",
+  "statementDate": "March 16, 2022",
+  "usageHistory": {
+    "2021-03": null,
+    "2021-04": null,
+    "2021-05": null,
+    "2021-06": null,
+    "2021-07": null,
+    "2021-08": null,
+    "2021-09": null,
+    "2021-10": null,
+    "2021-11": null,
+    "2021-12": null,
+    "2022-01": null,
+    "2022-02": null,
+    "2022-03": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "2033 ROUTE 130 BLDG B A-G, SOUTH BRUNSWICK TWP NJ 08852",
+      "accountNumber": "4226402200",
+      "meterNumber": "9206728"
+    }
+  ],
+  "totalUsage": 328436
+}

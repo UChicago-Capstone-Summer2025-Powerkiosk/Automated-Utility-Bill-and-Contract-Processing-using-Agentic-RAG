@@ -1,0 +1,25 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_992",
+  "statementDate": "11/18/24",
+  "usageHistory": {
+    "2024-12": 4139,
+    "2025-01": 4761,
+    "2025-02": 4716,
+    "2025-03": 31536,
+    "2025-04": 27715,
+    "2025-05": 27680,
+    "2025-06": 32446,
+    "2025-07": 27679,
+    "2025-08": 27684,
+    "2025-09": 33410
+  },
+  "locations": [
+    {
+      "serviceAddress": "12 LAITI FARM TO, MILLBURY MA 01527",
+      "accountNumber": "73002442157",
+      "meterNumber": "D007788"
+    }
+  ],
+  "totalUsage": 33410
+}

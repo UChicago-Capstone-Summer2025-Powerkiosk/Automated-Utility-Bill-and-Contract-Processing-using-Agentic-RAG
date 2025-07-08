@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_126",
+  "statementDate": "2020-12-17",
+  "totalUsage": 234720,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "city": "HILLSBORO",
+      "state": "OH",
+      "zip": "45133-9649"
+    },
+    {
+      "serviceAddress": "1036 HOMESTEAD AVE",
+      "city": "HILLSBORO",
+      "state": "OH",
+      "zip": "45133-7940"
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "city": "HILLSBORO",
+      "state": "OH",
+      "zip": "45133-9467"
+    }
+  ]
+}

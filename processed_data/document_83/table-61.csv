@@ -1,0 +1,27 @@
+Read,Meter,Load,Reading,Meter Reading,,
+Date,Number,Type,Type,Previous,Present,Mult.x,Usage
+08/03/2017,230235206,General Service,Total kWh,ACT,ACT,,14.438.48
+08/03/2017,230235206,General Service,On Pk kW,ACT,ACT,,20.90
+08/03/2017,230235208,General Service,Total kWh,ACT,ACT,,7.93
+08/03/2017,230235208,General Service,On Pk kW,ACT,ACT,,0.00
+08/03/2017,230235271,General Service,Total kWh,ACT,ACT,,"202,277.09"
+08/03/2017,230235271,General Service,On Pk kW,ACT,ACT,,458.64
+08/03/2017,230235273,General Service,Total kWh,ACT,ACT,,"32,014.49"
+08/03/2017,230235273,General Service,On Pk kW,ACT,ACT,,52.44
+08/03/2017,230242420,General Service,Total kWh,ACT,ACT,,16.89
+08/03/2017,230242420,General Service,On Pk kW,ACT,ACT,,0.03
+Rate Class - Retail Delivery Service - 400 kW to 1000 kW,,,Service 07/07/2017 To 08/03/2017 - 27 Days,,,,
+Customer Charge,,0.00,,,,,$\$ 96.35$
+Standard Metering Charge,,0.00,,,,,$\$ 30.19$
+Distribution Facilities Charge,,532.01 kW,,7.05,,,"$\$ 3,750.67$"
+Single Bill Option Credit,,0.00,,,,,$\$-0.50$
+IL Electricity Distribution Charge,,"248,755.00 kWh",,0.00116,,,$\$ 288.56$
+Meter Lease,,0.00,,,,,$\$ 34.58$
+Nonstandard Facilities Charge,,0.00,,,,,$\$ 288.20$
+Environmental Cost Recovery Adj,,"248,755.00 kWh",,0.00005,,,$\$ 12.44$
+Renewable Portfolio Standard,,"248,755.00 kWh",,0.00094,,,$\$ 233.83$
+Zero Emission Standard,,"248,755.00 kWh",,0.00195,,,$\$ 485.07$
+Franchise Cost,,0.00,,,,,$\$ 787.30$
+State Tax,,0.00,,,,,$\$ 753.02$
+Municipal Tax,,0.00,,,,,$\$ 932.82$
+Total Current Charges,,0.00,,,,,"$\$ 7,692.53$"

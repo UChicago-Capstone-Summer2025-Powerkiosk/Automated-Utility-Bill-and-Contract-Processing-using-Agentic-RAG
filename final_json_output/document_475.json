@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_475",
+  "statementDate": "2023-04-28",
+  "totalUsage": 15760,
+  "usageHistory": {
+    "2023-04": 15760,
+    "2023-03": 12720,
+    "2023-02": 12840,
+    "2023-01": 13560,
+    "2022-12": 12160,
+    "2022-11": 16640,
+    "2022-10": null,
+    "2022-09": 19480,
+    "2022-08": 23040,
+    "2022-07": 21800,
+    "2022-06": 20040,
+    "2022-05": 19560
+  },
+  "locations": [
+    {
+      "serviceAddress": "1190 ROSTON 20, SPRINGFIELD MA 01119",
+      "accountNumber": "54849691035",
+      "meterNumber": "886108252"
+    },
+    {
+      "serviceAddress": "1190 ROSTON 40, SPRINGFIELD MA 01119",
+      "accountNumber": "54849691035",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_130",
+  "statementDate": "2020-12-17",
+  "totalUsage": null,
+  "locations": [
+    {
+      "serviceAddress": "16769-1 25",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1036 HOMESTEAD AVE",
+      "accountNumber": "HCS0287",
+      "meterNumber": "0040-621-0000-51955-5"
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "accountNumber": null,
+      "meterNumber": "0004-0621-0677-9242-0"
+    }
+  ],
+  "usageHistory": null
+}

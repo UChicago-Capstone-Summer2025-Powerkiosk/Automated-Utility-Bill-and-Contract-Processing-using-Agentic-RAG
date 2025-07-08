@@ -1,0 +1,25 @@
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Present,Difference,Multiplier,Usage
+5/9-6/10,230214279,General Service,Off Pk kW,Actual,Actual,,,28.29
+5/9-6/10,230214279,General Service,On Pk kW,Actual,Actual,,,28.18
+5/9-6/10,230214279,General Service,Total kWh,Actual,Actual,,,14515
+5/9-6/10,230223337,General Service,Off Pk kW,Actual,Actual,,,66.61
+5/9-6/10,230223337,General Service,On Pk kW,Actual,Actual,,,64.96
+5/9-6/10,230223337,General Service,Total kWh,Actual,Actual,,,17389
+CHARGE DETAILS,,,,Municipal Tax,,,,\$140.23
+Retail Delivery Service - 100 kW to 400 kW 5/9/24 - 6/10/24 (32 Days),,,,Service Period Total,,,,"\$4,043.25"
+"SUPPLY - AEP ENERGY, INC",,,"\$1,830.63",,,,,
+"SUPPLIER ENERGY CHARGES 31,904 KWH X 0.05738",,,"\$1,830.63",,,,,
+DELIVERY - ComEd,,,"\$1,197.94",Total Amount Due,,,"\$4,043.25",
+Customer Charge,,,,,,,,
+Standard Metering Charge,,,,,,,,UPDATES
+Distribution Facility Charge,,93.13 kW X 12.01000,"\$1,118.49",,,,,
+"\$, Electricity Distribution Charge",,"31,904 kWh X 0.00123",\$39.24,,,,,
+TAXES \& FEES,,,"\$1,014.68",,,,,
+Environmental Cost Recovery Adj,,"31,904 kWh X 0.00033",\$10.53,,,,,
+Renewable Portfolio Standard,,"31,904 kWh X 0.00502",\$160.16,,,,,
+Zero Emission Standard,,"31,904 kWh X 0.00195",\$62.21,,,,,
+Carbon-Free Energy Resource Adj,,"31,904 kWh X 0.00880",\$280.76,,,,,
+Energy Efficiency Programs,,"31,904 kWh X 0.00691",\$220.46,,,,,
+Energy Transition Assistance,,"31,904 kWh X 0.00072",\$22.97,,,,,
+Franchise Cost,,"\$1,176.60 X 1.30600\%",\$15.37,,,,,
+State Tax,,,\$101.99,,,,,

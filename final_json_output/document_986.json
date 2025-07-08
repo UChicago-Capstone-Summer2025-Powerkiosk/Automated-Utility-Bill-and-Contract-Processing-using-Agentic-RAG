@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_986",
+  "statementDate": "2019-08-14",
+  "usageHistory": {
+    "2018-09": 0,
+    "2018-10": 10000,
+    "2018-11": 40000,
+    "2018-12": 50000,
+    "2019-01": 55000,
+    "2019-02": 60000,
+    "2019-03": 50000,
+    "2019-04": 40000,
+    "2019-05": 20000,
+    "2019-06": 5000,
+    "2019-07": 2000,
+    "2019-08": 1000
+  },
+  "locations": [
+    {
+      "serviceAddress": "750 N Dearborn St. CHICAGO, IL 60654",
+      "accountNumber": "735798 - 78694",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 343.55
+}

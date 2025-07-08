@@ -1,0 +1,30 @@
+METER DETAIL,,,,,,,,,
+Meter Number,Service <br> Period,Days,Prior,Current,Const,Total <br> kWh,On-Pk <br> kWh,Off-Pk <br> kWh,Peak KW,Coincident <br> Peak KW
+230113522,$12 / 31-1 / 29$,30,44604 A,46024 A,1,"1,420",,,4.6,
+CHARGE DETAIL,,,,,,,,,
+Description,,,,,,Quantity,Units,Rate,Charge,Totals
+ENERGY SUPPLY CHARGES,,,,,,,,,
+Energy Charge,,,,,,"1,420",KWH,\$0.0548900,\$77.94,
+TOTAL ENERGY SUPPLY CHARGES,,,,,,,,,,\$77.94
+DELIVERY SERVICE CHARGES,,,,,,,,,
+Retail Delivery Service - 0 to 100 kW,,,,,,,,,
+Customer Charge,,,,,,,,,\$18.35,
+Standard Metering Charge,,,,,,,,,\$10.14,
+Distribution Facilities Charge,,,,,,4.58,KW,\$7.1100000,\$32.56,
+Single Bill Option Credit,,,,,,,,,- $\$ 0.46$,
+IL Electricity Distribution Charge,,,,,,"1,420.00",KWH,\$0.0012100,\$1.72,
+Environmental Cost Recovery Adj,,,,,,"1,420.00",KWH,\$0.0003000,\$0.43,
+Renewable Portfolio Standard,,,,,,"1,420.00",KWH,\$0.0014200,\$2.02,
+Zero Emission Standard,,,,,,"1,420.00",KWH,\$0.0019000,\$2.70,
+Energy Efficiency Programs,,,,,,"1,420.00",KWH,\$0.0008600,\$1.22,
+Franchise Cost,,,,,,\$57.47,,0.0221500,\$1.27,
+State Tax,,,,,,,,,\$4.69,
+Municipal Tax,,,,,,,,,\$8.67,
+,,,,,,,,,\$83.31,
+TOTAL DELIVERY SERVICE CHARGES,,,,,,,,,,\$83.31
+TOTAL CURRENT CHARGES,,,,,,,,,,\$161.25
+ACCOUNT USAGE PROFILE,,,,,,,,,
+Month Billed,Total,Demand,Avg Daily,kWh,Avg Daily,Temp,,,,
+Current Month,,4.58,47.33,,25,,,,,
+Last Month,,4.49,46.73,,32,,,,,
+Last Year,,4.79,48.30,,23,,,,,
