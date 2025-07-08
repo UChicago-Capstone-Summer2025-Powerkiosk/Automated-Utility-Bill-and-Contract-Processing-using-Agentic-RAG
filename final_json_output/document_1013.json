@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1013",
+  "statementDate": "2023-12-08",
+  "usageHistory": {
+    "2023-07": 4000,
+    "2023-08": 4000,
+    "2023-09": 3000,
+    "2023-10": 3000,
+    "2023-11": 4000,
+    "2023-12": 6000
+  },
+  "locations": [
+    {
+      "serviceAddress": "400 W. ALLEGHENY AVE, BLD C-2 PHILADELPHIA, PA 19133",
+      "accountNumber": "0525720103",
+      "meterNumber": "02024385"
+    }
+  ],
+  "totalUsage": 5431
+}

@@ -1,0 +1,85 @@
+{
+  "documentType": "contract",
+  "documentId": "document_812",
+  "contractStart": "2020-08-01",
+  "contractEnd": "2022-08-01",
+  "usageHistory": {
+    "2020-08": 124566.84,
+    "2020-09": 303492.22,
+    "2020-10": 215282.49,
+    "2020-11": 212081.94,
+    "2020-12": 221422.61,
+    "2021-01": 217818.18,
+    "2021-02": 191138.83,
+    "2021-03": 204855.18,
+    "2021-04": 173055.19,
+    "2021-05": 257296.24,
+    "2021-06": 324428.51,
+    "2021-07": 396921.9,
+    "2021-08": 354329.99,
+    "2021-09": 302282.05,
+    "2021-10": 211912.9,
+    "2021-11": 213534.22,
+    "2021-12": 220279.11,
+    "2022-01": 218828.74,
+    "2022-02": 191744.39,
+    "2022-03": 216281.75,
+    "2022-04": 173748.16,
+    "2022-05": 227384.79,
+    "2022-06": 315392.64,
+    "2022-07": 390719.61,
+    "2022-08": 235135.71
+  },
+  "locations": [
+    {
+      "serviceAddress": "4200 MONUMENT RD, PHILADELPHIA, PA 19131",
+      "accountNumber": "0433064058",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "FL 1514081 FORD RD, PHILADELPHIA, PA 19131",
+      "accountNumber": "1004601200",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ". PA",
+      "accountNumber": "1015601010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4683 FORD RD, PHILADELPHIA, PA 19131",
+      "accountNumber": "1314101903",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ". PA",
+      "accountNumber": "1623698047",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4089 FORD RD, PHILADELPHIA, PA 19131",
+      "accountNumber": "2552001301",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4230 MONUMENT RDCILINICS, PHILADELPHIA, PA 19131",
+      "accountNumber": "2872200703",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "TEMP #14200 MONUMENT RD, PHILADELPHIA, PA 19131",
+      "accountNumber": "5679013056",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4230 MONUMENT RDBL C-D, PHILADELPHIA, PA 19131",
+      "accountNumber": "8427901203",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4087 FORD RDHSE HTR, PHILADELPHIA, PA 19131",
+      "accountNumber": "8435200801",
+      "meterNumber": null
+    }
+  ]
+}

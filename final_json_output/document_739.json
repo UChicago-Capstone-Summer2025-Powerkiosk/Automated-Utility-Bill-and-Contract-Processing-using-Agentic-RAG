@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_739",
+  "statementDate": "2023-11-06",
+  "totalUsage": 2272,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "5705 Simms St Unit Clubhse, Arvada, CO 80002",
+      "accountNumber": "53-0012139347-6",
+      "meterNumber": "20716567"
+    },
+    {
+      "serviceAddress": "5706 Tabor St, Arvada, CO 80002",
+      "accountNumber": "53-0012173259-1",
+      "meterNumber": "20716395"
+    }
+  ]
+}

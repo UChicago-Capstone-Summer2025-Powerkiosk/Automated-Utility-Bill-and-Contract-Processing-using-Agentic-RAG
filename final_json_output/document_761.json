@@ -1,0 +1,74 @@
+{
+  "documentType": "contract",
+  "documentId": "document_761",
+  "contractStart": "2023-07-01",
+  "contractEnd": "2025-06-30",
+  "usageHistory": {
+    "2023-07": 180,
+    "2023-08": 80,
+    "2023-09": 420,
+    "2023-10": 3000,
+    "2023-11": 8540,
+    "2023-12": 22020,
+    "2024-01": 24700,
+    "2024-02": 22490,
+    "2024-03": 17600,
+    "2024-04": 10020,
+    "2024-05": 2850,
+    "2024-06": 270,
+    "2024-07": 180,
+    "2024-08": 80,
+    "2024-09": 420,
+    "2024-10": 3000,
+    "2024-11": 8540,
+    "2024-12": 22020,
+    "2025-01": 24700,
+    "2025-02": 22490,
+    "2025-03": 17600,
+    "2025-04": 10020,
+    "2025-05": 2850,
+    "2025-06": 270
+  },
+  "locations": [
+    {
+      "serviceAddress": "215 Coles Street, Jersey City, NJ 07310",
+      "utilityAccountNumber": "PG000008657474843121",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "888 Newark Ave, Jersey City, NJ 07030",
+      "utilityAccountNumber": "PG000009886576943687",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "215 Coles St, Jersey City, NJ 07310",
+      "utilityAccountNumber": "PG000010243484250801",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "215 Coles Street, Jersey City, NJ 07310",
+      "utilityAccountNumber": "PG000011580968750801",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "930 Newark Ave, Jersey City, NJ 07030",
+      "utilityAccountNumber": "PG000009321701871621",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "50 Dey St, Jersey City, NJ 07030",
+      "utilityAccountNumber": "PG000010817465914708",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "924 Newark Ave, Jersey City, NJ 07030",
+      "utilityAccountNumber": "PG000010782231471621",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "930 Newark Ave, Jersey City, NJ 07030",
+      "utilityAccountNumber": "PG000010782249871621",
+      "meterNumber": null
+    }
+  ]
+}

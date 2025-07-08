@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_279",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 4734,
+    "2024-01": 4820,
+    "2024-02": 4543,
+    "2024-03": 5095,
+    "2024-04": 4275,
+    "2024-05": 4450,
+    "2024-06": 5212,
+    "2024-07": 6172,
+    "2024-08": 6859,
+    "2024-09": 5999,
+    "2024-10": 4427,
+    "2024-11": 4354,
+    "2024-12": 4850
+  },
+  "locations": [
+    {
+      "serviceAddress": "880 FARMINGTON AVE KENSIMPTON OF 06037",
+      "accountNumber": "51803413095",
+      "meterNumber": "890489232"
+    }
+  ],
+  "totalUsage": 4850
+}

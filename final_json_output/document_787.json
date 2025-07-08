@@ -1,0 +1,55 @@
+{
+  "documentType": "contract",
+  "documentId": "document_787",
+  "contractStart": "2024-01-16",
+  "contractEnd": "2026-01-15",
+  "usageHistory": {
+    "2024-01": 119993.48,
+    "2024-02": 212062.56,
+    "2024-03": 238160.34,
+    "2024-04": 219567.54,
+    "2024-05": 261716.43,
+    "2024-06": 300213.67,
+    "2024-07": 336494.57,
+    "2024-08": 332543.32,
+    "2024-09": 305608.23,
+    "2024-10": 255620.1,
+    "2024-11": 234874.59,
+    "2024-12": 239661.45,
+    "2025-01": 232705.12,
+    "2025-02": 203188.82,
+    "2025-03": 237192.13,
+    "2025-04": 219807.28,
+    "2025-05": 264325.39,
+    "2025-06": 299353.55,
+    "2025-07": 337909.84,
+    "2025-08": 333116.42,
+    "2025-09": 304586.9,
+    "2025-10": 253322.76,
+    "2025-11": 232237.22,
+    "2025-12": 236115.42,
+    "2026-01": 105641.91
+  },
+  "locations": [
+    {
+      "serviceAddress": "7600 Roosevelt Rd, Forest Park, IL 60130",
+      "accountNumber": "0390064105",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7600 Roosevelt Rd, Forest Park, IL 60130",
+      "accountNumber": "0837133089",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7600 Roosevelt Rd, Forest Park, IL 60130",
+      "accountNumber": "0927087063",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7600 Roosevelt Rd, Forest Park, IL 60130",
+      "accountNumber": "3451167019",
+      "meterNumber": null
+    }
+  ]
+}

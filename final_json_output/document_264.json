@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_264",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 192,
+    "2023-11": 200,
+    "2023-10": 269,
+    "2023-09": 237,
+    "2023-08": 214,
+    "2023-07": 190,
+    "2023-06": null,
+    "2023-05": 189,
+    "2023-04": 150,
+    "2023-03": 161,
+    "2023-02": 139,
+    "2023-01": 120
+  },
+  "locations": [
+    {
+      "serviceAddress": "318 BERLIN ST, EAST BERLIN ST 06023",
+      "accountNumber": "51708413018",
+      "meterNumber": "806123822"
+    }
+  ],
+  "totalUsage": 192
+}

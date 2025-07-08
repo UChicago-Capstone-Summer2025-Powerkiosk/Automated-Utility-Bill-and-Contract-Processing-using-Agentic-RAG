@@ -1,0 +1,99 @@
+{
+  "documentType": "contract",
+  "documentId": "document_120",
+  "contractStart": "2021-03-01",
+  "contractEnd": "2024-02-29",
+  "usageHistory": {
+    "2021-03": 811266,
+    "2021-04": 945600,
+    "2021-05": 1060442,
+    "2021-06": 1083464,
+    "2021-07": 1067777,
+    "2021-08": 1083529,
+    "2021-09": 1049433,
+    "2021-10": 973918,
+    "2021-11": 836313,
+    "2021-12": 853976,
+    "2022-01": 883680,
+    "2022-02": 806117,
+    "2022-03": 931751,
+    "2022-04": 933141,
+    "2022-05": 1070798,
+    "2022-06": 1083464,
+    "2022-07": 1060396,
+    "2022-08": 1096290,
+    "2022-09": 1049433,
+    "2022-10": 973918,
+    "2022-11": 836313,
+    "2022-12": 839797,
+    "2023-01": 883680,
+    "2023-02": 806117,
+    "2023-03": 931751,
+    "2023-04": 920682,
+    "2023-05": 1081155,
+    "2023-06": 1083464,
+    "2023-07": 1060396,
+    "2023-08": 1096290,
+    "2023-09": 1038456,
+    "2023-10": 983489,
+    "2023-11": 836313,
+    "2023-12": 832707
+  },
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "00040621000619555",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 Hobart Dr",
+      "accountNumber": "00040621002198955",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7301/2 N. East St.",
+      "accountNumber": "00040621007748140",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "103 HOMESTEAD AVE",
+      "accountNumber": "00040621044209404",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 Hobart Dr.",
+      "accountNumber": "00040621053735524",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 Hobart Dr.",
+      "accountNumber": "00040621059388284",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7301/2 N. East St.",
+      "accountNumber": "00040621059418965",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 Hobart Dr.",
+      "accountNumber": "00040621064625565",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "00040621065473065",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 Hobart Dr.",
+      "accountNumber": "00040621067791240",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "730 N. East ST.",
+      "accountNumber": "00040621074544472",
+      "meterNumber": null
+    }
+  ]
+}

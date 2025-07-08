@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_319",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 136,
+    "2023-11": 101,
+    "2023-10": 135,
+    "2023-09": 105,
+    "2023-08": 89,
+    "2023-07": 88,
+    "2023-06": 100,
+    "2023-05": 84,
+    "2023-04": 103,
+    "2023-03": 96,
+    "2023-02": 97,
+    "2023-01": 119,
+    "2022-12": 130
+  },
+  "locations": [
+    {
+      "serviceAddress": "1517 BERLIN TPKE BLEG MAINTENAE BERLIN CT 06037",
+      "accountNumber": "51797496023",
+      "meterNumber": "893883422"
+    }
+  ],
+  "totalUsage": 136
+}

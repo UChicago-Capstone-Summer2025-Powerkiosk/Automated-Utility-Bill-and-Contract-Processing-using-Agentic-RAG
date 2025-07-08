@@ -1,0 +1,77 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_515",
+  "statementDate": "10/29/2024",
+  "totalUsage": 1031,
+  "usageHistory": {
+    "2023-01": 1031,
+    "2023-02": 1204,
+    "2023-03": 162,
+    "2023-04": 261,
+    "2023-05": 361,
+    "2023-06": 329,
+    "2023-07": 562,
+    "2023-08": 663,
+    "2023-09": 628,
+    "2023-10": 661,
+    "2023-11": 800,
+    "2023-12": 927
+  },
+  "locations": [
+    {
+      "serviceAddress": "4100 THE WOODS DR",
+      "accountNumber": "5396940620",
+      "meterNumber": "1009178974"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 1",
+      "accountNumber": "5395817741",
+      "meterNumber": "1009114557"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 9",
+      "accountNumber": "5398623326",
+      "meterNumber": "1009114511"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 9",
+      "accountNumber": "5390026576",
+      "meterNumber": "1009114507"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 9",
+      "accountNumber": "5391692949",
+      "meterNumber": "1009114508"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 3",
+      "accountNumber": "5392366455",
+      "meterNumber": "1009180380"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 9-10",
+      "accountNumber": "5397269992",
+      "meterNumber": "1009116085"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 5-6",
+      "accountNumber": "5391393385",
+      "meterNumber": "1009097602"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 5",
+      "accountNumber": "5399396415",
+      "meterNumber": "1009179714"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 4",
+      "accountNumber": "5393133753",
+      "meterNumber": "1009115308"
+    },
+    {
+      "serviceAddress": "4100 THE WOODS DR BLDG 3-4",
+      "accountNumber": "5396180349",
+      "meterNumber": "1009097603"
+    }
+  ]
+}

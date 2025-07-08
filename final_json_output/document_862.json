@@ -1,0 +1,164 @@
+{
+  "documentType": "contract",
+  "documentId": "document_862",
+  "contractStart": "2024-02-01",
+  "contractEnd": "2026-01-31",
+  "usageHistory": {
+    "2024-02": 4698,
+    "2024-03": 3847,
+    "2024-04": 2986,
+    "2024-05": 1710,
+    "2024-06": 695,
+    "2024-07": 484,
+    "2024-08": 444,
+    "2024-09": 706,
+    "2024-10": 1846,
+    "2024-11": 3258,
+    "2024-12": 4041,
+    "2025-01": 5020,
+    "2025-02": 4698,
+    "2025-03": 3847,
+    "2025-04": 2986,
+    "2025-05": 1710,
+    "2025-06": 695,
+    "2025-07": 484,
+    "2025-08": 444,
+    "2025-09": 706,
+    "2025-10": 1846,
+    "2025-11": 3258,
+    "2025-12": 4041,
+    "2026-01": 5020
+  },
+  "locations": [
+    {
+      "serviceAddress": "39 Coleman St",
+      "utilityAccountNumber": "5000000607047",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39 Coleman St",
+      "utilityAccountNumber": "5000000607049",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39 Coleman St",
+      "utilityAccountNumber": "5000000607051",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39 Coleman St",
+      "utilityAccountNumber": "5000000607050",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39 Coleman St",
+      "utilityAccountNumber": "5000000607048",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "33 Glade St",
+      "utilityAccountNumber": "5000000126139",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1187 Campbell Ave",
+      "utilityAccountNumber": "5000000057807",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Jones Hill Rd 1B",
+      "utilityAccountNumber": "5000000069768",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Jones Hill Rd 3D",
+      "utilityAccountNumber": "5000000069770",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Jones Hill Rd 2C",
+      "utilityAccountNumber": "5000000069769",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Jones Hill Rd 4E",
+      "utilityAccountNumber": "5000000069771",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "29 Glade St H",
+      "utilityAccountNumber": "5000000058098",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "27 Glade St K",
+      "utilityAccountNumber": "5000000058099",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "33 Glade St J",
+      "utilityAccountNumber": "5000000058100",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "21 Glade St L",
+      "utilityAccountNumber": "5000000058097",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10 Glade St D",
+      "utilityAccountNumber": "5000000058095",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 Oak St",
+      "utilityAccountNumber": "5000000088600",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 Oak St",
+      "utilityAccountNumber": "5000000088601",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "14 Glade St E",
+      "utilityAccountNumber": "5000000058096",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "174 Center St",
+      "utilityAccountNumber": "5000000060238",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39 Coleman St A",
+      "utilityAccountNumber": "5000000058093",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 Oak St",
+      "utilityAccountNumber": "5000000000418",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "397 Meadowbrook Ct",
+      "utilityAccountNumber": "5000000068509",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "397 Meadowbrook Ct",
+      "utilityAccountNumber": "5000000068547",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "397 Meadowbrook Ct",
+      "utilityAccountNumber": "5000000122008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "15 Glade St",
+      "utilityAccountNumber": "5000000126033",
+      "meterNumber": null
+    }
+  ]
+}

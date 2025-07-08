@@ -1,0 +1,34 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_177",
+  "statementDate": "09/11/2015",
+  "totalUsage": 858.0,
+  "usageHistory": {
+    "2015-08": 858.0,
+    "2015-09": 3496.0,
+    "2015-10": 5899.0,
+    "2015-11": 8160.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "6830 N Lincoln Ave Lincolnwood",
+      "accountNumber": "3364626",
+      "meterNumber": "141757569"
+    },
+    {
+      "serviceAddress": "6834 N Lincoln Ave Lincolnwood Sir Management",
+      "accountNumber": "822640",
+      "meterNumber": "141605797"
+    },
+    {
+      "serviceAddress": "6840 H Lincoln Ave Lincolnwood Stt Management Inc",
+      "accountNumber": "822641",
+      "meterNumber": "141605864"
+    },
+    {
+      "serviceAddress": "4100 W Pratt Ave Lincolnwood",
+      "accountNumber": "3354625",
+      "meterNumber": "141823678"
+    }
+  ]
+}

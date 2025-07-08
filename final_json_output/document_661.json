@@ -1,0 +1,44 @@
+{
+  "documentType": "contract",
+  "documentId": "document_661",
+  "contractStart": "2017-07-11",
+  "contractEnd": "2020-07-12",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1001 E LAUREL AVE, HAVANA, IL 626446995",
+      "accountNumber": "0753077039",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2600 HOMER M ADAMS PKWY, ALTON, IL 620025430",
+      "accountNumber": "0990003054",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1347 W WASHINGTON ST, PITTSFIELD, IL 623639549",
+      "accountNumber": "1443005319",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4625 Broadway, Quincy, IL 62301",
+      "accountNumber": "1623008625",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2600 HOMER M ADAMS PKWY, ALTON, IL 620025430",
+      "accountNumber": "3890003240",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "725 Shipmen Street, Jerseyville, IL 620522237",
+      "accountNumber": "4714006818",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2600 HOMER M ADAMS PKWY, ALTON, IL 620025430",
+      "accountNumber": "9552511129",
+      "meterNumber": null
+    }
+  ]
+}

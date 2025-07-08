@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_420",
+  "statementDate": "2020-04-08",
+  "usageHistory": {
+    "2020-03": 67.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "Attn: c/o Conservice, P.O. Box 4697, Logan, UT 84323-4697",
+      "accountNumber": "04502-05",
+      "meterNumber": "1000896"
+    },
+    {
+      "serviceAddress": "AMLI Riverfront Park, Bldg F, 1900 Little Raven St., Bldg F, Denver, CO 80202-0000",
+      "accountNumber": "04502-10",
+      "meterNumber": "10008990"
+    },
+    {
+      "serviceAddress": "AMLI Riverfront Park, Bldg A, 1900 Little Raven St., Bldg A, Denver, CO 80202-0000",
+      "accountNumber": "04502-09",
+      "meterNumber": "10008593"
+    }
+  ],
+  "totalUsage": 67.0
+}

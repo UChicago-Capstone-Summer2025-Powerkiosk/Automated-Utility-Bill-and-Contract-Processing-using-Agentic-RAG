@@ -1,0 +1,37 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_554",
+  "statementDate": "2022-05-11",
+  "usageHistory": {
+    "2021-04": 30678.08,
+    "2021-05": 24236.33,
+    "2021-06": 15622.29,
+    "2021-07": 15514.13,
+    "2021-08": 14568.88,
+    "2021-09": 15899.34,
+    "2021-10": 21311.98,
+    "2021-11": 40384.92,
+    "2021-12": 46392.59,
+    "2022-01": 65483.05,
+    "2022-02": 52483.1,
+    "2022-03": 45660.4
+  },
+  "locations": [
+    {
+      "serviceAddress": "2801 Old Glenview, Wilmette, IL 60091-3075",
+      "accountNumber": "9942240000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "425 Davis, Evanston, IL 60201-4729",
+      "accountNumber": "7635003692",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "450 Davis St, Evanston, IL 60201-7600",
+      "accountNumber": "7207617781",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 35599.02
+}

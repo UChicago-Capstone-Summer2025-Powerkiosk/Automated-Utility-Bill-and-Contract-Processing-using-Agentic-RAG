@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_119",
+  "statementDate": "2020-12-17",
+  "totalUsage": 720.0,
+  "locations": [
+    {
+      "serviceAddress": "16769-1 25, PAS TECHNOLOGIES INC, PO BOX 12629, KANSAS CITY, MO 64116-0629",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 HOBART DR, HILLSBORO, OH 45133-9469",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2, HILLSBORO, OH 45133-9467",
+      "accountNumber": null,
+      "meterNumber": "0094-0621-0677-9124-0"
+    }
+  ],
+  "usageHistory": {
+    "2020-12": 720.0
+  }
+}

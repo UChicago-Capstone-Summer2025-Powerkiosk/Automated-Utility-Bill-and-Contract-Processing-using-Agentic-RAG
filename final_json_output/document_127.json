@@ -1,0 +1,30 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_127",
+  "statementDate": "2020-12-17",
+  "totalUsage": 365409,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9649",
+      "serviceProvider": "ENGIE RESOURCES LLC",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "108 HOMESTEAD AVE",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9740",
+      "serviceProvider": "ENGIE RESOURCES LLC",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0040-0624-0046-1957-5"
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9467",
+      "serviceProvider": "ENGIE RESOURCES LLC",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_745",
+  "statementDate": "07/28/2023",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1420 8TH ST BLDG EAST",
+      "accountNumber": "53-0010582211-0",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1440 8TH ST BLDG WEST",
+      "accountNumber": "53-0010582211-0",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

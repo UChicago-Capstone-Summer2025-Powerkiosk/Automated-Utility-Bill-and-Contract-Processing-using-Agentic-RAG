@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1149",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-05": 1773,
+    "2022-06": 1166,
+    "2022-07": 1183,
+    "2022-04": 2064,
+    "2023-05": 1638
+  },
+  "locations": [
+    {
+      "serviceAddress": "1501 N Ironwood Dr South Bend IN 46635-1841",
+      "accountNumber": "023-130-009-9",
+      "meterNumber": "9579998"
+    },
+    {
+      "serviceAddress": "186 Easy Shopping PI Shhart IN 465/8-3535",
+      "meterNumber": "9579998"
+    }
+  ],
+  "totalUsage": 1638.1
+}

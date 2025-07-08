@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1027",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2019-11": 21720,
+    "2020-11": 21400
+  },
+  "locations": [
+    {
+      "serviceAddress": "NOT_FOUND",
+      "accountNumber": "A0B1C000013EBGHUAG",
+      "meterNumber": "108124189"
+    }
+  ],
+  "totalUsage": 21400
+}

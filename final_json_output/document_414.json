@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_414",
+  "statementDate": "04/08/2020",
+  "usageHistory": {
+    "2020-03": 20.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "AMLI",
+      "accountNumber": "04502-24",
+      "meterNumber": "20203897"
+    },
+    {
+      "serviceAddress": "AMLI",
+      "accountNumber": "04502-25",
+      "meterNumber": "20504040"
+    },
+    {
+      "serviceAddress": "AMLI",
+      "accountNumber": "04502-23",
+      "meterNumber": "20103998"
+    }
+  ],
+  "totalUsage": 20.0
+}

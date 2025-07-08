@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_366",
+  "statementDate": "2019-05-23",
+  "totalUsage": 24640,
+  "usageHistory": {
+    "2018-08": 24640,
+    "2018-09": 24640,
+    "2018-10": 24640,
+    "2018-11": 24640,
+    "2018-12": 24640,
+    "2019-01": 24640,
+    "2019-02": 24640,
+    "2019-03": 24640,
+    "2019-04": 24640
+  },
+  "locations": [
+    {
+      "serviceAddress": "5209 PROVIDENCE RD PERM, VIRGINIA BEACH, VA 23464",
+      "accountNumber": "9683702402",
+      "meterNumber": "0005748620"
+    }
+  ]
+}

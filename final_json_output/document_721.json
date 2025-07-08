@@ -1,0 +1,86 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_721",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2020-03": {
+      "electric": 1480,
+      "gas": 477
+    },
+    "2020-04": {
+      "electric": 1520,
+      "gas": 322
+    },
+    "2020-05": {
+      "electric": 1520,
+      "gas": 270
+    },
+    "2020-06": {
+      "electric": 1520,
+      "gas": 229
+    },
+    "2020-07": {
+      "electric": 1520,
+      "gas": 189
+    },
+    "2020-08": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2020-09": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2020-10": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2020-11": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2020-12": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2021-01": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2021-02": {
+      "electric": 1520,
+      "gas": 179
+    },
+    "2021-03": {
+      "electric": 1520,
+      "gas": 179
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "1827 E MCCORD ST CENTRALIA IL 62801"
+    },
+    {
+      "serviceAddress": "1207 VANDALIA ST COLLINSVILLE IL 62234"
+    },
+    {
+      "serviceAddress": "1200 E HARRIS AVE GREENVILLE IL 62246"
+    },
+    {
+      "serviceAddress": "2225 W Morton Ave Jacksonville, IL 62650"
+    },
+    {
+      "serviceAddress": "429 S MAIN ST SHILOH IL 62269"
+    },
+    {
+      "serviceAddress": "3450 VILLAGE LN GRANITE CITY IL 62040"
+    },
+    {
+      "serviceAddress": "1000 AIRPORT RD GODFREY IL 62035"
+    },
+    {
+      "serviceAddress": "1208 MARINE RD EDWARDSVILLE IL 62025"
+    }
+  ],
+  "totalUsage": null
+}

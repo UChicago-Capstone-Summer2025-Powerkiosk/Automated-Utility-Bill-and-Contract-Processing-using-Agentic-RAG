@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_477",
+  "statementDate": "04/07/23",
+  "totalUsage": 1187,
+  "usageHistory": {
+    "2023-04": 242,
+    "2023-05": 219,
+    "2023-06": 197,
+    "2023-07": 211,
+    "2023-08": 236,
+    "2023-09": 262,
+    "2023-10": 304,
+    "2023-11": 310,
+    "2023-12": 346
+  },
+  "locations": [
+    {
+      "serviceAddress": "497 COLLEGE HWY, SOUTHWICK MA 01077",
+      "accountNumber": "54700702038",
+      "meterNumber": null
+    }
+  ]
+}

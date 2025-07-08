@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_593",
+  "statementDate": "01/24/18",
+  "usageHistory": {
+    "2018-01": 4065.21
+  },
+  "locations": [
+    {
+      "serviceAddress": "2000 W 135th St Bolingbrook",
+      "accountNumber": "36-33-02-5634 2",
+      "meterNumber": "2793907"
+    }
+  ],
+  "totalUsage": 4065.21
+}

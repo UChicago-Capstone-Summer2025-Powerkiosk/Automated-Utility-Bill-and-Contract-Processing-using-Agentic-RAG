@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_967",
+  "statementDate": "April 19, 2018",
+  "usageHistory": {
+    "2017-04": null,
+    "2017-05": null,
+    "2017-06": null,
+    "2017-07": null,
+    "2017-08": null,
+    "2017-09": null,
+    "2017-10": null,
+    "2017-11": null,
+    "2017-12": null,
+    "2018-01": null,
+    "2018-02": null,
+    "2018-03": null,
+    "2018-04": 65929
+  },
+  "locations": [
+    {
+      "serviceAddress": "R 10710 Beaver-Dam Rd, Cockeysville, MD 21030",
+      "accountNumber": "7685831000",
+      "meterNumber": "G159096180"
+    }
+  ],
+  "totalUsage": 65929
+}

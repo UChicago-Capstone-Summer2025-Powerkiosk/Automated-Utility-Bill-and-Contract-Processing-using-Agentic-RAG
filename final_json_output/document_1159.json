@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1159",
+  "statementDate": "05/08/2023",
+  "usageHistory": {
+    "2022-05": 1886.4,
+    "2023-04": 1952.2,
+    "2023-05": 1841.8
+  },
+  "locations": [
+    {
+      "serviceAddress": "2006 5 Plate St, Kokomo IN-46902-5734",
+      "accountNumber": "806-495-001-7",
+      "meterNumber": "DK59760"
+    }
+  ],
+  "totalUsage": 1841.8
+}

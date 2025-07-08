@@ -1,0 +1,21 @@
+Meter Information,,,,,,,,
+Read Date,Meter <br> Number,Load <br> Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier <br> $X$,Usage
+10/7,230083611,General Service,On Pk kW,Actual,Estimate,,,36.29
+10/7,230083612,Space Heat,Off Pk kWh,Actual,Estimate,,,437
+10/7,230083612,Space Heat,Total kWh,Actual,Estimate,,,2268
+10/7,230083612,Space Heat,On Pk kW,Actual,Estimate,,,147.46
+10/7,230083613,Space Heat,Off Pk kWh,Actual,Estimate,,,831
+10/7,230083613,Space Heat,Total kWh,Actual,Estimate,,,3802
+10/7,230083613,Space Heat,On Pk kW,Actual,Estimate,,,190.68
+10/7,230083654,General Service,Off Pk kWh,Actual,Estimate,,,1259
+10/7,230083654,General Service,Total kWh,Actual,Estimate,,,1815
+10/7,230083654,General Service,On Pk kW,Actual,Estimate,,,11.45
+10/7,230083655,General Service,Off Pk kWh,Actual,Estimate,,,90
+10/7,230083655,General Service,Total kWh,Actual,Estimate,,,192
+10/7,230083655,General Service,On Pk kW,Actual,Estimate,,,3.46
+10/7,230083656,Space Heat,Off Pk kWh,Actual,Estimate,,,490
+10/7,230083656,Space Heat,Total kWh,Actual,Estimate,,,1946
+10/7,230083656,Space Heat,On Pk kW,Actual,Estimate,,,221.62
+10/7,230083657,General Service,Off Pk kWh,Actual,Estimate,,,52
+10/7,230083657,General Service,Total kWh,Actual,Estimate,,,77
+10/7,230083657,General Service,On Pk kW,Actual,Estimate,,,0.65

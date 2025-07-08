@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_954",
+  "statementDate": "2018-08-01",
+  "usageHistory": {
+    "2018-08": 256994,
+    "2018-07": 248319,
+    "2018-06": 0,
+    "2018-05": 0,
+    "2018-04": 0,
+    "2018-03": 0,
+    "2018-02": 0,
+    "2018-01": 0,
+    "2017-12": 0,
+    "2017-11": 0,
+    "2017-10": 0,
+    "2017-09": 0,
+    "2017-08": 194408
+  },
+  "locations": [
+    {
+      "serviceAddress": "71 W. Hubbard St., CHICAGO, IL 60654-4637",
+      "accountNumber": "1331059049",
+      "meterNumber": "230138664"
+    }
+  ],
+  "totalUsage": 256994
+}

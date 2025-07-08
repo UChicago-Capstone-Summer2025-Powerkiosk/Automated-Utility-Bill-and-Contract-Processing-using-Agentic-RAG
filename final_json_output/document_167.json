@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_167",
+  "statementDate": "2022-01-07",
+  "usageHistory": {
+    "2021-12": 19875.2
+  },
+  "locations": [
+    {
+      "serviceAddress": "Building 673, Cody Technology Park, Ively Road, Farnborough, GU14 OLX",
+      "accountNumber": "2N2R222D",
+      "meterNumber": "NG13K00195"
+    }
+  ],
+  "totalUsage": 19875.2
+}

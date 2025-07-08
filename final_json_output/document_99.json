@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_99",
+  "statementDate": "03/06/2023",
+  "usageHistory": {
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": null,
+    "2023-01": null,
+    "2023-02": null,
+    "2023-03": 307600
+  },
+  "locations": [
+    {
+      "serviceAddress": "24 JYTEK PARK SECOND SERV LEOMINSTER MA 01453",
+      "accountNumber": "93184",
+      "meterNumber": "8969093005"
+    }
+  ],
+  "totalUsage": 307600
+}

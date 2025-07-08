@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_749",
+  "statementDate": "12/22/2023",
+  "usageHistory": {
+    "2023-12": 2739
+  },
+  "locations": [
+    {
+      "serviceAddress": "1800 15th St Golden, CO 80401-1911",
+      "accountNumber": "53-0012917207-7",
+      "meterNumber": "3015791"
+    }
+  ],
+  "totalUsage": 2739
+}

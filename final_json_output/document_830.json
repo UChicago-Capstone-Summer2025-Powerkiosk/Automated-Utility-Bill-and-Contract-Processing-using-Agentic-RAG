@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_830",
+  "statementDate": "7/24/24",
+  "usageHistory": {
+    "2023-01": 15488,
+    "2023-02": 20719,
+    "2023-03": 27805,
+    "2023-04": 28516,
+    "2023-05": 22774,
+    "2023-06": 24031,
+    "2023-07": 25558,
+    "2023-08": 21480,
+    "2023-09": 25320,
+    "2023-10": 21240,
+    "2023-11": 22080,
+    "2023-12": 27000,
+    "2024-07": 33120
+  },
+  "locations": [
+    {
+      "serviceAddress": "802 W Randolph St, Chicago, IL 60607",
+      "accountNumber": "9259514000",
+      "meterNumber": "230184281"
+    },
+    {
+      "serviceAddress": "1017 N Hooker St, Chicago, IL 60642-4305",
+      "accountNumber": "9259514000"
+    }
+  ],
+  "totalUsage": 33120
+}

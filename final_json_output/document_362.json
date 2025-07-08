@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_362",
+  "statementDate": "2019-06-10",
+  "totalUsage": 4603,
+  "usageHistory": {
+    "2018-06": 3959,
+    "2018-09": 4603,
+    "2018-10": 4603,
+    "2018-11": 4603,
+    "2018-12": 4603,
+    "2019-01": 4603,
+    "2019-02": 4603,
+    "2019-04": 4603,
+    "2019-06": 4603
+  },
+  "locations": [
+    {
+      "serviceAddress": "1249 CEDAR RD STE 110, CHESAPEAKE VA 23322-7292",
+      "accountNumber": "9101323773",
+      "meterNumber": "0001688399"
+    }
+  ]
+}

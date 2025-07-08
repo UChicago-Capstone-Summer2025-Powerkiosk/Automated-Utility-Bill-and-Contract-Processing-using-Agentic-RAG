@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1098",
+  "statementDate": "12/30/21",
+  "totalUsage": 1488,
+  "usageHistory": {
+    "2021-01": 1504,
+    "2021-02": 1504,
+    "2021-03": 1504,
+    "2021-04": 1504,
+    "2021-05": 1504,
+    "2021-06": 1504,
+    "2021-07": 1504,
+    "2021-08": 1504,
+    "2021-09": 1504,
+    "2021-10": 1504,
+    "2021-11": 1504,
+    "2021-12": 1488
+  },
+  "locations": [
+    {
+      "serviceAddress": "5974 SUSQUEHANNA TRL, TURBOTVILLE, PA 17772",
+      "accountNumber": "65080-53036",
+      "meterNumber": "301367830"
+    }
+  ]
+}

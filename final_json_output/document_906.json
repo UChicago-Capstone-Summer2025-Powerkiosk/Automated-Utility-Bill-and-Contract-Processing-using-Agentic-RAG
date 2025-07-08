@@ -1,0 +1,54 @@
+{
+  "documentType": "contract",
+  "documentId": "document_906",
+  "contractStart": "2022-10-01",
+  "contractEnd": "2023-09-30",
+  "usageHistory": {
+    "2022-10": 2434,
+    "2022-11": 2715,
+    "2022-12": 3038,
+    "2023-01": 3285,
+    "2023-02": 3158,
+    "2023-03": 2774,
+    "2023-04": 2513,
+    "2023-05": 2242,
+    "2023-06": 1902,
+    "2023-07": 1836,
+    "2023-08": 1781,
+    "2023-09": 1875
+  },
+  "locations": [
+    {
+      "facilityName": "OU Medicine, Inc.",
+      "accountNumber": "10096",
+      "meterNumber": "10096",
+      "address": "700 NE 13TH ST",
+      "city": "OKLAHOMA CITY",
+      "state": "OK"
+    },
+    {
+      "facilityName": "OU Medical Center",
+      "accountNumber": "9141",
+      "meterNumber": "9141",
+      "address": "800 NE 13th St.",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "facilityName": "OU Medicine-Surgery Center",
+      "accountNumber": "9142",
+      "meterNumber": "9142",
+      "address": "700 NE 10th Street",
+      "city": "Oklahoma City",
+      "state": "OK"
+    },
+    {
+      "facilityName": "OU Medical Center Edmond",
+      "accountNumber": "9144",
+      "meterNumber": "9144",
+      "address": "One South Bryant Ave.",
+      "city": "Edmond",
+      "state": "OK"
+    }
+  ]
+}

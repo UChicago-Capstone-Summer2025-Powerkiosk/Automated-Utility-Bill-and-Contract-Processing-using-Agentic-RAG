@@ -1,0 +1,29 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1017",
+  "contractStart": "October 2024",
+  "contractEnd": "October 2026",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "11490 MOSTELLER RD, CINCINNATI, OH 45241",
+      "accountNumber": "3500212202",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "11420 MOSTELLER RD, CINCINNATI, OH 45241",
+      "accountNumber": "5430211605",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "11490 MOSTELLER RD, CINCINNATI, OH 45241",
+      "accountNumber": "9170223007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "11440 MOSTELLER RD, CINCINNATI, OH 45241",
+      "accountNumber": "9970213510",
+      "meterNumber": null
+    }
+  ]
+}

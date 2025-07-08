@@ -1,0 +1,31 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_526",
+  "statementDate": "11/05/2020",
+  "usageHistory": {
+    "2020-09": 333623
+  },
+  "locations": [
+    {
+      "serviceAddress": "640 N LASALLE ST, / 01 / CHICAGO, IL 60610",
+      "accountNumber": "1430287005",
+      "meterNumbers": [
+        "230157371",
+        "230181606",
+        "230181607",
+        "230183014",
+        "230183015",
+        "230199428",
+        "230210818",
+        "230210819",
+        "230210820",
+        "230210821",
+        "230211786",
+        "230244682",
+        "230273252",
+        "230273253"
+      ]
+    }
+  ],
+  "totalUsage": 333623
+}

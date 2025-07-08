@@ -1,0 +1,53 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_140",
+  "statementDate": "08/09/22",
+  "totalUsage": 431696,
+  "usageHistory": {
+    "2022-07": 52200,
+    "2022-08": 41760,
+    "2022-09": 31320,
+    "2022-10": 20880,
+    "2022-11": 10440,
+    "2022-12": 52200,
+    "2023-01": 41760,
+    "2023-02": 31320,
+    "2023-03": 20880,
+    "2023-04": 10440,
+    "2023-05": 52200,
+    "2023-06": 41760,
+    "2023-07": 31320
+  },
+  "locations": [
+    {
+      "serviceAddress": "912 S RIGGINS ST CONC ANNA, TX 75409",
+      "accountNumber": "1660156",
+      "meterNumber": "199614877LG"
+    },
+    {
+      "serviceAddress": "01201 N POWELL PKWY BLDG FLDHS ANNA, TX 75409-2580",
+      "accountNumber": "1660156",
+      "meterNumber": "147646798LG"
+    },
+    {
+      "serviceAddress": "01201 N POWELL PKWY ANNA, TX 75409-2580",
+      "accountNumber": "1660156",
+      "meterNumber": "118433501LG"
+    },
+    {
+      "serviceAddress": "501 S SHERLEY AVE BUS BARN ANNA, TX 75409",
+      "accountNumber": "1660156",
+      "meterNumber": "114663957LG"
+    },
+    {
+      "serviceAddress": "1107 W ROSAMOND PKWY, ANNA TX",
+      "accountNumber": "1660156",
+      "meterNumber": "158709655LG"
+    },
+    {
+      "serviceAddress": "1107 W ROSAMOND PKWY BLDG B, ANNA TX",
+      "accountNumber": "1660156",
+      "meterNumber": "147648319LG"
+    }
+  ]
+}

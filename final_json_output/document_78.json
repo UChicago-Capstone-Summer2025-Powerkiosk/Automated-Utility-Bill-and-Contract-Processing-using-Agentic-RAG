@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_78",
+  "statementDate": "2021-08-17",
+  "totalUsage": 0,
+  "usageHistory": {
+    "2020-09": 177594,
+    "2020-10": 159644,
+    "2020-11": 140202,
+    "2020-12": 187910,
+    "2021-01": 262941,
+    "2021-02": 264400,
+    "2021-03": 329282,
+    "2021-04": 227865,
+    "2021-05": 195800,
+    "2021-06": 162359,
+    "2021-07": 214987,
+    "2021-08": 244786,
+    "2021-09": 257713
+  },
+  "locations": [
+    {
+      "serviceAddress": "233 E WACKER DR, CHICAGO IL 60601-5104",
+      "accountNumber": "0605478529-00003",
+      "meterNumber": "P3014703"
+    },
+    {
+      "serviceAddress": "BSMT 233 E WACKER DR CHICAGO IL 60601-5104",
+      "accountNumber": "0605478529-00002",
+      "meterNumber": "P3014703"
+    },
+    {
+      "serviceAddress": "GRILLS STR, 233 E WACKER DR, CHICAGO IL 60601-5104",
+      "accountNumber": "0605478529-00005",
+      "meterNumber": "P2563535"
+    }
+  ]
+}

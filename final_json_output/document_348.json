@@ -1,0 +1,70 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_348",
+  "statementDate": "April 04, 2022",
+  "usageHistory": {
+    "2021-03": {
+      "electric": 625,
+      "gas": 279
+    },
+    "2021-04": {
+      "electric": 625,
+      "gas": 279
+    },
+    "2021-05": {
+      "electric": 1250,
+      "gas": 186
+    },
+    "2021-06": {
+      "electric": 1250
+    },
+    "2021-07": {
+      "electric": 2500
+    },
+    "2021-08": {
+      "electric": 1250
+    },
+    "2021-09": {
+      "electric": 1250
+    },
+    "2021-10": {
+      "electric": 1250
+    },
+    "2021-11": {
+      "electric": 1250,
+      "gas": 186
+    },
+    "2021-12": {
+      "electric": 1250,
+      "gas": 279
+    },
+    "2022-01": {
+      "electric": 1250,
+      "gas": 372
+    },
+    "2022-02": {
+      "electric": 1250,
+      "gas": 372
+    },
+    "2022-03": {
+      "electric": 1250,
+      "gas": 186
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "2033 RTE 130 BLDG U-M, SOUTH BRUNSWICK TWP NJ 08512",
+      "accountNumber": "7327217401",
+      "meterNumber": "2996882"
+    },
+    {
+      "serviceAddress": "2033 RTE 130 STE D, MONMOUTH JUNCTION NJ 08852",
+      "accountNumber": "7327217401",
+      "meterNumber": "64487438"
+    }
+  ],
+  "totalUsage": {
+    "electric": 837,
+    "gas": 115.328
+  }
+}

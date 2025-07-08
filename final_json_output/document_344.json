@@ -1,0 +1,29 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_344",
+  "statementDate": "April 04, 2022",
+  "usageHistory": {
+    "2021-03": 26,
+    "2021-04": 4,
+    "2021-05": 1,
+    "2021-08": 1,
+    "2021-11": 14,
+    "2021-12": 28,
+    "2022-01": 30,
+    "2022-02": 28,
+    "2022-03": 26
+  },
+  "locations": [
+    {
+      "serviceAddress": "2031 RTE 130 STE J, SOUTH BRUNSWICK TWP NJ 08831",
+      "accountNumber": "7179498718",
+      "meterNumber": "2359943"
+    },
+    {
+      "serviceAddress": "2033 RTE 130 STE D, MONMOUTH JUNCTION NJ 08852",
+      "accountNumber": "7179498718",
+      "meterNumber": "266012176"
+    }
+  ],
+  "totalUsage": 4950
+}

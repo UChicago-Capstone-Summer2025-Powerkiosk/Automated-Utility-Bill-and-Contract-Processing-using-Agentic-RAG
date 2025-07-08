@@ -1,0 +1,73 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_280",
+  "statementDate": "01/02/24",
+  "totalUsage": 31499,
+  "usageHistory": {
+    "2023-12": 31499,
+    "2024-01": 31499,
+    "2024-02": 0,
+    "2024-03": 25699,
+    "2024-04": 22030,
+    "2024-05": 19952,
+    "2024-06": 0,
+    "2024-07": 19337,
+    "2024-08": 0,
+    "2024-09": 24173,
+    "2024-10": 27828,
+    "2024-11": 29634,
+    "2024-12": 31499
+  },
+  "locations": [
+    {
+      "serviceAddress": "STREETLIGHTS BERLIN CT 06037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 OLD FARM FL BERLIN CT 06080",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "STREETLIGHTS BERLIN BY 06037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 CHOLESSUCH BERLIN BY 06000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 LOWEVER OF BERLIN ET 00000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 DIMMALS KENDRITOR: ET 00000",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "SPRING VALLEY OR BERLIN GT 08037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "STREETLIGHTS BERLIN ET 00007",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "STREET LIGHTS BERLIN BT 03037",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "0 GETTIGIII DR BERLIN BT 03080",
+      "accountNumber": "51628023087",
+      "meterNumber": null
+    }
+  ]
+}

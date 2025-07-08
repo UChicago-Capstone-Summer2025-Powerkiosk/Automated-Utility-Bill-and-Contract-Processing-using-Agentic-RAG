@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_580",
+  "statementDate": "2019-05-10",
+  "totalUsage": 899.1,
+  "locations": [
+    {
+      "serviceAddress": "8001 S MARSHFIELD AVE, CHICAGO IL 60620-4328",
+      "accountNumber": "0600667672-00011",
+      "meterNumber": "P1908011"
+    }
+  ],
+  "usageHistory": {
+    "2019-05": 899.1
+  }
+}

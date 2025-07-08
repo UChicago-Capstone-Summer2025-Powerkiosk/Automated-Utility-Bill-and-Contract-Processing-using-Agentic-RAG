@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_304",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 23,
+    "2024-01": 27,
+    "2024-02": 20,
+    "2024-03": 15,
+    "2024-04": 13,
+    "2024-05": 12,
+    "2024-06": 11,
+    "2024-07": 12,
+    "2024-08": 11,
+    "2024-09": 12,
+    "2024-10": 13,
+    "2024-11": 15,
+    "2024-12": 25
+  },
+  "locations": [
+    {
+      "serviceAddress": "342 MAN ST, KENSINGTON ET 06023",
+      "accountNumber": "51527587018",
+      "meterNumber": "035994582"
+    }
+  ],
+  "totalUsage": 718
+}

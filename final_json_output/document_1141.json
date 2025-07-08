@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1141",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-05": 31.44,
+    "2023-04": 33.6,
+    "2023-05": 34.08
+  },
+  "locations": [
+    {
+      "serviceAddress": "350 W Lincoln Ave, Goshen IN 46526-2416",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 34.08
+}

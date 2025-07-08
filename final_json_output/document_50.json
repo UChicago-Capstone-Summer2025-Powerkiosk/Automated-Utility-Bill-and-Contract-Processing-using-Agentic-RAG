@@ -1,0 +1,69 @@
+{
+  "documentType": "contract",
+  "documentId": "document_50",
+  "contractStart": "2017-02",
+  "contractEnd": "2018-02",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "14031 S School St, Riverdale, IL, 60827",
+      "accountNumber": "9804404360",
+      "meterNumber": "9386978265"
+    },
+    {
+      "serviceAddress": "2106 Jeffrey Avenue, Maywood, IL, 60153",
+      "accountNumber": "6051443807",
+      "meterNumber": "2986559045"
+    },
+    {
+      "serviceAddress": "1304 151st St, Calumet City, IL, 60409",
+      "accountNumber": "4689131272",
+      "meterNumber": "7054450421"
+    },
+    {
+      "serviceAddress": "464 Gordon Ave, Calumet City, IL, 60409",
+      "accountNumber": "739221250",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1573 State St, Calumet City, IL, 60409",
+      "accountNumber": "56428734638",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "21746 Jeffrey Avenue, Riverdale, IL, 60827",
+      "accountNumber": "60736108476",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "14133 S School St, Riverdale, IL, 60827",
+      "accountNumber": "2487864304",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "470 Gordon Ave, Calumet City, IL, 60409",
+      "accountNumber": "688897701",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "404 S 4th Ave, Maywood, IL, 60153",
+      "accountNumber": "62993778570",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "304 East 147th Street, Harvey, IL, 60426",
+      "accountNumber": "78548315189",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "21837 Jeffrey, Sauk Village, IL, 60411",
+      "accountNumber": "44687493500",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "14127 S School St, Riverdale, IL, 60827",
+      "accountNumber": "4714140623",
+      "meterNumber": null
+    }
+  ]
+}

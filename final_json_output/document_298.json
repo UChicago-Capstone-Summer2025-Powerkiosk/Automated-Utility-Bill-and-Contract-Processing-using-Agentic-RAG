@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_298",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 86,
+    "2024-01": 97,
+    "2024-02": 79,
+    "2024-03": 75,
+    "2024-04": 69,
+    "2024-05": 60,
+    "2024-06": 61,
+    "2024-07": 54,
+    "2024-08": 61,
+    "2024-09": 65,
+    "2024-10": 70,
+    "2024-11": 83
+  },
+  "locations": [
+    {
+      "serviceAddress": "0 PART ST",
+      "accountNumber": "51864223045",
+      "meterNumber": "892595742"
+    }
+  ],
+  "totalUsage": 53
+}

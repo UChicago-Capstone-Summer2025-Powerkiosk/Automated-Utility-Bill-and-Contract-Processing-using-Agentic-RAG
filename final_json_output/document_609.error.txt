@@ -1,0 +1,3689 @@
+Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-0zMrhpmEv1qtiARr7YMX2Ev1 on tokens per min (TPM): Limit 30000, Requested 31057. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+
+--- PROMPT SENT ---
+You are an expert data extraction agent. Your task is to convert a utility document (bill or contract) from Markdown format into a single, valid JSON object.
+
+You MUST strictly adhere to the JSON schema provided below. Do not add fields that are not in the schema. If a value for a non-required field is not found, omit it or use `null`. For required fields, make your best effort to find the value; if it's truly absent, use a placeholder like "NOT_FOUND".
+
+<schema>
+{
+// ... PASTE THE ENTIRE CONTENT of main_usage_schema.json HERE ...
+}
+</schema>
+
+Here are specific instructions based on the document type:
+
+1.  **Determine `documentType`**: First, identify if the document is a "sampleBill" or a "contract". Contracts usually have terms like "Agreement", "Confirmation", or "Seller/Buyer". Bills have "Billing Summary", "Amount Due", etc.
+2.  **`documentId`**: Use the document's original filename (e.g., "document_55").
+3.  **For Contracts (`documentType: "contract"`)**:
+    *   `contractStart` and `contractEnd`: Extract these from the delivery period or term.
+    *   `usageHistory`: This should be the **forecasted usage**. Look for tables titled "Forecasted Volume" or similar, often found in a CSV file. The keys must be in "YYYY-MM" format. If only one year of data is given for a multi-year contract, you MUST repeat the monthly values for all years of the contract. If only an annual total is given, divide by 12 and apply to each month.
+    *   `locations`: Extract all service addresses, account numbers, and meter numbers from the facility attachments or tables. The CSV data is the most likely source for this. Aggregate all of them into the `locations` array.
+4.  **For Bills (`documentType: "sampleBill"`)**:
+    *   `statementDate`: Find the bill date or statement date.
+    *   `usageHistory`: Look for a "Billing History" or "Usage Profile" chart/table showing past usage. Extract the monthly usage from this.
+    *   `locations`: A bill may have one or many service addresses. Extract all you can find.
+    *   `totalUsage`: Find the "Total kWh Used" or "Current Usage" for the billing period.
+
+Now, process the following document. The Markdown content is provided first, followed by the content of any referenced CSV files.
+
+**[Markdown Content]**
+--- START OF FILE document_609.md ---
+## Your energy bill
+
+## Message Center
+
+## *** SHUT-OFF NOTICE * * <br> 1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+
+Your bill is now past due. Payment of $\$ 14,994.97$ must be received by 2/27/2024 or service may be shut off. A security deposit may be required if late payments continue. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+At PSE\&G, we are committed to supporting your business needs. That's why we have a dedicated, toll-free phone number to address your energy questions and concerns. PSE\&G's Business Solutions Center is available Monday-Friday, 8:00 a.m. - 5:30 p.m. at 1-855-249-7734 (1-855-BIZ-PSEG).
+
+## NEXT METER READING March 8, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri. Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## $>$ Shut-off notice
+
+Total amount due
+\$29,198.15
+See shut-off notice below for payment details
+Bill date: February 12, 2024
+For the period: January 10, 2024 to February 07, 2024
+
+- ST. ANN'S HOME PO: SA-5888
+
+ACCOUNT NUMBER
+4200697807
+
+## SERVICE ADDRESS
+
+196 OLD BERGEN RD
+JEREEY CITY NJ 07305-2622
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+\$45,020.37
+Less: Payment received - thank you!
+\$30,025.4C
+Balance remaining from your last bill
+\$14,994.97
+
+This month's charges and credits
+![](images/img-0.jpeg)
+
+The image is a section of a bill detailing charges and credits. It includes the following text:
+
+- "Late payment charge $427.00"
+- "Plus Gas charges - PSE&G for 1 meter $49.00"
+- "Plus Electric charges - PSE&G for 1 meter $2,642.00"
+- "Plus Electric supply charges - Smartest Energy US LLC $11,083.00"
+- "This month's charges and credits $14,203.00"
+
+The text is organized in a list format, with each charge itemized and a total at the bottom. The total amount is emphasized with a signature and a circle around it.
+
+Total amount due by Feb 27, 2024
+\$29,198.15
+\$30,025.4C
+
+Page 1 of 5
+
+## PSE\&G
+
+This month's charges and benefits
+![](images/img-1.jpeg)
+
+The image is a section of a bill. It includes the following text:
+
+- "Account number 4200697807"
+- "Total amount due $29,198.15"
+- "See shut-off notice above for amount that must be paid to avoid shut-off."
+
+The text "Total amount due" and the amount "$29,198.15" are emphasized in red. There is a small red flag icon next to the "Total amount due" text.
+
+## $p^{p} \mid H_{1} H_{1} H_{1} H \mid H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H$
+
+POBO $^{2}$
+$p^{p} \mid H_{1} H_{1} H_{1} H \mid H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1}$
+$p^{p} \mid H_{1} H_{1} H_{1} H \mid H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1} H_{1}$
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+## Details of your gas charges
+
+Your rate: General Service Gas (GSG)
+
+| Meter \# 2716513 | Usage |
+| :--: | :--: |
+| Actual reading Feb 7, 2024 | 8868 |
+| Less | 8839 |
+| Difference | 29 |
+| Converted to CCF $\times 1.012$ | 29.348 |
+| Converted to therms $\times 1.035$ | 30.375 |
+| Total gas you used in 29 days | 30.375 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 20.23$ |
+| :-- | --: |
+| Charges for delivering gas to you: |  |
+|  | 30.375 therms $\times \$ 0.338765$ |
+| Balancing Charge | 8.845 therms $\times \$ 0.098361$ |
+| Societal Benefits | 30.375 therms $\times \$ 0.051358$ |
+| This charge recovers the cost of government mandated programs | $\$ 1.56$ |
+| designed to achieve public policy goals, such as energy conservation. |  |
+
+Total gas delivery charges
+$\$ 32.95$
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+
+|  | 30.375 therms $\times \$ 0.549465$ | $\$ 16.69$ |
+| :-- | --: | --: |
+| Total gas supply charges | $\$ 16.69$ |  |
+| Total gas charges | $\$ 49.64$ |  |
+
+## Your monthly gas use
+
+Therms
+![](images/img-2.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from "Feb 2023" to "Feb 2024"
+- **Y-Axis**: Therms, ranging from 0 to 36
+- **Legend**: 
+  - Orange bars represent "Total energy used"
+  - "E" indicates "Estimated reading"
+- **Data Points**:
+  - Feb 2023: Approximately 29 therms
+  - Mar 2023: Approximately 27 therms
+  - Apr 2023: Approximately 22 therms
+  - May 2023: Approximately 24 therms
+  - Jun 2023: Approximately 27 therms
+  - Jul 2023: Approximately 25 therms
+  - Aug 2023: Approximately 20 therms
+  - Sep 2023: Approximately 21 therms
+  - Oct 2023: Approximately 23 therms
+  - Nov 2023: Approximately 19 therms (Estimated reading)
+  - Dec 2023: Approximately 26 therms
+  - Jan 2024: Approximately 29 therms
+  - Feb 2024: Approximately 30 therms
+- **Yearly usage breakdown (monthly-based)**: The chart shows monthly energy usage over a year, with a notable estimated reading in November 2023.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000010106493953860 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 550.77$ |
+| :-- | --: |
+| Current charges | $\$ 10,533.01$ |
+
+$\mathrm{H}_{\mathrm{T}}$Total Smartest Energy US LLC \$11,083.78
+Charges
+
+## Payments
+
+| Payment - Thank You | Feb 6, 2024 | - $\$ 15,339.62$ |
+| :-- | --: | --: |
+| Payment - Thank You | Jan 16, 2024 | - $\$ 14,685.78$ |
+
+Total payments
+$\$ 30,025.40$ CR
+
+## PSGG
+
+We make things work for you.
+We make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring AON/Electronic Debits using the bank account number on the enclosed check.
+
+## 000189000000185
+
+ST. ANN'S HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Shut-off notice
+
+Total amount due
+See shut-off notice below for payment details
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST. ANN'S HOME PO: SA-9898
+
+ACCOUNT NUMBER
+4200697807
+
+## SERVICE ADDRESS
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Your service is currently in danger of being shut off. $\$ 427.66$ is due immediately. Note further that an additional $\$ 13,775.52$ is now past due and must be paid by $3 / 28 / 2024$ or $\$ 14,203.18$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+## NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Bum to 5:30pm Mon to Fri,
+Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## 000189000000185
+
+ST. ANN'S HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Shut-off notice
+
+Total amount due
+$\$ 28,498.31$
+See shut-off notice below for payment details
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST. ANN'S HOME PO: SA-9898
+
+ACCOUNT NUMBER
+4200697807
+
+## $\triangle$ SERVICE ADDRESS
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Less Payment received February 27, 2024 - thank you!
+Balanced
+
+## $-\$ 14,994.97$
+
+This month's charges and credits
+Late payment charge
+PSE\&G for 1 meter
+PSE\&G for 1 meter
+PSE\&G for 1 meter
+PSE\&G for 1 meter
+PSE\&G
+$-\$ 11,384.66$
+This month's charges and credits
+Total amount due by Mar 28, 2024
+
+Account number
+Total amount due
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount enclosed
+
+## $\mathrm{PSE} \& \mathrm{G} \mathrm{CO}$
+
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+# Details of your gas charges 
+
+Your rate: General Service Gas (GSG)
+
+| Meter \# 2716513 | Usage |
+| :--: | :--: |
+| Actual reading Mar 8, 2024 | 8897 |
+| Actual reading Feb 7, 2024 | 8868 |
+| Difference | 29 |
+| Converted to CCF $\times 1.012$ | 29.348 |
+| Converted to therms $\times 1.035$ | 30.375 |
+| Total gas you used in 30 days | 30.375 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | \$20.23 |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 21.996 therms $\times \$ 0.338698$ | $\$ 7.45$ |
+| For the Next | 8.379 therms $\times \$ 0.355651$ | $\$ 2.98$ |
+| Balancing Charge | 8.130 therms $\times \$ 0.098401$ | $\$ 0.80$ |
+| Societal Benefits | 30.375 therms $\times \$ 0.051029$ | $\$ 1.55$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy consumption. |  |  |
+| Total gas delivery charges |  | \$33.01 |
+| Supply charges |  |  |
+| Cost of gas supplied by PSE\&G: |  |  |
+|  | 30.375 therms $\times \$ 0.511934$ | $\$ 15.55$ |
+| Total gas supply charges |  | $\$ 15.55$ |
+| Total gas charges |  | \$48.56 |
+
+## Your monthly gas use
+
+Therms
+![](images/img-3.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from March 2023 to March 2024
+- **Y-Axis**: Therms (0 to 36)
+- **Legend Entries**:
+  - Orange bars represent "Total energy used"
+  - "E" indicates "Estimated reading"
+- **Data Points**:
+  - March 2023: Approximately 27 therms
+  - April 2023: Approximately 30 therms
+  - May 2023: Approximately 28 therms
+  - June 2023: Approximately 30 therms
+  - July 2023: Approximately 19 therms
+  - August 2023: Approximately 18 therms
+  - September 2023: Approximately 18 therms
+  - October 2023: Approximately 20 therms
+  - November 2023: Approximately 21 therms (Estimated)
+  - December 2023: Approximately 27 therms
+  - January 2024: Approximately 30 therms
+  - February 2024: Approximately 30 therms
+  - March 2024: Approximately 30 therms
+- **Notable Styling**: The bar for November 2023 is marked with an "E" for estimated reading.
+
+This chart provides a **yearly usage breakdown (monthly-based)** of energy consumption in therms.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000010106493953860 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 550.77$ |
+| :-- | --: |
+| Current charges | $\$ 10,816.31$ |
+
+
+|  | Total Smartest Energy US LLC | $\$ 11,367.08$ |
+| :-- | :-- | :-- |
+|  |  |  |
+|  | Charges |  |
+
+## 5) PSEG
+
+We make things work for you.
+
+## 5)-8060-0078 <br> Your energy bill
+
+Message Center
+
+## *** SHUT-OFF NOTICE * * <br> 1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+
+Your service is currently in danger of being shut off. $\$ 4,021.06$ is due immediately. Note further that an additional $\$ 12,814.70$ is now past due and must be paid by $3,07 / 2024$ or $\$ 16,835.76$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+## - NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impalred: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734) $>$ Text OUT to report an outage.
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+## - Visit pseg.com/myaccount to access your account anytime
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+
+## Your billing summary
+
+Balance remaining from your last bill
+
+| - PSE\&G balance from last bill | \$16,835.76 |
+| :--: | :--: |
+| Balance remaining from your last bill | \$16,835.76 |
+| This month's charges and credits |  |
+| Late payment charge | \$56.3 |
+| Gas charges - PSE\&G | \$5,326.5 |
+| This month's charges and credits |  |
+| Total amount due by Mar 27, 2024 | \$5,382.8 |
+|  |  |
+
+![](images/img-4.jpeg)
+
+The image is a photo of a section of a document, likely a bill. It shows handwritten markings over printed text. The visible printed text includes:
+
+- "Balance remaining from your last bill $16,835.76"
+- "Late payment charge $56.3"
+- "Gas charges - PSE&G $5,326.5"
+- "Total amount due by Mar 27, 2024 $5,382.8"
+- "$22,218.58"
+
+There are two large handwritten signatures or marks over the text. The text is part of a billing summary, and the handwritten marks appear to be annotations or signatures.
+
+Page 1 of 3
+
+## 6665217205
+
+Total amount due
+\$22,218.58
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+## Amount enclosed
+
+120717000029770
+$\left\|\mid n\right\|\left\|u_{1}\right\|\left\|u_{1}\right\|\left\|u_{1}\right\|\left\|u_{1}\right\|\left\|u_{1}\right\|\left\|u_{1}\right\|\left\|u_{1}\right\| \mid n \mid\|u\|$ PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+# Details of your gas charges 
+
+Your rate: Large Volume Gas (LVG)
+
+| Meter \# 2643692 | Usage |
+| :--: | :--: |
+| Actual reading Mar 8, 2024 | 11927 |
+| Estimated reading Feb 7, 2024 | 6646 |
+| Difference | 5,281 |
+| Converted to CCF $\times 1.012$ | $5,344.372$ |
+| Converted to therms $\times 1.035$ | $5,531.425$ |
+| Total gas you used in 30 days | 5,531.425 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | $\$ 179.66$ |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 733.000 therms $\times \$ 0.012674$ | \$9.29 |
+| For the Next | 3,322.610 therms $\times \$ 0.030849$ | $\$ 102.50$ |
+| For the Next | 267.000 therms $\times \$ 0.020674$ | $\$ 5.52$ |
+| For the Next | 1,208.815 therms $\times \$ 0.038865$ | $\$ 46.98$ |
+| Demand | 348.915 therms $\times \$ 4.665291$ | \$1,627.79 |
+| The highest average daily use of gas over the most recent billing months of November to March |  |  |
+| Balancing Charge | 2,394.120 therms $\times \$ 0.097915$ | $\$ 234.42$ |
+| Societal Benefits | 5,531.425 therms $\times \$ 0.051186$ | $\$ 283.13$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |
+| Total gas delivery charges |  | \$2,489.29 |
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+5,531.425 therms $\times \$ 0.512929$
+Total gas supply charges
+Total gas charges
+$\$ 2,837.23$
+$\$ 5,326.52$
+
+## Your monthly gas use
+
+## Therms
+
+![](images/img-5.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from March 2023 to March 2024
+- **Y-Axis**: Energy usage with values 0, 4517, 9034, 13551, 18068
+- **Legend Entries**: 
+  - Total energy used
+  - E Estimated reading
+- **Data Points**:
+  - Mar 2023: High usage
+  - Apr 2023: High usage
+  - May 2023: Moderate usage
+  - Jun 2023 to Sep 2023: Low usage
+  - Oct 2023: Moderate usage
+  - Nov 2023: Moderate usage (Estimated)
+  - Dec 2023: High usage (Estimated)
+  - Jan 2024: High usage (Estimated)
+  - Feb 2024: Very high usage (Estimated)
+  - Mar 2024: Moderate usage
+- **Notable Styling**: 
+  - Bars for estimated readings are marked with an "E". 
+  - The bars are in orange color.
+- **Yearly Usage Breakdown (Monthly-Based)**: The chart provides a visual representation of monthly energy usage over the course of a year, highlighting periods of higher and lower consumption.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000008889734301547 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## PSEG
+
+We make things work for you.
+
+## 51-8060-00078
+
+## Your energy bill
+
+## Message Center
+
+## *** SHUT-BFF NOTICE * *
+
+1-800-357-2262 (Men-Fri, 7:30 AM - 8:00 PM)
+Your bill is now past due. Payment of $\$ 4,021.06$ must be received by 2/26/2024 or service may be shut off. A security deposit may be required if late payments continue. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+At PSE\&G, we are committed to supporting your business needs. That's why we have a dedicated, toll-free phone number to address your energy questions and concerns. PSE\&G's Business Solutions Center is available Monday-Friday, 8:00 a.m. - 5:30 p.m. at 1-855-249-7734 (1-855-BIZ-PSEG).
+
+## NEXT METER READING March 8, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri,
+Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## * Shut-off notice
+
+Total amount due
+\$16,835.76
+See shut-off notice below for payment details
+
+Bill date: February 09, 2024
+For the period: January 10, 2024 to February 07, 2024
+
+- ST ANNS HOME PO: SA-7919
+
+ACCOUNT NUMBER
+6665217205
+SERVICE ADDRESS
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Your billing summary
+
+Balance remaining from your last bill
+PSE\&G balance from last bill
+Less: Payment received - thank you!
+\$11,031.95
+Balance remaining from your last bill
+This month's charges and credits
+Late payment charge
+PSE
+Pleas: Gas charges - PSE\&G
+This month's charges and credits
+Total amount due by Feb 26, 2024
+\$12,814.79
+\$16,835.76
+
+## $m-8060-0018$
+
+Page 1 of 3
+
+## PSEGG
+
+We make things work for you.
+PAY YOUR WAY, 24/7
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring AON/Electronic
+Debits using the bank account number on the enclosed check.
+
+113572000030033
+$1 \mid \mu \mid 1111 \mid \mu \mid 11 \mid \mu \mid 11 \mid 11 \mid 1 \mu \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11$
+ST ANNS HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount enclosed
+
+113572000030033
+$1 \mid \mu \mid 1111 \mid \mu \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11 \mid 11
+
+## Details of your gas charges
+
+Your rate: Large Volume Gas (LVG)
+
+| Meter \# 2643692 | Usage |
+| :--: | :--: |
+| Estimated reading Feb 7, 2024 | 6646 |
+| Less Actual reading Jan 9, 2024 | 92273 |
+| Difference | 14,373 |
+| Converted to CCF $\times 1,012$ | $14,545,476$ |
+| Converted to therms $\times 1,035$ | $15,054,568$ |
+| Total gas you used in 29 days | $15,054,568$ therms |
+
+## Delivery charges
+
+| Monthly service charge |  |  | \$179.66 |
+| :--: | :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |  |
+| For the First | 1,000.000 | therms $\times \$ 0.012670$ |  |
+| For the Next | 14,054.568 | therms $\times \$ 0.030850$ |  |
+| Demand | 397.879 | therms $\times \$ 4.665288$ | \$1,856.22 |
+| The highest average daily use of gas over the most recent billing months of November to March: |  |  |  |
+| Balancing Charge | 12,021.834 | therms $\times \$ 0.097914$ | \$1,177.11 |
+| Societal Benefits | 15,054.568 | therms $\times \$ 0.051263$ |  |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |  |
+| Total gas delivery charges |  | \$4,430.98 |  |
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+15,054.568 therms $\times \$ 0.549777$
+Total gas supply charges
+\$8,276.65
+Total gas charges
+\$12,707.63
+
+Your monthly gas use
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000008889734301547 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+Visit MyAccount for more details regarding your energy usage.
+
+# Payments 
+
+| Payment - Thank You | Feb 5, 2024 | -\$3,808.92 |
+| :--: | :--: | :--: |
+| Payment - Thank You | Jan 16, 2024 | -\$3,201.97 |
+
+Total payments
+\$7,010.89 CR
+
+## PSIEG
+
+We make things work for you.
+We make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring AOH/Electronic Debits using the bank account number on the enclosed check.
+
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+082209000033101
+$\mathrm{n} / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1
+
+Details of your electric charges
+Your rate: General Lighting \& Power (GLP)
+
+| Meter \# 126655557 | Usage |
+| :--: | :--: |
+| Actual reading Mar 18, 2024 | 27731 |
+| Less Actual reading Feb 15, 2024 | 27382 |
+| Total electric you used in 32 days | 349 kWh |
+
+## Delivery charges
+
+Monthly service charge
+$\$ 5.10$
+Charges for delivering electric to you:
+Annual Demand
+$3.500 \mathrm{~kW} \times \$ 5.314286$
+The highest Measured Demand in any time period in the current month.
+kWh charges
+For the first
+For the next
+Societal Benefits
+$152 \mathrm{kWh} \times \$ 0.016250$
+197 kWh $\times \$ 0.017310$
+$349 \mathrm{kWh} \times \$ 0.008281$
+\$2.47
+\$3.41
+\$2.89
+
+This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation.
+Total electric delivery charges
+$\$ 32.47$
+Total electric charges
+Your monthly electric use
+![](images/img-6.jpeg)
+
+The image is a bar and line chart.
+
+- **Chart Type**: Bar and line chart
+- **X-axis**: Months from March 2023 to March 2024
+- **Y-axis (left)**: kWh (0 to 1000)
+- **Y-axis (right)**: Unspecified scale (0 to 8)
+- **Legend**:
+  - Orange bars: Total energy used
+  - Grey line: Highest Measured Demand each month
+  - "E" above some bars: Estimated reading
+
+**Yearly usage breakdown (monthly-based)**:
+- March 2023: Approximately 550 kWh
+- April 2023: Approximately 600 kWh
+- May 2023: Approximately 500 kWh (Estimated)
+- June 2023: Approximately 400 kWh
+- July 2023: Approximately 450 kWh
+- August 2023: Approximately 900 kWh (Estimated)
+- September 2023: Approximately 500 kWh
+- October 2023: Approximately 450 kWh
+- November 2023: Approximately 400 kWh
+- December 2023: Approximately 500 kWh (Estimated)
+- January 2024: Approximately 350 kWh
+- February 2024: Approximately 400 kWh
+- March 2024: Approximately 400 kWh
+
+The chart shows the total energy used each month with some months having estimated readings, indicated by "E". The highest measured demand is represented by the grey line.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## MEASURED DEMAND
+
+Demand kW
+Measure Demand is the maximum use of electricity at any time during a monthly time period, as measured by your meter.
+
+## BILLED DEMAND
+
+Annual Demand kW
+3.50
+
+## SUPPLY CAPACITY
+
+Generation kW
+4.181
+
+Transmission kW
+5.765
+
+Supply capacity is required to serve the system's annual peak usage. It represents your share of these facilities, in kilowatts (kW). It is calculated based on your peak usage from the previous summer. Supply capacity values are updated periodically throughout the year and are prorated based on your service period.
+
+## Price to compare
+
+You are currently buying your electricity from another supplier. If you had been purchasing your electric supply from PSE\&G, your cost would be $\$ 109.70$. This is your price to compare. It varies from month to month depending on your usage.
+
+Your PoD ID is: PE000009507485298638 -
+Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## ![](images/img-7.jpeg)
+
+The image is a photo of a section of an energy bill. It features the PSE&G logo with the tagline "We make things work for you." Below the logo, there is a handwritten number: "51-8060-00078." The text "Your energy bill" is prominently displayed in large, orange letters.
+
+## Message Center
+
+This bill reflects BPU-approved changes in the Delivery portion of your electric bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information may also be found at pseg.com.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+Smell. Leave. Call. Know what to do if you smell gas. Natural gas has a distinctive odor that smells like rotten eggs. If you smell gas, leave the area immediately. Call 911 or PSE\&G at 800-880-PSEG (7734). Do not assume somebody else has already called. For more information, visit pseg.com/SmellGas.
+
+## - NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## PO: SA-9898
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST ANN'S ADULT DAY CARE SAINT ANN'S ADULT DAY CARE
+
+ACCOUNT NUMBER
+6886055003
+
+## SERVICE ADDRESS
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Balance remaining from your last bill
+$-\$ 802.87$
+This month's charges and credits
+Gas charges - PSE\&G
+\$866.93
+Piss Electric charges - PSE\&G
+\$421.41
+Piss Electric supply charges - Smartest Energy US LLC
+This month's charges and credits
+Total amount due by Mar 28, 2024
+\$2,752.25
+\$1,949.38
+
+Page 1 of 5
+
+## PSE\&G
+
+We make change work for you.
+PAY YOUR WAY, 24/7
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic Debits using the bank account number on the enclosed check.
+
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+081476000030277
+$\left.{ }^{10} \mathrm{~T}^{\mathrm{I}}\right|_{10} \mathrm{I}_{1} \mathrm{I}_{1} \mathrm{I}_{1}\left[{ }_{10} \mathrm{I}_{1}\right.$
+$\left.{ }^{10} \mathrm{~T}^{\mathrm{I}}\right|_{10} \mathrm{I}_{1}\left[{ }_{10} \mathrm{I}_{1}\right.$
+ST ANN'S ADULT DAY CARE
+SAINT ANN'S ADULT DAY CARE
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due by Mar 28, 2024
+\$1,949.38
+Amount enclosed
+$\mathrm{I}^{\mathrm{I}}{ }^{\mathrm{I}}{ }^{\mathrm{I}}{ }_{\mathrm{I}} \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right.$
+$\left.{ }^{\mathrm{I}}{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}$
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+Details of your gas charges
+Your rate: General Service Gas Heating - GSG (HTG)
+
+| Meter \# 3568299 | Usage |
+| :--: | :--: |
+| Estimated reading Mar 8, 2024 | 61070 |
+|  | 60306 |
+| Difference | 764 |
+| Converted to CCF $\times 1.068$ | 816.105 |
+| Converted to therms $\times 1.035$ | 844.668 |
+| Total gas you used in 30 days | 844.668 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | \$20.23 |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 619.128 therms $\times \$ 0.338783$ | \$209.75 |
+| For the Next | 225.540 therms $\times \$ 0.355458$ | $\$ 80.17$ |
+| Balancing Charge | 820.080 therms $\times \$ 0.097917$ | $\$ 80.30$ |
+| Societal Benefits | 844.668 therms $\times \$ 0.051192$ | $\$ 43.24$ |
+| This charge recovers the cast of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |
+
+Total gas delivery charges
+\$433.69
+Supply charges
+Cost of gas supplied by PSE\&G:
+
+| 844.668 therms $\times \$ 0.512912$ | $\$ 433.24$ |
+| :-- | :-- |
+| Total gas supply charges | $\$ 433.24$ |
+| Total gas charges | $\$ 866.93$ |
+
+## Your monthly gas use
+
+The
+![](images/img-8.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from March 2023 to March 2024
+- **Y-Axis**: Energy usage with units marked at 0, 269, 538, 807, and 1076
+- **Legend**: 
+  - Orange bars represent "Total energy used"
+  - "E" indicates "Estimated reading"
+- **Data Points**:
+  - March 2023: High usage
+  - April 2023: High usage
+  - May to October 2023: Low usage
+  - November 2023: Moderate usage
+  - December 2023 (E): High usage
+  - January 2024 (E): Very high usage
+  - February 2024: High usage
+  - March 2024 (E): High usage
+
+**Yearly usage breakdown (monthly-based)** is evident, with higher usage in colder months and lower usage in warmer months.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGS) prices are located on our website at www.pssg.com.
+
+Your PoD ID is: PG000011893599804246 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 55.45$ |
+| :-- | --: |
+| Current charges | $\$ 1,408.46$ |
+
+$\mathrm{A}_{\mathrm{N}}$Total Smartest Energy US LLC \$1,463.91
+Charges
+
+## ![](images/img-9.jpeg)
+
+The image is a photo or illustration. It contains the following text:
+
+"We make things work for you."
+
+"51-8060-00078"
+
+"Your energy bi" (the rest of the text is cut off).
+
+## Message Center
+
+This bill reflects BPU-approved changes in the Delivery portion of your electric bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information may also be found at pseg.com.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+Smell. Leave. Call. Know what to do if you smell gas. Natural gas has a distinctive odor that smells like rotten eggs. If you smell gas, leave the area immediately. Call 911 or PSE\&G at 800-880-PSEG (7734). Do not assume somebody else has already called. For more information, visit pseg.com/SmellGas.
+
+## NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+- ST ANN'S ADULT DAY CARE SAINT ANN'S ADULT DAY CARE PO: SA-9898
+
+ACCOUNT NUMBER
+6886055003
+
+## SERVICE ADDRESS
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Balance remaining from your last bill
+$-\$ 802.87$
+This month's charges and credits
+Gas charges - PSE\&G
+\$866.93
+Piss Electric charges - PSE\&G
+\$421.41
+Piss Electric supply charges - Smartest Energy US LLC
+This month's charges and credits
+Total amount due by Mar 28, 2024
+\$2,752.25
+\$1,949.38
+
+Page 1 of 5
+
+## PSE\&G
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due by Mar 28, 2024
+\$1,949.38
+Amount enclosed
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+081476000030277
+$\left.{ }^{1} H_{P}\left\|_{P}\left\|_{P}\left\|_{P}\left\|_{P}\left\|_{P}\left\|_{P}\left\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\right\|_{P}\right\|\right\|_{P} \mid$ PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+# Details of your gas charges 
+
+Your rate: General Service Gas Heating - GSG (HTG)
+
+| Meter \# 3568299 | Usage |
+| :--: | :--: |
+| Estimated reading Mar 8, 2024 | 61070 |
+| Less Actual reading Feb 7, 2024 | 60306 |
+| Difference | 764 |
+| Converted to CCF $\times 1.068$ | 816.105 |
+| Converted to therms $\times 1.035$ | 844.668 |
+| Total gas you used in 30 days | 844.668 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 20.23$ |
+| :-- | --: |
+| Charges for delivering gas to you: |  |
+| For the First | 619.128 therms $\times \$ 0.338783$ |
+| For the Next | 225.540 therms $\times \$ 0.355458$ |
+| Balancing Charge | 820.080 therms $\times \$ 0.097917$ |
+| Societal Benefits | 844.668 therms $\times \$ 0.051192$ |
+| This charge recovers the cost of government mandated programs | $\$ 43.24$ |
+
+The charge recovers the cost of government mandated programs
+designed to achieve public policy goals, such as energy conservation.
+
+## Total gas delivery charges
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+844.668 therms $\times \$ 0.512912$
+Total gas supply charges
+Total gas charges
+\$433.24
+\$866.93
+
+## Your monthly gas use
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000011893599804246 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Financial Benefits
+
+Vait MyAccount for more details regarding your energy usage.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 55.45$ |
+| :-- | --: |
+| Current charges | $\$ 1,408.46$ |
+
+* Total Smartest Energy US LLC \$1,463.91
+* 1,463.91
+
+## 1.4
+
+5
+
+## PSEGG
+
+We make ihingy work for you.
+
+## Your energy bill
+
+Message Center
+
+## * " SHUT-OFF NOTICE * *
+
+1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+Your bill is now past due. Payment of $\$ 210.54$ must be received by 2/7/2024 or service may be shut off. A security deposit may be required if late payments continue. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+J.D. Power named PSE\&G \#1 for Residential and Business Customer Satisfaction among Large Electric utilities in the East Region. On behalf of the more than 12,000 PSEG employees who work hard every day, we thank you for rating us as a top utilities provider. For J.D. Power 2023 award information, visit jdpower.com/Awards.
+
+## NEXT METER READING February 15, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri,
+Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## Shut-off notice
+
+Total amount due
+See shut-off notice below for payment details
+Bill date: January 23, 2024
+For the period: December 16, 2023 to January 18, 2024
+
+- ST ANN'S HOME OF AGED PO: SA-5888
+
+ACCOUNT NUMBER
+6711848004
+SERVICE ADDRESS
+114 LEMBECK AVE
+JERSEY CITY NJ 07305-3807
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+$\$ 306.96$
+Lest Payment received January 16, 2024 - thank you!
+$\$ 96.42$
+Balance remaining from your last bill
+$\$ 210.54$
+
+This month's charges and credits
+![](images/img-10.jpeg)
+
+The image is a section of a billing statement showing charges and credits. It includes the following text:
+
+- "Late payment charge $1.42"
+- "Plus Electric charges - PSE&G $35.48"
+- "Plus Electric supply charges - Smartest Energy US LLC $49.33"
+- "This month's charges and credits $86.23"
+- "Total amount due by Feb 7, 2024 $296.77"
+
+There is a handwritten number "8060-00078" and a signature or initials next to it. The total amount due is circled.
+
+Page 1 of 3
+
+## PSEGG
+
+To make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+
+Account number
+Total amount due
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount enclosed
+
+088529000033746
+$[\mathrm{H}]\left[\mathrm{H}_{\mathrm{H}}\right][\mathrm{H}]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right] \mathrm{H}^{\prime}\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]$
+ST ANN'S HOME OF AGED
+114 LEMBECK AVE
+JERSEY CITY NJ 07305-3807
+$\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right] \mathrm{H}^{\prime}\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]\left[\mathrm{H}^{\prime}\right]$
+PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+Details of your electric charges
+Your rate: General Lighting \& Power (GLP)
+
+| Meter \# 126655557 | Usage |
+| :--: | :--: |
+| Actual reading Jan 18, 2024 | 27072 |
+| Less Estimated reading Dec 15, 2023 | 26679 |
+| Total electric you used in 34 days | 393 kWh |
+
+## Delivery charges
+
+Monthly service charge
+$\$ 5.10$
+Charges for delivering electric to you:
+Annual Demand
+$3.900 \mathrm{~kW} \times \$ 5.317949$
+The highest Measured Demand in any time period in the current month.
+kWh charges
+$393 \mathrm{kWh} \times \$ 0.016260$
+$\$ 6.39$
+Societal Benefits
+$393 \mathrm{kWh} \times \$ 0.008270$
+This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation.
+Total electric delivery charges
+$\$ 35.48$
+Total electric charges
+$\$ 35.48$
+
+## Your monthly electric use
+
+![](images/img-11.jpeg)
+
+The image is a bar and line chart.
+
+- **Chart Type**: Combination of bar and line chart.
+- **X-axis**: Months from January 2023 to January 2024.
+- **Y-axis (left)**: Total energy used (in kWh), ranging from 0 to 1000.
+- **Y-axis (right)**: Highest Measured Demand each month (in kW), ranging from 0 to 8.
+- **Legend**:
+  - Orange bars represent "Total energy used."
+  - A gray line represents "Highest Measured Demand each month."
+  - "E" indicates "Estimated reading."
+- **Data Points**:
+  - January 2023: Energy used ~500 kWh.
+  - February 2023: Energy used ~450 kWh.
+  - March 2023: Energy used ~500 kWh.
+  - April 2023: Energy used ~550 kWh.
+  - May 2023: Energy used ~600 kWh (Estimated).
+  - June 2023: Energy used ~750 kWh.
+  - July 2023: Energy used ~650 kWh.
+  - August 2023: Energy used ~800 kWh (Estimated).
+  - September 2023: Energy used ~600 kWh.
+  - October 2023: Energy used ~550 kWh.
+  - November 2023: Energy used ~600 kWh (Estimated).
+  - December 2023: Energy used ~650 kWh.
+  - January 2024: Energy used ~500 kWh.
+- **Yearly usage breakdown (monthly-based)** is evident from the monthly data points.
+- **Styling**: Orange bars for energy usage, gray line for demand, and "E" markers for estimated readings.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## MEASURED DEMAND
+
+Demand kW
+3.90
+
+Measured Demand is the maximum use of electricity at any time during a monthly time period, as measured by your meter.
+
+## BILLED DEMAND
+
+Annual Demand kW
+3.90
+
+## SUPPLY CAPACITY
+
+Generation kW
+4.181
+
+Transmission kW
+5.765
+
+Supply capacity is required to serve the system's annual peak usage. It represents your share of these facilities, in kilowatts (kW). It is calculated based on your peak usage from the previous summer. Supply capacity values are updated periodically throughout the year and are prorated based on your service period.
+
+## Price to compare
+
+You are currently buying your electricity from another supplier. If you had been purchasing your electric supply from PSE\&G, your cost would be $\$ 98.23$. This is your price to compare. It varies from month to month depending on your usage.
+
+Your PoD ID is: PE000009507485298638 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+Visit MyAccount for more details regarding your energy usage.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+Adjustments
+$\$ 0.00$
+Current charges
+$\$ 49.33$
+
+## Your energy bill
+
+## Message Center
+
+## " " SHUT-OFF NOTICE " "
+
+1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+Your service is currently in danger of being shut off. $\$ 14,685.78$ is due immediately. Note further that an additional $\$ 15,339.62$ is now past due and must be paid by $1 / 29 / 2024$ or $\$ 30,025.40$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+J.D. Power named PSE\&G \#1 for Residential and Business
+
+Customer Satisfaction among Large Electric utilities in the East
+Reglon. On behalf of the more than 12,000 PSEG employees who work hard every day, we thank you for rating us as a top utilities provider. For J.D. Power 2023 award information, visit jdpower.com/Awards.
+
+NEXT METER READING February 7, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri,
+Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## Shut-off notice
+
+Total amount due
+\$45,020.37
+See shut-off notice below for payment details
+
+Bill date: January 12, 2024
+For the period: December 08, 2023 to January 09, 2024
+
+- ST. ANN'S HOME
+
+ACCOUNT NUMBER
+4200697807
+
+## REQ. 1091345
+
+PO: SA-4122
+SERVICE ADDRESS
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Less Payment received December 18, 2023 - thank you!
+Balance remaining from your last bill
+\$49,030.00
+\$30,025.40
+
+## This month's charges and credits
+
+Late payment charge
+Pla
+Pla
+Pla
+Pla
+Pla
+This month's charges and credits
+Total amount due by Jan 29, 2024
+\$20,250.00
+\$19,004.60
+\$30,025.40
+
+## $51-8060-00078$
+
+Page 1 of 5
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+
+000260 000000221
+
+## ST. ANN'S HOME
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due
+$\$ 45,020.37$
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount enclosed $\$ 14,994.97$
+
+## [IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+
+PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+# Details of your gas charges 
+
+Your rate: General Service Gas (GSG)
+
+| Meter \# 2716513 | Usage |
+| :--: | :--: |
+| Actual reading Jan 9, 2024 | 8839 |
+| Actual reading Dec 7, 2023 | 8811 |
+| Difference | 28 |
+| Converted to CCF $\times 1.012$ | 28.336 |
+| Converted to therms $\times 1.034$ | 29.299 |
+| Total gas you used in 33 days | 29.299 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 20.23$ |
+| :-- | --: |
+| Charges for delivering gas to you: |  |
+|  | 29.299 therms $\times \$ 0.338919$ |
+| Balancing Charge | 4.818 therms $\times \$ 0.097551$ |
+| Societal Benefits | 29.299 therms $\times \$ 0.051196$ |
+| This charge recovers the cost of government mandated programs | $\$ 1.50$ |
+| designed to achieve public policy goals, such as energy conservation. |  |
+
+Total gas delivery charges
+\$32.13
+Total gas charges
+$\$ 32.13$
+
+## Your monthly gas use
+
+## Therms
+
+![](images/img-12.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from "Jan 2023" to "Jan 2024"
+- **Y-Axis**: No specific title, but numerical values range from 0 to 44
+- **Legend**: 
+  - Orange bar: "Total energy used"
+  - "E": "Estimated reading"
+- **Data Points**:
+  - Jan 2023: Approximately 33
+  - Feb 2023: Approximately 34
+  - Mar 2023: Approximately 30
+  - Apr 2023: Approximately 32
+  - May 2023: Approximately 28
+  - Jun 2023: Approximately 33
+  - Jul 2023: Approximately 23
+  - Aug 2023: Approximately 22
+  - Sep 2023: Approximately 21
+  - Oct 2023: Approximately 23
+  - Nov 2023: Approximately 24 (marked with "E")
+  - Dec 2023: Approximately 28
+  - Jan 2024: Approximately 32
+- **Notable Styling**: The bar for November 2023 is marked with an "E" indicating an estimated reading.
+
+This chart provides a **yearly usage breakdown (monthly-based)** of total energy used.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## Gas Deliveries
+
+Bill Period deliveries 31.13
+Imbalance
+$-1.84$
+The imbalance of -1.84 will be applied to your Gas Deliveries in the month of March. The amount and month applied may differ if you are switching third party suppliers or your account requires an adjustment.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000010106493953860 -
+Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+Adjustments
+Current charges
+\$11,930.42
+
+Total Smartest Energy US LLC
+\$11,930.42
+
+## Charges
+
+## PSEGG
+
+We make things work for you.
+
+## Your energy bill
+
+## Message Center
+
+## *** SHUT-OFF NOTICE * * <br> 1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+
+Your service is currently in danger of being shut off. $\$ 3,201.97$ is due immediately. Note further that an additional $\$ 3,808.92$ is now past due and must be paid by $1 / 26 / 2024$ or $\$ 7,010.89$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+J.D. Power named PSE\&G \#1 for Residential and Business
+
+Customer Satisfaction among Large Electric utilities in the East Region. On behalf of the more than 12,000 PSEG employees who work hard every day, we thank you for rating us as a top utilities provider. For J.D. Power 2023 award information, visit jdpower.com/Awards.
+
+## NEXT METER READING February 7, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Ilam to 5:30pm Mon to Fri,
+Closed an weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## (3) PSEGG
+
+We make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+
+108846000029564
+$\mid|\mid p||\mid p_{1} \mid|-| p|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
+
+# Details of your gas charges 
+
+Your rate: Large Volume Gas (LVG)
+
+| Meter \# 2643692 | Usage |
+| :--: | :--: |
+| Actual reading Jan 9, 2024 | 92273 |
+| Estimated reading Dec 7, 2023 | 81941 |
+| Difference | 10,332 |
+| Converted to CCF $\times 1.012$ | 10,455,984 |
+| Converted to therms $\times 1.034$ | 10,811,487 |
+| Total gas you used in 33 days | 10,811.487 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 179.66$ |
+| :--: | :--: |
+| Charges for delivering gas to you: |  |
+| For the First 1,000,000 therms $\times \$ 0.012670$ | $\$ 12.67$ |
+| For the Next 9,811.487 therms $\times \$ 0.030850$ | $\$ 302.68$ |
+| Demand 472.807 therms $\times \$ 4.665307$ | $\$ 2,205.79$ |
+| The highest average daily use of gas over the most recent billing months of November to March. |  |
+| Balancing Charge 7,360.452 therms $\times \$ 0.097914$ | $\$ 720.69$ |
+| Societal Benefits 10,811.487 therms $\times \$ 0.051263$ | $\$ 554.23$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |
+| Total gas delivery charges $\$ 3,975.72$ |  |
+| Total gas charges | $\$ 3,975.72$ |
+
+## Your monthly gas use
+
+Thems
+![](images/img-13.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Months from January 2023 to January 2024
+- **Y-Axis**: Energy usage with units ranging from 0 to 21,356
+- **Legend**:
+  - Orange bars represent "Total energy used"
+  - "E" indicates "Estimated reading"
+- **Data Points**:
+  - January 2023: High usage
+  - February 2023: Slightly lower than January
+  - March 2023: Lower than February
+  - April 2023: Lower than March
+  - May to September 2023: Low usage
+  - October 2023: Slight increase
+  - November 2023: Estimated reading, moderate usage
+  - December 2023: Estimated reading, higher usage
+  - January 2024: High usage
+- **Notable Styling**: Orange bars with "E" marking for estimated readings in November and December 2023.
+
+This represents a **yearly usage breakdown (monthly-based)**.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## Gas Deliveries
+
+| Bill Period deliveries | 18,339.11 |
+| :--: | :--: |
+| Imbalance | $-7,527.62$ |
+
+The imbalance of -7527.62 will be applied to your Gas Deliveries in the month of March. The amount and month applied may differ if you are switching third party suppliers or your account requires an adjustment.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000008889734301547 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## ![](images/img-14.jpeg)
+
+The image is a logo for PSE&G. It features an orange circular emblem with a sunburst design on the left, followed by the text "PSE&G" in large font. Below the logo, there is a tagline that reads, "We make things work for you." The overall design is simple and professional, with a focus on the company's branding.
+
+We make things work for you.
+
+## Your energy bill
+
+Message Center
+J.D. Power named PSE\&G \#1 for Residential and Business Customer Satisfaction among Large Electric utilities in the East Region. On behalf of the more than 12,000 PSEG employees who work hard every day, we thank you for rating us as a top utilities provider. For J.D. Power 2023 award information, visit jdpower.com/Awards.
+
+Carbon monoxide poisoning is more common in cold weather. Install CO detectors throughout your home or business. To learn more about how to protect yourself, visit pseg.com/GasSafety.
+
+Put our tools to work for your business! For easy access to tips, programs and resources to help your business save time, energy and money, visit pseg.com/BizSavings.
+
+Please help keep our employees safe. Make sure the path leading to your meters and other outside electrical equipment is free of clutter, ice and snow.
+
+## NEXT METER READING February 7, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+Bill date: January 12, 2024
+For the period: December 08, 2023 to January 09, 2024
+
+## - ST ANN'S ADULT DAY CARE SAINT ANN'S ADULT DAY CARE
+
+ACCOUNT NUMBER
+6886055003
+
+## SERVICE ADDRESS
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Less Payment received December 18, 2023 - thank you!
+Balanced
+Balance remaining from your last bill
+
+This month's charges and credits
+Late payment charge
+PSE\&G
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+PlaS
+Qass
+Qass
+ST ANN'S ADULT DAY CARE
+SAINT ANN'S ADULT DAY CARE
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+| Account number | 6886055003 |
+| :--: | :--: |
+| Total amount due by Jan 29, 2024 | \$1,104.11 |
+| Amount enclosed |  |
+| By checking this box, I authorize PSE\&G to initiate recurring ACN/Electronic Debits using the bank account number on the enclosed check. |  |
+| By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address: $\qquad$ |  |
+| 081273000028445 |  |
+| 1\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#
+
+# Details of your gas charges 
+
+Your rate: General Service Gas Heating - GSG (HTG)
+
+| Meter \# 3568299 | Usage |
+| :--: | :--: |
+| Estimated reading Jan 9, 2024 | 59956 |
+| Less Estimated reading Dec 7, 2023 | 59146 |
+| Difference | 810 |
+| Converted to CCF $\times 1.068$ | 865.242 |
+| Converted to therms $\times 1.034$ | 894.660 |
+| Total gas you used in 33 days | 894.660 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 20.23$ |
+| :-- | --: |
+| Charges for delivering gas to you: |  |
+|  | 894.660 therms $\times \$ 0.338777$ |
+| 894.660 therms $\times \$ 0.338777$ | $\$ 303.09$ |
+| Balancing Charge | 867.603 therms $\times \$ 0.097913$ |
+| Societal Benefits | 894.660 therms $\times \$ 0.051260$ |
+| This charge recovers the cost of government mandated programs | $\$ 45.86$ |
+
+This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation.
+
+## Total gas delivery charges
+
+$\$ 454.13$
+Total gas charges
+$\$ 454.13$
+
+## Your monthly gas use
+
+![](images/img-15.jpeg)
+
+The image is a bar chart showing a **yearly usage breakdown (monthly-based)** for gas consumption from January 2023 to January 2024. 
+
+- **X-axis:** Months from Jan 2023 to Jan 2024.
+- **Y-axis:** Energy usage, ranging from 0 to 1256.
+- **Legend:**
+  - Orange bars represent "Total energy used."
+  - "E" indicates "Estimated reading."
+
+**Data Points:**
+- Jan 2023: High usage, around 942.
+- Feb 2023: Slightly lower than January, around 942.
+- Mar 2023: Slightly lower than February.
+- Apr 2023 to Oct 2023: Very low usage, nearly zero.
+- Nov 2023: Increase in usage, marked as "E."
+- Dec 2023: Further increase, marked as "E."
+- Jan 2024: High usage, marked as "E," similar to Jan 2023.
+
+The chart uses orange bars to highlight energy usage, with estimated readings marked by "E."
+
+Visit MyAccount for more details regarding your energy usage.
+
+## Gas Deliveries
+
+Bill Period deliveries 1,166.80
+Imbalance
+$-272.14$
+The imbalance of -272.14 will be applied to your Gas Deliveries in the month of March. The amount and month applied may differ if you are switching third party suppliers or your account requires an adjustment.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000011893599804246 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 0.00$ |
+| :-- | --: |
+| Current charges | $\$ 1,385.62$ |
+
+Total Smartest Energy US LLC \$1,385.62
+Charges
+
+## PSGG
+
+We make things work for you.
+We make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring AON/Electronic Debits using the bank account number on the enclosed check.
+
+## 000189000000185
+
+ST. ANN'S HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Shut-off notice
+
+Total amount due
+See shut-off notice below for payment details
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST. ANN'S HOME PO: SA-9898
+
+ACCOUNT NUMBER
+4200697807
+
+## SERVICE ADDRESS
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Your service is currently in danger of being shut off. $\$ 427.66$ is due immediately. Note further that an additional $\$ 13,775.52$ is now past due and must be paid by $3 / 28 / 2024$ or $\$ 14,203.18$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+## NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Bum to 5:30pm Mon to Fri,
+Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## 000189000000185
+
+ST. ANN'S HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Shut-off notice
+
+Total amount due
+$\$ 28,498.31$
+See shut-off notice below for payment details
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST. ANN'S HOME PO: SA-9898
+
+ACCOUNT NUMBER
+4200697807
+
+## $\triangle$ SERVICE ADDRESS
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Less Payment received February 27, 2024 - thank you!
+Balanced
+
+## $+200697807$
+
+\$28,498.31
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount
+$1000189 \quad 000000185$
+ST. ANN'S HOME
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+# Details of your gas charges 
+
+Your rate: General Service Gas (GSG)
+
+| Meter \# 2716513 | Usage |
+| :--: | :--: |
+| Actual reading Mar 8, 2024 | 8897 |
+| Actual reading Feb 7, 2024 | 8868 |
+| Difference | 29 |
+| Converted to CCF $\times 1.012$ | 29.348 |
+| Converted to therms $\times 1.035$ | 30.375 |
+| Total gas you used in 30 days | 30.375 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | \$20.23 |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 21.996 therms $\times \$ 0.338698$ | $\$ 7.45$ |
+| For the Next | 8.379 therms $\times \$ 0.355651$ | $\$ 2.98$ |
+| Balancing Charge | 8.130 therms $\times \$ 0.098401$ | $\$ 0.80$ |
+| Societal Benefits | 30.375 therms $\times \$ 0.051029$ | $\$ 1.55$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy consumption. |  |  |
+| Total gas delivery charges |  | \$33.01 |
+| Supply charges |  |  |
+| Cost of gas supplied by PSE\&G: |  |  |
+|  | 30.375 therms $\times \$ 0.511934$ | $\$ 15.55$ |
+| Total gas supply charges |  | $\$ 15.55$ |
+| Total gas charges |  | \$48.56 |
+
+## Your monthly gas use
+
+Therms
+![](images/img-16.jpeg)
+
+The image is a bar chart showing a **yearly usage breakdown (monthly-based)** for gas consumption from March 2023 to March 2024. 
+
+- **X-axis**: Months from March 2023 to March 2024.
+- **Y-axis**: Therms, ranging from 0 to 36.
+- **Legend**: 
+  - Orange bars represent "Total energy used."
+  - "E" indicates an "Estimated reading."
+
+**Data Points**:
+- March 2023: ~27 therms
+- April 2023: ~30 therms
+- May 2023: ~28 therms
+- June 2023: ~30 therms
+- July 2023: ~18 therms
+- August 2023: ~18 therms
+- September 2023: ~18 therms
+- October 2023: ~18 therms
+- November 2023 (Estimated): ~21 therms
+- December 2023: ~27 therms
+- January 2024: ~30 therms
+- February 2024: ~30 therms
+- March 2024: ~30 therms
+
+The bars are uniformly colored in orange, with November 2023 marked with an "E" for an estimated reading.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000010106493953860 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 550.77$ |
+| :-- | --: |
+| Current charges | $\$ 10,816.31$ |
+
+
+|  | Total Smartest Energy US LLC | $\$ 11,367.08$ |
+| :-- | :-- | :-- |
+|  |  |  |
+|  | Charges |  |
+
+## PSIEG
+
+We make things work for you.
+
+## Your energy bill
+
+Message Center
+" " SHUT-OFF NOTICE " " 51-8060-78
+1-800-357-2292 (Mon-Fri, 7:30 AM - 8:00 PM)
+Your bill is now past due. Payment of $\$ 14,295.13$ must be received by $4 / 30 / 2024$ or service may be shut off. A security deposit may be required if late payments continue. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+This bill reflects GPU-approved changes in the Delivery portion of your gas bill effective on and after April 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Societal Benefits Charge. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+## (2) NEXT METER READING May 8, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri,
+Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## (3) PSIEG
+
+16 make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+
+## $000168000000187$
+
+## ST. ANN'S HOME
+
+196 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+## $4200697807$
+
+$28,990.93$
+See shut-off notice above for amount that must be paid to avoid shut-off.
+
+Amount enclosed
+
+## $1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11} 1^{11}$
+
+PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+## Details of your gas charges
+
+Your rate: General Service Gas (GSG)
+
+| Meter \# 2716513 | Usage |
+| :--: | :--: |
+| Estimated reading Apr 11, 2024 | 8925 |
+| Less Actual reading Mar 8, 2024 | 6897 |
+| Difference | 28 |
+| Converted to CCF $\times 1,012$ | 26,336 |
+| Converted to therms $\times 1,035$ | 29,328 |
+| Total gas you used in 34 days | 29,328 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | \$20.23 |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+|  | 29,328 therms $\times \$ 0.355292$ | $\$ 10.42$ |
+| Balancing Charge | 4,114 therms $\times \$ 0.097229$ | $\$ 0.40$ |
+| Societal Benefits | 29,328 therms $\times \$ 0.055237$ | $\$ 1.62$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |
+| Total gas delivery charges |  | \$32.67 |
+| Supply charges |  |  |
+| Cost of gas supplied by PSE\&G: |  |  |
+|  | 29,328 therms $\times \$ 0.439171$ | $\$ 12.88$ |
+| Total gas supply charges |  | \$12.88 |
+| Total gas charges |  | \$45.55 |
+
+Your monthly gas use
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSG) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000010106493953860 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## 5) PSEG
+
+We make things work for you.
+
+## 5)-8060-0078 <br> Your energy bill
+
+Message Center
+
+## *** SHUT-OFF NOTICE * * <br> 1-800-357-2262 (Mon-Fri, 7:30 AM - 8:00 PM)
+
+Your service is currently in danger of being shut off. $\$ 4,021.06$ is due immediately. Note further that an additional $\$ 12,814.70$ is now past due and must be paid by $3,07 / 2024$ or $\$ 16,835.76$ will be required to avoid shut off. A statement of customer rights and fees is shown on the reverse side.
+
+Si en el futuro usted desea recibir la notificación de desconexión de servicio en español, por favor llame al 1-800-357-2262.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+## - NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impalred: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734) $>$ Text OUT to report an outage.
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays Emergencies / Outages / WorryFree Services: 24/7 TTY for the hearing impaired: 1-800-225-0072
+
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impalred: 1-800-225-0072
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed onطلقت to 5:30pm Mon to Fri, Closed on weekends and holidays
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to Fri, Closed onطلقت to 5:30pm Mon to 5:30pm Mon to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm Mon to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: Biam to 5:30pm
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-7734
+
+## - 1-855-BIZ-PSEG (249-734
+
+## - 1-855-B
+
+# Details of your gas charges 
+
+Your rate: Large Volume Gas (LVG)
+
+| Meter \# 2643692 | Usage |
+| :--: | :--: |
+| Actual reading Mar 8, 2024 | 11927 |
+| Estimated reading Feb 7, 2024 | 6646 |
+| Difference | 5,281 |
+| Converted to CCF $\times 1.012$ | $5,344.372$ |
+| Converted to therms $\times 1.035$ | $5,531.425$ |
+| Total gas you used in 30 days | 5,531.425 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | $\$ 179.66$ |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 733.000 therms $\times \$ 0.012674$ | \$9.29 |
+| For the Next | 3,322.610 therms $\times \$ 0.030849$ | $\$ 102.50$ |
+| For the Next | 267.000 therms $\times \$ 0.020674$ | $\$ 5.52$ |
+| For the Next | 1,208.815 therms $\times \$ 0.038865$ | $\$ 46.98$ |
+| Demand | 348.915 therms $\times \$ 4.665291$ | \$1,627.79 |
+| The highest average daily use of gas over the most recent billing months of November to March |  |  |
+| Balancing Charge | 2,394.120 therms $\times \$ 0.097915$ | $\$ 234.42$ |
+| Societal Benefits | 5,531.425 therms $\times \$ 0.051186$ | $\$ 283.13$ |
+| This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |
+| Total gas delivery charges |  | \$2,489.29 |
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+5,531.425 therms $\times \$ 0.512929$
+Total gas supply charges
+Total gas charges
+$\$ 2,837.23$
+$\$ 5,326.52$
+
+## Your monthly gas use
+
+## Therms
+
+![](images/img-17.jpeg)
+
+The image is a bar chart showing a **yearly usage breakdown (monthly-based)** of energy usage from March 2023 to March 2024. 
+
+- **X-axis**: Months from March 2023 to March 2024.
+- **Y-axis**: Energy usage, with values ranging from 0 to 18,068.
+- **Legend**: 
+  - Orange bars represent "Total energy used."
+  - "E" indicates "Estimated reading."
+
+**Data Points**:
+- March 2023: High usage.
+- April 2023: Similar high usage as March.
+- May 2023: Moderate usage.
+- June to September 2023: Low usage.
+- October 2023: Slight increase.
+- November 2023: Moderate usage.
+- December 2023: Estimated, moderate usage.
+- January 2024: Estimated, high usage.
+- February 2024: Estimated, very high usage.
+- March 2024: Moderate usage.
+
+The chart uses orange bars to indicate total energy used, with some months marked with an "E" for estimated readings.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000008889734301547 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## PSIEG
+
+We make things work for you.
+We make things work for you.
+
+## PAY YOUR WAY, 24/7
+
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring AOH/Electronic Debits using the bank account number on the enclosed check.
+
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+082209000033101
+$\mathrm{n} / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1 / 1
+
+Details of your electric charges
+Your rate: General Lighting \& Power (GLP)
+
+| Meter \# 126655557 | Usage |
+| :--: | :--: |
+| Actual reading Mar 18, 2024 | 27731 |
+| Less Actual reading Feb 15, 2024 | 27382 |
+| Total electric you used in 32 days | 349 kWh |
+
+## Delivery charges
+
+Monthly service charge
+$\$ 5.10$
+Charges for delivering electric to you:
+Annual Demand
+$3.500 \mathrm{~kW} \times \$ 5.314286$
+The highest Measured Demand in any time period in the current month.
+kWh charges
+For the first
+For the next
+Societal Benefits
+$152 \mathrm{kWh} \times \$ 0.016250$
+197 kWh $\times \$ 0.017310$
+$349 \mathrm{kWh} \times \$ 0.008281$
+\$2.47
+\$3.41
+\$2.89
+
+This charge recovers the cost of government mandated programs designed to achieve public policy goals, such as energy conservation.
+Total electric delivery charges
+$\$ 32.47$
+Total electric charges
+Your monthly electric use
+![](images/img-18.jpeg)
+
+The image is a bar and line chart.
+
+- **Chart Type**: Combination of bar and line chart.
+- **X-Axis**: Monthly timeline from March 2023 to March 2024.
+- **Y-Axis (Left)**: kWh (0 to 1000 scale).
+- **Y-Axis (Right)**: No specific unit, likely related to demand (0 to 8 scale).
+- **Legend**:
+  - Orange bars: Total energy used
+  - Gray line: Highest Measured Demand each month
+  - "E": Estimated reading
+- **Data Points**:
+  - Bars show monthly energy usage in kWh.
+  - The line indicates the highest measured demand each month.
+  - Estimated readings are marked with "E" above certain bars (May, August, December).
+- **Yearly usage breakdown (monthly-based)**: The chart provides a visual representation of energy usage and demand over a year, highlighting months with estimated readings.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## MEASURED DEMAND
+
+Demand kW
+Measure Demand is the maximum use of electricity at any time during a monthly time period, as measured by your meter.
+
+## BILLED DEMAND
+
+Annual Demand kW
+3.50
+
+## SUPPLY CAPACITY
+
+Generation kW
+4.181
+
+Transmission kW
+5.765
+
+Supply capacity is required to serve the system's annual peak usage. It represents your share of these facilities, in kilowatts (kW). It is calculated based on your peak usage from the previous summer. Supply capacity values are updated periodically throughout the year and are prorated based on your service period.
+
+## Price to compare
+
+You are currently buying your electricity from another supplier. If you had been purchasing your electric supply from PSE\&G, your cost would be $\$ 109.70$. This is your price to compare. It varies from month to month depending on your usage.
+
+Your PoD ID is: PE000009507485298638 -
+Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## ![](images/img-19.jpeg)
+
+The image is a photo of a section of an energy bill. It includes the PSE&G logo with the tagline "We make things work for you." Below the logo, there is a handwritten number: "51-8060-00078." The text "Your energy bill" is prominently displayed in large, orange letters.
+
+## Message Center
+
+This bill reflects BPU-approved changes in the Delivery portion of your electric bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information may also be found at pseg.com.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+Smell. Leave. Call. Know what to do if you smell gas. Natural gas has a distinctive odor that smells like rotten eggs. If you smell gas, leave the area immediately. Call 911 or PSE\&G at 800-880-PSEG (7734). Do not assume somebody else has already called. For more information, visit pseg.com/SmellGas.
+
+## - NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+## PO: SA-9898
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+## - ST ANN'S ADULT DAY CARE SAINT ANN'S ADULT DAY CARE
+
+ACCOUNT NUMBER
+6886055003
+
+## SERVICE ADDRESS
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Balance remaining from your last bill
+$-\$ 802.87$
+This month's charges and credits
+Gas charges - PSE\&G
+\$866.93
+Piss Electric charges - PSE\&G
+\$421.41
+Piss Electric supply charges - Smartest Energy US LLC
+This month's charges and credits
+Total amount due by Mar 28, 2024
+\$2,752.25
+\$1,949.38
+
+Page 1 of 5
+
+## PSE\&G
+
+We make change work for you.
+PAY YOUR WAY, 24/7
+We offer a variety of methods that make it easy to pay your bill. See reverse side for more information.
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic Debits using the bank account number on the enclosed check.
+
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+081476000030277
+$\left.{ }^{10} \mathrm{~T}^{\mathrm{I}}\right|_{10} \mathrm{I}_{1} \mathrm{I}_{1} \mathrm{I}_{1}\left[{ }_{10} \mathrm{I}_{1}\right.$
+$\left.{ }^{10} \mathrm{~T}^{\mathrm{I}}\right|_{10} \mathrm{I}_{1}\left[{ }_{10} \mathrm{I}_{1}\right.$
+ST ANN'S ADULT DAY CARE
+SAINT ANN'S ADULT DAY CARE
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due by Mar 28, 2024
+\$1,949.38
+Amount enclosed
+$\mathrm{I}^{\mathrm{I}}{ }^{\mathrm{I}}{ }^{\mathrm{I}}{ }_{\mathrm{I}} \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }^{\mathrm{I}} \mathrm{I}_{1}\right.$
+$\left.{ }^{\mathrm{I}}{ }^{\mathrm{I}}{ }_{\mathrm{I}} \mathrm{I}_{1} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right.$
+$\left.{ }^{\mathrm{I}}{ }_{\mathrm{I}} \mathrm{I}_{1} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}\left[{ }_{\mathrm{I}} \mathrm{I}_{1}\right] \mathrm{I}_{1}$
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+Details of your gas charges
+Your rate: General Service Gas Heating - GSG (HTG)
+
+| Meter \# 3568299 | Usage |
+| :--: | :--: |
+| Estimated reading Mar 8, 2024 | 61070 |
+|  | 60306 |
+| Difference | 764 |
+| Converted to CCF $\times 1.068$ | 816.105 |
+| Converted to therms $\times 1.035$ | 844.668 |
+| Total gas you used in 30 days | 844.668 therms |
+
+## Delivery charges
+
+| Monthly service charge |  | \$20.23 |
+| :--: | :--: | :--: |
+| Charges for delivering gas to you: |  |  |
+| For the First | 619.128 therms $\times \$ 0.338783$ | \$209.75 |
+| For the Next | 225.540 therms $\times \$ 0.355458$ | $\$ 80.17$ |
+| Balancing Charge | 820.080 therms $\times \$ 0.097917$ | $\$ 80.30$ |
+| Societal Benefits | 844.668 therms $\times \$ 0.051192$ | $\$ 43.24$ |
+| This charge recovers the cast of government mandated programs designed to achieve public policy goals, such as energy conservation. |  |  |
+
+Total gas delivery charges
+\$433.69
+Supply charges
+Cost of gas supplied by PSE\&G:
+
+| 844.668 therms $\times \$ 0.512912$ | $\$ 433.24$ |
+| :-- | --: |
+| Total gas supply charges | $\$ 433.24$ |
+| Total gas charges | $\$ 866.93$ |
+
+## Your monthly gas use
+
+The
+![](images/img-20.jpeg)
+
+The image is a bar chart showing a **yearly usage breakdown (monthly-based)** of energy usage from March 2023 to March 2024. 
+
+- **X-axis**: Months from March 2023 to March 2024.
+- **Y-axis**: Energy usage, ranging from 0 to 1076.
+- **Legend**: 
+  - Orange bars represent "Total energy used."
+  - "E" indicates "Estimated reading."
+
+**Data Points**:
+- March 2023: Approximately 807
+- April 2023: Approximately 807
+- May to October 2023: Near 0
+- November 2023: Approximately 269 (Estimated)
+- December 2023: Approximately 538 (Estimated)
+- January 2024: Approximately 1076 (Estimated)
+- February 2024: Approximately 807
+- March 2024: Approximately 538 (Estimated)
+
+The chart uses orange bars to display the data, with some months marked as estimated readings.
+
+Visit MyAccount for more details regarding your energy usage.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGS) prices are located on our website at www.pssg.com.
+
+Your PoD ID is: PG000011893599804246 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 55.45$ |
+| :-- | --: |
+| Current charges | $\$ 1,408.46$ |
+
+$\mathrm{A}_{\mathrm{N}}$Total Smartest Energy US LLC \$1,463.91
+Charges
+
+## ![](images/img-21.jpeg)
+
+The image is a photo or illustration. It contains the following text:
+
+- "We make things work for you."
+- "51-8060-00078"
+- "Your energy bi" (partially visible text, likely "bill")
+
+## Message Center
+
+This bill reflects BPU-approved changes in the Delivery portion of your electric bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information may also be found at pseg.com.
+
+This bill reflects BPU-approved changes in the Delivery portion of your gas bill effective on and after March 1, 2024. The increase in the Delivery portion of your bill is due to changes in the Tax Adjustment Credit. The overall impact for business customers will vary by individual customer usage. Tariff information can be found at pseg.com.
+
+Smell. Leave. Call. Know what to do if you smell gas. Natural gas has a distinctive odor that smells like rotten eggs. If you smell gas, leave the area immediately. Call 911 or PSE\&G at 800-880-PSEG (7734). Do not assume somebody else has already called. For more information, visit pseg.com/SmellGas.
+
+## NEXT METER READING April 9, 2024
+
+## How to contact us
+
+## 1-855-BIZ-PSEG (249-7734)
+
+Customer Service: 8am to 5:30pm Mon to Fri, Closed on weekends and holidays
+Emergencies / Outages / WorryFree Services: 24/7
+TTY for the hearing impaired: 1-800-225-0072
+Visit pseg.com/myaccount to access your account anytime
+Text us. Register for MyAlerts by texting REG to 4PSEG(47734)
+$>$ Text OUT to report an outage.
+facebook.com/pseg
+twitter.com/psegdelivers
+
+Bill date: March 13, 2024
+For the period: February 08, 2024 to March 08, 2024
+
+- ST ANN'S ADULT DAY CARE SAINT ANN'S ADULT DAY CARE PO: SA-9898
+
+ACCOUNT NUMBER
+6886055003
+
+## SERVICE ADDRESS
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305
+
+## Your billing summary
+
+## Balance remaining from your last bill
+
+PSE\&G balance from last bill
+Balance remaining from your last bill
+$-\$ 802.87$
+This month's charges and credits
+Gas charges - PSE\&G
+\$866.93
+Piss Electric charges - PSE\&G
+\$421.41
+Piss Electric supply charges - Smartest Energy US LLC
+This month's charges and credits
+Total amount due by Mar 28, 2024
+\$2,752.25
+\$1,949.38
+
+Page 1 of 5
+
+## PSE\&G
+
+198 OLD BERGEN RD
+JERSEY CITY NJ 07305-2622
+
+Account number
+Total amount due by Mar 28, 2024
+\$1,949.38
+Amount enclosed
+
+By checking this box, I authorize PSE\&G to initiate recurring ACH/Electronic
+Debits using the bank account number on the enclosed check.
+By checking this box, I authorize PSE\&G to enroll me in paperless billing at this email address:
+
+081476000030277
+$\left.{ }^{1} H_{P}\left\|_{P}\left\|_{P}\left\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\right\|_{P}\left\|_{P}\left\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\left\|_{P}\right\|_{P}\right\|\right\|_{P} \mid$ PSE\&G CO
+PO BOX 14444
+NEW BRUNSWICK NJ 08906-4444
+
+# Details of your gas charges 
+
+Your rate: General Service Gas Heating - GSG (HTG)
+
+| Meter \# 3568299 | Usage |
+| :--: | :--: |
+| Estimated reading Mar 8, 2024 | 61070 |
+| Less Actual reading Feb 7, 2024 | 60306 |
+| Difference | 764 |
+| Converted to CCF $\times 1.068$ | 816.105 |
+| Converted to therms $\times 1.035$ | 844.668 |
+| Total gas you used in 30 days | 844.668 therms |
+
+## Delivery charges
+
+| Monthly service charge | $\$ 20.23$ |
+| :-- | --: |
+| Charges for delivering gas to you: |  |
+| For the First | 619.128 therms $\times \$ 0.338783$ |
+| For the Next | 225.540 therms $\times \$ 0.355458$ |
+| Balancing Charge | 820.080 therms $\times \$ 0.097917$ |
+| Societal Benefits | 844.668 therms $\times \$ 0.051192$ |
+| This charge recovers the cost of government mandated programs | $\$ 43.24$ |
+
+The charge recovers the cost of government mandated programs
+designed to achieve public policy goals, such as energy conservation.
+
+## Total gas delivery charges
+
+## Supply charges
+
+Cost of gas supplied by PSE\&G:
+844.668 therms $\times \$ 0.512912$
+Total gas supply charges
+Total gas charges
+\$433.24
+\$866.93
+
+## Your monthly gas use
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Price to compare
+
+A history of PSE\&G's monthly Basic Gas Supply Service (BGSS) prices are located on our website at www.pseg.com.
+
+Your PoD ID is: PG000011893599804246 Your PoD ID is your Point of Delivery identification within PSE\&G's system.
+
+## About the balancing charge
+
+The balancing charge includes pipeline, storage and other costs associated with seasonal peaks in usage. It applies from October to May.
+
+## Financial Benefits
+
+Vait MyAccount for more details regarding your energy usage.
+
+# Electric supply charges - Smartest Energy US LLC 
+
+Through the CHOICE Program, you have chosen to purchase electricity from Smartest Energy US LLC. If you have any questions about the electric supply charges below, please contact them directly at (800) 448-0995.
+
+| Adjustments | $\$ 55.45$ |
+| :-- | --: |
+| Current charges | $\$ 1,408.46$ |
+
+* Total Smartest Energy US LLC \$1,463.91
+* 1,463.91
+
+## 1.4
+
+5
+
+--- END OF FILE document_609.md ---
+
+**[CSV Data]**
+No CSV files were extracted for this document.
+--- END OF CSV Data ---
+
+Output only the raw JSON object and nothing else.

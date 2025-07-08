@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_347",
+  "statementDate": "2022-04-18",
+  "usageHistory": {
+    "2021-03": 1050,
+    "2021-04": 1050,
+    "2021-05": 1050,
+    "2021-06": 350,
+    "2021-07": 350,
+    "2021-08": 350,
+    "2021-09": 350,
+    "2021-10": 350,
+    "2021-11": 700,
+    "2021-12": 1400,
+    "2022-01": 1400,
+    "2022-02": 1050,
+    "2022-03": 700
+  },
+  "locations": [
+    {
+      "serviceAddress": null,
+      "accountNumber": null,
+      "meterNumber": "5195332"
+    },
+    {
+      "serviceAddress": null,
+      "accountNumber": null,
+      "meterNumber": "678001353"
+    }
+  ],
+  "totalUsage": 403.646
+}

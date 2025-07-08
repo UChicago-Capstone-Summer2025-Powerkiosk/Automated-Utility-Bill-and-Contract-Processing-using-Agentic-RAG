@@ -1,0 +1,23 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1157",
+  "usageHistory": {
+    "2022-04": 20984,
+    "2022-05": 20986,
+    "2022-06": 20987,
+    "2022-07": 20988,
+    "2022-08": 20989,
+    "2022-09": 53312,
+    "2022-10": 29984,
+    "2022-11": 26656,
+    "2022-12": 13336
+  },
+  "locations": [
+    {
+      "serviceAddress": "2862 Milor Dr, Plymouth IN 46563-8094",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 1172
+}

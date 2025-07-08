@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_711",
+  "statementDate": "2018-10-04",
+  "usageHistory": {
+    "2018-09": 94500
+  },
+  "locations": [
+    {
+      "serviceAddress": null,
+      "accountNumber": "100 093 229 480",
+      "meterNumber": "5000796584"
+    }
+  ],
+  "totalUsage": 94500
+}

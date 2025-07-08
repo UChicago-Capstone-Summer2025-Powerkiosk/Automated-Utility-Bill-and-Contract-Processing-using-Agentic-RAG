@@ -1,0 +1,3704 @@
+Error: Error code: 429 - {'error': {'message': 'Request too large for gpt-4o in organization org-0zMrhpmEv1qtiARr7YMX2Ev1 on tokens per min (TPM): Limit 30000, Requested 33333. The input or output tokens must be reduced in order to run successfully. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}
+
+--- PROMPT SENT ---
+You are an expert data extraction agent. Your task is to convert a utility document (bill or contract) from Markdown format into a single, valid JSON object.
+
+You MUST strictly adhere to the JSON schema provided below. Do not add fields that are not in the schema. If a value for a non-required field is not found, omit it or use `null`. For required fields, make your best effort to find the value; if it's truly absent, use a placeholder like "NOT_FOUND".
+
+<schema>
+{
+// ... PASTE THE ENTIRE CONTENT of main_usage_schema.json HERE ...
+}
+</schema>
+
+Here are specific instructions based on the document type:
+
+1.  **Determine `documentType`**: First, identify if the document is a "sampleBill" or a "contract". Contracts usually have terms like "Agreement", "Confirmation", or "Seller/Buyer". Bills have "Billing Summary", "Amount Due", etc.
+2.  **`documentId`**: Use the document's original filename (e.g., "document_55").
+3.  **For Contracts (`documentType: "contract"`)**:
+    *   `contractStart` and `contractEnd`: Extract these from the delivery period or term.
+    *   `usageHistory`: This should be the **forecasted usage**. Look for tables titled "Forecasted Volume" or similar, often found in a CSV file. The keys must be in "YYYY-MM" format. If only one year of data is given for a multi-year contract, you MUST repeat the monthly values for all years of the contract. If only an annual total is given, divide by 12 and apply to each month.
+    *   `locations`: Extract all service addresses, account numbers, and meter numbers from the facility attachments or tables. The CSV data is the most likely source for this. Aggregate all of them into the `locations` array.
+4.  **For Bills (`documentType: "sampleBill"`)**:
+    *   `statementDate`: Find the bill date or statement date.
+    *   `usageHistory`: Look for a "Billing History" or "Usage Profile" chart/table showing past usage. Extract the monthly usage from this.
+    *   `locations`: A bill may have one or many service addresses. Extract all you can find.
+    *   `totalUsage`: Find the "Total kWh Used" or "Current Usage" for the billing period.
+
+Now, process the following document. The Markdown content is provided first, followed by the content of any referenced CSV files.
+
+**[Markdown Content]**
+--- START OF FILE document_514.md ---
+## Service For:
+
+ARCADIA MANAGEMENT SERVICES CO Please see details page.
+
+## Questions about your bill?
+
+Business Specialist available:
+Mon-Fri: 7am to 6pm
+$1-800-468-4743$
+www.pge.com/MyEnergy
+
+## Ways To Pay
+
+www.pge.com/waystopay
+
+| Vendor \# | $\mathbf{3 7 5}$ |  |
+| :-- | :-- | :-- |
+| Date Paid | $\mathbf{1 1 / 0 8 / 2 4}$ | Ext NM |
+| Prop | Amount | Account |
+| wdsf | $\$ 536.43$ | $\mathbf{5 7 0 0 1 - 0 0 2}$ |
+| wdsf | $\$ 2,670.65$ | $\mathbf{5 7 0 0 5 - 0 0 0}$ |
+
+## Your Account Summary
+
+Amount Due on Previous Statement \$5,019.47
+Payment(s) Received Since Last Statement -5,019.47
+Previous Unpaid Balance $\$ 0.00$
+Current PG\&E Electric Delivery Charges \$1,574.71
+Electric Adjustments -1,328.16
+San Jose Clean Energy Electric Generation Charges 2,221.96
+Current PG\&E Gas Delivery Charges 492.23
+COMMERCIAL ENERGY Gas Procurement Charges 246.34
+Total Amount Due by 11/15/2024 \$3,207.08
+
+## Monthly Billing History
+
+![](images/img-0.jpeg)
+
+The image is a bar chart.
+
+- **Chart Type**: Bar chart
+- **Axes Titles and Units**:
+  - Y-axis: No explicit title, but the unit is in dollars ($), ranging from $0 to $20,000.
+  - X-axis: Dates ranging from 10/31/2023 to 10/29/2024.
+- **Legend Entries**:
+  - Black bars represent "Electric"
+  - Gray bars represent "Gas"
+- **Data Points**:
+  - 10/31/2023: Electric and Gas combined total around $5,000
+  - 12/04/2023: Electric and Gas combined total around $17,000
+  - 1/02/2024: Electric and Gas combined total around $12,000
+  - 2/01/2024: Electric and Gas combined total around $10,000
+  - 3/01/2024: Electric and Gas combined total around $8,000
+  - 3/29/2024: Electric and Gas combined total around $8,000
+  - 5/02/2024: Electric and Gas combined total around $8,000
+  - 6/03/2024: Electric and Gas combined total around $8,000
+  - 8/01/2024: Electric and Gas combined total around $8,000
+  - 8/30/2024: Electric and Gas combined total around $18,000
+  - 9/27/2024: Electric and Gas combined total around $5,000
+  - 10/29/2024: Electric and Gas combined total around $5,000
+- **Notable Styling**:
+  - The chart uses black for electric and gray for gas.
+  - The bar on 8/30/2024 is significantly higher than the others.
+- **Embedded Text**:
+  - "Visit www.pge.com/MyEnergy for a detailed bill comparison"
+- **Yearly Usage Breakdown (Monthly-Based)**: The chart provides a monthly breakdown of electric and gas usage over the course of a year.
+
+Please return this portion with your payment. No staples or paper clips. Do not fold. Thank you.
+
+99905431338622600004535240000320708
+![](images/img-1.jpeg)
+
+The image is a logo featuring the letters "PG&E" with a stylized design. The letters are white on a black background, and there is a registered trademark symbol (®) in the top right corner. The design includes a diagonal element that intersects the letters, adding a dynamic aspect to the logo.
+
+| Account Number: | Due Date: |
+| :-- | :-- |
+| 5431338622-6 | $11 / 15 / 2024$ |
+
+Total Amount Due: $\$ 3,207.08$
+
+| Amount Enclosed: |
+| :-- |
+| \$ |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |
+|  |  |
+
+MCADIA MANAGEMENT SERVICES CO
+PO BOX 5368
+SAN JOSE, CA 95150-5368
+
+PG\&E
+BOX 997300
+SACRAMENTO, CA 95899-7300
+
+Important Phone Numbers - Monday-Friday 7 a.m.-7 p.m., Saturday 8 a.m.-5 p.m.
+
+# Customer Service (All Languages; Relay Calls Accepted) 1-800-743-5000 
+
+TTY 7-1-1
+
+| Servicio al Cliente en Español (Spanish) | $1-800-660-6789$ |
+| :-- | :-- |
+| 華語客戶服務 (Chinese) | $1-800-893-9555$ |
+
+## Rules and rates
+
+You may be eligible for a lower rate. Find out about optional rates or view a complete list of rules and rates, visit www.pge.com or call 1-800-743-5000.
+If you believe there is an error on your bill, please call 1-800-743-5000 to speak with a representative. If you are not satisfied with our response, contact the California Public Utilities Commission (CPUC), Consumer Affairs Branch (CAB), 505 Van Ness Avenue, Room 2003, San Francisco, CA 94102, 1-800-649-7570 or 7-1-1 (8:30 AM to 4:30 PM, Monday through Friday) or by visiting www.cpuc.ca.gov/complaints/.
+To avoid having service turned off while you wait for the outcome of a complaint to the CPUC specifically regarding the accuracy of your bill, please contact CAB for assistance. If your case meets the eligibility criteria, CAB will provide you with instructions on how to mail a check or money order to be impounded pending resolution of your case. You must continue to pay your current charges while your complaint is under review to keep your service turned on.
+If you are not able to pay your bill, call PG\&E to discuss how we can help. You may qualify for reduced rates under PG\&E's CARE program or other special programs and agencies may be available to assist you. You may qualify for PG\&E's Energy Savings Assistance Program which is an energy efficiency program for income-qualified residential customers.
+
+## Important definitions
+
+Rotating outage blocks are subject to change without advance notice due to operational conditions.
+Demand charge: Many non-residential rates include a demand charge. Demand is a measurement of the highest usage of electricity in any single fifteen (or sometimes five) minute period during a monthly billing cycle. Demand is measured in kilowatts (or kW). High demand is usually associated with equipment start-up. By spreading equipment start-ups over a longer period of time, you may be able to lower demand and reduce your demand charges.
+Time-of-use electric prices are higher every day during afternoons and evenings, and lower at other times of the day. Prices also change by season, with higher prices in the summer and lower prices in the winter.
+Wildfire Fund Charge: Charge on behalf of the State of California Department of Water Resources (DWR) to fund the California Wildfire Fund. For usage prior to October 1, 2020, this charge included costs related to the 2001 California energy crisis, also collected on behalf of the DWR. These charges belong to DWR, not PG\&E.
+
+Dich vu khách tiếng Việt (Vietnamese) 1-800-298-8438
+Business Customer Service 1-800-468-4743
+
+Power Charge Indifference Adjustment (PCIA): The PCIA is a charge to ensure that both PG\&E customers and those who have left PG\&E service to purchase electricity from other providers pay for the above market costs for electric generation resources that were procured by PG\&E on their behalf. 'Above market' refers to the difference between what the utility pays for electric generation and current market prices for the sale of those resources. Visit www.pge.com/cca.
+Wildfire Hardening Charge: PG\&E has been permitted to issue bonds that enable it to recover more quickly certain costs related to preventing and mitigating catastrophic wildfires, while reducing the total cost to its customers. Your bill for electric service includes a fixed recovery charge called the Wildfire Hardening Charge that has been approved by the CPUC to repay those bonds. The right to recover the Wildfire Hardening Charge has been transferred to a separate entity (called the Special Purpose Entity) that issued the bonds and does not belong to PG\&E. PG\&E is collecting the Wildfire Hardening Charge on behalf of the Special Purpose Entity. For details visit: www.pge.com/tariffs/assets/pdf/tariffbook/ELEC_PRELIM_JF.pdf.
+Recovery Bond Charge/Credit: Your bill for electric service includes a charge that has been approved by the CPUC to repay bonds issued for certain costs related to catastrophic wildfires. The Recovery Bond Charge (RBC) rate is currently $\$ 0.00650$ per kWh. PG\&E has also contributed certain amounts to a trust fund which is used to provide a customer credit equal to $\$ 0.00650$ per kWh (Recovery Bond Credit). The right to recover the RBC has been transferred to one or more Special Purpose Entities that issued the bonds and does not belong to PG\&E. PG\&E is collecting that portion of the RBC on behalf of the Special Purpose Entities.
+Gas Public Purpose Program (PPP) Surcharge. Used to fund state-mandated gas assistance programs for low-income customers, energy efficiency programs, and public-interest research and development.
+
+Visit www.pge.com/billexplanation for more definitions. To view most recent bill inserts including legal or mandated notices, visit www.pge.com/billinserts.
+
+[^0]
+## Update My Information (English Only)
+
+Please allow 1-2 billing cycles for changes to take effect
+
+## Account Number: 5431338622-6
+
+Change my mailing address to: $\qquad$
+
+| City | State | ZIP code |
+| :-- | :-- | :-- |
+| Primary | Primary |  |
+| Phone | Email |  |
+
+## Ways To Pay
+
+- Online via web or mobile at www.pge.com/waystopay
+- By mail: Send your payment along with this payment stub in the envelope provided.
+- By debit card, Visa, MasterCard, American Express, or Discover: Call 877-704-8470 at any time. (Our independent service provider charges a fee per transaction.)
+- At a neighborhood payment center: To find a neighborhood payment center near you, please visit www.pge.com or call 800-743-5000. Please bring a copy of your bill with you.
+
+
+[^0]:    "PG\&E" refers to Pacific Gas and Electric Company, a subsidiary of PG\&E Corporation, © 2024 Pacific Gas and Electric Company. All rights reserved.
+    Please do not mark in box. For system use only.
+
+# Summary of your energy related services 
+
+{{table_data: table-5.csv}}
+
+Summary of your energy related services (continued)
+
+{{table_data: table-6.csv}}
+
+# Summary of your energy related services (continued) 
+
+{{table_data: table-7.csv}}
+
+# Summary of your energy related services (continued) 
+
+{{table_data: table-8.csv}}
+
+# Summary of your energy related services (continued) 
+
+{{table_data: table-9.csv}}
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 26
+Service Agreement ID: 5430246141
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 17.53 | 16.13 | 17.06 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-2.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+529.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 26
+Service Agreement ID: 5436743223 ESP Customer Number: 5430246141
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+276.000000 kWh @ \$0.11913
+$32.88
+
+Generation - Off Peak - Summer
+150.000000 kWh @ \$0.12912
+19.37
+
+Generation - On Peak - Winter
+68.000000 kWh @ \$0.13721
+$9.33$
+
+Generation - On Peak - Summer
+35.000000 kWh @ \$0.20461
+Net Charges 68.74
+Local Utility Users Tax
+3.44
+
+Energy Commission Surcharge
+3.44
+
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 15776 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+Total San Jose Clean Energy Electric Generation Charges
+
+Rate Identification Number
+![](images/img-3.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 7
+Service Agreement ID: 5435014509
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 20.72 | 28.67 | 16.65 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-4.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009115261
+516.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 7
+Service Agreement ID: 5436428089 ESP Customer Number: 5435014509
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 26010 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$71.72
+
+## Rate Identification Number
+
+![](images/img-5.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 6
+Service Agreement ID: 5437272784
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 8.06 | 8.97 | 13.55 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-6.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0600-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009114144
+420.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 6
+Service Agreement ID: 5436884923 ESP Customer Number: 5437272784
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-1
+
+| Generation - Off Peak - Winter | 142.000000 | kWh | (1) \$0.12629 | \$17.93 |
+| :--: | :--: | :--: | :--: | :--: |
+| Generation - Off Peak - Summer | 29.000000 | kWh | (1) \$0.12771 | 3.70 |
+| Generation - On Peak - Winter | 155.000000 | kWh | (1) \$0.14340 | 22.23 |
+| Generation - Part Peak - Summer | 14.000000 | kWh | (1) \$0.14978 | 2.10 |
+| Generation - On Peak - Summer | 80.000000 | kWh | (1) $\$ 0.20200$ | 16.16 |
+|  |  | Net Charges | 62.12 |  |
+| Local Utility Users Tax |  |  |  | 3.11 |
+| Energy Commission Surcharge |  |  |  | 0.13 |
+| Your NEM Balance Owed is $\$ 0.00$. |  |  |  |  |
+| Your cumulative kWh relevant period year-to-date: 619 kWh |  |  |  |  |
+| Your service: GreenSource - SJCE's standard service with more renewable energy |  |  |  |  |
+| For more detail on your San Jose Clean Energy bill, call us at 833-432-2454 |  |  |  |  |
+
+Total San Jose Clean Energy Electric Generation Charges
+
+## Rate Identification Number
+
+![](images/img-7.jpeg)
+
+This is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0169-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 19
+Service Agreement ID: 5434120136
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 5.34 | 3.43 | 6.03 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-8.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009178061
+187.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 19
+Service Agreement ID: 5434173523 ESP Customer Number: 5434120136
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+$86.000000 \mathrm{kWh} \quad$ \$0.11913 \$10.25
+Generation - Off Peak - Summer
+$27.000000 \mathrm{kWh} \quad$ \$0.12912
+Generation - On Peak - Winter
+$52.000000 \mathrm{kWh} \quad$ \$0.13721
+Generation - On Peak - Summer
+22.000000 kWh $\quad$ \$0.20461
+
+Net Charges 25.37
+Local Utility Users Tax
+Energy Commission Surcharge
+$1.27$
+Charged to NEM Balance
+$0.06$
+Your NEM Credit balance is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 5104 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$24.60
+
+Rate Identification Number
+![](images/img-9.jpeg)
+
+The image is a QR code. There is no additional text or visual information present in the image itself.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 34
+Service Agreement ID: 5436078363
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 0.84 | 0.23 | 3.00 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$\frac{-0.17}{11}$
+
+## Total Adjustments
+
+Rate Identification Number
+![](images/img-10.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+| Meter \# | 1009116287 |
+| :-- | --: |
+| Total Usage | 93.000000 kWh |
+| Serial | Z |
+| Rotating Outage Block | 50 |
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 34
+Service Agreement ID: 5433546112 ESP Customer Number: 5436078363
+
+## 09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 51.66$.
+Your cumulative kWh relevant period year-to-date: -531 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+$\$ 0.00$
+
+## Rate Identification Number
+
+![](images/img-11.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 8
+Service Agreement ID: 5439295755
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 13.41 | -9.90 | 1.13 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-12.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009113442
+35.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 8
+Service Agreement ID: 5434237599 ESP Customer Number: 5439295755
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 27.90$.
+Your cumulative kWh relevant period year-to-date: 9693 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$0.00
+
+## Rate Identification Number
+
+![](images/img-13.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 14
+Service Agreement ID: 5436130689
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 2.44 | 0.93 | 3.97 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$\frac{-0.17}{11 / 15}$
+
+## Total Adjustments
+
+Rate Identification Number
+![](images/img-14.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or embedded text in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009177507
+123.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 14
+Service Agreement ID: 5436534755 ESP Customer Number: 5436130689
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 65.41$.
+Your cumulative kWh relevant period year-to-date: -2 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$0.00
+
+## Rate Identification Number
+
+![](images/img-15.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 18
+Service Agreement ID: 5431797051
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 30.63 | 38.63 | 38.42 |
+
+Rate Identification Number
+![](images/img-16.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009177513
+1,191.000000 kWh
+50
+
+## Additional Messages
+
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 18
+Service Agreement ID: 5433467832 ESP Customer Number: 5431797051
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 28123 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$165.46
+
+## Rate Identification Number
+
+![](images/img-17.jpeg)
+
+The image is a photo of a QR code. There is no additional embedded text or notable features beyond the QR code itself.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 5
+Service Agreement ID: 5432298741
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 1.31 | 0.87 | 3.65 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-18.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or embedded text within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009115378
+113.000000 kWh
+
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 5
+Service Agreement ID: 5438749489 ESP Customer Number: 5432298741
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 35.12$.
+Your cumulative kWh relevant period year-to-date: 102 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$0.00
+
+## Rate Identification Number
+
+![](images/img-19.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible within the image itself.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 3
+Service Agreement ID: 5432439088
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 4.94 | 1.77 | 4.71 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-20.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or embedded text within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+1009113492
+146.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit www.cpuc.ca.gov/smallbusinessclimatecredit
+
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 3
+Service Agreement ID: 5431367632 ESP Customer Number: 5432439088
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+56.000000 kWh @ \$0.11913
+\$6.67
+
+Generation - Off Peak - Summer
+6.000000 kWh @ \$0.12912
+\$6.10
+
+Generation - On Peak - Winter
+59.000000 kWh @ \$0.13721
+Generation - On Peak - Summer
+25.000000 kWh @ \$0.20461
+Net Charges 20.66
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 150 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$21.73
+
+Rate Identification Number
+![](images/img-21.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 2
+Service Agreement ID: 5436319621
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 23.16 | 22.60 | 23.32 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+![](images/img-22.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009115401
+723.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 2
+Service Agreement ID: 5438724129 ESP Customer Number: 5436319621
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+338.000000 kWh @ \$0.11913
+$40.27$
+Generation - Off Peak - Summer
+186.000000 kWh @ \$0.12912
+24.02
+
+Generation - On Peak - Winter
+137.000000 kWh @ \$0.13721
+18.80
+
+Generation - On Peak - Summer
+62.000000 kWh @ \$0.20461
+Net Charges 95.78
+
+Local Utility Users Tax
+4.79
+
+Energy Commission Surcharge
+22
+
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 19961 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$100.79
+
+Rate Identification Number
+![](images/img-23.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 4
+Service Agreement ID: 5433691285
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 4.69 | 3.83 | 7.03 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-24.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009115929
+218.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 4
+Service Agreement ID: 5434232962 ESP Customer Number: 5433691285
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 2948 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$30.49
+
+## Rate Identification Number
+
+![](images/img-25.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 1
+Service Agreement ID: 5431360545
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 4.50 | 1.43 | 3.94 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-26.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1007269359
+122.000000 kWh
+
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 1
+Service Agreement ID: 5436119095 ESP Customer Number: 5431360545
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Credit balance is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 124 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$17.98
+
+## Rate Identification Number
+
+![](images/img-27.jpeg)
+
+The image is a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 25
+Service Agreement ID: 5439995692
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 8.81 | 9.87 | 15.10 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-28.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0600-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1010003399
+468.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 25
+Service Agreement ID: 5435284777 ESP Customer Number: 5439995692
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-1
+
+| Generation - Off Peak - Winter | 204.000000 | kWh | @ \$0.12629 | \$25.76 |
+| :--: | :--: | :--: | :--: | :--: |
+| Generation - Off Peak - Summer | 65.000000 | kWh | @ \$0.12771 | 8.30 |
+| Generation - On Peak - Winter | 126.000000 | kWh | @ \$0.14340 | 18.07 |
+| Generation - Part Peak - Summer | 14.000000 | kWh | @ \$0.14978 | 2.10 |
+| Generation - On Peak - Summer | 59.000000 | kWh | @ \$0.20200 | 11.92 |
+|  |  | Net Charges | 66.15 |  |
+| Local Utility Users Tax |  |  |  | 3.31 |
+| Energy Commission Surcharge |  |  |  | 0.14 |
+| Your NEM Balance Owed is $\$ 0.00$. |  |  |  |  |
+| Your cumulative kWh relevant period year-to-date: 352 kWh |  |  |  |  |
+| Your service: GreenSource - SJCE's standard service with more renewable energy |  |  |  |  |
+| For more detail on your San Jose Clean Energy bill, call us at 833-432-2454 |  |  |  |  |
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$69.60
+
+## Rate Identification Number
+
+![](images/img-29.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text within the image itself.
+
+USCA-XXSJ-0169-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 24
+Service Agreement ID: 5436956568
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 23.06 | 22.97 | 22.94 |
+
+Rate Identification Number
+![](images/img-30.jpeg)
+
+This is a photo of a QR code. The QR code is centered in the image and consists of black squares arranged on a white grid. There is no additional text or elements visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009116309
+711.000000 kWh
+Z
+
+## Additional Messages
+
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 24
+Service Agreement ID: 5434086306 ESP Customer Number: 5436956568
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 20004 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$99.77
+
+## Rate Identification Number
+
+![](images/img-31.jpeg)
+
+The image is a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 23
+Service Agreement ID: 5436252835
+Number of Dwelling Units: 1
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 15.78 | 15.60 | 16.03 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.17$
+$-\$ 55.17$
+$-0.17$
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-32.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements visible within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009115342
+497.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 23
+Service Agreement ID: 5430214567 ESP Customer Number: 5436252835
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 14241 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$68.45
+
+## Rate Identification Number
+
+![](images/img-33.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible within the image itself.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 12
+Service Agreement ID: 5433685172
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 2.69 | 1.80 | 7.35 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$\$ 55.17$
+$\begin{array}{r}\text {-0.17 } \\ \text {-55.34 }\end{array}$
+
+Rate Identification Number
+![](images/img-34.jpeg)
+
+The image is a photo/illustration of a QR code. There are no additional elements or text within the image itself.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+228.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 12
+Service Agreement ID: 5432093914 ESP Customer Number: 5433685172
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 56.77$.
+Your cumulative kWh relevant period year-to-date: 192 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$0.00
+
+## Rate Identification Number
+
+![](images/img-35.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements visible within the image itself.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 11
+Service Agreement ID: 5438209940
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 2.00 | -1.47 | 7.61 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$\$ 55.17$
+$\begin{array}{r}\text {-0.17 } \\ \text {-55.34 }\end{array}$
+
+Rate Identification Number
+![](images/img-36.jpeg)
+
+The image is a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+236.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 11
+Service Agreement ID: 5431528948 ESP Customer Number: 5438209940
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 236.91$
+Your cumulative kWh relevant period year-to-date: -1283 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+$\$ 0.00$
+
+## Rate Identification Number
+
+![](images/img-37.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 9
+Service Agreement ID: 5432590956
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 6.06 | 1.87 | 8.13 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$\$ 55.17$
+$\begin{array}{r}\text {- $\$ 55.17$ } \\ \text {-0.17 }\end{array}$
+$\qquad$
+
+## Rate Identification Number
+
+![](images/img-38.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0600-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+252.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 9
+Service Agreement ID: 5439639982 ESP Customer Number: 5432590956
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-1
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - Part Peak - Summer
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Charged to NEM Balance
+Your NEM Credit balance is $\$ 129.07$.
+Your cumulative kWh relevant period year-to-date: -986 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$0.00
+
+## Rate Identification Number
+
+![](images/img-39.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0169-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 13
+Service Agreement ID: 5435176638
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 11.53 | 11.67 | 18.90 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-40.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+586.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 13
+Service Agreement ID: 5438497768 ESP Customer Number: 5435176638
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+332.000000 kWh @ \$0.11913
+$39.55
+Generation - Off Peak - Summer
+113.000000 kWh @ \$0.12912
+14.59
+
+Generation - On Peak - Winter
+99.000000 kWh @ \$0.13721
+13.58
+
+Generation - On Peak - Summer
+42.000000 kWh @ \$0.20461
+Net Charges 76.31
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 6776 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+Total San Jose Clean Energy Electric Generation Charges
+
+Rate Identification Number
+![](images/img-41.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 17
+Service Agreement ID: 5436598005
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 34.09 | 38.70 | 41.35 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-42.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+1,282.000000 kWh
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 17
+Service Agreement ID: 5434491156 ESP Customer Number: 5436598005
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-6
+
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 27304 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$180.76
+
+## Rate Identification Number
+
+![](images/img-43.jpeg)
+
+The image is a photo/illustration of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 27
+Service Agreement ID: 5430211015
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 18.41 | 11.83 | 29.39 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-44.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+911.000000 kWh
+
+Serial
+Rotating Outage Block
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit www.cpuc.ca.gov/smallbusinessclimatecredit
+
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 27
+Service Agreement ID: 5434001106 ESP Customer Number: 5430211015
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+$510.000000 \mathrm{kWh} \quad$ \$ 0.11913
+$50.76$
+Generation - Off Peak - Summer
+184.000000 kWh @ \$0.12912
+23.76
+
+Generation - On Peak - Winter
+154.000000 kWh @ \$0.13721
+21.13
+
+Generation - On Peak - Summer
+63.000000 kWh @ \$0.20461
+Net Charges 118.54
+5.93
+
+Local Utility Users Tax
+5.93
+
+Energy Commission Surcharge
+Your NEM Credit balance is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 11763 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+Total San Jose Clean Energy Electric Generation Charges
+
+## Rate Identification Number
+
+![](images/img-45.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 28
+Service Agreement ID: 5436076282
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 19.22 | 39.40 | 47.06 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$\begin{array}{r}\text {- $\$ 55.17$ } \\ \text {-0.17 }\end{array}$
+Total Adjustments
+$-$
+Rate Identification Number
+![](images/img-46.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0600-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+1009180411
+Serial
+Rotating Outage Block
+1,459.000000 kWh
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 28
+Service Agreement ID: 5439442210 ESP Customer Number: 5436076282
+09/20/2024 - 10/20/2024
+
+## Rate Schedule: NEM B-1
+
+| Generation - Off Peak - Winter | 816.000000 | kWh | @ \$0.12629 | \$103.05 |
+| :--: | :--: | :--: | :--: | :--: |
+| Generation - Off Peak - Summer | 349.000000 | kWh | @ \$0.12771 | 44.57 |
+| Generation - On Peak - Winter | 152.000000 | kWh | @ \$0.14340 | 21.80 |
+| Generation - Part Peak - Summer | 74.000000 | kWh | @ \$0.14978 | 11.08 |
+| Generation - On Peak - Summer | 68.000000 | kWh | @ \$0.20200 | 13.74 |
+|  |  | Net Charges | 194.24 |  |
+| Local Utility Users Tax |  |  |  | 9.71 |
+| Energy Commission Surcharge |  |  |  | 0.44 |
+| Your NEM Credit balance is $\$ 0.00$. |  |  |  |  |
+| Your cumulative kWh relevant period year-to-date: 7975 kWh |  |  |  |  |
+| Your service: GreenSource - SJCE's standard service with more renewable energy |  |  |  |  |
+| For more detail on your San Jose Clean Energy bill, call us at 833-432-2454 |  |  |  |  |
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$204.39
+
+## Rate Identification Number
+
+![](images/img-47.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements visible in the image.
+
+USCA-XXSJ-0169-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 29
+Service Agreement ID: 5431335017
+09/20/2024 - 10/20/2024
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 9.81 | 11.20 | 16.74 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-48.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0600-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009468996
+519.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 29
+Service Agreement ID: 5435835147 ESP Customer Number: 5431335017
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-1
+Generation - Off Peak - Winter
+Generation - Off Peak - Summer
+Generation - On Peak - Winter
+Generation - Part Peak - Summer
+Generation - On Peak - Summer
+
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 701 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+
+## Total San Jose Clean Energy Electric Generation Charges
+
+\$82.97
+
+## Rate Identification Number
+
+![](images/img-49.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-XXSJ-0169-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 31
+Service Agreement ID: 5432374119
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 10.18$
+San Jose Utility Users' Tax
+0.51
+
+San Jose Franchise Surcharge
+0.03
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 14.22 | 13.33 | 14.13 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+$-55.17$
+$-0.17$
+Total Adjustments
+$-$ \$55.34
+
+## Rate Identification Number
+
+![](images/img-50.jpeg)
+
+The image is a photo of a QR code. There are no additional elements or text visible in the image.
+
+USCA-PGCC-0700-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009177652
+438.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG 31
+Service Agreement ID: 5433370327 ESP Customer Number: 5432374119
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-6
+Generation - Off Peak - Winter
+$230.000000 \mathrm{kWh} \quad$ \$ 0.11913
+$27.40$
+Generation - Off Peak - Summer
+$125.000000 \mathrm{kWh} \quad$ \$ 0.12912
+16.14
+
+Generation - On Peak - Winter
+$55.000000 \mathrm{kWh} \quad$ \$ 0.13721
+$7.55$
+Generation - On Peak - Summer
+$28.000000 \mathrm{kWh} \quad$ \$ 0.20461
+Net Charges 56.82
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 12152 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+Total San Jose Clean Energy Electric Generation Charges
+
+Rate Identification Number
+![](images/img-51.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-XXSJ-0307-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+## Service Information
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Electric Delivery Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG POOL
+Service Agreement ID: 5431039989
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM2AA
+Rate Description: NEMA Aggregated Account
+Net Charges
+$\$ 1,241.17$
+San Jose Utility Users' Tax
+61.82
+
+San Jose Franchise Surcharge
+3.72
+
+Total PG\&E Electric Delivery Charges
+2018 Vintaged Power Charge Indifference Adjustment
+Average Daily Usage (kWh / day)
+
+| Last Year | Last Period | Current Period |
+| :--: | :--: | :--: |
+| 259.03 | 121.57 | 143.61 |
+
+## Adjustments
+
+CA Climate Credit
+CA Climate Credit City Franchise Surcharge Adj
+Total Adjustments
+$-\$ 55.34$
+
+## Rate Identification Number
+
+![](images/img-52.jpeg)
+
+The image is a photo of a QR code. There is no additional text or elements present in the image.
+
+USCA-PGCC-0800-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+Service Information
+Meter \#
+Total Usage
+Serial
+Rotating Outage Block
+1009545228
+4,452.000000 kWh
+Z
+50
+
+## Additional Messages
+
+CA Climate Credit -
+You received a Climate Credit on this month's electric bill. For more information about this California Climate Credit, visit
+www.cpuc.ca.gov/smallbusinessclimatecredit
+Visit www.pge.com/guidenema to get your guide to Net Energy Metering Aggregation billing.
+
+Details of San Jose Clean Energy Electric Generation Charges
+09/20/2024 - 10/20/2024 (31 billing days)
+Service For: 4500 THE WOODS DR BLDG POOL
+Service Agreement ID: 5437905473 ESP Customer Number: 5431039989
+09/20/2024 - 10/20/2024
+
+Rate Schedule: NEM B-10-S
+Generation - Off Peak - Summer
+$881.000000 \mathrm{kWh} \quad$ \$0.12851
+\$113.22
+Generation - Off Peak - Winter
+$2,242.000000 \mathrm{kWh} \quad$ \$0.12929
+\$89.87
+Generation - Part Peak - Summer
+$186.000000 \mathrm{kWh} \quad$ \$0.16286
+\$0.29
+Generation - On Peak - Winter
+$766.000000 \mathrm{kWh} \quad$ \$0.16672
+127.71
+
+Generation - On Peak - Summer
+377.000000 kWh $\quad$ \$0.22794
+
+Net Charges 647.02
+Local Utility Users Tax
+Energy Commission Surcharge
+Your NEM Balance Owed is $\$ 0.00$.
+Your cumulative kWh relevant period year-to-date: 162259 kWh
+Your service: GreenSource - SJCE's standard service with more renewable energy
+For more detail on your San Jose Clean Energy bill, call us at 833-432-2454
+Total San Jose Clean Energy Electric Generation Charges
+
+Rate Identification Number
+![](images/img-53.jpeg)
+
+The image is a QR code. There are no additional elements or text within the image itself.
+
+USCA-XXSJ-0187-0000
+www.pge.com/rin
+To program your smart device, scan the QR code or enter the RIN code above and follow the on-screen instructions.
+
+For questions regarding charges on this page, please contact:
+SAN JOSE CLEAN ENERGY
+200 E SANTA CLARA ST
+SAN JOSE CA 95113
+1-833-432-2454
+www.sanjosecleanenergy.org
+info@SanJoseCleanEnergy.org
+
+## Additional Messages
+
+About San José Clean Energy (SJCE)
+San José Clean Energy is a program of the City of San José and provides its residents and businesses with electricity from sources like solar, wind, and hydropower. SJCE offers the additional benefits of customer choice, community programs, local control, transparency, and accountability.
+
+SJCE's standard electricity generation service, GreenSource, provides customers with more renewable power. SJCE also offers a 100\% renewable product, TotalGreen, for a small premium. Learn more.
+www.SanJoseCleanEnergy.org/TotalGreen.
+
+## Understanding SJCE Charges
+
+SJCE replaces PG\&E Generation Charges. PG\&E continues to provide all electric delivery, billing, and gas services. Under PG\&E Electric Delivery Charges, note the Generation Credit. This is what PG\&E would have charged for power, and now credits back to you. The PG\&E Power Charge Indifference Adjustment and Franchise Fee are factored into SJCE's rate-setting. Learn more.
+www.SanJoseCleanEnergy.org/Understandin g-Your-Bill.
+
+SJ Cares is SJCE's program that allows customers enrolled in CARE or FERA financial assistance programs to receive cleaner energy at the lowest possible rates. Learn more: www.SanJoseCleanEnergy.org/Discount-Pro grams.
+
+Please pay your SJCE charges directly to PG\&E (see page 1 of this bill). Do not send payment to San José Clean Energy.
+
+Details of PG\&E Gas Delivery Charges
+09/18/2024 - 10/16/2024 (29 billing days)
+Service For: 4500 THE WOODS DR BLDG POOL
+Service Agreement ID: 5436943720
+Rate Schedule: GNR1 Gas Service to Small Commercial Customers
+09/18/2024 - 09/30/2024
+Customer Charge
+13 days @\$1.66489
+\$21.64
+
+Gas Charges
+First 4,000 Therms/month
+134.482759 Therms @ $\$ 1.70756$
+229.64
+
+Gas Mobile Home Park Surcharge $\$ 0.00000$
+0.00
+
+Gas Procurement Credit ${ }^{1}$
+-54.20
+
+Franchise Fee Surcharge
+0.05
+
+Gas PPP Surcharge (\$0.09693 /Therm)
+13.04
+
+San Jose Utility Users' Tax (5.000\%)
+9.85
+
+San Jose Franchise Surcharge
+0.59
+
+10/01/2024 - 10/16/2024
+Customer Charge
+16 days @ $\$ 1.66489$
+\$26.64
+Gas Charges
+First 4,000 Therms/month
+165.517241 Therms @ $\$ 1.61844$
+267.88
+
+Gas Mobile Home Park Surcharge $\$ 0.00000$
+0.00
+
+Gas Procurement Credit ${ }^{1}$
+-51.95
+
+Francisse Fee Surcharge
+0.15
+
+Gas PPP Surcharge (\$0.09693 /Therm)
+16.04
+
+San Jose Utility Users' Tax (5.000\%)
+12.13
+
+San Jose Franchise Surcharge
+Total PG\&E Gas Delivery Charges
+$\$ 492.23$
+${ }^{1}$ Credits you for the PG\&E Gas Usage charge that otherwise would have been included in this rate
+
+| Average Daily Usage (Therms / day) |  |  |
+| :--: | :--: | :--: |
+| Last Year | Last Period | Current Period |
+| 21.00 | 21.31 | 10.34 |
+
+Gas Usage This Period: 300.000000 Therms, 29 billing days
+![](images/img-54.jpeg)
+
+The image is a bar chart showing gas usage over a period of time. 
+
+- **Chart Type**: Bar chart
+- **X-Axis**: Dates from 9/18 to 10/15
+- **Y-Axis**: Therms, ranging from 0 to 45
+- **Data Points**: 
+  - 9/18: Approximately 36 Therms
+  - 9/21: Approximately 27 Therms
+  - 9/24: Approximately 9 Therms
+  - 9/27: Approximately 9 Therms
+  - 9/30: Approximately 9 Therms
+  - 10/03: Approximately 9 Therms
+  - 10/06: Approximately 9 Therms
+  - 10/09: Approximately 9 Therms
+  - 10/12: Approximately 9 Therms
+  - 10/15: Approximately 9 Therms
+- **Average Daily Usage**: Indicated by a dashed line at 10.34 Therms
+- **Notable Styling**: The average daily usage is highlighted with a dashed line across the chart. 
+
+This represents a **yearly usage breakdown (monthly-based)** for the specified billing period.
+
+## Service Information
+
+| Meter \# | 48963233 |
+| :-- | --: |
+| Current Meter Reading | 6,391 |
+| Prior Meter Reading | 6,107 |
+| Difference | 284 |
+| Multiplier | 1.056706 |
+| Total Usage | 300.000000 Therm |
+| Serial | W |
+
+Gas Procurement Costs (\$/Therm)
+09/18/2024 - 09/30/2024
+\$0.40301
+10/01/2024 - 10/16/2024
+\$0.31389
+
+## Additional Messages
+
+Customer Charge To help deliver safe, reliable and affordable gas service to your business, PG\&E charges a customer fee which is based on your highest average daily gas usage within the past 12 months. For the billing period ending on 01/18/2024, your highest average daily gas usage was 80.6 therms.
+
+Details of COMMERCIAL ENERGY Gas Procurement Charges
+
+09/18/2024 - 10/16/2024 (29 billing days)
+Service For: 4500 THE WOODS DR BLDG POOL
+Service Agreement ID: 5435514499 ESP Customer Number: 5436943720
+
+09/18/2024 - 10/16/2024
+
+Rate Schedule: PGGPG24921
+Gas Procurement 134.482790Therms @ $50.78200
+Gas Procurement 165.517210Therms @ $50.78200
+TOTAL NET CHARGES 234.60
+
+Thank You For Your Business! UTILITY USERS TAX
+
+## Total COMMERCIAL ENERGY Gas Procurement Charges
+
+For questions regarding charges on this page, please contact:
+COMMERCIAL ENERGY
+7677 OAKPORT ST STE 525
+OAKLAND CA 94621
+1-510-567-2700
+
+## Additional Messages
+
+If you believe there is an error or have a question in your Gas Service Provider's gas procurement charges, please call your Gas Service Provider at the number listed on your bill. If you are not satisfied with their response, please contact the CPUC's Consumer Affairs Branch at 1-800-649-7570. If you have limitations hearing or speaking, a specially-trained Communications Assistant can relay telephone conversations for all of your calls. Dial 711 to reach the California Relay Service.
+
+To avoid being returned to PG&E bundled service by COMMERCIAL ENERGY while you wait for the outcome of your complaint, specifically regarding the accuracy of your bill, mail a check or money order payable to "California Public Utilities Commission" for the disputed amount, along with a description of the dispute to: California Public Utilities Commission, Consumer Affairs Branch, 505 Van Ness Avenue, Room 2003, San Francisco CA 94102. COMMERCIAL ENERGY cannot turn off your service for nonpayment while your complaint is under review. However, you must continue to pay your current charges to avoid disconnection of your service. The CPUC will not accept the payment for the disputed amount if the complaint to CAB is not directly related to the accuracy of your bill and your payment will be returned.
+
+
+
+
+--- END OF FILE document_514.md ---
+
+**[CSV Data]**
+--- START OF FILE table-6.csv ---
+Service For: 4500 THE WOODS DR BLDG 8,Meter Number,Usage,Amount
+Service Agreement ID: 5439295755,,,
+PG\&E Electric Delivery Charges,1009113442,35.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5434237599,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,35.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 14,,,
+Service Agreement ID: 5436130689,,,
+PG\&E Electric Delivery Charges,1009177507,123.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5436534755,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,123.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 18,,,
+Service Agreement ID: 5431797051,,,
+PG\&E Electric Delivery Charges,1009177513,"1,191.000000 kWh",$\$ 10.72$
+Service Agreement ID: 5433467832,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,"1,191.000000 kWh",$\$ 165.46$
+Total,,,$\$ 176.18$
+Service For: 4500 THE WOODS DR BLDG 5,,,
+Service Agreement ID: 5432298741,,,
+PG\&E Electric Delivery Charges,1009115378,113.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5438749489,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,113.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 3,,,
+Service Agreement ID: 5432439088,,,
+PG\&E Electric Delivery Charges,1009113492,146.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5431367632,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,146.000000 kWh,$\$ 21.73$
+Total,,,$-\$ 22.89$
+Service For: 4500 THE WOODS DR BLDG 2,,,
+Service Agreement ID: 5436319621,,,
+PG\&E Electric Delivery Charges,1009115401,723.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+
+--- END OF FILE table-6.csv ---
+
+--- START OF FILE table-7.csv ---
+,Meter Number,Usage,Amount
+Service Agreement ID: 5438724129,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,723.000000 kWh,$\$ 100.79$
+Total,,,\$56.17
+Service For: 4500 THE WOODS DR BLDG 4,,,
+Service Agreement ID: 5433691285,,,
+PG\&E Electric Delivery Charges,1009115929,218.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5434232962,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,218.000000 kWh,$\$ 30.49$
+Total,,,- $\$ 14.13$
+Service For: 4500 THE WOODS DR BLDG 1,,,
+Service Agreement ID: 5431360545,,,
+PG\&E Electric Delivery Charges,1007269359,122.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5436119095,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,122.000000 kWh,$\$ 17.98$
+Total,,,- $\$ 26.64$
+Service For: 4500 THE WOODS DR BLDG 25,,,
+Service Agreement ID: 5439995692,,,
+PG\&E Electric Delivery Charges,1010003399,468.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5435284777,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,468.000000 kWh,$\$ 69.60$
+Total,,,\$24.98
+Service For: 4500 THE WOODS DR BLDG 24,,,
+Service Agreement ID: 5436956568,,,
+PG\&E Electric Delivery Charges,1009116309,711.000000 kWh,$\$ 10.72$
+Service Agreement ID: 5434086306,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,711.000000 kWh,$\$ 99.77$
+Total,,,\$110.49
+Service For: 4500 THE WOODS DR BLDG 23,,,
+Service Agreement ID: 5436252835,,,
+PG\&E Electric Delivery Charges,1009115342,497.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5430214567,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,497.000000 kWh,$\$ 68.45$
+Total,,,\$23.83
+
+--- END OF FILE table-7.csv ---
+
+--- START OF FILE table-5.csv ---
+,Meter Number,Usage,Amount
+Service For: 4500 THE WOODS DR BLDG 26,,,
+Service Agreement ID: 5430246141,,,
+PG\&E Electric Delivery Charges,1009177490,529.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5436743223,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,529.000000 kWh,\$72.34
+Total,,,\$27.72
+Service For: 4500 THE WOODS DR BLDG 7,,,
+Service Agreement ID: 5435014509,,,
+PG\&E Electric Delivery Charges,1009115261,516.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5436428089,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,516.000000 kWh,$\$ 71.72$
+Total,,,\$27.10
+Service For: 4500 THE WOODS DR BLDG 6,,,
+Service Agreement ID: 5437272784,,,
+PG\&E Electric Delivery Charges,1009114144,420.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5436884923,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,420.000000 kWh,$\$ 65.36$
+Total,,,\$20.74
+Service For: 4500 THE WOODS DR BLDG 19,,,
+Service Agreement ID: 5434120136,,,
+PG\&E Electric Delivery Charges,1009178061,187.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5434173523,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,187.000000 kWh,$\$ 24.60$
+Total,,,- $\$ 20.02$
+Service For: 4500 THE WOODS DR BLDG 34,,,
+Service Agreement ID: 5436078363,,,
+PG\&E Electric Delivery Charges,1009116287,93.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5433546112,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,93.000000 kWh,$\$ 0.00$
+Total,,,- $\$ 44.62$
+
+--- END OF FILE table-5.csv ---
+
+--- START OF FILE table-9.csv ---
+,Meter Number,Usage,Amount
+Service Agreement ID: 5434001106,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,911.000000 kWh,\$124.74
+Total,,,\$80.12
+Service For: 4500 THE WOODS DR BLDG 28,,,
+Service Agreement ID: 5436076282,,,
+PG\&E Electric Delivery Charges,1009180411,"1,459.000000 kWh",\$10.72
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5439442210,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,"1,459.000000 kWh",\$204.39
+Total,,,\$159.77
+Service For: 4500 THE WOODS DR BLDG 29,,,
+Service Agreement ID: 5431335017,,,
+PG\&E Electric Delivery Charges,1009468996,519.000000 kWh,\$10.72
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5435835147,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,519.000000 kWh,\$82.97
+Total,,,\$38.35
+Service For: 4500 THE WOODS DR BLDG 31,,,
+Service Agreement ID: 5432374119,,,
+PG\&E Electric Delivery Charges,1009177652,438.000000 kWh,\$10.72
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5433370327,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,438.000000 kWh,\$59.79
+Total,,,\$15.17
+Service For: 4500 THE WOODS DR BLDG POOL,,,
+Service Agreement ID: 5431039989,,,
+PG\&E Electric Delivery Charges,1009545228,"4,452.000000 kWh","\$1,306.71"
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5437905473,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,"4,452.000000 kWh",\$680.71
+Service Agreement ID: 5436943720,,,
+PG\&E Gas Delivery Charges,48963233,300.000000 Therm,\$492.23
+Service Agreement ID: 5435514499,,,
+COMMERCIAL ENERGY Gas Procurement Charges,,300.000000 Therm,\$246.34
+Total,,,"\$2,670.65"
+
+--- END OF FILE table-9.csv ---
+
+--- START OF FILE table-8.csv ---
+Service For: 4500 THE WOODS DR BLDG 12,Meter Number,Usage,Amount
+Service Agreement ID: 5433685172,,,
+PG\&E Electric Delivery Charges,1009113729,228.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5432093914,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,228.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 11,,,
+Service Agreement ID: 5438209940,,,
+PG\&E Electric Delivery Charges,1009113707,236.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5431528948,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,236.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 9,,,
+Service Agreement ID: 5432590956,,,
+PG\&E Electric Delivery Charges,1009114184,252.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5439639982,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,252.000000 kWh,$\$ 0.00$
+Total,,,$-\$ 44.62$
+Service For: 4500 THE WOODS DR BLDG 13,,,
+Service Agreement ID: 5435176638,,,
+PG\&E Electric Delivery Charges,1009114107,586.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5438497768,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,586.000000 kWh,$\$ 80.31$
+Total,,,$\$ 35.69$
+Service For: 4500 THE WOODS DR BLDG 17,,,
+Service Agreement ID: 5436598005,,,
+PG\&E Electric Delivery Charges,1009177666,"1,282.000000 kWh",$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 5434491156,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,"1,282.000000 kWh",$\$ 180.76$
+Total,,,$\$ 136.14$
+Service For: 4500 THE WOODS DR BLDG 27,,,
+Service Agreement ID: 5430211015,,,
+PG\&E Electric Delivery Charges,1009116265,911.000000 kWh,$\$ 10.72$
+Electric Adjustments,,,$-55.34$
+
+--- END OF FILE table-8.csv ---
+
+
+--- END OF CSV Data ---
+
+Output only the raw JSON object and nothing else.

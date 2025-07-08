@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_17",
+  "statementDate": "2018-01-24",
+  "usageHistory": {
+    "2017-12": 3540.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "2651 Orange Ave, Apopka, FL 32703",
+      "accountNumber": "1100206482",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 3540.0
+}

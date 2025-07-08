@@ -1,0 +1,554 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_693",
+  "locations": [
+    {
+      "accountNumber": "018565243034",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137410",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243033",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651135534",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243032",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651135535",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243030",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243031",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243017",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243027",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243018",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243029",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243019",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243028",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243020",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243026",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243021",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243025",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243022",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243023",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243024",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243013",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565243035",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565305628",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565305612",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565305610",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565305600",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169317",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439311",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651135125",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169316",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169315",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439310",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169313",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439308",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169314",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565169318",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565174985",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565175022",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565175074",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565175111",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137360",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137364",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137363",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137361",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142019",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137362",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142048",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142035",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142028",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142020",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142021",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142037",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142047",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142038",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142046",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142039",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142040",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142041",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142045",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142042",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142043",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142044",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142022",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142027",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142026",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142024",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565142025",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565295130",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439605",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565295128",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439603",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565295126",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565295125",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565262153",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565262202",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565266541",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565266543",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565266526",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565198043",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565198885",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137358",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143383",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439174",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137367",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143379",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565155488",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143386",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439177",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143380",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439173",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143385",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439176",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143381",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143384",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565439175",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565143382",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137384",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565408826",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565408836",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137370",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137371",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137378",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137379",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137380",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "018565409262",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137381",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137383",
+      "serviceAddress": null,
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0185651137382",
+      "serviceAddress": null,
+      "meterNumber": null
+    }
+  ],
+  "statementDate": "NOT_FOUND",
+  "usageHistory": null,
+  "totalUsage": null
+}

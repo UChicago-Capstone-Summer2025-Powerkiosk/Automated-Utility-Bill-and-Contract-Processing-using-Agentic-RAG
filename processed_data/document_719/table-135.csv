@@ -1,0 +1,20 @@
+,CHARGE DESCRIPTION,,,,,
+Gas Delivery,Customer Charge,,,,,
+Ameren Illinois,Distribution Delivery Charge,,169.17,Therms,@,\$ 0.11688000
+GDS-2 Small Gas Delivery,Volume Balancing Adjustment,,169.17,Therms,@,\$ 0.04500000
+Service,Qualifying Infrastructure Plant Surchg,,\$93.31,,@,4.640000\%
+,,,,,Gas Delivery,\$108.94
+Gas Supply <br> Ameren Illinois,Purchased Gas Adjustment Charge,,169.17,Therms,@,\$ 0.41297000
+,,,,,Gas Supply,\$69.87
+Taxes and Other Fees,Gas Energy Efficiency Cost Recovery,,169.17,Therms,@,\$ 0.00112000
+,Gas Environmental Adjustment,,169.17,Therms,@,\$ 0.02631450
+,Illinois State Gas Revenue Tax,,,,,\$4.06
+,Illinois State Commerce Commission Tax,,,,,\$0.18
+,Greenville Municipal Gross Revenue,,,,,\$9.43
+,Greenville Excess Franchise Chg,,,,,\$0.15
+,,,,Total Tax Related Fees,,\$18.08
+,,,,Total Gas Charges,,\$196.89
+Additional Charges,,,,,,
+,DESCRIPTION,,,,,CHARGE
+,Credit,,,,,\$ 662.52
+,,,,Total Additional Charges,,\$ 662.52

@@ -1,0 +1,26 @@
+Svc Addr: 1190 ROSTON 20,,,,,
+SPRINGFIELD MA 01119,,,,,
+Serv Ref: 492241006,,,,Bill Cycle: 20,
+Service from 03/28/23 - 04/28/23,,,,31 Days,
+"Next read date on or about: May 26, 2023",,,,,
+Meter <br> Number,Current <br> Read,Previous <br> Read,Current <br> Usage,Reading <br> Type,
+886108252,675,281,394,Actual,
+Total Demand Use $=40.90 \mathrm{kW}$,,,,,
+"394 X Meter Constant of $40=15,760$ Billed Usage",,,,,
+Monthly kWh Use,,,,,
+Apr,May,Jun,Jul,Aug,Sep
+14600,19560,20040,21800,23040,19480
+Nov,Dec,Jan,Feb,Mar,Apr
+16640,12160,13560,12840,12720,15760
+SVC Addr: 1190 ROSTON 40,,,,,
+SPRINGFIELD MA 01119,,,,,
+Rate S1 Serv Ref: 176141007,Bill Cycle: 20,,,,
+Service From: 03/28/23 - 04/28/23,31 Days,,,,
+27500 LUMEN HE 5001UM,,,,,
+Number of Devices,,,Unmetered Usage,,
+0001,,,97 kWh,,
+Monthly kWh Use,,,,,
+Apr,May,Jun,Jul,Aug,Sep
+96,87,78,84,94,104
+Nov,Dec,Mar,Apr,,
+128,137,366,96,,

@@ -1,0 +1,34 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_747",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2023-06": 4251,
+    "2023-05": 5875,
+    "2023-04": 7452,
+    "2023-03": 9470,
+    "2023-02": 10796,
+    "2023-01": 9988,
+    "2022-12": 5986,
+    "2022-11": 5986,
+    "2023-07": 3068,
+    "2023-08": 3142,
+    "2023-09": 3504,
+    "2023-10": 4001,
+    "2023-11": 5244,
+    "2023-12": 5577
+  },
+  "locations": [
+    {
+      "serviceAddress": "NOT_FOUND",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": "BHE340077"
+    },
+    {
+      "serviceAddress": "NOT_FOUND",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": "BHE567623"
+    }
+  ],
+  "totalUsage": 4251
+}

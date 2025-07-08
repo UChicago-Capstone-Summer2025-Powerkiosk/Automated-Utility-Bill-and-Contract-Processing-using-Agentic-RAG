@@ -1,0 +1,42 @@
+{
+  "documentType": "contract",
+  "documentId": "document_209",
+  "contractStart": "NOT_FOUND",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2019-01": 1086241,
+    "2019-02": 1069283,
+    "2019-03": 1018880,
+    "2019-04": 923302,
+    "2019-05": 558706,
+    "2019-06": 433262,
+    "2019-07": 427982,
+    "2019-08": 438717,
+    "2019-09": 394645,
+    "2019-10": 497018,
+    "2019-11": 782911,
+    "2019-12": 1017777
+  },
+  "locations": [
+    {
+      "accountNumber": "7852200556",
+      "serviceAddress": "8051-05 S INGLESIDE",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "9541139047",
+      "serviceAddress": "11145 S KING OR",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "7506307575",
+      "serviceAddress": "8146-96 S INGLESIDE AVE",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "8695606027",
+      "serviceAddress": "8640-46 S INGLESIDE AVE",
+      "meterNumber": null
+    }
+  ]
+}

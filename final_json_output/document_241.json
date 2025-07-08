@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_241",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 1224,
+    "2023-01": 1790,
+    "2023-02": 1105,
+    "2023-03": 1355,
+    "2023-04": 316,
+    "2023-05": 714,
+    "2023-06": null,
+    "2023-07": 1432,
+    "2023-08": 2636,
+    "2023-09": 997,
+    "2023-10": 878,
+    "2023-11": 966
+  },
+  "locations": [
+    {
+      "serviceAddress": "600 CHRISTIAN LN, BERLIN OT 06037",
+      "accountNumber": "51442674016",
+      "meterNumber": "037215562"
+    }
+  ],
+  "totalUsage": 1224
+}

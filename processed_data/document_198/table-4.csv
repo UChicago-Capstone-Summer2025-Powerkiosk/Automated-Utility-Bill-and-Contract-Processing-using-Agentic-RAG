@@ -1,0 +1,36 @@
+METER DETAIL,,,,,,,,,
+Meter Number,Service <br> Period,Days,Rea,,,Total <br> kWh,On-Pk <br> kWh,Off-Pk <br> kWh,Peak KW,Coincident <br> Peak KW
+230114435,12/28-1/29,,NA,NA,,36,,,0.0 at 12/28 03:00,0.04
+230155338,12/28-1/29,,NA,NA,,"157,705",,,290.0 at 12/31 10:00,238.28
+230155340,12/28-1/29,,NA,NA,,"216,352",,,357.0 at 01/21 11:00,357.08
+230155341,12/28-1/29,,NA,NA,,"164,639",,,319.0 at 01/21 13:00,299.00
+Total,,33,,,,"538,732",,,,
+Coincident Peak KW,,,,,,,,,894.0 at 01/21 11:00,
+CHARGE DETAIL,,,,,,,,,
+Description,,,,,Quantity,Units,Rate,Charge,Totals
+ENERGY SUPPLY CHARGES,,,,,,,,,
+Energy Charge,,,,,"538,732",KWH,\$0.0548900,"\$29,571.00",
+TOTAL ENERGY SUPPLY CHARGES,,,,,,,,,"\$29,571.00"
+DELIVERY SERVICE CHARGES,,,,,,,,,
+Retail Delivery Service - 1000 kW to 10 MW,,,,,,,,,
+Customer Charge,,,,,,,,\$615.98,
+Standard Metering Charge,,,,,,,,\$17.40,
+Distribution Facilities Charge,,,,,903.57,KW,\$7.4800000,"\$6,758.70",
+Single Bill Option Credit,,,,,,,,- $\$ 0.46$,
+IL Electricity Distribution Charge,,,,,"538,732.00",KWH,\$0.0012100,\$651.87,
+Meter Lease,,,,,,,,\$19.45,
+Environmental Cost Recovery Adj,,,,,"538,732.00",KWH,\$0.0003000,\$161.62,
+Renewable Portfolio Standard,,,,,"538,732.00",KWH,\$0.0014200,\$765.00,
+Zero Emission Standard,,,,,"538,732.00",KWH,\$0.0019000,"\$1,023.59",
+Energy Efficiency Programs,,,,,"538,732.00",KWH,\$0.0004800,\$258.59,
+Franchise Cost,,,,,"\$8,058.10",,0.0221500,\$178.49,
+State Tax,,,,,,,,"\$1,609.99",
+Municipal Tax,,,,,,,,"\$1,915.89",
+,,,,,,,,"\$13,976.11",
+TOTAL DELIVERY SERVICE CHARGES,,,,,,,,,"\$13,976.11"
+TOTAL CURRENT CHARGES,,,,,,,,,"\$43,547.11"
+ACCOUNT USAGE PROFILE,,,,,,,,,
+Month Billed,Total,Demand,Avg Daily kWh,,Avg Daily Temp,,,,
+Current Month,,903.57,16325.21,,25,,,,
+Last Month,,830.45,15461.32,,32,,,,
+Last Year,,931.81,18088.89,,26,,,,

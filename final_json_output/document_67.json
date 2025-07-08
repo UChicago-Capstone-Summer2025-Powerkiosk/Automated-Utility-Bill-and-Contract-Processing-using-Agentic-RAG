@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_67",
+  "statementDate": "NOT_FOUND",
+  "totalUsage": 165744,
+  "usageHistory": {
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": null,
+    "2023-01": null,
+    "2023-02": null,
+    "2023-03": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "901-923 SPRING ST, ELIZABETH OTY NJ 07201-2101",
+      "accountNumber": "4214252918",
+      "meterNumber": "9211684"
+    }
+  ]
+}

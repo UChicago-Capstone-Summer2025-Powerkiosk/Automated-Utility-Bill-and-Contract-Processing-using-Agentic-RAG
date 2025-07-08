@@ -1,0 +1,34 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_122",
+  "statementDate": "2020-12-17",
+  "totalUsage": 5925.25,
+  "locations": [
+    {
+      "serviceAddress": "16769-1 25",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "102 207 586 2",
+      "meterNumber": "0040-621-0595-884-6"
+    },
+    {
+      "serviceAddress": "1036 Homestead Ave",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0040-621-0000-51955"
+    },
+    {
+      "serviceAddress": "924 Hobart Dr",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0040-621-0537-5526-4"
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "accountNumber": "102 207 586 2",
+      "meterNumber": "0094-0621-0677-9124-0"
+    }
+  ],
+  "usageHistory": null
+}

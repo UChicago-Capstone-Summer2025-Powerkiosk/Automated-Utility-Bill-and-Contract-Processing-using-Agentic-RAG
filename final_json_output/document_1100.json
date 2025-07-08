@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1100",
+  "statementDate": "2022-01-03",
+  "usageHistory": {
+    "2022-01": 75,
+    "2022-02": 125,
+    "2022-03": 150,
+    "2022-04": 125,
+    "2022-05": 75,
+    "2022-06": 50,
+    "2022-07": 50,
+    "2022-08": 75,
+    "2022-09": 75,
+    "2022-10": 75,
+    "2022-11": 75,
+    "2022-12": 125
+  },
+  "locations": [
+    {
+      "serviceAddress": "POCONO MOUNTAIN RECOVERY CTR 234 ROCKCREST DR HENRYVILLE, PA 18332",
+      "accountNumber": "18071-32020",
+      "meterNumber": "300850089"
+    }
+  ],
+  "totalUsage": 3160
+}

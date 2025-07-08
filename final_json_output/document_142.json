@@ -1,0 +1,20 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_142",
+  "statementDate": "08/29/23",
+  "usageHistory": {
+    "2023-07": 4736,
+    "2023-08": 9470,
+    "2023-09": 14204,
+    "2023-10": 18938,
+    "2023-11": 23672
+  },
+  "locations": [
+    {
+      "serviceAddress": "Anna Independent School District 501 S. Sherley Ave. Anna, TX 75409",
+      "accountNumber": "1024189",
+      "meterNumber": "1826106171"
+    }
+  ],
+  "totalUsage": 23672
+}

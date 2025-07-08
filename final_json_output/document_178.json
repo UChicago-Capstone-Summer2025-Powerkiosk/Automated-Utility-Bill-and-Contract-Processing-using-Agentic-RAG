@@ -1,0 +1,27 @@
+{
+  "documentType": "contract",
+  "documentId": "document_178",
+  "contractStart": "2017-12",
+  "contractEnd": "2018-11",
+  "usageHistory": {
+    "2017-12": 19052,
+    "2018-01": 19052,
+    "2018-02": 99712,
+    "2018-03": 98821,
+    "2018-04": 19282,
+    "2018-05": 84026,
+    "2018-06": 100337,
+    "2018-07": 127037,
+    "2018-08": 105418,
+    "2018-09": 99185,
+    "2018-10": 97380,
+    "2018-11": 71719
+  },
+  "locations": [
+    {
+      "serviceAddress": "901 Mepla Avenue Evression, IL 60202",
+      "accountNumber": "3201271000",
+      "meterNumber": null
+    }
+  ]
+}

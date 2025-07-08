@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_809",
+  "statementDate": "2022-05-24",
+  "totalUsage": 1280,
+  "usageHistory": {
+    "2021-05": 2080,
+    "2021-06": 1920,
+    "2021-07": 1920,
+    "2021-08": 1760,
+    "2021-09": 1920,
+    "2021-10": 1760,
+    "2021-11": 2080,
+    "2021-12": 2240,
+    "2022-01": 2240,
+    "2022-02": 1440,
+    "2022-03": 1600,
+    "2022-04": 1440,
+    "2022-05": 1280
+  },
+  "locations": [
+    {
+      "serviceAddress": "1360 MONMOUTH BLVD, GALESBURG, IL 61401",
+      "accountNumber": "7038480020",
+      "meterNumber": null
+    }
+  ]
+}

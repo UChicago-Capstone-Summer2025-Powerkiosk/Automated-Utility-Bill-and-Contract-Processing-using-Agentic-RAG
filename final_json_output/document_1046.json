@@ -1,0 +1,22 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1046",
+  "statementDate": "11/30/2017",
+  "usageHistory": {
+    "2017-05": 0,
+    "2017-06": 2000,
+    "2017-07": 2000,
+    "2017-08": 2000,
+    "2017-09": 2000,
+    "2017-10": 4000,
+    "2017-11": 9000
+  },
+  "locations": [
+    {
+      "serviceAddress": "242 Adams Place, Boxborough, MA 01719-1735",
+      "accountNumber": "729595 - 74715",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

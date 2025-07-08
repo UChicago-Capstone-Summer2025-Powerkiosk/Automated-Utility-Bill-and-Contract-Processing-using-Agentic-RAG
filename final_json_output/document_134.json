@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_134",
+  "statementDate": "12/17/20",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0040-621-0595-884-6"
+    },
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "accountNumber": "102 207 586 2",
+      "meterNumber": "0094-0621-0677-9124-0"
+    }
+  ],
+  "totalUsage": 103
+}

@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1068",
+  "statementDate": "January 12, 2023",
+  "totalUsage": 21600,
+  "usageHistory": {
+    "2022-02": null,
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": 20600,
+    "2023-01": 21600
+  },
+  "locations": [
+    {
+      "serviceAddress": "1600 W GREEN ST, HASTINGS MI 49058-9717",
+      "accountNumber": "100092731510",
+      "meterNumber": null
+    }
+  ]
+}

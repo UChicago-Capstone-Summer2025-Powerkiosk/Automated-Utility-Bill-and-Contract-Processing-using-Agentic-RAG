@@ -1,0 +1,264 @@
+Constellation NewEnergy, Inc.
+Electricity Supply Agreement - Fixed Price Solutions
+
+# PANGEA VENTURES LLC ("Customer") AND Constellation NewEnergy, Inc. ("Seller") AGREE AS FOLLOWS: 
+
+Defined Terms. Capitalized terms have the meanings set out in this Electricity Supply Agreement, including the attached General Terms and Conditions ("Agreement"); generally the words "you" and "your" refer to the Customer listed above and the words "we" and "us" refer to Seller, unless the context clearly requires otherwise.
+
+Purchase and Sale of Electricity. You will purchase and receive, and we will sell and supply all of your electricity requirements at the prices set forth below for each account identified in the Account Schedule below ("Account"). By signing this Agreement, you authorize us to enroll each Account with your UDC so that we can supply those Account(s). You will take such actions as we request to allow us to enroll each Account in a timely manner. You agree that we may select such sources of energy as we deem appropriate to meet our obligations under the Agreement. We will enroll each Account with the applicable UDC as being supplied by us and will take such other actions with the applicable UDC and ISO necessary for us to meet our obligations under the Agreement.
+
+The specific prices for each Account are set forth in the Account Schedule, below. You are also responsible to pay (1) Taxes - which we will pass through to you on your bill or as part of the price of electricity, as may be required by law, rule or regulation and (2) UDC charges for delivery/distribution services if we provide you a single bill that includes UDC charges. Your prices are fixed for the existing term of this Agreement and only subject to change if there is a change in law, as described in Section 5 of the General Terms and Conditions below. The UDC charges (if any) and Taxes are charged to you as a "passthrough," which means they will change during the existing term of this Agreement if and as the related charges assessed or charged vary for any reason, including but not limited to the types of changes described above.
+
+Cost Components. For each of the items listed as "Fixed" below, this means the item is included in your contract prices as set forth in the Account Schedule. For each of the items listed as "Passed Through" below, this means that you will be charged the costs associated with the line item in accordance with the definitions of each item in Section 1 Definitions of the General Terms and Conditions.
+
+| Energy Costs | Fixed |
+| :-- | :-- |
+| Ancillary Services And Other ISO Costs | Fixed |
+| Auction Revenue Rights Credits | Fixed |
+| Capacity Costs | Fixed |
+| Transmission Costs | Fixed |
+| Transmission Loss Credits | Fixed |
+| Line Loss Costs | Fixed |
+| FERC Order 745 Costs | Fixed |
+
+The contract prices contained in the Account Schedule include credit costs and margin as well as Renewable Portfolio Standards Costs. Any applicable RMR Costs are also included in the contract prices. Except in the case of Transmission Costs, all other costs listed above as "Fixed" may be subject to change if there is a change in law, as described in Section 5 of the General Terms and Conditions below.
+
+Retail Trade Transactions. At any time during the term of this Agreement, you may request the purchase of renewable energy certificates in an amount equal to a prescribed percentage of your load volume by entering into one or more Retail Trade Transactions ("RTTs") between us. If we both agree to the pricing and terms of the renewable energy certificates purchase, a separate RTT Confirmation signed by both of us will document each such purchase and be incorporated herein.
+
+Term. This Agreement will become effective and binding after you have signed the Agreement and we have counter-signed. Subject to successful enrollment of your Account(s), this Agreement shall commence on or about the date set forth under "Start Date", and end on or about the date set forth under "End Date", unless extended on a holdover basis as described in this Agreement. The actual Start Date is dependent on the UDC successfully enrolling the Account(s) and furnishing us with all necessary information regarding the Account(s) meter read cycle and meter read date(s). The dates set forth in the Account Schedule
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved. Errors and omissions excepted. Std. Short Form y. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017 \quad 137634.6083 .2$
+
+below reflect UDC information available at that time or as otherwise estimated by us. The actual meter read dates may occur on or about the dates set forth herein. We will use commercially reasonable efforts to begin service to each Account(s) on the actual meter read date on or about the Start Date set forth herein. If we are unable to timely enroll an Account, the Start Date will commence on the next regularly scheduled UDC meter read cycle date following successful enrollment. The End Date will remain the same unless extended for a holdover term. We shall not be liable for any failure to enroll or drop an Account by the Start and End Date due to circumstances beyond our control. We will not be responsible for any gaps in service that may occur between the termination of your service from a prior supplier and the commencement of supply from us.
+
+Nothing in this Agreement shall be deemed to require or otherwise obligate us to offer to extend the term of this Agreement. If following termination or expiration of this Agreement (whether in whole or in part), for any reason, some or all of the Accounts remain designated by the UDC as being supplied by us, we may continue to serve such Account(s) on a month-to-month holdover basis. During such holdover term, we will calculate your invoice as follows: (Each Account's metered usage, as adjusted by the applicable line loss factor) times (the ISO-published Day Ahead Locational Based Marginal Price for the applicable residual zone ("LMP") $+\$ .005250 / \mathrm{kWh})+$ (apass through of all costs and charges incurred for the retail delivery of energy to you) + Taxes. This Agreement will continue to govern the service of such Accounts during such holdover term. Either party may terminate the holdover term at any time within its discretion at which time we will drop each Account as of the next possible meter read date to the then applicable tariff service, whether default service or otherwise.
+
+Your Invoice. Your invoice will contain all charges applicable to your electricity usage, including Taxes (which are passed through to you). If you have elected to receive a single bill from us for one or more of the Account(s) served hereunder, we will invoice you for all UDC Charges and related Taxes for those Account(s) ("Seller Consolidated Billing"). If you have elected to receive a single bill from the UDC for one or more of the Account(s) served hereunder, the UDC will invoice you for all of our charges and all UDC Charges and related Taxes for those Account(s) ("UDC Consolidated Billing"). Otherwise, we will invoice you for all our charges and the UDC will invoice you for all UDC Charges and related Taxes for those Account(s) which we refer to as "Dual Billing." Initially all your Account(s) will be billed as follows, which may change based on your Account(s) eligibility: Seller Consolidated Billing. All amounts charged are due in full within twenty (20) days of the invoice date, and we reserve the right to adjust amounts previously invoiced based upon supplemental or additional data we may receive from your UDC. Your invoices will be based on actual data provided by the UDC, provided that if we do not receive actual data in a timely manner, we will make a good faith estimate using your historical usage data and other information. Once we receive actual data we will reconcile the estimated charges and adjust them as needed in subsequent invoices. If you fail to make payment by the due date, interest will accrue daily on outstanding amounts from the due date until the bill is paid in full at a rate of $1.50 \%$ per month, or the highest rate permitted by law, whichever is less; and we may withhold any payments due to the UDC until we receive such payments.
+
+Certain Warranties. You warrant and represent that for Account(s) located in the State of Illinois, your aggregate consumption and usage during a ny 12 month period is greater than 15,000 kilowat-hours and that the electricity supplied under this Agreement is not for use at a residence.
+
+Notices. All notices will be in writing and delivered by hand, certified mail, return receipt requested, or by first class mail, or by express carrier to our respective business addresses. Our business address is 1221 Lamar St. Suite 750, Houston, TX 77010, Altn: Contracts Administration. Either of us can change our address by notice to the other pursuant to this paragraph.
+
+Customer Service. For questions about your invoice or our services, contact us at our Customer Service Department by calling bill-free 888-635-0827, or by e-mail at CustomerCare@Constellation.com. Your prior authorization of us to your UDC as recipient of your current and historical energy billing and usage data will remain in effect during the entire term of this Agreement, including any renewal, unless you rescind the authorization upon written notice to us or by calling us at 888-635-0827. We reserve the right to cancel this Agreement in the event you rescind the authorization.
+
+IN THE EVENT OF AN EMERGENCY, POWER OUTAGE OR WIRES AND EQUIPMENT SERVICE NEEDS, CONTACT YOUR APPLICABLE UDC AT:
+
+| UDC Name | UDC Abbreviation | Contact Numbers |
+| :-- | :-- | :-- |
+| Commonwealth Edison | COMED | $1-800-334-7661$ |
+
+[REMAINDER OF PAGE LEFT INTENTIONALLY BLANK.]
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Farris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+Each party has caused this Agreement to be executed by its authorized representative on the respective dates written below.
+
+Constellation NewEnergy, Inc.
+
+By:
+David T. Donat
+David T. Donat
+$2017-01-06$
+09:44-06:00
+Name: Vice President
+Title:
+Address: 1221 Lamar St. Suite 750 Houston, TX 77010
+Attn: Contracts Administration
+Fax: 888-829-8738
+Phone: 888-825-0627
+
+Customer: PANGEA VENTURES LLC
+By: $2 \frac{1}{2} / 4 \mathrm{~m}$
+
+Name: David Jaffee
+Title: DYECHY of operations Date: $12 / 17$
+Address: 00500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+## General Terms and Conditions
+
+## 1. Definitions.
+
+"Ancillary Services And Other ISO Costs" means for any billing period the applicable charges regarding ancillary services as set forth in the applicable ISO Open Access Transmission Tariff ("OATT") and for other ISO costs not otherwise included in any of the defined cost components in this Agreement. We will reasonably determine your Account's monthly Ancillary Services And Other ISO Costs based on the Account's $/kWh share of costs for Ancillary Services And Other ISO Costs or otherwise reasonable allocation method as we may determine from time to time based on how Ancillary Services And Other ISO Costs are assessed by the ISO.
+"Auction Revenue Rights Credits" means revenue credits resulting from the annual financial transmission rights auction conducted by the ISO that are applicable with respect to transmission peak load contribution. If Auction Revenue Rights Credits are "Passed Through", such credits shall be reasonably calculated by us as the monthly product of the (i) total Auction Revenue Rights Credits expressed in dollars per planning year for the applicable zone, as published by the ISO; divided by (ii) the total Network Service Peak Load for such zone, as published by the ISO; divided by (iii) the number of days in the applicable planning year; multiplied by (iv) by an Account's applicable Network Service Peak Load; multiplied by (v) the number of days in the billing period or such other reasonable calculation method applied by us.
+"Capacity Costs" means a charge for fulfilling the capacity requirements for the Account(s) imposed by the ISO or otherwise. Capacity Costs includes, but is not limited to, the cost for procuring Capacity Performance resources (as currently required and defined by the ISO) in accordance with the provisions of Federal Energy Regulatory Commission Order on Proposed Tariff Revisions (Docket No. ER15-623-000, et al, issued June 9, 2015).
+"Energy Costs" means a charge for the cost items included in the Locational Marginal Price for the ISO residual zone identified in the Account Schedule.
+"FERC Order 745 Costs" means any costs or charges imposed by the ISO in accordance with complying with the provisions of Federal Energy Regulatory Commission ("FERC") in Order No. 74518 CFR Part 35 (March 15, 2011). Any modifications or conditions to the treatment of FERC Order 745 Costs under the ISO tariff or otherwise shall be deemed a change in law pursuant to Section 5 of the General Terms and Conditions of this Agreement.
+"ISO" means the independent system operator or regional transmission organization responsible for the service territory governing an Account, or any successor or replacement entity.
+"Line Loss Costs" means the costs (to the extent not already captured in the applicable Energy Costs) applicable to each Account based on the kWh difference between the UDC metered usage and the ISO settlement volumes. If Line Loss Costs are "Fixed," the Line Loss Costs are included in the Energy Costs and will not be invoiced as a separate line item. If Line Loss Costs are "Passed Through," the Line Loss Costs will be invoiced as a separate line item and calculated based on the applicable fixed price or locational marginal price for the corresponding usage.
+"Non Time Of Use" or "NTOU" means all hours of each day.
+"Off Peak" means all hours other than Peak hours.
+"Peak" means the hours designated as peak from time to time by the UDC.
+"Renewable Portfolio Standards Costs" means the costs associated with meeting renewable portfolio standards costs at the levels required by currently applicable Law. If Renewable Portfolio Standards Costs are not included in the contract price, such costs for a particular month will be the product of (i)
+the Monthly RPS Price; and (ii) an Account's monthly kWh usage. The Monthly RPS Price is the price of renewable portfolio standards compliance for the Account, for a particular month, fixed by reference to the renewable portfolio standards forward price curve for the state where the Account is located.
+"RMR Costs" or "Reliability-Must-Run Costs" means the generation deactivation charges and other such charges, if any, imposed by the ISO on load served in a particular load zone to recover the cost for any generation units that plan to retire but are required by the ISO to run for reliability purposes beyond their intended retirement date, in accordance with the applicable ISO rules and OATT provisions.
+"Taxes" means all federal, state, municipal and local taxes, duties, fees, levies, premiums or other charges imposed by any governmental authority, directly or indirectly, on or with respect to the electricity and related products and services provided under this Agreement, including any taxes enacted after the date we entered into this Agreement.
+"Transmission Costs" means the charge for Network Transmission Service and Transmission Cost Enhancement Charges, each as identified in the applicable OATT Tariff for the provision of transmission service by the ISO within the UDC's service territory.
+"Transmission Loss Credits" means the credit amounts applicable to the Accounts under the ISO's marginal loss construct
+"UDC" means your local electric distribution utility owning and/or controlling and maintaining the distribution system required for delivery of electricity to the Accounts.
+"UDC Charges" means all UDC costs, charges, and fees, due under UDC's delivery services rates associated with your use of UDC's distribution network, all as defined by the UDC tariffs, and any similar or related charges the UDC may impose from time to time.
+2. Cash deposit and other security. At any time, we may require that you provide information to us so that we may evaluate your creditworthiness. We reserve the right to require that you make a cash deposit or provide other security acceptable to us if your financial obligations to us increase under this Agreement, or if, in our opinion, your credit, payment history, or ability to pay your bills as they come due becomes a concern. You will deliver any required cash deposit or other required security (or any increase therein) within three
+(3) business days of our request.
+3. Default under this Agreement. You will be in default under this Agreement if you fail to: pay your bills on time and in full; provide cash deposits or other security as required by Section 2 above; or perform all material obligations under this Agreement and you do not cure such default within 5 days of written notice from us; or if you declare or file for bankruptcy or otherwise become insolvent or unable to pay your debts as they come due. We will be in default under this Agreement if we fail to perform all material obligations under this Agreement and do not cure such default within 5 days written notice from you, or if we declare or file for bankruptcy or otherwise become insolvent or unable to pay our debts as they come due.
+4. Remedies upon default. If you are in default under this Agreement, in addition to any other remedies available to us, we may terminate this Agreement entirely, or solely with respect to those Accounts adversely affected by such default, and switch your Account(s) back to UDC service (consistent with applicable regulations and UDC practices); and/or require that
+
+you compensate us for all losses we sustain due to your default, including the following:
+
+- payment of all amounts you owe us for electricity provided to you;
+- when the Agreement is terminated early (entirely or as to certain Accounts), payment of an amount (that we will calculate using our reasonable judgment) equal to the positive difference between (A) the dollar amount you would have paid to us under this Agreement had it not been terminated early and (B) the dollar amount we could resell such electricity for to a third party under then-current market conditions; and
+- all costs (including attorneys' fees, expenses and court costs) we incur in collecting amounts you owe us under this Agreement.
+The parties agree that any early termination payment determined in accordance with this Section is a reasonable approximation of harm or loss, and is not a penalty or punitive in any respect, and that neither party will be required to enter into a replacement transaction in order to determine or be entitled to a termination payment.
+
+5. Changes in law. We may pass through or allocate, as the case may be, to you any increase or decrease in our costs related to the electricity and related products and services sold to you that results from the implementation of new, or changes (including changes to formula rate calculations) to existing, Laws, or other requirements or changes in administration or interpretation of Laws or other requirements. "Law" means any law, rule, regulation, ordinance, statute, judicial decision, administrative order, ISO business practices or protocol, UDC or ISO tariff, rule of any commission or agency with jurisdiction in the state in which the Accounts are located. Such additional amounts will be included in subsequent invoices to you. The changes described in this Section may change any or all of the charges described in this Agreement, whether described as "fixed," "variable," "pass-through" or otherwise. Your first bill reflecting increased costs will include a bill insert describing the increase in costs in reasonable detail.
+6. Events beyond either of our reasonable control. If something happens that is beyond either of our reasonable control that prevents either of us from performing our respective obligations under this Agreement, then whichever one of us cannot perform will be relieved from performance until the situation is resolved. Examples of such events include: acts of God, fire, food, hurricane, war, terrorism; declaration of emergency by a governmental entity, the ISO or the UDC; curtailment, disruption or interruption of electricity transmission, distribution or supply; regulatory, administrative, or legislative action, or action or restraint by court order or other governmental entity; actions taken by third parties not under your or our control, such as the ISO or a UDC. Such events shall not excuse failure to make payments due in a timely manner for electricity supplied to you prior to such event. Further, if such an event prevents or makes it impossible or impracticable for the claiming party to carry out any obligation under this Agreement due to the events beyond either of our reasonable control for more than 30 days, then whichever one of us whose performance was not prevented by such events shall have the right to terminate the Agreement without penalty upon 30 days' written notice to the other.
+7. UDC or ISO obligations. We will have no liability or responsibility for matters within the control of the UDC or the ISO-controlled grid, which include maintenance of electric lines and systems, service interruptions, loss or termination of service, deterioration of electric services, or meter readings.
+8. Limitation on Liability. IN NO EVENT WILL EITHER PARTY OR ANY OF ITS RESPECTIVE AFFILIATED COMPANIES BE LIABLE FOR ANY CONSEQUENTIAL, EXEMPLARY, SPECIAL, INCIDENTAL OR PUNITIVE DAMAGES, INCLUDING, WITHOUT LIMITATION, LOST OPPORTUNITIES OR LOST PROFITS. Each party's total liability related to this Agreement, whether arising under breach of contract, tort, strict liability or otherwise, will be limited to direct, actual damages. Direct, actual damages payable to us will reflect the early termination payment calculation in Section 4. Each party agrees to use commercially reasonable efforts to mitigate damages it may incur. NO WARRANTY, DUTY, OR REMEDY, WHETHER EXPRESSED, IMPLIED OR STATUTORY, ON OUR PART IS GIVEN OR INTENDED TO ARISE OUT OF THIS AGREEMENT, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE OR USE.
+9. DISPUTE RESOLUTION. THIS AGREEMENT WILL BE GOVERNED BY AND INTERPRETED IN ACCORDANCE WITH THE LAWS OF THE STATE IN WHICH ANY ACCOUNT IS LOCATED, WITHOUT GIVING EFFECT TO ANY CONFLICTS OF LAW PROVISIONS, AND ANY CONTROVERSY OR CLAIM ARISING FROM OR RELATING TO THIS AGREEMENT WILL BE SETTLED IN ACCORDANCE WITH THE EXPRESS TERMS OF THIS AGREEMENT BY A COURT LOCATED IN SUCH STATE. IF THE MATTER AT ISSUE INVOLVES ACCOUNTS OR MATTERS IN MORE THAN ONE STATE, THE GOVERNING JURISDICTION AND VENUE SHALL BE DEEMED TO BE NEW YORK. TO THE EXTENT ALLOWED BY APPLICABLE LAW, WE ALSO BOTH AGREE IRREVOCABLY AND UNCONDITIONALLY TO WAIVE ANY RIGHT TO A TRIAL BY JURY OR TO INITIATE OR BECOME A PARTY TO ANY CLASS ACTION CLAIMS WITH RESPECT TO ANY ACTION, SUIT OR PROCEEDING DIRECTLY OR INDIRECTLY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED BY THIS AGREEMENT.
+10. Relationship of Parties. We are an independent contractor, and nothing in this Agreement establishes a joint venture, fiduciary relationship, partnership or other joint undertaking. We are not acting as your consultant or advisor, and you will not rely on us in evaluating the advantages or disadvantages of any specific product or service, predictions about future energy prices, or any other matter. Your decision to enter into this Agreement and any other decisions or actions you may take is and will be based solely upon your own analysis (or that of your advisors) and not on information or statements from us.
+11. Confidentiality. Consistent with applicable regulatory requirements, we will hold in confidence all information obtained by us from you related to the provision of services under this Agreement and which concern your energy characteristics and use patterns, except that we may, consistent with applicable law and regulation, disclose such information to our affiliates and such affiliates' employees, agents, advisors, and independent contractors. Except as otherwise required by law, you will agree to keep confidential the terms of our Agreement, including price.
+12. Miscellaneous Provisions. If in any circumstance we do not provide notice of, or object to, any default on your part, such situation will not constitute a waiver of any future default of any kind. If any of this Agreement is held legally invalid, the remainder will not be affected and will be valid and enforced to the fullest extent permitted by law and equity, and there will be
+
+deemed substituted for the invalid provisions such provisions as will most nearly carry out our mutual intent as expressed in this Agreement. You may not assign or otherwise transfer any of your rights or obligations under this Agreement without our prior written consent. Any such attempted transfer will be void. We may assign our rights and obligations under this Agreement. This Agreement contains the entire agreement between both of us, supersedes any other agreements, discussions or understandings (whether written or oral) regarding the subject matter of this Agreement, and may not be contradicted by any prior or contemporaneous oral or written agreement. A facsimile or e-mailed copy with your signature will be considered an original for all purposes, and you will provide original signed copies upon request. Each party authorizes the other party to affix an ink or digital stamp of its signature to this Agreement, and agrees to be bound by a document executed in such a manner. The parties acknowledge that any document generated by the parties with respect to this Agreement, including this Agreement, may be imaged and stored electronically and such imaged documents may be introduced as evidence in any proceeding as if such were original business records and neither party shall contest their admissibility as evidence in any proceeding. Except as otherwise explicitly provided in this Agreement, no amendment (including in form of a purchase order you send us) to this Agreement will be valid or given any effect unless signed by both of us. Applicable provisions of this Agreement will continue in effect after termination or expiration of this Agreement to the extent necessary, including those for billing adjustments and payments, indemnification, limitations of liability, and dispute resolution. This Agreement is a "forward contract" and we are a "forward contract merchant" under the U.S. Bankruptcy Code, as amended. Further, we are not providing advice regarding "commodity interests", including futures contracts and commodity options or any other matter, which would cause us to be a commodity trading advisor under the U.S. Commodity Exchange Act, as amended.
+
+# ACCOUNT SCHEDULE: 
+
+## For: PANGEA VENTURES LLC
+
+## The Pricing set forth below is only valid until 5:00 PM Central Prevailing Time on January 5, 2017
+
+We shall have no obligation to enroll or supply electricity to any account(s) that are not identified on the Account Schedule below. Please verify that your specific information is COMPLETE and ACCURATE.
+Your review and acceptance of this information will help ensure accurate future invoices
+Notes: Accounts or Service Addresses listed in the Account(s) Schedule may be updated or replaced with a new account number issued by the UDC, ISO or other entity.
+
+No. of Service Accounts: 396
+
+{{table_data: table-2.csv}}
+
+FOR INTERNAL USE ONLY
+\$2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form; v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFarris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-3.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC AlI rights reserved.
+Errors and omissions excepted. Std. Short Form_v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-4.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-5.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-6.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form_v. 2010 Rev Mar-01-2016 ()
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-7.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-8.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Condelliation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-9.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-10.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016 ().
+Sales Rep: Bryan Farria
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-11.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017$
+
+{{table_data: table-12.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0 \quad$ Printed: $1 / 5 / 2017$
+
+{{table_data: table-13.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Constellation Energy Resources, LLC Alrights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016 ().
+Sales Rep: Bryan Faris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+{{table_data: table-14.csv}}
+
+FOR INTERNAL USE ONLY
+©2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form v. 2010 Rev Mar-01-2016
+Sales Rep: Bryan Faris
+$137634.6083 .0$
+Printed: $1 / 5 / 2017$
+
+{{table_data: table-15.csv}}
+
+FOR INTERNAL USE ONLY
+62016 Condelliation Energy Resources, LLC AlI rights reserved. Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFurns
+
+{{table_data: table-16.csv}}
+
+TO ACCEPT THE PRICING ABOVE, PLEASE FAX A SIGNED COPY OF THIS AGREEMENT TO US AT 888-829-8738.
+
+FOR INTERNAL USE ONLY
+\$2016 Constellation Energy Resources, LLC All rights reserved.
+Errors and omissions excepted. Std. Short Form, v. 2010 Rev Mar-01-2016
+Sales Rep: BryanFarris
+137634.6083.0 Printed: $1 / 5 / 2017$
+
+FOR INTERNAL USE ONLY

@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_494",
+  "statementDate": "2021-10-19",
+  "usageHistory": {
+    "2021-09": 55753.51
+  },
+  "locations": [
+    {
+      "serviceAddress": "Dara Fleetlands, Fareham Road, Gosport Hampshire, PO13 0AA",
+      "accountNumber": "23487 48413",
+      "meterNumber": "M0160A024402D7"
+    }
+  ],
+  "totalUsage": 55753.51
+}

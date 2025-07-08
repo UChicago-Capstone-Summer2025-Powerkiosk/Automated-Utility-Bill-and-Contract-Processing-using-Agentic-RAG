@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_820",
+  "statementDate": "2015-12-08",
+  "usageHistory": {
+    "2015-12": 264,
+    "2015-11": 246,
+    "2015-10": 272,
+    "2015-09": 268,
+    "2015-08": 271,
+    "2015-07": 238,
+    "2015-06": 213,
+    "2015-05": 253,
+    "2015-04": 266,
+    "2015-03": 302,
+    "2015-02": 258,
+    "2015-01": 231
+  },
+  "locations": [
+    {
+      "serviceAddress": "360 Heath St, Chestnut Hill, MA 02467",
+      "accountNumber": "25984931003",
+      "meterNumber": "5105272"
+    }
+  ],
+  "totalUsage": 703.1
+}

@@ -1,0 +1,142 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1033",
+  "contractStart": "2020-12-14",
+  "contractEnd": "2024-09-18",
+  "usageHistory": {
+    "2020-01": 233283,
+    "2020-02": 207887,
+    "2020-03": 185443,
+    "2020-04": 156184,
+    "2020-05": 157386,
+    "2020-06": 194698,
+    "2020-07": 195585,
+    "2020-08": 188692,
+    "2020-09": 205480,
+    "2020-10": 214629,
+    "2020-11": 207380,
+    "2020-12": 218189,
+    "2021-01": 233283,
+    "2021-02": 207887,
+    "2021-03": 185443,
+    "2021-04": 156184,
+    "2021-05": 157386,
+    "2021-06": 194698,
+    "2021-07": 195585,
+    "2021-08": 188692,
+    "2021-09": 205480,
+    "2021-10": 214629,
+    "2021-11": 207380,
+    "2021-12": 218189,
+    "2022-01": 233283,
+    "2022-02": 207887,
+    "2022-03": 185443,
+    "2022-04": 156184,
+    "2022-05": 157386,
+    "2022-06": 194698,
+    "2022-07": 195585,
+    "2022-08": 188692,
+    "2022-09": 205480,
+    "2022-10": 214629,
+    "2022-11": 207380,
+    "2022-12": 218189,
+    "2023-01": 233283,
+    "2023-02": 207887,
+    "2023-03": 185443,
+    "2023-04": 156184,
+    "2023-05": 157386,
+    "2023-06": 194698,
+    "2023-07": 195585,
+    "2023-08": 188692,
+    "2023-09": 205480,
+    "2023-10": 214629,
+    "2023-11": 207380,
+    "2023-12": 218189,
+    "2024-01": 233283,
+    "2024-02": 207887,
+    "2024-03": 185443,
+    "2024-04": 156184,
+    "2024-05": 157386,
+    "2024-06": 194698,
+    "2024-07": 195585,
+    "2024-08": 188692,
+    "2024-09": 205480
+  },
+  "locations": [
+    {
+      "serviceAddress": "1700 Jerome Lane",
+      "accountNumber": "2155701119",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1401 Morning Star Drive",
+      "accountNumber": "4755702113",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1401 Morning Star Drive",
+      "accountNumber": "5755702112",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 Jerome Lane",
+      "accountNumber": "7561717115",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1012 Jerome Lane",
+      "accountNumber": "9555700114",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1010 Jerome Lane",
+      "accountNumber": "8495609116",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 Jerome Lane",
+      "accountNumber": "6371710117",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 Jerome Lane",
+      "accountNumber": "1155701110",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 St Robert",
+      "accountNumber": "9106602115",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 Jerome Lane",
+      "accountNumber": "0655700111",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1800 Jerome Lane",
+      "accountNumber": "4561717127",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1010 Jerome Lane",
+      "accountNumber": "0411009616",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1010 Jerome Lane",
+      "accountNumber": "8555700115",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1825 Jerome Lane",
+      "accountNumber": "5561717117",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6702 Bond",
+      "accountNumber": "3595804111",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+Constellation Energy Services - Natural Gas, LLC ("Seller") and Buyer ("Buyer" or "your") (individually referred to as "Party" and collectively as "Parties") agree to the following terms and conditions ("Agreement"), as of the date signed by Buyer (the "Effective Date"):
+
+1. Term: This Agreement shall become binding on the Effective Date, however, the obligation of Seller to sell and Buyer to purchase natural gas is contingent upon: (a) successful enrollment by the utility identified on the Enrollment Form (the "Utility"), (b) if applicable, the passage of the Rescission Period (defined below) without effective cancellation by Buyer (c) if applicable, the availability of the Specific Price selected on the Enrollment Form and (d) credit approval. Successful enrollment by the Utility is dependent upon (i) the eligibility of Buyer as determined by the Utility including, but not limited to, past payment history, price availability based on the active rates provided by Seller to the Utility and historical annual usage, and (ii) the accuracy and completeness of the information submitted on the Enrollment Form. Service shall not commence until the first meter read date for which the Utility confirms enrollment with Seller and shall remain in effect for the period indicated on the Enrollment Form ("Initial Term") unless terminated pursuant to the terms of this Agreement. Rescission Period: The Utility will send Buyer a letter confirming the transfer of service. If Buyer is a Residential Customer or Small Commercial Customer (defined below), Buyer may cancel its enrollment without penalty within ten (10) business days of the date of that letter ("Rescission Period") by contacting the Utility or Seller in writing or by telephone as noted in Section 11 below or the Utility's letter. A Residential Customer is a customer who receives gas utility service for household purposes distributed to a dwelling of 2 or fewer units which is billed under a residential rate or gas utility service for household purposes distributed to a dwelling unit or units which is billed under a residential rate and is registered by a separate meter for each dwelling unit. A Small Commercial Customer is a non-residential retail customer of a natural gas utility that consumed 5,000 or fewer therms of natural gas during the previous year; provided that Seller may remove the customer from designation as a "small commercial customer" if the customer consumes more than 5,000 therms of natural gas in any calendar year after becoming a customer of Seller.
+2. Renewal: Prior to the end of the Current Term ("Current Term" means the Initial Term or a subsequent renewal Term, whichever is in effect), Seller may send Buyer a new offer ("Pricing Notice"), including a revised Rate and Term. If Buyer rejects the Pricing Notice as directed in such notice, this Agreement will terminate at the end of the Current Term. Without your written objection to that offer within 10 days of its receipt, the offer will be deemed accepted, and the Agreement, as amended, will take effect at the end of the Current Term. Seller will send Buyer a service confirmation letter after the 10 days have expired. If Seller does not submit a Pricing Notice, then this Agreement will renew automatically on a month to month term and your rate will be Index Price (defined in Section 4) plus an adder per therm. This Agreement may be terminated by Buyer or Seller at the end of the Current Term by providing written notice to the other party 60 days prior to the end of the Current Term.
+3. Supplier's and Utility's Role: Seller agrees to sell to Buyer and deliver to the Utility, and Buyer agrees to purchase from Seller and receive from the Utility, Buyer's full requirements of natural gas for the accounts listed on the Enrollment Form ("Accounts"). The Utility will deliver the natural gas to the Accounts and shall invoice and collect Seller's charges. The Utility's billing and payment procedures shall apply in accordance with the applicable tariff, including but not limited to, the Utility's right to assess late payment fees. Buyer authorizes Seller as exclusive agent for Buyer's Account(s) during the term of this Agreement, which includes the authority to obtain historical and current gas use data from the Utility.
+4. Rate: For the Initial Term Buyer shall pay in accordance with the Rate Plan selected by Buyer on the Enrollment Form. 'Index Price' when used in this Agreement shall mean the 'avg' price published in NGI's Bidweek Survey, for the applicable month, under 'Midwest', for 'Chicago citygate', as published by Natural Gas Intelligence. 'NYMEX Price' when used in this Agreement shall mean 100\% of the settlement price of the New York Mercantile Exchange (NYMEX) Natural Gas Futures - Henry Hub Contract for the last trading day of each month.
+
+| RATE PLAN | DESCRIPTION |
+| :--: | :--: |
+| Fixed Rate ${ }^{1,2}$ | The natural gas supply price will remain fixed for the Initial Term. |
+| Index Rate ${ }^{2}$ | Buyer's natural gas supply price will be the Index Price plus an adder per therm. |
+| Guaranteed Savings/Fixed Winter Rate ${ }^{1,2}$ | The natural gas supply price is fixed November through April. During the months of May through October the natural gas supply price shall be $\$ 0.025$ per therm less than the Utility's Gas Cost rate. If Buyer participates in the budget billing service, amounts with respect to the budget billing service will be due regardless of the Guaranteed Savings. |
+| NYMEX Rate ${ }^{2}$ | Buyer's natural gas supply price will be the NYMEX Price plus an adder per therm. |
+
+${ }^{1}$ Specific Price: Rate Plans marked with a ${ }^{1}$ indicate plans for which Buyer may indicate a Specific Price on the Enrollment Form. A Specific Price may not be available to Buyer if (i) Buyer is a current customer on a Rate Plan other than the Index Rate, (ii) the Index Price defined above has increased, or (iii) there is an error on the Enrollment Form because the Specific Price (a) applies to a different Term, (b) it is not available to Buyer based on Buyer's forecasted use, or (c) it was never available from Seller for the Term set forth on the Enrollment Form. If a Specific Price selection is not available, this Agreement is void and Seller will inform Buyer and provide Buyer with the opportunity to enroll under the terms of then-available Rate Plans. For a Specific Price to be available, it must be a valid and current Specific Price as determined by Seller in its sole discretion.
+${ }^{2}$ Administrative, Miscellaneous and Other Charges: In addition to the price under the Rate, some miscellaneous, storage, pooling and administrative charges may apply and be billed by the Utility: (i) if Buyer is a customer of Nicor Gas, such charges will appear on the bill under "Administrative \& Miscellaneous"; or (ii) if Buyer is a customer of Peoples Gas, such charges will appear on the bill under 'Storage Bal. and/or Pool Chg" and/or "Misc Credits/Debits". If the pass-through charges from the Utility increase or if new charges are approved by a governmental agency with jurisdiction and passed through, existing tariff charges are administered differently and the pass-through charges from the Utility increase, the applicable administrative, miscellaneous and other Charges will increase accordingly. The Rate does not include Taxes (as defined below) or Utility distribution charges.
+5. Taxes: Buyer is responsible for all state and local sales, use, revenue, gross receipts, commercial activity, excise and/or ad valorem tax (collectively, "Taxes") and shall reimburse Seller if Seller is required to remit such Taxes in connection with this Agreement.
+6. Limited Availability: Seller's acceptance of this Agreement is subject to credit approval and successful enrollment with the utility. The Rate selected may have limited availability and Seller may reject enrollment based on availability in its sole discretion. Seller will notify Buyer by mail to confirm Seller's acceptance.
+7. Termination; Remedies: (a) This Agreement will automatically terminate or Buyer may terminate the Agreement without penalty if (i) the requested
+
+service location is not served by the Utility or (ii) Buyer moves outside the Utility service area or to an area not served by Seller.
+(b) This Agreement will terminate upon written notice, but without penalty to Buyer if, (i) the Choice program is no longer available due to a change in regulation, tariff, or law, or (ii) Seller defaults, which includes, an unexcused failure to deliver natural gas under the terms of this Agreement.
+(c) An "Early Termination" shall occur if this Agreement is terminated (i) by Buyer to select a different price or Rate Plan prior to the end of the current term or (ii) by Seller or the Utility due to Buyer's default, which includes a failure to pay or an unexcused failure to receive natural gas under the terms of this Agreement.
+(d) The Parties agree that actual damages are difficult or impossible to ascertain, and that the remedies described in this Section are reasonable estimates of the actual damages incurred and not penalties. Buyer agrees to pay Seller for Early Termination within ten (10) calendar days of the invoice date to the payment address noted on the invoice, or as otherwise agreed upon by Buyer and Seller.
+(e) Late payments incur interest at $1.5 \%$ per month (or the highest amount allowed by law) plus any credit and collection costs incurred by Seller.
+(f) RESIDENTIAL AND SMALL COMMERCIAL CUSTOMERS ONLY: If Buyer is a Residential Customer or a Small Commercial Customer and an Early Termination occurs Buyer agrees to pay an early termination fee equal to $\$ 50$. Notwithstanding the foregoing, if Buyer is a Residential Customer or a Small Commercial Customer, Buyer may terminate this agreement within ten (10) business days of Buyer's first invoice without incurring an early termination fee.
+(g) LARGE COMMERCIAL CUSTOMERS ONLY: If Buyer is a Large Commercial Customer (defined below), and an Early Termination occurs in connection with a Rate Plan without a Specific Price, then Seller's exclusive remedy is $\$ 100.00$. If Buyer is a Large Commercial Customer, and an Early Termination occurs in connection with a Rate Plan with a Specific Price selected and an Early Termination occurs, then Seller's exclusive remedy is an Early Termination fee that is calculated as the positive difference between the price under the Rate, less the 'price at resale', multiplied by the unused forecasted quantity for the remainder of the Term. Seller shall determine the unused forecasted quantity based on historic usage. The 'price at resale' is the price Seller determines in a commercially reasonable manner that it could resell the unused forecasted quantity, provided however Seller shall not be required to resell gas in order to determine such price. A Large Commercial Customer is defined as a non-residential retail customer of a natural gas utility that consumed more than 5,000 therms of natural gas during the previous year.
+8. Limitations: ALL NATURAL GAS SOLD HEREUNDER IS PROVIDED "AS IS", AND SELLER EXPRESSLY DISCLAIMS ALL OTHER WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTY OF MERCHANTABILITY OR FITNESS FOR PARTICULAR PURPOSE. IN NO EVENT WILL EITHER PARTY BE LIABLE UNDER THIS AGREEMENT, WHETHER IN CONTRACT, IN TORT (INCLUDING NEGLIGENCE AND STRICT LIABILITY), OR OTHERWISE, FOR INCIDENTAL, CONSEQUENTIAL, SPECIAL, OR PUNITIVE DAMAGES.
+9. Switching: If Buyer returns to the Utility, Buyer may not be served under the same rates, terms, and conditions that apply to other customers served by the Utility. Buyer acknowledges that it has made the decision to change suppliers from Buyer's current provider of natural gas supply to Seller. If Buyer is currently under contract with an alternative gas supplier, Buyer may incur fees from such supplier when service is established with Seller.
+10. Force Majeure: Except for Buyer's obligation to pay Seller timely, neither Party shall be liable to the other for failure to perform an obligation if such failure was caused by any event beyond the reasonable control of the non-performing party, that could not be remedied by the exercise of due diligence and that was not reasonably foreseeable, including without limitation, acts of God, interruption of utility service, terrorist acts or wars, or force majeure events of the Utility. Seller may return Buyer to Utility service upon notification of a Force Majeure event preventing performance.
+11. Questions, Complaints and Concerns: Buyer may contact Seller by calling 1-877-377-7297, at Seller's website www.constellation.com, or by writing to 20 N Wacker Drive, Suite 2100, Chicago, IL 60661, ATTN: Customer Service. For issues concerning this Agreement, Seller will attempt to resolve the matter within 5 business days after receiving the call or letter. If Buyer is not satisfied with the response, or to obtain consumer education materials, Buyer can contact the Illinois Commerce Commission's Consumer Services Division at 1-800-524-0795 or 1-800-858-9277 for TTYTDD hearingimpaired customers or visit the Illinois Commerce Commission's website at www.icc.illinois.gov. Buyer should contact the Utility in the event of a natural gas emergency. Buyer may contact its utility by calling the appropriate number listed next to each utility: Nicor Gas 1-888-642-6748; Peoples Gas 1-866-556-6001; North Shore Gas 1-866-556-6004.
+12. Miscellaneous: This Agreement shall be governed by and construed in accordance with the laws of the State of Illinois. Subject to regulatory approvals and notice from Seller, Seller may assign this Agreement without Buyer's consent. Buyer may assign this Agreement only with Seller's consent. This Agreement (including Rate choices and account information provided during enrollment) constitutes the entire agreement between the Parties, superseding all verbal and written understandings. This Agreement shall only be amended in a writing signed by both Parties and with notice from Seller for a renewal term as described under Renewal. The undersigned warrants that he or she is authorized to enter into this Agreement on behalf of Buyer.
+
+# ENROLLMENT FORM 
+
+This Enrollment Form forms a part of and is attached to the Natural Gas Agreement Terms and Conditions (Letter of Agency).
+Buyer's Name: Pangea Ventures LLC
+Buyer's DUNS \# (if applicable):
+![](images/img-0.jpeg)
+
+The image is a photo of a form related to a natural gas agreement. It contains several sections and checkboxes for different options.
+
+- **Service Address:** See Addendum
+- **City, State, Zip:** 
+- **Initial Term Rate Plan:**
+  - Fixed Rate
+  - Guaranteed Savings/Fixed Winter Rate
+  - Index Rate (Index Price + per therm)
+  - NYMEX Rate (NYMEX Price + 0.28 per therm)
+- **Specific Price:** $.028 per therm Fixed Rate
+- **Billing Address if different from Service Address:** 1010 S 2nd St Maywood, IL 60153
+- **Phone Number:** (847) 567-4248
+- **Fax Number:** 
+- **Utility:** 
+- **Initial Term:**
+  - Month to month
+  - 6 Months
+  - 12 Months (checked)
+  - 24 Months
+  - 36 Months
+- **Anticipated start month/year:** February 2017
+- **Utility Account Number:** See Addendum
+- **Utility Meter Number:**
+- **Date:** 1/5/2017
+
+There is a section titled "MULTIPLE ACCOUNT INFORMATION" with columns for Account Number and Meter Number, Service Address, and Billing Address (if different from Service).
+
+- **Account Number and Meter Number:** #2, #3, #4
+
+A checkbox is present with the text: "By checking this box, I request the Specific Price above that corresponds with my selected Rate Plan and understand that it may not be available to me. If that happens I will be informed that my enrollment is not successful."
+
+By checking this box, Buyer supplements the Accounts identified above with those listed on Attachment 1.
+IN WITNESS WHEREOF, Buyer has duly executed this Agreement on the date set forth below. By completing and signing below, Buyer requests to change its natural gas supplier to Constellation Energy Services - Natural Gas, LLC. I, Buyer, have read and agree to the terms and conditions (version \#100-ILWR-122016) You and Seller acknowledge and agree that this agreement is made in interstate commerce.
+
+Seller: Constellation Energy Services - Natural Gas, LLC
+
+Name:
+Title: Authorized Representative
+Date: $\qquad$
+![](images/img-1.jpeg)
+
+The image is a photo of a signed section of an enrollment form. It includes the following details:
+
+- **Buyer:** Pangea Ventures LLC
+- **Signature:** A handwritten signature is present.
+- **Name:** David Jaffee
+- **Title:** Director of Operations
+- **Date:** 1/5/17
+
+The text is handwritten and appears to be part of a formal agreement or contract.
+
+FOR CURRENT AGENT USE ONLY: Initials of current agent:
+
+![](images/img-2.jpeg)
+
+The image is a table containing multiple columns and rows. The columns are labeled as follows: 
+
+- "SendCity"
+- "SendState"
+- "SendZip"
+- "SendAddress"
+- "Customer Name"
+- "Commodity"
+- "LDC"
+- "LDC Dn/Meter"
+- "LDC Account"
+- "Firm/Interruptible"
+
+Each row contains data entries under these columns. The "SendCity" column lists "Chicago" repeatedly, the "SendState" column lists "IL," and the "SendZip" column contains various zip codes such as "60621," "60624," "60612," etc. The "SendAddress" column includes addresses like "7201 S Calumet Ave," "3800 W Franklin Blvd," "7101 S Artesian Ave," etc. The "Customer Name" column consistently lists "Peoples Energy Ventures LLC." The "Commodity" column lists "GAS," the "LDC" column lists "PGL," and the "Firm/Interruptible" column lists "Firm." The "LDC Dn/Meter" and "LDC Account" columns contain numerical identifiers such as "50008643712," "50006843975," "50006843589," etc. 
+
+The table is oriented vertically, with the text rotated 90 degrees counterclockwise.
+
+![](images/img-3.jpeg)
+
+The image is a table listing various addresses and associated information. Each row contains the following details:
+
+- City: "Chicago" is repeated in each row.
+- State: "IL" is repeated in each row.
+- Zip codes: A series of different zip codes such as 60649, 60653, 60628, etc.
+- Addresses: Various street addresses like "7801-11 S Yates Blvd," "1380 S Komensky Ave," "6235 S Ashland Ave," etc.
+- Type: "Choice" is repeated in each row.
+- Firm: "Firm" is repeated in each row.
+- Account numbers: A series of numbers such as 5006647598, 5007014438, 5000049419, etc.
+- Utility: "PGL" and "GAS" are repeated in each row.
+- Company: "Omega Ventures LLC" is repeated in each row.
+
+The table is organized in columns with each piece of information aligned vertically.
+
+![](images/img-4.jpeg)
+
+The image is a photo of a table containing multiple columns and rows of text. The table includes the following columns:
+
+1. **Address**: Contains street addresses in Chicago, such as "5901 S Michigan Ave" and "2235 E 71st St."
+2. **City**: All entries are "Chicago."
+3. **State**: All entries are "IL."
+4. **Zip Code**: Includes various zip codes like "60637," "60649," "60615," etc.
+5. **Choice**: All entries are labeled "Choice."
+6. **Firm**: All entries are labeled "Firm."
+7. **PGL**: All entries are labeled "PGL."
+8. **GAS**: All entries are labeled "GAS."
+9. **Company**: All entries are "Omega Ventures LLC."
+10. **ID Numbers**: Includes various numbers like "50009531116," "50007452319," "50009558614," etc.
+
+The table is organized with addresses on the left and corresponding data in columns to the right. The text is oriented vertically.
+
+![](images/img-5.jpeg)
+
+The image is a table with multiple columns and rows, displaying data related to addresses and associated details. The columns include:
+
+- Addresses: Various street addresses in Chicago, IL, such as "7745 S Loomis," "7245 S Yates Blvd," "13300 S Indiana," etc.
+- City and State: "Chicago, IL" is repeated for each address.
+- Company: "Omega Ventures LLC" is listed for each entry.
+- Type: Alternates between "GAS" and "PGL."
+- Status: Alternates between "Firm" and "Choice."
+- Numbers: A series of numbers, such as "50007548014," "50004419713," "50008754008," etc.
+
+The table is oriented vertically, with the text rotated 90 degrees counterclockwise.
+
+![](images/img-6.jpeg)
+
+The image is a table with multiple columns and rows. The columns contain the following headers and data:
+
+1. **Column 1:**
+   - "60629", "60617", "60619", "60651", "60639", "60619", "60619", "60619", "60615", "60615", "60644", "60623", "60639", "60617", "60644"
+
+2. **Column 2:**
+   - "Chicago", repeated for each row.
+
+3. **Column 3:**
+   - Addresses such as "8149-51 S Mansfield Ave", "2400 S Yates Blvd", "2095 Rockwell Ave", etc.
+
+4. **Column 4:**
+   - "Choice", repeated for each row.
+
+5. **Column 5:**
+   - "Firm", repeated for each row.
+
+6. **Column 6:**
+   - Numbers like "500067853393", "500063191872", "500068153194", etc.
+
+7. **Column 7:**
+   - "PGL", repeated for each row.
+
+8. **Column 8:**
+   - "GAS", repeated for each row.
+
+9. **Column 9:**
+   - "Pangea Ventures LLC", repeated for each row.
+
+The table is organized with each row representing a different entry, and the columns are aligned vertically. The text is oriented vertically, requiring rotation to read normally.
+
+| Pangea Ventures LLC | GAS | PGL | 9500065677342 | Firm | Choice | 7850 S Constance Ave | Chicago | IL | 60617 |
+| :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: | :--: |
+| Pangea Ventures LLC | GAS | PGL | 9500058475538 | Firm | Choice | 7151-53 S Indiana Ave | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 500059133040 | Firm | Choice | 211-17 E 71st | Chicago | IL | 60623 |
+| Pangea Ventures LLC | GAS | PGL | 9500058463346 | Firm | Choice | 8231-37 S Ellis Ave | Chicago | IL | 60615 |
+| Pangea Ventures LLC | GAS | PGL | 500072405047 | Firm | Choice | 1236 S Lawndale Ave | Chicago | IL | 60644 |
+| Pangea Ventures LLC | GAS | PGL | 500069041530 | Firm | Choice | 5018 W Jackson Blvd | Chicago | IL | 60644 |
+| Pangea Ventures LLC | GAS | PGL | 500064701962 | Firm | Choice | 1734 W 87th St | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 9500060188724 | Firm | Choice | 9244 S Saginaw | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 500066113679 | Firm | Choice | 8308 S Ingleside Ave | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 500067983511 | Firm | Choice | 1101 N Lawler Ave | Chicago | IL | 60623 |
+| Pangea Ventures LLC | GAS | PGL | 500071577792 | Firm | Choice | 8100 S Throop St | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 500067983188 | Firm | Choice | 8806 S Cottage Grove Ave | Chicago | IL | 60617 |
+| Pangea Ventures LLC | GAS | PGL | 500071237013 | Firm | Choice | 8640 S Ingleside Ave | Chicago | IL | 60620 |
+| Pangea Ventures LLC | GAS | PGL | 500065028769 | Firm | Choice | 11250-56 S Indiana Ave | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 2500058122765 | Firm | Choice | 5800 W Iowa St | Chicago | IL | 60620 |
+| Pangea Ventures LLC | GAS | PGL | 500069041437 | Firm | Choice | 5007 W Jackson Blvd | Chicago | IL | 60637 |
+| Pangea Ventures LLC | GAS | PGL | 500069041511 | Firm | Choice | 5015 W Jackson Blvd | Chicago | IL | 60637 |
+| Pangea Ventures LLC | GAS | PGL | 9500059213616 | Firm | Choice | 7120 S East End | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 9500060651595 | Firm | Choice | 7834 S Coles | Chicago | IL | 60619 |
+| Pangea Ventures LLC | GAS | PGL | 500069041475 | Firm | Choice | 5012 W Jackson Blvd | Chicago | IL | 60615 |
+| Pangea Ventures LLC | GAS | PGL | 500065211604 | Firm | Choice | 8238 S Ellis Ave | Chicago | IL | 60636 |
+| Pangea Ventures LLC | GAS | PGL | 500057309875 | Firm | Choice | 6743 S Oglesby | Chicago | IL | 60615 |
+| Pangea Ventures LLC | GAS | PGL | 500069041545 | Firm | Choice | 5019 W Jackson Blvd | Chicago | IL | 60619 |
+| Pangea Ventures LLC | GAS | PGL | 500058436172 | Firm | Choice | 722 S Racine | Chicago | IL | 60615 |
+| Pangea Ventures LLC | GAS | PGL | 500062997180 | Firm | Choice | 6306 S Artesian | Chicago | IL | 60637 |
+| Pangea Ventures LLC | GAS | PGL | 3500058529964 | Firm | Choice | 7949 S Winchester Ave | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 500066932566 | Firm | Choice | 8014 S Maryland Ave | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 9500065809888 | Firm | Choice | 7916 S Drexel Ave | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 9500058230372 | Firm | Choice | 7358 S Blackstone Ave | Chicago | IL | 60619 |
+| Pangea Ventures LLC | GAS | PGL | 500073664060 | Firm | Choice | 2207 E 75th St | Chicago | IL | 60639 |
+| Pangea Ventures LLC | GAS | PGL | 500071577504 | Firm | Choice | 4901 S Drexel Blvd | Chicago | IL | 60620 |
+| Pangea Ventures LLC | GAS | PGL | 8500053772999 | Firm | Choice | 8100-04 S Marshfield | Chicago | IL | 60637 |
+| Pangea Ventures LLC | GAS | PGL | 1500062768426 | Firm | Choice | 2225 E 87th St | Chicago | IL | 60623 |
+| Pangea Ventures LLC | GAS | PGL | 9500058463421 | Firm | Choice | 8231-37 S Ellis Ave | Chicago | IL | 60649 |
+| Pangea Ventures LLC | GAS | PGL | 500061375022 | Firm | Choice | 7903 S Luella Ave | Chicago | IL | 60629 |
+| Pangea Ventures LLC | GAS | PGL | 500064346831 | Firm | Choice | 2826 E 76th PI | Chicago | IL | 60615 |
+| Pangea Ventures LLC | GAS | PGL | 9500058408253 | Firm | Choice | 741-53 E 79th St | Chicago | IL | 60636 |
+| Pangea Ventures LLC | GAS | PGL | 500067870501 | Firm | Choice | 4750 S Calumet Ave | Chicago | IL | 60615 |
+
+![](images/img-7.jpeg)
+
+The image is a photo or illustration of a table with multiple columns and rows. The table contains the following information:
+
+- **Columns** (from left to right):
+  - "Pangea Ventures LLC"
+  - "GAS"
+  - "Firm"
+  - A series of numbers (e.g., "50002939059", "50001984027", etc.)
+  - "Choice"
+  - Addresses (e.g., "1701 S May", "4114 W Washington Blvd", etc.)
+  - "Chicago"
+  - "IL"
+  - ZIP codes (e.g., "60623", "60619", etc.)
+
+- **Rows**:
+  - Each row contains a combination of the above information, with each piece of data aligned vertically under its respective column heading.
+
+The table appears to list properties or locations associated with "Pangea Ventures LLC" in Chicago, IL, with details such as address, ZIP code, and some form of identification numbers.
+
+![](images/img-8.jpeg)
+
+The image is a table containing multiple columns and rows with the following information:
+
+- **Columns**: The table includes columns for addresses, cities, states, ZIP codes, company names, utility types, and some numerical codes.
+- **Addresses**: Examples include "1815 W 77th St," "7625 S Maybell St," "6041 S Maplewood Ave," etc.
+- **Cities**: All entries are "Chicago."
+- **States**: All entries are "IL."
+- **ZIP Codes**: Examples include "60620," "60629," "60623," etc.
+- **Company Names**: All entries are "Pangea Ventures LLC."
+- **Utility Types**: Alternating entries of "GAS" and "PGL."
+- **Codes**: Examples include "250005810987," "50009339097," "50008732912," etc.
+- **Choice/Firm**: Alternating entries of "Choice" and "Firm."
+
+The table is organized with each row representing a different entry, and the columns are aligned vertically.
+
+![](images/img-9.jpeg)
+
+The image is a table containing multiple columns and rows with text. The columns include information such as addresses, city, state, and ZIP codes. The data appears to be organized as follows:
+
+- The first row contains ZIP codes, all of which are in Chicago, IL.
+- The second row lists addresses, such as "8001 S May St" and "7057 S Princeton Ave."
+- The third row repeats "Chicago" for each entry.
+- The fourth row lists "IL" for Illinois.
+- The fifth row contains ZIP codes like "60619" and "60621."
+- The sixth row contains the word "Choice" or "Firm."
+- The seventh row contains numbers, possibly IDs, such as "50007101331" and "50006313108."
+- The eighth row contains "PGL" or "GAS."
+- The ninth row lists "Pangea Ventures LLC."
+
+The table is organized with each entry aligned vertically under these categories.
+
+![](images/img-10.jpeg)
+
+The image is a table listing various addresses and associated details. The columns include:
+
+- A series of numbers (possibly IDs) such as "500069209484", "500058190744", etc.
+- The word "Firm" repeated in each row.
+- The word "Choice" repeated in each row.
+- Company names, specifically "Pangea Ventures LLC" repeated in each row.
+- Utility types, alternating between "GAS" and "PGL".
+- Addresses in Chicago, IL, such as "6829 S King Dr", "4901 S Drexel Blvd", "7955 S Dobson Ave", etc.
+- Zip codes like "60649", "60615", "60637", etc.
+
+The table is organized with each row containing a unique ID, followed by consistent entries for the other columns. The addresses are all located in Chicago, Illinois.
+
+![](images/img-11.jpeg)
+
+The image is a photo of a table with multiple columns and rows. The table contains the following text:
+
+- Columns include headings like "Choice," "Firm," "GAS," "PGL," and "Chicago."
+- Rows contain data such as addresses, company names, and numerical codes.
+- Some specific entries include:
+  - "Range Ventures LLC"
+  - "500067153325"
+  - "60649"
+  - "Chicago"
+  - "IL"
+  - "7801 S Indiana"
+  - "Choice"
+  - "Firm"
+  - "GAS"
+  - "PGL"
+
+The table is organized with each column containing specific types of information, such as addresses, company names, and codes. The text is oriented vertically.
+

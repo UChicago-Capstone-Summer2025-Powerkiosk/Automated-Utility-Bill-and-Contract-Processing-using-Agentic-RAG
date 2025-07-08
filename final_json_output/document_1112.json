@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1112",
+  "contractStart": "2024-10-01",
+  "contractEnd": "2025-09-30",
+  "usageHistory": {
+    "2024-10": 210265.61666666667,
+    "2024-11": 210265.61666666667,
+    "2024-12": 210265.61666666667,
+    "2025-01": 210265.61666666667,
+    "2025-02": 210265.61666666667,
+    "2025-03": 210265.61666666667,
+    "2025-04": 210265.61666666667,
+    "2025-05": 210265.61666666667,
+    "2025-06": 210265.61666666667,
+    "2025-07": 210265.61666666667,
+    "2025-08": 210265.61666666667,
+    "2025-09": 210265.61666666667
+  },
+  "locations": [
+    {
+      "serviceAddress": "Airport Service Road, Portsmouth, Hampshire, PO3 5PJ",
+      "accountNumber": "60074388",
+      "meterNumber": "2000027400493"
+    },
+    {
+      "serviceAddress": "Airport Service Road, Portsmouth, Hampshire, PO3 5PJ",
+      "accountNumber": "60074388",
+      "meterNumber": "2000027400703"
+    }
+  ]
+}

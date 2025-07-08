@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1163",
+  "statementDate": "05/01/2023",
+  "usageHistory": {
+    "2022-05": 43,
+    "2022-06": 0,
+    "2022-07": 0,
+    "2022-08": 0,
+    "2022-09": 0,
+    "2022-10": 0,
+    "2022-11": 8,
+    "2022-12": 48,
+    "2023-01": 75,
+    "2023-02": 50,
+    "2023-03": 22,
+    "2023-04": 27,
+    "2023-05": 14
+  },
+  "locations": [
+    {
+      "serviceAddress": "1501 N Ironwood Dr South Bend IN 46635-1841",
+      "accountNumber": "188-630-003-5",
+      "meterNumber": "903060"
+    },
+    {
+      "serviceAddress": "210 Easy Shopping E1khart IN 463/6-3397",
+      "meterNumber": "903060"
+    }
+  ],
+  "totalUsage": 14.4
+}

@@ -1,0 +1,65 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_30",
+  "statementDate": "December 21, 2020",
+  "totalUsage": "NOT_FOUND",
+  "usageHistory": {
+    "2020-11": {
+      "gas": 25413,
+      "electric": 25413,
+      "other": 3180
+    },
+    "2020-12": {
+      "gas": 30752,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-01": {
+      "gas": 37173,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-02": {
+      "gas": 33959,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-03": {
+      "gas": 28599,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-04": {
+      "gas": 23369,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-05": {
+      "gas": 25181,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-06": {
+      "gas": 23369,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-07": {
+      "gas": 17715,
+      "electric": 1500,
+      "other": 3180
+    },
+    "2021-08": {
+      "gas": 18586,
+      "electric": 1500,
+      "other": 3180
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "1500 W POPLAR AV",
+      "accountNumber": "00048-2168-1455-626",
+      "meterNumber": null
+    }
+  ]
+}

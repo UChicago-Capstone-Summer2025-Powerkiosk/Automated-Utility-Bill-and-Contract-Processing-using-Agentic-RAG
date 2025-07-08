@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_70",
+  "statementDate": "March 06, 2023",
+  "usageHistory": {
+    "2022-02": 127623,
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": null,
+    "2022-10": null,
+    "2022-11": null,
+    "2022-12": null,
+    "2023-01": null,
+    "2023-02": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "4701 STELTON RD, SOUTH PLAINFIELD BORO NJ 07080-1105",
+      "accountNumber": "4210456004",
+      "meterNumber": "9213739"
+    }
+  ],
+  "totalUsage": 127623
+}

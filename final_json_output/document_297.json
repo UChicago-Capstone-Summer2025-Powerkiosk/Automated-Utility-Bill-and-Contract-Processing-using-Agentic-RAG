@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_297",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2022-12": 27,
+    "2023-01": 28,
+    "2023-02": 27,
+    "2023-03": 23,
+    "2023-04": 20,
+    "2023-05": 18,
+    "2023-06": 17,
+    "2023-07": 17,
+    "2023-08": 18,
+    "2023-09": 19,
+    "2023-10": 21,
+    "2023-11": 23,
+    "2023-12": 28
+  },
+  "locations": [
+    {
+      "serviceAddress": "901 FARMINGTON AVE, BERLIN OT 06037",
+      "accountNumber": "51554719021",
+      "meterNumber": "034289752"
+    }
+  ],
+  "totalUsage": 837
+}

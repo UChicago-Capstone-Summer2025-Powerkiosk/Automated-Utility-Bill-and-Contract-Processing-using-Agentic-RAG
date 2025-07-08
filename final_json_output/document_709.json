@@ -1,0 +1,19 @@
+{
+  "documentType": "contract",
+  "documentId": "document_709",
+  "contractStart": "2019-11-21",
+  "contractEnd": "2023-11-19",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2820 E COLLEGE AVE, STATE COLLEGE, PA 168017515",
+      "accountNumber": "08055228570007190056",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2820 E COLLEGE AVE, STATE COLLEGE, PA 168017515",
+      "accountNumber": "08055228570007190090",
+      "meterNumber": null
+    }
+  ]
+}

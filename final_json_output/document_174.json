@@ -1,0 +1,26 @@
+{
+  "documentType": "contract",
+  "documentId": "document_174",
+  "contractStart": "2022-12-01",
+  "contractEnd": "2022-12-31",
+  "usageHistory": {
+    "2022-12": 8001
+  },
+  "locations": [
+    {
+      "serviceAddress": "4800 E. Johnson Ave, Jonesboro, AR",
+      "accountNumber": "103805974",
+      "meterNumber": "12449"
+    },
+    {
+      "serviceAddress": "4808 E. Johnson Ave, Jonesboro, AR",
+      "accountNumber": "103806113",
+      "meterNumber": "15687"
+    },
+    {
+      "serviceAddress": "4800 E. Johnson Ave, Jonesboro, AR",
+      "accountNumber": "103806220",
+      "meterNumber": "15686"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_101",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-10": 889500,
+    "2022-09": 1012500,
+    "2022-08": 1012500,
+    "2022-07": 1012500,
+    "2022-06": 1125000,
+    "2022-05": 1012500,
+    "2022-04": 937500,
+    "2022-03": 937500,
+    "2022-02": 812500,
+    "2022-01": 812500,
+    "2021-12": 812500,
+    "2021-11": 812500
+  },
+  "locations": [
+    {
+      "serviceAddress": "78 CHERRY HILL DR, BEVERLY, MA 01915-1065",
+      "accountNumber": "7138414",
+      "meterNumber": "01"
+    }
+  ],
+  "totalUsage": 889500
+}

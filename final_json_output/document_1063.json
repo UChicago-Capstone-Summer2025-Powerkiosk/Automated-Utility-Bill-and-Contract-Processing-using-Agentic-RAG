@@ -1,0 +1,33 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1063",
+  "contractStart": "2023-05-01",
+  "contractEnd": "2025-05-01",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "524 Lansing St, Charlotte, MI 48813",
+      "billingAddress": null,
+      "accountNumber": "0000004748023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2530 S State Rd, lonia, MI 48846",
+      "billingAddress": null,
+      "accountNumber": "0000003831547",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6500 N Newburgh Rd, Westland, MI 48185",
+      "billingAddress": null,
+      "accountNumber": "0000003539314",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1600 W Green St, Hastings, MI 49058",
+      "billingAddress": null,
+      "accountNumber": "0000004866302",
+      "meterNumber": null
+    }
+  ]
+}

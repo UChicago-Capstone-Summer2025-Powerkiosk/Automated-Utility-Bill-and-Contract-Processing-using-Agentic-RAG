@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1135",
+  "statementDate": "2023-04-21",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "IS01 N Ironwood Dr South Bend IN 46635-1841",
+      "accountNumber": "476-035-009-2",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

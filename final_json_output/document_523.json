@@ -1,0 +1,69 @@
+{
+  "documentType": "contract",
+  "documentId": "document_523",
+  "contractStart": "2022-11-01",
+  "contractEnd": "2024-10-31",
+  "usageHistory": {
+    "2022-11": 4320,
+    "2022-12": 4845,
+    "2023-01": 5428,
+    "2023-02": 4962,
+    "2023-03": 4674,
+    "2023-04": 3699,
+    "2023-05": 2863,
+    "2023-06": 2284,
+    "2023-07": 2182,
+    "2023-08": 2227,
+    "2023-09": 2356,
+    "2023-10": 3061,
+    "2023-11": 4320,
+    "2023-12": 4845,
+    "2024-01": 5428,
+    "2024-02": 4962,
+    "2024-03": 4674,
+    "2024-04": 3699,
+    "2024-05": 2863,
+    "2024-06": 2284,
+    "2024-07": 2182,
+    "2024-08": 2227,
+    "2024-09": 2356,
+    "2024-10": 3061
+  },
+  "locations": [
+    {
+      "serviceAddress": "96 Garland St.",
+      "accountNumber": "4413043511",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "96 Garland St.",
+      "accountNumber": "4413043541",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "195 Canal St",
+      "accountNumber": "4444830941",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "103 Garland St.",
+      "accountNumber": "4413043580",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "103 Garland St.",
+      "accountNumber": "4413043601",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "300 Broadway",
+      "accountNumber": "4426418820",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5 Middlesex Ave",
+      "accountNumber": "4425212111",
+      "meterNumber": null
+    }
+  ]
+}

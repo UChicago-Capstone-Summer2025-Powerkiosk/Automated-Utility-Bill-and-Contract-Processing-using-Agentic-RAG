@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1016",
+  "statementDate": "2020-11-24",
+  "usageHistory": {
+    "2019-11": 47760,
+    "2019-12": 90000,
+    "2020-01": 81370,
+    "2020-02": 81370,
+    "2020-03": 81370,
+    "2020-04": 90000,
+    "2020-05": 100000,
+    "2020-06": 81370,
+    "2020-07": 81370,
+    "2020-08": 81370,
+    "2020-09": 81370,
+    "2020-10": 81370,
+    "2020-11": 97320
+  },
+  "locations": [
+    {
+      "serviceAddress": "11490 MOSTELLER RD, CINCINNATI OH 45241",
+      "accountNumber": "3500-2122-02-0",
+      "meterNumber": "108105546"
+    },
+    {
+      "serviceAddress": "11550 MOSTERLLAR RD, SHARONVILLE, OH 45241",
+      "accountNumber": "3500-2122-02-0",
+      "meterNumber": "320433291"
+    }
+  ],
+  "totalUsage": 976440
+}

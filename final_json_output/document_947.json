@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_947",
+  "statementDate": "2022-12-13",
+  "totalUsage": 1023.7419,
+  "usageHistory": {
+    "2021-12": 675,
+    "2022-01": 900,
+    "2022-02": 900,
+    "2022-03": 900,
+    "2022-04": 675,
+    "2022-05": 450,
+    "2022-06": 675,
+    "2022-07": 450,
+    "2022-08": 450,
+    "2022-09": 450,
+    "2022-10": 450,
+    "2022-11": 675,
+    "2022-12": 900
+  },
+  "locations": [
+    {
+      "serviceAddress": "2045 W EL CAMINO REAL MOUNTAIN VIEW, CA 94040",
+      "accountNumber": "7297096280-8",
+      "meterNumber": "1006747607"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_939",
+  "statementDate": "11/30/2022",
+  "usageHistory": {
+    "2022-10": 32.181818,
+    "2022-11": 321.818182
+  },
+  "locations": [
+    {
+      "serviceAddress": "3500 EL CAMINO REAL",
+      "accountNumber": "1304695005",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 354.0
+}

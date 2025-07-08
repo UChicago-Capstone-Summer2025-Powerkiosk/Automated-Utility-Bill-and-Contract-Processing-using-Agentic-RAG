@@ -1,0 +1,30 @@
+{
+  "documentType": "contract",
+  "documentId": "document_794",
+  "contractStart": "May 2016",
+  "contractEnd": "April 2017",
+  "usageHistory": {
+    "2016-05": 258786.67,
+    "2016-06": 258786.67,
+    "2016-07": 258786.67,
+    "2016-08": 258786.67,
+    "2016-09": 258786.67,
+    "2016-10": 258786.67,
+    "2016-11": 258786.67,
+    "2016-12": 258786.67,
+    "2017-01": 258786.67,
+    "2017-02": 258786.67,
+    "2017-03": 258786.67,
+    "2017-04": 258786.67
+  },
+  "locations": [
+    {
+      "serviceStreetAddress": "360 Heath Street",
+      "city": "Chestnut Hill",
+      "state": "MA",
+      "zipCode": "02467",
+      "accountNumber": "25984931003",
+      "meterNumber": null
+    }
+  ]
+}

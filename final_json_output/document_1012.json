@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1012",
+  "statementDate": "NOV 23, 2023",
+  "usageHistory": {
+    "2023-06": 3000,
+    "2023-07": 3200,
+    "2023-08": 3500,
+    "2023-09": 3000,
+    "2023-10": 3500,
+    "2023-11": 4000
+  },
+  "locations": [
+    {
+      "serviceAddress": "PO BOX 917, SPRING HOUSE PA 19477-0917",
+      "accountNumber": "0852991318",
+      "meterNumber": "02027587"
+    }
+  ],
+  "totalUsage": 3690
+}

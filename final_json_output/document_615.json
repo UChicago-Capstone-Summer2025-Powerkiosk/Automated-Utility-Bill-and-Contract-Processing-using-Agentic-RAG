@@ -1,0 +1,39 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_615",
+  "statementDate": "20/01/2022",
+  "totalUsage": 353951.84,
+  "usageHistory": {
+    "2022-01": 353951.84,
+    "2021-12": 309767.77
+  },
+  "locations": [
+    {
+      "billingAddress": {
+        "name": "Standard Aero Components",
+        "addressLine1": "Ireland Ltd",
+        "addressLine2": "Carrigtwohill Ind Est 2 Carrigtwohill",
+        "city": "Cork",
+        "county": "Co Cork"
+      },
+      "supplyAddress": {
+        "addressLine1": "Gas Address",
+        "addressLine2": "2 Sifco Carrigtwohill Ind Est",
+        "city": "Carrigtwohill",
+        "county": "County Cork",
+        "postalCode": "T45 VA06"
+      },
+      "accountNumber": "2609465",
+      "meterNumber": "GB000239785"
+    },
+    {
+      "supplyAddress": {
+        "addressLine1": "IDA INDUSTRIAL ESTATE",
+        "city": "CARRIGTWOHILL",
+        "county": "CO. CORK",
+        "postalCode": "T45 VA06"
+      },
+      "accountNumber": "210045051"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "documentType": "contract",
+  "documentId": "document_603",
+  "contractStart": "2025-01-01",
+  "contractEnd": "2026-01-01",
+  "usageHistory": {
+    "2025-01": 296,
+    "2025-02": 296,
+    "2025-03": 296,
+    "2025-04": 296,
+    "2025-05": 296,
+    "2025-06": 296,
+    "2025-07": 296,
+    "2025-08": 296,
+    "2025-09": 296,
+    "2025-10": 296,
+    "2025-11": 296,
+    "2025-12": 296
+  },
+  "locations": [
+    {
+      "serviceAddress": "537 Pavonia Ave., Jersey City, NJ, 073061803, US",
+      "accountNumber": "PE000008913350866006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "114 Lembeck Ave., Jersey City, NJ, 07305, US",
+      "accountNumber": "PE000009507485298638",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "196 Old Bergen Rd., Jersey City, NJ, 07305, US",
+      "accountNumber": "PE000010106494753860",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "553 Pavonia Ave., Site LTG., Jersey City, NJ, 07306, US",
+      "accountNumber": "PE000010374008078561",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "198 Old Bergen Rd., Jersey City, NJ, 07305, US",
+      "accountNumber": "PE000011942206104246",
+      "meterNumber": null
+    }
+  ]
+}

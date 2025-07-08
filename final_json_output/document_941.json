@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_941",
+  "statementDate": "12/29/2022",
+  "totalUsage": 550.0861,
+  "usageHistory": {
+    "2022-11": 550.0861
+  },
+  "locations": [
+    {
+      "serviceAddress": "400 E REMINGTON DR, SUNNYVALE, CA 94087",
+      "accountNumber": "4134614394-8",
+      "meterNumber": "1010111635"
+    }
+  ]
+}

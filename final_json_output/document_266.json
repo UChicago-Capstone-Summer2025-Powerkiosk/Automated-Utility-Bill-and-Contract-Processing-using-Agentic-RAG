@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_266",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 257,
+    "2024-01": 219,
+    "2024-02": 134,
+    "2024-03": 164,
+    "2024-04": 169,
+    "2024-05": 203,
+    "2024-06": 261,
+    "2024-07": 261,
+    "2024-08": 302,
+    "2024-09": 29,
+    "2024-10": 8,
+    "2024-11": 28,
+    "2024-12": 60
+  },
+  "locations": [
+    {
+      "serviceAddress": "2619 WILBUR GROSS RWY, BERLIN OT 06037",
+      "accountNumber": "51460223076",
+      "meterNumber": "892445602"
+    }
+  ],
+  "totalUsage": 60
+}

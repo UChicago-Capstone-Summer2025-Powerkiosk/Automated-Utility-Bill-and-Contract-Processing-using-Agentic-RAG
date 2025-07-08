@@ -1,0 +1,13 @@
+{
+  "documentType": "contract",
+  "documentId": "document_559",
+  "contractStart": "2020-07-01",
+  "contractEnd": "2023-06-30",
+  "locations": [
+    {
+      "serviceAddress": "1700 Jerome Lane, Cahokia, IL 62206",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

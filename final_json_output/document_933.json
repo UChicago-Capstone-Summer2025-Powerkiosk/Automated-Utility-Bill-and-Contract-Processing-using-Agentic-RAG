@@ -1,0 +1,48 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_933",
+  "statementDate": "11/23/2022",
+  "usageHistory": {
+    "2021-11": 787.95,
+    "2021-12": 849.2,
+    "2022-01": 849.2,
+    "2022-02": 849.2,
+    "2022-03": 849.2,
+    "2022-04": 849.2,
+    "2022-05": 849.2,
+    "2022-06": 849.2,
+    "2022-07": 849.2,
+    "2022-08": 849.2,
+    "2022-09": 849.2,
+    "2022-10": 849.2,
+    "2022-11": 849.2
+  },
+  "locations": [
+    {
+      "serviceAddress": "1590 SOUTHWEST EXPY, SAN JOSE, CA 95128",
+      "accountNumber": "7451834330-1",
+      "meterNumber": "60450844"
+    },
+    {
+      "serviceAddress": "1540 SOUTHWEST EXPY, SAN JOSE, CA 95128",
+      "accountNumber": "1454215552-9",
+      "meterNumber": "60523735"
+    },
+    {
+      "serviceAddress": "1520 SOUTHWEST EXPY, SAN JOSE, CA 95126",
+      "accountNumber": "8839650392-7",
+      "meterNumber": "61722484"
+    },
+    {
+      "serviceAddress": "1530 SOUTHWEST EXPY, SAN JOSE, CA 95126",
+      "accountNumber": "7436376126-8",
+      "meterNumber": "61971446"
+    },
+    {
+      "serviceAddress": "1560 SOUTHWEST EXPY, SAN JOSE, CA 95128",
+      "accountNumber": "1160623098-2",
+      "meterNumber": "60514494"
+    }
+  ],
+  "totalUsage": 314.0
+}

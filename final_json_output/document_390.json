@@ -1,0 +1,25 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_390",
+  "statementDate": "01/02/2025",
+  "usageHistory": {
+    "2024-12": 491126.192
+  },
+  "locations": [
+    {
+      "serviceAddress": "1210 S INDIANA AVE BLDG CHICAGO, IL 60605",
+      "accountNumber": "7731277948",
+      "meterNumbers": [
+        "230345691",
+        "230323086",
+        "230323077",
+        "230323076",
+        "230323030",
+        "230322839",
+        "230322838",
+        "230321181"
+      ]
+    }
+  ],
+  "totalUsage": 491126.192
+}

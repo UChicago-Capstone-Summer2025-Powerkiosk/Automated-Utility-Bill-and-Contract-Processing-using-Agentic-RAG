@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_696",
+  "statementDate": "07/22/2019",
+  "usageHistory": {
+    "2019-01": 1122,
+    "2019-02": 36605,
+    "2019-03": 30780,
+    "2019-04": 31079,
+    "2019-05": 29463,
+    "2019-06": 20027
+  },
+  "locations": [
+    {
+      "serviceAddress": "701 OAK ST, ELEC, EVANSVILLE, IL 62242",
+      "accountNumber": "6814625771",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 667.57
+}

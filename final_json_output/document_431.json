@@ -1,0 +1,15 @@
+{
+  "documentType": "contract",
+  "documentId": "document_431",
+  "contractStart": "2020-02",
+  "contractEnd": "2023-02",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "180 Remsen Street Brooklyn Heights, NY 11201",
+      "billingAddress": "180 Remsen Street Brooklyn Heights, NY 11201",
+      "accountNumber": "696041301000017",
+      "meterNumber": null
+    }
+  ]
+}

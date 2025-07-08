@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_741",
+  "statementDate": "08/19/2022",
+  "totalUsage": 1155,
+  "usageHistory": {
+    "2022-07": 1155
+  },
+  "locations": [
+    {
+      "serviceAddress": "18475 W COLFAX AVE, GOLDEN, CO 80401",
+      "accountNumber": "53-0013837951-9",
+      "meterNumber": "10020959"
+    },
+    {
+      "serviceAddress": "18475 W COLFAX AVE UNIT 140, LAKEWOOD, CO 80401-4840",
+      "accountNumber": "53-0013831980-2",
+      "meterNumber": "10201392"
+    }
+  ]
+}

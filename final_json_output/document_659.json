@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_659",
+  "statementDate": "01/10/2017",
+  "totalUsage": 91265.0,
+  "usageHistory": {
+    "2016-01": 8402,
+    "2016-02": 8643,
+    "2016-03": 9147,
+    "2016-04": 8402,
+    "2016-05": 8643,
+    "2016-06": 9147,
+    "2016-07": 8402,
+    "2016-08": 8643,
+    "2016-09": 9147,
+    "2016-10": 8402,
+    "2016-11": 8643,
+    "2016-12": 9147
+  },
+  "locations": [
+    {
+      "serviceAddress": "4625 BROADWAY ST, QUINCY, IL 62301",
+      "accountNumber": "1623008626",
+      "meterNumber": "72021180"
+    }
+  ]
+}

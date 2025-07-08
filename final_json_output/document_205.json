@@ -1,0 +1,24 @@
+{
+  "documentType": "contract",
+  "documentId": "document_205",
+  "contractStart": "2020-05-01",
+  "contractEnd": "2022-05-01",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "SOUTH BEND ST",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "PINE ST",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "MAPLE AVE",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

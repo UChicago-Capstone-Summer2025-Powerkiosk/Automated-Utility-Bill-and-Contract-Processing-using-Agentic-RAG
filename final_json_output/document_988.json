@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_988",
+  "statementDate": "08/30/24",
+  "usageHistory": {
+    "2023-12": 4139,
+    "2024-01": 4761,
+    "2024-02": 4716,
+    "2024-03": 31536,
+    "2024-04": 27715,
+    "2024-05": 27680,
+    "2024-07": 27679,
+    "2024-08": 27684
+  },
+  "locations": [
+    {
+      "serviceAddress": "12 LAIIT FAIIM HID MILLBURY MA 01527",
+      "accountNumber": "73002442157",
+      "meterNumber": "0007789"
+    },
+    {
+      "serviceAddress": "12 LAIIT FAIIM HU MILLBURY MA 01527",
+      "accountNumber": "73002442157",
+      "meterNumber": "0007789"
+    }
+  ],
+  "totalUsage": 27684
+}

@@ -1,0 +1,81 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_558",
+  "statementDate": "May 18, 2020",
+  "totalUsage": 33308.0,
+  "usageHistory": {
+    "2020-04": 33308.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "1700 Jerome Ln, East Saint Louis, IL 62206",
+      "accountNumber": "11557-01110",
+      "meterNumber": "72790115"
+    },
+    {
+      "serviceAddress": "1010 Jerome Ln, East Saint Louis, IL 62206",
+      "accountNumber": "04110-09616",
+      "meterNumber": "72388977"
+    },
+    {
+      "serviceAddress": "1014 Jerome Ln, East Saint Louis, IL 62206",
+      "accountNumber": "06557-00111",
+      "meterNumber": "72390144"
+    },
+    {
+      "serviceAddress": "600 Saint Robert Dr, Siren, Cahokia, IL 62206",
+      "accountNumber": "21066-01112",
+      "meterNumber": "72388714"
+    },
+    {
+      "serviceAddress": "913 Rome Ln, Cahokia, IL 62206",
+      "accountNumber": "29617-17112",
+      "meterNumber": "72415941"
+    },
+    {
+      "serviceAddress": "6702 Bond Ave, Cahokia, IL 62206",
+      "accountNumber": "89598-04111",
+      "meterNumber": "72415817"
+    },
+    {
+      "serviceAddress": "1800 Jerome Ln, East Saint Louis, IL 62207",
+      "accountNumber": "95617-17127",
+      "meterNumber": "72416756"
+    },
+    {
+      "serviceAddress": "600 Jerome Ln, Lighting, Cahokia, IL 62206",
+      "accountNumber": "7031-12000",
+      "meterNumber": "72388958"
+    },
+    {
+      "serviceAddress": "1401 Morning Star Dr Bldg, Cahokia, IL 62206",
+      "accountNumber": "7557-02113",
+      "meterNumber": "25634771"
+    },
+    {
+      "serviceAddress": "1401 Morning Star Dr, Siren, Cahokia, IL 62206",
+      "accountNumber": "5557-02116",
+      "meterNumber": "73031320"
+    },
+    {
+      "serviceAddress": "1820 Jerome Ln, East Saint Louis, IL 62206",
+      "accountNumber": "5657-17117",
+      "meterNumber": "72792056"
+    },
+    {
+      "serviceAddress": "1012 Jerome Ln, East Saint Louis, IL 62206",
+      "accountNumber": "95557-00114",
+      "meterNumber": "72414287"
+    },
+    {
+      "serviceAddress": "3429 Camp Jackson Rd, Cahokia, IL 62206",
+      "accountNumber": "51983-46732",
+      "meterNumber": "72414287"
+    },
+    {
+      "serviceAddress": "1900 Mousette Ln, Cahokia, IL 62206",
+      "accountNumber": "63493-28171",
+      "meterNumber": "72414287"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_673",
+  "statementDate": "05/25/23",
+  "usageHistory": {
+    "2022-05": 400,
+    "2022-06": 420,
+    "2022-07": 440,
+    "2022-08": 440,
+    "2022-09": 400,
+    "2022-10": 360,
+    "2022-11": 340,
+    "2022-12": 320,
+    "2023-01": 340,
+    "2023-02": 320,
+    "2023-03": 340,
+    "2023-04": 360,
+    "2023-05": 400
+  },
+  "locations": [
+    {
+      "serviceAddress": "1699 HIGH AND AVE, CHESHINE CT 08410",
+      "accountNumber": "51436187058",
+      "meterNumber": "895127202"
+    }
+  ],
+  "totalUsage": 11324
+}

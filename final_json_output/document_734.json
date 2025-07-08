@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_734",
+  "statementDate": "2025-01-27",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2 FORBES ST, EAST HARTFORD CT 06108",
+      "accountNumber": "51272702010",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 575460
+}

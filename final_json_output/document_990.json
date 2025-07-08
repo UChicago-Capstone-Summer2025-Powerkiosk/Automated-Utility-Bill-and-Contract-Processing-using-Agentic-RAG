@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_990",
+  "statementDate": "07/29/24",
+  "totalUsage": 32446,
+  "usageHistory": {
+    "2023-12": 4139,
+    "2024-01": 4761,
+    "2024-02": 4716,
+    "2024-03": 31536,
+    "2024-04": 27715,
+    "2024-05": 27680,
+    "2024-06": 32446,
+    "2024-07": 27679,
+    "2024-08": 27684,
+    "2024-09": 33410,
+    "2024-10": 24818
+  },
+  "locations": [
+    {
+      "serviceAddress": "12 LATTI FARM RD, MILLBURY MA 01527-2131",
+      "accountNumber": "73002442157",
+      "meterNumber": "0007789"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_235",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 805,
+    "2024-01": 822,
+    "2024-02": 706,
+    "2024-03": 698,
+    "2024-04": 595,
+    "2024-05": 479,
+    "2024-06": null,
+    "2024-07": 372,
+    "2024-08": 627,
+    "2024-09": 429,
+    "2024-10": 573,
+    "2024-11": 697,
+    "2024-12": 986
+  },
+  "locations": [
+    {
+      "serviceAddress": "305 MAIN ST, KENSINGTON DT 06037",
+      "accountNumber": "51081913006",
+      "meterNumber": "890725852"
+    }
+  ],
+  "totalUsage": 986
+}

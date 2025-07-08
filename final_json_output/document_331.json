@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_331",
+  "statementDate": "01/13/17",
+  "usageHistory": {
+    "2016-02": 70,
+    "2016-03": 75,
+    "2016-04": 75,
+    "2016-05": 80,
+    "2016-06": 80,
+    "2016-07": 90,
+    "2016-08": 90,
+    "2016-09": 85,
+    "2016-10": 80,
+    "2016-11": 75,
+    "2016-12": 75,
+    "2017-01": 70,
+    "2017-02": 70
+  },
+  "locations": [
+    {
+      "serviceAddress": "1005 Blalock Rd, Houston, TX 770557441-7441",
+      "accountNumber": "100296015",
+      "meterNumber": "012397"
+    }
+  ],
+  "totalUsage": 242954.78
+}

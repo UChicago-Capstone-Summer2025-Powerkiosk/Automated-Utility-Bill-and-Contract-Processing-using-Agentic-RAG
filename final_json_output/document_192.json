@@ -1,0 +1,64 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_192",
+  "statementDate": "2020-04-23",
+  "usageHistory": {
+    "2020-04": 504127
+  },
+  "locations": [
+    {
+      "serviceAddress": "1603 ORRINGTON AVE UNIT 1880 / EVANSTON, IL 60201",
+      "accountNumber": "0161147011",
+      "meterNumbers": [
+        "230113522"
+      ]
+    },
+    {
+      "serviceAddress": "425 DAVIS ST / EVANSTON, IL 60201",
+      "accountNumber": "0286087018",
+      "meterNumbers": [
+        "230114435",
+        "230155338",
+        "230155340",
+        "230155341"
+      ]
+    },
+    {
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1750B / EVANSTON, IL 60201",
+      "accountNumber": "0423067010",
+      "meterNumbers": [
+        "230294004"
+      ]
+    },
+    {
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1800 / EVANSTON, IL 60201",
+      "accountNumber": "1043129014",
+      "meterNumbers": [
+        "230113524",
+        "230113525"
+      ]
+    },
+    {
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1750C / EVANSTON, IL 60201",
+      "accountNumber": "2456024018",
+      "meterNumbers": [
+        "230294003"
+      ]
+    },
+    {
+      "serviceAddress": null,
+      "accountNumber": "6443011001",
+      "meterNumbers": [
+        "230274039"
+      ]
+    },
+    {
+      "serviceAddress": "33 E 83RD ST / CHICAGO, IL 60619",
+      "accountNumber": "9031709028",
+      "meterNumbers": [
+        "230132691"
+      ]
+    }
+  ],
+  "totalUsage": 504127
+}

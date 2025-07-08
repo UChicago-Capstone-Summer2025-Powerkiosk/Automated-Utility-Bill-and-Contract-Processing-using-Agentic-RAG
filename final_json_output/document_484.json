@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_484",
+  "statementDate": "04/26/23",
+  "usageHistory": {
+    "2022-04": 400,
+    "2022-05": 450,
+    "2022-06": 600,
+    "2022-07": 700,
+    "2022-08": 650,
+    "2022-09": 500,
+    "2022-10": 400,
+    "2022-11": 350,
+    "2022-12": 350,
+    "2023-01": 350,
+    "2023-02": 350,
+    "2023-03": 400,
+    "2023-04": 420
+  },
+  "locations": [
+    {
+      "serviceAddress": "694 PAGE RIVO, SPRINGFIELD MA 01104",
+      "accountNumber": "54148271075",
+      "meterNumber": "90865742"
+    }
+  ],
+  "totalUsage": 13934
+}

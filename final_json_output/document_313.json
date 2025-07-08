@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_313",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2023-12": 2.5,
+    "2024-01": 5.0,
+    "2024-02": 3.5,
+    "2024-03": 4.5,
+    "2024-04": 3.0,
+    "2024-05": 4.0,
+    "2024-06": 7.5,
+    "2024-07": 6.5,
+    "2024-08": 7.0,
+    "2024-09": 4.0,
+    "2024-10": 3.5,
+    "2024-11": 4.5,
+    "2024-12": 5.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "326 SOUTHINGTON RD, FL 1, KENNINGTON CT 06037",
+      "accountNumber": "51922123047",
+      "meterNumber": "896136302"
+    }
+  ],
+  "totalUsage": 2
+}

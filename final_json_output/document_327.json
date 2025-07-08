@@ -1,0 +1,60 @@
+{
+  "documentType": "contract",
+  "documentId": "document_327",
+  "contractStart": "2025-03-01",
+  "contractEnd": "2027-04-30",
+  "usageHistory": {
+    "2025-03": 7165,
+    "2025-04": 6361,
+    "2025-05": 5621,
+    "2025-06": 5202,
+    "2025-07": 4786,
+    "2025-08": 4755,
+    "2025-09": 4977,
+    "2025-10": 5941,
+    "2025-11": 7082,
+    "2025-12": 8036,
+    "2026-01": 9886,
+    "2026-02": 7430,
+    "2026-03": 7165,
+    "2026-04": 6361,
+    "2026-05": 5621,
+    "2026-06": 5202,
+    "2026-07": 4786,
+    "2026-08": 4755,
+    "2026-09": 4977,
+    "2026-10": 5941,
+    "2026-11": 7082,
+    "2026-12": 8036,
+    "2027-01": 9886,
+    "2027-02": 7430,
+    "2027-03": 7165,
+    "2027-04": 6361
+  },
+  "locations": [
+    {
+      "facilityName": "Main Hospital",
+      "accountNumber": "210100195234",
+      "meterNumber": "D50000956421",
+      "address": "4800 E. Johnson Ave",
+      "city": "Jonesboro",
+      "state": "AR"
+    },
+    {
+      "facilityName": "Baptist Memorial",
+      "accountNumber": "210100195249",
+      "meterNumber": "D46001250684",
+      "address": "4808 E. Johnson Ave",
+      "city": "Jonesboro",
+      "state": "AR"
+    },
+    {
+      "facilityName": "Baptist Memorial",
+      "accountNumber": "210100195265",
+      "meterNumber": "A28001433670",
+      "address": "4800 E. Johnson Ave",
+      "city": "Jonesboro",
+      "state": "AR"
+    }
+  ]
+}

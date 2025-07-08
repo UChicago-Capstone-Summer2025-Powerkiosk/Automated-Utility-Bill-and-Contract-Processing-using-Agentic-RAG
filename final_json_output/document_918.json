@@ -1,0 +1,31 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_918",
+  "statementDate": "10/01/2018",
+  "usageHistory": {
+    "2018-08": 136880
+  },
+  "locations": [
+    {
+      "serviceAddress": "BLDG / 900 S CLARK ST / CHICAGO, IL 60605",
+      "accountNumber": "0043169106",
+      "meterNumber": "230048080"
+    },
+    {
+      "serviceAddress": "BLDG / 900 S CLARK ST / CHICAGO, IL 60605",
+      "accountNumber": "0043169106",
+      "meterNumber": "230133826"
+    },
+    {
+      "serviceAddress": "BLDG / 900 S CLARK ST / CHICAGO, IL 60605",
+      "accountNumber": "0043169106",
+      "meterNumber": "230133827"
+    },
+    {
+      "serviceAddress": "BLDG / 900 S CLARK ST / CHICAGO, IL 60605",
+      "accountNumber": "0043169106",
+      "meterNumber": "230133828"
+    }
+  ],
+  "totalUsage": 136880
+}

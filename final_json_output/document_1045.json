@@ -1,0 +1,32 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1045",
+  "contractStart": "2019-01-01",
+  "contractEnd": "2019-03-31",
+  "usageHistory": {
+    "2019-01": 102485,
+    "2019-02": 214700,
+    "2019-03": 238466,
+    "2019-04": 132114,
+    "2019-05": 0,
+    "2019-06": 0,
+    "2019-07": 0,
+    "2019-08": 0,
+    "2019-09": 0,
+    "2019-10": 0,
+    "2019-11": 0,
+    "2019-12": 0
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD POLE 92 (EMPI)",
+      "accountNumber": "2797685013",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 LITTLETON RD (Empire South Hospitality)",
+      "accountNumber": "6535848023",
+      "meterNumber": null
+    }
+  ]
+}

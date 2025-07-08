@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_320",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 22880,
+    "2024-01": 23520,
+    "2024-02": 20960,
+    "2024-03": 22560,
+    "2024-04": 25120,
+    "2024-05": 26560,
+    "2024-06": null,
+    "2024-07": 43520,
+    "2024-08": 52640,
+    "2024-09": 36480,
+    "2024-10": 28640,
+    "2024-11": 27200,
+    "2024-12": 22720
+  },
+  "locations": [
+    {
+      "serviceAddress": "234 KENSINGTON RD KENSINGTON CT 06037",
+      "accountNumber": "51511123093",
+      "meterNumber": "890348292"
+    }
+  ],
+  "totalUsage": 22720
+}

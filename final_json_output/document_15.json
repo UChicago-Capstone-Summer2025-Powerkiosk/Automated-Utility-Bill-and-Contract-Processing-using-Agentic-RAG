@@ -1,0 +1,199 @@
+{
+  "documentType": "contract",
+  "documentId": "document_15",
+  "contractStart": "2017-02",
+  "contractEnd": "2018-02",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "7850 S Constance Ave, Chicago, IL, 60617",
+      "accountNumber": "9500065677342",
+      "meterNumber": "9500065677342"
+    },
+    {
+      "serviceAddress": "7151-53 S Indiana Ave, Chicago, IL, 60629",
+      "accountNumber": "9500058475538",
+      "meterNumber": "9500058475538"
+    },
+    {
+      "serviceAddress": "211-17 E 71st, Chicago, IL, 60623",
+      "accountNumber": "500059133040",
+      "meterNumber": "500059133040"
+    },
+    {
+      "serviceAddress": "8231-37 S Ellis Ave, Chicago, IL, 60615",
+      "accountNumber": "9500058463346",
+      "meterNumber": "9500058463346"
+    },
+    {
+      "serviceAddress": "1236 S Lawndale Ave, Chicago, IL, 60644",
+      "accountNumber": "500072405047",
+      "meterNumber": "500072405047"
+    },
+    {
+      "serviceAddress": "5018 W Jackson Blvd, Chicago, IL, 60644",
+      "accountNumber": "500069041530",
+      "meterNumber": "500069041530"
+    },
+    {
+      "serviceAddress": "1734 W 87th St, Chicago, IL, 60649",
+      "accountNumber": "500064701962",
+      "meterNumber": "500064701962"
+    },
+    {
+      "serviceAddress": "9244 S Saginaw, Chicago, IL, 60649",
+      "accountNumber": "9500060188724",
+      "meterNumber": "9500060188724"
+    },
+    {
+      "serviceAddress": "8308 S Ingleside Ave, Chicago, IL, 60629",
+      "accountNumber": "500066113679",
+      "meterNumber": "500066113679"
+    },
+    {
+      "serviceAddress": "1101 N Lawler Ave, Chicago, IL, 60623",
+      "accountNumber": "500067983511",
+      "meterNumber": "500067983511"
+    },
+    {
+      "serviceAddress": "8100 S Throop St, Chicago, IL, 60629",
+      "accountNumber": "500071577792",
+      "meterNumber": "500071577792"
+    },
+    {
+      "serviceAddress": "8806 S Cottage Grove Ave, Chicago, IL, 60617",
+      "accountNumber": "500067983188",
+      "meterNumber": "500067983188"
+    },
+    {
+      "serviceAddress": "8640 S Ingleside Ave, Chicago, IL, 60620",
+      "accountNumber": "500071237013",
+      "meterNumber": "500071237013"
+    },
+    {
+      "serviceAddress": "11250-56 S Indiana Ave, Chicago, IL, 60629",
+      "accountNumber": "500065028769",
+      "meterNumber": "500065028769"
+    },
+    {
+      "serviceAddress": "5800 W Iowa St, Chicago, IL, 60620",
+      "accountNumber": "2500058122765",
+      "meterNumber": "2500058122765"
+    },
+    {
+      "serviceAddress": "5007 W Jackson Blvd, Chicago, IL, 60637",
+      "accountNumber": "500069041437",
+      "meterNumber": "500069041437"
+    },
+    {
+      "serviceAddress": "5015 W Jackson Blvd, Chicago, IL, 60637",
+      "accountNumber": "500069041511",
+      "meterNumber": "500069041511"
+    },
+    {
+      "serviceAddress": "7120 S East End, Chicago, IL, 60629",
+      "accountNumber": "9500059213616",
+      "meterNumber": "9500059213616"
+    },
+    {
+      "serviceAddress": "7834 S Coles, Chicago, IL, 60619",
+      "accountNumber": "9500060651595",
+      "meterNumber": "9500060651595"
+    },
+    {
+      "serviceAddress": "5012 W Jackson Blvd, Chicago, IL, 60615",
+      "accountNumber": "500069041475",
+      "meterNumber": "500069041475"
+    },
+    {
+      "serviceAddress": "8238 S Ellis Ave, Chicago, IL, 60636",
+      "accountNumber": "500065211604",
+      "meterNumber": "500065211604"
+    },
+    {
+      "serviceAddress": "6743 S Oglesby, Chicago, IL, 60615",
+      "accountNumber": "500057309875",
+      "meterNumber": "500057309875"
+    },
+    {
+      "serviceAddress": "5019 W Jackson Blvd, Chicago, IL, 60619",
+      "accountNumber": "500069041545",
+      "meterNumber": "500069041545"
+    },
+    {
+      "serviceAddress": "722 S Racine, Chicago, IL, 60615",
+      "accountNumber": "500058436172",
+      "meterNumber": "500058436172"
+    },
+    {
+      "serviceAddress": "6306 S Artesian, Chicago, IL, 60637",
+      "accountNumber": "500062997180",
+      "meterNumber": "500062997180"
+    },
+    {
+      "serviceAddress": "7949 S Winchester Ave, Chicago, IL, 60649",
+      "accountNumber": "3500058529964",
+      "meterNumber": "3500058529964"
+    },
+    {
+      "serviceAddress": "8014 S Maryland Ave, Chicago, IL, 60649",
+      "accountNumber": "500066932566",
+      "meterNumber": "500066932566"
+    },
+    {
+      "serviceAddress": "7916 S Drexel Ave, Chicago, IL, 60649",
+      "accountNumber": "9500065809888",
+      "meterNumber": "9500065809888"
+    },
+    {
+      "serviceAddress": "7358 S Blackstone Ave, Chicago, IL, 60619",
+      "accountNumber": "9500058230372",
+      "meterNumber": "9500058230372"
+    },
+    {
+      "serviceAddress": "2207 E 75th St, Chicago, IL, 60639",
+      "accountNumber": "500073664060",
+      "meterNumber": "500073664060"
+    },
+    {
+      "serviceAddress": "4901 S Drexel Blvd, Chicago, IL, 60620",
+      "accountNumber": "500071577504",
+      "meterNumber": "500071577504"
+    },
+    {
+      "serviceAddress": "8100-04 S Marshfield, Chicago, IL, 60637",
+      "accountNumber": "8500053772999",
+      "meterNumber": "8500053772999"
+    },
+    {
+      "serviceAddress": "2225 E 87th St, Chicago, IL, 60623",
+      "accountNumber": "1500062768426",
+      "meterNumber": "1500062768426"
+    },
+    {
+      "serviceAddress": "8231-37 S Ellis Ave, Chicago, IL, 60649",
+      "accountNumber": "9500058463421",
+      "meterNumber": "9500058463421"
+    },
+    {
+      "serviceAddress": "7903 S Luella Ave, Chicago, IL, 60629",
+      "accountNumber": "500061375022",
+      "meterNumber": "500061375022"
+    },
+    {
+      "serviceAddress": "2826 E 76th PI, Chicago, IL, 60615",
+      "accountNumber": "500064346831",
+      "meterNumber": "500064346831"
+    },
+    {
+      "serviceAddress": "741-53 E 79th St, Chicago, IL, 60636",
+      "accountNumber": "9500058408253",
+      "meterNumber": "9500058408253"
+    },
+    {
+      "serviceAddress": "4750 S Calumet Ave, Chicago, IL, 60615",
+      "accountNumber": "500067870501",
+      "meterNumber": "500067870501"
+    }
+  ]
+}

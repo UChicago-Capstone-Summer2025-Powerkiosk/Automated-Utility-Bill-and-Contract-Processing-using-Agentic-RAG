@@ -1,0 +1,29 @@
+{
+  "documentType": "contract",
+  "documentId": "document_95",
+  "contractStart": "2023-09-01",
+  "contractEnd": "2027-08-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "40 JYTEK DRIVE, LEOMINSTER, MA 14530",
+      "accountNumber": "2617064018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "30 JYTEK DR, LEOMINSTER, MA 01453-5932",
+      "accountNumber": "6356843024",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "24 JYTEK DR, LEOMINSTER, MA 01453-5932",
+      "accountNumber": "8851539009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "24 Jytek Park, Second Serv, Leominster, MA 01453",
+      "accountNumber": "8969093005",
+      "meterNumber": null
+    }
+  ]
+}

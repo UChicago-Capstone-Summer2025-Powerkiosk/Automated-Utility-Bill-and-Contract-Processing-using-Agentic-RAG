@@ -1,0 +1,22 @@
+,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+Electric Delivery,Customer Charge,,,,\$19.88
+Ameren Illinois,Meter Charge,,,,\$7.03
+DS-2 Small General Delivery,Distribution Delivery Charge Non-Summer,"2,000.00 kWh",@ \$ 0.02768000,,\$55.36
+Service,Distribution Delivery Charge Non-Summer,"13,744.00 kWh",@ \$ 0.01418000,,\$194.89
+,,,Electric Delivery,,\$277.16
+Electric Supply,Purchased Electric Non-Summer,"2,000.00 kWh",@ \$ 0.04724000,,\$94.48
+Ameren Illinois,Purchased Electric Non-Summer,"13,744.00 kWh",@ \$ 0.04724000,,\$649.27
+BGS-2 Basic Generation,Purchased Electricity Adjustment,"15,744.00 kWh",@ \$ 0.00070611,,\$11.12
+Service,Supply Cost Adjustment,"15,744.00 kWh",@ \$ 0.00072000,,\$11.34
+,Transmission Service Charge,"15,744.00 kWh",@ \$ 0.01261000,,\$198.53
+,,,Electric Supply,,\$942.50
+State and Local Taxes and Other Mandated Charges,Customer Generation Charge,,,,\$0.32
+,Clean Energy Assistance Charge,"15,744.00 kWh",@ \$ 0.00181000,,\$28.50
+,Renewable Energy Adjustment*,"15,744.00 kWh",@ \$ 0.00458000,,\$72.11
+,EDT Cost Recovery,"15,744.00 kWh",@ \$ 0.00124840,,\$19.65
+,Electric Environmental Adjustment,"15,744.00 kWh",@ \$ 0.00153710,,\$24.20
+,Energy Efficiency Programs Charge,"15,744.00 kWh",@ \$ 0.00360000,,\$56.68
+,Energy Transition Assistance Charge*,"15,744.00 kWh",@ \$ 0.00072000,,\$11.34
+,Galesburg Municipal Tax,,,,\$69.20
+,Illinois State Electricity Excise Tax,,,,\$50.44
+,,Total Taxes and Other Charges,,,\$332.44

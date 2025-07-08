@@ -1,0 +1,32 @@
+,Meter Number,Usage,Amount
+Service For: 4200 THE WOODS DR,,,
+Service Agreement ID: 9588013849,,,
+PG\&E Electric Delivery Charges,1009625949,"2,001.000000 kWh",$\$ 10.72$
+Service Agreement ID: 9585431272,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,"2,001.000000 kWh",$\$ 294.46$
+Service Agreement ID: 9588970351,,,
+PG\&E Gas Delivery Charges,61231334,239.000000 Therm,\$368.67
+Service Agreement ID: 9584664664,,,
+COMMERCIAL ENERGY Gas Procurement Charges,,239.000000 Therm,\$196.25
+Total,,,\$870.10
+Service For: 4200 THE WOODS DR,,,
+Service Agreement ID: 9585616378,,,
+PG\&E Electric Delivery Charges,1009180657,330.000000 kWh,$\$ 47.58$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 9584239171,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,330.000000 kWh,$\$ 49.08$
+Total,,,\$41.32
+Service For: 4200 THE WOODS DR BLDG 3,,,
+Service Agreement ID: 9581349777,,,
+PG\&E Electric Delivery Charges,1009114178,152.000000 kWh,$\$ 21.25$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 9581522454,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,152.000000 kWh,$\$ 0.00$
+Total,,,- $\$ 34.09$
+Service For: 4200 THE WOODS DR BLDG 10-11,,,
+Service Agreement ID: 9583583267,,,
+PG\&E Electric Delivery Charges,1009622283,846.000000 kWh,$\$ 26.52$
+Electric Adjustments,,,$-55.34$
+Service Agreement ID: 9586004595,,,
+SAN JOSE CLEAN ENERGY Electric Generation,,846.000000 kWh,$\$ 123.81$
+Total,,,\$94.99

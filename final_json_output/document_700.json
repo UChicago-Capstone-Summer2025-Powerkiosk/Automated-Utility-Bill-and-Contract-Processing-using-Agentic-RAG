@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_700",
+  "statementDate": "2019-08-02",
+  "usageHistory": {
+    "2019-09": 1753,
+    "2019-10": 164658,
+    "2019-11": 175481,
+    "2019-12": 148269,
+    "2020-01": 149968,
+    "2020-02": 153645,
+    "2020-03": 163182,
+    "2020-04": 148389,
+    "2020-05": 150002,
+    "2020-06": 170963,
+    "2020-07": 170140,
+    "2020-08": 174211
+  },
+  "locations": [
+    {
+      "serviceAddress": "119 LEGION DR, SPARTA, IL 62286",
+      "accountNumber": "9926229137",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_608",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2023-07": "Low usage",
+    "2023-08": "Low usage",
+    "2023-09": "Low usage",
+    "2023-10": "Low usage",
+    "2023-11": "Moderate usage",
+    "2023-12": "Higher usage",
+    "2024-01": "Highest usage",
+    "2024-02": "High usage",
+    "2024-03": "Moderate usage",
+    "2024-04": "High usage",
+    "2024-05": "Low usage",
+    "2024-06": "Low usage",
+    "2024-07": "Moderate usage"
+  },
+  "locations": [
+    {
+      "serviceAddress": null,
+      "accountNumber": "51-8310-78",
+      "meterNumber": "2643692"
+    }
+  ],
+  "totalUsage": 4772667
+}

@@ -1,0 +1,18 @@
+METER DETAIL,,,,,,,,,
+Meter Number,Service <br> Period,Days,Reading <br> Prior,$\begin{aligned} & \text { Con } \end{aligned}$,Total <br> kWh,On-Pk <br> kWh,Off-Pk <br> kWh,Peak KW,Coincident <br> Peak KW
+230048080,8/28 - 9/26,,NA,NA,22,22,0,19.0 at 09/10 07:00,0.00
+230133826,8/28 - 9/26,,NA,NA,"22,807","10,881","11,926",36.0 at 09/06 19:00,32.58
+230133827,8/28 - 9/26,,NA,NA,"101,300",51.129,"50,171",290.0 at 09/17 14:00,290.28
+230133828,8/28 - 9/26,,NA,NA,"12,751",6.310,"6,441",21.0 at 09/04 19:00,20.68
+Total,,30,,,"136,880","68,342","68,538",,
+Coincident Peak KW,,,,,,,,344.0 at 09/20 18:00,
+CHARGE DETAIL,,,,,,,,,
+Description,,,,,Quantity,Units,Rate,Charge,Totals
+ENERGY SUPPLY CHARGES,,,,,,,,,
+Block 1 Energy Charge (1),,,,,"136,880",KWH,\$0.0316100,"\$4,326.76",
+Distribution Losses Charge,,,,,"9,185",KWH,\$0.0330300,\$303.40,
+Transmission Charge ((\$34.5156 / 365) * 272.2007 * 30 Days),,,,,,,,\$772.21,
+Renewable Portfolio Standard (RPS) Charge,,,,,"136,880",KWH,\$0.0011400,\$156.04,
+Ancillary Service Charge,,,,,"136,880",KWH,\$0.0007700,\$105.40,
+Capacity Charge (Capacity Obligation * 30 Days * Price),,,,,333.1637,CAP OBL,\$0.2120300,"\$2,119.22",
+TOTAL ENERGY SUPPLY CHARGES,,,,,,,,,"\$7,783.03"

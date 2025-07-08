@@ -1,0 +1,54 @@
+{
+  "documentType": "contract",
+  "documentId": "document_823",
+  "contractStart": "2024-11",
+  "contractEnd": "2025-02",
+  "usageHistory": {
+    "2024-11": null,
+    "2024-12": null,
+    "2025-01": null,
+    "2025-02": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "164 E Grand Ave, Chicago, IL, 60611, US",
+      "accountNumber": "0647674740",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "100 W Higgins Rd, South Barrington, IL, 60010, US",
+      "accountNumber": "5415163403",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", IL, US",
+      "accountNumber": "0503504215",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "715 Village Center Dr, Burr Ridge, IL, 60527, US",
+      "accountNumber": "7231454576",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4999 Old Orchard, Skokie, IL, 60077, US",
+      "accountNumber": "7673150506",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "705 Village Center Dr, Burr Ridge, IL, 60527, US",
+      "accountNumber": "8584651887",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "414 N Orleans ST #105, Chicago, IL, 60654, US",
+      "accountNumber": "8792445373",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "802 W Randolph ST, Chicago, IL, 60607, US",
+      "accountNumber": "9251868493",
+      "meterNumber": null
+    }
+  ]
+}

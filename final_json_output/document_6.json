@@ -1,0 +1,1857 @@
+{
+  "documentType": "contract",
+  "documentId": "document_6",
+  "contractStart": "2019-08-01",
+  "contractEnd": "2020-07-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "6236 S ARTESIAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60636",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600079352-00003"
+    },
+    {
+      "serviceAddress": "8251 S ELLIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-02598"
+    },
+    {
+      "serviceAddress": "7003 S HARPER AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-02635"
+    },
+    {
+      "serviceAddress": "5500 W VAN BUREN ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-01773"
+    },
+    {
+      "serviceAddress": "5948 W SUPERIOR ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-02631"
+    },
+    {
+      "serviceAddress": "13244 S INDIANA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60827",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-02787"
+    },
+    {
+      "serviceAddress": "729 N CENTRAL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877233-02601"
+    },
+    {
+      "serviceAddress": "7701 S MAY ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02576"
+    },
+    {
+      "serviceAddress": "8243 S ELLIS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00012"
+    },
+    {
+      "serviceAddress": "701 N LOTUS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00489"
+    },
+    {
+      "serviceAddress": "7028 S CLYDE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02639"
+    },
+    {
+      "serviceAddress": "7609 S COLEAVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02552"
+    },
+    {
+      "serviceAddress": "10848 S PRAIRIE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02990"
+    },
+    {
+      "serviceAddress": "136 W 183RD ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60827",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00240"
+    },
+    {
+      "serviceAddress": "7915 S HERMITAGE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02993"
+    },
+    {
+      "serviceAddress": "6618 S WABASH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02889"
+    },
+    {
+      "serviceAddress": "5846 W MADISON STR/BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01612"
+    },
+    {
+      "serviceAddress": "8231 S ELLIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600599241-00002"
+    },
+    {
+      "serviceAddress": "2610 N LARAMIE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60639",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02982"
+    },
+    {
+      "serviceAddress": "3653 W FLOURNOY BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60612",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02268"
+    },
+    {
+      "serviceAddress": "6743 S OGLEIBY AVE",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02636"
+    },
+    {
+      "serviceAddress": "7700 S KINGSTON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02965"
+    },
+    {
+      "serviceAddress": "7949 S ELLIS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02581"
+    },
+    {
+      "serviceAddress": "7800 S ASHLAND AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01736"
+    },
+    {
+      "serviceAddress": "7620 S COLES AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02623"
+    },
+    {
+      "serviceAddress": "4853 S PRAIRIE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02554"
+    },
+    {
+      "serviceAddress": "5854 S MICHIGAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02674"
+    },
+    {
+      "serviceAddress": "5802 W IOWA BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60651",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00026"
+    },
+    {
+      "serviceAddress": "7951 S WOLCOTT AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02938"
+    },
+    {
+      "serviceAddress": "8642 S INGLESIDE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00525"
+    },
+    {
+      "serviceAddress": "7929 S ELLIS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01870"
+    },
+    {
+      "serviceAddress": "8155 S INGLESIDE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02609"
+    },
+    {
+      "serviceAddress": "211 E 71ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02640"
+    },
+    {
+      "serviceAddress": "2606 W 73RD ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0604355805-00003"
+    },
+    {
+      "serviceAddress": "9049 S MUSKEGON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02981"
+    },
+    {
+      "serviceAddress": "5832 W NORTH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60639",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00402"
+    },
+    {
+      "serviceAddress": "8100S MARSHFIELD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0606647085-00003"
+    },
+    {
+      "serviceAddress": "5051 SFORRESTVILLE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02215"
+    },
+    {
+      "serviceAddress": "8456 S WABASH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00133"
+    },
+    {
+      "serviceAddress": "2201 E 79THST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02563"
+    },
+    {
+      "serviceAddress": "8156 S INGLISIDE BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0607736393-00002"
+    },
+    {
+      "serviceAddress": "6358 S FRANCISCO AVE BLDG BLDG 1S",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02551"
+    },
+    {
+      "serviceAddress": "737 N AUSTIN BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02607"
+    },
+    {
+      "serviceAddress": "221 E 60TH BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610619560-00002"
+    },
+    {
+      "serviceAddress": "8155 S INGLISIDE AVE BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600691934-00002"
+    },
+    {
+      "serviceAddress": "7956 S JUSTINE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00436"
+    },
+    {
+      "serviceAddress": "11145 S KING DR BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00068"
+    },
+    {
+      "serviceAddress": "2241 E 71ST ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00435"
+    },
+    {
+      "serviceAddress": "8001 S ELLISAVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02954"
+    },
+    {
+      "serviceAddress": "8515 S GREEN ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02644"
+    },
+    {
+      "serviceAddress": "606 E 51ST ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02216"
+    },
+    {
+      "serviceAddress": "8051 S INGEISIDE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00009"
+    },
+    {
+      "serviceAddress": "400 S KILBOURN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60624",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600079352-00011"
+    },
+    {
+      "serviceAddress": "10429 S VERIION BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00890"
+    },
+    {
+      "serviceAddress": "4815 W CORTEZ ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60651",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02956"
+    },
+    {
+      "serviceAddress": "330 N PINE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02274"
+    },
+    {
+      "serviceAddress": "13332 S MICHIGAN AVENUE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60827",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00224"
+    },
+    {
+      "serviceAddress": "2845 W 77THST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02934"
+    },
+    {
+      "serviceAddress": "1355 N HOMAN AVE",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60651",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02679"
+    },
+    {
+      "serviceAddress": "7406 S PERRY AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60621",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0609142657-00227"
+    },
+    {
+      "serviceAddress": "7801 S SAGINAW BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0612424946-00001"
+    },
+    {
+      "serviceAddress": "7934 S WABASH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02567"
+    },
+    {
+      "serviceAddress": "10901 S VERIION AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01665"
+    },
+    {
+      "serviceAddress": "6300 S ARTEIJAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02569"
+    },
+    {
+      "serviceAddress": "842 E 82ND ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00029"
+    },
+    {
+      "serviceAddress": "10851 S PRAIRIE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02940"
+    },
+    {
+      "serviceAddress": "4248 W 13THST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60623",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02561"
+    },
+    {
+      "serviceAddress": "1247 S CALIFORNIA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60608",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02568"
+    },
+    {
+      "serviceAddress": "5300 S MICHIGAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02669"
+    },
+    {
+      "serviceAddress": "753 E 79TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00030"
+    },
+    {
+      "serviceAddress": "723 N CENTRAL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02958"
+    },
+    {
+      "serviceAddress": "5230 W HARRISON BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0603094930-00002"
+    },
+    {
+      "serviceAddress": "7914 S HERMTAGE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02989"
+    },
+    {
+      "serviceAddress": "749 E 79TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00028"
+    },
+    {
+      "serviceAddress": "622 E 51ST ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02118"
+    },
+    {
+      "serviceAddress": "1249 S CAUFORNIA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60608",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02643"
+    },
+    {
+      "serviceAddress": "1815 W 77TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00025"
+    },
+    {
+      "serviceAddress": "8000 S PAULINA ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00038"
+    },
+    {
+      "serviceAddress": "7916 S DREXEL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600599241-00001"
+    },
+    {
+      "serviceAddress": "2542 S TRUMBULL AVE REAR 2 FL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60623",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00425"
+    },
+    {
+      "serviceAddress": "4114 W WASHINGTON BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60624",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02735"
+    },
+    {
+      "serviceAddress": "7615 S COLES BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00015"
+    },
+    {
+      "serviceAddress": "7317 S CHAPPEL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02603"
+    },
+    {
+      "serviceAddress": "8109 S ASHLAND AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00039"
+    },
+    {
+      "serviceAddress": "6751 S JEFFERY BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0602886372-00001"
+    },
+    {
+      "serviceAddress": "8127 S ELLIS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02600"
+    },
+    {
+      "serviceAddress": "119 E MARQUETTE RD BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02283"
+    },
+    {
+      "serviceAddress": "7236 S YATES",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00712"
+    },
+    {
+      "serviceAddress": "2611 W 64TH ST BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02987"
+    },
+    {
+      "serviceAddress": "6308 S FAIRFIELD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02599"
+    },
+    {
+      "serviceAddress": "400 S LARAME BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667632-00046"
+    },
+    {
+      "serviceAddress": "644 E 50TH PL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02175"
+    },
+    {
+      "serviceAddress": "647 N MAYFIELD AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00006"
+    },
+    {
+      "serviceAddress": "8000 S DREXEL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00008"
+    },
+    {
+      "serviceAddress": "7356 S DORCHESTER BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02590"
+    },
+    {
+      "serviceAddress": "1931 E 71ST ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00103"
+    },
+    {
+      "serviceAddress": "7939 S DOBSON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00179"
+    },
+    {
+      "serviceAddress": "7924 S VERNON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02626"
+    },
+    {
+      "serviceAddress": "11115 S VERNON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02632"
+    },
+    {
+      "serviceAddress": "7955 S CALUMET AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00080"
+    },
+    {
+      "serviceAddress": "5200 S CONGRESS PKWY BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667632-00047"
+    },
+    {
+      "serviceAddress": "7801 S YATES BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02968"
+    },
+    {
+      "serviceAddress": "7850 S CONSTANCE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00040"
+    },
+    {
+      "serviceAddress": "8255 MARYLAND AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02555"
+    },
+    {
+      "serviceAddress": "221 E 68TH BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01668"
+    },
+    {
+      "serviceAddress": "7348 S KINGDR BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02579"
+    },
+    {
+      "serviceAddress": "7955 S CALLMET AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00079"
+    },
+    {
+      "serviceAddress": "2605 W 62ND ST BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01437"
+    },
+    {
+      "serviceAddress": "8001 S MUSKEGON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0602247223-00029"
+    },
+    {
+      "serviceAddress": "4750 S CALLME AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02885"
+    },
+    {
+      "serviceAddress": "7800 S ASHLAND AVE TEMP STR2",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01737"
+    },
+    {
+      "serviceAddress": "7905 S LUELLA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02604"
+    },
+    {
+      "serviceAddress": "8000 S MARILAND BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0613390967-00002"
+    },
+    {
+      "serviceAddress": "6705 S MICHIGAN BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02266"
+    },
+    {
+      "serviceAddress": "7953 S DOBSON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0604355805-00001"
+    },
+    {
+      "serviceAddress": "115 E 59TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00545"
+    },
+    {
+      "serviceAddress": "10201 S ST LAWRENCE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00160"
+    },
+    {
+      "serviceAddress": "7801 S KINGSTON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0607507982-00001"
+    },
+    {
+      "serviceAddress": "8514 S CRANDON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00034"
+    },
+    {
+      "serviceAddress": "345 E 72ND ST BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02860"
+    },
+    {
+      "serviceAddress": "814 W 72NDST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60621",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01847"
+    },
+    {
+      "serviceAddress": "1514 W 77TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02550"
+    },
+    {
+      "serviceAddress": "7656 S HERMTAGE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00019"
+    },
+    {
+      "serviceAddress": "7706 S SAGINAW BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02562"
+    },
+    {
+      "serviceAddress": "7409 S YATES AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02566"
+    },
+    {
+      "serviceAddress": "715 S SAINT LOUIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60624",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02738"
+    },
+    {
+      "serviceAddress": "3600 W FRANKLIN BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60624",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00593"
+    },
+    {
+      "serviceAddress": "7920 S EVANS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02573"
+    },
+    {
+      "serviceAddress": "7800 S JEFFERY BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02661"
+    },
+    {
+      "serviceAddress": "1108 1/2 E BIND ST BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02976"
+    },
+    {
+      "serviceAddress": "4901 S DREKIL BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02565"
+    },
+    {
+      "serviceAddress": "805 E DREKEISQ BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02994"
+    },
+    {
+      "serviceAddress": "7135 S BLACISTONE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01475"
+    },
+    {
+      "serviceAddress": "5501 W LAKEBLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02275"
+    },
+    {
+      "serviceAddress": "1042 N LEAMINGTON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60651",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02948"
+    },
+    {
+      "serviceAddress": "1400 E 67TH PL BLDG BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00895"
+    },
+    {
+      "serviceAddress": "4641 W JACISON BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0603060766-00004"
+    },
+    {
+      "serviceAddress": "7938 S HERMTAGE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01074"
+    },
+    {
+      "serviceAddress": "8100 S DREXEL AVE BLDG BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-04319"
+    },
+    {
+      "serviceAddress": "7834 S COLES AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00036"
+    },
+    {
+      "serviceAddress": "8200 S INGLESIDE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00007"
+    },
+    {
+      "serviceAddress": "7034 S CLARIMONT BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60636",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0606647085-00007"
+    },
+    {
+      "serviceAddress": "7755 S SANGAMON ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02605"
+    },
+    {
+      "serviceAddress": "7901 S DOBSON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02960"
+    },
+    {
+      "serviceAddress": "5136 S KING DR BSMT APT 06",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00394"
+    },
+    {
+      "serviceAddress": "1962 E 73RD PL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02997"
+    },
+    {
+      "serviceAddress": "5658 S PEORA ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60621",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02973"
+    },
+    {
+      "serviceAddress": "7800 S ESSEX AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00012"
+    },
+    {
+      "serviceAddress": "6200 S ROCKWELL ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02869"
+    },
+    {
+      "serviceAddress": "1742 E 72ND ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00033"
+    },
+    {
+      "serviceAddress": "2649 E 78TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02339"
+    },
+    {
+      "serviceAddress": "1626 E 78TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-03544"
+    },
+    {
+      "serviceAddress": "8552 S LAFLIN ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02933"
+    },
+    {
+      "serviceAddress": "8149 S MARSHFIELD AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02923"
+    },
+    {
+      "serviceAddress": "6901 S MERRILL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02628"
+    },
+    {
+      "serviceAddress": "9400 S LAFLIN BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02731"
+    },
+    {
+      "serviceAddress": "5012 W JACISON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02698"
+    },
+    {
+      "serviceAddress": "7145 S YATES BLVD",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01609"
+    },
+    {
+      "serviceAddress": "7929 1/2 S STATE STREET BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600079352-00005"
+    },
+    {
+      "serviceAddress": "7701 S STEWART BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02588"
+    },
+    {
+      "serviceAddress": "8202 S DREXEL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02659"
+    },
+    {
+      "serviceAddress": "1619 W 77TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02974"
+    },
+    {
+      "serviceAddress": "8141 S ELLIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299534-00020"
+    },
+    {
+      "serviceAddress": "5019 S CHAMPLAIN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02237"
+    },
+    {
+      "serviceAddress": "1748 E 71ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60636",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02559"
+    },
+    {
+      "serviceAddress": "7549 S YATES BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02614"
+    },
+    {
+      "serviceAddress": "6933 S INDIANA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0602809571-00001"
+    },
+    {
+      "serviceAddress": "617 N CENTRAL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00004"
+    },
+    {
+      "serviceAddress": "7254 S UNIVERSITY AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00727"
+    },
+    {
+      "serviceAddress": "6100 S ARTEIJAN BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0604355805-00004"
+    },
+    {
+      "serviceAddress": "7653 S LOOMIS BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0612728512-00002"
+    },
+    {
+      "serviceAddress": "8001 S MAYST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02651"
+    },
+    {
+      "serviceAddress": "8312 S INSLESIDE AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02970"
+    },
+    {
+      "serviceAddress": "2231 E 71ST TEMP STR",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02637"
+    },
+    {
+      "serviceAddress": "1216 W 83R0 ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02808"
+    },
+    {
+      "serviceAddress": "620 E 51ST ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02120"
+    },
+    {
+      "serviceAddress": "7801 S ESSEX AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02629"
+    },
+    {
+      "serviceAddress": "7829 S PHILLIPS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-05937"
+    },
+    {
+      "serviceAddress": "1509 S KENNETH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60623",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0609142657-00839"
+    },
+    {
+      "serviceAddress": "2433 W 63R0 ST STR",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01930"
+    },
+    {
+      "serviceAddress": "8259 S MARILAND AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02642"
+    },
+    {
+      "serviceAddress": "7400 S YATEL BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02633"
+    },
+    {
+      "serviceAddress": "10719 S CALUMET AVE BLDG 1",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60628",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0602247223-00014"
+    },
+    {
+      "serviceAddress": "3359 W HIRSCH ST BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60651",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02686"
+    },
+    {
+      "serviceAddress": "345 E 72ND ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00011"
+    },
+    {
+      "serviceAddress": "7751 S LOOMIS BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0604355805-00005"
+    },
+    {
+      "serviceAddress": "4720 S DREXEL BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02827"
+    },
+    {
+      "serviceAddress": "7440 S PHILLIPS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02613"
+    },
+    {
+      "serviceAddress": "8100 S THRCOP ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00433"
+    },
+    {
+      "serviceAddress": "7655 S SANGAMON ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0609142657-00001"
+    },
+    {
+      "serviceAddress": "1616 W 80THST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02549"
+    },
+    {
+      "serviceAddress": "7944 S PAULNA ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02622"
+    },
+    {
+      "serviceAddress": "7612 S KINGSTON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02606"
+    },
+    {
+      "serviceAddress": "900 E 82ND ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02612"
+    },
+    {
+      "serviceAddress": "6224 S KINGSTON DR BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00461"
+    },
+    {
+      "serviceAddress": "7120 S WABASH AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01075"
+    },
+    {
+      "serviceAddress": "2826 E 76THPL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02593"
+    },
+    {
+      "serviceAddress": "1321 W 84THST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00010"
+    },
+    {
+      "serviceAddress": "7542 S HALSTED ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02611"
+    },
+    {
+      "serviceAddress": "115 E 59TH STREET BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02730"
+    },
+    {
+      "serviceAddress": "5870 W LAKE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02991"
+    },
+    {
+      "serviceAddress": "7914 S KINGSTON AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02570"
+    },
+    {
+      "serviceAddress": "7800 ESSEX BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02630"
+    },
+    {
+      "serviceAddress": "2157 S CENTKAL PARK AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60623",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00157"
+    },
+    {
+      "serviceAddress": "7920 S EVANS BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00026"
+    },
+    {
+      "serviceAddress": "9001 S COMMERCIAL AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00271"
+    },
+    {
+      "serviceAddress": "8001 S MARSHFIELD AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00011"
+    },
+    {
+      "serviceAddress": "8001 S MARSHFIELD AVE LAUNDRY RC",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00024"
+    },
+    {
+      "serviceAddress": "4815 W MONROE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02887"
+    },
+    {
+      "serviceAddress": "7701 S YATES AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00488"
+    },
+    {
+      "serviceAddress": "1516 W 78TH BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01808"
+    },
+    {
+      "serviceAddress": "1807 S SAINT LOUIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60623",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01339"
+    },
+    {
+      "serviceAddress": "5130 S KING DRIVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60615",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02667"
+    },
+    {
+      "serviceAddress": "6210 S WHIPPLE ST FL 1",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60629",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667632-00345"
+    },
+    {
+      "serviceAddress": "1019 W 80TH BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60620",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600667672-00014"
+    },
+    {
+      "serviceAddress": "7701 S EXCHANGE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00032"
+    },
+    {
+      "serviceAddress": "2225 E 87TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600691934-00003"
+    },
+    {
+      "serviceAddress": "1734 E 72ND ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02996"
+    },
+    {
+      "serviceAddress": "8222 S INGELSIDE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02586"
+    },
+    {
+      "serviceAddress": "4061 W STH BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60624",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02677"
+    },
+    {
+      "serviceAddress": "7802 S MICHGAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02737"
+    },
+    {
+      "serviceAddress": "1605 N AUSTIN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60639",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610619560-00001"
+    },
+    {
+      "serviceAddress": "2043 E 75TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60649",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01676"
+    },
+    {
+      "serviceAddress": "5001 W ADAMS ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-00001"
+    },
+    {
+      "serviceAddress": "11 S AUSTIN BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02595"
+    },
+    {
+      "serviceAddress": "12000 S EGGLESTON BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01347"
+    },
+    {
+      "serviceAddress": "6954 S CALUMET BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00031"
+    },
+    {
+      "serviceAddress": "737 N AUSTIN BLVD BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02619"
+    },
+    {
+      "serviceAddress": "1452 E 68TH ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01053"
+    },
+    {
+      "serviceAddress": "5015 W JACISON BLVD BSMT",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02755"
+    },
+    {
+      "serviceAddress": "9244 S SAGINAW AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60617",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0608299543-00024"
+    }
+  ]
+}

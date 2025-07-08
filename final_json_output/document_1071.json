@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1071",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "524 LANSING ST; CHARLOTTE MI 48813-1116",
+      "accountNumber": "100088141112",
+      "meterNumber": "40062458"
+    }
+  ],
+  "totalUsage": 25040
+}

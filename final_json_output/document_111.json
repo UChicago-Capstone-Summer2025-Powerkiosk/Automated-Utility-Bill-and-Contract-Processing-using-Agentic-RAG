@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_111",
+  "statementDate": "2020-12-17",
+  "totalUsage": 0,
+  "usageHistory": {},
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9649",
+      "serviceProvider": "ENGIE RESOURCES LLC"
+    },
+    {
+      "serviceAddress": "730 E EAST ST",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9647",
+      "serviceProvider": "ENGIE RESOURCES LLC"
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "serviceCityStateZip": "HILLSBORO, OH 45133",
+      "serviceProvider": "ENGIE RESOURCES LLC"
+    }
+  ]
+}

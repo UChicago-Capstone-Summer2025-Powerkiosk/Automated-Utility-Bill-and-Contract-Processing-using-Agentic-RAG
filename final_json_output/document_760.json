@@ -1,0 +1,30 @@
+{
+  "documentType": "contract",
+  "documentId": "document_760",
+  "contractStart": "04/13/2023",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2250 US HWY 1",
+      "city": "S. BRUNSWICK",
+      "state": "NJ",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "390 5th Ave",
+      "city": "JERSEY CITY",
+      "state": "NJ",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "NOT_FOUND",
+      "city": "BRONX",
+      "state": "NY",
+      "accountNumber": "NOT_FOUND",
+      "meterNumber": null
+    }
+  ]
+}

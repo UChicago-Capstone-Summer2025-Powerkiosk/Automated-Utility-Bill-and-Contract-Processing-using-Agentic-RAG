@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_125",
+  "statementDate": "2020-12-17",
+  "totalUsage": 20596.0,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "102 297 586 2",
+      "meterNumber": "0040-621-0595-8846-4"
+    },
+    {
+      "serviceAddress": "214 Hobart Dr Bldg #2",
+      "accountNumber": null,
+      "meterNumber": "0804-0621-0677-9124-0"
+    }
+  ]
+}

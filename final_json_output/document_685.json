@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_685",
+  "statementDate": "August 09, 2021",
+  "usageHistory": {
+    "2020-08": 52000,
+    "2020-09": 50000,
+    "2020-10": 42000,
+    "2020-11": 38000,
+    "2020-12": 40000,
+    "2021-01": 42000,
+    "2021-02": 38000,
+    "2021-03": 40000,
+    "2021-04": 36000,
+    "2021-05": 38000,
+    "2021-06": 42000,
+    "2021-07": 50000,
+    "2021-08": 52000
+  },
+  "locations": [
+    {
+      "serviceAddress": "9 AVENUE AT PORT IMPERIAL BLVD NORTH 1, WEST NEW YORK TOWN NJ 07093",
+      "accountNumber": "4250250318",
+      "meterNumber": "9211544"
+    }
+  ],
+  "totalUsage": 52000
+}

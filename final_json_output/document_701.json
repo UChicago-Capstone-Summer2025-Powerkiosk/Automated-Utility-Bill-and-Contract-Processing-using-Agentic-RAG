@@ -1,0 +1,30 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_701",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2019-03": 3200,
+    "2019-04": 600,
+    "2019-05": 400,
+    "2019-06": 200,
+    "2019-07": 200
+  },
+  "locations": [
+    {
+      "serviceAddress": "Sparta Community Unit School District #140 SPARTA CUSO 140 701 OAK ST EVANSVILLE, IL 62242",
+      "accountNumber": "6814625771",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Sparta Community Unit School District #140 SPARTA CUSO 140 205 W HOOD SPARTA, IL 62286",
+      "accountNumber": "3175137619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "Sparta Community Unit School District #140 SPARTA CUSD 140 119 LEGION DR SPARTA, IL 62286",
+      "accountNumber": "9926229137",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 836916
+}

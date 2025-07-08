@@ -1,0 +1,217 @@
+{
+  "documentType": "contract",
+  "documentId": "document_703",
+  "contractStart": "2025-01-01",
+  "contractEnd": "2025-12-31",
+  "usageHistory": {
+    "2025-01": 193499,
+    "2025-02": 284372,
+    "2025-03": 297298,
+    "2025-04": 279577,
+    "2025-05": 260927,
+    "2025-06": 290348,
+    "2025-07": 321346,
+    "2025-08": 267437,
+    "2025-09": 251522,
+    "2025-10": 266226,
+    "2025-11": 268010,
+    "2025-12": 291479
+  },
+  "locations": [
+    {
+      "serviceAddress": "102-01 66 Rd. GAR (102-01 66 Rd. GAR - SL - 44206800003 - CONED 102-01 66 Rd. GAR - SL - 25591915)",
+      "accountNumber": "44206800003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "220 E 67 St. GAR (220 E 67 St. GAR - SL - 44513560001 - CONED - 220 E 67 St. GAR - SL - 4210290015)",
+      "accountNumber": "44513560001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "East 20th St., and FDR (East 20th St., and FDR - SL - 46079040005 CONED - East 20th St., and FDR SL)",
+      "accountNumber": "46079040005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "405 E 63 St Lot (405 E 63 St Lot - SL - 55249530001 - CONED - 405 E 63 St Lot - SL - 422005077530)",
+      "accountNumber": "55249530001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "267 W 47th St GAR (267 W 47th St GAR - SL - 58496260009 - CONED 267 W 47th St GAR - SL - 44202715)",
+      "accountNumber": "58496260009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "41689 Ave LOT (4168 9 Ave LOT SL - 60401910009 - CONED - 4168 9 Ave LOT - SL - 48112113850101)",
+      "accountNumber": "60401910009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "38 W. 46th St. GAR (38 W. 46th St. GAR - SL - 63168300000 - CONED 38 W. 46th St. GAR - SL - 441105)",
+      "accountNumber": "63168300000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "333 E 79 ST GAR (333 E 79 ST GAR - SL - 64975340007 - CONED - 333 E 79 ST GAR - SL - 423113041900)",
+      "accountNumber": "64975340007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 Henry St GAR (71 Henry St GAR - SL - 65082540009 - CONED - 71 Henry St GAR - SL - 611401181801)",
+      "accountNumber": "65082540009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "201 E. 79 St BSMT (201 E. 79 St BSMT - SL - 66020610003 - CONED - 201 E. 79 St BSMT - SL 42611308)",
+      "accountNumber": "66020610003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5876 Ave Lot (587 6 Ave Lot - SL 69092350003 - CONED - 587 6 Ave Lot - SL - 433113295000010)",
+      "accountNumber": "69092350003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "133 W. 22nd St. GAR (133 W. 22nd St. GAR - SL - 69951460000 CONED - 133 W. 22nd St. GAR - SL - 4321)",
+      "accountNumber": "69951460000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2500 Johnson Ave GAR (2500 Johnson Ave GAR - SL 71721450006 - CONED - 2500 Johnson Ave GAR - SL - 32)",
+      "accountNumber": "71721450006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1900 Archer Rd. GAR (1900 Archer Rd. GAR - SL - 74678930004 CONED - 1900 Archer Rd. GAR - SL - 3020)",
+      "accountNumber": "74678930004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "39-00 138 ST PARK (SP Plus Corporation)",
+      "accountNumber": "75505437170",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "10 W 29 St. Lot (10 W 29 St. Lot - SL - 75548850009 - CONED - 10 W 29 St. Lot - SL - 434019001305)",
+      "accountNumber": "75548850009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2040 E Tremont Ave GAR (2040 E Tremont Ave GAR - SL 77109540003 - CONED - 2040 E Tremont Ave GAR - SL)",
+      "accountNumber": "77109540003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "37 W. 12 St. GAR (37 W. 12 St. GAR - SL - 79438130001 - CONED - 37 W. 12 St. GAR - SL - 4341110400)",
+      "accountNumber": "79438130001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "222 E 65 St GAR (222 E 65 St GAR - SL - 82301030001 - CONED - 222 E 65 St GAR - SL - 427327096500)",
+      "accountNumber": "82301030001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5157 Ave GAR (515 7 Ave GAR - SL - 82446850008 - CONED - 515 7 Ave GAR - SL - 435121677301003)",
+      "accountNumber": "82446850008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "467 W. 165 St. PKLT (467 W. 165 St. PKLT - SL - 86606130002 - CONED - 467 W. 165 St. PKLT - SL - 4842)",
+      "accountNumber": "86606130002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "120 W. 21st St GAR (120 W. 21st St GAR - SL - 88486420008 - CONED 120 W. 21st St GAR - SL - 436015)",
+      "accountNumber": "88486420008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "22-22 Jackson Ave GAR (22-22 Jackson Ave GAR - SL -",
+      "accountNumber": "93969210009",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "115 E 87 St GAR (Central Parking Corp)",
+      "accountNumber": "00973360001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "134 W. 51 St. ENT (134 W. 51 St. ENT - SL - 05477820004 - CONED 134 W. 51 St. ENT - SL - 44130700)",
+      "accountNumber": "05477820004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "545 E 116th St. Office (545 E 116th St. Office - SL - 07232900006 CONED - 545 E 116th St. Office SL)",
+      "accountNumber": "07232900006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 CHAMBERS ST (SP Plus Corporation)",
+      "accountNumber": "09281720004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "301 E. 66 St. GAR (301 E. 66 St. GAR - SL - 11449510004 - CONED 301 E. 66 St. GAR - SL - 42210701)",
+      "accountNumber": "11449510004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "101 W. 56th St GAR (101 W. 56th St GAR - SL - 11809830000 - CONED 101 W. 56th St GAR - SL - 441131)",
+      "accountNumber": "11809830000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "25 Union Square LOT (25 Union Square LOT - SL - 13412430004 CONED - 25 Union Square LOT - SL - 4150)",
+      "accountNumber": "13412430004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1500 Unionport Road GAR (1500 Unionport Road GAR - SL - 25904640007 - CONED - 1500 Unionport Road GAR - S)",
+      "accountNumber": "25904640007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "215 E. 80 St. GAR (215 E. 80 St. GAR - SL - 28230710007 - CONED 215 E. 80 St. GAR - SL - 42503504)",
+      "accountNumber": "28230710007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "154 E. 53 St GAR (154 E. 53 St GAR - SL - 30573610000 - CONED - 154 E. 53 St GAR - SL - 4241011440)",
+      "accountNumber": "30573610000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "40 W. 53 St. GARG (40 W. 53 St. GARG - SL - 31205300002 - CONED - 40 W. 53 St. GARG - SL 44110905)",
+      "accountNumber": "31205300002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "711 W. End Ave GAR (711 W. End Ave GAR - SL - 34383610002 CONED - 711 W. End Ave GAR - SL - 473305)",
+      "accountNumber": "34383610002",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "189 W. 89 St. GAR (189 W. 89 St. GAR - SL - 34493020001 - CONED 189 W. 89 St. GAR - SL - 47212304)",
+      "accountNumber": "34493020001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8006 Ave 3STO (8006 Ave 3STO SL - 38539540005 - CONED - 8006 Ave 3STO - SL - 43211577650000)",
+      "accountNumber": "38539540005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "20 Morton Street ENT (20 Morton Street ENT - SL - 38763500006 CONED - 20 Morton Street ENT - SL - 43)",
+      "accountNumber": "38763500006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "270 Greenwich St. GAR (270 Greenwich St. GAR - SL 39065250001 - CONED - 270 Greenwich St. GAR - SL -)",
+      "accountNumber": "39065250001",
+      "meterNumber": null
+    }
+  ]
+}

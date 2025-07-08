@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1107",
+  "statementDate": "2021-12-13",
+  "usageHistory": {
+    "2021-01": 70,
+    "2021-02": 70,
+    "2021-03": 105,
+    "2021-04": 105,
+    "2021-05": 35,
+    "2021-06": 105,
+    "2021-07": 140,
+    "2021-08": 140,
+    "2021-09": 70,
+    "2021-10": 35,
+    "2021-11": 35
+  },
+  "locations": [
+    {
+      "serviceAddress": "314 CHERRY LANE RD, KITCHEN, EAST STROUDSBURG, PA 18301",
+      "accountNumber": "27133-77034",
+      "meterNumber": "300957831"
+    }
+  ],
+  "totalUsage": 868
+}

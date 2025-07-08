@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1153",
+  "statementDate": "06/23/2023",
+  "usageHistory": {
+    "2022-06": 13.5,
+    "2023-05": 93.6,
+    "2023-06": 15.4
+  },
+  "locations": [
+    {
+      "serviceAddress": "1501 N Ironwood Dr, South Bend IN 46635-1841",
+      "accountNumber": "724-320-001-6",
+      "meterNumber": "G0000055"
+    }
+  ],
+  "totalUsage": 15.4
+}

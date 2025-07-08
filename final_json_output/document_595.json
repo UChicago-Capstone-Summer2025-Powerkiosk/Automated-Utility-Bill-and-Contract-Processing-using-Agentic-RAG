@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_595",
+  "statementDate": "02/01/18",
+  "usageHistory": {
+    "2018-01": 2338.82,
+    "2018-02": 2248
+  },
+  "locations": [
+    {
+      "serviceAddress": "8000 W 59th St Summit",
+      "accountNumber": "60-84-64-1310 6",
+      "meterNumber": "4498699"
+    }
+  ],
+  "totalUsage": 2338.82
+}

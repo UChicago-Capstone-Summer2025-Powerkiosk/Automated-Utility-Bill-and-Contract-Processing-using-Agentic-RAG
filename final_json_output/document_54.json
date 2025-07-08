@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_54",
+  "statementDate": "Aug 14, 2024",
+  "totalUsage": null,
+  "locations": [
+    {
+      "serviceAddress": "ISS TOWN CENTER DR, YORK PA 17408",
+      "accountNumber": "0805254769.0007450175",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

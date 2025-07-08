@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1102",
+  "statementDate": "2021-12-13",
+  "usageHistory": {
+    "2021-01": 190,
+    "2021-02": 160,
+    "2021-03": 130,
+    "2021-04": 110,
+    "2021-05": 90,
+    "2021-06": 70,
+    "2021-07": 60,
+    "2021-08": 60,
+    "2021-09": 80,
+    "2021-10": 90,
+    "2021-11": 100,
+    "2021-12": 130
+  },
+  "locations": [
+    {
+      "serviceAddress": "RR1 UNIT 36A, LAUNDRY BUILDING, HENRYVILLE, PA 18332",
+      "accountNumber": "21671-36014",
+      "meterNumber": "300771924"
+    }
+  ],
+  "totalUsage": 2846
+}

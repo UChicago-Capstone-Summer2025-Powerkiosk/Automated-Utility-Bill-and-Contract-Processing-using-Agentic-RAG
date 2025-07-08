@@ -1,0 +1,72 @@
+{
+  "documentType": "contract",
+  "documentId": "document_8",
+  "contractStart": "2019-08-01",
+  "contractEnd": "2020-07-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "6236 S ARTESIAN AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60636",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0600079352-00003",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "8251 S ELLIS AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60619",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02598",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "7003 S HARPER AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60637",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02635",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "5500 W VAN BUREN ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-01773",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "5948 W SUPERIOR ST BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02631",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "13244 S INDIANA AVE BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60827",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02787",
+      "rateClass": "Choice"
+    },
+    {
+      "serviceAddress": "729 N CENTRAL BLDG",
+      "city": "CHICAGO",
+      "state": "IL",
+      "zip": "60644",
+      "utility": "Peoples",
+      "utilityAccountNumber": "0610877223-02601",
+      "rateClass": "Choice"
+    }
+  ]
+}

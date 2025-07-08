@@ -1,0 +1,13 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_113",
+  "statementDate": "2020-12-17",
+  "totalUsage": 234720,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2",
+      "serviceCityStateZip": "HILLSBORO, OH 45133-9467",
+      "accountNumber": "102-207-586-2-6"
+    }
+  ]
+}

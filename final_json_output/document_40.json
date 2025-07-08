@@ -1,0 +1,35 @@
+{
+  "documentType": "contract",
+  "documentId": "document_40",
+  "contractStart": "2021-04-01",
+  "contractEnd": "2021-08-01",
+  "usageHistory": {
+    "2021-04": 1100004,
+    "2021-05": 2104289,
+    "2021-06": 1672888,
+    "2021-07": 1792210,
+    "2021-08": 817922
+  },
+  "locations": [
+    {
+      "serviceAddress": "193 E SENECA ST SHOP",
+      "accountNumber": "0921097083",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2140 COUNTY ROUTE 1 ELEC",
+      "accountNumber": "1319937142",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "45 E 12TH ST",
+      "accountNumber": "6281338141",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "45 E 12TH ST",
+      "accountNumber": "6321338154",
+      "meterNumber": null
+    }
+  ]
+}

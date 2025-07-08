@@ -1,0 +1,43 @@
+{
+  "documentType": "contract",
+  "documentId": "document_386",
+  "contractStart": "2017-06",
+  "contractEnd": "2022-06",
+  "locations": [
+    {
+      "serviceAddress": "9480 North De Mazennod Drive, Belleville, IL 62223",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "1863440179"
+    },
+    {
+      "serviceAddress": "442 S. DeMazenod Dr, Belleville, IL 62223",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "3778259211"
+    },
+    {
+      "serviceAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "4969124655"
+    },
+    {
+      "serviceAddress": "4300 Levis Ln BLDG, Maintenance Bldg, Godfrey, IL 62035",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "6765807114"
+    },
+    {
+      "serviceAddress": "4300 Levis Ln, Godfrey, IL 62035",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "7765807113"
+    },
+    {
+      "serviceAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "8550254731"
+    },
+    {
+      "serviceAddress": "9500 W State Route 15, Belleville, IL 62223",
+      "billingAddress": "442 S. DeMazenod Dr., Belleville, IL 62223",
+      "accountNumber": "9946931054"
+    }
+  ]
+}

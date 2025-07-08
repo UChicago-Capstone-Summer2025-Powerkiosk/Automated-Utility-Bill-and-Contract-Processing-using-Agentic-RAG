@@ -1,0 +1,46 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_509",
+  "statementDate": "2024-10-16",
+  "totalUsage": 914.5,
+  "usageHistory": {
+    "2023-05": 204,
+    "2023-06": 225,
+    "2023-07": 16,
+    "2023-08": 17,
+    "2023-09": 18,
+    "2023-10": 15
+  },
+  "locations": [
+    {
+      "serviceAddress": "4951 CHERRY AVE BLDG 14",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "1006953539"
+    },
+    {
+      "serviceAddress": "4951 CHERRY AVE",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "1006951981"
+    },
+    {
+      "serviceAddress": "4951 CHERRY AVE",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "1010072948"
+    },
+    {
+      "serviceAddress": "4951 CHERRY AVE",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "60895002"
+    },
+    {
+      "serviceAddress": "4951 CHERRY AVE",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "61098214"
+    },
+    {
+      "serviceAddress": "4951 CHERRY AVE",
+      "accountNumber": "4736522048-3",
+      "meterNumber": "715022C"
+    }
+  ]
+}

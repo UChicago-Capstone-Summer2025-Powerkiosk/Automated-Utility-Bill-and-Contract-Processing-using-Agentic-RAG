@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_117",
+  "statementDate": "12/17/20",
+  "totalUsage": "0.00",
+  "locations": [
+    {
+      "serviceAddress": "214 Hobart Dr",
+      "serviceCity": "Hillsboro",
+      "serviceState": "OH",
+      "serviceZip": "45133-9649",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": "0040-621-0595-8846-4"
+    }
+  ]
+}

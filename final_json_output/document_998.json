@@ -1,0 +1,58 @@
+{
+  "documentType": "contract",
+  "documentId": "document_998",
+  "contractStart": "2024-03-01",
+  "contractEnd": "2026-04-30",
+  "usageHistory": {
+    "2024-01": 32264,
+    "2024-02": 26928,
+    "2024-03": 18205,
+    "2024-04": 8365,
+    "2024-05": 561,
+    "2024-06": 124,
+    "2024-07": 142,
+    "2024-08": 265,
+    "2024-09": 1121,
+    "2024-10": 7096,
+    "2024-11": 18781,
+    "2024-12": 23775,
+    "2025-01": 32264,
+    "2025-02": 26928,
+    "2025-03": 18205,
+    "2025-04": 8365,
+    "2025-05": 561,
+    "2025-06": 124,
+    "2025-07": 142,
+    "2025-08": 265,
+    "2025-09": 1121,
+    "2025-10": 7096,
+    "2025-11": 18781,
+    "2025-12": 23775,
+    "2026-01": 32264,
+    "2026-02": 26928,
+    "2026-03": 18205,
+    "2026-04": 8365
+  },
+  "locations": [
+    {
+      "serviceLocationName": "Standard Aero Business Aviation Services LLC",
+      "address": "1200 North Airport Road",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62707",
+      "utility": "Ameren",
+      "accountNumber": "12052-94330",
+      "rateClass": "GDS-4"
+    },
+    {
+      "serviceLocationName": "Standard Aero Business Aviation Services LLC dba Garrett Aviation Services",
+      "address": "1200 North Airport Road",
+      "city": "Springfield",
+      "state": "IL",
+      "zip": "62702",
+      "utility": "Ameren",
+      "accountNumber": "9830316894",
+      "rateClass": "GDS-5"
+    }
+  ]
+}

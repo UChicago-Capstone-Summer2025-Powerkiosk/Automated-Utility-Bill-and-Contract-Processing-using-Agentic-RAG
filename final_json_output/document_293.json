@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_293",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2023-12": 670,
+    "2024-01": 620,
+    "2024-02": 560,
+    "2024-03": 530,
+    "2024-04": 570,
+    "2024-05": 1020,
+    "2024-06": 0,
+    "2024-07": 340,
+    "2024-08": 350,
+    "2024-09": 1290,
+    "2024-10": 2450,
+    "2024-11": 1260,
+    "2024-12": 420
+  },
+  "locations": [
+    {
+      "serviceAddress": "1517 BERLIN TPKE BERLIN CT 00037",
+      "accountNumber": "51705123099",
+      "meterNumber": "890479712"
+    }
+  ],
+  "totalUsage": 420
+}

@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_136",
+  "statementDate": "12/17/20",
+  "totalUsage": 720.0,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR BLDG #2, HILLSBORO, OH 45133-9467",
+      "accountNumber": "102-207-586-2-6",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "108 HOMESTEAD AVE, HILLSBORO, OH 45133-7940",
+      "accountNumber": "102 297 546 2",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

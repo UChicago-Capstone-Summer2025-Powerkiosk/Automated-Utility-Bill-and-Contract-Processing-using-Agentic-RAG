@@ -1,0 +1,97 @@
+{
+  "documentType": "contract",
+  "documentId": "document_736",
+  "contractStart": "2024-04-30",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2024-01": 1210,
+    "2024-02": 1120,
+    "2024-03": 1210,
+    "2024-04": 1120,
+    "2024-05": 1210,
+    "2024-06": 1120,
+    "2024-07": 610,
+    "2024-08": 610,
+    "2024-09": 680,
+    "2024-10": 680,
+    "2024-11": 810,
+    "2024-12": 880
+  },
+  "locations": [
+    {
+      "address": "16308 th St, Golden, CO 80401",
+      "accountNumber": "304877324",
+      "meterNumber": null
+    },
+    {
+      "address": "14108 th St, Golden, CO 80401",
+      "accountNumber": "304362424",
+      "meterNumber": null
+    },
+    {
+      "address": "14108 th St, Golden, CO 80401",
+      "accountNumber": "304362425",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304725019",
+      "meterNumber": null
+    },
+    {
+      "address": "5706 Taber St, Arvada, CO 80002",
+      "accountNumber": "304741419",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304729859",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304730099",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304733616",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304735401",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304740776",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304741785",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304765018",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304753753",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304753979",
+      "meterNumber": null
+    },
+    {
+      "address": "5705 Simms St, Arvada, CO 80002",
+      "accountNumber": "304754042",
+      "meterNumber": null
+    }
+  ]
+}

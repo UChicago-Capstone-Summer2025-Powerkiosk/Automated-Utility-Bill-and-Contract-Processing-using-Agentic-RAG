@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_479",
+  "statementDate": "04/24/23",
+  "usageHistory": {
+    "2022-04": 450,
+    "2022-05": 500,
+    "2022-06": 550,
+    "2022-07": 600,
+    "2022-08": 550,
+    "2022-09": 500,
+    "2022-10": 450,
+    "2022-11": 400,
+    "2022-12": 350,
+    "2023-01": 300,
+    "2023-02": 350,
+    "2023-03": 400,
+    "2023-04": 500
+  },
+  "locations": [
+    {
+      "serviceAddress": "560 BEL MONT AVE SPRINGFIELD MA 01108",
+      "accountNumber": "54598896017",
+      "meterNumber": "892903912"
+    }
+  ],
+  "totalUsage": 16935
+}

@@ -1,0 +1,74 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1131",
+  "contractStart": "2024-10",
+  "contractEnd": "2028-10",
+  "locations": [
+    {
+      "serviceAddress": "706 Lincolnway W Mishawaka, IN 46544",
+      "accountNumber": "5026900065",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3903 Portage Rd STE H South Bend, IN 46628",
+      "accountNumber": "4760350092",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "210 Easy Shopping Elkhart, IN 46516",
+      "accountNumber": "1886300035",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2148 N Karwick Rd Long Beach, IN 46360",
+      "accountNumber": "8011450040",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "618 W Lincoln Ave Goshen, IN 46526",
+      "accountNumber": "2293310068",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1501 N Ironwood Dr South Bend, IN 46635",
+      "accountNumber": "7243200016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4650 Miami St South Bend, IN 46614",
+      "accountNumber": "6113740091",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "186 Easy Shopping Pl Elkhart, IN 46516",
+      "accountNumber": "7231300065",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "186 Easy Shopping Pl Elkhart, IN 46516",
+      "accountNumber": "0231300099",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5836 Grape Rd Mishawaka, IN 46545",
+      "accountNumber": "0016800062",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2006 S Plate St Kokomo, IN 46902",
+      "accountNumber": "8064950017",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2862 Miller Dr Plymouth, IN 46563",
+      "accountNumber": "3338360023",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3805 E US Highway 30 Warsaw, IN 46580",
+      "accountNumber": "3391710056",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

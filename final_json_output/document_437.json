@@ -1,0 +1,20 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_437",
+  "statementDate": "05/24/2024",
+  "usageHistory": {
+    "2024-01": 36,
+    "2024-02": 37,
+    "2024-03": 44,
+    "2024-04": 48,
+    "2024-05": 58
+  },
+  "locations": [
+    {
+      "serviceAddress": "50 CORPORATE DR FP TRUMBULL, CT 08811",
+      "accountNumber": "010-0001432-8032",
+      "meterNumber": "011219936"
+    }
+  ],
+  "totalUsage": 0
+}

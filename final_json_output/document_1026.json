@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1026",
+  "statementDate": "May 27, 2022",
+  "usageHistory": {
+    "2021-05": 37688,
+    "2021-06": 52763,
+    "2021-07": 60300,
+    "2021-08": 67838,
+    "2021-09": 60300,
+    "2021-10": 52763,
+    "2021-11": 45225,
+    "2021-12": 37688,
+    "2022-01": 30150,
+    "2022-02": 22613,
+    "2022-03": 30150,
+    "2022-04": 37688,
+    "2022-05": 45225
+  },
+  "locations": [
+    {
+      "serviceAddress": "STANDARD AERO, 11420 MOSTELLER RD CINCINNATI OH 45241",
+      "accountNumber": "910119000311",
+      "meterNumber": "108124188"
+    }
+  ],
+  "totalUsage": 40098.88
+}

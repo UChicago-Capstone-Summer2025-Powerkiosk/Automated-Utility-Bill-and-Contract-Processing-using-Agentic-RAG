@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_808",
+  "statementDate": "2022-05-24",
+  "totalUsage": 24185,
+  "usageHistory": {
+    "2021-05": 23879,
+    "2021-06": 22876,
+    "2021-07": 23718,
+    "2021-08": 22420,
+    "2021-09": 21574,
+    "2021-10": 21800,
+    "2021-11": 33396,
+    "2021-12": 40021,
+    "2022-01": 50132,
+    "2022-02": 42432,
+    "2022-03": 37305,
+    "2022-04": 36028,
+    "2022-05": 24185
+  },
+  "locations": [
+    {
+      "serviceAddress": "519 MCCLURE ST UNIT E, GALESBURG, IL 61401",
+      "accountNumber": "2361528016",
+      "meterNumber": null
+    }
+  ]
+}

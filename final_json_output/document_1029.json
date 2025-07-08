@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1029",
+  "statementDate": "2022-06-03",
+  "totalUsage": 165738,
+  "usageHistory": {
+    "2021-05": 99480,
+    "2021-06": null,
+    "2021-07": null,
+    "2021-08": null,
+    "2021-09": null,
+    "2021-10": null,
+    "2021-11": null,
+    "2021-12": null,
+    "2022-01": null,
+    "2022-02": null,
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": 165738
+  },
+  "locations": [
+    {
+      "serviceAddress": "11550 MOSTELLER RD, SHARONVILLE OH 45241-1832",
+      "accountNumber": "910119000262",
+      "meterNumber": "320433291"
+    },
+    {
+      "serviceAddress": "11490 MOSTELLER RD, CINCINNATI OH 45241",
+      "accountNumber": "910119000262",
+      "meterNumber": "108105546"
+    }
+  ]
+}

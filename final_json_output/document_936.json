@@ -1,0 +1,26 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_936",
+  "statementDate": "2022-12-07",
+  "usageHistory": {
+    "2021-12": 1125,
+    "2022-01": 1125,
+    "2022-03": 1500,
+    "2022-04": 1125,
+    "2022-05": 750,
+    "2022-06": 750,
+    "2022-07": 375,
+    "2022-08": 375,
+    "2022-09": 375,
+    "2022-10": 750,
+    "2022-11": 1125
+  },
+  "locations": [
+    {
+      "serviceAddress": "3440 EL CAMINO REAL SANTA CLARA, CA 95051",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 507
+}

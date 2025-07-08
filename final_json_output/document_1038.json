@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1038",
+  "statementDate": "NOT_FOUND",
+  "totalUsage": 28389,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2777 Walden Avenue, Buffalo, NY 14225",
+      "accountNumber": "200006422",
+      "meterNumber": null
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_248",
+  "statementDate": "12/13/23",
+  "usageHistory": {
+    "2023-12": {
+      "onPeak": 12480,
+      "offPeak": 31360
+    },
+    "2024-01": {
+      "onPeak": 13120,
+      "offPeak": 34720
+    },
+    "2024-02": {
+      "onPeak": 11840,
+      "offPeak": 29760
+    },
+    "2024-03": {
+      "onPeak": 12160,
+      "offPeak": 30880
+    },
+    "2024-04": {
+      "onPeak": 11840,
+      "offPeak": 31200
+    },
+    "2024-05": {
+      "onPeak": 13760,
+      "offPeak": 31840
+    },
+    "2024-07": {
+      "onPeak": 18880,
+      "offPeak": 46880
+    },
+    "2024-08": {
+      "onPeak": 19200,
+      "offPeak": 52480
+    },
+    "2024-09": {
+      "onPeak": 19200,
+      "offPeak": 47840
+    },
+    "2024-10": {
+      "onPeak": 16000,
+      "offPeak": 37760
+    },
+    "2024-11": {
+      "onPeak": 13120,
+      "offPeak": 34560
+    },
+    "2024-12": {
+      "onPeak": 14240,
+      "offPeak": 36320
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "240 KENSINGTON RD KENSINGTON DT 06937",
+      "accountNumber": "51600913073",
+      "meterNumber": "081241711"
+    }
+  ],
+  "totalUsage": 50560
+}

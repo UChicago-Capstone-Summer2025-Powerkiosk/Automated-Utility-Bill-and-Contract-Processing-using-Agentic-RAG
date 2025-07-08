@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_129",
+  "statementDate": "12/17/20",
+  "totalUsage": 103,
+  "locations": [
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "102 207 586 2",
+      "meterNumber": "MCS9287"
+    },
+    {
+      "serviceAddress": "214 Hobart Dr Bldg #2",
+      "accountNumber": "102 207 586 2",
+      "meterNumber": null
+    }
+  ],
+  "usageHistory": null
+}

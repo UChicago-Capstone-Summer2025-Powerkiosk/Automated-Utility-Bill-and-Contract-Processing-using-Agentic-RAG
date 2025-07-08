@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1069",
+  "statementDate": "September 2021",
+  "usageHistory": {
+    "2021-09": 30400,
+    "2021-08": "NOT_FOUND",
+    "2021-07": "NOT_FOUND",
+    "2021-06": "NOT_FOUND",
+    "2021-05": "NOT_FOUND",
+    "2021-04": "NOT_FOUND",
+    "2021-03": "NOT_FOUND",
+    "2021-02": "NOT_FOUND",
+    "2021-01": "NOT_FOUND",
+    "2020-12": "NOT_FOUND",
+    "2020-11": "NOT_FOUND",
+    "2020-10": "NOT_FOUND"
+  },
+  "locations": [
+    {
+      "serviceAddress": "2530 S STATE RD IONIA MI 48846-8415",
+      "accountNumber": "103040260582",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 30400
+}

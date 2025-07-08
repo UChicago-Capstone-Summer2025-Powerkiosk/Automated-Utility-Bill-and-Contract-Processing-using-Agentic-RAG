@@ -1,0 +1,97 @@
+{
+  "documentType": "contract",
+  "documentId": "document_176",
+  "contractStart": "2017-12",
+  "contractEnd": "2018-11",
+  "usageHistory": {
+    "2017-12": 97048,
+    "2018-01": 97048,
+    "2018-02": 97048,
+    "2018-03": 97048,
+    "2018-04": 97048,
+    "2018-05": 97048,
+    "2018-06": 97048,
+    "2018-07": 97048,
+    "2018-08": 97048,
+    "2018-09": 97048,
+    "2018-10": 97048,
+    "2018-11": 97048
+  },
+  "locations": [
+    {
+      "accountNumber": "3201271000",
+      "serviceAddress": "901 Maple Avenue Evanston, IL 60202",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "4753740004",
+      "serviceAddress": "5547 N. Kenmore Avenue, Chicago, IL 60640",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "4554398019",
+      "serviceAddress": "1660 Oakton Place, Des Plaines, IL 60018",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "4554397021",
+      "serviceAddress": "1055 Oakton Place, Dee Plaines, IL 60016",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "8230438001",
+      "serviceAddress": "7733 W. Grand Ave Elmwood Park, IL 80707",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "840113036",
+      "serviceAddress": "21020 Kostine: Avenue Matieson, IL 60433",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "614278003",
+      "serviceAddress": "601 S. Austin Blvd. Chicago, IL 65644",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "3194127D13",
+      "serviceAddress": "1406 N Chicago Avenue Unit B, Evanston, IL 60201",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "642017034",
+      "serviceAddress": "811 W. 2nd Street, Byron, IL 61010",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "2624771028",
+      "serviceAddress": "6625-3 Niles, IL 60714",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "4747511005",
+      "serviceAddress": "4544 N. Hazel Chicago, IL 60640",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "776187010",
+      "serviceAddress": "8540 N. Lincoln Avenue Lincolnwood, IL 60712",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0778188017",
+      "serviceAddress": "6834 M Lincoln Ave, Lincolnwood, IL 60172",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0776211002",
+      "serviceAddress": "4100 W Pratt Ave, Lincolnwood, IL 60172",
+      "meterNumber": null
+    },
+    {
+      "accountNumber": "0776193018",
+      "serviceAddress": "6840 N Lincoln Ave, Lincolnwood, IL 60172",
+      "meterNumber": null
+    }
+  ]
+}

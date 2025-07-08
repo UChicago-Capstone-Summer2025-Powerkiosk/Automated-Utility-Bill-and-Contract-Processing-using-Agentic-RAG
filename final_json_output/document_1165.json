@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1165",
+  "statementDate": "08/01/2017",
+  "totalUsage": 110,
+  "usageHistory": {
+    "2017-07": 110
+  },
+  "locations": [
+    {
+      "serviceAddress": "150 W MAPLE ST FL 1, CHICAGO IL 60610-5433",
+      "accountNumber": "0609218381-00002",
+      "meterNumber": "P1902824"
+    }
+  ]
+}

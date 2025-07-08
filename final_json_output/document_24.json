@@ -1,0 +1,394 @@
+{
+  "documentType": "contract",
+  "documentId": "document_24",
+  "contractStart": "2024-01",
+  "contractEnd": "2024-04",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "7708 N STATE ROUTE 91, PEORIA, IL 61615",
+      "accountNumber": "0050158014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 PALM AVE, MATTOON, IL 61938",
+      "accountNumber": "0135000326",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7806 N STATE RT91, PEORIA, IL 61615",
+      "accountNumber": "0171040047",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7708 N STATE ROUTE 91,, PEORIA, IL 61615",
+      "accountNumber": "0200004011",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "415 E MAIN ST, Knoxville, IL 61448",
+      "accountNumber": "0575149021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "900 S CHESTNUT, PANA, IL 62557",
+      "accountNumber": "0576004130",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "614 N SUMMIT AVE, COLLINSVILLE, IL 62234",
+      "accountNumber": "0699560001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2ND AVE 2ND & E MAPLE, CANTON, IL 61520",
+      "accountNumber": "0747086012",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "410 FLETCHER ST, JERSEYVILLE, IL 62025",
+      "accountNumber": "0814008523",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "145 E DIVISION ST, KEWANEE, IL 61443",
+      "accountNumber": "1119459003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1201 N ALTON ST, LEBANON, IL 62254",
+      "accountNumber": "1382265001",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8400 N. Orange Prairie Road, Peoria, IL 60615",
+      "accountNumber": "1659012035",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "601 N MORGAN ST, BEMENT, IL 61813",
+      "accountNumber": "1725115619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "406 ELM, BRADFORD, IL 61421",
+      "accountNumber": "1733013000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 COURTYARD ESTATES, GALVA, IL 61434",
+      "accountNumber": "1875051057",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "580 S MAPLE ST, PIPER CITY, IL 60959",
+      "accountNumber": "2127001936",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 PALM AVE, MATTOON, IL 61938",
+      "accountNumber": "2135000529",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1223 E SCIOTA AVE, PEORIA HEIGHTS, IL 61616",
+      "accountNumber": "2179158019",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "508 N WILSON ST, ENFIELD, IL 62835",
+      "accountNumber": "2359914012",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 WHITE ST, MT VERNON, IL 62864",
+      "accountNumber": "2465492008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1700 WHITE ST, MOUNT VERNON, IL 62864",
+      "accountNumber": "2465492044",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7708 N STATE ROUTE 91, PEORIA, IL 61615",
+      "accountNumber": "2474007428",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "860 SUNSET DR, KEWANEE, IL 61443",
+      "accountNumber": "2496543217",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7601 N ORANGE PRAIRIE RD, Peoria, IL 61615",
+      "accountNumber": "2499065031",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5300 W LANDENS WAY, PEORIA, IL 61615",
+      "accountNumber": "2663107032",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5 DOCTORS PARK RD, MOUNT VERNON, IL 62864",
+      "accountNumber": "2938045015",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "600 MAPLE ST, PIPER CITY, IL 60959",
+      "accountNumber": "3127001034",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "170 W CONCORD P1, SHELDON, IL 60966",
+      "accountNumber": "3237000728",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "145 S CHAMBERLAIN ST, ROSEVILLE, IL 61473",
+      "accountNumber": "3253009021",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2220 STATE ST, PEKIN, IL 61554",
+      "accountNumber": "3267401007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "129 S 1ST AVE ELE, CANTON, IL 61520",
+      "accountNumber": "3314000510",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1 AMERICINN HWY, MONMOUTH, IL 61462",
+      "accountNumber": "3363056084",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "909 WESTGATE DR ENTRANCE LITES, KEWANEE, IL 61443",
+      "accountNumber": "3363058037",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "502 N MAIN ST, BRIGHTON, IL 62012",
+      "accountNumber": "3459224979",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "52 OLD ROUTE 45, LOUISVILLE, IL 62858",
+      "accountNumber": "3506000619",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1400 E WASHINGTON ST, PITTSFIELD, IL 62363",
+      "accountNumber": "4143003733",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "201 E FALCON HWY, FLANAGAN, IL 61740",
+      "accountNumber": "4182921008",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "129 S 1ST AVE ELE, CANTON, IL 61520",
+      "accountNumber": "4314000617",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "850 E 2ND ST, EL PASO, IL 61738",
+      "accountNumber": "4568802574",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1315 CURT DR, CHAMPAIGN, IL 61801",
+      "accountNumber": "4729429003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "901 E MAIN ST, TOULON, IL 61483",
+      "accountNumber": "4780509054",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "605 E CHURCH ST, KEWANEE, IL 61443",
+      "accountNumber": "5133144653",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "412 MAIN ST, BRIGHTON, IL 62012",
+      "accountNumber": "5232141932",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5 DOCTORS PARK RD, MOUNT VERNON, IL 62864",
+      "accountNumber": "5250472014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "830 W TRAILCREEK RD, PEORIA, IL 61614",
+      "accountNumber": "5435075012",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "200 N SCHRADER ST, HAVANA, IL 62644",
+      "accountNumber": "5494008627",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1000 W SLOAN ST, HARRISBURG, IL 62946",
+      "accountNumber": "5592001723",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5309 W LANDENS WAY, PEORIA, IL 61615",
+      "accountNumber": "5617108016",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71618 TH ST, CHARLESTON, IL 61920",
+      "accountNumber": "5635008126",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "715 E RAYMOND RD, WAKSEKA, IL 60970",
+      "accountNumber": "5637002734",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1200 W BROADWAY ST, MONMOUTH, IL 61462",
+      "accountNumber": "5683145004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1 COURTYARD, MONMOUTH, IL 61462",
+      "accountNumber": "6038922090",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "104 N US HIGHWAY 45, CISNE, IL 62823",
+      "accountNumber": "6075002834",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "104 E ASHLAND S, MORTON, IL 61550",
+      "accountNumber": "6346347030",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1500 W SAINT LOUIS AVE, VANDALIA, IL 62471",
+      "accountNumber": "6444159003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "422 E FOURTH SOUTH ST, ARCOLA, IL 61910",
+      "accountNumber": "6466003718",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "144 JUNIOR AVE, KEWANEE, IL 61443",
+      "accountNumber": "6622332978",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "136 S DIPPER LN, DECATUR, IL 62522",
+      "accountNumber": "6677608005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1405 N 2ND ST, SWANSEA, IL 62226",
+      "accountNumber": "6827121004",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "505 STEVENS ST SCHOOL STS, NOKOMIS, IL 62075",
+      "accountNumber": "7076009629",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "422E FOURTH SOUTH ST, ARCOLA, IL 61910",
+      "accountNumber": "7466003815",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "310 S EADS AVE, PARIS, IL 61944",
+      "accountNumber": "7636001726",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "601 N COLUMBIA ST, WEST FRANKFORT, IL 62896",
+      "accountNumber": "7671007424",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "400 W GRANT ST, MACOMB, IL 61455",
+      "accountNumber": "7873003144",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1203 EGYPTIAN TRL UNIT B, TUSCOLA, IL 61953",
+      "accountNumber": "7946009124",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1400 E WASHINGTON ST, PITTSFIELD, IL 62363",
+      "accountNumber": "8143003141",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1925 S MAIN ST, BLOOMINGTON, IL 61704",
+      "accountNumber": "8157289011",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "418 S MEMORIAL, NEWMAN, IL 61942",
+      "accountNumber": "8356003130",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "141 ACORN ST S, Kewanee, IL 61433",
+      "accountNumber": "8603045037",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "304 SW 12TH ST, ALEDO, IL 61231",
+      "accountNumber": "8887083379",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "609 N HARPHAM ST, HAVANA, IL 62644",
+      "accountNumber": "9194005034",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "275 E CARL SANDBURG DR, GALESBURG, IL 61401",
+      "accountNumber": "9232095006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1409 N MAIN ST, BENTON, IL 62812",
+      "accountNumber": "9271007047",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "901 ILLINI DR, EAST PEORIA, IL 61611",
+      "accountNumber": "9470698003",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5533 N GALENA RD, PEORIA HEIGHTS, IL 61616",
+      "accountNumber": "9604483006",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1945 TOULON TW, TOULON, IL 61483",
+      "accountNumber": "9705933294",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1610 N LAKEWOOD DR, EFFINGHAM, IL 62401",
+      "accountNumber": "9726007433",
+      "meterNumber": null
+    }
+  ]
+}

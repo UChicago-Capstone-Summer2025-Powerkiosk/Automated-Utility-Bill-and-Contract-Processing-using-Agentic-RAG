@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_973",
+  "statementDate": "April 26, 2018",
+  "usageHistory": {
+    "2017-04": "NOT_FOUND",
+    "2017-05": "NOT_FOUND",
+    "2017-06": "NOT_FOUND",
+    "2017-07": "NOT_FOUND",
+    "2017-08": "NOT_FOUND",
+    "2017-09": "NOT_FOUND",
+    "2017-10": "NOT_FOUND",
+    "2017-11": "NOT_FOUND",
+    "2017-12": "NOT_FOUND",
+    "2018-01": "NOT_FOUND",
+    "2018-02": "NOT_FOUND",
+    "2018-03": "NOT_FOUND",
+    "2018-04": "52540"
+  },
+  "locations": [
+    {
+      "serviceAddress": "S 1709 Edgewood Rd, Edgewood, MD 21040",
+      "accountNumber": "8430703164",
+      "meterNumber": "D117384299"
+    }
+  ],
+  "totalUsage": 52540
+}

@@ -1,0 +1,53 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_533",
+  "statementDate": "2022-07-27",
+  "usageHistory": {
+    "2021-07": 10,
+    "2021-08": 10,
+    "2021-09": 10,
+    "2021-10": 3500,
+    "2021-11": 10600,
+    "2021-12": 19000,
+    "2022-01": 27030,
+    "2022-02": 20340,
+    "2022-03": 13720,
+    "2022-04": 11870,
+    "2022-05": 1810,
+    "2022-06": 50,
+    "2022-07": 10
+  },
+  "locations": [
+    {
+      "serviceAddress": "961 ABINGDON ST, GALESBURG, IL 61401",
+      "accountNumber": "4334047004",
+      "meterNumber": "20688751"
+    },
+    {
+      "serviceAddress": "519 MCCLURE ST, GAS, GALESBURG, IL 61401",
+      "accountNumber": "6427236014",
+      "meterNumber": "01024311"
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, GAS, GALESBURG, IL 61401",
+      "accountNumber": "0503265021",
+      "meterNumber": "6TC56704"
+    },
+    {
+      "serviceAddress": "750 W 3RD ST, SHOT BLASTING PLANT, GALESBURG, IL 61401",
+      "accountNumber": "9262673003",
+      "meterNumber": "5TC55104"
+    },
+    {
+      "serviceAddress": "1360 MONMOUTH BLVD, GALESBURG, IL 61401",
+      "accountNumber": "7038480020",
+      "meterNumber": "72416345"
+    },
+    {
+      "serviceAddress": "1100 W 4TH ST, GALESBURG, IL 61401",
+      "accountNumber": "0577066008",
+      "meterNumber": "01142942"
+    }
+  ],
+  "totalUsage": 0
+}

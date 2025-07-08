@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1096",
+  "statementDate": "12/14/21",
+  "usageHistory": {
+    "2020-12": 450,
+    "2021-01": 450,
+    "2021-02": 450,
+    "2021-03": 450,
+    "2021-04": 450,
+    "2021-05": 450,
+    "2021-06": 600,
+    "2021-07": 750,
+    "2021-08": 750,
+    "2021-09": 600,
+    "2021-10": 450,
+    "2021-11": 450
+  },
+  "locations": [
+    {
+      "serviceAddress": "1620 RVERSIDE DR BETHLEHEM, PA 18015",
+      "accountNumber": "91859-88013",
+      "meterNumber": "301318686"
+    }
+  ],
+  "totalUsage": 13164
+}

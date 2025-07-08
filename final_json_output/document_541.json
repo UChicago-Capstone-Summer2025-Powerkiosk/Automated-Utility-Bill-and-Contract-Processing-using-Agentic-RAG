@@ -1,0 +1,115 @@
+{
+  "documentType": "contract",
+  "documentId": "document_541",
+  "contractStart": "2023-04-10",
+  "contractEnd": "2024-06-27",
+  "usageHistory": {
+    "2023-04": 113330.13,
+    "2023-05": 366353.85,
+    "2023-06": 405003.52,
+    "2023-07": 411153.72,
+    "2023-08": 420817.04,
+    "2023-09": 388371.35,
+    "2023-10": 313487.72,
+    "2023-11": 282851.94,
+    "2023-12": 289820.17,
+    "2024-01": 288621.88,
+    "2024-02": 284485.91,
+    "2024-03": 317580.18,
+    "2024-04": 306876.4,
+    "2024-05": 367956.76,
+    "2024-06": 189101.07
+  },
+  "locations": [
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621000956821",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621001297854",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621006501020",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621011804053",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621015791653",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621024359863",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621031244951",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621031424712",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621046048074",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621048463650",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621062808722",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621063817341",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621065037532",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621066084813",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621082077452",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621088082681",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621091395904",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": ", OH",
+      "accountNumber": "00040621097498522",
+      "meterNumber": null
+    }
+  ]
+}

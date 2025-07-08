@@ -1,0 +1,25 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_109",
+  "statementDate": "12/17/20",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "16769-1 25",
+      "accountNumber": "102-207-586-2-6"
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": null
+    },
+    {
+      "serviceAddress": "1036 Homestead Ave",
+      "accountNumber": null
+    },
+    {
+      "serviceAddress": "924 Hobart Dr",
+      "accountNumber": null
+    }
+  ],
+  "totalUsage": null
+}

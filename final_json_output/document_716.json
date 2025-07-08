@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_716",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2023-05": null,
+    "2023-06": null,
+    "2023-07": null,
+    "2023-08": 500
+  },
+  "locations": [
+    {
+      "serviceAddress": "230 N ANN ST, CONCURRENT SRV",
+      "accountNumber": "86652-52002",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 500
+}

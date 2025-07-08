@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_470",
+  "statementDate": "03/31/23",
+  "usageHistory": {
+    "2022-04": 300,
+    "2022-05": 350,
+    "2022-06": 400,
+    "2022-07": 450,
+    "2022-08": 500,
+    "2022-09": 500,
+    "2022-10": 450,
+    "2022-11": 400,
+    "2022-12": 350,
+    "2023-01": 300,
+    "2023-02": 250,
+    "2023-03": 300,
+    "2023-04": 350
+  },
+  "locations": [
+    {
+      "serviceAddress": "200 COLLEGE AWV BLOG DNKN DNTS SOUTHWICK MA 01077",
+      "accountNumber": "54814995031",
+      "meterNumber": "034263842"
+    }
+  ],
+  "totalUsage": 10266
+}

@@ -1,0 +1,39 @@
+{
+  "documentType": "contract",
+  "documentId": "document_953",
+  "contractStart": "2018-09",
+  "contractEnd": "2020-11",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "7539265099",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "4051071208",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "3683142059",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "2003125079",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "1331055049",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "71 W. Hubbard St. Chicago, IL 60654",
+      "accountNumber": "0947043085",
+      "meterNumber": null
+    }
+  ]
+}

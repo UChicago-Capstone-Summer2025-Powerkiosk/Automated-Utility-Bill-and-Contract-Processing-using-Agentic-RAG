@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_866",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "25 GLADE ST B WEST HAVEN CT 06516",
+      "accountNumber": "050-0011380-1729",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

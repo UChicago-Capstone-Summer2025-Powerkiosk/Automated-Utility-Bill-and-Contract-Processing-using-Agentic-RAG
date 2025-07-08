@@ -1,0 +1,53 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_82",
+  "statementDate": "September 2, 2021",
+  "usageHistory": {
+    "2020-09": 162495,
+    "2020-10": 135979,
+    "2020-11": 118853,
+    "2020-12": 93586,
+    "2021-01": 136979,
+    "2021-02": 124349,
+    "2021-03": 123111,
+    "2021-04": 123415,
+    "2021-05": 104523,
+    "2021-06": 110616,
+    "2021-07": 148181,
+    "2021-08": 164950,
+    "2021-09": 178437
+  },
+  "locations": [
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230012698"
+    },
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230012700"
+    },
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230041754"
+    },
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230041779"
+    },
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230057549"
+    },
+    {
+      "serviceAddress": "750 N DEARBORN ST CHICAGO",
+      "accountNumber": "0935332031",
+      "meterNumber": "230131095"
+    }
+  ],
+  "totalUsage": 178437
+}

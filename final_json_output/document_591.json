@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_591",
+  "statementDate": "12/27/17",
+  "usageHistory": {
+    "2016-12": 676,
+    "2017-01": 1014,
+    "2017-02": 676,
+    "2017-03": 338,
+    "2017-04": 338,
+    "2017-05": 338,
+    "2017-06": 0,
+    "2017-07": 0,
+    "2017-08": 0,
+    "2017-09": 0,
+    "2017-10": 0,
+    "2017-11": 1352,
+    "2017-12": 1014
+  },
+  "locations": [
+    {
+      "serviceAddress": "3932 149th St Midlothian",
+      "accountNumber": "88-90-45-6028 6",
+      "meterNumber": "4480173"
+    }
+  ],
+  "totalUsage": 472.41
+}

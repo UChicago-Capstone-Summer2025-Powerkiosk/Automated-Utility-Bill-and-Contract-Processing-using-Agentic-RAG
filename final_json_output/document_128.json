@@ -1,0 +1,20 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_128",
+  "statementDate": "2020-12-17",
+  "totalUsage": 234720,
+  "locations": [
+    {
+      "serviceAddress": "16769-1 25",
+      "accountNumber": "102-207-586-2-6"
+    },
+    {
+      "serviceAddress": "214 HOBART DR",
+      "accountNumber": "102 297 586 2"
+    },
+    {
+      "serviceAddress": "1036 HOMESTEAD AVE",
+      "accountNumber": "102 297 586 2"
+    }
+  ]
+}

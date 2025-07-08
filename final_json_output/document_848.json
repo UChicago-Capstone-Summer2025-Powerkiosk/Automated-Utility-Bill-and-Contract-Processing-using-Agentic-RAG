@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_848",
+  "statementDate": "2024-06-06",
+  "usageHistory": {
+    "2023-06": 10441,
+    "2023-07": 14478,
+    "2023-08": 18243,
+    "2023-09": 19411,
+    "2023-10": 21778,
+    "2023-11": 36002,
+    "2023-12": 37355,
+    "2024-01": 41433,
+    "2024-02": 31184,
+    "2024-03": 39922,
+    "2024-04": 30554,
+    "2024-05": 32862,
+    "2024-06": 33490
+  },
+  "locations": [
+    {
+      "serviceAddress": "850 W Fulton Market St Chicago, COOK, IL 60607",
+      "accountNumber": "3023364266",
+      "meterNumber": "230118974"
+    },
+    {
+      "serviceAddress": "850 W Fulton Market St Chicago, COOK, IL 60607",
+      "accountNumber": "3023364266",
+      "meterNumber": "230159429"
+    }
+  ],
+  "totalUsage": 33490
+}

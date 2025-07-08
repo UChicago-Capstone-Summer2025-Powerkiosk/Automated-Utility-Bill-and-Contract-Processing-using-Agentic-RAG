@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_41",
+  "statementDate": "Oct 30, 2020",
+  "usageHistory": {
+    "2020-10": 302719,
+    "2020-11": 564276
+  },
+  "locations": [
+    {
+      "serviceAddress": "193 E SENECA ST SHOP OSWEGO NY 13126",
+      "accountNumber": "09210-97083",
+      "meterNumber": "11135719"
+    }
+  ],
+  "totalUsage": 564276
+}

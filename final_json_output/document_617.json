@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_617",
+  "statementDate": "20/01/2022",
+  "usageHistory": {
+    "2021-12": 185306,
+    "2022-01": 169709
+  },
+  "locations": [
+    {
+      "serviceAddress": "2 Sifco Carrigtwohill Ind Est, Carrigtwohill, County Cork, Carrigtwohill, Cork, T45 VA06",
+      "accountNumber": "2609465",
+      "meterNumber": "GB0000239785"
+    },
+    {
+      "serviceAddress": "IDA Industrial Estate, Carrigtwohill, Co. Cork, T45 VA06",
+      "accountNumber": "210045051"
+    }
+  ],
+  "totalUsage": 353951.84
+}

@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_312",
+  "statementDate": "2023-12-19",
+  "totalUsage": 108829,
+  "usageHistory": {
+    "2023-11": 108829
+  },
+  "locations": [
+    {
+      "serviceAddress": "BERLIN BOARD OF EDUCATION 899 NORTON RD KENSINGTON CT 06037",
+      "accountNumber": "51419825096",
+      "meterNumber": "081241721"
+    }
+  ]
+}

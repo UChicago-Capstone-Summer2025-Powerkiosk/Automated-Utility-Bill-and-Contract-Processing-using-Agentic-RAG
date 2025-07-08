@@ -1,0 +1,17 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_355",
+  "statementDate": "December 30, 2022",
+  "totalUsage": 25084,
+  "usageHistory": {
+    "2022-11": 32241,
+    "2022-12": 25084
+  },
+  "locations": [
+    {
+      "serviceAddress": "102 MELRICH RD, SOUTH BRUNSWICK TWP NJ 08512-3511",
+      "accountNumber": "4235350501",
+      "meterNumber": "309006358"
+    }
+  ]
+}

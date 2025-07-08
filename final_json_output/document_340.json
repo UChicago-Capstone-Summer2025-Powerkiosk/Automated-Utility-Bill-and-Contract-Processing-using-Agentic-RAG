@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_340",
+  "statementDate": "11/04/24",
+  "usageHistory": {
+    "2024-10": 86431
+  },
+  "locations": [
+    {
+      "serviceAddress": "650 PLAZA DR, SECAUCUS TOWN, NJ 07094, US",
+      "accountNumber": "248650218",
+      "meterNumber": "66027"
+    }
+  ],
+  "totalUsage": 86431
+}

@@ -1,0 +1,38 @@
+Meter Information,,,,,,,,
+Read Date,Meter Number,Load <br> Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier <br> $X$,Usage
+10/1,141682913,Space Heat,On Pk kW,Actual,Actual,,,248.83
+10/1,141682914,General Service,Off Pk kWh,Actual,Actual,,,630
+10/1,141682914,General Service,Total kWh,Actual,Actual,,,1146
+10/1,141682914,General Service,On Pk kW,Actual,Actual,,,4.32
+10/1,141723511,General Service,Off Pk kWh,Actual,Actual,,,6514
+10/1,141723511,General Service,Total kWh,Actual,Actual,,,9673
+10/1,141723511,General Service,On Pk kW,Actual,Actual,,,12.96
+10/1,141723512,General Service,Off Pk kWh,Actual,Actual,,,5479
+10/1,141723512,General Service,Total kWh,Actual,Actual,,,8938
+10/1,141723512,General Service,On Pk kW,Actual,Actual,,,18.36
+10/1,141723525,General Service,Off Pk kWh,Actual,Actual,,,274
+10/1,141723525,General Service,Total kWh,Actual,Actual,,,433
+10/1,141723525,General Service,On Pk kW,Actual,Actual,,,0.65
+10/7,230009724,Space Heat,Off Pk kWh,Actual,Actual,,,6886
+10/7,230009724,Space Heat,Total kWh,Actual,Actual,,,27220
+10/7,230009724,Space Heat,On Pk kW,Actual,Actual,,,284.74
+10/7,230009725,General Service,Off Pk kWh,Actual,Actual,,,1807
+10/7,230009725,General Service,Total kWh,Actual,Actual,,,4070
+10/7,230009725,General Service,On Pk kW,Actual,Actual,,,9.92
+10/7,230012436,General Service,Off Pk kWh,Actual,Actual,,,52
+10/7,230012436,General Service,Total kWh,Actual,Actual,,,86
+10/7,230012436,General Service,On Pk kW,Actual,Actual,,,0.09
+10/7,230012458,General Service,Off Pk kWh,Actual,Actual,,,625
+10/7,230012458,General Service,Total kWh,Actual,Actual,,,1251
+10/7,230012458,General Service,On Pk kW,Actual,Actual,,,2.44
+10/7,230012459,General Service,Off Pk kWh,Actual,Actual,,,4245
+10/7,230012459,General Service,Total kWh,Actual,Actual,,,6639
+10/7,230012459,General Service,On Pk kW,Actual,Actual,,,8.27
+10/7,230012460,General Service,Off Pk kWh,Actual,Actual,,,1734
+10/7,230012460,General Service,Total kWh,Actual,Actual,,,3322
+10/7,230012460,General Service,On Pk kW,Actual,Actual,,,9.05
+10/7,230012494,General Service,Off Pk kWh,Actual,Actual,,,0
+10/7,230012494,General Service,Total kWh,Actual,Actual,,,0
+10/7,230012494,General Service,On Pk kW,Actual,Actual,,,0.00
+10/7,230012495,General Service,Off Pk kWh,Actual,Actual,,,7508
+10/7,230012495,General Service,Total kWh,Actual,Actual,,,11761

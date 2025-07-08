@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_648",
+  "statementDate": "2021-04-29",
+  "usageHistory": {
+    "2020-04": null,
+    "2020-05": null,
+    "2020-06": null,
+    "2020-07": null,
+    "2020-08": null,
+    "2020-09": null,
+    "2020-10": null,
+    "2020-11": null,
+    "2020-12": null,
+    "2021-01": null,
+    "2021-02": null,
+    "2021-03": null,
+    "2021-04": 154.66
+  },
+  "locations": [
+    {
+      "serviceAddress": "10101 MONTERY RD",
+      "accountNumber": "3005170000",
+      "meterNumber": "728375"
+    }
+  ],
+  "totalUsage": 154.66
+}

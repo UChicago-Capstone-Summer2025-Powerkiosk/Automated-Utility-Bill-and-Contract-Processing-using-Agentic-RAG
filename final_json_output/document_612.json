@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_612",
+  "statementDate": "April 11, 2024",
+  "usageHistory": {
+    "2023-04": 50000,
+    "2023-05": 75000,
+    "2023-06": 30000,
+    "2023-07": 50000,
+    "2023-08": 60000,
+    "2023-09": 30000,
+    "2023-10": 75000,
+    "2023-11": 50000,
+    "2023-12": 90000,
+    "2024-01": 50000,
+    "2024-02": 40000,
+    "2024-03": 50000,
+    "2024-04": 60000
+  },
+  "locations": [
+    {
+      "serviceAddress": "537 PAVONIA AVE, JERSEY CITY NJ 07306-1803",
+      "accountNumber": "4200577402",
+      "meterNumber": "9207321"
+    },
+    {
+      "serviceAddress": "553 PAVONIA AVE SITE LTG, JERSEY CITY NJ 07306-1803",
+      "accountNumber": "6731285218",
+      "meterNumber": "126681333"
+    },
+    {
+      "serviceAddress": "257 BALDWIN AVE, JERSEY CITY NJ 07306-1317",
+      "accountNumber": "7276043207",
+      "meterNumber": "4021236"
+    }
+  ],
+  "totalUsage": 162433
+}

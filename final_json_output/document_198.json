@@ -1,0 +1,46 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_198",
+  "statementDate": "02/22/2019",
+  "usageHistory": {
+    "2019-01": 563870
+  },
+  "locations": [
+    {
+      "accountNumber": "0161147011",
+      "serviceAddress": null,
+      "meterNumber": "230113522"
+    },
+    {
+      "accountNumber": "0286087018",
+      "serviceAddress": "425 DAVIS ST / EVANSTON, IL 60201",
+      "meterNumber": "230114435"
+    },
+    {
+      "accountNumber": "0423067010",
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1750B / EVANSTON, IL 60201",
+      "meterNumber": "230294004"
+    },
+    {
+      "accountNumber": "1043129014",
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1800 / EVANSTON, IL 60201",
+      "meterNumber": "230113524"
+    },
+    {
+      "accountNumber": "2456024018",
+      "serviceAddress": "1603 ORRINGTON AVE / UNIT 1750C / EVANSTON, IL 60201",
+      "meterNumber": "230294003"
+    },
+    {
+      "accountNumber": "6443011001",
+      "serviceAddress": "3235 N CENTRAL AVE / UNIT REAR / CHICAGO, IL 60201",
+      "meterNumber": "230022530"
+    },
+    {
+      "accountNumber": "9031709028",
+      "serviceAddress": "33 E 83RD ST / CHICAGO, IL 60619",
+      "meterNumber": "230132691"
+    }
+  ],
+  "totalUsage": 563870
+}

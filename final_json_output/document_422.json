@@ -1,0 +1,94 @@
+{
+  "documentType": "contract",
+  "documentId": "document_422",
+  "contractStart": "2020-06-01",
+  "contractEnd": "2023-05-31",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "2121 Allen Pkwy, Houston, TX 77019",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "15250 Quorum Dr, Addison, TX 75001",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2221 W DALLAS ST, Houston, TX 77019",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6401 Escena Blvd, Irving, TX 75039",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6401 Escena Blvd, Irving, TX 75039",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3003 MEMORIAL CT, Houston, TX 77007",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7755 John Q Hammons Dr, Frisco, TX 75034",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "777 LAKE CAROLYN PKWY, Irving, TX 75039",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1400 HI LINE DR, Dallas, TX 75207",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "7275 TEXAS RANGERS DR, Frisco, TX 75034",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1050 Lake Carolyn Pkwy, Irving, TX 75039",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6008 Maple Ave, Dallas, TX 75235",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "310 GRAN VIA, Irving, TX 75039",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2717 Howell, Dallas, TX 75204",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1340 W Gray St, Houston, TX 77019",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2525 McCue Rd, Houston, TX 77056",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5961 W PARKER RD, Plano, TX 75093",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

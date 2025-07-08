@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1105",
+  "statementDate": "12/29/21",
+  "usageHistory": {
+    "2021-01": 130,
+    "2021-02": 180,
+    "2021-03": 170,
+    "2021-04": 150,
+    "2021-05": 100,
+    "2021-06": 70,
+    "2021-07": 50,
+    "2021-08": 40,
+    "2021-09": 30,
+    "2021-10": 60,
+    "2021-11": 110,
+    "2021-12": 140
+  },
+  "locations": [
+    {
+      "serviceAddress": "POCONO MOUNTAIN RECOVERY CTR 3437 RT 715 HWY, FIRE PUMP HENRYVILLE, PA 18332",
+      "accountNumber": "93371-92005",
+      "meterNumber": "301560108"
+    }
+  ],
+  "totalUsage": 3832
+}

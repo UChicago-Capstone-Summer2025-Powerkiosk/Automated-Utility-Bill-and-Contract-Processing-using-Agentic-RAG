@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_610",
+  "statementDate": "July 12, 2024",
+  "totalUsage": 189702,
+  "usageHistory": {
+    "2023-07": null,
+    "2023-08": null,
+    "2023-09": null,
+    "2023-10": null,
+    "2023-11": null,
+    "2023-12": null,
+    "2024-01": null,
+    "2024-02": null,
+    "2024-03": null,
+    "2024-04": null,
+    "2024-05": null,
+    "2024-06": 189702
+  },
+  "locations": [
+    {
+      "serviceAddress": "537 PAVONIA AVE, JERSEY CITY NJ 07306-1803",
+      "accountNumber": "4200577402",
+      "meterNumber": "9207321"
+    }
+  ]
+}

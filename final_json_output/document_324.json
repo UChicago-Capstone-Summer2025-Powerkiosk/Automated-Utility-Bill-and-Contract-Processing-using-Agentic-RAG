@@ -1,0 +1,211 @@
+{
+  "documentType": "contract",
+  "documentId": "document_324",
+  "contractStart": "2024-10-24",
+  "contractEnd": "2026-10-24",
+  "usageHistory": {
+    "2024-10": 18605,
+    "2024-11": 414678,
+    "2024-12": 625751,
+    "2025-01": 674205,
+    "2025-02": 566531,
+    "2025-03": 612953,
+    "2025-04": 612929,
+    "2025-05": 665938,
+    "2025-06": 689112,
+    "2025-07": 743791,
+    "2025-08": 727877,
+    "2025-09": 666166,
+    "2025-10": 643506,
+    "2025-11": 590504,
+    "2025-12": 626602,
+    "2026-01": 674112,
+    "2026-02": 566531,
+    "2026-03": 614268,
+    "2026-04": 612929,
+    "2026-05": 664371,
+    "2026-06": 690527,
+    "2026-07": 745885,
+    "2026-08": 727877,
+    "2026-09": 666166,
+    "2026-10": 623044,
+    "2026-11": 177282
+  },
+  "locations": [
+    {
+      "serviceAddress": "2604 W Main St",
+      "accountNumber": "0191006010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "501 S 5th St",
+      "accountNumber": "0234002316",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "110 S Williams St",
+      "accountNumber": "1073166033",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2604 W Main St",
+      "accountNumber": "1191006117",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "100 E Plaza Dr",
+      "accountNumber": "2422002217",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1003 W Main St",
+      "accountNumber": "3005004315",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "110 S Williams St",
+      "accountNumber": "3152001229",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1219 S West St",
+      "accountNumber": "3475009814",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "513 S 21st St",
+      "accountNumber": "4315001819",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1117 Camp Jackson Rd",
+      "accountNumber": "6555700126",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "6112 N Illinois St",
+      "accountNumber": "6600006719",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "100 E Plaza Dr",
+      "accountNumber": "7041127005",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "401 S State St",
+      "accountNumber": "7524002812",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5311 Godfrey Rd",
+      "accountNumber": "8860000615",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1315 N 3rd Street",
+      "accountNumber": "9306006916",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "608 S 3rd St",
+      "accountNumber": "0348216334",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1790 Frank Scott Pkway",
+      "accountNumber": "0630049007",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "721 W. Main St",
+      "accountNumber": "2180728018",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1920 Carlyle Ave",
+      "accountNumber": "2340358417",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1 Howellman Dr",
+      "accountNumber": "2432521138",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "701 Main Street",
+      "accountNumber": "2792298412",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1790 Frank Scott Pkwy E",
+      "accountNumber": "3778453000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "15 N 8th Street",
+      "accountNumber": "3825581932",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8401 US Hwy 50",
+      "accountNumber": "4170444010",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1905 N Main Street",
+      "accountNumber": "4599189938",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "286 Southwoods Clr",
+      "accountNumber": "4957891054",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "702 Vandalia St",
+      "accountNumber": "4959628014",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "601 S main st",
+      "accountNumber": "5077694095",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1 Club Centre Ct",
+      "accountNumber": "5158387219",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1324 N Illinois St",
+      "accountNumber": "5166807697",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "723 W main St",
+      "accountNumber": "7490425931",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "435 W Holmes St",
+      "accountNumber": "8118072657",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "511 S Main St",
+      "accountNumber": "8472742890",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "415 S Macoupin St",
+      "accountNumber": "8567086258",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "500 W Main Street",
+      "accountNumber": "8980001291",
+      "meterNumber": null
+    }
+  ]
+}

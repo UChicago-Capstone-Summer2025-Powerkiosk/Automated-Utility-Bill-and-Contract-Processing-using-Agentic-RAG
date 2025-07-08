@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1155",
+  "statementDate": "NOT_FOUND",
+  "usageHistory": {
+    "2022-04": 2442,
+    "2022-05": 1814,
+    "2022-06": 1860,
+    "2022-07": 1649,
+    "2022-08": 1675,
+    "2022-09": 1605,
+    "2022-10": 1728,
+    "2022-11": 2747,
+    "2022-12": 3256,
+    "2023-01": 3712,
+    "2023-02": 3215,
+    "2023-03": 2796,
+    "2023-04": 2392
+  },
+  "locations": [
+    {
+      "serviceAddress": "2145 Karwick Rd, Long Beach IN 46360",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": null
+}

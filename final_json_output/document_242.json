@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_242",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 505,
+    "2024-01": 671,
+    "2024-02": 596,
+    "2024-03": 532,
+    "2024-04": 415,
+    "2024-05": 257,
+    "2024-06": 280,
+    "2024-07": 379,
+    "2024-08": 319,
+    "2024-09": 252,
+    "2024-10": 396,
+    "2024-11": 572
+  },
+  "locations": [
+    {
+      "serviceAddress": "TOWN FARM IN BERLIN DT 88037",
+      "accountNumber": "51270223027",
+      "meterNumber": "890812032"
+    }
+  ],
+  "totalUsage": 572
+}

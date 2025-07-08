@@ -1,0 +1,31 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_425",
+  "statementDate": "10/17/16",
+  "usageHistory": {
+    "2015-10": 180,
+    "2015-11": 180,
+    "2015-12": 160,
+    "2016-01": 160,
+    "2016-02": 140,
+    "2016-03": 160,
+    "2016-04": 180,
+    "2016-05": 160,
+    "2016-06": 160,
+    "2016-07": 180,
+    "2016-08": 200
+  },
+  "locations": [
+    {
+      "serviceAddress": "6281 Regio Ave, Buena Park, CA 90620",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "00131 W Spring Creek Pky, Plano, TX 750234609-4609",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 284400
+}

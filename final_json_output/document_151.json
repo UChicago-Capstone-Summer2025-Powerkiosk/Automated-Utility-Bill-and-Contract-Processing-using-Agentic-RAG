@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_151",
+  "statementDate": "Dec 5, 2019",
+  "billingPeriod": {
+    "start": "Nov 1, 2019",
+    "end": "Dec 2, 2019"
+  },
+  "totalAmountDue": 4213.54,
+  "totalUsage": 12056,
+  "usageHistory": {
+    "2019-12": 12056
+  },
+  "locations": [
+    {
+      "serviceAddress": "193 E SENECA ST SHOP OSWEGO NY 13126",
+      "accountNumber": "09210-97074",
+      "meterNumber": "11135719"
+    }
+  ]
+}

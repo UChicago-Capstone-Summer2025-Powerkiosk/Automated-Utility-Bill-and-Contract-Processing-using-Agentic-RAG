@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_999",
+  "statementDate": "07/27/2021",
+  "totalUsage": 493410,
+  "usageHistory": {
+    "2020-07": "NOT_FOUND",
+    "2020-08": "NOT_FOUND",
+    "2020-09": "NOT_FOUND",
+    "2020-10": "NOT_FOUND",
+    "2020-11": "NOT_FOUND",
+    "2020-12": "NOT_FOUND",
+    "2021-01": "NOT_FOUND",
+    "2021-02": "NOT_FOUND",
+    "2021-03": "NOT_FOUND",
+    "2021-04": "NOT_FOUND",
+    "2021-05": "NOT_FOUND",
+    "2021-06": "NOT_FOUND",
+    "2021-07": 493410
+  },
+  "locations": [
+    {
+      "serviceAddress": "New, 4200 Monument Rd, Philadelphia",
+      "accountNumber": "29031-47037",
+      "meterNumber": "017115024"
+    }
+  ]
+}

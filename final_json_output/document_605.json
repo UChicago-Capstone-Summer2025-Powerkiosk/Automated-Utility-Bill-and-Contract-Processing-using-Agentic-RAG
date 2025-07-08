@@ -1,0 +1,70 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_605",
+  "statementDate": "August 13, 2024",
+  "totalUsage": {
+    "electric": 786,
+    "gas": 1.044
+  },
+  "usageHistory": {
+    "2023-08": {
+      "electric": 50,
+      "gas": "Low"
+    },
+    "2023-09": {
+      "electric": 25,
+      "gas": null
+    },
+    "2023-10": {
+      "electric": 50,
+      "gas": null
+    },
+    "2023-11": {
+      "electric": 25,
+      "gas": "Increases"
+    },
+    "2023-12": {
+      "electric": 75,
+      "gas": null
+    },
+    "2024-01": {
+      "electric": 50,
+      "gas": "Lowest"
+    },
+    "2024-02": {
+      "electric": 50,
+      "gas": "Peaks"
+    },
+    "2024-03": {
+      "electric": 50,
+      "gas": "Decreases"
+    },
+    "2024-04": {
+      "electric": 50,
+      "gas": null
+    },
+    "2024-05": {
+      "electric": 25,
+      "gas": null
+    },
+    "2024-06": {
+      "electric": 25,
+      "gas": "Low"
+    },
+    "2024-07": {
+      "electric": 25,
+      "gas": null
+    },
+    "2024-08": {
+      "electric": 25,
+      "gas": "Low"
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "537 Pavonia Ave, Jersey City, NJ 07306-1803",
+      "accountNumber": "7276043207",
+      "meterNumber": "302922722"
+    }
+  ]
+}

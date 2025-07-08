@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1079",
+  "statementDate": "2025-02-28",
+  "usageHistory": {
+    "2024-03": 90,
+    "2024-04": 125,
+    "2024-05": 150,
+    "2024-06": 50,
+    "2024-07": 50,
+    "2024-08": 50,
+    "2024-09": 50,
+    "2024-10": 75,
+    "2024-11": 75,
+    "2024-12": 100,
+    "2025-01": 100,
+    "2025-02": 150
+  },
+  "locations": [
+    {
+      "serviceAddress": "PMRC, RR 1, HENRYVILLE, PA 18332",
+      "accountNumber": "46071-31040",
+      "meterNumber": "300837483"
+    }
+  ],
+  "totalUsage": 3840
+}

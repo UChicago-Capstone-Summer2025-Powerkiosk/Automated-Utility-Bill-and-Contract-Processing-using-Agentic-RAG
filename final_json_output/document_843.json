@@ -1,0 +1,39 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_843",
+  "statementDate": "2024-06-06",
+  "usageHistory": {
+    "2023-01": 37391,
+    "2023-02": 41724,
+    "2023-03": 41733,
+    "2023-04": 36886,
+    "2023-05": 38067,
+    "2023-06": 33590,
+    "2023-07": 34388,
+    "2023-08": 39586,
+    "2023-09": 33147,
+    "2023-10": 40576,
+    "2023-11": 34722,
+    "2023-12": 33222,
+    "2024-01": 38748
+  },
+  "locations": [
+    {
+      "serviceAddress": "414 N Orleans St Unit 105, Chicago, IL 60610",
+      "accountNumber": "8798683000",
+      "meterNumbers": [
+        "230118858",
+        "230119402",
+        "230119463",
+        "230193878",
+        "230193880"
+      ]
+    },
+    {
+      "serviceAddress": "353 W Hubbard St, Chicago, IL 60654",
+      "accountNumber": "8798683000",
+      "meterNumbers": []
+    }
+  ],
+  "totalUsage": 38747
+}

@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1113",
+  "statementDate": "Mar 12, 2018",
+  "usageHistory": {
+    "2017-03": 3096,
+    "2017-04": 3303,
+    "2017-05": 3190,
+    "2017-06": 3105,
+    "2017-07": 3147,
+    "2017-08": 2542,
+    "2017-09": 2878,
+    "2017-10": 2794,
+    "2017-11": 2998,
+    "2017-12": 3410,
+    "2018-01": 4260,
+    "2018-02": 3860,
+    "2018-03": 3414
+  },
+  "locations": [
+    {
+      "serviceAddress": "2 MIDDLENECK RD, ROSLYN NY 11576",
+      "accountNumber": "29760-25002",
+      "meterNumber": "01209111"
+    }
+  ],
+  "totalUsage": 3414
+}

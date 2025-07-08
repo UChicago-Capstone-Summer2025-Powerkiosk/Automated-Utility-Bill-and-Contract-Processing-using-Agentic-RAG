@@ -1,0 +1,49 @@
+{
+  "documentType": "contract",
+  "documentId": "document_232",
+  "contractStart": "NOT_FOUND",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1234 BROADWAY AVE",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "5678 MAIN ST",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "747 N 5TH ST APT 1",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "708 N 5TH ST APT 111",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2008 N 6TH ST",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "MALCOLM X AVE",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "COLUMBIA RD",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "NORTH ST",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

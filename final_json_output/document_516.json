@@ -1,0 +1,89 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_516",
+  "statementDate": "11/08/2024",
+  "totalUsage": 2001.0,
+  "usageHistory": {
+    "2023-10": {
+      "electric": null,
+      "gas": null
+    },
+    "2023-12": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-01": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-02": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-03": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-04": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-06": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-07": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-08": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-09": {
+      "electric": null,
+      "gas": null
+    },
+    "2024-10": {
+      "electric": null,
+      "gas": null
+    }
+  },
+  "locations": [
+    {
+      "serviceAddress": "4200 THE WOODS DR",
+      "accountNumber": "9588013849",
+      "meterNumber": "1009625949"
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR",
+      "accountNumber": "9585431272",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR",
+      "accountNumber": "9588970351",
+      "meterNumber": "61231334"
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR",
+      "accountNumber": "9584664664",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR",
+      "accountNumber": "9585616378",
+      "meterNumber": "1009180657"
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR BLDG 3",
+      "accountNumber": "9581349777",
+      "meterNumber": "1009114178"
+    },
+    {
+      "serviceAddress": "4200 THE WOODS DR BLDG 10-11",
+      "accountNumber": "9583583267",
+      "meterNumber": "1009622283"
+    }
+  ]
+}

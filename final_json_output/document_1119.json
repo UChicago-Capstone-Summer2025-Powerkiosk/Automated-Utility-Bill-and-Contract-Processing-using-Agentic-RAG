@@ -1,0 +1,21 @@
+{
+  "documentType": "contract",
+  "documentId": "document_1119",
+  "contractStart": "2016-12",
+  "contractEnd": "2017-12",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "219 Littleton Rd Pole 92, Westford, MA 01886",
+      "billingAddress": "219 Littleton Rd, Westford, MA 01886",
+      "accountNumber": "2797685013",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "219 Littleton Rd Pole D24068, Westford, MA 01886",
+      "billingAddress": "219 Littleton Rd, Westford, MA 01886",
+      "accountNumber": "6535848023",
+      "meterNumber": null
+    }
+  ]
+}

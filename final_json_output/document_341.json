@@ -1,0 +1,11 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_341",
+  "statementDate": "10/24/24",
+  "usageHistory": {
+    "2024-09": 73670,
+    "2024-10": 73670
+  },
+  "locations": [],
+  "totalUsage": 73670
+}

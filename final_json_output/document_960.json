@@ -1,0 +1,18 @@
+{
+  "documentType": "contract",
+  "documentId": "document_960",
+  "contractStart": "2015-12-08",
+  "contractEnd": "2017-12-19",
+  "locations": [
+    {
+      "serviceAddress": "502 CHESTNUT ST, EVANSVILLE, IL 622421822",
+      "accountNumber": "6154647053",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "602 CHESTNUT ST, EVANSVILLE, IL 622421822",
+      "accountNumber": "7049511850",
+      "meterNumber": null
+    }
+  ]
+}

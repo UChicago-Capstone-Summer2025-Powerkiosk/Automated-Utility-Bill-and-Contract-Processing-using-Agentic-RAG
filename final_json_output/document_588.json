@@ -1,0 +1,67 @@
+{
+  "documentType": "contract",
+  "documentId": "document_588",
+  "contractStart": "2018-04-01",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": {
+    "2018-04": 1721,
+    "2018-05": 833,
+    "2018-06": 350,
+    "2018-07": 208,
+    "2018-08": 119,
+    "2018-09": 10,
+    "2018-10": 237,
+    "2018-11": 1085,
+    "2018-12": 2179,
+    "2019-01": 2213,
+    "2019-02": 2202,
+    "2019-03": 1203
+  },
+  "locations": [
+    {
+      "serviceAddress": "210175 Vans Dr",
+      "utilityAccountNumber": "2203991000",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "4243 166th St",
+      "utilityAccountNumber": "2834303686",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3854 148th Place",
+      "utilityAccountNumber": "3323019418",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "2000 W 135th St",
+      "utilityAccountNumber": "3633025634",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "8000 W 59th St",
+      "utilityAccountNumber": "6084641310",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "470 N Wildwood Ave",
+      "utilityAccountNumber": "7109813753",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "3932 149th St",
+      "utilityAccountNumber": "8890456028",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "806 Gardner St # R",
+      "utilityAccountNumber": "8956512000B",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "1350 Bungalow Rd",
+      "utilityAccountNumber": "9833810197",
+      "meterNumber": null
+    }
+  ]
+}

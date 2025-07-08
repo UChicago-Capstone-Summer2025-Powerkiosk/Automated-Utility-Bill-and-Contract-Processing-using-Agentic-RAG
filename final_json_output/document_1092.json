@@ -1,0 +1,27 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1092",
+  "statementDate": "12/14/21",
+  "usageHistory": {
+    "2020-12": 85,
+    "2021-01": 110,
+    "2021-02": 130,
+    "2021-03": 115,
+    "2021-04": 85,
+    "2021-05": 60,
+    "2021-06": 55,
+    "2021-07": 65,
+    "2021-08": 70,
+    "2021-09": 50,
+    "2021-10": 60,
+    "2021-11": 75
+  },
+  "locations": [
+    {
+      "serviceAddress": "WHITE DEER RUN HCF 836 MARIETTA AVE APT 1 LANCASTER, PA 17603",
+      "accountNumber": "81350-97137",
+      "meterNumber": "300407692"
+    }
+  ],
+  "totalUsage": 1709
+}

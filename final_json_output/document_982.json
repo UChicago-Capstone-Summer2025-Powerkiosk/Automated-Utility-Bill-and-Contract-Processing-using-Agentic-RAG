@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_982",
+  "statementDate": "2021-06-17",
+  "usageHistory": {
+    "2020-01": null,
+    "2020-02": null,
+    "2020-03": null,
+    "2020-04": null,
+    "2020-05": null,
+    "2020-06": null,
+    "2020-07": null,
+    "2020-08": null,
+    "2020-09": null,
+    "2020-10": null,
+    "2020-11": null,
+    "2020-12": null,
+    "2021-01": null,
+    "2021-02": null,
+    "2021-03": null,
+    "2021-04": null,
+    "2021-05": null,
+    "2021-06": 168000
+  },
+  "locations": [
+    {
+      "serviceAddress": "RT 6 SCRN CDALE HWY, EYNON, PA 18403",
+      "accountNumber": "18291-13065",
+      "meterNumber": "300959689"
+    }
+  ],
+  "totalUsage": 168000
+}

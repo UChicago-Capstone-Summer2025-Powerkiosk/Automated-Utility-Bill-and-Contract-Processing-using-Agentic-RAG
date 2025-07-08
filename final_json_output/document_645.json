@@ -1,0 +1,19 @@
+{
+  "documentType": "contract",
+  "documentId": "document_645",
+  "contractStart": "2021-08-26",
+  "contractEnd": "NOT_FOUND",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "351 West Hubbard Street Ste 502, Chicago, IL 60654",
+      "accountNumber": null,
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "549 W. Randolph St., Chicago, IL 60661",
+      "accountNumber": null,
+      "meterNumber": null
+    }
+  ]
+}

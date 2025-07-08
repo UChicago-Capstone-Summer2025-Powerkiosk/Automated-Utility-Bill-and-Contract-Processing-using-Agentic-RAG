@@ -1,0 +1,14 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_898",
+  "statementDate": "2023-10-24",
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "15 GLADE ST, WEST HAVEN CT 06516",
+      "accountNumber": "050-0010021-8507",
+      "meterNumber": "539167"
+    }
+  ],
+  "totalUsage": 483.523
+}

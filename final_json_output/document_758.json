@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_758",
+  "statementDate": "2022-09-26",
+  "usageHistory": {
+    "2021-09": 386127,
+    "2021-10": null,
+    "2021-11": null,
+    "2021-12": null,
+    "2022-01": null,
+    "2022-02": null,
+    "2022-03": null,
+    "2022-04": null,
+    "2022-05": null,
+    "2022-06": null,
+    "2022-07": null,
+    "2022-08": null,
+    "2022-09": 355554
+  },
+  "locations": [
+    {
+      "serviceAddress": "191 Presidential Bl, Bala Cynwyd",
+      "accountNumber": "27681-00606",
+      "meterNumber": "019194505"
+    },
+    {
+      "serviceAddress": "191 Presidential Bl, Bala Cynwyd",
+      "accountNumber": "27681-00606",
+      "meterNumber": "022020107"
+    }
+  ],
+  "totalUsage": 355554
+}

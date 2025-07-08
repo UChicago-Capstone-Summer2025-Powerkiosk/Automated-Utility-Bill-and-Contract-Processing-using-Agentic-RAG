@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_309",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 0.1,
+    "2024-01": 0.35,
+    "2024-02": 0.2,
+    "2024-03": 0.15,
+    "2024-04": 0.1,
+    "2024-05": 0.05,
+    "2024-06": 0.0,
+    "2024-07": 0.05,
+    "2024-08": 0.1,
+    "2024-09": 0.05,
+    "2024-10": 0.1,
+    "2024-11": 0.15,
+    "2024-12": 0.2
+  },
+  "locations": [
+    {
+      "serviceAddress": "66 BAXTER AVE, KENSINGTON CT 06037",
+      "accountNumber": "51956413017",
+      "meterNumber": "085091292"
+    }
+  ],
+  "totalUsage": 4
+}
