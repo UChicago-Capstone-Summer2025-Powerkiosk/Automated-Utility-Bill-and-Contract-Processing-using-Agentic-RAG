@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1072",
+  "statementDate": "January 2023",
+  "totalUsage": 114.0,
+  "usageHistory": {
+    "2023-01": 114.0
+  },
+  "locations": [
+    {
+      "serviceAddress": "6500 N NEWBURGH RD, WESTLAND MI 48185-1993",
+      "accountNumber": "1030 4614 6314",
+      "meterNumber": "97395035"
+    }
+  ]
+}

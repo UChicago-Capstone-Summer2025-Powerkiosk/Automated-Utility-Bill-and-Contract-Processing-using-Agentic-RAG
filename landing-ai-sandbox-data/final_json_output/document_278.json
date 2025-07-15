@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_278",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2022-12": 112,
+    "2023-01": 225,
+    "2023-02": 152,
+    "2023-03": 204,
+    "2023-04": 176,
+    "2023-05": 128,
+    "2023-06": 190,
+    "2023-07": 138,
+    "2023-08": 137,
+    "2023-09": 123,
+    "2023-10": 140,
+    "2023-11": 127,
+    "2023-12": 130
+  },
+  "locations": [
+    {
+      "serviceAddress": "QUINCY TRL, BERLIN CT 06037",
+      "accountNumber": "5130 122 3020",
+      "meterNumber": "868869842"
+    }
+  ],
+  "totalUsage": 130
+}

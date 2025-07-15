@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_317",
+  "statementDate": "12/18/23",
+  "usageHistory": {
+    "2022-12": 5280,
+    "2023-01": 3720,
+    "2023-02": 2640,
+    "2023-03": 3480,
+    "2023-04": 4760,
+    "2023-05": 5880,
+    "2023-06": 7800,
+    "2023-07": 9160,
+    "2023-08": 10440,
+    "2023-09": 9080,
+    "2023-10": 5960,
+    "2023-11": 5440,
+    "2023-12": 5400
+  },
+  "locations": [
+    {
+      "serviceAddress": "330 SOUTHINGTON RD, KENSINGTON CT 06037",
+      "accountNumber": "5160 051 3022",
+      "meterNumber": "890404792"
+    }
+  ],
+  "totalUsage": 5400
+}

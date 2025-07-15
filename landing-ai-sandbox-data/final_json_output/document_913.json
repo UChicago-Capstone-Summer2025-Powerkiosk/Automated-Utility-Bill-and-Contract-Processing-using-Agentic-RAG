@@ -1,0 +1,16 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_913",
+  "statementDate": "Aug 06, 2024",
+  "totalUsage": 2917.856,
+  "usageHistory": {
+    "2024-07": 2917.856
+  },
+  "locations": [
+    {
+      "serviceAddress": "1600 Rich Rd, Richmond, IN 47374-1435",
+      "accountNumber": "13605200-8",
+      "meterNumber": "N00001375901"
+    }
+  ]
+}

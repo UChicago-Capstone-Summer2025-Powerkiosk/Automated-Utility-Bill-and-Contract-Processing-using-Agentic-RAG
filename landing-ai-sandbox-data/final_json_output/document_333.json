@@ -1,0 +1,38 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_333",
+  "statementDate": "09/20/16",
+  "usageHistory": {
+    "2015-09": "NOT_FOUND",
+    "2015-10": "NOT_FOUND",
+    "2015-11": "NOT_FOUND",
+    "2015-12": "NOT_FOUND",
+    "2016-01": "NOT_FOUND",
+    "2016-02": "NOT_FOUND",
+    "2016-03": "NOT_FOUND",
+    "2016-04": "NOT_FOUND",
+    "2016-05": "NOT_FOUND",
+    "2016-06": "NOT_FOUND",
+    "2016-07": "NOT_FOUND",
+    "2016-08": "NOT_FOUND",
+    "2016-09": "NOT_FOUND"
+  },
+  "locations": [
+    {
+      "serviceAddress": "6281 Regio Ave. Buena Park, CA 90620",
+      "accountNumber": null,
+      "meterNumber": "190769155"
+    },
+    {
+      "serviceAddress": "3430 Highway 6 Sugar Land,TX 774784408-4408",
+      "accountNumber": null,
+      "meterNumber": "771408"
+    },
+    {
+      "serviceAddress": "1005 Blalock Rd Houston,TX 770557441-7441",
+      "accountNumber": null,
+      "meterNumber": "012397"
+    }
+  ],
+  "totalUsage": "203,712.00"
+}

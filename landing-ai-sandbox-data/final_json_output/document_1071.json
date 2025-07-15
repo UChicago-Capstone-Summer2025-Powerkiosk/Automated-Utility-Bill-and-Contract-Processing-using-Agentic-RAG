@@ -1,0 +1,18 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1071",
+  "statementDate": "September 21, 2021",
+  "totalUsage": 25040,
+  "usageHistory": {
+    "2021-09": 25040,
+    "2020-09": 22440,
+    "2019-09": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "524 LANSING ST, CHARLOTTE MI 48813-1116",
+      "accountNumber": "1000 8814 1112",
+      "meterNumber": "40062458"
+    }
+  ]
+}

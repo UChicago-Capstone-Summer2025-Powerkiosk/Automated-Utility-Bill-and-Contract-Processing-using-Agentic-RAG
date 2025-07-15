@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_892",
+  "statementDate": "10/24/23",
+  "usageHistory": {
+    "2022-10": 5,
+    "2022-11": 11,
+    "2022-12": 26,
+    "2023-01": 29,
+    "2023-02": 26,
+    "2023-03": 26,
+    "2023-04": 20,
+    "2023-05": 14,
+    "2023-06": 5,
+    "2023-07": 2,
+    "2023-08": 2,
+    "2023-09": 2,
+    "2023-10": 5
+  },
+  "locations": [
+    {
+      "serviceAddress": "27 GLADE ST, WEST HAVEN, CT 06516",
+      "accountNumber": "050-0010042-0178",
+      "meterNumber": "781244"
+    }
+  ],
+  "totalUsage": 203.589
+}

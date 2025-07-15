@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_291",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2023-12": 138,
+    "2024-01": 165,
+    "2024-02": 114,
+    "2024-03": 108,
+    "2024-04": 118,
+    "2024-05": 82,
+    "2024-06": 98,
+    "2024-07": 90,
+    "2024-08": 105,
+    "2024-09": 93,
+    "2024-10": 110,
+    "2024-11": 127,
+    "2024-12": 132
+  },
+  "locations": [
+    {
+      "serviceAddress": "1041 FARMINGTON AVE UNIT PEDESTAL BERLIN CT 06037",
+      "accountNumber": "5191 525 5046",
+      "meterNumber": "035503982"
+    }
+  ],
+  "totalUsage": 132
+}

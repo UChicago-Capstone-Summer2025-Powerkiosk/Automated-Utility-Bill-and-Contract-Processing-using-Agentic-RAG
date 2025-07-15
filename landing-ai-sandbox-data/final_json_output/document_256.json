@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_256",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2022-12": 193,
+    "2023-01": 254,
+    "2023-02": 327,
+    "2023-03": 241,
+    "2023-04": 75,
+    "2023-05": 45,
+    "2023-06": 49,
+    "2023-07": 45,
+    "2023-08": 47,
+    "2023-09": 45,
+    "2023-10": 43,
+    "2023-11": 47,
+    "2023-12": 162
+  },
+  "locations": [
+    {
+      "serviceAddress": "723 WORTHINGTON RDG, BERLIN, CT 06037",
+      "accountNumber": "5109 522 3079",
+      "meterNumber": "890634282"
+    }
+  ],
+  "totalUsage": 162
+}

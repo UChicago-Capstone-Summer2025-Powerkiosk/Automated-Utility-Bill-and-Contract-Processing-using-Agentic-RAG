@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_706",
+  "statementDate": "July 12, 2024",
+  "usageHistory": {
+    "2023-07": 109960,
+    "2023-08": 108800,
+    "2023-09": 114320,
+    "2023-10": 95240,
+    "2023-11": 83400,
+    "2023-12": 100360,
+    "2024-01": 107400,
+    "2024-02": 92560,
+    "2024-03": 96120,
+    "2024-04": 88800,
+    "2024-05": 102680,
+    "2024-06": 109920,
+    "2024-07": 117120
+  },
+  "locations": [
+    {
+      "serviceAddress": "4121 SOUTH AVE, YOUNGSTOWN OH 44512",
+      "accountNumber": "110 092 502 647",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 98960
+}

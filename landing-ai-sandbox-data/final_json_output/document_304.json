@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_304",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2022-12": 680,
+    "2023-01": 858,
+    "2023-02": 460,
+    "2023-03": 441,
+    "2023-04": 457,
+    "2023-05": 301,
+    "2023-06": 359,
+    "2023-07": 321,
+    "2023-08": 390,
+    "2023-09": 364,
+    "2023-10": 423,
+    "2023-11": 493,
+    "2023-12": 718
+  },
+  "locations": [
+    {
+      "serviceAddress": "342 MAIN ST, KENSINGTON CT 06023",
+      "accountNumber": "5152 758 7018",
+      "meterNumber": "035994582"
+    }
+  ],
+  "totalUsage": 718
+}

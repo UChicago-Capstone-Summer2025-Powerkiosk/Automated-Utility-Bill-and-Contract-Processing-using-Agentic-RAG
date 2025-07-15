@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1048",
+  "statementDate": "Sep 20, 2018",
+  "usageHistory": {
+    "2017-09": 1796,
+    "2017-10": 1941,
+    "2017-11": 1844,
+    "2017-12": 3038,
+    "2018-01": 2777,
+    "2018-02": 2233,
+    "2018-03": 2800,
+    "2018-04": 2230,
+    "2018-05": 2241,
+    "2018-06": 2111,
+    "2018-07": 3065,
+    "2018-08": 2420,
+    "2018-09": 3353
+  },
+  "locations": [
+    {
+      "serviceAddress": "219 LITTLETON RD POLE 92, WESTFORD MA 01886",
+      "accountNumber": "27976-85013",
+      "meterNumber": "98641913"
+    }
+  ],
+  "totalUsage": 3353
+}

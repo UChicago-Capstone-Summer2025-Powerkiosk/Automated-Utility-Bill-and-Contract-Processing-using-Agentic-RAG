@@ -1,0 +1,61 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_402",
+  "statementDate": "8/30/2016",
+  "usageHistory": {
+    "2015-08": 552000,
+    "2015-10": 368000,
+    "2015-12": 0,
+    "2016-02": 552000,
+    "2016-04": 552000,
+    "2016-06": 1288000
+  },
+  "locations": [
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "097125046"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141527183"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141528277"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141533998"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141612972"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141633474"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141654941"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141661911"
+    },
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE CHICAGO, IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": "141807465"
+    }
+  ],
+  "totalUsage": 10534.21
+}

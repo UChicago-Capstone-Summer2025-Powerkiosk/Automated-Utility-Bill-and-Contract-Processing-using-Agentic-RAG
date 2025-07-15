@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_398",
+  "statementDate": "12/02/16",
+  "usageHistory": {
+    "2015-12": null,
+    "2016-01": null,
+    "2016-02": null,
+    "2016-03": null,
+    "2016-04": null,
+    "2016-05": null,
+    "2016-06": null,
+    "2016-07": null,
+    "2016-08": null,
+    "2016-09": null,
+    "2016-10": null,
+    "2016-11": null,
+    "2016-12": null
+  },
+  "locations": [
+    {
+      "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO,IL 60611",
+      "accountNumber": "100431042",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 618232.91
+}

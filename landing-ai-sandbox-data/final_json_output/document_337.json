@@ -1,0 +1,19 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_337",
+  "statementDate": "2024-10-30",
+  "totalUsage": 4608.0,
+  "usageHistory": null,
+  "locations": [
+    {
+      "serviceAddress": "1236 RT 22, PHILLIPSBURG, NJ 08865",
+      "accountNumber": "100155442096",
+      "meterNumber": "3313685353"
+    },
+    {
+      "serviceAddress": "123 RT 22, PHILLIPSBURG, NJ 08865",
+      "accountNumber": "100155442096",
+      "meterNumber": "3313685353"
+    }
+  ]
+}

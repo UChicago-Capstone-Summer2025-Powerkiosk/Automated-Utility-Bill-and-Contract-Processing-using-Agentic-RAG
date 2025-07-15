@@ -1,0 +1,271 @@
+logo: ComEd, An Exelon Company
+
+Visible Elements :
+  • The logo displays the text "ComEd" in bold red font, with a stylized burst or star effect in the letter "E".
+  • Below "ComEd", the tagline "An Exelon Company" appears in smaller, grey font.
+  • The logo is horizontally aligned, with a thin grey line separating the main name from the tagline.
+
+Analysis :
+  • The use of red and the burst effect in the "E" draws attention to the brand name, while the tagline clarifies corporate ownership. <!-- figure, from page 0 (l=0.085,t=0.016,r=0.260,b=0.073), with ID 63579497-7f6c-47ee-bd9d-32f04cfec562 -->
+
+Visit ComEd.com
+
+Customer Service / Power Outage
+English
+1.877.4COMED1 (1.877.426.6331)
+
+Español
+1.800.95.LUCES (1.800.955.8237)
+
+Hearing/Speech Impaired
+1.800.572.5789 (TTY) <!-- text, from page 0 (l=0.030,t=0.092,r=0.251,b=0.212), with ID 7c0ce98f-08de-43ca-86d8-3763c1704988 -->
+
+Summary : This bar chart displays the total kilowatt-hour (kWh) usage profile over a 13-month period, with each bar representing a different month.
+
+bar chart:
+Title & Axes :
+  • Title: "Your Usage Profile 13-Month Usage (Total kWh)".
+  • Y-axis: Total kWh, with tick marks at 0, 336880, and 673760.
+  • X-axis: Months, labeled as O, N, D, J, F, M, A, M, J, J, A, S, O (likely October to October, with two Ms and two Js for different months).
+
+Data Points :
+  • Each bar represents total kWh usage for a specific month.
+  • The bar for "J" (January) is the highest, exceeding 673760 kWh.
+  • Other months generally range between 336880 and just below 673760 kWh.
+  • The lowest bar appears around "M" (May), just above 336880 kWh.
+  • Remaining months show moderate variation, with some months (e.g., "J", "A", "S") slightly higher than others.
+
+Design Encodings :
+  • All bars are solid black.
+  • No additional colour, pattern, or error bars.
+  • No gridlines or secondary axes.
+
+Distribution & Trends :
+  • Usage peaks sharply in "J" (January).
+  • Lowest usage occurs in "M" (May).
+  • Usage is relatively stable in other months, with minor fluctuations.
+
+Analysis :
+  • The data shows a pronounced spike in electricity usage in January, with a notable dip in May.
+  • Usage in other months remains relatively consistent, suggesting seasonal or operational factors influencing the January peak and May trough.
+  • No evidence of a consistent upward or downward trend across the 13 months. <!-- figure, from page 0 (l=0.022,t=0.237,r=0.261,b=0.370), with ID 7ec357a9-f031-4a3d-87a3-753693878956 -->
+
+Electric Usage
+<table><thead><tr><th>Month</th><th>kWh</th></tr></thead><tbody><tr><td>Oct-17</td><td>440313</td></tr><tr><td>Nov-17</td><td>453965</td></tr><tr><td>Dec-17</td><td>454986</td></tr><tr><td>Jan-18</td><td>673758</td></tr><tr><td>Feb-18</td><td>507294</td></tr><tr><td>Mar-18</td><td>504800</td></tr><tr><td>Apr-18</td><td>396297</td></tr><tr><td>May-18</td><td>440203</td></tr><tr><td>Jun-18</td><td>558180</td></tr><tr><td>Jul-18</td><td>532138</td></tr><tr><td>Aug-18</td><td>492612</td></tr><tr><td>Sep-18</td><td>542867</td></tr><tr><td>Oct-18</td><td>464766</td></tr></tbody></table> <!-- table, from page 0 (l=0.058,t=0.387,r=0.192,b=0.582), with ID 2a3fa20a-0024-417b-99c8-29d6ab6fb951 -->
+
+<table><thead><tr><th rowspan="2">Month Billed</th><th colspan="2">Average Daily</th></tr><tr><th>kWh</th><th>Temp</th></tr></thead><tbody><tr><td>Last Year</td><td>16307.9</td><td>69</td></tr><tr><td>Last Month</td><td>16964.6</td><td>76</td></tr><tr><td>Current Month</td><td>16026.4</td><td>67</td></tr></tbody></table> <!-- table, from page 0 (l=0.036,t=0.594,r=0.262,b=0.660), with ID ad3752b0-1dcb-4c5a-82bb-39a29b8ecdcf -->
+
+Page 1 of 3
+
+Account Number: 0172095028
+
+Name: KENDALL COLLEGE
+Service Location: 900 N NORTHBRANCH ST
+CHICAGO
+Phone Number: 312-752-2126 <!-- text, from page 0 (l=0.289,t=0.050,r=0.561,b=0.136), with ID 70a03aff-2fb3-49ed-a6db-20ee75e7976a -->
+
+<table><thead><tr><th colspan="2">Bill Summary</th></tr></thead><tbody><tr><td>Previous Balance</td><td>$50,586.91</td></tr><tr><td>Total Payments</td><td>$0.00</td></tr><tr><td>Amount Due on October 19, 2018</td><td>$91,768.87</td></tr></tbody></table> <!-- table, from page 0 (l=0.622,t=0.050,r=0.979,b=0.140), with ID f1bfcedc-b80d-40f3-a87d-6fadfb51be29 -->
+
+Issue Date: October 4, 2018 <!-- text, from page 0 (l=0.292,t=0.165,r=0.486,b=0.178), with ID 813af448-6d6c-4bd9-bfa0-0b048f5a23bd -->
+
+<table><thead><tr><th>Read Dates</th><th>Meter Number</th><th>Load Type</th><th>Reading Type</th><th colspan="3">Meter Reading</th><th>Multiplier X</th><th>Usage</th></tr><tr><th></th><th></th><th></th><th></th><th>Previous</th><th>Present</th><th>Difference</th><th></th><th></th></tr></thead><tbody><tr><td>9/4-10/3</td><td>230253698</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>0</td></tr><tr><td>9/4-10/3</td><td>230253698</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>0.00</td></tr><tr><td>9/4-10/3</td><td>230253983</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>16</td></tr><tr><td>9/4-10/3</td><td>230253983</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>0.00</td></tr><tr><td>9/4-10/3</td><td>230253984</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>949</td></tr><tr><td>9/4-10/3</td><td>230253984</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>0.40</td></tr><tr><td>9/4-10/3</td><td>230269415</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>270712</td></tr><tr><td>9/4-10/3</td><td>230269415</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>488.26</td></tr><tr><td>9/4-10/3</td><td>230269431</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>42198</td></tr><tr><td>9/4-10/3</td><td>230269431</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>171.24</td></tr><tr><td>9/4-10/3</td><td>230269433</td><td>General Service</td><td>Total kWh</td><td>Actual</td><td>Actual</td><td></td><td></td><td>150891</td></tr><tr><td>9/4-10/3</td><td>230269433</td><td>General Service</td><td>On Pk kW</td><td>Actual</td><td>Actual</td><td></td><td></td><td>402.00</td></tr></tbody></table> <!-- table, from page 0 (l=0.291,t=0.200,r=0.979,b=0.511), with ID 681ea4da-703b-47dc-be65-d48bfbbfe20c -->
+
+Service from 9/4/2018 to 10/3/2018 - 29 Days                                Commercial Hourly - 1000 kW to 10MW
+<table><tr><th colspan="4">Electricity Supply Services</th><th>$25,415.75</th></tr><tr><td>Electricity Supply Charge</td><td>464,765 kWh</td><td></td><td></td><td>15,479.73</td></tr><tr><td>Transmission Services Charge</td><td>464,766 kWh</td><td>X</td><td>0.00503</td><td>2,337.77</td></tr><tr><td>Capacity Charge</td><td>1,440.27 kW</td><td>X</td><td>6.50504</td><td>9,369.01</td></tr></table>
+For Electric Supply Choices visit pluginillinois.org                        (continued on next page) <!-- table, from page 0 (l=0.279,t=0.540,r=0.983,b=0.670), with ID f85f17cd-aacb-4022-a28d-f076ea065e8e -->
+
+Return only this portion with your check made payable to ComEd. Please write your account number on your check. <!-- text, from page 0 (l=0.237,t=0.675,r=0.829,b=0.689), with ID f3c4049e-a952-4568-b9f8-d8cc95d507de -->
+
+logo: ComEd, An Exelon Company
+
+Visible Elements : 
+  • The logo displays the text "ComEd" in bold black font, with a stylized starburst effect on the letter "E".
+  • Below "ComEd", the tagline "An Exelon Company" appears in a lighter, smaller font.
+  • A horizontal line separates the main logo text from the tagline.
+  • The logo is in grayscale (black and white).
+  • The registered trademark symbol (®) appears after "ComEd".
+
+Dimensions & Placement : 
+  • "ComEd" is the dominant element, centered above the tagline.
+  • The tagline is left-aligned with the main logo text.
+
+Analysis : 
+  • The starburst on the "E" visually emphasizes energy or electricity, aligning with ComEd's identity as a utility company.
+  • The inclusion of "An Exelon Company" clarifies corporate ownership. <!-- figure, from page 0 (l=0.069,t=0.687,r=0.211,b=0.729), with ID 9e8fecd5-619c-49a3-a21f-b98afc8d9b7c -->
+
+To pay by phone call 1-800-588-9477.
+A convenience fee will apply. <!-- text, from page 0 (l=0.685,t=0.705,r=0.922,b=0.735), with ID 8e9532b2-8f39-4aed-bbc6-e0966e400988 -->
+
+0001693  SL    H   1198 60642 <!-- text, from page 0 (l=0.059,t=0.747,r=0.224,b=0.760), with ID 28f26eb0-c081-4f5b-b6b4-63e282d33079 -->
+
+-C76-B1-P00000-I <!-- text, from page 0 (l=0.267,t=0.748,r=0.352,b=0.760), with ID fd04c569-0546-4cdb-9661-285238fdc052 -->
+
+Account Number: 0172095028
+
+Payment Amount:  <!-- text, from page 0 (l=0.633,t=0.757,r=0.779,b=0.826), with ID 819f57d1-f8cb-42a0-b0c0-2d2037966d01 -->
+
+KENDALL COLLEGE  
+900 N NORTH BRANCH ST  
+CHICAGO, IL 60642 <!-- text, from page 0 (l=0.059,t=0.791,r=0.229,b=0.834), with ID 5a1f67a8-c079-4288-bbca-a4a5ea28eccb -->
+
+Summary : This image is a small, square, black-and-white matrix with a dense arrangement of black and white modules, resembling a 2D barcode.
+
+barcode:  
+Type & Structure :  
+  • Appears to be a DataMatrix code (square, grid-like pattern).  
+  • Approximate module count: 16 × 16.  
+  • Quiet zone: 1 module wide on all sides.  
+
+Content :  
+  • No human-readable text or numeric string visible within the crop.  
+  • No embedded logo or graphic elements.  
+
+Analysis :  
+  • The barcode is likely intended for compact data encoding (e.g., serial numbers, URLs, or product info) in a machine-readable format.  
+  • The high density and lack of visible text suggest it is not a QR code but a DataMatrix or similar symbology. <!-- figure, from page 0 (l=0.394,t=0.824,r=0.439,b=0.858), with ID 51bf6eb1-cb09-47d8-ba5f-0f507510e6ca -->
+
+Please pay this  
+amount by 10/19/2018 <!-- text, from page 0 (l=0.652,t=0.855,r=0.781,b=0.879), with ID 9307bf8c-5407-45d5-bcb7-935e6a8c628a -->
+
+$91,768.87 <!-- marginalia, from page 0 (l=0.895,t=0.863,r=0.981,b=0.879), with ID 58c1dfca-753d-478b-830b-5fae71ceb6d0 -->
+
+Summary : This image shows a postal barcode and mailing address for COMED, including a PO Box and city/state/ZIP information.
+
+barcode:
+Barcode Details :
+  • Linear barcode (type not specified, likely POSTNET or IMb).
+  • No visible numeric or alphanumeric string beneath the bars.
+  • Barcode is approximately 50 modules wide, with a quiet zone on both ends.
+  • Positioned above the address block.
+
+Address Block :
+  • Recipient: COMED
+  • Address: PO BOX 6112
+  • City/State/ZIP: CAROL STREAM, IL 60197-6112
+
+Analysis :
+  • The barcode is used for automated mail sorting and delivery, corresponding to the address below. The address is formatted for US postal mail, with a PO Box in Carol Stream, Illinois, and a ZIP+4 code for precise routing. <!-- figure, from page 0 (l=0.129,t=0.881,r=0.482,b=0.942), with ID 1bef8745-7d27-4c26-81ad-4322aab20a7c -->
+
+Summary : This image is a compact, square, high-contrast black-and-white pattern consistent with a DataMatrix barcode, containing no visible text or numbers.
+
+barcode:  
+Type & Structure :  
+  • DataMatrix barcode (square, 2D, black-and-white modules).  
+  • Approximate module count: 18 × 18.  
+  • Quiet zone: 1 module wide on all sides.  
+  • No visible numeric or alphanumeric string.  
+  • No human-readable text or company logo present.  
+Dimensions & Placement :  
+  • Square aspect ratio, tightly cropped to barcode edges.  
+  • No additional marks, labels, or orientation indicators.
+
+Analysis :  
+  • The barcode is machine-readable and designed for compact data encoding, but the encoded content is not visible in the image. <!-- figure, from page 0 (l=0.056,t=0.918,r=0.101,b=0.952), with ID 8a4db407-4780-4d62-a211-a5be363584ff -->
+
+1188-7600/969-3001-0000/28 <!-- marginalia, from page 0 (l=0.000,t=0.670,r=0.015,b=0.785), with ID fd8a809f-e4c4-423e-ab18-6a60c5093f1e -->
+
+Page 2 of 3 <!-- marginalia, from page 1 (l=0.288,t=0.049,r=0.356,b=0.065), with ID b791bc85-e2a8-4904-b306-2a305ff4a4ca -->
+
+<table><thead><tr><th>Description</th><th>Quantity</th><th></th><th>Rate</th><th>Amount</th></tr></thead><tbody><tr><td>Purchased Electricity Adjustment</td><td></td><td></td><td></td><td>-2,323.83</td></tr><tr><td>Misc Procurement Component Chg</td><td>464,766 kWh</td><td>X</td><td>0.00119</td><td>553.07</td></tr><tr><td>Delivery Services - ComEd</td><td></td><td></td><td></td><td>$8,753.01</td></tr><tr><td>Customer Charge</td><td></td><td></td><td></td><td>536.67</td></tr><tr><td>Standard Metering Charge</td><td></td><td></td><td></td><td>25.96</td></tr><tr><td>Distribution Facilities Charge</td><td>1,061.90 kW</td><td>X</td><td>6.38000</td><td>6,774.92</td></tr><tr><td>IL Electricity Distribution Charge</td><td>464,766 kWh</td><td>X</td><td>0.00119</td><td>553.07</td></tr><tr><td>Meter Lease</td><td></td><td></td><td></td><td>61.75</td></tr><tr><td>Nonstandard Facilities Charge</td><td></td><td></td><td></td><td>800.64</td></tr><tr><td>Taxes and Other</td><td></td><td></td><td></td><td>$6,254.39</td></tr><tr><td>Environmental Cost Recovery Adj</td><td>464,766 kWh</td><td>X</td><td>0.00024</td><td>111.54</td></tr><tr><td>Renewable Portfolio Standard</td><td>464,766 kWh</td><td>X</td><td>0.00142</td><td>659.97</td></tr><tr><td>Zero Emission Standard</td><td>464,766 kWh</td><td>X</td><td>0.00190</td><td>883.06</td></tr><tr><td>Energy Efficiency Programs</td><td>464,766 kWh</td><td>X</td><td>0.00010</td><td>46.48</td></tr><tr><td>Franchise Cost</td><td></td><td></td><td></td><td>1,446.14</td></tr><tr><td>State Tax</td><td></td><td></td><td></td><td>1,394.58</td></tr><tr><td>Municipal Tax</td><td></td><td></td><td></td><td>1,712.62</td></tr></tbody></table> <!-- table, from page 1 (l=0.289,t=0.090,r=0.988,b=0.434), with ID 0e2c2981-4b6d-48e5-9b03-513b165809d9 -->
+
+<table><tr><td>Total Current Charges</td><td>$40,423.15</td></tr><tr><td>Miscellaneous</td><td>$51,345.72</td></tr><tr><td>Charges from previous bill</td><td>49,883.84</td></tr><tr><td>Current late payment charge (s) - electric</td><td>758.81</td></tr><tr><td>Previous late payment charge (s) - electric</td><td>703.07</td></tr><tr><td>Total Amount Due</td><td>$91,768.87</td></tr></table> <!-- table, from page 1 (l=0.288,t=0.426,r=0.989,b=0.575), with ID fc8559be-b5c0-48f8-8e52-9bf81b7d35ef -->
+
+Summary : This image displays a recycling symbol accompanied by a statement about recycled content.
+
+logo: 
+  Visible Elements : 
+    • Recycling symbol (three arrows forming a triangle, standard recycling icon).
+    • Text below symbol: "10% total recycled fiber".
+  Placement & Dimensions : 
+    • Symbol centered above the text.
+    • Grey color scheme, no additional branding or company name.
+
+Analysis : 
+  • The logo indicates that the associated product or material contains 10% total recycled fiber, using the widely recognized recycling symbol to communicate environmental responsibility. <!-- figure, from page 1 (l=0.053,t=0.637,r=0.177,b=0.682), with ID b874b429-d3fd-486b-aa7d-f96efb3e59c4 -->
+
+(continued on next page) <!-- text, from page 1 (l=0.823,t=0.648,r=0.987,b=0.666), with ID df76d5e3-8146-45f4-8683-44f803e00f02 -->
+
+When you provide a check as payment, you authorize us to use information from your check either to make a one-time electronic fund transfer from your account or to process the payment as a check transaction. <!-- marginalia, from page 1 (l=0.049,t=0.952,r=0.962,b=0.979), with ID 0ed374c5-2d3f-4a11-a415-9740b6e5f7a4 -->
+
+- •
+- •
+- •
+- • <!-- text, from page 1 (l=-0.000,t=0.982,r=0.024,b=1.000), with ID 016c5deb-7785-4c00-b5a6-8de5298983f1 -->
+
+logo: ComEd
+
+• The image is a logo featuring the text "ComEd" in bold red letters.
+• The "E" in "ComEd" is stylized with white lines radiating from its center, resembling a burst or star effect.
+• The logo includes a registered trademark symbol (®) at the end.
+• The background is white, and the logo is horizontally oriented.
+
+Analysis :
+• The stylized "E" with radiating lines suggests energy or electricity, aligning with ComEd's identity as an electric utility company. <!-- figure, from page 2 (l=0.085,t=0.026,r=0.248,b=0.058), with ID de2f6940-037f-49ea-b88e-ccd0069dd1ec -->
+
+An Exelon Company <!-- text, from page 2 (l=0.113,t=0.058,r=0.241,b=0.074), with ID ca5afb8f-34b1-4340-9546-7b4fcb29ba18 -->
+
+Visit ComEd.com
+
+Customer Service / Power Outage
+English
+1.877.4COMED1 (1.877.426.6331)
+
+Español
+1.800.95.LUCES (1.800.955.8237)
+
+Hearing/Speech Impaired
+1.800.572.5789 (TTY) <!-- text, from page 2 (l=0.026,t=0.092,r=0.252,b=0.214), with ID f859e69c-7f15-4056-af43-0018bed6cfd7 -->
+
+1188-7600/0300-029 <!-- marginalia, from page 2 (l=0.001,t=0.412,r=0.015,b=0.528), with ID d024eecb-abe4-4211-a4a9-7f468c49b8ad -->
+
+Page 3 of 3 <!-- marginalia, from page 2 (l=0.290,t=0.051,r=0.353,b=0.063), with ID 94bdf6dc-437f-4b68-9253-599358334bc6 -->
+
+Account Number 0172095028 <!-- text, from page 2 (l=0.289,t=0.066,r=0.528,b=0.084), with ID 32946fb3-7903-4438-941a-9b6e36f03032 -->
+
+- **Message Center**
+
+- **ComEd**
+  - • YOUR COMED BILL: Need help understanding your bill line item definitions? Please visit us at ComEd.com/UnderstandBill or call us at 877-426-6331.
+  - • ENVIRONMENTAL DISCLOSURE STATEMENT: ComEd's Environmental Disclosure Statement can now be found online at ComEd.com/EnvironmentalDisclosure.
+  - • WAYS TO PAY: Looking for ways to pay your bill? Visit ComEd.com/PAY.
+  - • ILLINOIS COMMERCE COMMISSION CONSUMER DIVISION: 800-524-0795: The Consumer Services Division is available to help resolve disputes with ComEd. However, customers should contact ComEd first before seeking assistance from the ICC. <!-- text, from page 2 (l=0.291,t=0.100,r=0.981,b=0.252), with ID 355d4206-1d1c-42f5-a5a7-4e4501af3fd5 -->
+
+DO NOT MAIL THIS PORTION WITH YOUR PAYMENT <!-- text, from page 2 (l=0.300,t=0.809,r=0.723,b=0.830), with ID 19a678be-ea7f-443b-981b-e0efc684ab77 -->
+
+Summary : This image shows a small, square, high-contrast black-and-white pattern typical of a 2D barcode, specifically a DataMatrix code, with no visible text or numbers.
+
+barcode:  
+Type & Structure :  
+  • Barcode type: DataMatrix (square, grid-like pattern).  
+  • Approximate module count: 14 × 14 modules (black and white squares).  
+  • Quiet zone: 1 module wide on all sides.  
+  • No visible numeric or alphanumeric string.  
+  • No human-readable text or company logo present.
+
+Design & Placement :  
+  • Black modules on a white background.  
+  • No additional markings, icons, or orientation indicators beyond standard DataMatrix features.
+
+Analysis :  
+  • The barcode is likely intended for compact encoding of data (e.g., serial numbers, URLs, or product information) in a machine-readable format.  
+  • No information about the encoded content is visible in the image. <!-- figure, from page 2 (l=0.055,t=0.918,r=0.102,b=0.953), with ID d19dcaa8-7743-45ba-84a5-9959272e4396 -->
+
+Summary : This image shows a simple icon consisting of four horizontal black bars, commonly used as a "menu" or "hamburger" icon in user interfaces.
+
+icon:
+Scene Overview :
+  • Four evenly spaced, solid black horizontal bars.
+  • Bars are of equal length and thickness.
+  • Set against a white background with a thin black border on the top and right edges.
+  • No text, numbers, or additional symbols present.
+
+Technical Details :
+  • No scale bar, units, or magnification.
+  • No UI elements except the icon itself.
+
+Spatial Relationships :
+  • Bars are stacked vertically with equal spacing.
+  • Icon is positioned near the upper left corner of a white rectangular area.
+
+Analysis :
+  • The arrangement and style are typical of a "hamburger" menu icon, used to indicate a collapsible navigation menu in digital interfaces. <!-- figure, from page 2 (l=-0.000,t=0.983,r=0.022,b=1.000), with ID 5f98506b-f044-468f-bf76-148551b5098f -->
