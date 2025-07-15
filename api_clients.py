@@ -13,7 +13,7 @@ from loguru import logger
 from config import API_ENDPOINTS, DEFAULT_VALUES
 import anthropic
 import google.generativeai as genai
-from vision_agent.agent import import VisionAgent
+from vision_agent.agent import VisionAgent
 from agentic_doc.parse import parse
 
 class APIClientBase:
