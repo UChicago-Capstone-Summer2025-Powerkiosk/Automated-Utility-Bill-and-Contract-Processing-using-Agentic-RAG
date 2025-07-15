@@ -1,1 +1,4 @@
-
+agentic-doc>=0.3.0
+vision-agent>=1.1.18
+openai
+python-dotenv
