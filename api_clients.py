@@ -376,7 +376,7 @@ class HybridExtractionClient:
 
     def __init__(self, vision_agent_key: str, landing_ai_key: str,
                  anthropic_key: str, google_key: str):
-        self.vision_agent = VisionAgent(vision_agent_key)
+        self.vision_agent = VisionAgent(api_key=vision_agent_key)
         self.landing_ai = parse(landing_ai_key)
         self.anthropic = AnthropicClient(anthropic_key)
         self.google_vision = GoogleVisionClient(google_key)
