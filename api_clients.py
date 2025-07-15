@@ -13,8 +13,9 @@ from loguru import logger
 from config import API_ENDPOINTS, DEFAULT_VALUES
 import anthropic
 import google.generativeai as genai
-from vision_agent.vision_agent import VisionAgent
-from landing_ai.client import LandingAI
+from vision_agent.agent import VisionAgentCoderV2
+from vision_agent.models import AgentMessage
+from agentic_doc.parse import parse
 
 class APIClientBase:
     """Base class for API clients"""
@@ -122,7 +123,7 @@ class LandingAIClient(APIClientBase):
 
     def __init__(self, api_key: str, timeout: int = 60, max_retries: int = 3):
         super().__init__(api_key, timeout, max_retries)
-        self.client = LandingAI(api_key=api_key)
+        self.client = parse(api_key=api_key)
 
     def extract_document_data(self, image_path: str) -> Dict:
         """Extract structured data using LandingAI"""
@@ -376,8 +377,8 @@ class HybridExtractionClient:
 
     def __init__(self, vision_agent_key: str, landing_ai_key: str,
                  anthropic_key: str, google_key: str):
-        self.vision_agent = VisionAgentClient(vision_agent_key)
-        self.landing_ai = LandingAIClient(landing_ai_key)
+        self.vision_agent = VisionAgentCoderV2(vision_agent_key)
+        self.landing_ai = parse(landing_ai_key)
         self.anthropic = AnthropicClient(anthropic_key)
         self.google_vision = GoogleVisionClient(google_key)
 
