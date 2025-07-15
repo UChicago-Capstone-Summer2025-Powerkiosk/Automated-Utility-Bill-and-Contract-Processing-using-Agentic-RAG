@@ -13,8 +13,7 @@ from loguru import logger
 from config import API_ENDPOINTS, DEFAULT_VALUES
 import anthropic
 import google.generativeai as genai
-from vision_agent.agent import VisionAgentCoderV2
-from vision_agent.models import AgentMessage
+from vision_agent.agent import import VisionAgent
 from agentic_doc.parse import parse
 
 class APIClientBase:
@@ -377,7 +376,7 @@ class HybridExtractionClient:
 
     def __init__(self, vision_agent_key: str, landing_ai_key: str,
                  anthropic_key: str, google_key: str):
-        self.vision_agent = VisionAgentCoderV2(vision_agent_key)
+        self.vision_agent = VisionAgent(vision_agent_key)
         self.landing_ai = parse(landing_ai_key)
         self.anthropic = AnthropicClient(anthropic_key)
         self.google_vision = GoogleVisionClient(google_key)
