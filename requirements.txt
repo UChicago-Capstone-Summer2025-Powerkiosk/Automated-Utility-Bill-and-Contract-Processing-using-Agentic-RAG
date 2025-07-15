@@ -8,8 +8,8 @@ pdf2image==1.16.3
 requests
 tqdm>=4.67
 python-dotenv==1.0.0
-anthropic==0.7.8
-google-generativeai==0.3.2
+anthropic
+google-generativeai
 agentic-doc
 vision-agent>=1.0.3
 pydantic>=2.8,<3.0
