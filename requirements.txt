@@ -18,5 +18,5 @@ pathlib==1.0.1
 jsonschema>=4.24,<5.0
 poppler-utils
 pytesseract==0.3.10
-protobuf==5.29.1
+protobuf==4.25.3
 google-auth==2.38.0
