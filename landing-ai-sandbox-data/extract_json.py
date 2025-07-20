@@ -12,7 +12,7 @@ FINAL_JSON_DIR = "final_json_output/"
 os.makedirs(FINAL_JSON_DIR, exist_ok=True)
 
 # Load the API key from environment variables
-api_key = "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"
+api_key = os.getenv("OPENAI_API_KEY")
 if not api_key:
     raise ValueError("OPENAI_API_KEY environment variable not set. Please set it before running.")
 
