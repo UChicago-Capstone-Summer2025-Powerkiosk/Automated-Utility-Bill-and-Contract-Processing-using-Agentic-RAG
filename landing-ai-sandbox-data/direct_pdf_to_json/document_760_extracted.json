@@ -1,0 +1,87 @@
+{
+    "documentId": "customer-usage-authorization-addendum-a",
+    "documentType": "contract",
+    "statementDate": "2023-04-13",
+    "contractStart": null,
+    "contractEnd": "2023-04-30",
+    "customerName": "Moishe Group of Companies In Addedum A",
+    "commodity": "",
+    "unit": "",
+    "deliveryCharge": 0,
+    "supplyCharge": 0,
+    "taxCharge": 0,
+    "totalUsage": 0,
+    "deliveryRate": 0,
+    "supplyRate": 0,
+    "taxRate": 0,
+    "usageHistory": [],
+    "locations": [
+        {
+            "accountNumber": "4259720000/PE00000103/4948/5050/0",
+            "serviceAddress": "2201 US HWY 1 STE FL1",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "",
+            "usageHistory": [],
+            "currentUsage": 0,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        },
+        {
+            "accountNumber": "4259720000/PE00000103/4948/5050/0",
+            "serviceAddress": "2201 US HWY 130 FL1",
+            "meterNumber": null,
+            "commodity": "natural_gas",
+            "rateClass": null,
+            "unit": "",
+            "usageHistory": [],
+            "currentUsage": 0,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        },
+        {
+            "accountNumber": "35106105820008",
+            "serviceAddress": "824 East 134 St. ENT",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "",
+            "usageHistory": [],
+            "currentUsage": 0,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": ""
+}

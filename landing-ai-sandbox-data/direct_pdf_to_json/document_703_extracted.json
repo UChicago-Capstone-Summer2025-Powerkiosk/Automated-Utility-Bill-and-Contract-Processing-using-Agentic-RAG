@@ -1,0 +1,132 @@
+{
+    "documentId": "8067544",
+    "documentType": "contract",
+    "statementDate": "2024-12-02",
+    "contractStart": "2025-01-01",
+    "contractEnd": "2025-12-31",
+    "customerName": "SP Plus Corporation",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "deliveryCharge": 0,
+    "supplyCharge": 0,
+    "taxCharge": 0,
+    "totalUsage": 3401322,
+    "deliveryRate": 0,
+    "supplyRate": 0.1041,
+    "taxRate": 0,
+    "usageHistory": [
+        {
+            "month": "2024-12",
+            "usage": 3149
+        },
+        {
+            "month": "2025-01",
+            "usage": 193499
+        },
+        {
+            "month": "2025-02",
+            "usage": 284372
+        },
+        {
+            "month": "2025-03",
+            "usage": 297298
+        },
+        {
+            "month": "2025-04",
+            "usage": 279577
+        },
+        {
+            "month": "2025-05",
+            "usage": 260927
+        },
+        {
+            "month": "2025-06",
+            "usage": 290348
+        },
+        {
+            "month": "2025-07",
+            "usage": 321346
+        },
+        {
+            "month": "2025-08",
+            "usage": 267437
+        },
+        {
+            "month": "2025-09",
+            "usage": 251522
+        },
+        {
+            "month": "2025-10",
+            "usage": 266226
+        },
+        {
+            "month": "2025-11",
+            "usage": 268010
+        },
+        {
+            "month": "2025-12",
+            "usage": 291479
+        },
+        {
+            "month": "2026-01",
+            "usage": 113654
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "0097336001",
+            "serviceAddress": "115 E 87 St GAR (Central Parking Corp)",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": "EL2",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "annual",
+                    "usage": 29112
+                }
+            ],
+            "currentUsage": 29112,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.1041,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        },
+        {
+            "accountNumber": "0547782004",
+            "serviceAddress": "134 W. 51 St. ENT (134 W. 51 St. ENT - SL - 0547782004 - CONED - 134 W. 51 St. ENT - SL - 44130700)",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": "EL9",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "annual",
+                    "usage": 86898
+                }
+            ],
+            "currentUsage": 86898,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.1041,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": "savings"
+}

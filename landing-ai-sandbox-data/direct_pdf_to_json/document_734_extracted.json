@@ -1,0 +1,43 @@
+{
+    "documentId": "",
+    "documentType": "sampleBill",
+    "statementDate": "2025-01-27",
+    "contractStart": null,
+    "contractEnd": null,
+    "customerName": "DUNN PAPER-EAST HARTFORD, L",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "deliveryCharge": 69739.7,
+    "supplyCharge": 56015.28,
+    "taxCharge": 0,
+    "totalUsage": 575460,
+    "deliveryRate": 0,
+    "supplyRate": 0.09734,
+    "taxRate": 0,
+    "usageHistory": [],
+    "locations": [
+        {
+            "accountNumber": "51272702010",
+            "serviceAddress": "2 FORBES ST, EAST HARTFORD CT 06108",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": "057",
+            "unit": "kWh",
+            "usageHistory": [],
+            "currentUsage": 575460,
+            "deliveryCharge": 69739.7,
+            "supplyCharge": 56015.28,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.09734,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": ""
+}

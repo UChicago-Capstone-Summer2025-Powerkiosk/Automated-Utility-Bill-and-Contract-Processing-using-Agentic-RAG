@@ -1,0 +1,153 @@
+{
+    "documentId": "CE_231214PROD.TXT-10150-000032431",
+    "documentType": "sampleBill",
+    "statementDate": "2023-12-14",
+    "contractStart": null,
+    "contractEnd": null,
+    "customerName": "TOWN OF BERLIN/PUBLIC WORKS",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "deliveryCharge": 192.31,
+    "supplyCharge": 172.94,
+    "taxCharge": 0,
+    "totalUsage": 2211,
+    "deliveryRate": 0,
+    "supplyRate": 0.07822,
+    "taxRate": 0,
+    "usageHistory": [
+        {
+            "month": "Dec",
+            "usage": 1223
+        },
+        {
+            "month": "Jan",
+            "usage": 763
+        },
+        {
+            "month": "Feb",
+            "usage": 513
+        },
+        {
+            "month": "Mar",
+            "usage": 516
+        },
+        {
+            "month": "Apr",
+            "usage": 521
+        },
+        {
+            "month": "May",
+            "usage": 3471
+        },
+        {
+            "month": "Jun",
+            "usage": 5179
+        },
+        {
+            "month": "Jul",
+            "usage": 1710
+        },
+        {
+            "month": "Aug",
+            "usage": 2594
+        },
+        {
+            "month": "Sep",
+            "usage": 2429
+        },
+        {
+            "month": "Oct",
+            "usage": 2363
+        },
+        {
+            "month": "Nov",
+            "usage": 2630
+        },
+        {
+            "month": "Dec",
+            "usage": 2211
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5131 555 5052",
+            "serviceAddress": "68 MASSIRIO DR, BERLIN CT 06037",
+            "meterNumber": "885914362",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "Dec",
+                    "usage": 1223
+                },
+                {
+                    "month": "Jan",
+                    "usage": 763
+                },
+                {
+                    "month": "Feb",
+                    "usage": 513
+                },
+                {
+                    "month": "Mar",
+                    "usage": 516
+                },
+                {
+                    "month": "Apr",
+                    "usage": 521
+                },
+                {
+                    "month": "May",
+                    "usage": 3471
+                },
+                {
+                    "month": "Jun",
+                    "usage": 5179
+                },
+                {
+                    "month": "Jul",
+                    "usage": 1710
+                },
+                {
+                    "month": "Aug",
+                    "usage": 2594
+                },
+                {
+                    "month": "Sep",
+                    "usage": 2429
+                },
+                {
+                    "month": "Oct",
+                    "usage": 2363
+                },
+                {
+                    "month": "Nov",
+                    "usage": 2630
+                },
+                {
+                    "month": "Dec",
+                    "usage": 2211
+                }
+            ],
+            "currentUsage": 2211,
+            "deliveryCharge": 192.31,
+            "supplyCharge": 172.94,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.07822,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [
+                    "68 MASSIRIO DR, BERLIN CT 06037"
+                ],
+                "accountsIncluded": [
+                    "5131 555 5052"
+                ],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": ""
+}

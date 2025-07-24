@@ -1,0 +1,61 @@
+{
+    "documentId": "sampleBill-NicorGas-2018-01",
+    "documentType": "sampleBill",
+    "statementDate": "2018-01-22",
+    "contractStart": null,
+    "contractEnd": null,
+    "customerName": "T.H. Davidson",
+    "commodity": "natural_gas",
+    "unit": "therms",
+    "deliveryCharge": 283.79,
+    "supplyCharge": 856.1,
+    "taxCharge": 116.38,
+    "totalUsage": 2645.23,
+    "deliveryRate": 0.0549,
+    "supplyRate": 0.32,
+    "taxRate": 0.0515,
+    "usageHistory": [
+        {
+            "month": "2017-12",
+            "usage": 961.9
+        },
+        {
+            "month": "2018-01",
+            "usage": 1683.33
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "33-23-01-9418 6",
+            "serviceAddress": "Ns 149th St 1e Crawford Midlothian",
+            "meterNumber": "3026543",
+            "commodity": "natural_gas",
+            "rateClass": "Rate 4: Commercial Service",
+            "unit": "therms",
+            "usageHistory": [
+                {
+                    "month": "2017-12",
+                    "usage": 961.9
+                },
+                {
+                    "month": "2018-01",
+                    "usage": 1683.33
+                }
+            ],
+            "currentUsage": 2645.23,
+            "deliveryCharge": 283.79,
+            "supplyCharge": 856.1,
+            "taxCharge": 116.38,
+            "deliveryRate": 0.0549,
+            "supplyRate": 0.32,
+            "taxRate": 0.0515,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": "Previous Reading 12/20/17 (Estimated)"
+            }
+        }
+    ],
+    "reportType": ""
+}
