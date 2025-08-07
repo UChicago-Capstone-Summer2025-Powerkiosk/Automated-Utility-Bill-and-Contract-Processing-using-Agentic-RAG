@@ -1,0 +1,33 @@
+# --- PDF & Image Processing Libraries ---
+# For fixing PDF rotation and performing reliable OCR
+ocrmypdf
+
+# The main library for PDF -> Structured Data conversion
+agentic-doc
+
+# A core dependency for agentic-doc to handle various file types
+unstructured[all-docs]
+
+
+# --- LLM & RAG Framework Libraries ---
+# The official library for OpenAI models (GPT-4o)
+openai
+
+# The core LangChain library for building chains and agents
+langchain
+
+# Community-standard integrations for LangChain
+langchain-community
+
+# Specific LangChain integration for OpenAI models
+langchain-openai
+
+
+# --- Vector Database ---
+# The local vector database for storing our knowledge base
+chromadb
+
+
+# --- Frontend ---
+# For creating the simple web-based user interface for the RAG agent
+streamlit
