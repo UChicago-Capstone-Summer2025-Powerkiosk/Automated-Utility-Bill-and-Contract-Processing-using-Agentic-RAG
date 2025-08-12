@@ -1,0 +1,137 @@
+{
+  "documentId": "document_1124",
+  "issuer": "NATIONAL_GRID",
+  "documentType": "sampleBill",
+  "commodity": "electricity",
+  "unit": "kWh",
+  "statementDate": "2017-07-20",
+  "customerName": "EMPIRE SOUTH PROP LLC",
+  "reportType": "savings",
+  "deliveryCharge": 0.0,
+  "supplyCharge": 0.0,
+  "taxCharge": 0.0,
+  "totalUsage": 172000.0,
+  "deliveryRate": 0.0,
+  "supplyRate": 0.0,
+  "taxRate": 0.0,
+  "usageHistory": [
+    {
+      "month": "2016-07",
+      "usage": 200000.0
+    },
+    {
+      "month": "2016-08",
+      "usage": 230000.0
+    },
+    {
+      "month": "2016-09",
+      "usage": 180000.0
+    },
+    {
+      "month": "2016-10",
+      "usage": 157000.0
+    },
+    {
+      "month": "2016-11",
+      "usage": 176000.0
+    },
+    {
+      "month": "2016-12",
+      "usage": 255000.0
+    },
+    {
+      "month": "2017-01",
+      "usage": 276000.0
+    },
+    {
+      "month": "2017-02",
+      "usage": 242000.0
+    },
+    {
+      "month": "2017-03",
+      "usage": 262000.0
+    },
+    {
+      "month": "2017-04",
+      "usage": 196000.0
+    },
+    {
+      "month": "2017-05",
+      "usage": 132000.0
+    },
+    {
+      "month": "2017-06",
+      "usage": 172000.0
+    },
+    {
+      "month": "2017-07",
+      "usage": 191000.0
+    }
+  ],
+  "locations": [
+    {
+      "accountNumber": "65358-48023",
+      "serviceAddress": "219 LITTLETON RD POLE D24068 WESTFORD MA 01886",
+      "meterNumber": null,
+      "commodity": "electricity",
+      "rateClass": null,
+      "unit": "kWh",
+      "usageHistory": [
+        {
+          "month": "2016-07",
+          "usage": 200000
+        },
+        {
+          "month": "2016-08",
+          "usage": 230000
+        },
+        {
+          "month": "2016-09",
+          "usage": 180000
+        },
+        {
+          "month": "2016-10",
+          "usage": 157000
+        },
+        {
+          "month": "2016-11",
+          "usage": 176000
+        },
+        {
+          "month": "2016-12",
+          "usage": 255000
+        },
+        {
+          "month": "2017-01",
+          "usage": 276000
+        },
+        {
+          "month": "2017-02",
+          "usage": 242000
+        },
+        {
+          "month": "2017-03",
+          "usage": 262000
+        },
+        {
+          "month": "2017-04",
+          "usage": 196000
+        },
+        {
+          "month": "2017-05",
+          "usage": 132000
+        },
+        {
+          "month": "2017-06",
+          "usage": 172000
+        },
+        {
+          "month": "2017-07",
+          "usage": 191000
+        }
+      ],
+      "currentUsage": 0.0,
+      "notes": {}
+    }
+  ]
+}

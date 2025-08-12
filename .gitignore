@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Temporary data folders
+source_pdfs/
+corrected_pdfs/
+generic_json_outputs/
+final_json_outputs/
+manual_review_needed/
+
+# The RAG database
+vector_db/
+
+# OS-specific files
+.DS_Store

@@ -1,0 +1,8 @@
+langchain-openai
+python-dotenv
+tqdm
+Pillow
+PyMuPDF
+starlette
+google-generativeai
+opencv-python

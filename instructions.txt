@@ -1,0 +1,62 @@
+1. Download the Project:
+   Get the entire pdf_to_json_pipeline project folder from Github and put it on your Desktop.
+
+2. Install System Tools:
+You need to install two tools on your computer. Open your terminal and run:   
+   brew install tesseract
+   brew install poppler
+
+3. Set Up the Python Environment:
+Open your terminal and navigate into the project folder:
+   cd ~/Desktop/pdf_to_json_pipeline
+Create the virtual environment:
+   python3 -m venv venv
+Activate it (you must do this every time you open a new terminal):
+   source venv/bin/activate
+Install all the required libraries at once:
+   pip install -r requirements.txt
+
+4. Create the Necessary Folders:
+In the pdf_to_json_pipeline folder, create a new folder named:
+   source_pdfs
+
+Part 2: Running the Pipeline
+1. Place Your PDFs:
+   Put any PDF files you want to process directly into the source_pdfs folder. You can put a sample of any 50, but if you want it to be cross-referenced against PowerKiosk's ground truth, you can choose ones the big mist_outputs folder that are listed in the big JSON file GROUND_TRUTH.json, in PowerKiosk's project folder on the GitHub.
+
+2. Open a Terminal and Navigate to the Project:
+   cd ~/Desktop/pdf_to_json_pipeline
+
+3. Activate the Environment:
+   source venv/bin/activate
+
+4. Set the API Keys:
+CRITICAL: You must set both of these keys in the terminal for the scripts to work. Make sure you have funds in both LandingAi and OpenAI. 
+   export VISION_AGENT_API_KEY="[paste landing key here]"
+   export OPENAI_API_KEY="[paste OpenAi key here]"
+
+5. Run the Scripts IN ORDER:
+Run these Python scripts one by one from your terminal. Wait for each one to finish before starting the next.
+   python 1_run_rotation_fix.py
+   python 2_pdf_json_agentic.py
+   python 3_convert_llm_json.py
+   python 4_qc_and_flagging.py
+   python 5_build_knowledge_base.py
+
+
+The outputs you want will be in final_json_outputs.
+
+
+
+Part 3: Using the RAG Agent
+Once the pipeline has been run at least once, the "knowledge base" exists. You can then ask it questions.
+
+To use the chatbot interface:
+streamlit run app.py
+
+The uploading function is not perfect, and I still have to fix the UI
+
+To ask a single question from the command line:
+python query_rag.py "What is the customer name for document_999?"
+
+Most common issues are forgetting to activate the venv or not setting the API keys.
