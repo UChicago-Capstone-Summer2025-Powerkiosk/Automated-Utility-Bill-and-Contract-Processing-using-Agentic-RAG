@@ -7,7 +7,11 @@ from langchain_openai import OpenAIEmbeddings
 from chromadb.utils.embedding_functions import OpenAIEmbeddingFunction
 
 # --- Configuration ---
+<<<<<<< HEAD
 JSON_SOURCE_DIR = "final_json_outputs/"
+=======
+JSON_SOURCE_DIR = "final_pdf_json_outputs/"
+>>>>>>> 10c696eb12ea562d1154cfa5b2a7ec9b848a3fe1
 DB_DIR = "vector_db"
 COLLECTION_NAME = "utility_docs"
 

@@ -4,7 +4,11 @@ import json
 import shutil
 
 # Configuration 
+<<<<<<< HEAD
 FINAL_JSON_DIR = "final_json_outputs/"
+=======
+FINAL_JSON_DIR = "final_pdf_json_outputs/"
+>>>>>>> 10c696eb12ea562d1154cfa5b2a7ec9b848a3fe1
 
 # look in the folder with the original PDFs, not the corrected ones so the user gets the untouched original for their manual review
 SOURCE_PDF_DIR = "source_pdfs/"

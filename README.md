@@ -1,0 +1,2 @@
+# Automated-Utility-Bill-and-Contract-Processing-using-Agentic-RAG
+This repository will include the assets (the actual pdfs to work with and the usage extraction documents folder which include the sample example, the sample reports, and the documentation), code files, work items, todo/in progress/done tasks, technical progress, roadmaps in order to organize, visualize, and perform project management for the capstone project with a sponsor (PowerKiosk) to complete the degree of Applied Data Science with University of Chicago.

@@ -4,7 +4,11 @@ import openai
 
 # Configuration
 GENERIC_JSON_DIR = "generic_json_outputs/"
+<<<<<<< HEAD
 FINAL_JSON_DIR = "final_json_outputs/"
+=======
+FINAL_JSON_DIR = "final_pdf_json_outputs/"
+>>>>>>> 10c696eb12ea562d1154cfa5b2a7ec9b848a3fe1
 
 if __name__ == "__main__":
     print("--- Starting Generic-JSON to Final-JSON Conversion ---")
