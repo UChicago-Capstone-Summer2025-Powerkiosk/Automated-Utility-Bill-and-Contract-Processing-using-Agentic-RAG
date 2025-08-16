@@ -74,27 +74,25 @@ You MUST strictly adhere to the final JSON schema provided below.
 **Part A: General Logic & Principles**
 1.  **`documentId`**: You MUST use the exact ID provided here: **{{document_id_placeholder}}**.
 2.  **`documentType`**: Identify if the document is a "sampleBill" or a "contract".
-3.  **`issuer`**: Extract the name of the company issuing the bill (e.g., "Eversource").
-4.  **`customerName`**: Extract the name of the customer being billed.
+3.  **`issuer`**: Find the name of the company issuing the bill (e.g., "Eversource").
+4.  **`customerName`**: Find the name of the customer being billed.
 5.  **`commodity` and `unit`:** Scan the entire document for common energy units (`kWh`, `Therms`, `CCF`, `MMBTU`). The most frequently mentioned unit determines the primary `unit` for the bill. If the unit is `kWh`, the `commodity` is `electricity`. Otherwise, it is `natural_gas`.
 
 **Part B: Detailed Extraction Rules**
-1.  **`locations`:** For each unique service address found, create a location object. Within the context of that address, you MUST search all related text and tables to find the corresponding `accountNumber`, `meterNumber`, and `rateClass`. Populate all available fields.
-2.  **`totalUsage`:** Find the total usage for the current billing period. Look for terms like "Current Usage" or "Total electric you used". If the bill details show separate "Purchases" and "Sales" (or generation), the `totalUsage` MUST be calculated as the net value (`Purchases` - `Sales`).
+1.  **`locations`:** For each unique service address, create a location object. You MUST search all related text and tables to find the corresponding `accountNumber`, `serviceAddress`, `meterNumber`, and `rateClass`. For `rateClass`, look for labels like 'Rate', 'Rate Class', or 'Distribution Rate' inside detailed charge tables.
+2.  **`totalUsage`:** Find the total usage for the current billing period. Look for terms like "Current Usage", "Total electric you used", or "Billed Usage". If the bill details show separate "Purchases" and "Sales" (or generation), the `totalUsage` MUST be the net value (`Purchases` - `Sales`).
 3.  **`usageHistory`:**
-    *   **Priority 1 (Tables):** First, search for any text-based tables showing monthly usage. Extract the data and infer the years based on the `statementDate`.
-    *   **Priority 2 (Charts):** If and only if no text-based table is found, look for a 'figure' chunk in the input JSON that describes a bar chart of monthly usage. You MUST parse the month and usage data from this description.
+    *   **Priority 1 (Tables):** First, search for any text-based **monthly usage history tables**. If found, extract the data and infer the years based on the `statementDate`.
+    *   **Priority 2 (Charts):** If no usage history *table* is found, you MUST then look for a 'figure' chunk in the input JSON that describes a bar chart of monthly usage. Parse the month and usage data from that description.
     *   **Note on Estimation:** If you use Priority 2 (chart data), you MUST add a `notes` object to the corresponding `locations` entry and set `estimationMethod: "Extracted from bar chart summary"`.
-4.  **`supplyRate` (for Contracts):** The rate may be complex. You MUST extract all rates and their conditions into the `supplyRate` array. The "condition" is the descriptive text that explains when that rate applies.
-    *   For a simple rate like `$0.123/kWh`, the output should be `[{"rate": 0.123, "condition": "flat rate"}]`.
-    *   For a complex rate like `"$0.08 for Peak Hours, $0.05 for Off-Peak"`, the output MUST be `[{"rate": 0.08, "condition": "Peak Hours"}, {"rate": 0.05, "condition": "Off-Peak"}]`.
-5.  **Financial Fields (for Bills):** Extract `deliveryCharge`, `supplyCharge`, and `taxCharge` from the bill summary. The main utility's charge is `deliveryCharge`. "Adjustments" or "Taxes" are `taxCharge`. Calculate `deliveryRate`, `supplyRate`, and `taxRate` by dividing these charges by the `totalUsage`.
+4.  **Financial Fields (for Bills):** Extract `deliveryCharge`, `supplyCharge`, and `taxCharge` from the bill summary tables. You MUST calculate `deliveryRate`, `supplyRate`, and `taxRate` by dividing these charges by the `totalUsage`. If `totalUsage` is zero or null, the rates must be `null`.
 
 **Part C: Quality Control Flagging**
-Set `_qc_flag` to `true` and provide a `_qc_reason` if ANY of these are true:
-1.  **Missing Critical Info:** If `issuer`, `customerName`, `totalUsage`, or `locations` are null or empty. (Reason: "Missing Critical Info")
-2.  **No Forecast (Contracts):** If `documentType` is "contract" and `usageHistory` is `null`. (Reason: "No forecasted usage data provided.")
-3.  **Chart-Based Data (Bills):** If `usageHistory` was extracted from a bar chart summary (as per rule B3). (Reason: "Suspicious Usage: Data is estimated from a chart, not a table.")
+Set `_qc_flag` to `true` and provide a specific `_qc_reason` if ANY of these are true:
+1.  If `issuer` is null. (Reason: "Missing Issuer")
+2.  If `customerName` is null. (Reason: "Missing Customer Name")
+3.  If `totalUsage` is null on a bill. (Reason: "Missing Total Usage on Bill")
+4.  If `usageHistory` was extracted from a bar chart summary. (Reason: "Suspicious Usage: Data is estimated from chart.")
 
 If none of these apply, set `_qc_flag` to `false` and `_qc_reason` to `null`.
 
