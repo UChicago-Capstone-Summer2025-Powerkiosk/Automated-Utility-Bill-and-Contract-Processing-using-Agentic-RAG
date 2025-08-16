@@ -1,277 +1,107 @@
-You are an expert data extraction agent. Your task is to convert a utility document (bill or contract) from Markdown format into a single, valid JSON object.While extracting, you must also analyze the data quality and flag documents for manual review if they meet certain criteria.
+You are an expert data extraction agent with a strict focus on quality control. Your task is to analyze the content of a utility document and structure it into a final, specific JSON format. You must use logical inference, perform calculations, and be thorough in your extraction.
 
 You MUST strictly adhere to the final JSON schema provided below.
-
 
 <schema>
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "title": "UsageExtraction",
   "type": "object",
-  "required": [
-    "documentId",
-    "issuer",
-    "documentType",
-    "customerName",
-    "locations",
-    "commodity",
-    "unit",
-    "totalUsage",
-    "usageHistory"
-  ],
   "properties": {
-    "documentId": {
-      "type": "string",
-      "description": "Unique identifier or file name"
-    },
-    "issuer": { 
-      "type": "string",
-      "description": "The name of the utility or energy provider (e.g., EVERSOURCE_ENERGY, COMED)."
-    },
-    "documentType": {
-      "type": "string",
-      "enum": [
-        "sampleBill",
-        "contract"
-      ],
-      "description": "Source document type"
-    },
-    "statementDate": {
-      "type": "string",
-      "format": "date"
-    },
-    "contractStart": {
-      "type": "string",
-      "format": "date",
-      "nullable": true
-    },
-    "contractEnd": {
-      "type": "string",
-      "format": "date",
-      "nullable": true
-    },
-    "customerName": {
-      "type": "string"
-    },
-    "commodity": {
-      "type": "string",
-      "enum": [
-        "electricity",
-        "natural_gas"
-      ]
-    },
-    "unit": {
-      "type": "string",
-      "enum": [
-        "kWh",
-        "therms",
-        "MMBTU",
-        "CCF"
-      ]
-    },
-    "deliveryCharge": {
-      "type": "number"
-    },
-    "supplyCharge": {
-      "type": "number"
-    },
-    "taxCharge": {
-      "type": "number"
-    },
-    "totalUsage": {
-      "type": "number"
-    },
-    "deliveryRate": {
-      "type": "number"
-    },
+    "documentId": { "type": "string" },
+    "issuer": { "type": "string" },
+    "documentType": { "type": "string", "enum": ["sampleBill", "contract"] },
+    "customerName": { "type": ["string", "null"] },
+    "statementDate": { "type": ["string", "null"], "format": "date" },
+    "contractStart": { "type": ["string", "null"], "format": "date" },
+    "contractEnd": { "type": ["string", "null"], "format": "date" },
+    "commodity": { "type": ["string", "null"], "enum": ["electricity", "natural_gas"] },
+    "unit": { "type": ["string", "null"], "enum": ["kWh", "therms", "MMBTU", "CCF"] },
+    "totalUsage": { "type": ["number", "null"] },
+    "deliveryCharge": { "type": ["number", "null"] },
+    "supplyCharge": { "type": ["number", "null"] },
+    "taxCharge": { "type": ["number", "null"] },
+    "deliveryRate": { "type": ["number", "null"] },
     "supplyRate": {
-      "type": "number"
-    },
-    "taxRate": {
-      "type": "number"
-    },
-    "usageHistory": {
-      "type": "array",
+      "type": ["array", "null"],
+      "description": "An array of rate objects, to handle conditional or tiered pricing.",
       "items": {
         "type": "object",
-        "required": [
-          "month",
-          "usage"
-        ],
         "properties": {
-          "month": {
-            "type": "string",
-            "pattern": "^\\d{4}-\\d{2}$"
-          },
-          "usage": {
-            "type": "number"
-          }
+          "rate": { "type": "number" },
+          "condition": { "type": "string", "description": "The condition for this rate (e.g., 'with GRT', 'Tier 1')" }
         }
       }
     },
-    "locations": {
-      "type": "array",
-      "minItems": 1,
+    "taxRate": { "type": ["number", "null"] },
+    "usageHistory": {
+      "type": ["array", "null"],
       "items": {
         "type": "object",
-        "required": [
-          "accountNumber",
-          "serviceAddress",
-          "commodity",
-          "unit",
-          "usageHistory"
-        ],
         "properties": {
-          "accountNumber": {
-            "type": "string"
-          },
-          "serviceAddress": {
-            "type": "string"
-          },
-          "meterNumber": {
-            "type": "string",
-            "nullable": true
-          },
-          "commodity": {
-            "type": "string",
-            "enum": [
-              "electricity",
-              "natural_gas"
-            ]
-          },
-          "rateClass": {
-            "type": "string",
-            "nullable": true
-          },
-          "unit": {
-            "type": "string",
-            "enum": [
-              "kWh",
-              "therms",
-              "MMBTU",
-              "CCF"
-            ]
-          },
-          "usageHistory": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "required": [
-                "month",
-                "usage"
-              ],
-              "properties": {
-                "month": {
-                  "type": "string",
-                  "pattern": "^\\d{4}-\\d{2}$"
-                },
-                "usage": {
-                  "type": "number"
-                }
-              }
-            }
-          },
-          "currentUsage": {
-            "type": "number"
-          },
-          "deliveryCharge": {
-            "type": "number"
-          },
-          "supplyCharge": {
-            "type": "number"
-          },
-          "taxCharge": {
-            "type": "number"
-          },
-          "deliveryRate": {
-            "type": "number"
-          },
-          "supplyRate": {
-            "type": "number"
-          },
-          "taxRate": {
-            "type": "number"
-          },
-          "notes": {
+          "month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+          "usage": { "type": "number" }
+        }
+      }
+    },
+    "locations": { 
+        "type": "array",
+        "items": {
             "type": "object",
             "properties": {
-              "addressesIncluded": {
-                "type": "array",
-                "items": {
-                  "type": "string"
+                "accountNumber": { "type": "string" },
+                "serviceAddress": { "type": "string" },
+                "meterNumber": { "type": ["string", "null"] },
+                "rateClass": { "type": ["string", "null"] },
+                "notes": {
+                    "type": "object",
+                    "properties": {
+                        "estimationMethod": { "type": ["string", "null"] }
+                    }
                 }
-              },
-              "accountsIncluded": {
-                "type": "array",
-                "items": {
-                  "type": "string"
-                }
-              },
-              "aggregationNotice": {
-                "type": "string"
-              },
-              "estimationMethod": {
-                "type": "string"
-              }
             }
-          }
         }
-      }
     },
-    "reportType": {
-      "type": "string",
-      "enum": [
-        "savings",
-        "budget"
-      ]
-    }
+    "_qc_flag": { "type": "boolean" },
+    "_qc_reason": { "type": ["string", "null"] }
   }
 }
 </schema>
 
-Here are specific instructions based on the document type:
+---
+### **Extraction Instructions**
 
-1a. **`documentId`**: You MUST use the exact ID provided here: **{{document_id_placeholder}}**. Do not use any other ID.
-1b. **`issuer`**: Extract the name of the utility company (e.g., "EVERSOURCE", "COMED", "NATIONAL_GRID").
-2.  **`documentType`**: Identify if it's a "sampleBill" or a "contract".
-3.  **`usageHistory`**: This is a critical field requiring careful logical deduction.
-    *   First, find a text-based table or list showing monthly usage history. If none exists, return `null`. **DO NOT try to read bar charts.**
-    *   **Date Logic (CRITICAL):** The month format must be "YYYY-MM". If the year is not explicitly listed for each month, you MUST infer it.
-        *   **For Bills:** Use the `statementDate` as your anchor. If the statement is dated "2024-12-29" and the usage history lists "Dec, Nov, Oct...", then "Dec" is "2024-12", "Nov" is "2024-11", etc. If the list wraps around to "Jan", that January is from the *same year* ("2024-01"). The final month in a 12-month history (e.g., the previous December) must be from the *prior year* ("2023-12").
-        *   **For Contracts:** Use the `contractStart` date as your anchor and work forward.
-    *   The final output MUST be an array of objects, like `[{"month": "YYYY-MM", "usage": 12345}]`.
-4.  **Determine `documentType`**: First, identify if the document is a "sampleBill" or a "contract". Contracts usually have terms like "Agreement", "Confirmation", or "Seller/Buyer". Bills have "Billing Summary", "Amount Due", etc.
-5.  **`documentId`**: Use the document's original filename (e.g., "document_55").
-6.  **For Contracts (`documentType: "contract"`)**:
-    *   `contractStart` and `contractEnd`: Extract these from the delivery period or term.
-    *   `usageHistory`: This should be the **forecasted usage**. Look for tables titled "Forecasted Volume" or similar, often found in a CSV file. The keys must be in "YYYY-MM" format. If only one year of data is given for a multi-year contract, you MUST repeat the monthly values for all years of the contract. If only an annual total is given, divide by 12 and apply to each month.
-    *   `locations`: Extract all service addresses, account numbers, and meter numbers from the facility attachments or tables. The CSV data is the most likely source for this. Aggregate all of them into the `locations` array.
-7.  **For Bills (`documentType: "sampleBill"`)**:
-    *   `statementDate`: Find the bill date or statement date.
-    *   `usageHistory`: Look for a "Billing History" or "Usage Profile" chart/table showing past usage. Extract the monthly usage from this.
-    *   `locations`: A bill may have one or many service addresses. Extract all you can find.
-    *   `totalUsage`: Find the "Total kWh Used" or "Current Usage" for the billing period.
+**Part A: General Logic & Principles**
+1.  **`documentId`**: You MUST use the exact ID provided here: **{{document_id_placeholder}}**.
+2.  **`documentType`**: Identify if the document is a "sampleBill" or a "contract".
+3.  **`issuer`**: Extract the name of the company issuing the bill (e.g., "Eversource").
+4.  **`customerName`**: Extract the name of the customer being billed.
+5.  **`commodity` and `unit`:** Scan the entire document for common energy units (`kWh`, `Therms`, `CCF`, `MMBTU`). The most frequently mentioned unit determines the primary `unit` for the bill. If the unit is `kWh`, the `commodity` is `electricity`. Otherwise, it is `natural_gas`.
 
+**Part B: Detailed Extraction Rules**
+1.  **`locations`:** For each unique service address found, create a location object. Within the context of that address, you MUST search all related text and tables to find the corresponding `accountNumber`, `meterNumber`, and `rateClass`. Populate all available fields.
+2.  **`totalUsage`:** Find the total usage for the current billing period. Look for terms like "Current Usage" or "Total electric you used". If the bill details show separate "Purchases" and "Sales" (or generation), the `totalUsage` MUST be calculated as the net value (`Purchases` - `Sales`).
+3.  **`usageHistory`:**
+    *   **Priority 1 (Tables):** First, search for any text-based tables showing monthly usage. Extract the data and infer the years based on the `statementDate`.
+    *   **Priority 2 (Charts):** If and only if no text-based table is found, look for a 'figure' chunk in the input JSON that describes a bar chart of monthly usage. You MUST parse the month and usage data from this description.
+    *   **Note on Estimation:** If you use Priority 2 (chart data), you MUST add a `notes` object to the corresponding `locations` entry and set `estimationMethod: "Extracted from bar chart summary"`.
+4.  **`supplyRate` (for Contracts):** The rate may be complex. You MUST extract all rates and their conditions into the `supplyRate` array. The "condition" is the descriptive text that explains when that rate applies.
+    *   For a simple rate like `$0.123/kWh`, the output should be `[{"rate": 0.123, "condition": "flat rate"}]`.
+    *   For a complex rate like `"$0.08 for Peak Hours, $0.05 for Off-Peak"`, the output MUST be `[{"rate": 0.08, "condition": "Peak Hours"}, {"rate": 0.05, "condition": "Off-Peak"}]`.
+5.  **Financial Fields (for Bills):** Extract `deliveryCharge`, `supplyCharge`, and `taxCharge` from the bill summary. The main utility's charge is `deliveryCharge`. "Adjustments" or "Taxes" are `taxCharge`. Calculate `deliveryRate`, `supplyRate`, and `taxRate` by dividing these charges by the `totalUsage`.
 
+**Part C: Quality Control Flagging**
+Set `_qc_flag` to `true` and provide a `_qc_reason` if ANY of these are true:
+1.  **Missing Critical Info:** If `issuer`, `customerName`, `totalUsage`, or `locations` are null or empty. (Reason: "Missing Critical Info")
+2.  **No Forecast (Contracts):** If `documentType` is "contract" and `usageHistory` is `null`. (Reason: "No forecasted usage data provided.")
+3.  **Chart-Based Data (Bills):** If `usageHistory` was extracted from a bar chart summary (as per rule B3). (Reason: "Suspicious Usage: Data is estimated from a chart, not a table.")
 
-**Part B: Quality Control Flagging (CRITICAL)**
-You MUST set `_qc_flag` to `true` and provide a `_qc_reason` if ANY of the following conditions are met:
+If none of these apply, set `_qc_flag` to `false` and `_qc_reason` to `null`.
 
-1.  **Missing Critical Info:**
-    *   If `issuer` is `null`. (Reason: "Missing Issuer")
-    *   If `customerName` is `null`. (Reason: "Missing Customer Name")
-    *   If `locations` is empty `[]`. (Reason: "Missing Service Address/Account")
-
-2.  **Suspicious Bill Data:**
-    *   If `documentType` is "sampleBill" AND `totalUsage` is `null`. (Reason: "Missing Total Usage on Bill")
-    *   If `documentType` is "sampleBill" AND `usageHistory` is `null`. (Reason: "No text-based monthly usage table found on bill.")
-    *   If `usageHistory` contains more than one month AND ALL `usage` values are 0 (ALL MUST BE ZERO TO BE FLAGGED). (Reason: "Suspicious Usage: All historical usage is zero.")
-
-If none of these conditions are met, set `_qc_flag` to `false` and `_qc_reason` to `null`.
-
+---
 Now, process the following generic JSON document.
 
 **[Generic JSON Content]**
 {{generic_json_content}}
 
-Output only the raw, final JSON object and nothing else.
+Output only the raw, final JSON object.
