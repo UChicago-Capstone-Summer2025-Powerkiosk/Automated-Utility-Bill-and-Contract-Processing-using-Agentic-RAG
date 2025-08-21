@@ -1,0 +1,43 @@
+{
+  "electricity": {
+    "bill_type": [
+      "electricity"
+    ],
+    "extracting": "electricity",
+    "statement_date": {
+      "day": 20,
+      "month": 7,
+      "year": 2017
+    },
+    "customer_dba_name": "EMPIRE SOUTH PROP LLC",
+    "billed_usage": 172000.0,
+    "service_entries": {
+      "service_entry_1": {
+        "account_number": "65358-48023",
+        "usage": 191000.0,
+        "unit": "kWh",
+        "service_address": "219 LITTLETON RD POLE D24068 WESTFORD MA 01886",
+        "usage_period": "regular",
+        "yearly_usage_breakdown": {
+          "type": "table",
+          "content": "<table><thead><tr><th>Month</th><th>kWh</th><th>Month</th><th>kWh</th></tr></thead><tbody><tr><td>Jul 16</td><td>200000</td><td>Feb 17</td><td>242000</td></tr><tr><td>Aug 16</td><td>230000</td><td>Mar 17</td><td>262000</td></tr><tr><td>Sep 16</td><td>180000</td><td>Apr 17</td><td>196000</td></tr><tr><td>Oct 16</td><td>157000</td><td>May 17</td><td>132000</td></tr><tr><td>Nov 16</td><td>176000</td><td>Jun 17</td><td>172000</td></tr><tr><td>Dec 16</td><td>255000</td><td>Jul 17</td><td>191000</td></tr><tr><td>Jan 17</td><td>276000</td><td></td><td></td></tr></tbody></table>"
+        },
+        "yearly_estimated_usage": {
+          "July 2016": 200000,
+          "August 2016": 230000,
+          "September 2016": 180000,
+          "October 2016": 157000,
+          "November 2016": 176000,
+          "December 2016": 255000,
+          "January 2017": 276000,
+          "February 2017": 242000,
+          "March 2017": 262000,
+          "April 2017": 196000,
+          "May 2017": 132000,
+          "June 2017": 172000,
+          "July 2017": 191000
+        }
+      }
+    }
+  }
+}
