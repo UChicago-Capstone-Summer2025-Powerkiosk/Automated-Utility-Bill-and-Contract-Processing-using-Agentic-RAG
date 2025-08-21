@@ -1,0 +1,60 @@
+{
+    "documentId": "document_317",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-18",
+    "customerName": "TOWN OF BERLIN",
+    "reportType": "savings",
+    "deliveryCharge": 584.98,
+    "supplyCharge": 422.39,
+    "taxCharge": 0.0,
+    "totalUsage": 5400.0,
+    "deliveryRate": 0.10833,
+    "supplyRate": 0.07822,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2023-01",
+            "usage": 3720.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 2640.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 3480.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 4760.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 5880.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 7800.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 5280.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5160 051 3022",
+            "serviceAddress": "330 SOUTHINGTON RD, KENSINGTON CT 06037",
+            "meterNumber": "890404792",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 5400.0,
+            "notes": {}
+        }
+    ]
+}

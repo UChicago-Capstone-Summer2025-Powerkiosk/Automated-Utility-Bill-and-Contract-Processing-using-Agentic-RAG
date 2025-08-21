@@ -1,0 +1,392 @@
+{
+    "documentId": "document_724",
+    "issuer": "COMED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2015-11-02",
+    "customerName": "ZELLER MANAGEMENT CORP",
+    "reportType": "savings",
+    "deliveryCharge": 11690.43,
+    "supplyCharge": 0.0,
+    "taxCharge": 3.38,
+    "totalUsage": 232752.0,
+    "deliveryRate": 0.050227,
+    "supplyRate": null,
+    "taxRate": 1.5e-05,
+    "usageHistory": [
+        {
+            "month": "2014-10",
+            "usage": 160829.0
+        },
+        {
+            "month": "2014-11",
+            "usage": 192435.0
+        },
+        {
+            "month": "2014-12",
+            "usage": 426896.0
+        },
+        {
+            "month": "2015-01",
+            "usage": 528658.0
+        },
+        {
+            "month": "2015-02",
+            "usage": 534193.0
+        },
+        {
+            "month": "2015-03",
+            "usage": 538809.0
+        },
+        {
+            "month": "2015-04",
+            "usage": 304615.0
+        },
+        {
+            "month": "2015-05",
+            "usage": 238180.0
+        },
+        {
+            "month": "2015-06",
+            "usage": 207364.0
+        },
+        {
+            "month": "2015-07",
+            "usage": 186094.0
+        },
+        {
+            "month": "2015-08",
+            "usage": 258201.0
+        },
+        {
+            "month": "2015-09",
+            "usage": 257995.0
+        },
+        {
+            "month": "2015-10",
+            "usage": 232752.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "097181961",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4495.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "140481940",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 7812.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141387905",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 8807.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141401653",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 6832.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141401656",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 36966.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141516240",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 27373.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141602819",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1745.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141602820",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 21.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141602821",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 15.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "141682913",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 44000.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230012495",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 22.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230012496",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 0.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230012497",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 7.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230013895",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230013896",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 3.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230014616",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 14.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230014617",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1873.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230016054",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 419.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230076639",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1684.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083578",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 2447.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083579",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1353.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083610",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1233.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083611",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 0.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083612",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 2268.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083613",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 3802.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083654",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1815.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083655",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 192.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083656",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1946.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1572089056",
+            "serviceAddress": "5202 OLD ORCHARD RD, SKOKIE, IL 60077-4407",
+            "meterNumber": "230083657",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 77.0,
+            "notes": {}
+        }
+    ]
+}

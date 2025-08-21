@@ -1,0 +1,51 @@
+{
+    "documentId": "document_846",
+    "issuer": "AEP_ENERGY",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2024-06-06",
+    "customerName": "Fulton Property LLC",
+    "reportType": "savings",
+    "deliveryCharge": 1817.36,
+    "supplyCharge": 2551.4,
+    "taxCharge": 370.18,
+    "totalUsage": 33490.0,
+    "deliveryRate": 0.054266,
+    "supplyRate": 0.076184,
+    "taxRate": 0.011053,
+    "usageHistory": [
+        {
+            "month": "2023-06",
+            "usage": 10441.0
+        },
+        {
+            "month": "2024-06",
+            "usage": 33490.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "3023364266",
+            "serviceAddress": "1017 N Hooker St, Chicago, IL 60642",
+            "meterNumber": "230118974",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 15665.13,
+            "notes": {}
+        },
+        {
+            "accountNumber": "3023364266",
+            "serviceAddress": "1017 N Hooker St, Chicago, IL 60642",
+            "meterNumber": "230159429",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 17825.77,
+            "notes": {}
+        }
+    ]
+}

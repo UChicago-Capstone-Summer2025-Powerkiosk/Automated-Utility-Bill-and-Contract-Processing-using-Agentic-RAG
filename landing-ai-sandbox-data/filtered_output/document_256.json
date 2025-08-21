@@ -1,0 +1,137 @@
+{
+    "documentId": "document_256",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "TOWN OF BERLIN/PUBLIC WORKS",
+    "reportType": "savings",
+    "deliveryCharge": 30.73,
+    "supplyCharge": 12.67,
+    "taxCharge": 2.95,
+    "totalUsage": 162.0,
+    "deliveryRate": 0.189691,
+    "supplyRate": 0.07821,
+    "taxRate": 0.01821,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 193.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 254.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 327.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 241.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 75.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 45.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 49.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 45.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 47.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 45.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 43.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 47.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 162.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5109 522 3079",
+            "serviceAddress": "723 WORTHINGTON RDG, BERLIN, CT 06037",
+            "meterNumber": "890634282",
+            "commodity": "electricity",
+            "rateClass": "001",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-12",
+                    "usage": 193.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 254.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 327.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 241.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 75.0
+                },
+                {
+                    "month": "2023-05",
+                    "usage": 45.0
+                },
+                {
+                    "month": "2023-06",
+                    "usage": 49.0
+                },
+                {
+                    "month": "2023-07",
+                    "usage": 45.0
+                },
+                {
+                    "month": "2023-08",
+                    "usage": 47.0
+                },
+                {
+                    "month": "2023-09",
+                    "usage": 45.0
+                },
+                {
+                    "month": "2023-10",
+                    "usage": 43.0
+                },
+                {
+                    "month": "2023-11",
+                    "usage": 47.0
+                },
+                {
+                    "month": "2023-12",
+                    "usage": 162.0
+                }
+            ],
+            "currentUsage": 162.0,
+            "notes": {}
+        }
+    ]
+}

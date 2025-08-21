@@ -1,0 +1,139 @@
+{
+    "documentId": "document_546",
+    "issuer": "COMED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2018-10-04",
+    "customerName": "KENDALL COLLEGE",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 25415.75,
+    "taxCharge": 6254.39,
+    "totalUsage": 464766.0,
+    "deliveryRate": null,
+    "supplyRate": 0.054685,
+    "taxRate": 0.013457,
+    "usageHistory": [
+        {
+            "month": "2017-10",
+            "usage": 440313.0
+        },
+        {
+            "month": "2017-11",
+            "usage": 453965.0
+        },
+        {
+            "month": "2017-12",
+            "usage": 454986.0
+        },
+        {
+            "month": "2018-01",
+            "usage": 673758.0
+        },
+        {
+            "month": "2018-02",
+            "usage": 507294.0
+        },
+        {
+            "month": "2018-03",
+            "usage": 504800.0
+        },
+        {
+            "month": "2018-04",
+            "usage": 396297.0
+        },
+        {
+            "month": "2018-05",
+            "usage": 440203.0
+        },
+        {
+            "month": "2018-06",
+            "usage": 558180.0
+        },
+        {
+            "month": "2018-07",
+            "usage": 532138.0
+        },
+        {
+            "month": "2018-08",
+            "usage": 492612.0
+        },
+        {
+            "month": "2018-09",
+            "usage": 542867.0
+        },
+        {
+            "month": "2018-10",
+            "usage": 464766.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230253698",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 0.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230253983",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 16.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230253984",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 949.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230269415",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 270712.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230269431",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 42198.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0172095028",
+            "serviceAddress": "900 N NORTHBRANCH ST, CHICAGO, IL 60642",
+            "meterNumber": "230269433",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 150891.0,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "documentId": "document_667",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-06-09",
+    "customerName": "ROUTE 66 DONUTS LLC",
+    "reportType": "savings",
+    "deliveryCharge": 608.59,
+    "supplyCharge": 0.0,
+    "taxCharge": 29.12,
+    "totalUsage": 6895.0,
+    "deliveryRate": 0.088265,
+    "supplyRate": null,
+    "taxRate": 0.004223,
+    "usageHistory": [
+        {
+            "month": "2022-06",
+            "usage": 12853.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 14094.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 14578.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 14545.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 11623.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 10780.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 11295.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 13678.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 8031.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 9701.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 11142.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 8219.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 6895.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5106 381 6078",
+            "serviceAddress": "25 E HIGH ST, UNIT 1, EAST HAMPTON CT 06424",
+            "meterNumber": "889052652",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-06",
+                    "usage": 12853.0
+                },
+                {
+                    "month": "2022-07",
+                    "usage": 14094.0
+                },
+                {
+                    "month": "2022-08",
+                    "usage": 14578.0
+                },
+                {
+                    "month": "2022-09",
+                    "usage": 14545.0
+                },
+                {
+                    "month": "2022-10",
+                    "usage": 11623.0
+                },
+                {
+                    "month": "2022-11",
+                    "usage": 10780.0
+                },
+                {
+                    "month": "2022-12",
+                    "usage": 11295.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 13678.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 8031.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 9701.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 11142.0
+                },
+                {
+                    "month": "2023-05",
+                    "usage": 8219.0
+                },
+                {
+                    "month": "2023-06",
+                    "usage": 6895.0
+                }
+            ],
+            "currentUsage": 6895.0,
+            "notes": {}
+        }
+    ]
+}

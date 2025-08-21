@@ -1,0 +1,139 @@
+{
+    "documentId": "document_82",
+    "issuer": "COMED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2021-09-02",
+    "customerName": "HABITAT-ASBURY PLAZA",
+    "reportType": "savings",
+    "deliveryCharge": 3276.72,
+    "supplyCharge": 11880.43,
+    "taxCharge": 2452.64,
+    "totalUsage": 178437.0,
+    "deliveryRate": 0.018363,
+    "supplyRate": 0.066581,
+    "taxRate": 0.013745,
+    "usageHistory": [
+        {
+            "month": "2020-09",
+            "usage": 162495.0
+        },
+        {
+            "month": "2020-10",
+            "usage": 135979.0
+        },
+        {
+            "month": "2020-11",
+            "usage": 118853.0
+        },
+        {
+            "month": "2020-12",
+            "usage": 93586.0
+        },
+        {
+            "month": "2021-01",
+            "usage": 136979.0
+        },
+        {
+            "month": "2021-02",
+            "usage": 124349.0
+        },
+        {
+            "month": "2021-03",
+            "usage": 123111.0
+        },
+        {
+            "month": "2021-04",
+            "usage": 123415.0
+        },
+        {
+            "month": "2021-05",
+            "usage": 104523.0
+        },
+        {
+            "month": "2021-06",
+            "usage": 110616.0
+        },
+        {
+            "month": "2021-07",
+            "usage": 148181.0
+        },
+        {
+            "month": "2021-08",
+            "usage": 164950.0
+        },
+        {
+            "month": "2021-09",
+            "usage": 178437.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230012698",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 19.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230012700",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 16.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230041754",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 23364.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230041779",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 150348.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230057549",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4691.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "0935332031",
+            "serviceAddress": "750 N DEARBORN ST CHICAGO",
+            "meterNumber": "230131095",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 0.0,
+            "notes": {}
+        }
+    ]
+}

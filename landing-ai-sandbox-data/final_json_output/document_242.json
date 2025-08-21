@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_242",
+  "statementDate": "12/14/23",
+  "usageHistory": {
+    "2022-12": 505,
+    "2023-01": 671,
+    "2023-02": 596,
+    "2023-03": 532,
+    "2023-04": 415,
+    "2023-05": 257,
+    "2023-06": 239,
+    "2023-07": 280,
+    "2023-08": 379,
+    "2023-09": 319,
+    "2023-10": 252,
+    "2023-11": 396,
+    "2023-12": 572
+  },
+  "locations": [
+    {
+      "serviceAddress": "11 TOWN FARM LN, BERLIN CT 06037-2324",
+      "accountNumber": "5127 022 3027",
+      "meterNumber": "890812032"
+    }
+  ],
+  "totalUsage": 572
+}

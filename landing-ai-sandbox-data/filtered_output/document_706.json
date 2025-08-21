@@ -1,0 +1,95 @@
+{
+    "documentId": "document_706",
+    "issuer": "HOUSTON_ELECTRIC",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "KWH",
+    "statementDate": "2024-07-12",
+    "customerName": "SPARKLE MARKET",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 4462.35,
+    "taxCharge": 0.0,
+    "totalUsage": 117120.0,
+    "deliveryRate": null,
+    "supplyRate": 0.038101,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2023-07",
+            "usage": 109960.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 108800.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 114320.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 95240.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 83400.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 100360.0
+        },
+        {
+            "month": "2024-01",
+            "usage": 107400.0
+        },
+        {
+            "month": "2024-02",
+            "usage": 92560.0
+        },
+        {
+            "month": "2024-03",
+            "usage": 96120.0
+        },
+        {
+            "month": "2024-04",
+            "usage": 88800.0
+        },
+        {
+            "month": "2024-05",
+            "usage": 102680.0
+        },
+        {
+            "month": "2024-06",
+            "usage": 109920.0
+        },
+        {
+            "month": "2024-07",
+            "usage": 117120.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "110 092 502 647",
+            "serviceAddress": "1121 SOUTH AVE, YOUNGSTOWN OH 44512",
+            "meterNumber": "A1160483",
+            "commodity": "electricity",
+            "rateClass": "General Service Secondary OE-GSD",
+            "unit": "KWH",
+            "usageHistory": null,
+            "currentUsage": 98160.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "110 092 502 647",
+            "serviceAddress": "1121 SOUTH AVE, YOUNGSTOWN OH 44512",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": "General Service Secondary OE-GSD",
+            "unit": "KWH",
+            "usageHistory": null,
+            "currentUsage": 18960.0,
+            "notes": {}
+        }
+    ]
+}

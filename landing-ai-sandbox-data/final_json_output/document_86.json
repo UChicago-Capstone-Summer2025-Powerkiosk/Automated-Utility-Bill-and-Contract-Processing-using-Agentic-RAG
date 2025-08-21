@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_86",
+  "statementDate": "September 5, 2017",
+  "usageHistory": {
+    "2016-09": 101721,
+    "2016-10": 75239,
+    "2016-11": 63093,
+    "2016-12": 62549,
+    "2017-01": 61455,
+    "2017-02": 45649,
+    "2017-03": 47328,
+    "2017-04": 45001,
+    "2017-05": 46130,
+    "2017-06": 64032,
+    "2017-07": 79914,
+    "2017-08": 79967,
+    "2017-09": 74486
+  },
+  "locations": [
+    {
+      "serviceAddress": "3300 W MAYPOLE AVE BD, CHICAGO",
+      "accountNumber": "4635623008",
+      "meterNumber": "230151761"
+    },
+    {
+      "serviceAddress": "3300 W MAYPOLE AVE BD, CHICAGO",
+      "accountNumber": "4635623008",
+      "meterNumber": "230182184"
+    }
+  ],
+  "totalUsage": 74486
+}

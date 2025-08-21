@@ -1,0 +1,44 @@
+{
+    "documentId": "document_260_1_1",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "Town of Berlin Water Control C",
+    "reportType": "savings",
+    "deliveryCharge": 44.05,
+    "supplyCharge": 0.39,
+    "taxCharge": 0.0,
+    "totalUsage": 0.1,
+    "deliveryRate": 440.5,
+    "supplyRate": 3.9,
+    "taxRate": null,
+    "usageHistory": {
+        "December": 0.16,
+        "January": 0.142,
+        "February": 0.165,
+        "March": 0.13,
+        "April": 0.165,
+        "May": 0.14,
+        "June": 0.152,
+        "July": 0.132,
+        "August": 0.152,
+        "September": 0.14,
+        "October": 0.165,
+        "November": 0.13
+    },
+    "locations": [
+        {
+            "accountNumber": "5143 212 3008",
+            "serviceAddress": "1256 Mill St.",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 0.1,
+            "notes": {}
+        }
+    ]
+}

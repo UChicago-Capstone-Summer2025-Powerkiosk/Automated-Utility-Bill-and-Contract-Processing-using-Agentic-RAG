@@ -1,0 +1,40 @@
+{
+    "documentId": "document_1072",
+    "issuer": "CONSUMERS_ENERGY",
+    "documentType": "sampleBill",
+    "commodity": "natural_gas",
+    "unit": "Mcf",
+    "statementDate": null,
+    "customerName": "WESTLAND BURGERS INC",
+    "reportType": "savings",
+    "deliveryCharge": 485.61,
+    "supplyCharge": 714.06,
+    "taxCharge": 75.93,
+    "totalUsage": 114.0,
+    "deliveryRate": 4.259737,
+    "supplyRate": 6.263684,
+    "taxRate": 0.666053,
+    "usageHistory": [
+        {
+            "month": "2022-01",
+            "usage": 0.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 114.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "1030 4614 6314",
+            "serviceAddress": "6500 N NEWBURGH RD, WESTLAND MI 48185-1993",
+            "meterNumber": "97395035",
+            "commodity": "natural_gas",
+            "rateClass": "Gas Gen Serv Rate GS-1 - Com, Rate: 261",
+            "unit": "Mcf",
+            "usageHistory": null,
+            "currentUsage": 114.0,
+            "notes": {}
+        }
+    ]
+}

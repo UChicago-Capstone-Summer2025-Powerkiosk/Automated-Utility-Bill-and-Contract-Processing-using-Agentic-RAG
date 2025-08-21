@@ -1,0 +1,84 @@
+{
+    "documentId": "document_1048_1_1",
+    "issuer": "NATIONAL_GRID",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2018-09-20",
+    "customerName": "Westford Regency Inn",
+    "reportType": "savings",
+    "deliveryCharge": 285.29,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 3353.0,
+    "deliveryRate": 0.085085,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2017-09",
+            "usage": 1796.0
+        },
+        {
+            "month": "2017-10",
+            "usage": 1941.0
+        },
+        {
+            "month": "2017-11",
+            "usage": 1844.0
+        },
+        {
+            "month": "2017-12",
+            "usage": 3038.0
+        },
+        {
+            "month": "2018-01",
+            "usage": 2777.0
+        },
+        {
+            "month": "2018-02",
+            "usage": 2233.0
+        },
+        {
+            "month": "2018-03",
+            "usage": 2800.0
+        },
+        {
+            "month": "2018-04",
+            "usage": 2230.0
+        },
+        {
+            "month": "2018-05",
+            "usage": 2241.0
+        },
+        {
+            "month": "2018-06",
+            "usage": 2111.0
+        },
+        {
+            "month": "2018-07",
+            "usage": 3065.0
+        },
+        {
+            "month": "2018-08",
+            "usage": 2420.0
+        },
+        {
+            "month": "2018-09",
+            "usage": 3353.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "27976-85013",
+            "serviceAddress": "219 Littleton Rd, Westford, MA 01886",
+            "meterNumber": "98641913",
+            "commodity": "electricity",
+            "rateClass": "General Service - Small C/I G-1",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 3353.0,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "documentId": "document_472",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-04-28",
+    "customerName": "JOHN SALEMA",
+    "reportType": "savings",
+    "deliveryCharge": 1193.34,
+    "supplyCharge": 1318.79,
+    "taxCharge": 0.0,
+    "totalUsage": 12383.0,
+    "deliveryRate": 0.096369,
+    "supplyRate": 0.1065,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-04",
+            "usage": 12842.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 15025.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 13390.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 14325.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 15500.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 12885.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 11418.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 13062.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 11386.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 11514.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 11584.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 11020.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 12383.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5428 070 2077",
+            "serviceAddress": "312 COLLEGE ST, AMHERST MA 01002",
+            "meterNumber": "886069692",
+            "commodity": "electricity",
+            "rateClass": "RATE G1",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 12383.0,
+            "notes": {}
+        }
+    ]
+}

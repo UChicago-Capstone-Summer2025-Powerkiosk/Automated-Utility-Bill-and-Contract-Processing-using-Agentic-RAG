@@ -1,0 +1,84 @@
+{
+    "documentId": "document_673",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-05-25",
+    "customerName": "A.M. DONUTS, INC.",
+    "reportType": "savings",
+    "deliveryCharge": 665.06,
+    "supplyCharge": 0.0,
+    "taxCharge": 32.71,
+    "totalUsage": 11324.0,
+    "deliveryRate": 0.05873,
+    "supplyRate": null,
+    "taxRate": 0.002889,
+    "usageHistory": [
+        {
+            "month": "2022-05",
+            "usage": 12172.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 13875.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 13996.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 14601.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 12667.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 11281.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 12503.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 12645.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 10630.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 12487.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 10929.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 12087.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 11324.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5143 618 7058",
+            "serviceAddress": "1699 HIGHLAND AVE, CHESHIRE CT 06410",
+            "meterNumber": "895127202",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 11324.0,
+            "notes": {}
+        }
+    ]
+}

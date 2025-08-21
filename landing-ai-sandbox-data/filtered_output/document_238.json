@@ -1,0 +1,137 @@
+{
+    "documentId": "document_238",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-18",
+    "customerName": "TOWN OF BERLIN",
+    "reportType": "savings",
+    "deliveryCharge": 47.48,
+    "supplyCharge": 24.09,
+    "taxCharge": 0.0,
+    "totalUsage": 308.0,
+    "deliveryRate": 0.154156,
+    "supplyRate": 0.078214,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 263.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 280.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 193.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 237.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 218.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 195.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 224.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 199.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 240.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 193.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 249.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 253.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 308.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5152 512 3097",
+            "serviceAddress": "STILLMEADOW LN, LOT 9/22, KENSINGTON CT 06037",
+            "meterNumber": "883807602",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-12",
+                    "usage": 263.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 280.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 193.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 237.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 218.0
+                },
+                {
+                    "month": "2023-05",
+                    "usage": 195.0
+                },
+                {
+                    "month": "2023-06",
+                    "usage": 224.0
+                },
+                {
+                    "month": "2023-07",
+                    "usage": 199.0
+                },
+                {
+                    "month": "2023-08",
+                    "usage": 240.0
+                },
+                {
+                    "month": "2023-09",
+                    "usage": 193.0
+                },
+                {
+                    "month": "2023-10",
+                    "usage": 249.0
+                },
+                {
+                    "month": "2023-11",
+                    "usage": 253.0
+                },
+                {
+                    "month": "2023-12",
+                    "usage": 308.0
+                }
+            ],
+            "currentUsage": 308.0,
+            "notes": {}
+        }
+    ]
+}

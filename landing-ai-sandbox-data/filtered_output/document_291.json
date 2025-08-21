@@ -1,0 +1,137 @@
+{
+    "documentId": "document_291",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "TOWN OF BERLIN/PUBLIC WORKS",
+    "reportType": "savings",
+    "deliveryCharge": 45.49,
+    "supplyCharge": 10.33,
+    "taxCharge": 0.0,
+    "totalUsage": 132.0,
+    "deliveryRate": 0.344621,
+    "supplyRate": 0.078258,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 138.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 165.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 114.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 108.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 118.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 82.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 98.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 90.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 105.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 93.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 110.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 127.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 132.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5191 525 5046",
+            "serviceAddress": "1041 FARMINGTON AVE, UNIT PEDESTAL, BERLIN CT 06037",
+            "meterNumber": "035503982",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-12",
+                    "usage": 138.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 165.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 114.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 108.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 118.0
+                },
+                {
+                    "month": "2023-05",
+                    "usage": 82.0
+                },
+                {
+                    "month": "2023-06",
+                    "usage": 98.0
+                },
+                {
+                    "month": "2023-07",
+                    "usage": 90.0
+                },
+                {
+                    "month": "2023-08",
+                    "usage": 105.0
+                },
+                {
+                    "month": "2023-09",
+                    "usage": 93.0
+                },
+                {
+                    "month": "2023-10",
+                    "usage": 110.0
+                },
+                {
+                    "month": "2023-11",
+                    "usage": 127.0
+                },
+                {
+                    "month": "2023-12",
+                    "usage": 132.0
+                }
+            ],
+            "currentUsage": 132.0,
+            "notes": {}
+        }
+    ]
+}

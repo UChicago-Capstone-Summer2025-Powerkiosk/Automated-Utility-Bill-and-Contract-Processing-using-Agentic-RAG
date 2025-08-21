@@ -1,0 +1,137 @@
+{
+    "documentId": "document_304",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "TOWN OF BERLIN",
+    "reportType": "savings",
+    "deliveryCharge": 52.1,
+    "supplyCharge": 56.16,
+    "taxCharge": 0.0,
+    "totalUsage": 718.0,
+    "deliveryRate": 0.072563,
+    "supplyRate": 0.078217,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 680.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 858.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 460.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 441.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 457.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 301.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 359.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 321.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 390.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 364.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 423.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 493.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 718.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5152 758 7018",
+            "serviceAddress": "342 MAIN ST, KENSINGTON CT 06023",
+            "meterNumber": "035994582",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-12",
+                    "usage": 680.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 858.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 460.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 441.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 457.0
+                },
+                {
+                    "month": "2023-05",
+                    "usage": 301.0
+                },
+                {
+                    "month": "2023-06",
+                    "usage": 359.0
+                },
+                {
+                    "month": "2023-07",
+                    "usage": 321.0
+                },
+                {
+                    "month": "2023-08",
+                    "usage": 390.0
+                },
+                {
+                    "month": "2023-09",
+                    "usage": 364.0
+                },
+                {
+                    "month": "2023-10",
+                    "usage": 423.0
+                },
+                {
+                    "month": "2023-11",
+                    "usage": 493.0
+                },
+                {
+                    "month": "2023-12",
+                    "usage": 718.0
+                }
+            ],
+            "currentUsage": 718.0,
+            "notes": {}
+        }
+    ]
+}

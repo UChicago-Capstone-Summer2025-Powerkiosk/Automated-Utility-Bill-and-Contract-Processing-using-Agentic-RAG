@@ -1,0 +1,84 @@
+{
+    "documentId": "document_250",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "TOWN OF BERLIN WATER CONTROL C",
+    "reportType": "savings",
+    "deliveryCharge": 673.23,
+    "supplyCharge": 420.67,
+    "taxCharge": 0.0,
+    "totalUsage": 5378.0,
+    "deliveryRate": 0.125182,
+    "supplyRate": 0.078221,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 4347.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 5680.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 5555.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 4823.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 5585.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 5117.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 4372.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 4407.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 5642.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 5253.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 8125.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 5172.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 5378.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "51448813089",
+            "serviceAddress": "240 KENSINGTON RD, BERLIN CT 06037-2655",
+            "meterNumber": "890152522",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 5378.0,
+            "notes": {}
+        }
+    ]
+}

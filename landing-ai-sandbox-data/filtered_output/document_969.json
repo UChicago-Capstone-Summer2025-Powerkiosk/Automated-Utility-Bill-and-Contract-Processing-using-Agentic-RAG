@@ -1,0 +1,33 @@
+{
+    "documentId": "document_969",
+    "issuer": "BGE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2018-04-19",
+    "customerName": "Northeast Mgmt Group LLC",
+    "reportType": "savings",
+    "deliveryCharge": 5275.84,
+    "supplyCharge": 3489.05,
+    "taxCharge": 0.0,
+    "totalUsage": 44635.0,
+    "deliveryRate": 0.1182,
+    "supplyRate": 0.078168,
+    "taxRate": null,
+    "usageHistory": {
+        "April 2017": 36000.0,
+        "May 2017": 26000.0,
+        "June 2017": 30000.0,
+        "July 2017": 38000.0,
+        "August 2017": 40000.0,
+        "September 2017": 34000.0,
+        "October 2017": 32000.0,
+        "November 2017": 38000.0,
+        "December 2017": 40000.0,
+        "January 2018": 70000.0,
+        "February 2018": 52000.0,
+        "March 2018": 50000.0,
+        "April 2018": 44635.0
+    },
+    "locations": []
+}

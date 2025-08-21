@@ -1,0 +1,31 @@
+{
+    "documentId": "document_337",
+    "issuer": "MIDAMERICAN_ENERGY_SERVICES_L",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2024-10-30",
+    "customerName": "REGAL CINEMAS INC",
+    "reportType": "savings",
+    "deliveryCharge": 341.09,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 46080.0,
+    "deliveryRate": 0.007402,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": null,
+    "locations": [
+        {
+            "accountNumber": "100155442096",
+            "serviceAddress": "1236 RT 22, PHILLIPSBURG, NJ 08865",
+            "meterNumber": "S316385335",
+            "commodity": "electricity",
+            "rateClass": "JC_GS3_01D",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 46080.0,
+            "notes": {}
+        }
+    ]
+}

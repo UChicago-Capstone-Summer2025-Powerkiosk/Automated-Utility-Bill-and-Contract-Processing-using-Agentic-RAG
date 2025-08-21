@@ -1,0 +1,45 @@
+{
+    "documentId": "document_333_1_1",
+    "issuer": "HUDSON_ENERGY_SERVICES_LLC",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2016-09-20",
+    "customerName": "Tawa, Inc.",
+    "reportType": "savings",
+    "deliveryCharge": 2588.14,
+    "supplyCharge": 9696.69,
+    "taxCharge": 1301.23,
+    "totalUsage": 203712.0,
+    "deliveryRate": 0.012705,
+    "supplyRate": 0.0476,
+    "taxRate": 0.006388,
+    "usageHistory": {
+        "September 2015": 960.0,
+        "October 2015": 930.0,
+        "November 2015": 910.0,
+        "December 2015": 780.0,
+        "January 2016": 840.0,
+        "February 2016": 710.0,
+        "March 2016": 720.0,
+        "April 2016": 800.0,
+        "May 2016": 780.0,
+        "June 2016": 840.0,
+        "July 2016": 1000.0,
+        "August 2016": 950.0,
+        "September 2016": 950.0
+    },
+    "locations": [
+        {
+            "accountNumber": null,
+            "serviceAddress": "6281 Regio Ave., Buena Park, CA 90620",
+            "meterNumber": "190769155",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 203712.0,
+            "notes": {}
+        }
+    ]
+}

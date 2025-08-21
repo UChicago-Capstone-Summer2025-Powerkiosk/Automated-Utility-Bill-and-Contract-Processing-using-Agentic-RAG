@@ -1,0 +1,80 @@
+{
+    "documentId": "document_710",
+    "issuer": "WEST_PENN_POWER",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2018-10-02",
+    "customerName": "CHANNEL COMM LLC",
+    "reportType": "savings",
+    "deliveryCharge": 4452.61,
+    "supplyCharge": 18478.92,
+    "taxCharge": 312.52,
+    "totalUsage": 293179.0,
+    "deliveryRate": 0.015187,
+    "supplyRate": 0.063029,
+    "taxRate": 0.001066,
+    "usageHistory": [
+        {
+            "month": "2017-10",
+            "usage": 268127.0
+        },
+        {
+            "month": "2017-11",
+            "usage": 268127.0
+        },
+        {
+            "month": "2017-12",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-01",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-02",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-03",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-04",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-05",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-06",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-07",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-08",
+            "usage": 268127.0
+        },
+        {
+            "month": "2018-09",
+            "usage": 293179.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "100 093 429 601",
+            "serviceAddress": "2820 E COLLEGE AVE, STATE COLLEGE PA 16801",
+            "meterNumber": "A021611660",
+            "commodity": "electricity",
+            "rateClass": "General Power Service WP-GP30D",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 293179.0,
+            "notes": {}
+        }
+    ]
+}

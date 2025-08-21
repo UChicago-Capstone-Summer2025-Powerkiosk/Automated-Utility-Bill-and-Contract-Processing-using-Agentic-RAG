@@ -1,0 +1,84 @@
+{
+    "documentId": "document_268",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "COMMUNITY ART LEAGUE OF KENSIN",
+    "reportType": "savings",
+    "deliveryCharge": 44.77,
+    "supplyCharge": 5.32,
+    "taxCharge": 0.0,
+    "totalUsage": 68.0,
+    "deliveryRate": 0.658382,
+    "supplyRate": 0.078235,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 1084.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 1260.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 1056.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 387.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 46.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 813.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 98.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 133.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 104.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 93.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 77.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 70.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 68.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5161 981 3066",
+            "serviceAddress": "218 KENSINGTON RD, KENSINGTON CT 06037",
+            "meterNumber": "891510202",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 68.0,
+            "notes": {}
+        }
+    ]
+}

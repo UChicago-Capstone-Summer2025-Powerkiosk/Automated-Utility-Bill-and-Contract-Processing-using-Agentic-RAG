@@ -1,0 +1,165 @@
+{
+    "documentId": "document_477",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-04-07",
+    "customerName": "LORI DONUTS INC",
+    "reportType": "savings",
+    "deliveryCharge": 173.19,
+    "supplyCharge": 126.39,
+    "taxCharge": 0.0,
+    "totalUsage": 1187.0,
+    "deliveryRate": 0.145906,
+    "supplyRate": 0.106479,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-04",
+            "usage": 146.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 132.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 119.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 127.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 142.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 158.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 183.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 182.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 209.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 715.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5470 070 2038",
+            "serviceAddress": "497 COLLEGE HWY, SOUTHWICK MA 01077",
+            "meterNumber": "559741009",
+            "commodity": "electricity",
+            "rateClass": "S1",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-04",
+                    "usage": 146.0
+                },
+                {
+                    "month": "2022-05",
+                    "usage": 132.0
+                },
+                {
+                    "month": "2022-06",
+                    "usage": 119.0
+                },
+                {
+                    "month": "2022-07",
+                    "usage": 127.0
+                },
+                {
+                    "month": "2022-08",
+                    "usage": 142.0
+                },
+                {
+                    "month": "2022-09",
+                    "usage": 158.0
+                },
+                {
+                    "month": "2022-10",
+                    "usage": 183.0
+                },
+                {
+                    "month": "2022-11",
+                    "usage": 182.0
+                },
+                {
+                    "month": "2022-12",
+                    "usage": 209.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 715.0
+                }
+            ],
+            "currentUsage": 715.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "5470 070 2038",
+            "serviceAddress": "497 COLLEGE HWY, SOUTHWICK MA 01077",
+            "meterNumber": "878741000",
+            "commodity": "electricity",
+            "rateClass": "S1",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-04",
+                    "usage": 96.0
+                },
+                {
+                    "month": "2022-05",
+                    "usage": 87.0
+                },
+                {
+                    "month": "2022-06",
+                    "usage": 78.0
+                },
+                {
+                    "month": "2022-07",
+                    "usage": 84.0
+                },
+                {
+                    "month": "2022-08",
+                    "usage": 94.0
+                },
+                {
+                    "month": "2022-09",
+                    "usage": 104.0
+                },
+                {
+                    "month": "2022-10",
+                    "usage": 121.0
+                },
+                {
+                    "month": "2022-11",
+                    "usage": 128.0
+                },
+                {
+                    "month": "2022-12",
+                    "usage": 137.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 471.0
+                }
+            ],
+            "currentUsage": 472.0,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_479",
+  "statementDate": "04/24/23",
+  "usageHistory": {
+    "2022-04": 15533,
+    "2022-05": 14530,
+    "2022-06": 16411,
+    "2022-07": 19033,
+    "2022-08": 16993,
+    "2022-09": 15627,
+    "2022-10": 14759,
+    "2022-11": 13637,
+    "2022-12": 12957,
+    "2023-01": 16084,
+    "2023-02": 15082,
+    "2023-03": 13613,
+    "2023-04": 16935
+  },
+  "locations": [
+    {
+      "serviceAddress": "4 HARDING AVE, LUDLOW MA 01056-2370",
+      "accountNumber": "5459 889 6017",
+      "meterNumber": "892903912"
+    },
+    {
+      "serviceAddress": "568 BELMONT AVE, SPRINGFIELD MA 01108",
+      "accountNumber": "792553003",
+      "meterNumber": "892903912"
+    }
+  ],
+  "totalUsage": 16935
+}

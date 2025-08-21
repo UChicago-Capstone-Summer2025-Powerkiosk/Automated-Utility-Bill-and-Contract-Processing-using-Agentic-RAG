@@ -1,0 +1,31 @@
+{
+    "documentId": "document_861",
+    "issuer": "SCG",
+    "documentType": "sampleBill",
+    "commodity": "natural_gas",
+    "unit": "CCF",
+    "statementDate": "2023-10-24",
+    "customerName": "",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 404.5,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": null,
+    "locations": [
+        {
+            "accountNumber": "050-0010021-8838",
+            "serviceAddress": null,
+            "meterNumber": "523745",
+            "commodity": "natural_gas",
+            "rateClass": "SCG Res Multi-dwell Large",
+            "unit": "CCF",
+            "usageHistory": null,
+            "currentUsage": 404.499,
+            "notes": {}
+        }
+    ]
+}

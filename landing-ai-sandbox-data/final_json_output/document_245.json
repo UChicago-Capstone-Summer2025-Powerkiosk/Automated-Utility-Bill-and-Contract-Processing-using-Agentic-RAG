@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_245",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2022-12": 778,
+    "2023-01": 860,
+    "2023-02": 882,
+    "2023-03": 817,
+    "2023-04": 877,
+    "2023-05": 831,
+    "2023-06": 869,
+    "2023-07": 767,
+    "2023-08": 869,
+    "2023-09": 791,
+    "2023-10": 946,
+    "2023-11": 805,
+    "2023-12": 944
+  },
+  "locations": [
+    {
+      "serviceAddress": "27 Worthington Parish Rd, BERLIN CT 06037",
+      "accountNumber": "5140 702 3084",
+      "meterNumber": "890151332"
+    },
+    {
+      "serviceAddress": "240 Kensington Rd, BERLIN CT 06037-2655",
+      "accountNumber": "5140 702 3084",
+      "meterNumber": null
+    }
+  ],
+  "totalUsage": 944
+}

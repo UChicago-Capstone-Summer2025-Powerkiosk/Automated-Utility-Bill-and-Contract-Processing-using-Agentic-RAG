@@ -1,0 +1,106 @@
+{
+    "documentId": "document_76",
+    "issuer": "COMED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2021-08-04",
+    "customerName": "KINGSBURY CENTER",
+    "reportType": "savings",
+    "deliveryCharge": 1952.9,
+    "supplyCharge": 5128.52,
+    "taxCharge": 1089.71,
+    "totalUsage": 62611.0,
+    "deliveryRate": 0.031191,
+    "supplyRate": 0.081911,
+    "taxRate": 0.017404,
+    "usageHistory": [
+        {
+            "month": "2020-08",
+            "usage": 76816.0
+        },
+        {
+            "month": "2020-09",
+            "usage": 66842.0
+        },
+        {
+            "month": "2020-10",
+            "usage": 45255.0
+        },
+        {
+            "month": "2020-11",
+            "usage": 37461.0
+        },
+        {
+            "month": "2020-12",
+            "usage": 33102.0
+        },
+        {
+            "month": "2021-01",
+            "usage": 31454.0
+        },
+        {
+            "month": "2021-02",
+            "usage": 28233.0
+        },
+        {
+            "month": "2021-03",
+            "usage": 30834.0
+        },
+        {
+            "month": "2021-04",
+            "usage": 29620.0
+        },
+        {
+            "month": "2021-05",
+            "usage": 34534.0
+        },
+        {
+            "month": "2021-06",
+            "usage": 40134.0
+        },
+        {
+            "month": "2021-07",
+            "usage": 55306.0
+        },
+        {
+            "month": "2021-08",
+            "usage": 62611.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "1528234023",
+            "serviceAddress": "350 W HUBBARD ST STE 500, CHICAGO, IL 60654-6939",
+            "meterNumber": "230159463",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 2576.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1528234023",
+            "serviceAddress": "350 W HUBBARD ST STE 500, CHICAGO, IL 60654-6939",
+            "meterNumber": "230162248",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 14.0,
+            "notes": {}
+        },
+        {
+            "accountNumber": "1528234023",
+            "serviceAddress": "350 W HUBBARD ST STE 500, CHICAGO, IL 60654-6939",
+            "meterNumber": "230181800",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 60020.0,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "documentId": "document_58",
+    "issuer": "MET-ED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2024-08-14",
+    "customerName": "REGAL ENTERTAINMENT GRP",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 104966.0,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2023-08",
+            "usage": 968019.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 968019.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 968019.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 968019.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-01",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-02",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-03",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-04",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-05",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-06",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-07",
+            "usage": 968019.0
+        },
+        {
+            "month": "2024-08",
+            "usage": 968019.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "100 155 441 973",
+            "serviceAddress": "455 TOWN CENTER DR, YORK PA 17408",
+            "meterNumber": "5000673087",
+            "commodity": "electricity",
+            "rateClass": "General Secondary Medium ME-GSMD",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 104966.0,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,137 @@
+{
+    "documentId": "document_471",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-04-04",
+    "customerName": "AGAWAM DONUTS",
+    "reportType": "savings",
+    "deliveryCharge": 1114.53,
+    "supplyCharge": 1457.24,
+    "taxCharge": 0.0,
+    "totalUsage": 13683.0,
+    "deliveryRate": 0.081454,
+    "supplyRate": 0.1065,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-04",
+            "usage": 13547.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 15264.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 19556.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 19292.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 20983.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 18441.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 14957.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 14224.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 15712.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 14197.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 12804.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 14142.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 13683.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5441 420 7019",
+            "serviceAddress": "389 MAIN ST, AGAWAM MA 01001",
+            "meterNumber": "893323802",
+            "commodity": "electricity",
+            "rateClass": "RATE G1",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-04",
+                    "usage": 13547.0
+                },
+                {
+                    "month": "2022-05",
+                    "usage": 15264.0
+                },
+                {
+                    "month": "2022-06",
+                    "usage": 19556.0
+                },
+                {
+                    "month": "2022-07",
+                    "usage": 19292.0
+                },
+                {
+                    "month": "2022-08",
+                    "usage": 20983.0
+                },
+                {
+                    "month": "2022-09",
+                    "usage": 18441.0
+                },
+                {
+                    "month": "2022-10",
+                    "usage": 14957.0
+                },
+                {
+                    "month": "2022-11",
+                    "usage": 14224.0
+                },
+                {
+                    "month": "2022-12",
+                    "usage": 15712.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 14197.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 12804.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 14142.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 13683.0
+                }
+            ],
+            "currentUsage": 13683.0,
+            "notes": {}
+        }
+    ]
+}

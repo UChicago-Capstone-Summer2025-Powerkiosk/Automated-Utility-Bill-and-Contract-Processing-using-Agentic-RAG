@@ -1,0 +1,131 @@
+{
+    "documentId": "document_398",
+    "issuer": "HUDSON_ENERGY_SERVICES_LLC",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2016-12-02",
+    "customerName": "400-410 MI REAL ESTATE HOLDING, LLC",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 618232.91,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": {
+        "December 2015": 580000,
+        "January 2016": 580000,
+        "February 2016": 550000,
+        "March 2016": 520000,
+        "April 2016": 550000,
+        "May 2016": 560000,
+        "June 2016": 1120000,
+        "August 2016": 1509700,
+        "September 2016": 680000,
+        "October 2016": 550000,
+        "December 2016": 600000
+    },
+    "locations": [
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141512972",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 109165.92,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141833474",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 11.03,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141661911",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 13120.92,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141533998",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 132331.2,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "097125048",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 19838.5,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141527183",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 206158.52,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141528277",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 25.43,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141654841",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 52428.39,
+            "notes": {}
+        },
+        {
+            "accountNumber": "100431042",
+            "serviceAddress": "400-410 N MICHIGAN AVE, CHICAGO, IL 60611",
+            "meterNumber": "141807465",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 85212.0,
+            "notes": {}
+        }
+    ]
+}

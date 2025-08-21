@@ -1,0 +1,84 @@
+{
+    "documentId": "document_278",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "TOWN OF BERLIN",
+    "reportType": "savings",
+    "deliveryCharge": 45.46,
+    "supplyCharge": 10.17,
+    "taxCharge": 0.0,
+    "totalUsage": 130.0,
+    "deliveryRate": 0.349692,
+    "supplyRate": 0.078231,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 112.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 225.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 152.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 204.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 176.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 128.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 190.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 138.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 137.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 123.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 140.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 127.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 130.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5130 122 3020",
+            "serviceAddress": "QUINCY TRL, BERLIN CT 06037",
+            "meterNumber": "868869842",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 130.0,
+            "notes": {}
+        }
+    ]
+}

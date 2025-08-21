@@ -1,0 +1,92 @@
+{
+    "documentId": "AEP Energy Attachment A-1 Product and Pricing Summary",
+    "documentType": "contract",
+    "statementDate": "2019-04-05",
+    "contractStart": "2019-05-01",
+    "contractEnd": null,
+    "customerName": "Pangea Ventures LLC",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "deliveryCharge": 0,
+    "supplyCharge": 0,
+    "taxCharge": 0,
+    "totalUsage": 0,
+    "deliveryRate": 0,
+    "supplyRate": 0.0426,
+    "taxRate": 0,
+    "usageHistory": [],
+    "locations": [
+        {
+            "accountNumber": "7404111027",
+            "serviceAddress": "4-12 S LEAMINGTON BD",
+            "meterNumber": null,
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "Jan",
+                    "usage": 140
+                },
+                {
+                    "month": "Feb",
+                    "usage": 225
+                },
+                {
+                    "month": "Mar",
+                    "usage": 322
+                },
+                {
+                    "month": "Apr",
+                    "usage": 262
+                },
+                {
+                    "month": "May",
+                    "usage": 225
+                },
+                {
+                    "month": "Jun",
+                    "usage": 219
+                },
+                {
+                    "month": "Jul",
+                    "usage": 211
+                },
+                {
+                    "month": "Aug",
+                    "usage": 245
+                },
+                {
+                    "month": "Sep",
+                    "usage": 249
+                },
+                {
+                    "month": "Oct",
+                    "usage": 349
+                },
+                {
+                    "month": "Nov",
+                    "usage": 403
+                },
+                {
+                    "month": "Dec",
+                    "usage": 302
+                }
+            ],
+            "currentUsage": 3151,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.0426,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": ""
+}

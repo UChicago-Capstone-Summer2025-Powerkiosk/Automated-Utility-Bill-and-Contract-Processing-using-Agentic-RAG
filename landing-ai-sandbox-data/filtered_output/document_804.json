@@ -1,0 +1,84 @@
+{
+    "documentId": "document_804",
+    "issuer": "AMEREN_ILLINOIS",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2022-05-24",
+    "customerName": "MIDSTATE MANUFACTURING",
+    "reportType": "savings",
+    "deliveryCharge": 277.16,
+    "supplyCharge": 942.5,
+    "taxCharge": 332.44,
+    "totalUsage": 15744.0,
+    "deliveryRate": 0.017604,
+    "supplyRate": 0.059864,
+    "taxRate": 0.021115,
+    "usageHistory": [
+        {
+            "month": "2021-05",
+            "usage": 9216.0
+        },
+        {
+            "month": "2021-06",
+            "usage": 9984.0
+        },
+        {
+            "month": "2021-07",
+            "usage": 9600.0
+        },
+        {
+            "month": "2021-08",
+            "usage": 9216.0
+        },
+        {
+            "month": "2021-09",
+            "usage": 8064.0
+        },
+        {
+            "month": "2021-10",
+            "usage": 11904.0
+        },
+        {
+            "month": "2021-11",
+            "usage": 15744.0
+        },
+        {
+            "month": "2021-12",
+            "usage": 13824.0
+        },
+        {
+            "month": "2022-01",
+            "usage": 20736.0
+        },
+        {
+            "month": "2022-02",
+            "usage": 23424.0
+        },
+        {
+            "month": "2022-03",
+            "usage": 18048.0
+        },
+        {
+            "month": "2022-04",
+            "usage": 18048.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 15744.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "1487102050",
+            "serviceAddress": "998 W 4TH ST, GALESBURG, IL 61401",
+            "meterNumber": "72305884",
+            "commodity": "electricity",
+            "rateClass": "DS-2 Small General Delivery",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 15744.0,
+            "notes": {}
+        }
+    ]
+}

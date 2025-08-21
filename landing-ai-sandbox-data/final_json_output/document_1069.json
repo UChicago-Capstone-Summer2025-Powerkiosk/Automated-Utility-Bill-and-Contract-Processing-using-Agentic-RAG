@@ -1,0 +1,24 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_1069",
+  "statementDate": "September 2021",
+  "totalUsage": 30400,
+  "usageHistory": {
+    "2021-01": 17000,
+    "2021-02": 15000,
+    "2021-03": 15000,
+    "2021-04": 16000,
+    "2021-05": 20000,
+    "2021-06": 24000,
+    "2021-07": 28000,
+    "2021-08": 32000,
+    "2021-09": 29000
+  },
+  "locations": [
+    {
+      "serviceAddress": "2530 S STATE RD, IONIA MI 48846-8415",
+      "accountNumber": "1030 4026 0582",
+      "meterNumber": "40053618"
+    }
+  ]
+}

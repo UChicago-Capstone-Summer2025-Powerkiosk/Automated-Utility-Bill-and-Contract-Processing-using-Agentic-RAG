@@ -1,0 +1,33 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_472",
+  "statementDate": "04/28/23",
+  "usageHistory": {
+    "2022-04": 12842,
+    "2022-05": 15025,
+    "2022-06": 13390,
+    "2022-07": 14325,
+    "2022-08": 15500,
+    "2022-09": 12885,
+    "2022-10": 11418,
+    "2022-11": 13062,
+    "2022-12": 11386,
+    "2023-01": 11514,
+    "2023-02": 11584,
+    "2023-03": 11020,
+    "2023-04": 12383
+  },
+  "locations": [
+    {
+      "serviceAddress": "4 HARDING AVE, LUDLOW MA 01056-2370",
+      "accountNumber": "5428 070 2077",
+      "meterNumber": "88609692"
+    },
+    {
+      "serviceAddress": "312 COLLEGE ST, AMHERST MA 01002",
+      "accountNumber": "5428 070 2077",
+      "meterNumber": "88609692"
+    }
+  ],
+  "totalUsage": 12383
+}

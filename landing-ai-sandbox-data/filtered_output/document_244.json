@@ -1,0 +1,84 @@
+{
+    "documentId": "document_244",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "TOWN OF EAST BERLIN VOL FIRE D",
+    "reportType": "savings",
+    "deliveryCharge": 529.42,
+    "supplyCharge": 316.01,
+    "taxCharge": 0.0,
+    "totalUsage": 4040.0,
+    "deliveryRate": 0.131045,
+    "supplyRate": 0.07822,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 3760.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 4360.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 3520.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 4680.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 3880.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 2920.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 3240.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 3520.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 4400.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 4360.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 3160.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 4160.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 4040.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5113 712 3022",
+            "serviceAddress": "80 MAIN ST, EAST BERLIN CT 06023",
+            "meterNumber": "034279382",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4040.0,
+            "notes": {}
+        }
+    ]
+}

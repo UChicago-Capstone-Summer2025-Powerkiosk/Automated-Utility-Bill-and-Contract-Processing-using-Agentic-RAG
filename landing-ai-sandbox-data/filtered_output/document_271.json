@@ -1,0 +1,84 @@
+{
+    "documentId": "document_271",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "Town of Berlin",
+    "reportType": "savings",
+    "deliveryCharge": 40.88,
+    "supplyCharge": 18.77,
+    "taxCharge": 4.36,
+    "totalUsage": 240.0,
+    "deliveryRate": 0.170333,
+    "supplyRate": 0.078208,
+    "taxRate": 0.018167,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 270.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 730.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 730.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 580.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 520.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 230.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 160.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 130.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 150.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 140.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 140.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 140.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 240.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5115 016 8045",
+            "serviceAddress": "500 Spruce Brook Rd, Kensington, CT 06037",
+            "meterNumber": "890479502",
+            "commodity": "electricity",
+            "rateClass": "001",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 240.0,
+            "notes": {}
+        }
+    ]
+}

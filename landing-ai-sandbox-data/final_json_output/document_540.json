@@ -1,0 +1,32 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_540",
+  "statementDate": "2023-01-04",
+  "totalUsage": 15160,
+  "usageHistory": {
+    "2022-01": 18280,
+    "2022-02": 15640,
+    "2022-03": 15680,
+    "2022-04": 16400,
+    "2022-05": 17100,
+    "2022-06": 20200,
+    "2022-07": 21760,
+    "2022-08": 27160,
+    "2022-09": 23480,
+    "2022-10": 18960,
+    "2022-11": 15960,
+    "2022-12": 15960,
+    "2023-01": 15160
+  },
+  "locations": [
+    {
+      "serviceAddress": "KENTUCKY FRIED CHICKEN, 1970 STRINGTOWN RD, GROVE CITY, OH 43123-3925",
+      "accountNumber": "102-288-142-2-3",
+      "meterNumber": "680103509"
+    },
+    {
+      "serviceAddress": "KENTUCKY FRIED CHICKEN, 25111 MILES RD STE B, CLEVELAND, OH 44128-5419",
+      "accountNumber": "102-288-142-2-3"
+    }
+  ]
+}

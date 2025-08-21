@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_238-checkpoint",
+  "statementDate": "12/18/23",
+  "totalUsage": 308,
+  "usageHistory": {
+    "2022-12": 263,
+    "2023-01": 280,
+    "2023-02": 193,
+    "2023-03": 237,
+    "2023-04": 218,
+    "2023-05": 195,
+    "2023-06": 224,
+    "2023-07": 199,
+    "2023-08": 240,
+    "2023-09": 193,
+    "2023-10": 249,
+    "2023-11": 253,
+    "2023-12": 308
+  },
+  "locations": [
+    {
+      "serviceAddress": "STILLMEADOW LN LOT 9/22 KENSINGTON CT 06037",
+      "accountNumber": "5152 512 3097",
+      "meterNumber": "883807602"
+    }
+  ]
+}

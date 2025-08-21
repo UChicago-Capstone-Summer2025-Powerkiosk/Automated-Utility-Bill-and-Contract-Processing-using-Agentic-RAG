@@ -1,0 +1,44 @@
+{
+    "documentId": "document_986",
+    "issuer": "DIRECT_ENERGY_BUSINESS",
+    "documentType": "sampleBill",
+    "commodity": "natural_gas",
+    "unit": "MMBTU",
+    "statementDate": "2019-08-14",
+    "customerName": "Asbury Plaza Venture LLLP",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 343.55,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": {
+        "September": 6500.0,
+        "October": 18000.0,
+        "November": 41000.0,
+        "December": 45000.0,
+        "January": 55000.0,
+        "February": 45000.0,
+        "March": 38000.0,
+        "April": 25000.0,
+        "May": 13000.0,
+        "June": 3000.0,
+        "July": 3500.0,
+        "August": 0.0
+    },
+    "locations": [
+        {
+            "accountNumber": "735798 - 78694",
+            "serviceAddress": "C/O Conservice, PO BOX 4697, LOGAN, UT 84323",
+            "meterNumber": "735862",
+            "commodity": "natural_gas",
+            "rateClass": "Peoples Rate SST Pool",
+            "unit": "MMBTU",
+            "usageHistory": null,
+            "currentUsage": 343.55,
+            "notes": {}
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_380",
+  "statementDate": "March 16, 2023",
+  "totalUsage": 267.122,
+  "usageHistory": {
+    "2023-03": 324552
+  },
+  "locations": [
+    {
+      "serviceAddress": "4101 READING CREST AVE, READING PA 19605",
+      "accountNumber": "100 051 362 612",
+      "meterNumber": "5003066643"
+    },
+    {
+      "serviceAddress": "4216 READING CREST AVE, READING PA 19605",
+      "accountNumber": "100 051 362 612",
+      "meterNumber": null
+    }
+  ]
+}

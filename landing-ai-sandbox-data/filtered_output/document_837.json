@@ -1,0 +1,45 @@
+{
+    "documentId": "document_837",
+    "issuer": "COMED",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2024-06-11",
+    "customerName": "Hampton Social Burridge LLC",
+    "reportType": "savings",
+    "deliveryCharge": 221.68,
+    "supplyCharge": 377.79,
+    "taxCharge": 248.15,
+    "totalUsage": 7770.0,
+    "deliveryRate": 0.02853,
+    "supplyRate": 0.048622,
+    "taxRate": 0.031937,
+    "usageHistory": {
+        "June 2023": 8093.0,
+        "July 2023": 7580.0,
+        "August 2023": 7048.0,
+        "September 2023": 8117.0,
+        "October 2023": 7230.0,
+        "November 2023": 6594.0,
+        "December 2023": 7433.0,
+        "January 2024": 7794.0,
+        "February 2024": 6402.0,
+        "March 2024": 7852.0,
+        "April 2024": 6102.0,
+        "May 2024": 6867.0,
+        "June 2024": 7770.0
+    },
+    "locations": [
+        {
+            "accountNumber": "7232691222",
+            "serviceAddress": "715 Village-Center Dr, Burr Ridge, IL 60527",
+            "meterNumber": "230189040",
+            "commodity": "electricity",
+            "rateClass": "General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 7770.0,
+            "notes": {}
+        }
+    ]
+}

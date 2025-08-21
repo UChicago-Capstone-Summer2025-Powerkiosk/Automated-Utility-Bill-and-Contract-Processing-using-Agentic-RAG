@@ -1,0 +1,257 @@
+{
+    "documentId": "CE_231218PROD.TXT-7180-00033964",
+    "documentType": "sampleBill",
+    "statementDate": "2023-12-18",
+    "contractStart": null,
+    "contractEnd": null,
+    "customerName": "TOWN OF BERLIN BOARD OF EDUCATION",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "deliveryCharge": 12979.29,
+    "supplyCharge": 14811.74,
+    "taxCharge": 0,
+    "totalUsage": 189360,
+    "deliveryRate": 0,
+    "supplyRate": 0.07822,
+    "taxRate": 0,
+    "usageHistory": [
+        {
+            "month": "Dec",
+            "usage": 54720
+        },
+        {
+            "month": "Jan",
+            "usage": 56880
+        },
+        {
+            "month": "Feb",
+            "usage": 51120
+        },
+        {
+            "month": "Mar",
+            "usage": 52560
+        },
+        {
+            "month": "Apr",
+            "usage": 53280
+        },
+        {
+            "month": "May",
+            "usage": 55440
+        },
+        {
+            "month": "Jun",
+            "usage": 68400
+        },
+        {
+            "month": "Jul",
+            "usage": 75600
+        },
+        {
+            "month": "Aug",
+            "usage": 72720
+        },
+        {
+            "month": "Sep",
+            "usage": 81360
+        },
+        {
+            "month": "Oct",
+            "usage": 67680
+        },
+        {
+            "month": "Nov",
+            "usage": 58320
+        },
+        {
+            "month": "Dec",
+            "usage": 54720
+        },
+        {
+            "month": "Dec",
+            "usage": 131040
+        },
+        {
+            "month": "Jan",
+            "usage": 133920
+        },
+        {
+            "month": "Feb",
+            "usage": 126720
+        },
+        {
+            "month": "Mar",
+            "usage": 123120
+        },
+        {
+            "month": "Apr",
+            "usage": 135360
+        },
+        {
+            "month": "May",
+            "usage": 123840
+        },
+        {
+            "month": "Jun",
+            "usage": 154800
+        },
+        {
+            "month": "Jul",
+            "usage": 163440
+        },
+        {
+            "month": "Aug",
+            "usage": 156240
+        },
+        {
+            "month": "Sep",
+            "usage": 187200
+        },
+        {
+            "month": "Oct",
+            "usage": 149040
+        },
+        {
+            "month": "Nov",
+            "usage": 131760
+        },
+        {
+            "month": "Dec",
+            "usage": 134640
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5159 211 3005",
+            "serviceAddress": "139 PATTERSON WAY, BLDG HIGHSCHOOL, KENSINGTON CT 06037",
+            "meterNumber": "081241701",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "Dec",
+                    "usage": 54720
+                },
+                {
+                    "month": "Jan",
+                    "usage": 56880
+                },
+                {
+                    "month": "Feb",
+                    "usage": 51120
+                },
+                {
+                    "month": "Mar",
+                    "usage": 52560
+                },
+                {
+                    "month": "Apr",
+                    "usage": 53280
+                },
+                {
+                    "month": "May",
+                    "usage": 55440
+                },
+                {
+                    "month": "Jun",
+                    "usage": 68400
+                },
+                {
+                    "month": "Jul",
+                    "usage": 75600
+                },
+                {
+                    "month": "Aug",
+                    "usage": 72720
+                },
+                {
+                    "month": "Sep",
+                    "usage": 81360
+                },
+                {
+                    "month": "Oct",
+                    "usage": 67680
+                },
+                {
+                    "month": "Nov",
+                    "usage": 58320
+                },
+                {
+                    "month": "Dec",
+                    "usage": 54720
+                },
+                {
+                    "month": "Dec",
+                    "usage": 131040
+                },
+                {
+                    "month": "Jan",
+                    "usage": 133920
+                },
+                {
+                    "month": "Feb",
+                    "usage": 126720
+                },
+                {
+                    "month": "Mar",
+                    "usage": 123120
+                },
+                {
+                    "month": "Apr",
+                    "usage": 135360
+                },
+                {
+                    "month": "May",
+                    "usage": 123840
+                },
+                {
+                    "month": "Jun",
+                    "usage": 154800
+                },
+                {
+                    "month": "Jul",
+                    "usage": 163440
+                },
+                {
+                    "month": "Aug",
+                    "usage": 156240
+                },
+                {
+                    "month": "Sep",
+                    "usage": 187200
+                },
+                {
+                    "month": "Oct",
+                    "usage": 149040
+                },
+                {
+                    "month": "Nov",
+                    "usage": 131760
+                },
+                {
+                    "month": "Dec",
+                    "usage": 134640
+                }
+            ],
+            "currentUsage": 189360,
+            "deliveryCharge": 12979.29,
+            "supplyCharge": 14811.74,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.07822,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [
+                    "139 PATTERSON WAY, BLDG HIGHSCHOOL, KENSINGTON CT 06037"
+                ],
+                "accountsIncluded": [
+                    "5159 211 3005"
+                ],
+                "aggregationNotice": "",
+                "estimationMethod": ""
+            }
+        }
+    ],
+    "reportType": "budget"
+}

@@ -1,0 +1,33 @@
+{
+    "documentId": "document_972",
+    "issuer": "BGE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": null,
+    "statementDate": "2018-04-26",
+    "customerName": "Hospitality Management Group, LLC",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 0.0,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": {
+        "April 2017": 13500.0,
+        "May 2017": 9000.0,
+        "June 2017": 12000.0,
+        "July 2017": 12500.0,
+        "August 2017": 11500.0,
+        "September 2017": 11000.0,
+        "October 2017": 8500.0,
+        "November 2017": 12000.0,
+        "December 2017": 16500.0,
+        "January 2018": 25500.0,
+        "February 2018": 17000.0,
+        "March 2018": 16500.0,
+        "April 2018": 15000.0
+    },
+    "locations": []
+}

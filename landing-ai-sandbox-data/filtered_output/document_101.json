@@ -1,0 +1,44 @@
+{
+    "documentId": "document_101",
+    "issuer": "CONSTELLATION_NEW_ENERGY_INC",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "KWH",
+    "statementDate": "2019-09-30",
+    "customerName": "Roger Belleveau",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 889500.0,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2018-09",
+            "usage": 0.0
+        },
+        {
+            "month": "2019-08",
+            "usage": 1012500.0
+        },
+        {
+            "month": "2019-09",
+            "usage": 889500.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "7138414",
+            "serviceAddress": "78 CHERRY HILL DR, BEVERLY, MA 01915-1065",
+            "meterNumber": "01",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "KWH",
+            "usageHistory": null,
+            "currentUsage": 889500.0,
+            "notes": {}
+        }
+    ]
+}

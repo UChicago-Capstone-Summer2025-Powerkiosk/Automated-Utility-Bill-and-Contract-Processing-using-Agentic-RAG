@@ -1,0 +1,31 @@
+{
+    "documentId": "document_1032_1_2",
+    "issuer": "GREEN_MOUNTAIN_ENERGY",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2018-12-03",
+    "customerName": "AMLI MANAGEMENT COMPANY",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 178500.0,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": null,
+    "locations": [
+        {
+            "accountNumber": "12 648 974 - 9",
+            "serviceAddress": "1400 HI LINE DR, DALLAS TX 75207",
+            "meterNumber": "115183671LG",
+            "commodity": "electricity",
+            "rateClass": null,
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 178500.0,
+            "notes": {}
+        }
+    ]
+}

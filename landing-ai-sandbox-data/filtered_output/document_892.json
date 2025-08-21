@@ -1,0 +1,31 @@
+{
+    "documentId": "document_892",
+    "issuer": "SCG",
+    "documentType": "sampleBill",
+    "commodity": "natural_gas",
+    "unit": "CCF",
+    "statementDate": "2023-10-24",
+    "customerName": "WEST HAVEN HSG AUTHORI",
+    "reportType": "savings",
+    "deliveryCharge": 0.0,
+    "supplyCharge": 0.0,
+    "taxCharge": 0.0,
+    "totalUsage": 203.59,
+    "deliveryRate": null,
+    "supplyRate": null,
+    "taxRate": null,
+    "usageHistory": null,
+    "locations": [
+        {
+            "accountNumber": "050-0010042-0178",
+            "serviceAddress": "27 GLADE ST, WEST HAVEN, CT 06516",
+            "meterNumber": "781244",
+            "commodity": "natural_gas",
+            "rateClass": "SCG Res Multi-dwell Large",
+            "unit": "CCF",
+            "usageHistory": null,
+            "currentUsage": 203.589,
+            "notes": {}
+        }
+    ]
+}

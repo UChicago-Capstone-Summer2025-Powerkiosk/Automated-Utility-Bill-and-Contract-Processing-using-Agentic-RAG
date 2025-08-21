@@ -1,0 +1,84 @@
+{
+    "documentId": "document_274",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "TOWN OF BERLIN PUBLIC GROUNDS",
+    "reportType": "savings",
+    "deliveryCharge": 690.83,
+    "supplyCharge": 356.68,
+    "taxCharge": 0.0,
+    "totalUsage": 4560.0,
+    "deliveryRate": 0.151498,
+    "supplyRate": 0.078219,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 2400.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 5040.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 3200.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 3200.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 3120.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 2160.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 2080.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 1600.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 2080.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 3200.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 3200.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 2800.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 4560.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "51561813064",
+            "serviceAddress": "15 TOWN FARM LN, BERLIN CT 06037-2324",
+            "meterNumber": "892916042",
+            "commodity": "electricity",
+            "rateClass": "030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4560.0,
+            "notes": {}
+        }
+    ]
+}

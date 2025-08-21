@@ -1,0 +1,137 @@
+{
+    "documentId": "document_479",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-04-24",
+    "customerName": "SPRINGFIELD DONUTS INC.",
+    "reportType": "savings",
+    "deliveryCharge": 1343.37,
+    "supplyCharge": 1803.58,
+    "taxCharge": 0.0,
+    "totalUsage": 16935.0,
+    "deliveryRate": 0.079325,
+    "supplyRate": 0.1065,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-04",
+            "usage": 15533.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 14530.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 16411.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 19033.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 16993.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 15627.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 14759.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 13637.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 12957.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 16084.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 15082.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 13613.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 16935.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5459 889 6017",
+            "serviceAddress": "568 BELMONT AVE, SPRINGFIELD MA 01108",
+            "meterNumber": "892903912",
+            "commodity": "electricity",
+            "rateClass": "RATE G1",
+            "unit": "kWh",
+            "usageHistory": [
+                {
+                    "month": "2022-04",
+                    "usage": 15533.0
+                },
+                {
+                    "month": "2022-05",
+                    "usage": 14530.0
+                },
+                {
+                    "month": "2022-06",
+                    "usage": 16411.0
+                },
+                {
+                    "month": "2022-07",
+                    "usage": 19033.0
+                },
+                {
+                    "month": "2022-08",
+                    "usage": 16993.0
+                },
+                {
+                    "month": "2022-09",
+                    "usage": 15627.0
+                },
+                {
+                    "month": "2022-10",
+                    "usage": 14759.0
+                },
+                {
+                    "month": "2022-11",
+                    "usage": 13637.0
+                },
+                {
+                    "month": "2022-12",
+                    "usage": 12957.0
+                },
+                {
+                    "month": "2023-01",
+                    "usage": 16084.0
+                },
+                {
+                    "month": "2023-02",
+                    "usage": 15082.0
+                },
+                {
+                    "month": "2023-03",
+                    "usage": 13613.0
+                },
+                {
+                    "month": "2023-04",
+                    "usage": 16935.0
+                }
+            ],
+            "currentUsage": 16935.0,
+            "notes": {}
+        }
+    ]
+}

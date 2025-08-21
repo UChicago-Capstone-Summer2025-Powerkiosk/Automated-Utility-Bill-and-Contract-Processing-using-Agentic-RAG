@@ -1,0 +1,45 @@
+{
+    "documentId": "document_809",
+    "issuer": "AMEREN_ILLINOIS",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2022-05-24",
+    "customerName": "MIDSTATE MANUFACTURING",
+    "reportType": "savings",
+    "deliveryCharge": 62.34,
+    "supplyCharge": 100.48,
+    "taxCharge": 29.86,
+    "totalUsage": 1280.0,
+    "deliveryRate": 0.048703,
+    "supplyRate": 0.0785,
+    "taxRate": 0.023328,
+    "usageHistory": {
+        "May 2022": 2080.0,
+        "June 2022": 1920.0,
+        "July 2022": 1920.0,
+        "August 2022": 1760.0,
+        "September 2022": 1920.0,
+        "October 2022": 1760.0,
+        "November 2022": 2080.0,
+        "December 2022": 2240.0,
+        "January 2023": 2240.0,
+        "February 2023": 1440.0,
+        "March 2023": 1600.0,
+        "April 2023": 1440.0,
+        "May 2023": 1280.0
+    },
+    "locations": [
+        {
+            "accountNumber": "7038480020",
+            "serviceAddress": "1360 MONMOUTH BLVD, GALESBURG, IL 61401",
+            "meterNumber": "72416845",
+            "commodity": "electricity",
+            "rateClass": "DS-2 Small General Delivery Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 1280.0,
+            "notes": {}
+        }
+    ]
+}

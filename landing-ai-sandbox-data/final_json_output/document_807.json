@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_807",
+  "statementDate": "05/24/2022",
+  "totalUsage": 9216,
+  "usageHistory": {
+    "2021-05": 3456,
+    "2021-06": 5376,
+    "2021-07": 5376,
+    "2021-08": 5376,
+    "2021-09": 3840,
+    "2021-10": 3072,
+    "2021-11": 4992,
+    "2021-12": 5376,
+    "2022-01": 7680,
+    "2022-02": 7296,
+    "2022-03": 6528,
+    "2022-04": 6144,
+    "2022-05": 9216
+  },
+  "locations": [
+    {
+      "serviceAddress": "1020 S HENDERSON ST OFC, GALESBURG, IL 61401",
+      "accountNumber": "3708154045",
+      "meterNumber": "72791664"
+    }
+  ]
+}

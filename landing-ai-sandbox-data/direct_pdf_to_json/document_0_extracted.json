@@ -1,0 +1,92 @@
+{
+    "documentId": "Mansfield Power and Gas, LLC Master Commercial Gas Sales Agreement",
+    "documentType": "contract",
+    "statementDate": "2019-06-27",
+    "contractStart": "2019-08-01",
+    "contractEnd": "2020-07-31",
+    "customerName": "Pangea Ventures, LLC",
+    "commodity": "natural_gas",
+    "unit": "therms",
+    "deliveryCharge": 0,
+    "supplyCharge": 0,
+    "taxCharge": 0,
+    "totalUsage": 2460000,
+    "deliveryRate": 0,
+    "supplyRate": 0.279,
+    "taxRate": 0,
+    "usageHistory": [
+        {
+            "month": "Jan",
+            "usage": 500000
+        },
+        {
+            "month": "Feb",
+            "usage": 450000
+        },
+        {
+            "month": "Mar",
+            "usage": 300000
+        },
+        {
+            "month": "Apr",
+            "usage": 200000
+        },
+        {
+            "month": "May",
+            "usage": 100000
+        },
+        {
+            "month": "June",
+            "usage": 65000
+        },
+        {
+            "month": "July",
+            "usage": 35000
+        },
+        {
+            "month": "Aug",
+            "usage": 35000
+        },
+        {
+            "month": "Sept",
+            "usage": 55000
+        },
+        {
+            "month": "Oct",
+            "usage": 75000
+        },
+        {
+            "month": "Nov",
+            "usage": 250000
+        },
+        {
+            "month": "Dec",
+            "usage": 400000
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "0603935855-00006",
+            "serviceAddress": "5250 W JACKSON BLVD, CHICAGO, IL 60644",
+            "meterNumber": null,
+            "commodity": "natural_gas",
+            "rateClass": "Choice",
+            "unit": "therms",
+            "usageHistory": [],
+            "currentUsage": 0,
+            "deliveryCharge": 0,
+            "supplyCharge": 0,
+            "taxCharge": 0,
+            "deliveryRate": 0,
+            "supplyRate": 0.279,
+            "taxRate": 0,
+            "notes": {
+                "addressesIncluded": [],
+                "accountsIncluded": [],
+                "aggregationNotice": "",
+                "estimationMethod": "Forecast Usage based on historical data provided by Customer."
+            }
+        }
+    ],
+    "reportType": ""
+}

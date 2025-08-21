@@ -1,0 +1,84 @@
+{
+    "documentId": "document_540",
+    "issuer": "AEP_OHIO",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-01-04",
+    "customerName": "Kentucky Fried Chicken",
+    "reportType": "savings",
+    "deliveryCharge": 750.09,
+    "supplyCharge": 3259.4,
+    "taxCharge": 0.0,
+    "totalUsage": 15160.0,
+    "deliveryRate": 0.049478,
+    "supplyRate": 0.215,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-01",
+            "usage": 18280.0
+        },
+        {
+            "month": "2022-02",
+            "usage": 15640.0
+        },
+        {
+            "month": "2022-03",
+            "usage": 16560.0
+        },
+        {
+            "month": "2022-04",
+            "usage": 16400.0
+        },
+        {
+            "month": "2022-05",
+            "usage": 17800.0
+        },
+        {
+            "month": "2022-06",
+            "usage": 20200.0
+        },
+        {
+            "month": "2022-07",
+            "usage": 22760.0
+        },
+        {
+            "month": "2022-08",
+            "usage": 27160.0
+        },
+        {
+            "month": "2022-09",
+            "usage": 23480.0
+        },
+        {
+            "month": "2022-10",
+            "usage": 19960.0
+        },
+        {
+            "month": "2022-11",
+            "usage": 15560.0
+        },
+        {
+            "month": "2022-12",
+            "usage": 15960.0
+        },
+        {
+            "month": "2023-01",
+            "usage": 15160.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "102-288-142-2-3",
+            "serviceAddress": "25111 Miles Rd Ste B, Cleveland, OH 44128-5419",
+            "meterNumber": "680103509",
+            "commodity": "electricity",
+            "rateClass": "Tariff 840 - Medium General Service",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 15160.0,
+            "notes": {}
+        }
+    ]
+}

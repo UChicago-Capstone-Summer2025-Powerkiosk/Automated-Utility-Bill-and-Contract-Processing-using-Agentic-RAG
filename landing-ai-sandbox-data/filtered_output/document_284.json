@@ -1,0 +1,40 @@
+{
+    "documentId": "document_284",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-15",
+    "customerName": "Town of Berlin",
+    "reportType": "savings",
+    "deliveryCharge": 46.7,
+    "supplyCharge": 18.77,
+    "taxCharge": 0.0,
+    "totalUsage": 240.0,
+    "deliveryRate": 0.194583,
+    "supplyRate": 0.078208,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2022-12",
+            "usage": 10.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 8.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "51304223084",
+            "serviceAddress": "Wilcox Ct, East Berlin CT 06023",
+            "meterNumber": "033214112",
+            "commodity": "electricity",
+            "rateClass": "Distribution Rate: 030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 240.0,
+            "notes": {}
+        }
+    ]
+}

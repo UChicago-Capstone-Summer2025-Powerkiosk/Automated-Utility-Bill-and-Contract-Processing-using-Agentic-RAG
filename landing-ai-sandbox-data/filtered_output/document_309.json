@@ -1,0 +1,80 @@
+{
+    "documentId": "document_309",
+    "issuer": "EVERSOURCE",
+    "documentType": "sampleBill",
+    "commodity": "electricity",
+    "unit": "kWh",
+    "statementDate": "2023-12-14",
+    "customerName": "TOWN OF BERLIN WATER CONTROL C",
+    "reportType": "savings",
+    "deliveryCharge": 44.04,
+    "supplyCharge": 0.31,
+    "taxCharge": 0.0,
+    "totalUsage": 4.0,
+    "deliveryRate": 11.01,
+    "supplyRate": 0.0775,
+    "taxRate": null,
+    "usageHistory": [
+        {
+            "month": "2023-01",
+            "usage": 12.0
+        },
+        {
+            "month": "2023-02",
+            "usage": 4.0
+        },
+        {
+            "month": "2023-03",
+            "usage": 4.0
+        },
+        {
+            "month": "2023-04",
+            "usage": 4.0
+        },
+        {
+            "month": "2023-05",
+            "usage": 2.0
+        },
+        {
+            "month": "2023-06",
+            "usage": 1.0
+        },
+        {
+            "month": "2023-07",
+            "usage": 0.0
+        },
+        {
+            "month": "2023-08",
+            "usage": 3.0
+        },
+        {
+            "month": "2023-09",
+            "usage": 2.0
+        },
+        {
+            "month": "2023-10",
+            "usage": 4.0
+        },
+        {
+            "month": "2023-11",
+            "usage": 2.0
+        },
+        {
+            "month": "2023-12",
+            "usage": 4.0
+        }
+    ],
+    "locations": [
+        {
+            "accountNumber": "5195 641 3017",
+            "serviceAddress": "66 BAXTER AVE, KENSINGTON CT 06037",
+            "meterNumber": "885091292",
+            "commodity": "electricity",
+            "rateClass": "DISTRIBUTION RATE: 030",
+            "unit": "kWh",
+            "usageHistory": null,
+            "currentUsage": 4.0,
+            "notes": {}
+        }
+    ]
+}

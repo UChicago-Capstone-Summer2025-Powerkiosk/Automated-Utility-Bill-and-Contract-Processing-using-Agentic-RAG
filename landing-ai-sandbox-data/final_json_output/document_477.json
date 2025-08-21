@@ -1,0 +1,30 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_477",
+  "statementDate": "04/07/23",
+  "totalUsage": 1187,
+  "usageHistory": {
+    "2022-04": 146,
+    "2022-05": 132,
+    "2022-06": 119,
+    "2022-07": 127,
+    "2022-08": 142,
+    "2022-09": 158,
+    "2022-10": 183,
+    "2022-11": 182,
+    "2022-12": 209,
+    "2023-04": 1186
+  },
+  "locations": [
+    {
+      "serviceAddress": "4 HARDING AVE, LUDLOW MA 01056-2370",
+      "accountNumber": "5470 070 2038",
+      "meterNumber": null
+    },
+    {
+      "serviceAddress": "497 COLLEGE HWY, SOUTHWICK MA 01077",
+      "accountNumber": "5470 070 2038",
+      "meterNumber": null
+    }
+  ]
+}

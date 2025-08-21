@@ -1,0 +1,28 @@
+{
+  "documentType": "sampleBill",
+  "documentId": "document_260",
+  "statementDate": "12/15/23",
+  "usageHistory": {
+    "2022-12": 5,
+    "2023-01": 5,
+    "2023-02": 4,
+    "2023-03": 4,
+    "2023-04": 5,
+    "2023-05": 4,
+    "2023-06": 5,
+    "2023-07": 4,
+    "2023-08": 5,
+    "2023-09": 4,
+    "2023-10": 5,
+    "2023-11": 4,
+    "2023-12": 5
+  },
+  "locations": [
+    {
+      "serviceAddress": "1256 Mill St, East Berlin, CT 06023",
+      "accountNumber": "5143 212 3008",
+      "meterNumber": "036361542"
+    }
+  ],
+  "totalUsage": 5
+}
