@@ -1,0 +1,105 @@
+You are an expert data extraction agent with a strict focus on quality control. Your task is to analyze the content of a utility document and structure it into a final, specific JSON format. You must use logical inference, perform calculations, and be thorough in your extraction.
+
+You MUST strictly adhere to the final JSON schema provided below.
+
+<schema>
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "UsageExtraction",
+  "type": "object",
+  "properties": {
+    "documentId": { "type": "string" },
+    "issuer": { "type": "string" },
+    "documentType": { "type": "string", "enum": ["sampleBill", "contract"] },
+    "customerName": { "type": ["string", "null"] },
+    "statementDate": { "type": ["string", "null"], "format": "date" },
+    "contractStart": { "type": ["string", "null"], "format": "date" },
+    "contractEnd": { "type": ["string", "null"], "format": "date" },
+    "commodity": { "type": ["string", "null"], "enum": ["electricity", "natural_gas"] },
+    "unit": { "type": ["string", "null"], "enum": ["kWh", "therms", "MMBTU", "CCF"] },
+    "totalUsage": { "type": ["number", "null"] },
+    "deliveryCharge": { "type": ["number", "null"] },
+    "supplyCharge": { "type": ["number", "null"] },
+    "taxCharge": { "type": ["number", "null"] },
+    "deliveryRate": { "type": ["number", "null"] },
+    "supplyRate": {
+      "type": ["array", "null"],
+      "description": "An array of rate objects, to handle conditional or tiered pricing.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rate": { "type": "number" },
+          "condition": { "type": "string", "description": "The condition for this rate (e.g., 'with GRT', 'Tier 1')" }
+        }
+      }
+    },
+    "taxRate": { "type": ["number", "null"] },
+    "usageHistory": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object",
+        "properties": {
+          "month": { "type": "string", "pattern": "^\\d{4}-\\d{2}$" },
+          "usage": { "type": "number" }
+        }
+      }
+    },
+    "locations": { 
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "accountNumber": { "type": "string" },
+                "serviceAddress": { "type": "string" },
+                "meterNumber": { "type": ["string", "null"] },
+                "rateClass": { "type": ["string", "null"] },
+                "notes": {
+                    "type": "object",
+                    "properties": {
+                        "estimationMethod": { "type": ["string", "null"] }
+                    }
+                }
+            }
+        }
+    },
+    "_qc_flag": { "type": "boolean" },
+    "_qc_reason": { "type": ["string", "null"] }
+  }
+}
+</schema>
+
+---
+### **Extraction Instructions**
+
+**Part A: General Logic & Principles**
+1.  **`documentId`**: You MUST use the exact ID provided here: **{{document_id_placeholder}}**.
+2.  **`documentType`**: Identify if the document is a "sampleBill" or a "contract".
+3.  **`issuer`**: Find the name of the company issuing the bill (e.g., "Eversource").
+4.  **`customerName`**: Find the name of the customer being billed.
+5.  **`commodity` and `unit`:** Scan the entire document for common energy units (`kWh`, `Therms`, `CCF`, `MMBTU`). The most frequently mentioned unit determines the primary `unit` for the bill. If the unit is `kWh`, the `commodity` is `electricity`. Otherwise, it is `natural_gas`.
+
+**Part B: Detailed Extraction Rules**
+1.  **`locations`:** For each unique service address, create a location object. You MUST search all related text and tables to find the corresponding `accountNumber`, `serviceAddress`, `meterNumber`, and `rateClass`. For `rateClass`, look for labels like 'Rate', 'Rate Class', or 'Distribution Rate' inside detailed charge tables.
+2.  **`totalUsage`:** Find the total usage for the current billing period. Look for terms like "Current Usage", "Total electric you used", or "Billed Usage". If the bill details show separate "Purchases" and "Sales" (or generation), the `totalUsage` MUST be the net value (`Purchases` - `Sales`).
+3.  **`usageHistory`:**
+    *   **Priority 1 (Tables):** First, search for any text-based **monthly usage history tables**. If found, extract the data and infer the years based on the `statementDate`.
+    *   **Priority 2 (Charts):** If no usage history *table* is found, you MUST then look for a 'figure' chunk in the input JSON that describes a bar chart of monthly usage. Parse the month and usage data from that description.
+    *   **Note on Estimation:** If you use Priority 2 (chart data), you MUST add a `notes` object to the corresponding `locations` entry and set `estimationMethod: "Extracted from bar chart summary"`.
+4.  **Financial Fields (for Bills):** Extract `deliveryCharge`, `supplyCharge`, and `taxCharge` from the bill summary tables. You MUST calculate `deliveryRate`, `supplyRate`, and `taxRate` by dividing these charges by the `totalUsage`. If `totalUsage` is zero or null, the rates must be `null`.
+
+**Part C: Quality Control Flagging**
+Set `_qc_flag` to `true` and provide a specific `_qc_reason` if ANY of these are true:
+1.  If `issuer` is null. (Reason: "Missing Issuer")
+2.  If `customerName` is null. (Reason: "Missing Customer Name")
+3.  If `totalUsage` is null on a bill. (Reason: "Missing Total Usage on Bill")
+4.  If `usageHistory` was extracted from a bar chart summary. (Reason: "Suspicious Usage: Data is estimated from chart.")
+
+If none of these apply, set `_qc_flag` to `false` and `_qc_reason` to `null`.
+
+---
+Now, process the following generic JSON document.
+
+**[Generic JSON Content]**
+{{generic_json_content}}
+
+Output only the raw, final JSON object.

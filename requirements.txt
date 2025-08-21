@@ -1,0 +1,18 @@
+# --- PDF & Image Processing ---
+ocrmypdf
+agentic-doc
+unstructured[all-docs]
+pdf2image
+
+# --- LLM & RAG Frameworks ---
+openai
+langchain
+langchain-community
+langchain-openai
+
+# --- Vector Database ---
+chromadb
+
+# --- Frontend & Data Display ---
+streamlit
+pandas
