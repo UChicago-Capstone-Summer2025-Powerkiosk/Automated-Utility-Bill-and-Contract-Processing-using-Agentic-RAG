@@ -1,0 +1,5 @@
+CHARGE TYPE,QUANTITY,UOM,RATE,AMOUNT
+Standard Metering Charge,0.00,0,$\$ 11.10$,
+State Tax,0.00,0,"$\$ 1,593.30$",
+Zero Emission Standard,532895.00,KH,0.00195,"$\$ 1,039.15$"
+Total New Charges,,,"$\$ 28,486.81$",

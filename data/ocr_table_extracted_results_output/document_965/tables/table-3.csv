@@ -1,0 +1,4 @@
+Half Hourly Metered Supplies,,,,,,,,,,
+Site Ref,MPAN,Distributor,Transmission Zone,Meter Operator,Data <br> Collector,Data <br> Aggressator,Voltage,Contract Period Cons. $\mathrm{m}(\mathrm{pm})$,Est Max Demand $\mathrm{m}(\mathrm{L})$,Load Factor (\%),ASC (kVA)
+B38ET0,2000027400493,SOUT,Southern,UKDC,UKDC,UKDC,LV,708976.4,502.8,27.0,750
+B38ET1,2000027400703,SOUT,Southern,UKDC,UKDC,UKDC,LV,677398.3,616.0,25.5,850

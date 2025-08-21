@@ -1,0 +1,141 @@
+# DYNEGY 
+
+## ELECTRIC SERVICE AGREEMENT EXHIBIT A - Standard Large Stable Issued: March 31, 2022
+
+This offer is presented to S LOOP CHICAGO DEVELOPMENT II, LLC ("Customer") by DYNEGY ENERGY SERVICES, LLC ("Supplier") and represents a price for Customer's full requirement retail power ("Retail Power") needs at the service location(s) listed in Table 2, each service location referred to as an ("Account"). Upon acceptance, this offer will become Exhibit A of Supplier's Electric Service Agreement Terms and Conditions ("Agreement"), a copy of which is attached. By signing this Exhibit A, Customer is authorizing Supplier to enroll each Account with the Utility ("Utility") noted in Table 1.
+
+{{table_data: table-0.csv}}
+
+Power Price: Supplier will arrange for delivery of Customer's Retail Power. The Power Price noted in Table 1 includes charges for energy, capacity, applicable Regional Transmission Operator, ancillary services and other market settlement charges, distribution and transmission energy losses, charges associated with the purchase, acquisition and delivery of renewable energy certificates (RECs) in accordance with the state-mandated Renewable Portfolio Standards ("RPS") requirements, if applicable, the charge for additional voluntary RECs, and scheduling and load forecasting associated with the delivery of Customer's Retail Power. Such RPS Charge imposed on alternative retail energy suppliers("ARES") are due to expire as of June 1, 2019 pursuant to the Future Energy Jobs Bill (SB 2814), as amended. As of June 1, 2019, DYNEGY ENERGY SERVICES, LLC will no longer charge RPS Charge.
+
+Voluntary REC Quantity: If applicable in Table 1, the Power Price in Table 1 will include a charge associated with the Voluntary REC Quantity requested by Customer. Retail Power shall be associated with the generation of electricity from a renewable energy resource such that the percentage required, when added to Customer's obligation under the RPS of this Agreement, shall equal the Voluntary REC Quantity (\%) selected in Table 1.
+
+The Parties agree and understand a REC is separate from the Retail Power being delivered but, nonetheless, constitutes value associated with the provision of Retail Power. It is understood and agreed that any RECs purchased and retired in accordance with the aforesaid state mandate is not the property of Customer and Customer has no claim, interest, or right to said RECs, or any value derived therefrom.
+
+Customer will incur additional service and delivery charges from the Utility, and Customer is solely responsible for payments of all charges related to the delivery of electricity from the Utility.
+
+Net Metering. Customer must enroll, and be accepted in, as applicable by state law, Utility's net metering program in order to participate in net metering with Supplier.
+
+The validity, interpretation and performance of this Agreement shall be governed by and performed in accordance with the laws of the State of Illinois, together with administrative and judicial decisions construing applicable provisions of the Illinois retail choice law, 220 ILCS 5/16-101 et al, and without regard to principles of conflicts of law.
+
+This offer is contingent on acceptance by the Utility of the enrollment of Customer with Supplier. By signing below, you certify that 1) you are authorized on behalf of Customer to enter into this Agreement with Supplier, 2) Customer has read the Terms \& Conditions of this Agreement and agrees to be bound by them, and 3) Customer authorizes Supplier to enroll the Account(s) listed in Table 2 with the Utility which will allow Supplier to provide retail electricity.
+
+IN WITNESS WHEREOF, subject to any of the foregoing execution conditions, the Parties have executed and delivered this Agreement on the date last signed by the Parties.
+
+{{table_data: table-1.csv}}
+
+# BILLING AND NOTICE INFORMATION 
+
+FEIN or DUNER: 37-1842311
+$\square$ Check here if you are a local government entity as defined by 50 ILCS 505/Local Government Prompt Payment Act.
+If applicable, see Section 4 of the Terms \& Conditions for below:
+$\square$ Check here to receive one master invoice that includes detailed usage by Account. If blank, an individual invoice for each Account will be issued.
+$\square$ Check here if you want invoices mailed to the Service Location, Attn: Accounts Payable. Otherwise, please complete Invoice information below.
+
+{{table_data: table-2.csv}}
+
+Upon execution and delivery to Supplier, this Agreement is binding. Please retain a copy for your records and send a signed copy to Contractlegal12@vistraenergy.com. Supplier will forward all necessary documents to the Utility.
+
+ELECTRIC SERVICE AGREEMENT
+ACCOUNT INFORMATION SHEET FOR
+S LOOP CHICAGO DEVELOPMENT II, LLC AS OF 03/31/2022
+
+{{table_data: table-3.csv}}
+
+## ELECTRIC SERVICE AGREEMENT GENERAL TERMS AND CONDITIONS
+
+This Electric Service Agreement ("Agreement") is between Supplier and Customer and is dated and effective as of the date the Exhibit A is signed by both parties. To the extent there is a conflict in the terms, interpretation or understanding of this Agreement and Exhibit A, the terms of Exhibit A shall supersede the terms of this Agreement.
+
+## 1. ELECTRIC ENERGY SERVICES
+
+Supplier shall supply and deliver to Customer and Customer shall exclusively purchase and receive from Supplier all Retail Power as defined in Exhibit A, pursuant to the terms and conditions which are described in the attached Exhibit A and incorporated herein for all purposes. The Retail Power will be delivered to the interconnection between the transmission system of the applicable transmission provider and the Utility's ("Utility") distribution system ("Delivery Point"). Customer's Utility will be responsible for delivery of Retail Power to Customer's meter from the Delivery Point. The delivery of Retail Power over the Utility's distribution system is subject to the terms and conditions of the Utility's tariff relating to delivery and metering. Customer's Utility will send Customer a notice confirming the switch to Supplier for electricity (the "Confirmation"). Customer shall provide written notice as soon as practicable of any changes to Customer's Account and meter numbers and/or billing locations associated with Customer's delivery services. Customer is solely responsible for payments of all charges related to the delivery of the Retail Power from the Utility whether billed to Supplier or Customer, and agrees to hold harmless and indemnify Supplier from any liability, demand or payment for same. Customer represents and warrants it is eligible to receive electric energy services from Supplier and that it has given all required notices to the supplier currently serving Customer, if applicable.
+
+## 2. TERM OF AGREEMENT
+
+After Supplier and the Utility process Customer's enrollment request, Retail Power delivery will begin for each Account with the first available meter reading date of the month noted under "Delivery Term Begins" in Table 1 or as soon as possible thereafter, and ends with the regularly scheduled meter reading date for the month noted under "Delivery Term Ends" in Table 1 on Exhibit A ("Term"). At the end of the Term of this Agreement, Supplier will return Customer to Utility default service, unless a written amendment has been executed to renew the Term. Notwithstanding the foregoing, the Term is subject to renewal pursuant to the conditions under Section 3, Monthly Renewal.
+
+## 3. MONTHLY RENEWAL
+
+This Agreement shall automatically continue on a monthly basis ("Renewal Term") at the rates determined by Supplier, which may vary from month to month. If Customer has not notified Supplier that Customer has elected to obtain Retail Power from another retail supplier, then Supplier may, in its sole discretion, place Customer on Renewal Term service or
+
+Supplier may return Customer to Utility default service, thereby terminating this Agreement.
+
+## 4. PAYMENTS/INVOICES
+
+Supplier will issue an invoice via mail or e-mail based on actual usage data provided by the Utility as soon as practicable after the end of each Monthly Billing Cycle in which service was provided. Each invoice will include Supplier charges set forth in this Agreement and payments shall be received by Supplier within twenty-one (21) Calendar Days following the issue date of each invoice, the "Due Date". Alternatively and upon mutual agreement of the Parties and approval by Utility, Supplier may issue an invoice that includes both Supplier charges set forth in this Agreement and the Utility's delivery service charges, in which case the Due Date shall be reduced to fourteen (14) days. All payments shall be made via an electronic method or check to the account specified on each invoice. Should the Utility fail to provide the customer's usage information to Supplier within five (5) Business Days after the published meter read date, Supplier reserves the right to provide the Customer with an estimated bill to be trued up in an invoice that follows receipt of the actual bill. Amounts not paid on or before the Due Date shall be deemed delinquent and a late payment charge equivalent to one and one-half percent (1.5\%) will be assessed each month on the unpaid balance ("Interest Rate"). If Customer in good faith disputes the correctness of any invoice rendered under this Agreement, then Customer shall 1) provide written explanation of the basis of the dispute to Supplier no later than the Due Date and 2) pay the undisputed portion of the amount invoiced no later than the Due Date. If the disputed amount is determined to have been due by Supplier, it shall be paid to Supplier within five (5) Business Days of such determination, along with interest at the Interest Rate from and including the date such amount was due, but excluding the date paid. For purposes of this Agreement, "Business Day" shall mean any day except a Saturday, Sunday, or a Federal Reserve Bank holiday, and "Calendar Day" shall mean every day including Saturday, Sunday and Federal Reserve Bank holidays.
+Alternatively, if eligible, Customer will receive a single bill from the Utility that contains Supplier charges set forth in this Agreement and Utility charges. Customer will make payments to the Utility according to the Utility's billing rules and schedules. Failure to pay Supplier charges may result in the Account(s) being returned to the Utility's standard service and forfeiture of Customer's right to choose another retail electric service provider until past due amounts are paid. Failure to pay invoice charges may result in the Account(s) being disconnected in accordance with the Utility's business practices. If, due to Utility rules, any Account(s) become ineligible for a single bill from the Utility at any time during contract, then Supplier will issue an invoice for all ineligible Account(s). Supplier's invoice will reflect the Power Price for Retail Power times the kWh each month for those accounts billed by supplier, and Customer
+
+will make payments to Supplier in the terms described above in Supplier billing.
+If Customer is a state government entity as defined by its local government Prompt Payment Requirements Act indicated in Exhibit A, then, in such event, said Act shall control with regard to the calculation of payment due dates and late payment charges. All other provisions in this paragraph remain the same and are in effect.
+
+## 5. CUSTOMER INFORMATION
+
+Customer authorizes Supplier to receive current and historical energy billing and usage data from the Utility and such authorization shall remain in effect unless Customer rescinds such authorization in writing. Supplier reserves the right to cancel this Agreement in the event that Customer rescinds such authorization. Customer has the right to request from Supplier, twice within a twelve (12) month period without charge, up to twenty-four (24) months of Customer's payment history.
+
+## 6. TAXES
+
+Except for taxes on the gross income and property of Supplier, all federal, state, and municipal or other governmental subdivision taxes, assessments, fees, use taxes, sales taxes or excise taxes, or similar taxes or fees incurred by reason of Retail Power sold under this Agreement are the sole responsibility of Customer, and Customer agrees to hold harmless and indemnify Supplier from any liability, demand or payment for same. It is understood that Supplier is responsible for all taxes applicable prior to Supplier's delivery to the Delivery Point, and Supplier agrees to hold harmless and indemnify Customer from any liability, demand or payment for same.
+
+## 7. CREDIT
+
+Should Customer's creditworthiness or financial condition deteriorate following the date of this Agreement, Supplier may request adequate financial security from Customer in a form acceptable to Supplier as determined in a commercially reasonable manner. The failure of Customer to provide adequate financial security to Supplier within ten (10) Business Days of a written request by Supplier shall be considered an Event of Default under Section 14. For purposes of this Section, creditworthiness or financial condition shall be determined by Supplier in a commercially reasonable manner, based upon but not limited to, reasonable concern over Customer's payment pattern, discovery of negative or derogatory public information, and/or based upon a review of Customer's most recently audited annual financial statements or such other documents that may be necessary to adequately determine Customer's creditworthiness (which, if available, shall be supplied by Customer upon the reasonable request of Supplier). In addition the determination of creditworthiness or financial condition may include consideration of the market exposure assumed by Supplier relevant to the liquidation value of this Agreement under Section 14.
+
+## 8. CONFIDENTIALITY
+
+Customer and Customer's agents and Supplier and/or Supplier's agents shall treat as confidential all terms and conditions of this Agreement, including all information and documentation exchanged by the Parties during the negotiations of this Agreement. Neither Party will disclose terms and conditions of this Agreement to any other party, except as required by law. Notwithstanding the foregoing, Supplier and/or Supplier's agents and Customer and/or Customer's agents shall be allowed to acknowledge that an Agreement for Retail Power services does exist between the Parties. At Supplier's discretion, third-party agents of Customer may be asked to execute a confidentiality agreement.
+
+## 9. WARRANTY, DISCLAIMER AND LIMITATION OF LIABILITY
+
+Supplier warrants title to all Retail Power delivered hereunder, and sells such Retail Power to Customer free from liens and adverse claims to the delivery point. THIS IS SUPPLIER'S ONLY WARRANTY CONCERNING THE RETAIL POWER PROVIDED HEREUNDER, AND IS MADE EXPRESSLY IN LIEU OF ALL OTHER WARRANTIES AND REPRESENTATIONS, EXPRESSED OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY OR OTHERWISE. UTILITY WILL PROVIDE DELIVERY SERVICES UNDER THIS AGREEMENT; THEREFORE SUPPLER IS NOT LIABLE FOR ANY DAMAGES RESULTING FROM FAILURE BY THE UTILITY OR RTO. SUPPLIER DOES NOT GUARANTEE UNINTERRUPTED SERVICE AND SHALL NOT BE LIABLE FOR ANY DAMAGES SUSTAINED BY CUSTOMER BY REASON OF ANY FAILURE, ALTERATION OR INTERRUPTION OF SERVICE. NEITHER PARTY SHALL BE RESPONSIBLE UNDER ANY CIRCUMSTANCES FOR ANY SPECIAL, INCIDENTAL, INDIRECT, EXEMPLARY, OR CONSEQUENTIAL DAMAGES, INCLUDING LOSS OF PROFITS, OR OTHER BUSINESS INTERRUPTION DAMAGES, BY STATUTE, IN TORT OR CONTRACT, UNDER ANY INDEMNITY PROVISION OR OTHERWISE, INCURRED BY THE OTHER PARTY.
+
+## 10. FORCE MAJEURE
+
+If a Party is prevented by Force Majeure from carrying out, in whole or part, its obligations under this Agreement (the "Claiming Party") and gives notice and details of the Force Majeure to the other Party as soon as practicable, then the Claiming Party shall be excused from the performance of its obligations under this Agreement (other than the obligation to make payments then due or becoming due with respect to performance prior to the Force Majeure). The Claiming Party shall remedy the Force Majeure with all reasonable dispatch. During the period excused by Force Majeure, the non-Claiming Party shall not be required to perform its obligations under this Agreement. "Force Majeure" shall mean an event or circumstance which prevents the Claiming Party from performing its obligations or causes delay in the Claiming Party's performance under this Agreement, which event or circumstance was not anticipated as of the date this Agreement was agreed to, which is not within the reasonable control of, or the result of the negligence of, the
+
+Claiming Party, and which, by the exercise of due diligence or use of good utility practice, as defined in the applicable transmission tariff, the Claiming Party is unable to overcome or avoid or cause to be avoided, such as, but not limited to: acts of God, fire, flood, earthquake, war, riots, strikes, walkouts, lockouts and other labor disputes that affect Customer or Supplier. Force Majeure shall not be based on 1) Customer's inability to economically use the Retail Power purchased hereunder; or 2) Supplier's ability to sell the Retail Power at a price greater than the price under this Agreement.
+
+## 11. CHANGE IN LAW OR REGULATORY EVENT
+
+In the event that any change in or enactment of any rule, regulation, Utility operating procedure, tariff, ordinance, statute, or law affecting the sale or transmission, distribution, or purchase or other obligation under this Agreement (including but not limited to any administrative ruling, interpretation, or judicial decision), or any new or increased charges to maintain system reliability affects Supplier's costs to deliver Retail Power, as determined in Supplier's reasonable discretion (a "Change in Law"), Supplier shall 1) provide written notice to Customer of the change, 2) specify the effect on price necessary to accommodate the Change in Law, and 3) state the date upon which such new pricing shall be effective, which date shall not be less than thirty (30) days from the date of the written notice and shall coincide with the next Monthly Billing Cycle invoice that follows the thirty (30) day period. Customer agrees that it shall be bound by the new pricing set forth in the written notice described in the foregoing provision.
+
+## 12. ASSIGNMENT/CUSTOMER NAME CHANGE
+
+This Agreement shall be binding on each Party's successors and permitted assigns. Neither Party shall assign this Agreement or its rights without the prior written consent of the other Party, which consent shall not be unreasonably withheld; provided, however, 1) Supplier may assign its rights and obligations under this Agreement to an affiliate without consent of the Customer, or 2) the assigning party ("Assignor") shall be released from all liability under this Agreement if assignee agrees in writing to be bound by the terms and conditions and assumes the liability of Assignor under this Agreement.
+If Customer undergoes a change of legal name during any term of this Agreement, Customer is responsible for notifying the Utility and Supplier of such change in Customer's legal name (such new name, the "New Name") as soon as practicable. Customer further agrees to take any and all steps as may be required by the Utility to continue as Supplier's customer or to re-enroll with Supplier.
+
+## 13. WAIVER
+
+Except as otherwise set forth in this Agreement, failure or delay on the part of either Party to exercise any right, power, or privilege under this Agreement shall not operate as a waiver of such right, power or privilege of this Agreement.
+
+## 14. EVENTS OF DEFAULT
+
+Definition: An "Event of Default" shall mean, with respect to a defaulting party (the "Defaulting Party"), the occurrence of any of the following: (a) the failure to make, when due, any payment required pursuant to this Agreement if such failure is not remedied within five (5) Business Days (as such term is defined in Section 4 above) after written notice of such failure; (b) any representation or warranty made by such Party herein is false or misleading in any material respect when made or when deemed made or repeated; (c) the failure to perform any material covenant or obligation set forth in this Agreement (except to the extent constituting a separate Event of Default, and except for such Party's obligations to deliver or receive where such Party has made payments due for such failure to deliver or receive) if such failure is not remedied within five (5) Business Days (as such term is defined in Section 4 above) after written notice by Supplier to Customer; (d) such Party (1) files a petition or otherwise commences, authorizes or acquiesces in the commencement of a proceeding or cause of action under any bankruptcy, insolvency, reorganization or similar law, or has any such petition filed or commenced against it, (2) makes an assignment or any general arrangement for the benefit of creditors, (3) otherwise becomes bankrupt or insolvent (however evidenced), or (4) has a liquidator, administrator, receiver, trustee, conservator or similar official appointed with respect to it or any substantial portion of its property or assets as part of bankruptcy proceeding or reorganization for the benefit of creditors; (e) the failure of Customer to satisfy the creditworthiness/collateral requirements under Section 7 of this Agreement; or (f) a Party consolidates or merges with or into, or transfers all or substantially all of its assets to another entity and, at the time of such consolidation, amalgamation, merger or transfer, the resulting, surviving or transferee entity fails to assume all the obligations of such Party under this Agreement, or the resulting, surviving or transferee entity does not satisfy the creditworthiness requirements/collateral requirement set forth in Section 7 of this Agreement (each, an "Event of Default").
+Suspension and Early Termination: If an Event of Default occurs, the non-defaulting Party ("the Non-Defaulting Party") may, at its option and in its sole discretion, 1) suspend its performance under this Agreement, or 2) terminate this Agreement ("Early Termination"), at which Early Termination, the Non-Defaulting Party shall have the right to liquidate this Agreement and to demand payment of, which the defaulting Party ("the Defaulting Party") shall pay upon invoice, a settlement amount which shall be equal to a) if Customer is the Defaulting Party, any unpaid invoices plus the positive difference (if any) of the Power Price minus the Market Price multiplied by the Total Monthly Usage kWh in the Monthly Billing Cycles remaining in the Term or Renewal Term, or b) if Supplier is the Defaulting Party, the net result of any unpaid invoices by Customer to Supplier and, the positive difference (if any) of the Market Price
+
+minus the Power Price multiplied by the Total Monthly Usage kWh in the Monthly Billing Cycles remaining in the Term or Renewal Term. Any such calculation shall be discounted to present value, plus other costs, expenses and charges under this Agreement which the Non-Defaulting Party incurs as a result of such Early Termination, in addition to and without prejudice to any right of setoff, recoupment, combination of accounts, lien or other right to which the Non-Defaulting Party is otherwise entitled, whether by operation of law, equity, contract or otherwise as a result of the Event of Default and early termination of this Agreement, subject to any limitations on liability as set forth in Section 9 WARRANTY, DISCLAIMER AND LIMITATION OF LIABILITY. For the purposes of this section "Market Price" shall mean the amount, as determined by the NonDefaulting Party, that a bona fide third party would pay for the subject kWh at the then current prevailing energy prices. The non-Defaulting Party may consider, among other things, quotations from the leading dealers in the wholesale energy industry, internally developed forward market prices and other bona fide third party offers as commercially available to the Non-Defaulting Party, which will be adjusted, as necessary, for the period and differences in transmission costs, volume, and other factors, as reasonably determined by the Non-Defaulting Party.
+
+## 15. MISCELLANEOUS
+
+This Agreement constitutes the entire agreement of the parties with respect to the subject matter of this Agreement and supersedes and extinguishes any and all prior oral or written agreements between the parties concerning the subject matter of this Agreement. This Agreement may only be modified or amended through a written document signed by both parties. Except as otherwise set forth in this Agreement, failure or delay on the part of Supplier to exercise any right, power, or privilege under this Agreement shall not operate as a waiver of such right, power or privilege of this Agreement.
+
+## 16. FORWARD CONTRACT/NON-UTILITY
+
+## ACKNOWLEDGEMENT
+
+The Parties agree this Agreement is construed and understood to be a "forward contract" as defined by the U.S. Bankruptcy Code. Each party agrees that, for purposes of this Agreement, the other party is not a "utility" as such term is used in Section 366 of the U.S. Bankruptcy Code, and each party waives and agrees not to assert the applicability of the provisions of such Section 366 in any bankruptcy proceeding wherein such party is a debtor.
+
+## 17. RESOLUTION OF DISPUTES/ARBITRATION
+
+If a question or controversy arises between the Parties concerning the observance or performance of any of the terms, provisions or conditions contained herein or the rights or obligations of either Party under this Agreement, such question or controversy shall in the first instance be the subject of a meeting between the Parties to negotiate a resolution of such dispute. Such meeting shall be held within fifteen (15) days of a written request by either Party. If within fifteen (15) days after that meeting the Parties have not negotiated a resolution or mutually extended the period of negotiation, the question or controversy shall be resolved by arbitration in accordance with arbitration procedures established from time to time by the American Arbitration Association ("AAA"). The panel of arbitrators to be provided shall be competent in their expertise and qualifications to understand and arbitrate the dispute. In addition to the arbitration procedures established by the AAA, arbitration shall be conducted pursuant to the Federal Rules of Evidence. The arbitrators may award only damages as allowed for by this Agreement, and attorney fees and other legal costs. Any decision and award of the majority of arbitrators shall be binding upon both Parties. Judgment upon the award rendered may be entered in any court of competent jurisdiction.
+
+## 18. EXECUTION
+
+Customer may provide Supplier with an executed facsimile copy of the Agreement, or other form of an electronic execution of the Agreement, and in such event the Agreement is binding on the Parties upon acceptance and execution by Supplier, and shall be deemed an original.
+
+## 19. CHANGES IN CONSUMPTION
+
+Customer will provide Supplier advanced notification of any planned shut-downs or known or anticipated changes to Customer's operations that will have an impact on Supplier's ability to accurately forecast Customer's load and/or notice of any Account closings that may occur or may be expected to occur during the Term. Supplier may incorporate a request that Customer provide a periodic production or load forecast to aid in forecasting Customer's load requirements as part of the terms of this Agreement.
+
+## 20. CUSTOMER SERVICE
+
+For questions about your invoice or Supplier service, please contact our Customer Care Department by calling Supplier at the toll free number listed on the Notices Schedule. To report a service outage in an emergency or for any other questions, please contact your Utility directly.

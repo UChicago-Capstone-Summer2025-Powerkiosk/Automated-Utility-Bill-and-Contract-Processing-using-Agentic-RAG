@@ -1,0 +1,4 @@
+Half Hourly Metered Supplies,,,,,,,,,,
+Site Ref,MPAN,Distributor,Transmission Zone,Meter Operator,Data Collector,Data Aggregator,Voltage,Contract <br> Pencil Cons <br> (kWh),Est Max <br> Grmund <br> (KW),Load Factor (\%),ASC (WVA)
+B38ET0,2000027400493,SOUT,Southern,UKDC,UKDC,UKDC,LV,1234837.4,451.8,31.3,750
+B38ET1,2000027400703,SOUT,Southern,UKDC,UKDC,UKDC,LV,1298322.4,554.0,26.8,850

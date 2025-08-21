@@ -1,0 +1,10 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / Transmission Tags,"""Estimated <br> Meter <br> Read Start Date <br> (MMIGD/YYYY)",Purchase Price (cents / kWh),Annual Historical Usage (kWh)
+4853647503,County St Warehouse 19 (BIRDSONG CORPORATION Customer C),Dominion Virginia Power,110,DOM,$\begin{gathered} 18.81 \\ 24.3 \end{gathered}$,01/06/2020,6.724,"26,623"
+5485709546,31380 General Thomans Hey New (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{aligned} & 49.01 \\ & 52.4 \end{aligned}$,01/03/2020,6.724,"441,838"
+5983730002,Warwick St Warehouse No 5 (BIRDSONG CORPORATION Customer W),Dominion Virginia Power,110,DOM,$2.6 / 2.7$,01/09/2020,6.724,"14,232"
+7633632505,612 Madison Ave (BIRDSONG CORPORATION Customer 6),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 36.81 \\ 32.2 \end{gathered}$,01/09/2020,6.724,"220,653"
+7299668926,31380 General Thomas Hey (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 21.91 \\ 43.0 \end{gathered}$,01/03/2020,6.724,"165,243"
+7533717505,301 Mill St Warehouse 2223 (BIRDSONG CORPORATION Customer 3),Dominion Virginia Power,110,DOM,$7.0 / 6.7$,01/06/2020,6.724,"27,203"
+7739176456,Madison Ave Pond Cold Storage (BIRDSONG CORPORATION Customer M),Dominion Virginia Power,110,DOM,$2.5 / 3.3$,01/06/2020,6.724,"4,543"
+2043775002,Adams St Truck Scale Office (BIRDSONG CORPORATION Customer A),Dominion Virginia Power,110,DOM,$2.5 / 2.6$,01/10/2020,6.724,"11,248"
+7552867744,612 Madison Ave Whae Electrical Room (BIRDSONG CORPORATION Customer 6),Dominion Virginia Power,GS-2-GS-2U,DOM,$\begin{gathered} 49.01 \\ 52.4 \end{gathered}$,01/08/2020,6.724,"548,555"

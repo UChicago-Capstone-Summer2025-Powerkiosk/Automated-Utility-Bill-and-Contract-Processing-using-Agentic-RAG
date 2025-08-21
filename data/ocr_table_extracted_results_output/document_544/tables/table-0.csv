@@ -1,0 +1,8 @@
+E L,006267163,27134,Actual,26505,Actual,629,800,503200
+Total,,,,,,,,503200
+D L,001267163,18.96,Actual,.00,Actual,18.96,48,910.08
+Total,,,,,,,,910.08
+,Meter number,,Reading type,Power <br> Factor(\%),,Actual kVar,Allowable kVar,Biltable kVar
+R L,001267163,,Actual,87.66,,499.68,303.36,196.32
+Total,,,,,,,,196.32
+![](images/img-3.jpeg)

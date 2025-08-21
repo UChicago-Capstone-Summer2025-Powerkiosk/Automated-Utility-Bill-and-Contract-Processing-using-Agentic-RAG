@@ -1,0 +1,8 @@
+No.,Account Number,Service Location Address,Bill Cycle <br> No.,Anticipated <br> Start Date,Anticipated <br> End Date,PLC as of <br> 6/1/2020 (kW),PLC as of <br> 6/1/2021 (kW),NSPL as of <br> 1/1/2021 (kW)
+1,0535033213,637 Forestwood Dr,19,6/25/2021,6/25/2025,6.14,16.99,12.29
+2,4658029017,1840 Internationale Pkwy,3,6/3/2021,6/3/2025,"1,539.33","1,861.14","1,746.68"
+3,1956083141,637 Forestwood Dr,19,6/25/2021,6/25/2025,11.88,16.86,13.40
+4,1578103091,2501 Internationale Parkway,10,6/14/2021,6/14/2025,80.52,80.03,89.88
+5,4158170288,2501 Internationale Pkwy,11,6/15/2021,6/15/2025,53.43,28.91,24.86
+6,7487555034,2501 Internationale Pkwy,10,6/14/2021,6/14/2025,0.43,0.52,0.49
+Total,,,,,,,"1,691.73","2,004.45","1,887.60"

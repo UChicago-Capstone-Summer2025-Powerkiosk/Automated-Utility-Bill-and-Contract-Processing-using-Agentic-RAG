@@ -1,0 +1,6 @@
+Read <br> Dates,Meter <br> Number,Load Type,Reading <br> Type,Meter Reading,,,Multiplier <br> $\mathbf{X}$,Total <br> Usage
+,,,,Previous,Present,Difference,,
+06/24-07/26,017115024,General Service,Pk kW,Actual,Actual,"1,077.12",,"1,077.12"
+06/24-07/26,017115024,General Service,Tot kWh,Actual,Actual,"493,410",,"493,410"
+06/24-07/26,017115024,General Service,GS Off Pk kW,Actual,Actual,976.32,,976.32
+06/24-07/26,017115024,General Service,On Pk Kw,Actual,Actual,"1,077.12",,"1,077.12"

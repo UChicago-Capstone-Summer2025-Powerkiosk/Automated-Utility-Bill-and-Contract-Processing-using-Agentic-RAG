@@ -1,0 +1,4 @@
+Meter Information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Lead <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier <br> $\mathbf{X}$,Usage
+$\begin{aligned} & 209- \\ & 305 \end{aligned}$,141791464,General Service,Total kWh,5525 Actual,8071 Actual,2546,1,2546
+$\begin{aligned} & 205- \\ & 305 \end{aligned}$,141791464,General Service,kW,31.89 Actual,46.93 Actual,15.04,1,15.04

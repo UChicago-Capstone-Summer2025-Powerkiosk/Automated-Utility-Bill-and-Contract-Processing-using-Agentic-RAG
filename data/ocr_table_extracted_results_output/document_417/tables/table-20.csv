@@ -1,0 +1,5 @@
+METER 74842742 - Multiplier x 80,,,Read Dates: 03/11/20,04/09/20 (29 Days)
+DESCRIPTION,CURRENT READING,PREVIOUS READING,MEASURED <br> USAGE,BILLED <br> USAGE
+Total Energy,8416 Actual,8291 Actual,125,10000 kWh
+Demand,Actual,,,21.76 kW
+Billable Demand,,,,22 kW

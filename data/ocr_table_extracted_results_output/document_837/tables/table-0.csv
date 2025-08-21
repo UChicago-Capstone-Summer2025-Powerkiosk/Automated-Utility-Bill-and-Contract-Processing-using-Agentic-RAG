@@ -1,0 +1,4 @@
+Read Dates,Meter Number,Load Type,Reading Type,Previous,,Present,,Difference,Multiplier,Usage
+5/9-6/10,230189040,General Service,Off Pk kW,0.00,Actual,16.33,Actual,16.33,$\times 1$,16.33
+5/9-6/10,230189040,General Service,On Pk kW,0.00,Actual,15.89,Actual,15.89,$\times 1$,15.89
+5/9-6/10,230189040,General Service,Total kWh,36680,Actual,44450,Actual,7770,$\times 1$,7770

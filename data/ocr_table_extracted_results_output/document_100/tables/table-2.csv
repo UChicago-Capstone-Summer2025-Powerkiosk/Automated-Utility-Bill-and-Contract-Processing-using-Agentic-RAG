@@ -1,0 +1,8 @@
+Notary Events,Signature,Timestamp
+Envelope Summary Events,Status,Timestamps
+Envelope Sent,Hashed/Encrypted,$2 / 25 / 2020$ 3:55:14 PM
+Certified Delivered,Security Checked,$2 / 25 / 2020$ 4:00:23 PM
+Signing Complete,Security Checked,$2 / 25 / 2020$ 4:02:28 PM
+Completed,Security Checked,$2 / 25 / 2020$ 4:02:28 PM
+Payment Events,Status,Timestamps
+Electronic Record and Signature Disclosure,,

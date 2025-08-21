@@ -1,0 +1,11 @@
+PJM,Value
+Energy,Pass Through
+Ancillaries,Included
+Auction Revenue Rights (ARR),Included
+Capacity,Pass Through
+Losses,Utility Defined Loss Factor Pass Through
+Marginal Loss Credits,Included
+Reliability Must Run,Pass Through
+RPS,Included
+Transmission,Pass Through
+Applicable Taxes,Pass Through

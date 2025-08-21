@@ -1,0 +1,13 @@
+Service Period,No. of <br> days,Current <br> Reading,Previous <br> Reading,Measured <br> CCF,$\begin{aligned} & \text { I } \\ & \text { I } \end{aligned}$,Ineent <br> Factor,$\begin{aligned} & =\end{aligned}$,Themes <br> Used
+Feb 7 - Mar 8,29,69116,65801,3315,1.02997,,3414,
+METER NUMBER,01209111,NEXt SCHEDULED,READ DATE ON ON,ABOUT,Apr 9,,,
+RATE,Rate 257 Gas,Non Resid,General Use,Delivery,,,,
+Basic Service Charge (including first 2.9 therms),,,,,,,,36.40
+Next 84.1 Therms,,,$1.5828 \times 84.1$ therms,,,,,133.11
+Next 2813 Therms,,,$0.3254 \times 2813$ therms,,,,,915.35
+Over/Last 514 Therms,,,$0.1953 \times 514$ therms,,,,,100.38
+System Benefits Charge,,,$0.01843 \times 3414$ therms,,,,,62.92
+Delivery Rate Adj,,,$-0.00041983 \times 3414$ therms,,,,,$-1.43$
+Transp Adj Chg,,,$-0.00917 \times 3414$ therms,,,,,$-31.31$
+NY State and Local Surcharges,,,,,,,,14.67
+Total Delivery Services,,,,,,,,"$\$ 1,230.09$"

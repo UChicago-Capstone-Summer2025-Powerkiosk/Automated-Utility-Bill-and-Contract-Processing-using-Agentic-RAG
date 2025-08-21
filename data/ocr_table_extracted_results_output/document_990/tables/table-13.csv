@@ -1,0 +1,15 @@
+Svc Adcr: 12 LATI FARM 10,,,,,
+MILLBURY MA 01527,,,,,
+Rate 53-C\&I Ext High Ann/Low Winter Cycle 16,,,,,
+Service from 09/27/24 - 10/22/24,,,,,26 Days
+"Next read date on or about: Nov 22, 2024",,,,,
+Meter <br> Number,Current <br> Read,Previous <br> Read,Current <br> Usage,Reading <br> Type,
+0007789,66855,64441,2414,Estimate,
+Service Reference: 91195564,,,,,
+2414 x Meter Constant of $10=24140$ Billed Usage for 26 Days,,,,,
+24140 x Therm factor of $1.0281=24818$ Therms Billed Usage for 26 Days,,,,,
+Monthly Therm Use,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+4139,4761,4716,31536,27715,27680,32446
+Jul,Aug,Sep,Oct,,,
+27679,27684,33410,24818,,,

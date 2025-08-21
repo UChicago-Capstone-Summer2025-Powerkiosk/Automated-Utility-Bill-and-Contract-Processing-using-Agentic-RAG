@@ -1,0 +1,5 @@
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Capacity Market (CM),,,,,,
+Estimated annual capacity volume (EACV),,,"183,994.00 <br> kWh",,,
+Obligation Levy Forecast Passthrough for <br> period,$01 / 12 / 2021$,$31 / 12 / 2021$,$\begin{aligned} & 15626.910 \\ & \text { kWh } \end{aligned}$,$\begin{aligned} & 5.3660000 \\ & \text { p/kWh } \end{aligned}$,STD,£838.54
+Operational charge Forecast Passthrough <br> Involced @ NBP,$01 / 12 / 2021$,$31 / 12 / 2021$,"$\begin{aligned} & 289,044.0 \\ & \text { kWh } \end{aligned}$",$\begin{aligned} & 0.00265 \\ & \text { p/kWh } \end{aligned}$,STD,£7.66

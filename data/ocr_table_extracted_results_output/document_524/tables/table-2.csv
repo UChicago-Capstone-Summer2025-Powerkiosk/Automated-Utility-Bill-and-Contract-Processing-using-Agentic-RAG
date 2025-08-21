@@ -1,0 +1,29 @@
+Year Information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier <br> $\times$,Usage
+900-,230157371,General Service,Total kWh,Actual,Actual,Submeter,,17020
+900-,230157371,General Service,On Pk kW,Actual,Actual,Submeter,,26.76
+900-,230181606,Space Heat,Total kWh,Actual,Actual,Submeter,,14217
+900-,230181606,Space Heat,On Pk kW,Actual,Actual,Submeter,,93.89
+900-,230181607,General Service,Total kWh,Actual,Actual,Submeter,,12508
+900-,230181607,General Service,On Pk kW,Actual,Actual,Submeter,,23.30
+900-,230183014,General Service,Total kWh,Actual,Actual,Submeter,,9260
+900-,230183014,General Service,On Pk kW,Actual,Actual,Submeter,,15.32
+900-,230183015,Space Heat,Total kWh,Actual,Actual,Master,,8592
+900-,230183015,Space Heat,On Pk kW,Actual,Actual,Master,,19.34
+900-,230199428,General Service,Total kWh,Actual,Actual,Submeter,,66202
+900-,230199428,General Service,On Pk kW,Actual,Actual,Submeter,,142.90
+900-,230210818,Primary Metering,Total kWh,Actual,Actual,Master,,85952
+900-,230210818,Primary Metering,On Pk kW,Actual,Actual,Master,,213.79
+900-,230210819,General Service,Total kWh,Actual,Actual,,,48839
+900-,230210819,General Service,On Pk kW,Actual,Actual,,,115.68
+900-,230210820,Space Heat,Total kWh,Actual,Actual,Submeter,,20261
+900-,230210820,Space Heat,On Pk kW,Actual,Actual,Submeter,,113.45
+900-,,,,,,,,
+900-,230210820,Space Heat,Total kWh,Actual,Actual,Submeter,,20261
+900-,230210820,Space Heat,On Pk kW,Actual,Actual,Submeter,,113.45
+900-,,,,,,,,
+900-,230210820,Space Heat,Total kWh,Actual,Actual,Submeter,,20261
+900-,,,,,,,,
+900-,230210820,Space Heat,On Pk kW,Actual,Actual,Submeter,,113.45
+900-,,,,,,,,
+900-,,,,,,,,

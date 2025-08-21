@@ -1,0 +1,5 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / <br> Transmission <br> Tags,*Estimated Meter Read <br> Start Date <br> (MM/DD/YYYY),Purchase Price <br> (cents/KWh),Annual <br> Historical <br> Usage (kWh)
+0921097083,193 E SENECA <br> ST SHOP,Niagara <br> Mohawk,SC3,C,$16.6 / \mathrm{N/A}$,$04 / 27 / 2021$,4.618,"$4,783,729$"
+1319937133,2140 COUNTY <br> ROUTE 1 ELEC,Niagara <br> Mohawk,SC3,C,$11.1 / \mathrm{N/A}$,$04 / 27 / 2021$,4.618,"$9,829,714$"
+6281338141,45 E 12TH ST,Niagara <br> Mohawk,SC3,C,$1.6 / \mathrm{N/A}$,$04 / 27 / 2021$,4.618,"$1,301,100$"
+6321338154,45 E 12TH ST,Niagara <br> Mohawk,SC3,C,$154.9 / \mathrm{N/A}$,$04 / 27 / 2021$,4.618,"948,587"

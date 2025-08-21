@@ -1,0 +1,10 @@
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Distribution Use of System (DUoS),,,,,,
+Capacity charge based on 400 KVA,01/11/2021,30/11/2021,30 days,2.69000 <br> p/kVp,STD,E322.80
+Fixed charge,01/11/2021,30/11/2021,30 days,20.39000 <br> p/day,STD,E6.12
+Reactive power charge,01/11/2021,30/11/2021,5103.0 kWh,0.21900 <br> p/kWh,STD,E10.97
+Consumption - energy @ meter,,,,,,
+*Amber charge,01/11/2021,30/11/2021,20352.5 kWh,3.96900 <br> p/kWh,STD,E217.87
+*Green charge,01/11/2021,30/11/2021,11338.0 kWh,0.68200 <br> p/kWh,STD,G94.65
+*Red charge,01/11/2021,30/11/2021,3415 KkWh,6.41700 <br> p/kWh,STD,E232.83
+*Refer to the appropriate distribution company DUoS charging Statement for the unit rate time bands.,,,,,,

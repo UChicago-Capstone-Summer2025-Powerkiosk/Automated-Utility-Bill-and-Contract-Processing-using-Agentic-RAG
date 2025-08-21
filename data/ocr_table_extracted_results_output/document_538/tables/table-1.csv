@@ -1,0 +1,15 @@
+,Choice Service ID <br> 910117724619Z109593271,
+Current Electric Usage,,
+Meter Number,Usage Type,Billing Period
+326438283,Actual,Jun 26 - Jul 26
+Usage Values,,
+Measured kWh,,"401,850.600 kWh"
+Billed kWh,,"401,850.600 kWh"
+Billed On Peak kWh,,"125,335.680 kWh"
+Billed Off Peak kWh,,"276,514.920 kWh"
+Actual kVA,,952.135 kVA
+Actual Demand-kW,,820.320 kW
+Billed Demand-kW,,856.922 kW
+Billed Demand-kW On Peak,,820.320 kW
+Billed Demand-kVA,,952.135 kVA
+Power Factor,,86.160 \%

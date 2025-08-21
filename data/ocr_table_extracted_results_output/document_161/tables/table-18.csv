@@ -1,0 +1,12 @@
+Network charges,,,,,,
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Distribution Use of System (DUs\$),,,,,,
+Capacity charge based on 500 kVA,01/11/2021,30/11/2021,30 days,"2,69000 p/kVA",STD,ES03.50
+Fixed Charge,01/11/2021,30/11/2021,30 days,"20,39000 p/kV",STD,ES.72
+Reactive power charge,01/11/2021,30/11/2021,2323.3 kWh,"0,21500 p/kVWh",STD,ES. 00
+Consumption - energy @ meter,,,,,,
+*Amber charge,01/11/2021,30/11/2021,82368.8 kWh,"1,06700 p/kWh",STD,ES80.30
+*Green charge,01/11/2021,30/11/2021,37760.8 kWh,"0,48200 p/kWh",STD,ES62.00
+*Red charge,01/11/2021,30/11/2021,16132.1 kWh,"6,81700 p/kWh",STD,ES.035.56
+*Refer to the appropriate distribution company RUs\$ charging Statement for the unit rate time bands.,,,,,,
+Total DUs\$ charge,,,,,ES.508.48,

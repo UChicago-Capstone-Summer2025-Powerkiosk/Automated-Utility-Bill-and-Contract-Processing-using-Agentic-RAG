@@ -1,0 +1,4 @@
+RTT Contract <br> Number,Product,Sell,Commodity,RTT Start Date,RTT End Date,Delivery <br> Point,Time Pattern,Holidays,Quantity,Qty UOM,Price ( $\$ /$ kWh),UDC Account Number
+583814.5204.0-1,Electric Fixed Price Percent Of Load,5,Energy,$12 / 14 / 2024$,$12 / 31 / 2025$,PPL,7x24,NERC <br> Holidays,100,PercentOfLoad,50.03737,1552082006
+583814.5204.0-1,Electric Fixed <br> Price Percent Of <br> Load,5,Energy,$12 / 14 / 2024$,$12 / 31 / 2025$,PPL,7x24,NERC <br> Holidays,100,PercentOfLoad,50.03737,2652082009
+583814.5204.0-1,Electric Fixed <br> Price Percent Of <br> Load,5,Energy,$12 / 14 / 2024$,$12 / 31 / 2025$,PPL,7x24,NERC <br> Holidays,100,PercentOfLoad,50.03737,8665252002

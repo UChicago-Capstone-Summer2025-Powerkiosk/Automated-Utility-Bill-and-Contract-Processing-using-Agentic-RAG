@@ -1,0 +1,4 @@
+Component Category,Is the Charge for the Component Included in Price or Excluded from Price?,"If Included in the Price, is the Charge subject to provisions below regarding Bilateral Component Adjustments?","If Excluded from the Price, how is the component category charged to Customer?"
+Capacity,Included,Yes,"A charge for capacity based on each Account's peak load contribution, the planning reserve margin requirement, the planning resource auction clearing price, and the number of days in the period."
+Network Integrated Transmission Service (NITS),Included,Yes,"A charge for NITS based on the total amount of each Account's applicable network load, applicable NITS price pursuant to the tariff, and the number of days in the period."
+Line Losses (as defined in the TOS) and any UFE,Included,No,Increase in Energy Usage to reflect estimated line losses.

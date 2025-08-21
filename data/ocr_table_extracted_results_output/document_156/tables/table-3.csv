@@ -1,0 +1,4 @@
+Meter Information,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier <br> $\mathbf{X}$,Usage
+$\begin{aligned} & 8 / 25- \\ & 9 / 23 \end{aligned}$,141822064,General Service,Total kWh,4394 Actual,4584 Actual,190,1,190
+$\begin{aligned} & 8 / 25- \\ & 9 / 23 \end{aligned}$,141822064,General Service,kW,52.53 Actual,55.41 Actual,2.88,1,2.88

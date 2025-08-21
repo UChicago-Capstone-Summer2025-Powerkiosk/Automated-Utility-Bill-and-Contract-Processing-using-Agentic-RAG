@@ -1,0 +1,17 @@
+Meter \# 309006358,Usage In
+"Actual reading Dec 28, 2022",1614
+"Less Actual reading Nov 29, 2022",1211
+Multiplier,80
+On-peak kWh In,"13,936"
+Off-peak kWh In,"18,305"
+Total kWh In,"32,241"
+Meter \# 309006358,Usage Out
+"Actual reading Dec 28, 2022",1053
+"Less Actual reading Nov 29, 2022",963
+Multiplier,80
+On-peak kWh Out,"4,224"
+Off-peak kWh Out,"2,933"
+Total kWh Out,"7,157"
+Net Usage,"25,084"
+On-peak,"9,712"
+Off-peak,"15,372"

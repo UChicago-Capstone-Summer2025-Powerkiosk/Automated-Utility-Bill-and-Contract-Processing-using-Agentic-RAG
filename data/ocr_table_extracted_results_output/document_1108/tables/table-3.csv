@@ -1,0 +1,11 @@
+NAME:,UOM:,DESCRIPTION:
+PLCa,kW,"ACTUAL PLC: This is the actual PLC from the utility scaled up by FPR, FZSF \& DZSF each day."
+CAP_RATEa,\$/VW-Day,ACTUAL RATE: This is the actual Capacity Auction Clearing Price plus the CTR Price (so essentially a net provided to billing).
+PLCp,kW,"PRICED PLC: This is the weighted average PLC for the term captured during pricing scaled up for FPR, FZSF \& DZSF known at that time."
+CAP_RATEp,\$/VW-Day,PRICED RATE: This is the forecast monthly weighted average net price of both the Capacity Clearing Price rate and the CTR rate captured during pricing.
+NSPLa,kW,ACTUAL NSPL: This is the actual NSPL from the utility scaled.
+NITS_RATEa,\$/VW-Day,ACTUAL RATE: This is the actual NITS monthly rate provided monthly to billing today.
+NSPLp,kW,PRICED NSPL: This is the weighted average NSPL for the term captured during pricing.
+NITS_RATEp,\$/VW-Day,PRICED RATE: This is the forecast monthly weighted average price for NITS captured during pricing and provided to billing during contracting.
+TEC_RATEa,\$/VW-Day,ACTUAL RATE: This is the actual TEC Price that billing uses today.
+TEC_RATEp,\$/VW-Day,PRICED RATE: This is the forecast monthly weighted average price for TEC captured during pricing and provided to billing during contracting.

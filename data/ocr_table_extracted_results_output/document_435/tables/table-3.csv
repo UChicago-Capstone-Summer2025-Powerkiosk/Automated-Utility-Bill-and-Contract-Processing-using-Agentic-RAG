@@ -1,0 +1,4 @@
+Meter <br> Number,Current <br> Read,Prior <br> Read,Multiplier,Total <br> kWh,Read <br> Type,Demand <br> kW
+011288202 Peak,020411,020105,300,"91,800",Actual,660.6
+011288202 Shoulder,017365,017106,300,"77,700",Actual,600.3
+011288202 Off Peak,022235,021898,300,"101,100",Actual,569.1

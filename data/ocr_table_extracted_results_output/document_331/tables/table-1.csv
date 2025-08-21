@@ -1,0 +1,25 @@
+Previous Balance,New Charges,Payments/Adj.,Due Amount,Due Date
+"$\$ 20,545.60$","$\$ 21,270.69$","- $\$ 20,545.60$","$\$ 21,270.69$",$02 / 13 / 17$
+200,,,,
+041,010,010,041,041
+012567,10208,137053,"262,498.14","100,498.20"
+Previous Balance.,,,,"$\$ 20,545.60$"
+Payments and Adjustments,,,,
+Payment on 01/12/17.,,,,"- $\$ 20,545.60$"
+Total Payments/Adjustments.,,,,"- $\$ 20,545.60$"
+Current Charges,,Qty,Rate,Amount
+Electric Service,,,,
+Electric Energy Charges.,,"262,458.14",0.04760,"$\$ 12,493.01$"
+TDU Delivery Charges.,,,,"$\$ 5,585.58$"
+Transmission Distribution Charges.,,,,"$\$ 1,277.17$"
+Applicable Taxes,,,,
+State Tax.,,,,"$\$ 1,154.36$"
+City Tax.,,,,$\$ 184.70$
+Gross Receipts Reimb.,,,,$\$ 361.03$
+Special Tax.,,,,$\$ 184.70$
+PUC Assessment.,,,,$\$ 30.14$
+Total Current Charges.,,,,"$\$ 21,270.69$"
+Total Amount Due.,,,,"$\$ 21,270.69$"
+Agreement Details,Usage kWh,Avg Rate,Amount,
+12/09/16 - 01/10/17 Fixed Rate,"262,458.14",0.04760,"$\$ 12,493.01$",
+The average price you paid for electricity this month is 7.48 per kWh . Contract valid through 06/09/2017.,,,,

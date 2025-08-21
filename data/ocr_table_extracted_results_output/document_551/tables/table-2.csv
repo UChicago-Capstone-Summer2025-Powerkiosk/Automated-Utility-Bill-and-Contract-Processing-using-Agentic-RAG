@@ -1,0 +1,9 @@
+,,,Contract Quantity:,,Contract Price - USD,,,
+Delivery <br> Period,Delivery <br> Point,Pipeline,Tier,Volume UOM,Fixed <br> Price,Index,Index Price,$\begin{aligned} & \text { Index } \\ & \text { Pct\% } \end{aligned}$
+05/01/25 - 05/31/25,Baptist Memorial,Atmos TN - TGT,,"2,897 MHBTU/ <br> Month",,NYMEX,NYMEX,100.00
+06/01/25 - 06/30/25,Baptist Memorial,Atmos TN - TGT,,1 MHBTU/ <br> Month,,NYMEX,NYMEX,100.00
+FEE DETAILS,,,,,,,,
+Start / <br> End Date,Pay / <br> Rec,Frequency,Fee <br> Description,Fee - USD,Calc <br> Type,,,
+07/01/23 - 06/30/25,,Monthly,Transport Fuel,See Specials,Per Unit,,,
+07/01/23 - 06/30/25,,Monthly,Transport Cost,0.5500,Per Unit,,,
+07/01/23 - 06/30/25,Rec,Monthly,Transport L \& U,See Specials,Per Unit,,,

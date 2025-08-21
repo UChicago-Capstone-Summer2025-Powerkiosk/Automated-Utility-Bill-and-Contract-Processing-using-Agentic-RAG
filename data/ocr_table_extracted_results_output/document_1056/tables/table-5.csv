@@ -1,0 +1,3 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / <br> Trans- <br> mission <br> Tags,"""Estimated <br> Meter <br> Read Start <br> Date <br> (MM/DD/YYYY)",Purchase <br> Price <br> (cents/kWh),Annual <br> Historical <br> Usage <br> (kWh)
+6535848023,219 LITTLETON RD <br> (Empire South <br> Hospitality),Massachusetts <br> Electric <br> Company - <br> National Grid,G3,WCMAS5,$482.3 /$ <br> N/A,$04 / 22 / 2019$,9.260,"2,596,566"
+2797685013,"219 LITTLETON RD <br> POLE 92 <br> (EMPIRE REGENCY <br> HOSPITALITY, LLC)",Massachusetts <br> Electric <br> Company - <br> National Grid,G1,WCMAS5,$6.2 / \mathrm{N} / \mathrm{A}$,$04 / 23 / 2019$,9.260,"27,500"

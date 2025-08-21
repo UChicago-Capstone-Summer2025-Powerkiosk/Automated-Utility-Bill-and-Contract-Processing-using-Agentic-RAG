@@ -1,0 +1,93 @@
+{{table_data: table-0.csv}}
+
+A Program of the New York Power Authority
+123 Main Street
+White Plains, NY 10601
+
+## API Heat Transfer, Inc.
+
+2777 Walden Avenue
+Buffalo, NY 14225
+
+Attn: Accounts Payable
+
+## Billing Contact: Latoya Hadley
+
+If you have any questions call: 914-390-8259
+or 1-800-269-6972, then 718-8259.
+latoya.hadley@nypa.gov
+
+{{table_data: table-1.csv}}
+
+
+{{table_data: table-2.csv}}
+
+
+{{table_data: table-3.csv}}
+
+# Special Notes: 
+
+"PAYMENT OF BILLS BY THE CUSTOMER SHALL BE DUE AND PAYABLE BY THE CUSTOMER WITHIN TWENTY (20) DAYS OF THE DATE THE AUTHORITY RENDERS THE BILL IF PAYMENT IS NOT RECEIVED BY THE DATE INDICATED, A LATE FEE OF 2\% WILL BE ASSESSED IN THE SUBSEQUENT BILL AND 1.5\% FOR EVERY MONTH THEREAFTER."
+
+Preferred Payment Method: The easiest way to pay is online at https://account.nypa.gov/billing Remittance payable to the "NEW YORK POWER AUTHORITY". Please indicate your Contract Account number.
+
+## Wire and ACH funds to:
+
+J.P. Morgan Chase Bank
+ABA \# 021000021
+NEW YORK POWER REVENUE FUND
+Account \# 008-030383
+
+Regular Mail:
+New York Power Authority
+Department 116048
+PO Box 5211
+Binghamton, NY 13902-5211
+
+## Overnight Mail:
+
+J.P. Morgan
+
+Attn: NY Power Authority Box 116048
+33 Lewis Road
+Binghamton, NY 13905
+
+Please return this bottom portion with your payment and keep the top portion for your records.
+
+## Payment Summary
+
+New York Power Authority
+Department 116048
+PO Box 5211
+Binghamton, NY 13902-5211
+
+## API Heat Transfer, Inc.
+
+2777 Walden Avenue
+Buffalo, NY 14225
+
+{{table_data: table-4.csv}}
+
+{{table_data: table-5.csv}}
+
+# NEW YORK POWER AUTHORITY <br> Billing and Adjustment Statement 
+
+API Heat Transfer, Inc.
+
+{{table_data: table-6.csv}}
+
+Power Summary: August 2022
+
+## Description
+
+Demand (KW)
+0852518104
+
+Energy (KWH)
+0852518104
+
+## Delivered
+
+70
+
+29,298

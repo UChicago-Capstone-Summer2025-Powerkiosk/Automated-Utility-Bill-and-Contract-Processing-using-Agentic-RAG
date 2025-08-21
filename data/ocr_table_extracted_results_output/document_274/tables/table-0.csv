@@ -1,0 +1,13 @@
+Svc Add: 1567 BERLIN TPKE BERLIN ET 06057,,,,,
+Serv Ref: 335512005,,,Bill Cycle: 69,,
+Service from 11/08/23 - 12/12/23,,,33 Days,,
+"Next read date on or about: Jan 12, 2024",,,,,
+Meter <br> Number,Current <br> Read,Previous <br> Read,Current <br> Usage,,Reading <br> Type
+892916042,5333,5276,57,,Actual
+Total Demand Use $=24.20 \mathrm{~kW}$,,,,,
+"57 X Meter Constant of $80=4,560$ Billed Usage",,,,,
+Monthly kWh Use,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+2400,5040,3200,3200,3120,2160,2080
+Jul,Aug,Sep,Oct,Nov,Dec,
+1600,2080,3200,3200,2800,4560,

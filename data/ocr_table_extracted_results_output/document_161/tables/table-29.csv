@@ -1,0 +1,10 @@
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Distribution Use of System (DUsS),,,,,,
+Capacity charge based on 700 kVA,01/11/2021,30/11/2021,30 days,"2,69000 pAVV",STD,£564.90
+Fixed charge,01/11/2021,30/11/2021,30 days,"20,39000 pV69",STD,£6.32
+Reactive power charge,01/11/2021,30/11/2021,3.6 kVAth,0.21500 <br> pAVWh,STD,£0.03
+Consumption - energy @ meter,,,,,,
+*Amber charge,01/11/2021,30/11/2021,79103.2 kWh,"3,06900 <br> pVWh",STD,£845.60
+Crown charge,01/11/2021,30/11/2021,45625.8 kWh,0.48200 <br> pVWh,STD,£219.92
+*Red charge,01/11/2021,30/11/2021,13703.9 kWh,"4,81700 <br> pVWh",STD,£934.19
+*Refer to the appropriate distribution company (DUs) charging Statement for the unit rate time basis.,,,,,,

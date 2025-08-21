@@ -1,0 +1,13 @@
+Payment Details,,,,
+Payment Received,"DATE <br> August 21, 2017","AMOUNT DATE <br> \$15.79 August 30, 2017",AMOUNT <br> \$273.76,
+Electric Service Non-Residential Billing Detail Rate Zone III,,,09/15/2017 09/14/2017 (30 days),
+Electric Meter Read for 08/15/2017 - 09/14/2017 (30 days),,,,
+READ TYPE <br> Total kWh,METER NUMBER CURRENT METER READ PREVIOUS METER READ <br> 72319878 57.0000 Actual,,READ DIFFERENCE <br> 20.0000 Actual,$\begin{gathered} \text { MULTIPLIER } \\ 37.0000 \end{gathered}$,$\begin{gathered} \text { USAGE } \\ 80.0000 \end{gathered}$
+Usage Summary <br> Total kWh,2960.0000,Summer kWh,,2960.0000
+Smart Meter,,,,
+Electric Delivery <br> Ameren Illinois <br> OS-2 Small General Delivery Service,CHARGE DESCRIPTION <br> Customer Charge <br> Meter Charge <br> Distribution Delivery Charge Summer,"USAGE UNIT <br> 2,960.00 kWh",RATE <br> @ $\$ 0.04080000$ <br> Electric Delivery,CHARGE <br> \$35.80 <br> \$7.79 <br> \$120.77
+,,,Electric Delivery,\$184.38
+Electric Supply <br> Ameren Illinois <br> BGS-2 Basic Generation <br> Service,Purchased Electric Summer <br> Purchased Electricity Adjustment <br> Supply Cost Adjustment <br> Transmission Service Charge,"2,960.00 kWh <br> 2,960.00 kWh <br> 2,960.00 kWh",@ $\$ 0.05208000$ <br> @ $\$ 0.00330865$ <br> @ $\$ 0.00074000$ <br> @ $\$ 0.00899000$ <br> Electric Supply,\$154.16 <br> \$ $\$ 9.79$ <br> \$2.19 <br> \$26.61 <br> \$173.17
+Taxes and Other Fees,Clean Energy Assistance Charge <br> Renewable Energy Adjustment <br> EDT Cost Recovery <br> Electric Environmental Adjustment <br> Centralia-Marion Co Municipal Tax <br> Illinois State Electricity Excise Tax,"2,960.00 kWh <br> 2,960.00 kWh <br> 2,960.00 kWh <br> 2,960.00 kWh",@ $\$ 0.00178000$ <br> @ $\$ 0.00196000$ <br> @ $\$ 0.00125610$ <br> @ $\$ 0.00184030$,\$5.27 <br> \$5.80 <br> \$3.72 <br> \$5.45 <br> \$14.09 <br> \$9.66
+,,,Total Tax Related Fees,\$43.99
+,,Total Electric Charges,,\$381.52

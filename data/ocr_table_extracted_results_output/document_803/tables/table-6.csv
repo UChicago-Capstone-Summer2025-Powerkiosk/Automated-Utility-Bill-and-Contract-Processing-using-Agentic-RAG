@@ -1,0 +1,8 @@
+,CHARGE DESCRIPTION,USAGE UNIT,RATE,CHARGE
+Electric Delivery,Customer Charge,,,\$125.96
+Ameren Illinois,Meter Charge,,,\$11.19
+DS-3 General Delivery,Distribution Delivery kW Charge,198.70 kW,$\$ 7.62400000$,"\$1,514.89"
+Service $<400 \mathrm{~kW}$,,,Electric Delivery,"\$1,852.04"
+Electric Supply,Total Energy Charge (\$/kWh),"37,749.00 kWh",\$ 0.07850000,"\$2,963.30"
+Ambit Energy,,,,
+Ambit Rate,,,Electric Supply,"\$2,963.30"

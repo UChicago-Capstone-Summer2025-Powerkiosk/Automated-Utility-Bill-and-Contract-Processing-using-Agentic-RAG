@@ -1,0 +1,12 @@
+,CHARGE DESCRIPTION,,,USAGE,UNIT,RATE,CHARGE
+Electric Delivery,Customer Charge,,,,,,\$35.80
+Ameren Illinois,Meter Charge,,,,,,
+DS-2 Small General Delivery,Distribution Delivery Charge Summer,,,"34,322.00 kWh",@ \$ 0.04080000,,"\$1,400.34"
+Service,,,,,Electric Delivery,,"\$1,443.93"
+Taxes and Other Fees,Clean Energy Assistance Charge,,"34,322.00 kWh",,\$ 0.00178000,,\$61.09
+,Renewable Energy Adjustment,,"34,322.00 kWh",,\$ 0.00098000,,\$33.64
+,EDT Cost Recovery,,"34,322.00 kWh",,\$ 0.00125610,,\$43.11
+,Electric Environmental Adjustment,,"34,322.00 kWh",,\$ 0.00224580,,\$77.08
+,Edwardsville Municipal Tax,,,,,,\$90.69
+,Illinois State Electricity Excise Tax,,,,,,\$109.71
+,,,,Total Tax Related Fees,,\$415.32,

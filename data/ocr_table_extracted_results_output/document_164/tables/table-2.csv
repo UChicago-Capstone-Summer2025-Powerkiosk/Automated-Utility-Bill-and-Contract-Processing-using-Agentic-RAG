@@ -1,0 +1,16 @@
+Acronym/Term,Meaning
+MPAN,Meter Point Administration Number - a 13 digit unique reference for your supply point.
+SSC,Standard Settlement Configuration - for meters that do not take half hourly measurements of consumption this is a 4 digit code that represents the periods of use that your meter is capable of measuring. This will not be displayed for half hourly meters.
+Site,A geographic location in the United Kingdom.
+Price Group,"A grouping of the supplies for which you are being provided a quotation based on their sharing the same pricing template, rate structure and energy content."
+Offered Rates,These are the rates that are being offered to you.
+Passed Through Charges,"These are rates that we are either directly charged for your supply (e.g. Distribution costs) or are charged on billed values (e.g. CCL and VAT). These charges will be passed onto you and charged in addition to the ""Offered Rates""."
+Est Reconciled PT Charges,"Estimated Reconciled Passed-Through Charges - these are Pass-Through charges for which the amount is not known until after the event e.g. TNUoS TRIAD rates. We will charge an estimated amount, based on your forecast usage, up until the actual amount is known and at this point a reconciliation will be performed. The difference between the estimated charges that have been charged up until this point and the actual amount due is calculated by the reconciliation and is then included on your next bill."
+Estimated Annual Cons (kWh),An estimate of the amount of electricity that will be used over the next annual period. The value is expressed in kWh and it is based on this prediction of your use that this quote has been provided. If you believe the value displayed is not an accurate estimation of your predicted use please let us know.
+Contract Period Cons (kWh),The estimated total consumption over the contract term for an individual supply point on the basis of which the offered rates have been calculated.
+Est Max Demand (kW),An estimation of the maximum demand that will be applicable for a supply.
+Load Factor (\%),A ratio of the average load on the supply point divided by the peak load.
+ASC (kVA),Available Supply Capacity. The amount of electricity that the Distribution Network Operator (DNO) makes available for use through your supply.
+Metering Point,The term Metering Point relates to the electricity usage at your meter point. Due to losses over the transmission and distribution networks the energy actually used at a meter point is less than the total energy that needs to be generated in order to supply it to you.
+Grid Supply Point,The term Grid Supply Point relates to the volume of electricity that needs to be delivered to the grid supply point in order to then be distributed to your supply to provide the metering point consumption. The Grid Supply Point consumption is the sum of the Metering Point consumption and distribution losses.
+Notional Balancing Point,"The term Notional Balancing Point relates to the volume of electricity that needs to be generated in order to transmit and distribute the electricity to supply and provide the Metering Point consumption. The Notional Balancing Point consumption is the sum of the Metering Point consumption, distribution losses and transmission losses."

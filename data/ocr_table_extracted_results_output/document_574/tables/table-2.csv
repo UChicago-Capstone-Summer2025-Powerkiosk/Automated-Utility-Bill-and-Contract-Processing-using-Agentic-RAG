@@ -1,0 +1,6 @@
+Read <br> Dates,Meter <br> Number,Load Type,Reading <br> Type,Meter Reading,,,Multiplier,Total <br> Usage
+,,,,Previous,Present,Difference,,
+06/24-07/26,017115024,General Service,Pk kW,Actual,Actual,766.08,,766.08
+06/24-07/26,017115024,General Service,Tot kWh,Actual,Actual,"444,995",,"444,995"
+06/24-07/26,017115024,General Service,GS Off Pk kW,Actual,Actual,731.52,,731.52
+06/24-07/26,017115024,General Service,On Pk Kw,Actual,Actual,766.08,,766.08

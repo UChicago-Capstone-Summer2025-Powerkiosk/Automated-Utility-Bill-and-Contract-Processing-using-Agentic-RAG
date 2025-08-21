@@ -1,0 +1,18 @@
+,CHARGE DESCRIPTION,,,USAGE,UNIT,,RATE,,CHARGE
+Electric Delivery,Customer Charge,,,,,,,,\$65.41
+Ameren Illinois,Meter Charge,,,,,,,,\$9.84
+DS-3 General Delivery,Distribution Delivery kW Charge,,256.30 kW,,@,$\$ 6.16700000$,,"\$1,580.60",
+Service $<400 \mathrm{~kW}$,Transformation Charge,,362.80 kW,,@,$\$ 0.59000000$,,\$214.05,
+,Electric Environmental Adjustment,,"91,265.00 kWh",,@,$\$ 0.00059520$,,\$64.32,
+,Energy Efficiency Demand Response,,"91,265.00 kWh",,@,$\$ 0.00176000$,,\$160.63,
+,,,,,Electric Delivery,,,"\$2,084.85",
+Electric Supply,SUPPLIER ENERGY CHARGES,,"91,264.00 kWh",,@,$\$ 0.05980000$,,"\$4,618.00",
+,,,,,Electric Supply,,,"\$4,618.00",
+Taxes and Other Fees,,,,,,,,\$284.75,
+,,,,,,,,\$118.76,
+,,,,,Total Tax Related Fees,,,\$403.53,
+,,,,,Total Electric Charges,,,"\$7,108.38",
+(3),Details From Your Electric Supplier,,,,,,,,
+AEP Energy,www.AEPenergy.com,,,,,,,,
+866.258.3782,866.258.3782,,,,,,,,
+Refer to supply contract for details.,,,,,,,,,

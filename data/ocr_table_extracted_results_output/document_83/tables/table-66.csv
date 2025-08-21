@@ -1,0 +1,9 @@
+Read <br> Dates,,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $X$,Usage
+8/3- <br> 8/1,,230167688,General Service,Total kWh,Actual,Actual,,,12
+8/3- <br> 8/1,,230167688,General Service,On Pt kW,Actual,Actual,,,0.02
+8/3- <br> 8/1,,230167689,General Service,Total kWh,Actual,Actual,,,12
+8/3- <br> 8/1,,230167689,General Service,On Pt kW,Actual,Actual,,,0.02
+8/3- <br> 8/1,,230201710,General Service,Total kWh,Actual,Actual,,,30623
+8/3- <br> 9/1,,230201710,General Service,On Pt kW,Actual,Actual,,,48.65
+8/3- <br> 9/1,,230201711,General Service,Total kWh,Actual,Actual,,,267487
+8/3- <br> 9/1,,230201711,General Service,On Pt kW,Actual,Actual,,,554.16

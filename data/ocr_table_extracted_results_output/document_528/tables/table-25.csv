@@ -1,0 +1,20 @@
+Smart Meter,,,,
+Electric Delivery,CHARGE DESCRIPTION,,USAGE UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,\$10.50
+DS-2 Small General Delivery Service,,Meter Charge,"13,440.00 kWh",8 \$ 0.05190000,\$897.54
+,,,,Electric Delivery,\$723.07
+Electric Supply,Purchased Electric Summer,,"13,440.00 kWh",8 \$ 0.10508000,"\$1,412.28"
+Ameren Illinois,Purchased Electricity Adjustment,,"13,440.00 kWh",8 \$ 0.00046700,$\$ 4.29$
+BGS-2 Basic Generation,Supply Cost Adjustment,,"13,440.00 kWh",8 \$ 0.00084000,\$11.30
+Service,Transmission Service Charge,,"13,440.00 kWh",8 \$ 0.01578000,\$212.08
+,,,,Electric Supply,"\$1,629.38"
+State and Local Taxes and Other Mandated Charges,Customer Generation Charge,,,,\$0.32
+,Clean Energy Assistance Charge,"13,440.00 kWh",8 \$ 0.00177000,,\$22.29
+,Renewable Energy Adjustment*,"13,440.00 kWh",8 \$ 0.00458000,,\$01.55
+,EDT Cost Recovery,"13,440.00 kWh",8 \$ 0.00124840,,\$10.78
+,Electric Environmental Adjustment,"13,440.00 kWh",8 \$ 0.00143390,,\$15.22
+,Energy Efficiency Programs Charge,"13,440.00 kWh",8 \$ 0.00380000,,\$42.37
+,Energy Transition Assistance Charge*,"13,440.00 kWh",8 \$ 0.00072030,,\$1.63
+,Galestung Municipal Tax,,,,\$50.25
+,Illinois State Electricity Excise Tax,,,,\$43.65
+,,,,Total Taxes and Other Charges,\$282.57

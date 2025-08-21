@@ -1,0 +1,11 @@
+Type of Service,Current Reading,Previous Reading,$\checkmark$,Difference,$\begin{aligned} & \text { Miter } \\ & \text { Multiplier } \end{aligned}$,$\checkmark$,Total Usage
+Energy,33918,Actual,33767,Actual,151,1000,151000 kWh
+Peak,13714,Actual,13650,Actual,64,1000,64000 kWh
+Off Peak,20204,Actual,20117,Actual,87,1000,67000 kWh
+,,,,,,Total Energy,151000 kWh
+Demand-kW,,,,,,,
+Peak,,,,,,1000,330.0 kW
+Off Peak,,,,,,1000,320.0 kW
+Demand-kVA,,,,,,,
+Peak,,,,,,1000,370.0 kVA
+Off Peak,,,,,,1000,380.0 kVA

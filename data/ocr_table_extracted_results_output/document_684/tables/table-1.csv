@@ -1,0 +1,5 @@
+Account Number,Service Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity / Transmission Tags,"""Estimated Meter Read Start Date (MM/DD/YYYY)",Purchase Price (cents/KWh),Annual Historical Usage (kWh)
+PE000012218916065833,9 Avenue at Port Imperial Boulevard South 1,PSEG,LPLS,PSEG,$96.9 / 79.5$,11/02/2021,4.806,"714,622"
+PE000012218919465833,9 Avenue at Port Imperial Boulevard South 2,PSEG,LPLS,PSEG,$321.6 / 260.6$,11/02/2021,4.806,"1,599,913"
+PE000012218920265833,9 Avenue at Port Imperial Boulevard North 1,PSEG,LPLS,PSEG,$124.3 / 117.7$,11/02/2021,4.806,"365,668"
+PE000012218932765833,9 Avenue at Port Imperial Boulevard North 2,PSEG,LPLS,PSEG,$354.1 / 328.7$,11/02/2021,4.806,"1,015,257"

@@ -1,0 +1,3 @@
+Meter point reference,Meter number,Reading date,Reading this time,Reading last time,Units Used,Correction Factor,Adjusted Units,Adjusted units in cubic metres,Calorific Value,kWh
+,,$\begin{aligned} & \text { G.- Customer reading } \mathrm{E} \text { - Estimated reading } \\ & \text { B - Removed reading } \\ & \text { No code - Company reading } \end{aligned}$,,,,,,,,
+8932157809,M0160A024402D7,01/10/21,2384893E,2380080,4813.00,1.058432,5094.23,5094.23,39.4000,55753.51

@@ -1,0 +1,25 @@
+Supply Charge,"278,718 kWh $\times \$ 0.131900$","$\$ 36,762.90$"
+Subtotal Supply,,"\$36,762.98"
+Transmission:,,
+Transmission Peak,"94,554 kWh $\times \$ 0.000000$",$\$ 0.00$
+Transmission Shoulder,"80,031 kWh $\times \$ 0.000000$",$\$ 0.00$
+Transmission Off-Peak,"104,133 kWh $\times \$ 0.000000$",$\$ 0.00$
+Transmission Peak,660.6 kW $\times \$ 13.770000$,"$\$ 9,096.46$"
+Transmission Shoulder,0.0 kW $\times \$ 0.000000$,$\$ 0.00$
+Transmission Off-Peak,0.0 kW $\times \$ 0.000000$,$\$ 0.00$
+Subtotal Transmission,,"\$9,896.46"
+Local Delivery:,,
+Fixed Monthly Charge,,$\$ 345.49$
+Distribution Peak,660.6 kW $\times \$ 11.490000$,"$\$ 7,590.29$"
+Distribution Shoulder,0.0 kW $\times \$ 11.490000$,$\$ 0.00$
+Distribution Off-Peak,0.0 kW $\times \$ 11.490000$,$\$ 0.00$
+Distribution Peak,"94,554 kWh $\times \$ 0.000000$",$\$ 0.00$
+Distribution Shoulder,"80,031 kWh $\times \$ 0.000000$",$\$ 0.00$
+Distribution Off-Peak,"104,133 kWh $\times \$ 0.000000$",$\$ 0.00$
+Revenue Decoupling,"278,718 kWh $\times \$ 0.000405$",$\$ 112.87$
+Subtotal Local Delivery,,"\$8,848.65"
+Public Benefits:,,
+Energy Assistance Costs,"278,718 kWh $\times \$ 0.009221$","$\$ 2,570.06$"
+Energy Efficiency Programs,"278,718 kWh $\times \$ 0.006000$","$\$ 1,672.31$"
+Renewable Energy Investment,"278,718 kWh $\times \$ 0.001000$",$\$ 278.72$
+New England Grid Operator Cost Peak,"94,554 kWh $\times \$ 0.000000$",$\$ 0.00$

@@ -1,0 +1,12 @@
+Network charges,,,,,,
+Charge description,Start,End,Quantity,Price,VAT rate,Net total
+Distribution Use of System (DUoS),,,,,,
+Capacity charge based on 2000 kVA,01/12/2021,31/12/2021,31 days,$\begin{aligned} & 11.11000 \\ & \text { p/kVa } \end{aligned}$,STD,"£6,888.20"
+Fixed Charge,01/12/2021,31/12/2021,31 days,$\begin{aligned} & 307.69000 \\ & \text { p/day } \end{aligned}$,STD,£95.38
+Reactive power charge,01/12/2021,31/12/2021,404.4 kVA/h,$\begin{aligned} & 0.08900 \\ & \text { p/kVA/h } \end{aligned}$,STD,£0.36
+Consumption - energy @ meter,,,,,,
+*Amber charge,01/12/2021,31/12/2021,$\begin{aligned} & 148339.9 \\ & \text { kWh } \end{aligned}$,$\begin{aligned} & 1.74100 \\ & \text { p/kWh } \end{aligned}$,STD,"£2,582.60"
+*Green charge,01/12/2021,31/12/2021,$\begin{aligned} & 118663.8 \\ & \text { kWh } \end{aligned}$,$\begin{aligned} & 1.51800 \\ & \text { p/kWh } \end{aligned}$,STD,"£1,801.32"
+*Red charge,01/12/2021,31/12/2021,25670.6 kWh,4.08700 <br> p/kWh,STD,"£1,049.16"
+*Refer to the appropriate distribution company DUoS charging Statement for the unit rate time bands,,,,,,
+Total DUoS charge,,,,,"£12,417.02",

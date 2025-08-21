@@ -1,0 +1,5 @@
+Meter,Read Date,Type,Role,Demand (kW) ${ }^{(2)}$,Period,Previous <br> Measure,Current <br> Measure,Difference,Multiplier ${ }^{(1)}$,Usage <br> (kWh)
+230118974,06/05,Delivery <br> Service,Additive,64.34,Total,0.00,0.00,0.00,$\times$,1,"15,665.13",Total
+,,,,,Off Peak,N/A,N/A,N/A,$\times$,1,N/A,Off Peak
+230159429,06/05,Delivery <br> Service,Additive,96.70,Total,0.00,0.00,0.00,$\times$,1,"17,825.77",Total
+,,,,,Off Peak,N/A,N/A,N/A,$\times$,1,N/A,Off Peak

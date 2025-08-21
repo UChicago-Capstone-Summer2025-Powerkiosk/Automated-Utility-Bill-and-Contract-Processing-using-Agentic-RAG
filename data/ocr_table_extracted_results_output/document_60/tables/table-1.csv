@@ -1,0 +1,5 @@
+Meter information,,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier,Usage
+$\begin{gathered} 12 / 15- \\ 1 / 19 \end{gathered}$,230127373,Primary Voltage,Total kWh,Actual,Actual,,,1130362
+$\begin{gathered} 12 / 15- \\ 1 / 19 \end{gathered}$,230127373,Primary Voltage,On Pk kW,Actual,Actual,,,2116.80
+Service from 12/15/2023 to 1/19/2024 - 35 Days,,,,,,Primary Voltage Hourly - 1000kW-10MW,,

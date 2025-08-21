@@ -1,0 +1,12 @@
+Read <br> Dates,Meter Number,Load Type,Reading <br> Type,Meter Reading,,,Multiplier,Total <br> Usage
+,,,,Previous,Present,Difference,,
+08/25-09/26,019194505,General Service,Power Factor,Actual,Actual,0.983,,0.983
+08/25-09/26,019194505,General Service,P\& kW,Actual,Actual,0.1470,"3,600",529.20
+08/25-09/26,019194505,General Service,Tot kWh,Actual,Actual,80.2340,"3,600","288,842"
+08/25-09/26,019194505,General Service,CS Off P\& kW,Actual,Actual,0.1420,"3,600",511.20
+08/25-09/26,019194505,General Service,On P\& Kw,Actual,Actual,0.1470,"3,600",529.20
+08/25-09/26,022020107,General Service,Power Factor,Actual,Actual,0.983,,0.983
+08/25-09/26,022020107,General Service,P\& kW,Actual,Actual,0.0310,"3,600",111.60
+08/25-09/26,022020107,General Service,Tot kWh,Actual,Actual,18.5310,"3,600","66,712"
+08/25-09/26,022020107,General Service,CS Off P\& kW,Actual,Actual,0.0300,"3,600",108.00
+08/25-09/26,022020107,General Service,On P\& Kw,Actual,Actual,0.0310,"3,600",111.60

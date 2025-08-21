@@ -1,0 +1,18 @@
+NATIONAL GAS ADJUSTMENTS,,,
+DEDICATION,VALUE UNITS,CONVERSION,VALUE UNITS
+Therm Multiplier,478 ccf,$\times 0.970772$,464 therms
+NATURAL GAS CHARGES,RATE: CSG Commercial,,
+DESCRIPTION,USAGE UNITS,RATE,CHARGE
+Service \& Facility,,,\$49.44
+Usage Charge,464 therms,$\$ 0.250770$,\$116.36
+Interstate Pipeline,464 therms,$\$ 0.051400$,\$23.85
+DSMCA,,,\$3.28
+Natural Gas 4 Qtr,464 therms,\$0.414600,\$192.37
+GRSA-P,,,- \$1.95 CR
+EGCRR,464 therms,\$0.072210,\$33.51
+GRSA,,,\$0.04
+Energy Assistance Chg,,,\$0.79
+Subtotal,,,\$417.69
+Franchise Fee,,$3.00 \%$,\$12.51
+Sales Tax,,,\$32.20
+Total,,,\$462.48

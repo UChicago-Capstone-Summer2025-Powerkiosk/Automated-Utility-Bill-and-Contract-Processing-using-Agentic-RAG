@@ -1,0 +1,18 @@
+Meter information,,,,,,,,
+Read Dates,Meter <br> Number,Load <br> Type,Reading Type,Previous,Meter Reading Present,Difference,Multiplier,Usage
+7:30: <br> 8:30,230102485,General Service,Total kWh,Actual,Actual,,,48
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230102485,General Service,On Pk kW,Actual,Actual,,,0.07
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230134314,General Service,Total kWh,Actual,Actual,,,36457
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230134314,General Service,On Pk kW,Actual,Actual,,,49.68
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138410,General Service,Total kWh,Actual,Actual,,,89926
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138410,General Service,On Pk kW,Actual,Actual,,,167.38
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138411,General Service,Total kWh,Actual,Actual,,,100812
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138411,General Service,On Pk kW,Actual,Actual,,,192.24
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138412,General Service,Total kWh,Actual,Actual,,,4280
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138412,General Service,On Pk kW,Actual,Actual,,,7.14
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138413,General Service,Total kWh,Actual,Actual,,,26132
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230138413,General Service,On Pk kW,Actual,Actual,,,35.28
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230158955,General Service,Total kWh,Actual,Actual,,,14
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230158955,General Service,On Pk kW,Actual,Actual,,,0.02
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230158957,General Service,Total kWh,Actual,Actual,,,43
+$\begin{aligned} & 7:30- \\ & 8:30 \end{aligned}$,230158957,General Service,On Pk kW,Actual,Actual,,,0.06

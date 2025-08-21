@@ -1,0 +1,25 @@
+Svc Add: 139 PATTERSON WAY BLLIN HIBRISHOUL NERSINGTON CT 06037,,,,,
+Serv Ref: 440443004,,,,Bill Cycle: 13 32 Days,
+Service from 11/16/23 - 12/18/23,,,,,
+"Next road date on or about: Jan 19, 2024",,,,,
+Meter <br> Number,Current <br> Read,Previous Read,Current Usage,Reading Type,
+081241701,3401,3325,76,On Peak,
+081241701,7348,7161,187,Off Peak,
+Cust provided ID: BERLIN HIGH SCHOOL,,,,,
+Total Demand Use $=383.80 \mathrm{~kW}$,,,,,
+76 X Meter Constant of $720=54720$ Billed Usage,,,,,
+187 X Meter Constant of $720=134640$ Billed Usage,,,,,
+Max Off-Peak Demand: 383.8 kW,,,,,
+Max On-Peak Demand: 370.1 kW,,,,,
+Max Off-Peak Demand: 397.4 kVA,,,,,
+Max On-Peak Demand: 383 kVA,,,,,
+Monthly kWh Use - On Peak,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+54720,56880,51120,52560,53280,55440,68400
+Jul,Aug,Sep,Oct,Nov,Dec,
+75600,72720,81360,67680,58320,54720,
+Monthly kWh Use - Off Peak,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+131040,133920,126720,123120,135360,123840,154800
+Jul,Aug,Sep,Oct,Nov,Dec,
+163440,156240,187200,149040,131760,134640,

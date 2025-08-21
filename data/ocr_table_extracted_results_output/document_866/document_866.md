@@ -1,0 +1,10 @@
+{{table_data: table-0.csv}}
+
+# WEST HAVEN HSG AUTHORI PROPERTY MANAGER 25 GLADE ST B WEST HAVEN CT 06516 
+
+Please make your check payable to:
+SCG
+Please Indicate Amount Paid
+
+Please mail payment to:
+$\mathbf{I I I}_{\mathrm{I}} / \mid \mid \mathrm{I} \mid \mathrm{I} \mid \mathrm{I} \mid \mathrm{I} / \mathrm{I} \mid \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} / \mathrm{I} /

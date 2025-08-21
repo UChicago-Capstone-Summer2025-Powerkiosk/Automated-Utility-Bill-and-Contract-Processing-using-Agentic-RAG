@@ -1,0 +1,12 @@
+Service Period,No. of <br> days,Current <br> Reading,Previous <br> Reading,Measured <br> COP,$\times$,Therm <br> Factor,$=$,Therm <br> Used
+Jan 22 - Feb 20,29,94656,Actual,92856,Actual,1800,1.03233,1858
+METER NUMBER,04888440,NEST SCHEDULED,BEAD DATE,ON OR ABOUT,Mar 22,,,
+RATE,Rate 257,Gas Non Resid,General Use,Delivery,,,,
+Basic Service Charge (including first 2.9 therms),,,,,,,36.40,
+Next 84.1 Therms,,,1.7282,$\times$,84.1 therms,,145.34,
+Over/Last 1771 Therms,,,0.3553,$\times$,1771 therms,,629.24,
+System Benefits Charge,,,0.00677,$\times$,1858 therms,,12.58,
+Delivery Rate Adj,,,$-0.02849$,$\times$,1858 therms,,$-52.95$,
+Transp Adj Chg,,,$-0.004778$,$\times$,1858 therms,,$-8.89$,
+NY State and Local Surcharges,,,,,,,1.01,
+Total Delivery Services,,,,,,,$\$ 762.73$,

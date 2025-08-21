@@ -1,0 +1,11 @@
+Service Period,No. of days,Current <br> Reading,Previous <br> Reading,$\checkmark$,Measured <br> CCF,$\times$,$\begin{aligned} & \text { Therm } \\ & \text { Factor } \end{aligned}$,$\checkmark$,$\begin{aligned} & \text { Therm } \\ & \text { Used } \end{aligned}$
+Feb 8 - Mar 11,31,424,Actual,353,Actual,71,1.03189,,73,
+METER NUMBER,06600725,HEXT SCHEDULED,READ DATE,OR,ADOUT,Apr 10,,,,
+RATE,Rate 177 Gas Non Resid He,,,,,,,,,
+Basic Service Charge (including first 3.1 therms),,,,,,,,,,38.92
+Over/Last 69.9 Therms,$1.7716 \times 69.9$,,,,,,,,,123.83
+System Benefits Charge,$0.00677 \times 73$,,,,,,,,,0.49
+Delivery Rate Adj,$-0.14157968 \times 73$,,,,,,,,,$-10.33$
+Transp Adj Chg,$-0.004778 \times 73$,,,,,,,,,$-0.33$
+NY State and Local Surcharges,,,,,,,,,,0.20
+Total Delivery,,,,,,,,,,\$ 152.78

@@ -1,0 +1,4 @@
+Meter Information,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading Present,Difference,Multiplier <br> X,Usage
+405: 505,141791464,General Service,Total kWh,11322 Actual,14659 Actual,3337,1,3337
+405: 505,141791464,General Service,kW,63.22 Actual,80.81 Actual,17.59,1,17.59

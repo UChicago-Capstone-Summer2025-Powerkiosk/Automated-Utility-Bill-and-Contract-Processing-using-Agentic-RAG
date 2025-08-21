@@ -1,0 +1,8 @@
+Meter Information,,,,,,,,
+Read Dates,Meter Number,$\begin{aligned} & \text { Load } \\ & \text { Type } \end{aligned}$,Reading Type,Previous,Meter Reading Present,Difference,Multiplier <br> $\mathrm{X}$,Usage
+824,141777883,General Service,Total kWh,Actual,Actual,,,30767
+$\begin{aligned} & 703- \\ & 804 \end{aligned}$,141777883,General Service,On Pk kW,Actual,Actual,,,69.12
+$\begin{aligned} & 703- \\ & 804 \end{aligned}$,141777888,Space Heat,Total kWh,Actual,Actual,,,21416
+$\begin{aligned} & 703- \\ & 804 \end{aligned}$,141777888,Space Heat,On Pk kW,Actual,Actual,,,74.30
+$\begin{aligned} & 703- \\ & 804 \end{aligned}$,141777888,General Service,Total kWh,Actual,Actual,,,5188
+$\begin{aligned} & 703- \\ & 804 \end{aligned}$,141777888,General Service,On Pk kW,Actual,Actual,,,14.83

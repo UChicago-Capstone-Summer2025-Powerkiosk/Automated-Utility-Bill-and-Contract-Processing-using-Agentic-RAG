@@ -1,0 +1,8 @@
+,,METER READING,,,,
+READ DATE,METER NO.,LOAD TYPE,READING TYPE,PREVIOUS,PRESENT,MULTIPLY X,USAGE
+01/25/2024,230129022,General Service,Pk kW,Actual,Actual,,$\mathbf{6 3 . 9 6 0}$
+01/25/2024,230129022,General Service,Total kWh,Actual,Actual,,$\mathbf{1 0 2 . 3 2 4}$
+01/25/2024,230130460,General Service,Pk kW,Actual,Actual,,$\mathbf{8 6 8 . 3 2 0}$
+01/25/2024,230130460,General Service,Total kWh,Actual,Actual,,"$\mathbf{5 3 2 , 7 7 3 , 6 7 2}$"
+01/25/2024,272143126,General Service,Pk kW,Actual,Actual,,0.105
+01/25/2024,272143126,General Service,Total kWh,Actual,Actual,,$\mathbf{1 8 . 5 7 0}$

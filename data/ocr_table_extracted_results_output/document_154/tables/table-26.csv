@@ -1,0 +1,4 @@
+Meter Information,,,,,,,
+Read <br> Dates,Meter <br> Number,Load <br> Type,Reading <br> Type,Previous,Meter Reading <br> Present,Difference,Multiplier <br> $X$,Usage
+209- <br> 3/25,141822064,General Service,Total kWh,2906 Actual,3185 Actual,279,1,279
+209- <br> 5/25,141822064,General Service,kW,27.71 Actual,30.03 Actual,2.32,1,2.32

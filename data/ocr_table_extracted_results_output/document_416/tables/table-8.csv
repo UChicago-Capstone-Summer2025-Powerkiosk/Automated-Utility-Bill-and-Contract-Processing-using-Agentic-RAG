@@ -1,0 +1,5 @@
+METER $83507048-$ Multiplier $\times 160$,,,Read Dates: 03/10/20,04/08/20 (29 Days)
+DESCRIPTION,CURRENT READING,PREVIOUS READING,MEASURED <br> USAGE,BILLED <br> USAGE
+Total Energy,2972 Actual,2821 Actual,151,24160 kWh
+Demand,Actual,,,42.56 kW
+Billable Demand,,,,43 kW

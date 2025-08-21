@@ -1,0 +1,15 @@
+,CHARGE DESCRIPTION,,,,
+Gas Delivery,Customer Charge,,,RATE,CHARGE
+Ameren Illinois,Distribution Delivery Charge,419.60,Therm,@ \$ 0.11688000,\$49.04
+GDS-2 Small Gas Delivery,Volume Balancing Adjustment,419.60,Therm,@ \$ 0.04500000,\$18.88
+Service Space Heat,Qualifying Infrastructure Plant Surchg,\$124.96,,5.410000\%,\$6.76
+,,,,Gas Delivery,\$151.91
+Gas Supply <br> Ameren Illinois,Purchased Gas Adjustment Charge,419.60,Therm,@ \$ 0.40750288,\$170.99
+,,,,Gas Supply,\$170.99
+Taxes and Other Fees,Gas Energy Efficiency Cost Recovery,419.60,Therm,@ \$ 0.00112000,\$-0.47
+,Gas Environmental Adjustment,419.60,Therm,@ \$ 0.02950390,\$12.38
+,Illinois State Gas Revenue Tax,,,,\$10.07
+,Illinois State Commerce Commission Tax,,,,\$0.33
+,Edwardsville Municipal Gross Revenue,,,,\$12.07
+,,,Total Tax Related Fees,,\$34.38
+,,,Total Gas Charges,,\$357.28

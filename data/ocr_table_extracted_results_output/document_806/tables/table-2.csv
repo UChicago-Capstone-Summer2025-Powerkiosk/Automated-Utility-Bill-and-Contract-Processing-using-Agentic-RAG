@@ -1,0 +1,18 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,\$19.88
+DS-2 Small General Delivery,Meter Charge,,,,\$7.03
+Service,Distribution Delivery Charge Non-Summer,"2,000.00",kWh,ㅇ,\$55.36
+,Distribution Delivery Charge Non-Summer,"9,520.00",kWh,ㅇ,\$134.99
+,,,,Electric Delivery,\$217.26
+Electric Supply,Total Energy Charge (\$/kWh),"11,520.00",kWh,ㅇ,\$518.40
+Ambit Energy,,,,,
+Ambit Rate,,,,Electric Supply,\$518.40
+State and Local Taxes and Other Mandated Charges,Customer Generation Charge,,,,\$0.32
+,Clean Energy Assistance Charge,"11,520.00",kWh,ㅇ,\$20.85
+,Renewable Energy Adjustment*,"11,520.00",kWh,ㅇ,\$52.76
+,EDT Cost Recovery,"11,520.00",kWh,ㅇ,\$14.38
+,Electric Environmental Adjustment,"11,520.00",kWh,ㅇ,\$17.71
+,Energy Efficiency Programs Charge,"11,520.00",kWh,ㅇ,\$41.47
+,Energy Transition Assistance Charge*,"11,520.00",kWh,ㅇ,\$51.79
+,Galesburg Municipal Tax,,,,\$38.97
+,Illinois State Electricity Excise Tax,,,,\$244.54

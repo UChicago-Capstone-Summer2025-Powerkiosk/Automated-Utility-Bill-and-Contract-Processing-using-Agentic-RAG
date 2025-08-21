@@ -1,0 +1,5 @@
+Meter <br> Number,Service Period <br> From To,Number <br> of Days,Meter Readings <br> Beginning Ending,CCF Used,Therm <br> Conversion,Pressure <br> Factor,Gas <br> Rate,Therms Used <br> This Period
+55020919,06/12/23 07/13/23,31,33930A,35120A,1190,1.043800,1.000000,COM 120,1242.122
+Multiplier : 1,,,,,,,,
+Distribution and Service Charges,,,\$434.53,State Sales Tax,,,,\$71.24
+Gas Cost Charge,,,\$583.14,Total Gas Charges,,,,"\$1,088.91"

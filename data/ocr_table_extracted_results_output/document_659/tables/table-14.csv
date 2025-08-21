@@ -1,0 +1,14 @@
+,CHARGE DESCRIPTION,,,
+Electric Delivery,Customer Charge,,,
+Ameren Illinois,Meter Charge,,,
+DS-2 Small General Delivery,Distribution Delivery Charge Non-Summer,"2,000.00 kWh",ㅁ,\$ 0.02176000
+Service,Distribution Delivery Charge Non-Summer,"32,800.00 kWh",ㅁ,\$ 0.01116000
+,Electric Environmental Adjustment,"34,800.00 kWh",ㅁ,\$ 0.00108040
+,Energy Efficiency Demand Response,"34,800.00 kWh",ㅁ,\$ 0.00441000
+,,,Electric Delivery,\$644.05
+Electric Supply,SUPPLIER ENERGY CHARGES,"34,800.00 kWh",(1) $\$ 0.05199000$,"\$1,809.25"
+AEP Energy,,,Electric Supply,"\$1,809.25"
+Taxes and Other Fees,Illinois State Electricity Excise Tax,,,\$111.23
+,EDT Cost Recovery,,,\$46.29
+,,,Total Tax Related Fees,\$158.52
+,,,Total Electric Charges,"\$2,809.82"

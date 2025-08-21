@@ -1,0 +1,17 @@
+TABLE 1,,
+Delivery Term Begins:,July 2018,
+Delivery Term Ends:,November 2020,
+Percent Product Quantity (\%),$100 \%$,
+Percent Energy Price,On-Peak,Off-Peak
+,$3.220 \mathrm{~K} / \mathrm{kWh}$,$3.220 \mathrm{~K} / \mathrm{kWh}$
+Index Energy Price Adder,N/A,
+Distribution Losses,Pass-Through,
+Transmission Charge,Pass-Through,
+Ancillary Services,$0.077 \mathrm{~K} / \mathrm{kWh}$,
+Capacity Charge,Pass-Through,
+Mandatory Renewable Charge (RPS),$0.114 \mathrm{~K} / \mathrm{kWh}$,
+Additional Voluntary Charge,N/A,
+Voluntary Renewable Quantity (\%),N/A,
+Delivery Service Provider:,"ComEd (""DSP"" or ""Utility"")",
+Regional Transmission Organization:,"PJM (""RTO"")",
+"Agent/Broker/Consultant (If blank, N/A):",Optimal Facility Management Solutions,

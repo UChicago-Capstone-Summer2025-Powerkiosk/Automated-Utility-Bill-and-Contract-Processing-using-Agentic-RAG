@@ -1,0 +1,19 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE,UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,,\$35.80
+DS-2 Small General Delivery,,,,,\$7.79
+Service,Distribution Delivery Charge Summer,"9,120.00 kWh",@ \$ 0.04080000,,\$372.10
+,,,Electric Delivery,,\$415.69
+Electric Supply,Purchased Electric Summer,"9,120.00 kWh",@ \$ 0.05208000,,\$474.97
+Ameren Illinois,Purchased Electricity Adjustment,"9,120.00 kWh",@ \$ 0.00329800,,\$30.08
+BGS-2 Basic Generation,Supply Cost Adjustment,"9,120.00 kWh",@ \$ 0.00074000,,\$6.75
+Service,Transmission Service Charge,"9,120.00 kWh",@ \$ 0.00899000,,\$81.99
+,,,Electric Supply,,\$533.63
+Taxes and Other Fees,Clean Energy Assistance Charge,"9,120.00 kWh",@ \$ 0.00178000,,\$16.23
+,Renewable Energy Adjustment,"9,120.00 kWh",@ \$ 0.00196000,,\$17.88
+,EDT Cost Recovery,"9,120.00 kWh",@ \$ 0.00125610,,\$11.46
+,Electric Environmental Adjustment,"9,120.00 kWh",@ \$ 0.00184030,,\$16.78
+,Greenville Municipal Tax,,,,\$41.90
+,Greenville Excess Franchise Chg,,,,\$0.30
+,Illinois State Electricity Excise Tax,,,,\$29.31
+,,,Total Tax Related Fees,,\$133.86
+,,Total Electric Charges,,"\$1,083.18",

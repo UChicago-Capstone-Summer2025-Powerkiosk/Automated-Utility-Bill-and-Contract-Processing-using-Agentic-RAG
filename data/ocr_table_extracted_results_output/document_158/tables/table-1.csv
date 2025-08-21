@@ -1,0 +1,11 @@
+Contract Charges,Quantity,Contract/Market Rate,Amount
+Energy Charge Non TOU,"784,502.28",kWh at 0.0585800,$\$ / \mathrm{kWh}$
+Subtotal Contract Charges,,,"\$45,956.14"
+Market Charges,Quantity,Contract/Market Rate,Amount
+"Capacity Performance Charges $\$ / \mathrm{kW}$ <br> Day 08/04/2016 - 09/01/2016 (PLC <br> 1,769.5111 kW x Avg DZSF $1 \times$ FPR <br> $1.0952 \times$ FZSF $1.05292 \times 29$ Days x <br> Capacity Performance Price)","59,175.03",kWh at 0.0398583,$\$ / \mathrm{kWh}$
+Subtotal Market Charges,,,"\$2,358.62"
+Subtotal Charges from Constellation NewEnergy,,,"\$48,314.76"
+Charges from UDC Charges,,,Amount
+Utility Charges (see attached statement for details),,,"\$18,441.14"
+Subtotal Charges from UDC Charges,,,"\$18,441.14"
+Total Amount Due To Constellation NewEnergy,,,"\$66,755.90"

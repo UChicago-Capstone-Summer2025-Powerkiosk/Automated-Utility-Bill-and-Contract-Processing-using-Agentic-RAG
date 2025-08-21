@@ -1,0 +1,12 @@
+CUSTOMER DISCLOSURE STATEMENT,
+Price,[Fixed Price of $\$ 0.12213 / \mathrm{kWh}$ ]
+Bill Type,Consolidated Bill
+How Price is Determined,"The Price above includes New Jersey Sales and Use Tax. <br> Price components are set in accordance with the table below. Components listed ""set for contract duration"", shall be billed at the Price above throughout the contract term, unless changed in accordance with Section 20 - Regulatory of Other Changes. Components listed as ""pass through"" shall be billed using market-based prices or estimates thereof."
+COMPONENT,Treatment
+Energy,"Set for contract duration, included in price"
+Unforced Capacity,"Set for contract duration, included in price"
+Ancillary Services,"Set for Term, included in the price"
+"Transmission (Network Integration Transmission Service, TECs)","Set for Term, included in the price"
+"Clean Energy - Mandatory RECs (Class 1, Class 2, Solar)","Set for Term, included in the price"
+Auction Revenue Rights Credits,"Set for Term, included in the price"
+Renewable Energy - voluntary,Not Selected

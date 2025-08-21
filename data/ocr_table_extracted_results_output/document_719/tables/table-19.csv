@@ -1,0 +1,5 @@
+Electric Delivery,CHARGE DESCRIPTION,USAGE UNIT,RATE,CHARGE
+Ameren Illinois,Customer Charge,,,\$65.59
+US-3 General Delivery,Meter Charge,132.40 kW,@ \$ 7.96700000,"\$1,054.83"
+Service $<400 \mathrm{~kW}$,Distribution Delivery kW Charge,273.00 kW,@ \$ 0.59000000,\$161.07
+,Transformation Charge,,Electric Delivery,"\$1,291.33"

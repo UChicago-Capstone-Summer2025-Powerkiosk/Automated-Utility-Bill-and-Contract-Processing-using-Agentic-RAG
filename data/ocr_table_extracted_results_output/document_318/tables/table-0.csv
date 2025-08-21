@@ -1,0 +1,22 @@
+Svc Addr: 133 HEATHER LN KENSIONS TON GT 06037,,,,,
+Serv Rel: 330812006,,,Bill Cycle: 10,,
+Service from 11/13/23 - 12/13/23,,,30 Days,,
+"Next road date on or about: Jan 15, 2024",,,,,
+Meter <br> Number,Current <br> Read,Previous <br> Read,Current <br> Usage,Reading <br> Type,
+081241691,1009,979,30,On Peak,
+081241691,2619,2550,69,Off Peak,
+Total Demand Use $=93.00 \mathrm{~kW}$,,,,,
+30 X Meter Constant of $300=9000$ Billed Usage.,,,,,
+69 X Meter Constant of $300=20700$ Billed Usage,,,,,
+Max Off-Peak Demand: 93 kW,,,,,
+Max On-Peak Demand: 67.9 kW,,,,,
+Monthly KWh Use - On Peak,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+9000,9900,8100,7800,4800,3600,5100
+Jul,Aug,Sep,Oct,Nov,Dec,
+9300,11400,14100,7500,7200,9000,
+Monthly KWh Use - Off Peak,,,,,
+Dec,Jan,Feb,Mar,Apr,May,Jun
+22200,26700,22200,20700,17700,13500,13500
+Jul,Aug,Sep,Oct,Nov,Dec,
+25500,31200,31200,17100,19800,20700,

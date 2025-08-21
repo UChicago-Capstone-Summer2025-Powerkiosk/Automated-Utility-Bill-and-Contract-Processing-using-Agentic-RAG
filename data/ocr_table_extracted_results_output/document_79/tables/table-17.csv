@@ -1,0 +1,4 @@
+UDC,UDC Account Number,Service Address,Start Date,End Date,Retail <br> Service <br> Price <br> (\$/kWh)
+COMED,4035256005,"2001 S Michigan Ave \# 1, Chicago, IL 60616",$11 / 29 / 23$,$11 / 28 / 27$,$\$ 0.02337$
+COMED,4035258009,"2001 S Michigan Ave 1W, Chicago, IL 60616",$11 / 29 / 23$,$11 / 28 / 27$,$\$ 0.02337$
+COMED,4035718028,"2001 S Michigan Ave Unit 1, Chicago, IL 60616",$11 / 29 / 23$,$11 / 28 / 27$,$\$ 0.02337$

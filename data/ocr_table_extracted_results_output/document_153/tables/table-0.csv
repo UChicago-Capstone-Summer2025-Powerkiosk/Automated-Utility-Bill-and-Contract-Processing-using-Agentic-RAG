@@ -1,0 +1,5 @@
+Account <br> Number,Service <br> Location,Utility,Utility <br> Rate <br> Class,Zone,Capacity <br> / Trans- <br> mission <br> Tags,*Estimated <br> Meter <br> Read Start <br> Date <br> (MMIDD/YYYY),Purchase <br> Price <br> (cents / kWh),Annual <br> Historical <br> Usage <br> (kWh)
+4658029017,1840 <br> INTERNATIONALE <br> PKNY <br> (CHAMPION <br> PACKAGING),Commonwealth <br> Edison,R76,PJM_WEST,1550.6,01/04/2018,5.640,"8,099,608"
+0535033213,637 FORESTWOOD <br> DR UNIT A <br> (CHAMPION <br> PACKAGING),Commonwealth <br> Edison,R73,PJM_WEST,8.5 / 8.1,01/29/2018,5.640,"54,168"
+7926158033,1533 W DAVEY RD <br> (CHAMPION <br> PACKAGING),Commonwealth <br> Edison,R74,PJM_WEST,99.2,01/04/2018,5.640,"424,092"
+1956083141,637 FORESTWOOD <br> DR UNIT B <br> (CHAMPION <br> PACKAGING),Commonwealth <br> Edison,R73,PJM_WEST,0.7 / 0.6,01/29/2018,5.640,"43,977"

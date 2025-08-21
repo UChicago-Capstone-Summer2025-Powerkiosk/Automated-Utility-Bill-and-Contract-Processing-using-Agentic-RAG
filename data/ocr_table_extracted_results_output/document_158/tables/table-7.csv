@@ -1,0 +1,5 @@
+Read,Meter,Load,Reading,Meter Reading,,
+Date,Number,Type,Type,Previous,Present,Mult x
+$08 / 04 / 2016$,141758486,General Service,Off Pk kWh,ACT,ACT,"347,594.76"
+$08 / 04 / 2016$,141758486,General Service,On Pk kW,ACT,ACT,"1,773.36"
+$08 / 04 / 2016$,141758486,General Service,Total kWh,ACT,ACT,"744,628.68"

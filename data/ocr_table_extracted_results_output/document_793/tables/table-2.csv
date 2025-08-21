@@ -1,0 +1,6 @@
+,,METER READING,,,,,
+READ DATE,METER NO.,LOAD TYPE,READING TYPE,PREVIOUS,PRESENT,MULTIPLY X,USAGE
+03/29/2019,230138719,General Service,Pk kW,Actual,Actual,,"220,608"
+03/29/2019,230138719,General Service,Total kWh,Actual,Actual,,"82,503,228"
+03/29/2019,230138721,General Service,Pk kW,Actual,Actual,,"385,248"
+03/29/2019,230138721,General Service,Total kWh,Actual,Actual,,"151,920,072"

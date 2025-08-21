@@ -1,0 +1,9 @@
+Account Number,Service Location,Utility,Utility Rate Class,Zone,Capacity / Transmission Tags,*Estimated Meter Read Start Date (MM/DD/YYYY),Purchase Price (cents/KWh),Annual Historical Usage (kWh)
+,- Customer - <br> 31380 General <br> Thomas Hwy <br> (Ktree),,,,,,,
+005983730002,Warwick St <br> Warehouse No 5 <br> (BIRDSONG <br> CORPORATION <br> - Customer - <br> Warwick St <br> Warehouse No <br> 5),DOM,VN-GS1,DOM,$1.7 / 1.8$,01/09/2024,11.642,"8,955"
+007299668926,31380 General Thomas Hwy (BIRDSONG CORPORATION - Customer - 31380 General Thomas Hwy),DOM,193,DOM,$12.8 / 45.2$,01/04/2024,11.642,"77,422"
+007533717505,301 Mill St <br> Warehouse <br> 822/823 <br> (BIRDSONG <br> CORPORATION <br> - Customer - 301 <br> Mill St <br> Warehouse <br> 822/823),DOM,110,DOM,$6.4 / 7.0$,01/05/2024,11.642,"20,090"
+007552867744,612 Madison Ave <br> 8Whee Electrical <br> Room <br> (BIRDSONG <br> CORPORATION <br> - Customer - 612 <br> Madison Ave <br> 8Whee Electrical <br> Room),DOM,227,DOM,$104.5 / 123.6$,01/07/2024,11.642,"627,315"
+007633632505,612 Madison Ave (BIRDSONG CORPORATION - Customer - 612 Madison Ave),DOM,VN-GS2,DOM,$32.4 / 33.8$,01/06/2024,11.642,"224,640"
+007713555006,118 Factory St <br> Whse4-5/Parker <br> Coldstor <br> (BIRDSONG <br> CORPORATION <br> - Customer - 118 <br> Factory St <br> Whse4-5/Parker <br> Coldstor),DOM,227,DOM,$47.6 / 50.7$,01/09/2024,11.642,"298,559"
+007739176456,Madison Ave Pond Cold Storage (BIRDSONG CORPORATION - Customer - Madison Ave Pond Cold Storage),DOM,110,DOM,$1.4 / 1.7$,01/06/2024,11.642,"11,760"

@@ -1,0 +1,7 @@
+1 SERVICE ADDRESS,"802 W Randolph St Chicago, IL 60607",,,,Electric Choice ID: 9251868493,,,"$\$ 4,857.79$"
+,,,,Electric Choice ID: 9251868493,,,,
+METER INFORMATION,,,,,,,,
+Read Dates,Meter Number,Load Type,Reading Type,Previous,Present,Difference,Multiplier,Usage
+6/6-7/8,230184281,General Service,Off Pk kW,0.00,Actual,0.67,Actual,0.67,x 120,80.76
+6/6-7/8,230184281,General Service,On Pk kW,0.00,Actual,0.69,Actual,0.69,x 120,83.21
+6/6-7/8,230184281,General Service,Total kWh,13377,Actual,13653,Actual,276,x 120,33120

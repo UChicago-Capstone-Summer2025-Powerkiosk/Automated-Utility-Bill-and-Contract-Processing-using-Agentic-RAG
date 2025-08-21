@@ -1,0 +1,14 @@
+Type of Service,Current Reading,Previous Reading,Difference,$\begin{aligned} & \text { Miter } \\ & \text { Multipiler } \end{aligned}$,$=$,Total Usage
+Energy,33767 Actual,33589 Actual,178,1000,,178000 kWh
+Peak,13650 Actual,13575 Actual,75,1000,,75000 kWh
+Off Peak,20117 Actual,20014 Actual,103,1000,,103000 kWh
+,,,,Total Energy,,178000 kWh
+Demand-kW,,,,,,
+Peak,,,,1000,,420.0 kW
+Off Peak,,,,1000,,430.0 kW
+Demand-kVA,,,,,,
+Peak,,,,1000,,430.0 kVA
+Off Peak,,,,1000,,440.0 kVA
+METER NUMBER,04735535,NEXT SCHEDULED READ DATE ON ON ABOUT,,,,
+SERVICE PERIOD,Mar 22 - Apr 20,NUMBER OF DAYS IN PERIOD,29,,,
+RATE,Time-of-Use G-3,voltage delivery level,$0-2.2 \mathrm{KV}$,,,
